@@ -266,12 +266,21 @@ def MakeRootKML(rootkml,region,lod,dir):
   _kml = []
   _kml.append(kml.genkml.KML21())
   _kml.append('<Document>\n')
+  _kml.append(kml.genkml.CheckHideChildren(id='docstyle'))
+
+  # A 2nd level Folder to ensure checkHideChildren-ness
+  # as a NetworkLink load discards the Document and hence
+  # the checkHideChildren-ness it otherwise provides.
+
+  _kml.append('<Folder>\n')
+  _kml.append(kml.genkml.CheckHideChildren())
 
   (n,s,e,w) = region.NSEW()
   href = '%s/1.kml' % dir
   maxpixels = -1
   _kml.append(kml.genkml.RegionNetworkLink(n,s,e,w,'root',href,lod,maxpixels))
 
+  _kml.append('</Folder>\n')
   _kml.append('</Document>\n')
   _kml.append('</kml>\n')
 

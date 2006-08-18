@@ -133,6 +133,7 @@ def LineStyle(a,b,g,r,width=1.0):
   linestyle.append('</LineStyle>\n')
   return "".join(linestyle)
 
+
 def PolyStyle(a,b,g,r,fill,outline):
 
   """<PolyStyle>
@@ -145,6 +146,55 @@ def PolyStyle(a,b,g,r,fill,outline):
   polystyle.append('<outline>%d</outline>\n' % outline)
   polystyle.append('</PolyStyle>\n')
   return "".join(polystyle)
+
+
+def ListStyle(listItemType):
+
+  """<ListStyle>
+
+  Args:
+    listItemType: 'check', 'checkOffOnly', 'checkHideChildren', 'radioFolder'
+  """
+
+  ls = []
+  ls.append('<ListStyle>\n')
+  ls.append('<listItemType>%s</listItemType>\n' % listItemType)
+  ls.append('</ListStyle>\n')
+  return "".join(ls)
+
+
+def CheckHideChildren(id=None):
+
+  """<Style><ListStyle>...
+
+  Helper function to create the appropriate KML to hide the children of
+  either a Document or Folder.
+
+  To hide a Document's children pass an id string such that a
+  styleUrl is created to refer to the Style.
+
+  This styleUrl trick is not necessary on a Folder given that it will
+  use this Style as the inline Style.
+
+  Args:
+    id: unique string
+
+  Returns:
+    KML: <Style><ListStyle><listItemType>checkHideChildren>...
+
+  """
+
+  chc = []
+  chc.append('<Style')
+  if id:
+    chc.append(' id=\"%s\"' % id)
+  chc.append('>\n')
+  chc.append(ListStyle('checkHideChildren'))
+  chc.append('</Style>\n')
+  if id:
+    chc.append('<styleUrl>#%s</styleUrl>\n' % id)
+  return "".join(chc)
+
 
 def PolygonBox(n,s,e,w,alt):
 
