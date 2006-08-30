@@ -27,9 +27,10 @@ $Date$
 # Simple test program to draw a box (LineString) for
 # each Region as specifed.
 # Helps visualize the location and depth of Regions and 
-# the effect of specifed lods.
+# the effect of the specified lods.
 
-import sys,os
+import sys
+import os
 
 import kml.region
 import kml.regionhandler
@@ -37,7 +38,7 @@ import kml.regionator
 import kml.genkml
 import kml.dashboard
 
-if sys.argv.__len__() != 9:
+if len(sys.argv) != 9:
   print 'usage: %s dir n s e w minpx maxpx depth' % sys.argv[0]
   sys.exit(1)
 
@@ -80,8 +81,6 @@ region = kml.region.Region(n,s,e,w,qid)
 myregionator.SetFade(minfade,maxfade)
 myregionator.Regionate(region)
 
-imgbase = 'color'
-fmt = 'jpg'
 dbfile = os.path.join(dir, 'db.kml')
-kml.dashboard.MakeDashBoard(myregionator,imgbase,fmt,dbfile)
+kml.dashboard.MakeDashBoard(myregionator, dbfile)
 
