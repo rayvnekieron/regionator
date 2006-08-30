@@ -83,7 +83,7 @@ def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None):
     bool: True on complete success, False on any failure
   """
 
-  print 'version',kml.version.version
+  print 'version',kml.version.Revision()
   
   os.makedirs(dir)
   
