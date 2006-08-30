@@ -39,7 +39,7 @@ def DepthColor(depth,maxdepth):
   g = 0
   return (b,g,r)
 
-def MakeDashBoard(rtor,imgbase,fmt,dbfile):
+def MakeDashBoard(rtor, dbfile):
 
   """
   Builds a single flat KML file of one ScreenOverlay per Region
@@ -47,8 +47,6 @@ def MakeDashBoard(rtor,imgbase,fmt,dbfile):
 
   Args:
     rtor: kml.regionator.Regionator() post Regionate()
-    imgbase: image files base (imgbaseXX.fmt, XX is depth)
-    fmt: image file suffix
     dbfile: file to write the KML document
   """
 
@@ -66,8 +64,6 @@ def MakeDashBoard(rtor,imgbase,fmt,dbfile):
     kmlregion = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
 
     depth = r.Depth()
-    href = '%s%02d.%s' % (imgbase,depth,fmt)
- 
     (x,y) = r.Grid()
     s = DepthScale(depth,maxdepth)
 

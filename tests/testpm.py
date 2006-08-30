@@ -32,8 +32,9 @@ import kml.region
 import kml.qidboxes
 import kml.dashboard
 
-if sys.argv.__len__() != 4:
-	print 'usage: %s placemarks.kml root.kml dir' % sys.argv[0]
+if len(sys.argv) != 4:
+  print 'usage: %s placemarks.kml root.kml dir' % sys.argv[0]
+  sys.exit(1)
 
 kmlfile = sys.argv[1]
 topfile = sys.argv[2]
@@ -49,8 +50,6 @@ pmr = kml.placemarkregionator.PlacemarkRegionator()
 rtor = pmr.Regionate(kmlfile,minpx,per,topfile,dir)
 kml.qidboxes.MakeQidBoxes(rtor,boxfile)
 
-imgbase = 'color'
-fmt = 'jpg'
 dbfile = os.path.join(dir, 'db.kml')
-kml.dashboard.MakeDashBoard(rtor,imgbase,fmt,dbfile)
+kml.dashboard.MakeDashBoard(rtor, dbfile)
 
