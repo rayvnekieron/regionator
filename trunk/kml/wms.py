@@ -31,23 +31,16 @@ import kml.region
 import kml.genkml
 
 
-def AppendWMSBBOX(href,n,s,e,w):
+def WMSBBOX(region):
 
-  """ Creates a WMS format BBOX.
-
-  WMS BBOX: minX,minY,maxX,maxY or w,s,e,n in WGS84
-
-  Args:
-    href: base url
-    n,s,e,w: bounding box in decimal degress
+  """ Return the WMS BBOX query string for this region
 
   Returns:
-    href + BBOX=w,s,e,n
-
+    string: BBOX=w,s,e,n
   """
 
-  bbox='BBOX=%f,%f,%f,%f' % (w,s,e,n)
-  return href + bbox
+  (n,s,e,w) = region.NSEW()
+  return 'BBOX=%f,%f,%f,%f' % (w,s,e,n)
 
 
 def WMSGroundOverlay(wmsurl, region, draworder):
@@ -63,7 +56,7 @@ def WMSGroundOverlay(wmsurl, region, draworder):
     KML: <GroundOverlay>...</GroundOverlay>
   """
 
+  href = wmsurl + WMSBBOX(region)
   (n,s,e,w) = region.NSEW()
-  href = AppendWMSBBOX(wmsurl,n,s,e,w)
   return kml.genkml.GroundOverlay(n,s,e,w,href,draworder)
 

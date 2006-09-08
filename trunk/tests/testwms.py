@@ -44,8 +44,7 @@ def EntityAmp(str):
   return "".join(n)
 
 def GO(wmsurl,region,draworder,filename):
-  (n,s,e,w) = region.NSEW()
-  url = kml.wms.AppendWMSBBOX(wmsurl,n,s,e,w)
+  url = wmsurl + kml.wms.WMSBBOX(region)
   u = urllib.urlopen(url)
   buf = u.read()
   f = open(filename, 'w')
@@ -53,16 +52,20 @@ def GO(wmsurl,region,draworder,filename):
   f.close()
   u.close()
 
+  (n,s,e,w) = region.NSEW()
   return kml.genkml.GroundOverlay(n,s,e,w,filename,0)
   
 
 _kml = []
 _kml.append(kml.genkml.KML21())
-_kml.append('<Folder>\n')
+_kml.append('<Document>\n')
 
-_kml.append('\n<Style>\n')
+styleid = 'radiostyle'
+_kml.append('\n<Style id="%s">\n' % styleid)
 _kml.append(kml.genkml.ListStyle('radioFolder'))
 _kml.append('</Style>\n')
+_kml.append('<styleUrl>#%s</styleUrl>' % styleid)
+
 
 # Earth does WMS load
 
@@ -78,7 +81,7 @@ _kml.append(GO(terra_url,region_w,0,'terra_w.jpg'))
 _kml.append(GO(terra_url,region_e,0,'terra_e.jpg'))
 _kml.append('</Folder>\n\n')
 
-_kml.append('</Folder>\n')
+_kml.append('</Document>\n')
 _kml.append('</kml>\n')
 
 f = open(wmskml, 'w')
