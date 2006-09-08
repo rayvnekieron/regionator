@@ -24,6 +24,7 @@ kml/superoverlaytiles.py
 kml/tile.py
 kml/dashboard.py
 kml/hierfile.py
+kml/wms.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
@@ -52,3 +53,4 @@ tests/testgridso.py
 tests/testscreeno.py
 tests/folders.kml
 tests/testhierfile.py
+tests/testwms.py
