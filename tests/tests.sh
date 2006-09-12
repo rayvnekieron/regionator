@@ -38,3 +38,7 @@
 ../scripts/insertregions.py folders.kml folder-regions.kml
 
 ./testhierfile.py
+
+./testhref.py
+# requires internet capability (does WMS fetches)
+./testwms.py

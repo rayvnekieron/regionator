@@ -61,10 +61,10 @@ _kml.append(kml.genkml.KML21())
 _kml.append('<Document>\n')
 
 styleid = 'radiostyle'
+_kml.append('<styleUrl>#%s</styleUrl>' % styleid)
 _kml.append('\n<Style id="%s">\n' % styleid)
 _kml.append(kml.genkml.ListStyle('radioFolder'))
 _kml.append('</Style>\n')
-_kml.append('<styleUrl>#%s</styleUrl>' % styleid)
 
 
 # Earth does WMS load

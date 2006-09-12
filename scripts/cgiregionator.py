@@ -57,7 +57,7 @@ def CGIRegionate(region):
   maxpx = -1
 
   _kml = []
-  _kml.append('<kml>\n')
+  _kml.append(kml.genkml.KML21())
   _kml.append('<Document>\n')
   _kml.append('<name>%s</name>\n' % region.Qid())
 
