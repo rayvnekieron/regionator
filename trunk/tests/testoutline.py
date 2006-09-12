@@ -27,7 +27,7 @@ $Date$
 import kml.genkml
 
 _kml = []
-_kml.append('<kml>\n')
+_kml.append(kml.genkml.KML21())
 _kml.append('<Document>\n')
 
 _kml.append(kml.genkml.LatLonOutline(80,60,-130,-90,'foo'))

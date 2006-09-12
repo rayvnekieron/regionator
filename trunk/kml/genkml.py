@@ -33,8 +33,8 @@ def KML21():
   """
 
   kml = []
-  kml.append('<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n')
-  kml.append('<kml xmlns=\"http://earth.google.com/kml/2.1\">\n')
+  kml.append('<?xml version="1.0" encoding="UTF-8"?>\n')
+  kml.append('<kml xmlns="http://earth.google.com/kml/2.1">\n')
   return "".join(kml)
 
 
@@ -185,14 +185,14 @@ def CheckHideChildren(id=None):
   """
 
   chc = []
+  if id:
+    chc.append('<styleUrl>#%s</styleUrl>\n' % id)
   chc.append('<Style')
   if id:
     chc.append(' id=\"%s\"' % id)
   chc.append('>\n')
   chc.append(ListStyle('checkHideChildren'))
   chc.append('</Style>\n')
-  if id:
-    chc.append('<styleUrl>#%s</styleUrl>\n' % id)
   return "".join(chc)
 
 
@@ -492,6 +492,22 @@ def ScreenOverlayRect(name,color,draworder,x,y,wid,ht,region=None):
   so.append('<size x=\"%d\" y=\"%d\"/> \n' % (wid,ht))
   so.append('</ScreenOverlay>\n')
   return "".join(so)
+
+
+def TimeSpan(b, e):
+
+  ts = []
+  ts.append('<TimeSpan><begin>%s</begin>' % b)
+  ts.append('<end>%s</end></TimeSpan>\n' % e)
+  return "".join(ts)
+
+
+def TimeStamp(when):
+
+  ts = []
+  ts.append('<TimeStamp><when>%s</when></TimeStamp>' % when)
+  return "".join(ts)
+
 
 
 def Update(update,targethref):

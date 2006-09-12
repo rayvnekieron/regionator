@@ -140,10 +140,14 @@ class SimpleRegionHandler(kml.regionhandler.RegionHandler):
     """
 
     _kml = []
+
+    # XXX move above Document's Region (above NetworkLinks)
+
     if self.__style:
       _kml.append(self.__style)
     if self.__schema:
       _kml.append(self.__schema)
+
     ritems = self.__qid_items[region.Qid()]
     for item in ritems:
       _kml.append(item[1])

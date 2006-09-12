@@ -139,6 +139,8 @@ class Regionator:
     _kml.append('<Document>\n')
     _kml.append('<name>%d %s</name>\n' % (region.Id(),region.Qid()))
     
+    # XXX Schema's and Style's go here...
+
     _kml.append('\n')
     (n,s,e,w) = region.NSEW()
     (minpx,maxpx) = rhandler.PixelLod(region)

@@ -6,6 +6,7 @@ kml/coordbox.py
 kml/extractor.py
 kml/featureregionator.py
 kml/genkml.py
+kml/href.py
 kml/image.py
 kml/latlon.py
 kml/placemarkregionator.py
