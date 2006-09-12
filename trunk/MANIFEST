@@ -55,3 +55,4 @@ tests/testscreeno.py
 tests/folders.kml
 tests/testhierfile.py
 tests/testwms.py
+tests/testhref.py
