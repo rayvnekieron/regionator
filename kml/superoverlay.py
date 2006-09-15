@@ -31,7 +31,7 @@ import kml.superoverlaytiles
 import kml.tile
 import kml.version
 
-def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None):
+def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None, begin=None, end=None):
 
   """This creates a SuperOverlay.
 
@@ -116,7 +116,11 @@ def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None):
   # Phase 2 - generate the KML
   
   base_draworder = 1
-  superoverlaykml = kml.superoverlaykml.SuperOverlayKML(rootregion,tiles,maxdepth,fmt,base_draworder,dir)
+  if begin and end:
+    timeprimitive = kml.genkml.TimeSpan(begin,end)
+  else:
+    timeprimitive = None
+  superoverlaykml = kml.superoverlaykml.SuperOverlayKML(rootregion,tiles,maxdepth,fmt,base_draworder,dir,timeprimitive=timeprimitive)
   superoverlaykml.Regionate()
   
   # debug linestring boxes

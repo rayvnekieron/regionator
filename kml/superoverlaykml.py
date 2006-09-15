@@ -69,13 +69,14 @@ class SuperOverlayKMLRegionHandler(kml.regionhandler.RegionHandler):
 class SuperOverlayKML:
 
   # 1) create/init
-  def __init__(self,rootregion,tiles,maxdepth,fmt,base_draworder,dir):
+  def __init__(self,rootregion,tiles,maxdepth,fmt,base_draworder,dir,timeprimitive):
     self.__rootregion = rootregion
     self.__kmlhandler = SuperOverlayKMLRegionHandler(tiles,maxdepth,fmt,base_draworder)
-    print 'SUPEROVERLAYKML.__init__()'
     self.__rtor = kml.regionator.Regionator()
     self.__rtor.SetRegionHandler(self.__kmlhandler)
     self.__rtor.SetOutputDir(dir)
+    if timeprimitive:
+      self.__rtor.SetTimePrimitive(timeprimitive)
 
   # 2) regionate
   def Regionate(self):

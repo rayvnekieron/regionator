@@ -30,7 +30,7 @@ Calls out to domain-specific class derived from RegionHandler.
 
 import os
 
-import kml.region
+#import kml.region
 import kml.regionhandler
 import kml.genkml
 import kml.version
@@ -63,6 +63,9 @@ class Regionator:
     # list of qids in order populated
     self.__qidlist = []
 
+    self.__timeprimitive = None
+
+
   def SetRegionHandler(self,handler):
 
     """
@@ -89,6 +92,9 @@ class Regionator:
   def SetFade(self,minfade,maxfade):
     self.__minfade = minfade
     self.__maxfade = maxfade
+
+  def SetTimePrimitive(self, tp):
+    self.__timeprimitive = tp
 
   # Recurse on child regions returning a list
   # of children with data.
@@ -162,10 +168,14 @@ class Regionator:
         
     # 3) data for this region
 
-    region_kml = rhandler.Data(region)
+    if self.__timeprimitive:
+      _kml.append('\n<Folder>\n')
+      _kml.append(self.__timeprimitive)
+    
+    _kml.append(rhandler.Data(region))
 
-    _kml.append('\n')
-    _kml.append(region_kml)
+    if self.__timeprimitive:
+      _kml.append('</Folder>\n')
 
     rhandler.End(region)
 
