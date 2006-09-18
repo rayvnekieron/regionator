@@ -30,9 +30,9 @@ Calls out to domain-specific class derived from RegionHandler.
 
 import os
 
-#import kml.region
 import kml.regionhandler
 import kml.genkml
+import kml.genxml
 import kml.version
 
 class Regionator:
@@ -137,22 +137,29 @@ class Regionator:
     else:
       children = []
 
-    # 2) This Region
+    # 2) This Region's Document, Style's, Schema's, TimePrimitive and Region
 
-    _kml = []
-    _kml.append(kml.genkml.KML21())
-    _kml.append('<!-- Regionator %s -->\n' % kml.version.Revision())
-    _kml.append('<Document>\n')
-    _kml.append('<name>%d %s</name>\n' % (region.Id(),region.Qid()))
+    document = kml.genxml.Document()
+    document.name = '%d %s' % (region.Id(),region.Qid())
     
-    # XXX Schema's and Style's go here...
+    styles = rhandler.Styles(region)
+    if styles:
+      document.Add_Style(styles)
 
-    _kml.append('\n')
+    schemas = rhandler.Schemas(region)
+    if schemas:
+      document.Add_Schema(schemas)
+
+    document.TimePrimitive = self.__timeprimitive
+
     (n,s,e,w) = region.NSEW()
     (minpx,maxpx) = rhandler.PixelLod(region)
     minfade = self.__minfade
     maxfade = self.__maxfade
-    _kml.append(kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx,minfade=minfade,maxfade=maxfade))
+    regionxml = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx,minfade=minfade,maxfade=maxfade)
+    document.Region = regionxml
+
+    # The Features of the region's Document: NetworkLinks and data
 
     # 2) NetworkLink to each child Region
 
@@ -163,26 +170,20 @@ class Regionator:
       (minpx,maxpx) = rhandler.PixelLod(r)
       (n,s,e,w) = r.NSEW()
       href = self._RegionFilename(r)
-      _kml.append('\n')
-      _kml.append(kml.genkml.RegionNetworkLink(n,s,e,w,r.Qid(),href,minpx,maxpx))
+      nl = kml.genkml.RegionNetworkLink(n,s,e,w,r.Qid(),href,minpx,maxpx)
+      document.Add_Feature(nl)
         
     # 3) data for this region
-
-    if self.__timeprimitive:
-      _kml.append('\n<Folder>\n')
-      _kml.append(self.__timeprimitive)
     
-    _kml.append(rhandler.Data(region))
-
-    if self.__timeprimitive:
-      _kml.append('</Folder>\n')
+    features = rhandler.Data(region)
+    document.Add_Feature(features)
 
     rhandler.End(region)
 
-    _kml.append('</Document>\n')
-    _kml.append('</kml>\n')
+    k = kml.genxml.Kml()
+    k.Feature = document.xml()
 
-    kmlstr = "".join(_kml)
+    kmlstr = k.xml()
 
     # 4) emit kml for this Region
 

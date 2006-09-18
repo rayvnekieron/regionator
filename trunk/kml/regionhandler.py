@@ -65,6 +65,18 @@ class RegionHandler:
     This is called after recursing on all children.
     """
 
+  def Styles(self, region):
+
+    """ <Style>'s, <StyleMap>'s, <styleUrl>
+    """
+    return None
+
+  def Schemas(self, region):
+
+    """ <Schema>'s
+    """
+    return None
+
   def Data(self,region):
 
     """ KML data for this region

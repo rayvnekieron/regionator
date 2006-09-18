@@ -6,6 +6,7 @@ kml/coordbox.py
 kml/extractor.py
 kml/featureregionator.py
 kml/genkml.py
+kml/genxml.py
 kml/href.py
 kml/image.py
 kml/latlon.py
@@ -56,3 +57,5 @@ tests/folders.kml
 tests/testhierfile.py
 tests/testwms.py
 tests/testhref.py
+tests/testxml.py
+tests/testkml.py
