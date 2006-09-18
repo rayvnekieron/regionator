@@ -131,6 +131,12 @@ class SimpleRegionHandler(kml.regionhandler.RegionHandler):
     # didn't max out the region so no more for child regions
     return [True,False]
 
+  def Styles(self, region):
+    return self.__style
+
+  def Schema(self, region):
+    return self.__schema
+
   def Data(self,region):
 
     """ RegionHandler.Data()
@@ -143,10 +149,10 @@ class SimpleRegionHandler(kml.regionhandler.RegionHandler):
 
     # XXX move above Document's Region (above NetworkLinks)
 
-    if self.__style:
-      _kml.append(self.__style)
-    if self.__schema:
-      _kml.append(self.__schema)
+    # if self.__style:
+    #  _kml.append(self.__style)
+    # if self.__schema:
+    #  _kml.append(self.__schema)
 
     ritems = self.__qid_items[region.Qid()]
     for item in ritems:

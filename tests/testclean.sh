@@ -21,6 +21,8 @@
 
 # clean up after tests.sh and testimg.sh
 
+rm -f testkml.kml
+rm -f testxml.xml
 rm -f ancestors.kml
 rm -rf usboxes
 rm -rf pmroot.kml pm
@@ -29,3 +31,4 @@ rm -f outline.kml
 rm -f screeno.kml screeno*.jpg
 rm -f gridso.kml gridso*.jpg
 rm -rf mv-polys
+rm -f terra.kml terra_e.jpg terra_w.jpg

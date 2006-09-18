@@ -25,6 +25,8 @@
 ./print.py
 ./testcbox.py
 ./testregion.py
+./testxml.py
+./testkml.py
 
 # a box around USA
 ./boxes.py usboxes 50.0 24.0 -66.0 -125.0 256 2048 4
