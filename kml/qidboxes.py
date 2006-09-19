@@ -61,6 +61,7 @@ def MakeQidBoxes(rtor,boxfile):
     boxxml = kml.genkml.LineStringBox(n,s,e,w)
     placemark.Geometry = boxxml
     placemark.Region = regionxml
+    document.Add_Feature(placemark.xml())
 
   k = kml.genxml.Kml()
   k.Feature = document.xml()
