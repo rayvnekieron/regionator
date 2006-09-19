@@ -44,3 +44,5 @@
 ./testhref.py
 # requires internet capability (does WMS fetches)
 ./testwms.py
+
+./testgridso.py

@@ -27,73 +27,45 @@ $Date$
 import sys
 
 import kml.genkml
+import kml.genxml
 import kml.region
 
 root = kml.region.Region(10,0,10,0,'0')
+root.SetId('root')
 ne = root.Region('01')
+ne.SetId('ne')
 sw = root.Region('02')
+sw.SetId('sw')
 se = root.Region('03')
+se.SetId('se')
 sese = root.Region('033')
+sese.SetId('sese')
 sesese = root.Region('0333')
+sesese.SetId('sesese')
 sesesese = root.Region('03333')
+sesesese.SetId('sesesese')
 maxdepth = sesesese.Depth()
 
-def DepthScale(d,max):
-  return kml.region.Breadth(max - d + 1) * 8
 
-def DepthName(d):
-  return 'gridso%02d.jpg' % d
+document = kml.genxml.Document()
 
-_kml = []
-_kml.append(kml.genkml.KML21())
-_kml.append('<Document>\n')
+def Add_ScreenOverlay(region):
+  name = region.Id()
+  (x,y) = region.Grid()
+  d = region.Depth()
+  s = kml.region.DepthScale(d,maxdepth)
+  (b,g,r) = kml.region.DepthColor(d,maxdepth)
+  color = 'ff%02x%02x%02x' % (b,g,r)
+  so = kml.genkml.ScreenOverlayRect(name, color, d, s*x, s*y, s, s)
+  document.Add_Feature(so)
 
-(x,y) = root.Grid()
-d = root.Depth()
-img = DepthName(d)
-s = DepthScale(d,maxdepth)
-_kml.append(kml.genkml.ScreenOverlay('root', img, d, s*x, s*y, s, s))
+for r in [root, ne, sw, se, sese, sesese, sesesese]:
+  Add_ScreenOverlay(r)
 
-(x,y) = ne.Grid()
-d = ne.Depth()
-img = DepthName(d)
-s = DepthScale(d,maxdepth)
-_kml.append(kml.genkml.ScreenOverlay('ne', img, d, s*x, s*y, s, s))
-
-(x,y) = sw.Grid()
-d = sw.Depth()
-img = DepthName(d)
-s = DepthScale(d,maxdepth)
-_kml.append(kml.genkml.ScreenOverlay('sw', img, d, s*x, s*y, s, s))
-
-(x,y) = se.Grid()
-d = se.Depth()
-img = DepthName(d)
-s = DepthScale(d,maxdepth)
-_kml.append(kml.genkml.ScreenOverlay('se', img, d, s*x, s*y, s, s))
-
-(x,y) = sese.Grid()
-d = sese.Depth()
-img = DepthName(d)
-s = DepthScale(d,maxdepth)
-_kml.append(kml.genkml.ScreenOverlay('sese', img, d, s*x, s*y, s, s))
-
-(x,y) = sesese.Grid()
-d = sesese.Depth()
-img = DepthName(d)
-s = DepthScale(d,maxdepth)
-_kml.append(kml.genkml.ScreenOverlay('sesese', img, d, s*x, s*y, s, s))
-
-(x,y) = sesesese.Grid()
-d = sesesese.Depth()
-img = DepthName(d)
-s = DepthScale(d,maxdepth)
-_kml.append(kml.genkml.ScreenOverlay('sesesese', img, d, s*x, s*y, s, s))
-
-_kml.append('</Document>\n')
-_kml.append('</kml>')
+k = kml.genxml.Kml()
+k.Feature = document.xml()
 
 f = open('gridso.kml','w')
-f.write("".join(_kml))
+f.write(k.xml())
 f.close()
 

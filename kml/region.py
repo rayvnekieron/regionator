@@ -45,6 +45,7 @@ class Region:
     self.__e = e
     self.__w = w
     self.__qid = qid
+    self.__id = None
     self.__x = (e+w)/2 # XXX
     self.__y = (n+s)/2 # XXX
 
@@ -262,3 +263,14 @@ def Grid(qid):
   if qid == '0':
     return (0,0)
   return _Grid(qid[1:]) # qid[0] always '0'
+
+def DepthScale(d,max):
+  return Breadth(max - d + 1) * 8
+
+# as depth increases color goes from b->r
+def DepthColor(depth,maxdepth):
+  r = (depth * 255)/maxdepth
+  b = 255 - r
+  g = 0
+  return (b,g,r)
+

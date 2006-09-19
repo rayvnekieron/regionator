@@ -27,6 +27,7 @@ import urllib
 import sys
 
 import kml.wms
+import kml.genxml
 
 terra_url='http://terraservice.net/ogcmap.ashx?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:4326&WIDTH=256&HEIGHT=256&LAYERS=DRG,DRG,DRG&STYLES=GeoGrid_Red,GeoGrid_Red,GeoGrid_Red&TRANSPARENT=FALSE&FORMAT=image/jpeg&'
 
@@ -56,35 +57,33 @@ def GO(wmsurl,region,draworder,filename):
   return kml.genkml.GroundOverlay(n,s,e,w,filename,0)
   
 
-_kml = []
-_kml.append(kml.genkml.KML21())
-_kml.append('<Document>\n')
+document = kml.genxml.Document()
 
 styleid = 'radiostyle'
-_kml.append('<styleUrl>#%s</styleUrl>' % styleid)
-_kml.append('\n<Style id="%s">\n' % styleid)
-_kml.append(kml.genkml.ListStyle('radioFolder'))
-_kml.append('</Style>\n')
-
+style = kml.genxml.Style()
+style.ListStyle = kml.genkml.ListStyle('radioFolder')
+document.Add_Style(style.xml())
+document.styleUrl = '#%s' % styleid
 
 # Earth does WMS load
 
-_kml.append('\n<Folder><name>WMS</name>\n')
-_kml.append(kml.wms.WMSGroundOverlay(EntityAmp(terra_url), region_w, 0))
-_kml.append(kml.wms.WMSGroundOverlay(EntityAmp(terra_url), region_e, 0))
-_kml.append('</Folder>\n')
+f0 = kml.genxml.Folder()
+f0.Add_Feature(kml.wms.WMSGroundOverlay(EntityAmp(terra_url), region_w, 0))
+f0.Add_Feature(kml.wms.WMSGroundOverlay(EntityAmp(terra_url), region_e, 0))
 
 # This script does WMS load to local file for Earth to show
 
-_kml.append('\n<Folder><name>local file</name>\n')
-_kml.append(GO(terra_url,region_w,0,'terra_w.jpg'))
-_kml.append(GO(terra_url,region_e,0,'terra_e.jpg'))
-_kml.append('</Folder>\n\n')
+f1 = kml.genxml.Folder()
+f1.Add_Feature(GO(terra_url,region_w,0,'terra_w.jpg'))
+f1.Add_Feature(GO(terra_url,region_e,0,'terra_e.jpg'))
 
-_kml.append('</Document>\n')
-_kml.append('</kml>\n')
+document.Add_Feature(f0.xml())
+document.Add_Feature(f1.xml())
+
+k = kml.genxml.Kml()
+k.Feature = document.xml()
 
 f = open(wmskml, 'w')
-f.write("".join(_kml))
+f.write(k.xml())
 f.close()
 
