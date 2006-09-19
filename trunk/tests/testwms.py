@@ -61,6 +61,7 @@ document = kml.genxml.Document()
 
 styleid = 'radiostyle'
 style = kml.genxml.Style()
+style.id = styleid
 style.ListStyle = kml.genkml.ListStyle('radioFolder')
 document.Add_Style(style.xml())
 document.styleUrl = '#%s' % styleid
@@ -68,12 +69,14 @@ document.styleUrl = '#%s' % styleid
 # Earth does WMS load
 
 f0 = kml.genxml.Folder()
+f0.name = 'WMS'
 f0.Add_Feature(kml.wms.WMSGroundOverlay(EntityAmp(terra_url), region_w, 0))
 f0.Add_Feature(kml.wms.WMSGroundOverlay(EntityAmp(terra_url), region_e, 0))
 
 # This script does WMS load to local file for Earth to show
 
 f1 = kml.genxml.Folder()
+f1.name = 'local image'
 f1.Add_Feature(GO(terra_url,region_w,0,'terra_w.jpg'))
 f1.Add_Feature(GO(terra_url,region_e,0,'terra_e.jpg'))
 
