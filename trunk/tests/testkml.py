@@ -16,11 +16,14 @@ schema0 = '<Schema id="schema0"/>\n'
 schema1 = '<Schema id="schema1"/>\n'
 
 link = kml.genxml.Link()
+link.id = 'link0'
 link.href = 'http://foo.com/foo.kml'
 networklink = kml.genxml.NetworkLink()
+networklink.id = 'networklink0'
 networklink.Link = link.xml()
 
 document = kml.genxml.Document()
+document.id = 'document0'
 document.name = 'my document'
 document.Add_Feature(placemark0)
 document.Add_Style(style0)

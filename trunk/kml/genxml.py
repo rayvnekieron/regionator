@@ -295,7 +295,7 @@ class Document(Container):
       children.append(s)
     for f in self.__FeatureList:
       children.append(f)
-    return ComplexElement('Document', None, al, el, "".join(children))
+    return ComplexElement('Document', al, None, el, "".join(children))
 
 
 class Folder(Container):
@@ -327,7 +327,7 @@ class Folder(Container):
     children = self.children()
     for f in self.__FeatureList:
       children.append(f)
-    return ComplexElement('Document', None, al, el, "".join(children))
+    return ComplexElement('Document', al, None, el, "".join(children))
 
 
 class NetworkLink(Feature):
@@ -347,7 +347,7 @@ class NetworkLink(Feature):
   def xml(self):
     al = Feature.attributes(self)
     el = Feature.elements(self)
-    return ComplexElement('NetworkLink', None, al, el, self.__Link)
+    return ComplexElement('NetworkLink', al, None, el, self.__Link)
 
 
 class Link(Object):
@@ -479,6 +479,6 @@ class Style(StyleSelector):
     al = self.attributes()
     el = self.elements()
     children = self.children()
-    return ComplexElement('Style', None, al, el, children)
+    return ComplexElement('Style', al, None, el, children)
 
 
