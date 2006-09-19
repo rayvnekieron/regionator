@@ -131,18 +131,6 @@ test with a box around each Region.
 </NetworkLink>
 
 <NetworkLink>
-<name>ScreenOverlay</name>
-<visibility>0</visibility>
-<Snippet maxLines="10">
-This is a set of ScreenOverlays.
-(Disable this while viewing the other ScreenOverlay tests).
-</Snippet>
-<Link>
-<href>screeno.kml</href>
-</Link>
-</NetworkLink>
-
-<NetworkLink>
 <name>ScreenOverlay Region Grid</name>
 <visibility>0</visibility>
 <Snippet maxLines="10">
