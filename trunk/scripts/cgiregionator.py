@@ -34,6 +34,7 @@ import sys
 import kml.region
 import kml.cgiregion
 import kml.genkml
+import kml.genxml
 
 hostname=socket.gethostname()
 script=os.path.basename(sys.argv[0])
@@ -56,42 +57,40 @@ def CGIRegionate(region):
   minpx = 128
   maxpx = -1
 
-  _kml = []
-  _kml.append(kml.genkml.KML21())
-  _kml.append('<Document>\n')
-  _kml.append('<name>%s</name>\n' % region.Qid())
+  document = kml.genxml.Document()
+  document.name = region.Qid()
 
+  style = kml.genxml.Style()
   styleid = 'mystyle'
-  _kml.append('<Style id=\"%s\">\n' % styleid)
+  style.id = styleid
   a = 127
   b = 127
   g = 127
   r = 127
-  _kml.append(kml.genkml.LineStyle(a,b,g,r))
-  _kml.append('</Style>\n')
+  style.LineStyle = kml.genkml.LineStyle(a,b,g,r)
 
-  _kml.append('\n')
-  _kml.append(kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx))
+  document.Region = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
 
   children = kml.cgiregion.GetChildren(region)
   for q in children:
-    _kml.append('\n')
-    _kml.append(kml.cgiregion.LinkChild(baseurl,region,q,minpx,maxpx))
+    document.Add_Feature(kml.cgiregion.LinkChild(baseurl,region,q,minpx,maxpx))
 
+  placemark = kml.genxml.Placemark()
+  placemark.styleUrl = '#%s' % styleid
+  placemark.Geometry = kml.genkml.LineStringBox(n,s,e,w)
 
-  _kml.append('\n')
-  su = '#%s' % styleid
-  _kml.append(kml.genkml.Box(n,s,e,w,region.Qid(),styleurl=su))
-  _kml.append('\n')
+  document.Add_Feature(placemark.xml())
 
-  _kml.append('</Document>\n')
-  _kml.append('</kml>\n')
-  return "".join(_kml)
+  k = kml.genxml.Kml()
+  k.Feature = document.xml()
+  return k.xml()
+
 
 def SendKML(_kml):
   print 'Content-type: text/plain'
   print
   print _kml
+
 
 fs = cgi.FieldStorage()
 region = kml.cgiregion.Parse(fs)

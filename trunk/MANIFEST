@@ -47,12 +47,10 @@ tests/placemarks.kml
 tests/testls.py
 tests/marin.kml
 tests/testoutline.py
-tests/testimg.sh
 tests/testextractor.py
 tests/testsuperinfo.py
 tests/mkcolors.py
 tests/testgridso.py
-tests/testscreeno.py
 tests/folders.kml
 tests/testhierfile.py
 tests/testwms.py

@@ -33,7 +33,6 @@ import os
 import kml.regionhandler
 import kml.genkml
 import kml.genxml
-import kml.version
 
 class Regionator:
 
@@ -173,7 +172,7 @@ class Regionator:
       nl = kml.genkml.RegionNetworkLink(n,s,e,w,r.Qid(),href,minpx,maxpx)
       document.Add_Feature(nl)
         
-    # 3) data for this region
+    # 3) data (Features) for this region
     
     features = rhandler.Data(region)
     document.Add_Feature(features)
@@ -276,27 +275,25 @@ def MakeRootKML(rootkml,region,lod,dir):
     dir - hierarchy directory
   """
 
-  _kml = []
-  _kml.append(kml.genkml.KML21())
-  _kml.append('<Document>\n')
-  _kml.append(kml.genkml.CheckHideChildren(id='docstyle'))
-
-  # A 2nd level Folder to ensure checkHideChildren-ness
-  # as a NetworkLink load discards the Document and hence
-  # the checkHideChildren-ness it otherwise provides.
-
-  _kml.append('<Folder>\n')
-  _kml.append(kml.genkml.CheckHideChildren())
+  link = kml.genxml.Link()
+  link.href = '%s/1.kml' % dir
 
   (n,s,e,w) = region.NSEW()
-  href = '%s/1.kml' % dir
   maxpixels = -1
-  _kml.append(kml.genkml.RegionNetworkLink(n,s,e,w,'root',href,lod,maxpixels))
+  regionxml = kml.genkml.Region(n,s,e,w,lod,maxpixels)
 
-  _kml.append('</Folder>\n')
-  _kml.append('</Document>\n')
-  _kml.append('</kml>\n')
+  networklink = kml.genxml.NetworkLink()
+  networklink.Link = link.xml()
+  networklink.Region = regionxml
+  networklink.Add_Style(kml.genkml.CheckHideChildren())
+
+  document = kml.genxml.Document()
+  document.Feature = networklink.xml()
+
+  k = kml.genxml.Kml()
+  k.Feature = document.xml()
+  kmlstr = k.xml()
 
   f = open(rootkml, 'w')
-  f.write("".join(_kml))
+  f.write(kmlstr)
   f.close()

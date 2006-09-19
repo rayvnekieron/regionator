@@ -15,6 +15,11 @@ region0 = '<Region id="region0"/>\n'
 schema0 = '<Schema id="schema0"/>\n'
 schema1 = '<Schema id="schema1"/>\n'
 
+link = kml.genxml.Link()
+link.href = 'http://foo.com/foo.kml'
+networklink = kml.genxml.NetworkLink()
+networklink.Link = link.xml()
+
 document = kml.genxml.Document()
 document.name = 'my document'
 document.Add_Feature(placemark0)
@@ -25,6 +30,13 @@ document.Add_Schema(schema1)
 document.Add_Style(style1)
 document.Region = region0
 document.TimePrimitive = timestamp0
+document.Add_Feature(networklink.xml())
+
+placemark = kml.genxml.Placemark()
+placemark.name = 'my placemark'
+placemark.id = 'placemark123'
+
+document.Add_Feature(placemark.xml())
 
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'

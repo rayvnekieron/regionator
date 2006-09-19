@@ -28,6 +28,7 @@ $Date$
 
 import kml.region
 import kml.genkml
+import kml.genxml
 
 print 'region Region start...'
 
@@ -74,24 +75,23 @@ r = root.Snap(n,s,e,w)
 print 'orig',n,s,e,w
 print r.Qid(),_n,_s,_e,_w
 
-_ancestors = []
-_ancestors.append(kml.genkml.KML21())
-_ancestors.append('<Document>\n')
+document = kml.genxml.Document()
 node = r.Qid()
 d = 1
 while d <= r.Depth():
   qid = node[0:d]
   _r = root.Region(qid)
   (_n,_s,_e,_w) = _r.NSEW()
-  _ancestors.append(kml.genkml.LatLonOutline(_n,_s,_e,_w,qid))
+  document.Add_Feature(kml.genkml.LatLonOutline(_n,_s,_e,_w,qid))
   d += 1
 
-_ancestors.append(kml.genkml.LatLonOutline(n,s,e,w,'orig'))
+document.Add_Feature(kml.genkml.LatLonOutline(n,s,e,w,'orig'))
 
-_ancestors.append('</Document>\n')
-_ancestors.append('</kml>\n')
+k = kml.genxml.Kml()
+k.Feature = document.xml()
+
 f = open('ancestors.kml','w')
-f.write("".join(_ancestors))
+f.write(k.xml())
 f.close
 
 r = kml.region.Region(20,10,50,40,'0')

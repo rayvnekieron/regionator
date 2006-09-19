@@ -29,15 +29,6 @@ Region-triggered ScreenOverlays
 import kml.regionator
 import kml.genkml
 
-def DepthScale(d,max):
-  return kml.region.Breadth(max - d + 1) * 8
-
-# as depth increases color goes from b->r
-def DepthColor(depth,maxdepth):
-  r = (depth * 255)/maxdepth
-  b = 255 - r
-  g = 0
-  return (b,g,r)
 
 def MakeDashBoard(rtor, dbfile):
 
@@ -50,9 +41,8 @@ def MakeDashBoard(rtor, dbfile):
     dbfile: file to write the KML document
   """
 
-  _kml = []
-  _kml.append(kml.genkml.KML21())
-  _kml.append('<Document>\n')
+  document = kml.genxml.Document()
+
   rootregion = rtor.RootRegion()
   maxdepth = rtor.MaxDepth()
 
@@ -65,16 +55,17 @@ def MakeDashBoard(rtor, dbfile):
 
     depth = r.Depth()
     (x,y) = r.Grid()
-    s = DepthScale(depth,maxdepth)
+    s = kml.region.DepthScale(depth,maxdepth)
 
-    color = 'ff%02x%02x%02x' % DepthColor(depth,maxdepth)
-    _kml.append(kml.genkml.ScreenOverlayRect(qid,color,depth,s*x,s*y,s,s,kmlregion))
-    _kml.append('\n')
+    color = 'ff%02x%02x%02x' % kml.region.DepthColor(depth,maxdepth)
+    so = kml.genkml.ScreenOverlayRect(qid,color,depth,s*x,s*y,s,s,kmlregion)
 
-  _kml.append('</Document>\n')
-  _kml.append('</kml>\n')
+    document.Add_Feature(so)
+
+  k = kml.genxml.Kml()
+  k.Feature = document.xml()
 
   f = open(dbfile,'w')
-  f.write("".join(_kml))
+  f.write(k.xml())
   f.close()
 

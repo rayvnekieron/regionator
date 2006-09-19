@@ -25,18 +25,17 @@ $Date$
 
 
 import kml.genkml
+import kml.genxml
 
-_kml = []
-_kml.append(kml.genkml.KML21())
-_kml.append('<Document>\n')
+document = kml.genxml.Document()
 
-_kml.append(kml.genkml.LatLonOutline(80,60,-130,-90,'foo'))
-_kml.append(kml.genkml.LatLonOutline(20,10,-130,-90,'goo'))
+document.Add_Feature(kml.genkml.LatLonOutline(80,60,-130,-90,'foo'))
+document.Add_Feature(kml.genkml.LatLonOutline(20,10,-130,-90,'goo'))
 
-_kml.append('</Document>\n')
-_kml.append('</kml>\n')
+k = kml.genxml.Kml()
+k.Feature = document.xml()
 
 f = open('outline.kml','w')
-f.write("".join(_kml))
+f.write(k.xml())
 f.close
 

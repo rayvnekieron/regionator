@@ -32,6 +32,7 @@ dataset's Regions.
 """
 
 import kml.regionator
+import kml.genxml
 import kml.genkml
 
 
@@ -44,27 +45,27 @@ def MakeQidBoxes(rtor,boxfile):
     boxfile: file to write the KML document
   """
 
-  _kml = []
-  _kml.append(kml.genkml.KML21())
-  _kml.append('<Document>\n')
+  document = kml.genxml.Document()
+  
   rootregion = rtor.RootRegion()
 
   qids = rtor.QidList()
   for qid in qids:
-    _kml.append('\n<Placemark>')
-    _kml.append('<name>qid %s</name>\n' % qid)
+    placemark = kml.genxml.Placemark()
+    placemark.name = 'qid %s' % qid
+    
     r = rootregion.Region(qid)
     (n,s,e,w) = r.NSEW()
     (minpx,maxpx) = rtor.LodPixels(r)
-    _kml.append(kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx))
-    _kml.append(kml.genkml.LineStringBox(n,s,e,w))
-    _kml.append('\n')
-    _kml.append('</Placemark>\n')
+    regionxml = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
+    boxxml = kml.genkml.LineStringBox(n,s,e,w)
+    placemark.Geometry = boxxml
+    placemark.Region = regionxml
 
-  _kml.append('</Document>\n')
-  _kml.append('</kml>\n')
+  k = kml.genxml.Kml()
+  k.Feature = document.xml()
 
   f = open(boxfile,'w')
-  f.write("".join(_kml))
+  f.write(k.xml())
   f.close()
 

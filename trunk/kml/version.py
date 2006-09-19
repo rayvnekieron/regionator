@@ -29,3 +29,4 @@ def Revision():
     if s:
       return '%s-BETA' % s[0].strip()
   return 'XXX'
+

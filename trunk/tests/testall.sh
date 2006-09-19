@@ -23,5 +23,4 @@
 ./prversion.py
 sh testclean.sh
 sh tests.sh
-sh testimg.sh
 ./prversion.py
