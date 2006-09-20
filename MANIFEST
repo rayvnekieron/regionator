@@ -49,7 +49,6 @@ tests/marin.kml
 tests/testoutline.py
 tests/testextractor.py
 tests/testsuperinfo.py
-tests/mkcolors.py
 tests/testgridso.py
 tests/folders.kml
 tests/testhierfile.py
@@ -57,3 +56,4 @@ tests/testwms.py
 tests/testhref.py
 tests/testxml.py
 tests/testkml.py
+tests/testmkroot.py

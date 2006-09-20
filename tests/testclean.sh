@@ -23,6 +23,7 @@
 
 rm -f testkml.kml
 rm -f testxml.xml
+rm -f root.kml
 rm -f ancestors.kml
 rm -rf usboxes
 rm -rf pmroot.kml pm
