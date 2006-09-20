@@ -285,7 +285,8 @@ def MakeRootKML(rootkml,region,lod,dir):
   networklink = kml.genxml.NetworkLink()
   networklink.Link = link.xml()
   networklink.Region = regionxml
-  networklink.Add_Style(kml.genkml.CheckHideChildren())
+  stylexml = kml.genkml.CheckHideChildren()
+  networklink.Add_Style(stylexml)
 
   document = kml.genxml.Document()
   document.Add_Feature(networklink.xml())
