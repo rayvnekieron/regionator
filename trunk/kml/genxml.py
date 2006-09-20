@@ -345,9 +345,12 @@ class NetworkLink(Feature):
   Link = property(fset=Set_Link)
 
   def xml(self):
-    al = Feature.attributes(self)
-    el = Feature.elements(self)
-    return ComplexElement('NetworkLink', al, None, el, self.__Link)
+    al = self.attributes()
+    el = self.elements()
+    children = self.children()
+    if self.__Link:
+      children.append(self.__Link)
+    return ComplexElement('NetworkLink', al, None, el, "".join(children))
 
 
 class Link(Object):
