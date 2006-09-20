@@ -21,7 +21,7 @@ $Date$
 -->
 <kml xmlns="http://earth.google.com/kml/2.1">
 <Folder>
-<name>Regionator tests $Revision: 3$</name>
+<name>Regionator tests $Revision$</name>
 
 <Snippet maxLines="10">
 This is a set of NetworkLinks to Regionator test cases.

@@ -23,10 +23,7 @@ testall.sh:
 	An informal set of scripts which touch on various modules.
 
 tests.sh:
-	Non-imaging tests (for installations w/o gdal and ImageMagick)
-
-testimg.sh:
-	Image-related tests (requires gdal and ImageMagick)
+	Non-imaging tests (for installations w/o gdal)
 
 testclean.sh:
 	Cleans up after tests.sh.
