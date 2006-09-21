@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import kml.genxml
+import kml.genkml
 
 style0 = '<Style id="style0"/>\n'
 style1 = '<Style id="style1"/>\n'
@@ -40,6 +41,51 @@ placemark.name = 'my placemark'
 placemark.id = 'placemark123'
 
 document.Add_Feature(placemark.xml())
+
+latlonaltbox = kml.genxml.LatLonAltBox()
+latlonaltbox.north = 50
+latlonaltbox.south = 20
+latlonaltbox.east = -80
+latlonaltbox.west = -120
+
+lod = kml.genxml.Lod()
+lod.minLodPixels = 123
+lod.maxLodPixels = 4567
+
+region = kml.genxml.Region()
+region.LatLonAltBox = latlonaltbox.xml()
+region.Lod = lod.xml()
+
+document.Region = region.xml()
+
+folder = kml.genxml.Folder()
+
+r2xml = kml.genkml.Region(2,1,4,3)
+folder.Region = r2xml
+
+rbnlxml = kml.genkml.RegionNetworkLink(6,5,8,7,'rbnl','href',123,456)
+folder.Add_Feature(rbnlxml)
+
+
+placemark = kml.genxml.Placemark()
+placemark.name = 'point placemark'
+point = kml.genxml.Point()
+point.coordinates = '10,10'
+placemark.Geometry = point.xml()
+
+folder.Add_Feature(placemark.xml())
+
+
+placemark = kml.genxml.Placemark()
+placemark.name = 'linestring placemark'
+linestring = kml.genxml.LineString()
+linestring.coordinates = '10,10 20,10 10,20 10,10'
+placemark.Geometry = linestring.xml()
+
+folder.Add_Feature(placemark.xml())
+
+
+document.Add_Feature(folder.xml())
 
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
