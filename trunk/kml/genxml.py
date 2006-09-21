@@ -327,7 +327,7 @@ class Folder(Container):
     children = self.children()
     for f in self.__FeatureList:
       children.append(f)
-    return ComplexElement('Document', al, None, el, "".join(children))
+    return ComplexElement('Folder', al, None, el, "".join(children))
 
 
 class NetworkLink(Feature):
@@ -483,5 +483,351 @@ class Style(StyleSelector):
     el = self.elements()
     children = self.children()
     return ComplexElement('Style', al, None, el, children)
+
+
+class LatLonBox(Object):
+
+  """<LatLonBox>...</LatLonBox>
+  """
+
+  def __init__(self):
+    self.__north = None
+    self.__south = None
+    self.__east = None
+    self.__west = None
+    self.__rotation = None
+
+  def Set_NSEW(self,n,s,e,w):
+    self.__north = n
+    self.__south = s
+    self.__east = e
+    self.__west = w
+
+  def Set_north(self, north):
+    self.__north = north
+
+  def Set_south(self, south):
+    self.__south = south
+
+  def Set_east(self, east):
+    self.__east = east
+
+  def Set_west(self, west):
+    self.__west = west
+
+  north = property(fset=Set_north)
+  south = property(fset=Set_south)
+  east = property(fset=Set_east)
+  west = property(fset=Set_west)
+
+  def elements(self):
+    el = []
+    if self.__north:
+      el.append(('north',self.__north))
+    if self.__south:
+      el.append(('south',self.__south))
+    if self.__east:
+      el.append(('east',self.__east))
+    if self.__west:
+      el.append(('west',self.__west))
+    if self.__rotation:
+      el.append(('rotation',self.__rotation))
+    return el
+
+  def xml(self):
+    el = self.elements()
+    return ComplexElement('LatLonBox', None, None, el, None)
+
+
+class LatLonAltBox(LatLonBox):
+
+  """<LatLonAltBox>...</LatLonAltBox>
+  """
+
+  def __init__(self):
+    LatLonBox.__init__(self)
+    self.__minaltitude = None
+    self.__maxaltitude = None
+    self.__altitudemode = None
+
+  def Set_minAltitude(self, minaltitude):
+    self.__minaltitude = minaltitude
+
+  def Set_maxAltitude(self, maxaltitude):
+    self.__maxaltitude = maxaltitude
+
+  def Set_altitudeMode(self, altitudemode):
+    self.__altitudemode = altitudemode
+
+  minAltitude = property(fset=Set_minAltitude)
+  maxAltitude = property(fset=Set_maxAltitude)
+  altitudeMode = property(fset=Set_altitudeMode)
+
+  def elements(self):
+    el = LatLonBox.elements(self)
+    if self.__minaltitude:
+      el.append(('minAltitude',self.__minaltitude))
+    if self.__maxaltitude:
+      el.append(('maxAltitude',self.__maxaltitude))
+    if self.__altitudemode:
+      el.append(('altitudeMode',self.__altitudemode))
+    return el
+
+  def xml(self):
+    el = self.elements()
+    return ComplexElement('LatLonAltBox', None, None, el, None)
+
+
+class Lod(Object):
+
+  """<Lod>...</Lod>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__minlodpixels = None
+    self.__maxlodpixels = None
+    self.__minfadeextent = None
+    self.__maxfadeextent = None
+
+  def Set_minLodPixels(self, minlodpixels):
+    self.__minlodpixels = minlodpixels
+
+  def Set_maxLodPixels(self, maxlodpixels):
+    self.__maxlodpixels = maxlodpixels
+
+  def Set_minFadeExtent(self, minfadeextent):
+    self.__minfadeextent = minfadeextent
+
+  def Set_maxFadeExtent(self, maxfadeextent):
+    self.__maxfadeextent = maxfadeextent
+
+  minLodPixels = property(fset=Set_minLodPixels)
+  maxLodPixels = property(fset=Set_maxLodPixels)
+  minFadeExtent = property(fset=Set_minFadeExtent)
+  maxFadeExtent = property(fset=Set_maxFadeExtent)
+
+  def elements(self):
+    el = []
+    if self.__minlodpixels:
+      el.append(('minLodPixels',self.__minlodpixels))
+    if self.__maxlodpixels:
+      el.append(('maxLodPixels',self.__maxlodpixels))
+    if self.__minfadeextent:
+      el.append(('minFadeExtent',self.__minfadeextent))
+    if self.__maxfadeextent:
+      el.append(('maxFadeExtent',self.__maxfadeextent))
+    return el
+
+  def xml(self):
+    el = self.elements()
+    return ComplexElement('Lod', None, None, el, None)
+
+
+class Region(Object):
+
+  """<Region>...</Region>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__latlonaltbox = None
+    self.__lod = None
+
+  def Set_Lod(self, lod):
+    self.__lod = lod
+
+  def Set_LatLonAltBox(self, latlonaltbox):
+    self.__latlonaltbox = latlonaltbox
+
+  Lod = property(fset=Set_Lod)
+  LatLonAltBox = property(fset=Set_LatLonAltBox)
+
+  def xml(self):
+    al = self.attributes()
+    children = []
+    if self.__lod:
+      children.append(self.__lod)
+    if self.__latlonaltbox:
+      children.append(self.__latlonaltbox)
+    return ComplexElement('Region', al, None, None, "".join(children))
+
+
+class Geometry(Object):
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__extrude = None
+    self.__tessellate = None
+    self.__altitudeMode = None
+
+  def attributes(self):
+    return Object.attributes(self)
+
+  def elements(self):
+    el = Object.elements(self)
+    if self.__extrude:
+      el.append(('extrude',self.__extrude))
+    if self.__tessellate:
+      el.append(('tessellate',self.__tessellate))
+    if self.__altitudeMode:
+      el.append(('altitudeMode',self.__altitudeMode))
+    return el
+
+  def Set_extrude(self, extrude):
+    self.__extrude = extrude
+
+  def Set_tessellate(self, tessellate):
+    self.__tessellate = tessellate
+
+  def Set_altitudeMode(self, altitudeMode):
+    self.__altitudeMode = altitudeMode
+
+  extrude = property(fset=Set_extrude)
+  tessellate = property(fset=Set_tessellate)
+  altitudeMode = property(fset=Set_altitudeMode)
+
+
+class Point(Geometry):
+
+  """<Point>...</Point>
+  """
+
+  def __init__(self):
+    Geometry.__init__(self)
+    self.__coordinates = None
+
+  def Set_coordinates(self, coordinates):
+    self.__coordinates = coordinates
+
+  coordinates = property(fset=Set_coordinates)
+
+  def elements(self):
+    el = Geometry.elements(self)
+    if self.__coordinates:
+      el.append(('coordinates',self.__coordinates))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Point', al, None, el, None)
+
+
+class LineString(Geometry):
+
+  """<LineString>...</LineString>
+  """
+
+  def __init__(self):
+    Geometry.__init__(self)
+    self.__coordinates = None
+
+  def Set_coordinates(self, coordinates):
+    self.__coordinates = coordinates
+
+  coordinates = property(fset=Set_coordinates)
+
+  def elements(self):
+    el = Geometry.elements(self)
+    if self.__coordinates:
+      el.append(('coordinates',self.__coordinates))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('LineString', al, None, el, None)
+
+
+class LinearRing(Geometry):
+
+  """<LinearRing>...</LinearRing>
+  """
+
+  def __init__(self):
+    Geometry.__init__(self)
+    self.__coordinates = None
+
+  def Set_coordinates(self, coordinates):
+    self.__coordinates = coordinates
+
+  coordinates = property(fset=Set_coordinates)
+
+  def elements(self):
+    el = Geometry.elements(self)
+    if self.__coordinates:
+      el.append(('coordinates',self.__coordinates))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexType('LinearRing', al, None, el, None)
+
+
+class Boundary(object):
+
+  def __init__(self):
+    self._linearring = None
+
+  def Set_LinearRing(self, linearring):
+    self._linearring = linearring # "protected"
+
+  LinearRing = property(fset=Set_LinearRing)
+
+
+class outerBoundaryIs(Boundary):
+
+  """<outerBoundaryIs>...</outerBoundaryIs>
+  """
+
+  def __init__(self):
+    Boundary.__init__(self)
+
+  def xml(self):
+    return ComplexElement('outerBoundaryIs', None, None, None, self._linearring)
+
+
+class innerBoundaryIs(Boundary):
+
+  """<innerBoundaryIs>...</innerBoundaryIs>
+  """
+
+  def __init__(self):
+    Boundary.__init__(self)
+
+  def xml(self):
+    return ComplexElement('innerBoundaryIs', None, None, None, self._linearring)
+
+
+class Polygon(Geometry):
+
+  """<Polygon>...</Polygon>
+  """
+
+  def __init__(self):
+    Geometry.__init__(self)
+    self.__outerBoundaryIs = None
+    self.__innerBoundaryIs = None
+
+  def Set_outerBoundaryIs(self, outer):
+    self.__outerBoundaryIs = outer
+
+  def Set_innerBoundaryIs(self, inner):
+    self.__innerBoundaryIs = inner
+
+  outerBoundaryIs = property(fset=Set_outerBoundaryIs)
+  innerBoundaryIs = property(fset=Set_innerBoundaryIs)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = []
+    if self.__outerBoundaryIs:
+      children.append(self.__outerBoundaryIs)
+    if self.__innerBoundaryIs:
+      children.append(self.__innerBoundaryIs)
+    return ComplexElement('Polygon', al, None, el, "".join(children))
 
 

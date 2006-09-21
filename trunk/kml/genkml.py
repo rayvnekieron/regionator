@@ -20,22 +20,13 @@ $Revision$
 $Date$
 """
 
-"""Generate KML
+""" Generate KML
 
-Each function returns a KML fragment.
+Convenience functions to generate KML fragments.
 
 """
 
-def KML21():
-
-  """XML header and KML 2.1 namespace declaration
-
-  """
-
-  kml = []
-  kml.append('<?xml version="1.0" encoding="UTF-8"?>\n')
-  kml.append('<kml xmlns="http://earth.google.com/kml/2.1">\n')
-  return "".join(kml)
+import kml.genxml
 
 
 def StartTag(tag,attrname,attrval):
@@ -75,16 +66,15 @@ def Point(lon,lat,attrname=None,attrval=None):
 
   """
 
-  point = []
-  point.append(StartTag('Point',attrname,attrval))
-  point.append('<coordinates>%f,%f,0</coordinates>\n' % (lon,lat))
-  point.append('</Point>\n')
-  return "".join(point)
+  point = kml.genxml.Point()
+  point.coordinates = '%f,%f' % (lon,lat)
+
+  return point.xml()
 
 
 def Placemark(geometry,name=None,styleurl=None,attrname=None,attrval=None):
 
-  """<Placemark>
+  """<Placemark>...</Placemark>
 
   Args:
     geometry: string: <Point>,<LineString>,<Polygon>,<MultiGeometry>
@@ -92,30 +82,28 @@ def Placemark(geometry,name=None,styleurl=None,attrname=None,attrval=None):
     style: string: <Style> or <styleUrl>
 
   Returns:
-    KML: <Placemark>...
+    KML: <Placemark>...</Placemark>
   """
 
-  placemark = []
-  placemark.append(StartTag('Placemark',attrname,attrval))
+  placemark = kml.genxml.Placemark()
   if name:
-    placemark.append('<name>%s</name>\n' % name)
+    placemark.name = name
   if styleurl:
-    placemark.append('<styleUrl>%s</styleUrl>\n' % styleurl)
-  placemark.append(geometry)
-  placemark.append('</Placemark>\n')
-  return "".join(placemark)
+    placemark.styleurl = styleurl
+  placemark.Geometry = geometry
+  return placemark.xml()
 
 
 def PlacemarkPoint(lon,lat,name):
 
-  """<Placemark><Point>
+  """<Placemark><Point>...</Point></Placemark>
 
   Args:
     lon,lat:
     name: <name>
 
   Returns:
-    KML: <Placemark><Point>...
+    KML: <Placemark><Point>...</Point></Placemark>
   """ 
 
   return Placemark(Point(lon,lat),name=name)
@@ -222,6 +210,7 @@ def PolygonBox(n,s,e,w,alt):
 
   return "".join(poly)
 
+
 def LineStringBox(n,s,e,w):
 
   """<LineString>
@@ -230,22 +219,19 @@ def LineStringBox(n,s,e,w):
 
   """
 
-  ls = []
-        
-  ls.append('<LineString>\n')
-  ls.append('<tessellate>1</tessellate>\n')
-        
-  ls.append('<coordinates>\n')
-  ls.append('%f,%f,0\n' % (w,n))
-  ls.append('%f,%f,0\n' % (e,n))
-  ls.append('%f,%f,0\n' % (e,s))
-  ls.append('%f,%f,0\n' % (w,s))
-  ls.append('%f,%f,0\n' % (w,n))
-  ls.append('</coordinates>\n')
-        
-  ls.append('</LineString>\n')
-        
-  return "".join(ls)
+  c = Coordinates()
+  c.AddPoint2(w,n)
+  c.AddPoint2(e,n)
+  c.AddPoint2(e,s)
+  c.AddPoint2(w,s)
+  c.AddPoint2(w,n)
+
+  linestring = kml.genxml.LineString()
+  linestring.coordinates = c.Coordinates()
+  linestring.tessellate = 1
+
+  return linestring.xml()
+
 
 def Box(n,s,e,w,name,styleurl=None):
 
@@ -259,6 +245,7 @@ def Box(n,s,e,w,name,styleurl=None):
   box.append(LineStringBox(n,s,e,w))
   box.append('</Placemark>\n')
   return "".join(box)
+
 
 def LatLonOutline(n,s,e,w,name):
 
@@ -293,6 +280,7 @@ def LatLonOutline(n,s,e,w,name):
   ol.append('</Placemark>')
   return "".join(ol)
 
+
 def LatLonBox(n,s,e,w):
 
   """<LatLonBox>
@@ -307,56 +295,32 @@ def LatLonBox(n,s,e,w):
   llb.append('</LatLonBox>\n')
   return "".join(llb)
 
-def LatLonAltBox(n,s,e,w,b,t):
-
-  """<LatLonAltBox>
-  """
-
-  llab = []
-  llab.append('<LatLonAltBox>\n')
-  llab.append('<north>%f</north>' % n)
-  llab.append('<south>%f</south>\n' % s)
-  llab.append('<east>%f</east>' % e)
-  llab.append('<west>%f</west>\n' % w)
-  if b:
-    llab.append('<minAltitude>%f</minAltitude>\n' % b)
-  if t:
-    llab.append('<maxAltitude>%f</maxAltitude>\n' % t)
-  llab.append('</LatLonAltBox>\n')
-  return "".join(llab)
-
-
-def Lod(minpx,maxpx,minfade,maxfade):
-
-  """<Lod>
-  """
-
-  lod = []
-  lod.append('<Lod>\n')
-  lod.append('<minLodPixels>%d</minLodPixels>' % minpx)
-  lod.append('<maxLodPixels>%d</maxLodPixels>\n' % maxpx)
-  if minfade:
-    lod.append('<minFadeExtent>%d</minFadeExtent>\n' % minfade)
-  if maxfade:
-    lod.append('<maxFadeExtent>%d</maxFadeExtent>\n' % maxfade)
-  lod.append('</Lod>\n')
-  return "".join(lod)
 
 def Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0):
 
-  """<Region><LatLonAltBox><Lod>
+  """<Region>...</Region>
   """
 
-  region = []
-  region.append('<Region>\n')
-  region.append(LatLonAltBox(n,s,e,w,minalt,maxalt))
-  region.append(Lod(minpx,maxpx,minfade,maxfade))
-  region.append('</Region>\n')
-  return "".join(region)
+  latlonaltbox = kml.genxml.LatLonAltBox()
+  latlonaltbox.north = n
+  latlonaltbox.south = s
+  latlonaltbox.east = e
+  latlonaltbox.west = w
+
+  lod = kml.genxml.Lod()
+  lod.minLodPixels = minpx
+  lod.maxLodPixels = maxpx
+
+  region = kml.genxml.Region()
+  region.LatLonAltBox = latlonaltbox.xml()
+  region.Lod = lod.xml()
+
+  return region.xml()
+
 
 def RegionLod(n,s,e,w,minpx,maxpx):
 
-  """<Region><LatLonAltBox><Lod>
+  """<Region>...</Region>
 
   Region with default min/maxAltitude and no fade extents
 
@@ -367,22 +331,24 @@ def RegionLod(n,s,e,w,minpx,maxpx):
 
 def RegionNetworkLink(n,s,e,w,name,href,minpx,maxpx):
 
-  """<NetworkLink><Region>
+  """<NetworkLink><Region>...</Region></NetworkLink>
 
   Region-based NetworkLink, onRegion viewRefreshMode.
 
   """
 
-  rnl = []
-  rnl.append('<NetworkLink>\n')
-  rnl.append('<name>%s</name>\n' % name)
-  rnl.append(Region(n,s,e,w,minpx=minpx,maxpx=maxpx))
-  rnl.append('<Link>\n')
-  rnl.append('<href>%s</href>\n' % href)
-  rnl.append('<viewRefreshMode>onRegion</viewRefreshMode>\n')
-  rnl.append('</Link>\n')
-  rnl.append('</NetworkLink>\n')
-  return "".join(rnl)
+  regionxml = Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
+
+  link = kml.genxml.Link()
+  link.href = href
+  link.viewRefreshMode = 'onRegion'
+
+  networklink = kml.genxml.NetworkLink()
+  networklink.name = name
+  networklink.Link = link.xml()
+  networklink.Region = regionxml
+
+  return networklink.xml()
 
 
 def GroundOverlay(n,s,e,w,href,draworder,region=None):
@@ -413,16 +379,16 @@ def RegionGroundoverlay(n,s,e,w,minpx,maxpx,href,draworder):
 
 def NetworkLink(href):
 
-  """<NetworkLink>
+  """<NetworkLink>...</NetworkLink>
   """
 
-  nl = []  
-  nl.append('<NetworkLink><name>%s</name>\n' % href)
-  nl.append('<Link>\n')
-  nl.append('<href>%s</href>\n' % href)
-  nl.append('</Link>\n')
-  nl.append('</NetworkLink>\n')
-  return "".join(nl)
+  networklink = kml.genxml.NetworkLink()
+  networklink.name = href
+  link = kml.genxml.Link()
+  link.href = href
+  networklink.Link = link.xml()
+  return networklink.xml()
+
 
 def ScreenOverlay(name,href,draworder,x,y,wid,ht,region=None):
 
@@ -587,3 +553,79 @@ def LookAt(lon,lat,range,tilt,heading,attrname=None,attrval=None):
   l.append('</LookAt>')
   return "".join(l)
 
+
+class Coordinates:
+
+  """Create <coordinates> data
+
+  1) create Coordinates()
+  2) SetPoint() or N x AddPoint()
+  3) Coordinates() returns data
+
+  """
+
+  def __init__(self):
+    self.__coordinates = []
+
+
+  def SetPoint2(self, lon, lat):
+
+    """
+    Args:
+      lon,lat: float
+    """
+
+    self.AddPoint2(lon, lat)
+
+
+  def SetPoint(self, lon, lat, alt):
+
+    """
+    Args:
+      lon,lat,alt: float
+    """
+
+    self.AddPoint(lon, lat, alt)
+
+
+  def AddPoint2(self, lon, lat):
+
+    """
+    Args:
+      lon,lat: float
+    """
+
+    if self.__coordinates:
+      nl = '\n'
+    else:
+      nl = ''
+    cstr = '%s%f,%f' % (nl, lon, lat)
+    self.__coordinates.append(cstr)
+
+
+  def AddPoint(self, lon, lat, alt):
+
+    """
+    Args:
+      lon,lat,alt: float
+    """
+
+    if self.__coordinates:
+      nl = '\n'
+    else:
+      nl = ''
+    cstr = '%s%f,%f,%f' % (nl, lon, lat, alt)
+    self.__coordinates.append(cstr)
+
+
+  def Coordinates(self):
+
+    """
+    Returns the set of coordinates as a string
+
+    Returns:
+      string:
+    """
+
+    return "".join(self.__coordinates)
+ 
