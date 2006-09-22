@@ -200,6 +200,9 @@ class Feature(Object):
   def Set_open(self,open):
     self.__open = open
 
+  def Set_LookAt(self, l):
+    self.__LookAt = l
+
   def Set_TimePrimitive(self, t):
     self.__TimePrimitive = t
 
@@ -215,8 +218,9 @@ class Feature(Object):
   name = property(fset=Set_name)
   visibility = property(fset=Set_visibility)
   open = property(fset=Set_open)
-  styleUrl = property(fset=Set_styleUrl)
+  LookAt = property(fset=Set_LookAt)
   TimePrimitive = property(fset=Set_TimePrimitive)
+  styleUrl = property(fset=Set_styleUrl)
   Region = property(fset=Set_Region)
 
   def attributes(self):
@@ -234,6 +238,8 @@ class Feature(Object):
 
   def children(self):
     children = []
+    if self.__LookAt:
+      children.append(self.__LookAt)
     if self.__TimePrimitive:
       children.append(self.__TimePrimitive)
     if self.__styleUrl:
@@ -830,4 +836,71 @@ class Polygon(Geometry):
       children.append(self.__innerBoundaryIs)
     return ComplexElement('Polygon', al, None, el, "".join(children))
 
+
+class LookAt(Object):
+
+  """<LookAt>...</LookAt>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__longitude = None
+    self.__latitude = None
+    self.__altitude = None
+    self.__range = None
+    self.__tilt = None
+    self.__heading = None
+    self.__altitudeMode = None
+
+  def Set_longitude(self, longitude):
+    self.__longitude = longitude
+
+  def Set_latitude(self, latitude):
+    self.__latitude = latitude
+
+  def Set_altitude(self, altitude):
+    self.__altitude = altitude
+
+  def Set_range(self, range):
+    self.__range = range
+
+  def Set_tilt(self, tilt):
+    self.__tilt = tilt
+
+  def Set_heading(self, heading):
+    self.__heading = heading
+
+  def Set_altitudeMode(self, altitudeMode):
+    self.__altitudeMode = altitudeMode
+
+  longitude = property(fset=Set_longitude)
+  latitude = property(fset=Set_latitude)
+  altitude = property(fset=Set_altitude)
+  range = property(fset=Set_range)
+  tilt = property(fset=Set_tilt)
+  heading = property(fset=Set_heading)
+  altitudeMode = property(fset=Set_altitudeMode)
+
+  def elements(self):
+    el = []
+    if self.__longitude:
+      el.append(('longitude',self.__longitude))
+    if self.__latitude:
+      el.append(('latitude',self.__latitude))
+    if self.__altitude:
+      el.append(('altitude',self.__altitude))
+    if self.__range:
+      el.append(('range',self.__range))
+    if self.__tilt:
+      el.append(('tilt',self.__tilt))
+    if self.__heading:
+      el.append(('heading',self.__heading))
+    if self.__altitudeMode:
+      el.append(('altitudeMode',self.__altitudeMode))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('LookAt', al, None, el, None)
 

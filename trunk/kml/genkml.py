@@ -543,6 +543,7 @@ def LookAt(lon,lat,range,tilt,heading,attrname=None,attrval=None):
     KML: <LookAt>...</LookAt>
   """
 
+  """
   l = []
   l.append(StartTag('LookAt',attrname,attrval))
   l.append('<longitude>%f</longitude>\n' % lon)
@@ -552,6 +553,24 @@ def LookAt(lon,lat,range,tilt,heading,attrname=None,attrval=None):
   l.append('<heading>%f</heading>\n' % heading)
   l.append('</LookAt>')
   return "".join(l)
+  """
+
+  lookat = kml.genxml.LookAt()
+  if attrname == 'id':
+    lookat.id = attrval
+  elif attrname == 'targetId':
+    lookat.targetId = attrval
+  if lon:
+    lookat.longitude = '%f' % lon
+  if lat:
+    lookat.latitude = '%f' % lat
+  if range:
+    lookat.range = '%f' % range
+  if tilt:
+    lookat.tilt = '%f' % tilt
+  if heading:
+    lookat.heading = '%f' % heading
+  return lookat.xml()
 
 
 class Coordinates:
