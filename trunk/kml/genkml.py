@@ -29,29 +29,6 @@ Convenience functions to generate KML fragments.
 import kml.genxml
 
 
-def StartTag(tag,attrname,attrval):
-
-  """<tag [attrname=attrval>
-
-  Generate the start tag with the given attribute name and value.
-
-  Args:
-    tag: tag name
-    attrname: attribute name (id, or targetId)
-    attrval: string
-
-  Returns:
-    KML: <tag [attrname=attrval>
-  """
-
-  start = []
-  start.append('<%s' % tag)
-  if attrname and attrval:
-    start.append(' %s=\"%s\"' % (attrname,attrval))
-  start.append('>\n')
-  return "".join(start)
-
-
 def Point(lon,lat,attrname=None,attrval=None):
 
   """<Point [attrname=attrval]><coordinates>
@@ -514,16 +491,14 @@ def NetworkLinkControl(cookie=None,expires=None,update=None,targethref=None):
     KML: <NetworkLinkControl>
   """
 
-  nlc = []
-  nlc.append('<NetworkLinkControl>\n')
-  if cookie:
-    nlc.append('<cookie>%s</cookie>\n' % cookie)
+  nlc = kml.genxml.NetworkLinkControl()
+  if nlc:
+    nlc.cookie = cookie
   if expires:
-    nlc.append('<expires>%s</expires>\n' % expires)
+    nlc.expires = expires
   if update and targethref:
-    nlc.append(Update(update,targethref))
-  nlc.append('</NetworkLinkControl>\n')
-  return "".join(nlc)
+    nlc.Update = Update(update,targethref)
+  return nlc.xml()
 
 
 def LookAt(lon,lat,range,tilt,heading,attrname=None,attrval=None):
@@ -541,18 +516,6 @@ def LookAt(lon,lat,range,tilt,heading,attrname=None,attrval=None):
 
   Returns:
     KML: <LookAt>...</LookAt>
-  """
-
-  """
-  l = []
-  l.append(StartTag('LookAt',attrname,attrval))
-  l.append('<longitude>%f</longitude>\n' % lon)
-  l.append('<latitude>%f</latitude>\n' % lat)
-  l.append('<range>%f</range>\n' % range)
-  l.append('<tilt>%f</tilt>\n' % tilt)
-  l.append('<heading>%f</heading>\n' % heading)
-  l.append('</LookAt>')
-  return "".join(l)
   """
 
   lookat = kml.genxml.LookAt()

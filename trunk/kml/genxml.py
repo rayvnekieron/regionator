@@ -904,3 +904,84 @@ class LookAt(Object):
     el = self.elements()
     return ComplexElement('LookAt', al, None, el, None)
 
+
+class NetworkLinkControl(object):
+
+  def __init__(self):
+    self.__minRefreshPeriod = None
+    self.__cookie = None
+    self.__message = None
+    self.__linkName = None
+    self.__linkDescription = None
+    self.__linkSnippet = None
+    self.__expires = None
+    self.__Update = None
+    self.__LookAt = None
+
+  def Set_minRefreshPeriod(self, minRefreshPeriod):
+    self.__minRefreshPeriod = minRefreshPeriod
+
+  def Set_cookie(self, cookie):
+    self.__cookie = cookie
+
+  def Set_message(self, message):
+    self.__message = message
+
+  def Set_linkName(self, linkName):
+    self.__linkName = linkName
+
+  def Set_linkDescription(self, linkDescription):
+    self.__linkDescription = linkDescription
+
+  def Set_linkSnippet(self, linkSnippet):
+    self.__linkSnippet = linkSnippet
+
+  def Set_expires(self, expires):
+    self.__expires = expires
+
+  def Set_Update(self, Update):
+    self.__Update = Update
+
+  def Set_LookAt(self, LookAt):
+    self.__LookAt = LookAt
+
+  minRefreshPeriod = property(fset=Set_minRefreshPeriod)
+  cookie = property(fset=Set_cookie)
+  message = property(fset=Set_message)
+  linkName = property(fset=Set_linkName)
+  linkDescription = property(fset=Set_linkDescription)
+  linkSnippet = property(fset=Set_linkSnippet)
+  expires = property(fset=Set_expires)
+  Update = property(fset=Set_Update)
+  LookAt = property(fset=Set_LookAt)
+
+  def elements(self):
+    el = []
+    if self.__minRefreshPeriod:
+      el.append(('minRefreshPeriod',self.__minRefreshPeriod))
+    if self.__cookie:
+      el.append(('cookie',self.__cookie))
+    if self.__message:
+      el.append(('message',self.__message))
+    if self.__linkName:
+      el.append(('linkName',self.__linkName))
+    if self.__linkDescription:
+      el.append(('linkDescription',self.__linkDescription))
+    if self.__linkSnippet:
+      el.append(('linkSnippet',self.__linkSnippet))
+    if self.__expires:
+      el.append(('expires',self.__expires))
+    return el
+
+  def children(self):
+    children = []
+    if self.__Update:
+      children.append(self.__Update)
+    if self.__LookAt:
+      children.append(self.__LookAt)
+    return "".join(children)
+
+  def xml(self):
+    el = self.elements()
+    children = self.children()
+    return ComplexElement('NetworkLinkControl', None, None, el, children)
