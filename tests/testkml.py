@@ -84,6 +84,11 @@ placemark.Geometry = linestring.xml()
 
 folder.Add_Feature(placemark.xml())
 
+href = 'http://foo.com/foo.jpg'
+groundoverlaykml = kml.genkml.GroundOverlay(10,-10,10,-10,href,42)
+
+folder.Add_Feature(groundoverlaykml)
+
 
 document.Add_Feature(folder.xml())
 
