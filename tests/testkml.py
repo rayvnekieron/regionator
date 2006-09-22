@@ -87,6 +87,8 @@ folder.Add_Feature(placemark.xml())
 
 document.Add_Feature(folder.xml())
 
+document.LookAt = kml.genkml.LookAt(1,2,3,4,5,'id','lookat0')
+
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
 k.Feature = document.xml()
