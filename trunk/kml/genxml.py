@@ -384,7 +384,7 @@ class Link(Object):
   viewRefreshTime = property(fset=Set_viewRefreshTime)
 
   def elements(self):
-    el = []
+    el = Object.elements(self)
     if self.__href:
       el.append(('href',self.__href))
     if self.__viewRefreshMode:
@@ -394,8 +394,23 @@ class Link(Object):
     return el
 
   def xml(self):
+    al = self.attributes()
     el = self.elements()
-    return ComplexElement('Link', None, None, el, None)
+    return ComplexElement('Link', al, None, el, None)
+
+
+class Icon(Link):
+
+  """<Icon>...</Icon>
+  """
+
+  def __init__(self):
+    Link.__init__(self)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Icon', al, None, el, None)
 
 
 class Placemark(Feature):
@@ -504,21 +519,28 @@ class LatLonBox(Object):
     self.__rotation = None
 
   def Set_NSEW(self,n,s,e,w):
-    self.__north = n
-    self.__south = s
-    self.__east = e
-    self.__west = w
+
+    """ Set bounds as floats """
+
+    self.__north = repr(n)
+    self.__south = repr(s)
+    self.__east = repr(e)
+    self.__west = repr(w)
 
   def Set_north(self, north):
+    """ string """
     self.__north = north
 
   def Set_south(self, south):
+    """ string """
     self.__south = south
 
   def Set_east(self, east):
+    """ string """
     self.__east = east
 
   def Set_west(self, west):
+    """ string """
     self.__west = west
 
   north = property(fset=Set_north)
@@ -527,7 +549,7 @@ class LatLonBox(Object):
   west = property(fset=Set_west)
 
   def elements(self):
-    el = []
+    el = Object.elements(self)
     if self.__north:
       el.append(('north',self.__north))
     if self.__south:
@@ -614,7 +636,7 @@ class Lod(Object):
   maxFadeExtent = property(fset=Set_maxFadeExtent)
 
   def elements(self):
-    el = []
+    el = Object.elements(self)
     if self.__minlodpixels:
       el.append(('minLodPixels',self.__minlodpixels))
     if self.__maxlodpixels:
@@ -882,7 +904,7 @@ class LookAt(Object):
   altitudeMode = property(fset=Set_altitudeMode)
 
   def elements(self):
-    el = []
+    el = Object.elements(self)
     if self.__longitude:
       el.append(('longitude',self.__longitude))
     if self.__latitude:
@@ -985,3 +1007,185 @@ class NetworkLinkControl(object):
     el = self.elements()
     children = self.children()
     return ComplexElement('NetworkLinkControl', None, None, el, children)
+
+
+class Overlay(Feature):
+
+  def __init__(self):
+    Feature.__init__(self)
+    self.__color = None
+    self.__drawOrder = None
+    self.__Icon = None
+
+  def Set_color(self, color):
+    self.__color = color
+
+  def Set_drawOrder(self, drawOrder):
+    self.__drawOrder = drawOrder
+
+  def Set_Icon(self, Icon):
+    self.__Icon = Icon
+
+  color = property(fset=Set_color)
+  drawOrder = property(fset=Set_drawOrder)
+  Icon = property(fset=Set_Icon)
+
+  def elements(self):
+    el = Feature.elements(self)
+    if self.__color:
+      el.append(('color',self.__color))
+    if self.__drawOrder:
+      el.append(('drawOrder',self.__drawOrder))
+    return el
+
+  def children(self):
+    return self.__Icon
+
+
+class GroundOverlay(Overlay):
+
+  def __init(self):
+    Overlay.__init__(self)
+    self.__latlonbox = None
+
+  def Set_LatLonBox(self, latlonbox):
+    self.__latlonbox = latlonbox
+
+  LatLonBox = property(fset=Set_LatLonBox)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = []
+    children.append(Overlay.children(self))
+    if self.__latlonbox:
+      children.append(self.__latlonbox)
+    return ComplexElement('GroundOverlay', al, None, el, "".join(children))
+
+
+class vec2Type(object):
+
+  def __init__(self):
+    self.__x = None
+    self.__xunits = None
+    self.__y = None
+    self.__yunits = None
+
+  def Set_x(self, x):
+    self.__x = x
+
+  def Set_y(self, y):
+    self.__y = y
+
+  def Set_xunits(self, xunits):
+    self.__xunits = xunits
+
+  def Set_yunits(self, yunits):
+    self.__yunits = yunits
+
+  x = property(fset=Set_x)
+  y = property(fset=Set_y)
+  xunits = property(fset=Set_xunits)
+  yunits = property(fset=Set_yunits)
+
+  def attributes(self):
+    al = []
+    if self.__x:
+      al.append(('x',self.__x))
+    if self.__y:
+      al.append(('y',self.__y))
+    if self.__xunits:
+      al.append(('xunits',self.__xunits))
+    if self.__yunits:
+      al.append(('yunits',self.__yunits))
+    return al
+
+
+class overlayXY(vec2Type):
+
+  def __init__(self):
+    vec2Type.__init__(self)
+
+  def xml(self):
+    attributes = self.attributes()
+    return ComplexElement('overlayXY', attributes, None, None)
+
+
+class screenXY(vec2Type):
+
+  def __init__(self):
+    vec2Type.__init__(self)
+
+  def xml(self):
+    attributes = self.attributes()
+    return ComplexElement('screenXY', attributes, None, None)
+
+
+class rotationXY(vec2Type):
+
+  def __init__(self):
+    vec2Type.__init__(self)
+
+  def xml(self):
+    attributes = self.attributes()
+    return ComplexElement('rotationXY', attributes, None, None)
+
+
+class size(vec2Type):
+
+  def __init__(self):
+    vec2Type.__init__(self)
+
+  def xml(self):
+    attributes = self.attributes()
+    return ComplexElement('size', attributes, None, None)
+
+
+class ScreenOverlay(Overlay):
+
+  def __init__(self):
+    self.__overlayXY = None
+    self.__screenXY = None
+    self.__rotationxy = None
+    self.__size = None
+    self.__rotation = None
+
+  def Set_overlayXY(self, overlayXY):
+    self.__overlayXY = overlayXY
+
+  def Set_screenXY(self, screenXY):
+    self.__screenXY = screenXY
+
+  def Set_rotationXY(self, rotationXY):
+    self.__rotationXY = rotationXY
+
+  def Set_size(self, size):
+    self.__size = size
+
+  def Set_rotation(self, rotation):
+    self.__rotation = rotation
+
+  # def elements(self):
+  #   el = []
+  #   if self.__rotation:
+  #     el.append(('rotation', self.__rotation))
+  #   return el
+
+  def xml(self):
+    # elements = self.elements()
+    children = []
+    children.append(Overlay.children(self))
+    if self.__overlayXY:
+      children.append(self.__overlayXY)
+    if self.__screenXY:
+      children.append(self.__screenXY)
+    if self.__rotationxy:
+      children.append(self.__rotationxy)
+    if self.__size:
+      children.append(self.__size)
+    if self.__rotation:
+      children.append(util.SimpleElement('rotation',self.__rotation))
+    return ComplexElement('ScreenOverlay', None, None, "".join(children))
+
+
+

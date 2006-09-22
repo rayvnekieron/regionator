@@ -260,17 +260,12 @@ def LatLonOutline(n,s,e,w,name):
 
 def LatLonBox(n,s,e,w):
 
-  """<LatLonBox>
+  """<LatLonBox>...</LatLonBox>
   """
 
-  llb = []
-  llb.append('<LatLonBox>\n')
-  llb.append('<north>%f</north>' % n)
-  llb.append('<south>%f</south>\n' % s)
-  llb.append('<east>%f</east>' % e)
-  llb.append('<west>%f</west>\n' % w)
-  llb.append('</LatLonBox>\n')
-  return "".join(llb)
+  latlonbox = kml.genxml.LatLonBox()
+  latlonbox.Set_NSEW(n,s,e,w)
+  return latlonbox.xml()
 
 
 def Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0):
@@ -334,17 +329,17 @@ def GroundOverlay(n,s,e,w,href,draworder,region=None):
 
   """
 
-  go = []
-  go.append('<GroundOverlay>\n')
+  icon = kml.genxml.Icon()
+  icon.href = href
+  latlonboxkml = LatLonBox(n,s,e,w)
+  groundoverlay = kml.genxml.GroundOverlay()
+  groundoverlay.drawOrder = draworder
+  groundoverlay.Icon = icon.xml()
+  groundoverlay.LatLonBox = latlonboxkml
   if region:
-    go.append(region)
-  go.append('<drawOrder>%d</drawOrder>\n' % draworder)
-  go.append('<Icon>\n')
-  go.append('<href>%s</href>\n' % href)
-  go.append('</Icon>\n')
-  go.append(LatLonBox(n,s,e,w))
-  go.append('</GroundOverlay>\n')
-  return "".join(go)
+    groundoverlay.Region = region
+  return groundoverlay.xml()
+
 
 def RegionGroundoverlay(n,s,e,w,minpx,maxpx,href,draworder):
 
