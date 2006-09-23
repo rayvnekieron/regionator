@@ -325,7 +325,7 @@ def RegionNetworkLink(n,s,e,w,name,href,minpx,maxpx):
 
 def GroundOverlay(n,s,e,w,href,draworder,region=None):
 
-  """<GroundOverlay>
+  """<GroundOverlay>...</GroundOverlay>
 
   """
 
@@ -362,9 +362,9 @@ def NetworkLink(href):
   return networklink.xml()
 
 
-def ScreenOverlay(name,href,draworder,x,y,wid,ht,region=None):
+def ScreenOverlay(name,href,draworder,x,y,wid,ht,color=None,region=None):
 
-  """<ScreenOverlay>
+  """<ScreenOverlay>...</ScreenOverlay>
 
   Draw the given image at the given location and size
   on the screen.
@@ -378,9 +378,10 @@ def ScreenOverlay(name,href,draworder,x,y,wid,ht,region=None):
     region: <Region>
 
   Returns:
-    string: '<ScreenOverlay>...'
+    KML: <ScreenOverlay>...</ScreenOverlay>
   """
 
+  """
   so = []
   so.append('<ScreenOverlay>\n')
   so.append('<name>%s</name>\n' % name)
@@ -398,13 +399,53 @@ def ScreenOverlay(name,href,draworder,x,y,wid,ht,region=None):
   so.append('<size x=\"%d\" y=\"%d\"/> \n' % (wid,ht))
   so.append('</ScreenOverlay>\n')
   return "".join(so)
+  """
+
+  screenoverlay = kml.genxml.ScreenOverlay()
+  screenoverlay.name = name
+
+  if color:
+    screenoverlay.color = color
+
+  if region:
+    print 'ScreenOverlayRect region',region
+
+  if region:
+    screenoverlay.Region = region
+  screenoverlay.drawOrder = draworder
+
+  if href:
+    icon = kml.genxml.Icon()
+    icon.href = href
+    screenoverlay.Icon = icon.xml()
+
+  overlayxy = kml.genxml.overlayXY()
+  overlayxy.x = 0
+  overlayxy.y = 0
+  overlayxy.xunits = 'pixels'
+  overlayxy.yunits = 'pixels'
+  screenoverlay.overlayXY = overlayxy.xml()
+
+  screenxy = kml.genxml.screenXY()
+  screenxy.x = x
+  screenxy.y = y
+  screenxy.xunits = 'pixels'
+  screenxy.yunits = 'pixels'
+  screenoverlay.screenXY = screenxy.xml()
+
+  size = kml.genxml.size()
+  size.x = wid
+  size.y = ht
+  screenoverlay.size = size.xml()
+
+  return screenoverlay.xml()
 
 
 def ScreenOverlayRect(name,color,draworder,x,y,wid,ht,region=None):
 
-  """<ScreenOverlay>
+  """<ScreenOverlay>...</ScreenOverlay>
 
-  Draw a rectangle on the screen.
+  A ScreenOverlay with no Icon draws a rectangle on the screen.
 
   Args:
     name: string for <name>
@@ -415,9 +456,10 @@ def ScreenOverlayRect(name,color,draworder,x,y,wid,ht,region=None):
     region: <Region>
 
   Returns:
-    string: '<ScreenOverlay>...'
+    KML: '<ScreenOverlay>...</ScreenOverlay>'
   """
 
+  """
   so = []
   so.append('<ScreenOverlay>\n')
   so.append('<name>%s</name>\n' % name)
@@ -430,6 +472,8 @@ def ScreenOverlayRect(name,color,draworder,x,y,wid,ht,region=None):
   so.append('<size x=\"%d\" y=\"%d\"/> \n' % (wid,ht))
   so.append('</ScreenOverlay>\n')
   return "".join(so)
+  """
+  return ScreenOverlay(name,None,draworder,x,y,wid,ht,color=color,region=region)
 
 
 def TimeSpan(b, e):

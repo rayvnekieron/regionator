@@ -1039,7 +1039,10 @@ class Overlay(Feature):
     return el
 
   def children(self):
-    return self.__Icon
+    children = Feature.children(self)
+    if self.__Icon:
+      children.append(self.__Icon)
+    return children
 
 
 class GroundOverlay(Overlay):
@@ -1056,8 +1059,7 @@ class GroundOverlay(Overlay):
   def xml(self):
     al = self.attributes()
     el = self.elements()
-    children = []
-    children.append(Overlay.children(self))
+    children = Overlay.children(self)
     if self.__latlonbox:
       children.append(self.__latlonbox)
     return ComplexElement('GroundOverlay', al, None, el, "".join(children))
@@ -1066,9 +1068,9 @@ class GroundOverlay(Overlay):
 class vec2Type(object):
 
   def __init__(self):
-    self.__x = None
+    self.__x = 0
+    self.__y = 0
     self.__xunits = None
-    self.__y = None
     self.__yunits = None
 
   def Set_x(self, x):
@@ -1107,8 +1109,8 @@ class overlayXY(vec2Type):
     vec2Type.__init__(self)
 
   def xml(self):
-    attributes = self.attributes()
-    return ComplexElement('overlayXY', attributes, None, None)
+    al = self.attributes()
+    return ComplexElement('overlayXY', al, None, None, None)
 
 
 class screenXY(vec2Type):
@@ -1117,8 +1119,8 @@ class screenXY(vec2Type):
     vec2Type.__init__(self)
 
   def xml(self):
-    attributes = self.attributes()
-    return ComplexElement('screenXY', attributes, None, None)
+    al = self.attributes()
+    return ComplexElement('screenXY', al, None, None, None)
 
 
 class rotationXY(vec2Type):
@@ -1127,8 +1129,8 @@ class rotationXY(vec2Type):
     vec2Type.__init__(self)
 
   def xml(self):
-    attributes = self.attributes()
-    return ComplexElement('rotationXY', attributes, None, None)
+    al = self.attributes()
+    return ComplexElement('rotationXY', al, None, None, None)
 
 
 class size(vec2Type):
@@ -1137,16 +1139,17 @@ class size(vec2Type):
     vec2Type.__init__(self)
 
   def xml(self):
-    attributes = self.attributes()
-    return ComplexElement('size', attributes, None, None)
+    al = self.attributes()
+    return ComplexElement('size', al, None, None, None)
 
 
 class ScreenOverlay(Overlay):
 
   def __init__(self):
+    Overlay.__init__(self)
     self.__overlayXY = None
     self.__screenXY = None
-    self.__rotationxy = None
+    self.__rotationXY = None
     self.__size = None
     self.__rotation = None
 
@@ -1165,27 +1168,26 @@ class ScreenOverlay(Overlay):
   def Set_rotation(self, rotation):
     self.__rotation = rotation
 
-  # def elements(self):
-  #   el = []
-  #   if self.__rotation:
-  #     el.append(('rotation', self.__rotation))
-  #   return el
+  overlayXY = property(fset=Set_overlayXY)
+  screenXY = property(fset=Set_screenXY)
+  rotationXY = property(fset=Set_rotationXY)
+  size = property(fset=Set_size)
+  rotation = property(fset=Set_rotation)
 
   def xml(self):
-    # elements = self.elements()
-    children = []
-    children.append(Overlay.children(self))
+    al = self.attributes()
+    el = self.elements()
+    children = Overlay.children(self)
     if self.__overlayXY:
       children.append(self.__overlayXY)
     if self.__screenXY:
       children.append(self.__screenXY)
-    if self.__rotationxy:
-      children.append(self.__rotationxy)
+    if self.__rotationXY:
+      children.append(self.__rotationXY)
     if self.__size:
       children.append(self.__size)
     if self.__rotation:
-      children.append(util.SimpleElement('rotation',self.__rotation))
-    return ComplexElement('ScreenOverlay', None, None, "".join(children))
-
-
+      children.append(SimpleElement('rotation',self.__rotation))
+    print 'ScreenOverlay children',children
+    return ComplexElement('ScreenOverlay', al, None, el, "".join(children))
 

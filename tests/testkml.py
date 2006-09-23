@@ -89,6 +89,17 @@ groundoverlaykml = kml.genkml.GroundOverlay(10,-10,10,-10,href,42)
 
 folder.Add_Feature(groundoverlaykml)
 
+sokml = kml.genkml.ScreenOverlay('rect',None,2,10,20,30,40, color='ff00ff00')
+document.Add_Feature(sokml)
+
+sokml = kml.genkml.ScreenOverlay('img','foo.jpg',1,5,6,7,8)
+document.Add_Feature(sokml)
+
+regionkml = kml.genkml.Region(9,8,7,6)
+sokml = kml.genkml.ScreenOverlay('rr',None,2,10,20,30,40,
+                                  color='ff00ff00', region=regionkml)
+document.Add_Feature(sokml)
+
 
 document.Add_Feature(folder.xml())
 
