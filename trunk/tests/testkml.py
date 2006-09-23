@@ -105,6 +105,49 @@ document.Add_Feature(folder.xml())
 
 document.LookAt = kml.genkml.LookAt(1,2,3,4,5,'id','lookat0')
 
+style = kml.genxml.Style()
+
+iconstyle = kml.genxml.IconStyle()
+iconstyle.scale = '1.2'
+icon = kml.genxml.Icon()
+icon.href = 'icon.jpg'
+iconstyle.icon = icon.xml()
+hotspot = kml.genxml.hotSpot()
+hotspot.xunits = 'pixels'
+hotspot.x = 2
+hotspot.y = 4
+hotspot.yunits = 'pixels'
+iconstyle.hotSpot = hotspot.xml()
+iconstyle.color = '7f112233'
+style.IconStyle = iconstyle.xml()
+
+linestyle = kml.genxml.LineStyle()
+linestyle.color = '44332211'
+linestyle.width = 2
+style.LineStyle = linestyle.xml()
+
+polystyle = kml.genxml.PolyStyle()
+polystyle.fill = '1'
+polystyle.color = '11223344'
+polystyle.outline = '1'
+style.PolyStyle = polystyle.xml()
+
+labelstyle = kml.genxml.LabelStyle()
+labelstyle.color = '20304050'
+labelstyle.scale = '2.3'
+style.LabelStyle = labelstyle.xml()
+
+liststyle = kml.genxml.ListStyle()
+liststyle.listItemType = 'radioFolder'
+style.ListStyle = liststyle.xml()
+
+balloonstyle = kml.genxml.BalloonStyle()
+balloonstyle.bgColor = 'ffff0000'
+balloonstyle.textColor = 'ff0000ff'
+balloonstyle.text = 'balloon text'
+style.balloonstyle = balloonstyle.xml()
+
+document.Add_Style(style.xml())
 
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'

@@ -440,70 +440,6 @@ class Placemark(Feature):
     return ComplexElement('Placemark', al, None, el, children)
 
 
-class StyleSelector(Object):
-
-  """ """
-
-class Style(StyleSelector):
-
-  """<Style>...</Style>
-  """
-
-  def __init__(self):
-    StyleSelector.__init__(self)
-    self.__iconstyle = None
-    self.__labelstyle = None
-    self.__linestyle = None
-    self.__polystyle = None
-    self.__balloonstyle = None
-    self.__liststyle = None
-
-  def Set_IconStyle(self, iconstyle):
-    self.__iconstyle = iconstyle
-
-  def Set_LabelStyle(self, labelstyle):
-    self.__labelstyle = labelstyle
-
-  def Set_LineStyle(self, linestyle):
-    self.__linestyle = linestyle
-
-  def Set_PolyStyle(self, polystyle):
-    self.__polystyle = polystyle
-
-  def Set_BalloonStyle(self, balloonstyle):
-    self.__balloonstyle = balloonstyle
-
-  def Set_ListStyle(self, liststyle):
-    self.__liststyle = liststyle
-
-  IconStyle = property(fset=Set_IconStyle)
-  LabelStyle = property(fset=Set_LabelStyle)
-  LineStyle = property(fset=Set_LineStyle)
-  PolyStyle = property(fset=Set_PolyStyle)
-  BalloonStyle = property(fset=Set_BalloonStyle)
-  ListStyle = property(fset=Set_ListStyle)
-
-  def children(self):
-    children = []
-    if self.__iconstyle:
-      children.append(self.__iconstyle)
-    if self.__labelstyle:
-      children.append(self.__labelstyle)
-    if self.__linestyle:
-      children.append(self.__linestyle)
-    if self.__polystyle:
-      children.append(self.__polystyle)
-    if self.__balloonstyle:
-      children.append(self.__balloonstyle)
-    if self.__liststyle:
-      children.append(self.__liststyle)
-    return "".join(children)
-
-  def xml(self):
-    al = self.attributes()
-    el = self.elements()
-    children = self.children()
-    return ComplexElement('Style', al, None, el, children)
 
 
 class LatLonBox(Object):
@@ -791,7 +727,7 @@ class LinearRing(Geometry):
   def xml(self):
     al = self.attributes()
     el = self.elements()
-    return ComplexType('LinearRing', al, None, el, None)
+    return ComplexElement('LinearRing', al, None, el, None)
 
 
 class Boundary(object):
@@ -1190,3 +1126,344 @@ class ScreenOverlay(Overlay):
       children.append(SimpleElement('rotation',self.__rotation))
     return ComplexElement('ScreenOverlay', al, None, el, "".join(children))
 
+
+class StyleSelector(Object):
+
+  """ """
+
+
+class Style(StyleSelector):
+
+  """<Style>...</Style>
+  """
+
+  def __init__(self):
+    StyleSelector.__init__(self)
+    self.__iconstyle = None
+    self.__labelstyle = None
+    self.__linestyle = None
+    self.__polystyle = None
+    self.__balloonstyle = None
+    self.__liststyle = None
+
+  def Set_IconStyle(self, iconstyle):
+    self.__iconstyle = iconstyle
+
+  def Set_LabelStyle(self, labelstyle):
+    self.__labelstyle = labelstyle
+
+  def Set_LineStyle(self, linestyle):
+    self.__linestyle = linestyle
+
+  def Set_PolyStyle(self, polystyle):
+    self.__polystyle = polystyle
+
+  def Set_BalloonStyle(self, balloonstyle):
+    self.__balloonstyle = balloonstyle
+
+  def Set_ListStyle(self, liststyle):
+    self.__liststyle = liststyle
+
+  IconStyle = property(fset=Set_IconStyle)
+  LabelStyle = property(fset=Set_LabelStyle)
+  LineStyle = property(fset=Set_LineStyle)
+  PolyStyle = property(fset=Set_PolyStyle)
+  BalloonStyle = property(fset=Set_BalloonStyle)
+  ListStyle = property(fset=Set_ListStyle)
+
+  def children(self):
+    children = []
+    if self.__iconstyle:
+      children.append(self.__iconstyle)
+    if self.__labelstyle:
+      children.append(self.__labelstyle)
+    if self.__linestyle:
+      children.append(self.__linestyle)
+    if self.__polystyle:
+      children.append(self.__polystyle)
+    if self.__balloonstyle:
+      children.append(self.__balloonstyle)
+    if self.__liststyle:
+      children.append(self.__liststyle)
+    return "".join(children)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = self.children()
+    return ComplexElement('Style', al, None, el, children)
+
+
+class ColorStyle(Object):
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__color = None
+    self.__colorMode = None
+
+  def Set_color(self, color):
+    self.__color = color
+
+  def Set_colorMode(self, colormode):
+    self.__colormode = colormode
+
+  color = property(fset=Set_color)
+  colorMode = property(fset=Set_colorMode)
+
+  def elements(self):
+    el = Object.elements(self)
+    if self.__color:
+      el.append(('color',self.__color))
+    if self.__colorMode:
+      el.append(('colorMode',self.__colorMode))
+    return el
+
+
+class hotSpot(vec2Type):
+
+  """<hotSpot>...</hotSpot>"""
+
+  def __init__(self):
+    vec2Type.__init__(self)
+
+  def xml(self):
+    al = self.attributes()
+    return ComplexElement('hotSpot', al, None, None, None)
+
+
+class IconStyle(ColorStyle):
+
+  """<IconStyle>...</IconStyle>"""
+
+  def __init__(self):
+    ColorStyle.__init__(self)
+    self.__scale = None
+    self.__icon = None
+    self.__hotSpot = None
+
+  def Set_scale(self, scale):
+    self.__scale = scale
+
+  def Set_Icon(self, icon):
+    self.__icon = icon
+
+  def Set_hotSpot(self, hotSpot):
+    self.__hotSpot = hotSpot
+
+  scale = property(fset=Set_scale)
+  Icon = property(fset=Set_Icon)
+  hotSpot = property(fset=Set_hotSpot)
+
+  def elements(self):
+    el = ColorStyle.elements(self)
+    if self.__scale:
+      el.append(('scale',self.__scale))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = []
+    if self.__icon:
+      children.append(self.__icon)
+    if self.__hotSpot:
+      children.append(self.__hotSpot)
+    return ComplexElement('IconStyle', al, None, el, "".join(children))
+
+
+class LineStyle(ColorStyle):
+
+  """<LineStyle>...</LineStyle>"""
+
+  def __init__(self):
+    ColorStyle.__init__(self)
+    self.__width = None
+
+  def Set_width(self, width):
+    self.__width = width
+
+  width = property(fset=Set_width)
+
+  def elements(self):
+    el = ColorStyle.elements(self)
+    if self.__width:
+      el.append(('width',self.__width))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('LineStyle', al, None, el, None)
+
+
+class PolyStyle(ColorStyle):
+
+  """<PolyStyle>...</PolyStyle>"""
+
+  def __init__(self):
+    ColorStyle.__init__(self)
+    self.__fill = None
+    self.__outline = None
+
+  def Set_fill(self, fill):
+    self.__fill = fill
+
+  def Set_outline(self, outline):
+    self.__outline = outline
+
+  fill = property(fset=Set_fill)
+  outline = property(fset=Set_outline)
+
+  def elements(self):
+    el = ColorStyle.elements(self)
+    if self.__fill:
+      el.append(('fill',self.__fill))
+    if self.__outline:
+      el.append(('outline',self.__outline))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('PolyStyle', al, None, el, None)
+
+
+class LabelStyle(ColorStyle):
+
+  """<LabelStyle>...</LabelStyle>"""
+
+  def __init__(self):
+    ColorStyle.__init__(self)
+    self.__scale = None
+
+  def Set_scale(self, scale):
+    self.__scale = scale
+
+  scale = property(fset=Set_scale)
+
+  def elements(self):
+    el = ColorStyle.elements(self)
+    if self.__scale:
+      el.append(('scale',self.__scale))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('LabelStyle', al, None, el, None)
+
+
+class ListStyle(Object):
+
+  """<ListStyle>...</ListStyle>"""
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__bgColor = None
+    self.__listitemtype = None
+
+  def Set_bgColor(self, bgColor):
+    self.__bgColor = bgColor
+
+  def Set_listItemType(self, listitemtype):
+    self.__listitemtype = listitemtype
+
+  bgColor = property(fset=Set_bgColor)
+  listItemType = property(fset=Set_listItemType)
+
+  def elements(self):
+    el = Object.elements(self)
+    if self.__bgColor:
+      el.append(('bgColor',self.__bgColor))
+    if self.__listitemtype:
+      el.append(('listItemType',self.__listitemtype))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('ListStyle', al, None, el, None)
+
+
+class BalloonStyle(Object): 
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__bgColor = None
+    self.__textColor = None
+    self.__text = None
+
+  def Set_bgColor(self, bgcolor):
+    self.__bgColor = bgcolor
+
+  def Set_textColor(self, textColor):
+    self.__textColor = textColor
+
+  def Set_text(self, text):
+    self.__text = text
+
+  bgColor = property(fset=Set_bgColor)
+  textColor = property(fset=Set_textColor)
+  textr = property(fset=Set_text)
+
+  def elements(self):
+    el = Object.elements(self)
+    if self.__bgColor:
+      el.append(('bgColor',self.__bgColor))
+    if self.__textColor:
+      el.append(('textColor',self.__textColor))
+    if self.__text:
+      el.append(('text',self.__text))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('BalloonStyle', al, None, el, None)
+
+
+class Pair(object):
+  def __init__(self):
+    self.__key = None
+    self.__styleUrl = None
+
+  def Set_key(self, key):
+    self.__key = key
+
+  def Set_styleUrl(self, styleurl):
+    self.__styleUrl = styleurl
+
+  key = property(fset=Set_key)
+  styleUrl = property(fset=Set_styleUrl)
+
+  def elements(self):
+    el = []
+    if self.__key:
+      el.append(('key',self.__key))
+    if self.__styleUrl:
+      el.append(('styleUrl',self.__styleUrl))
+    return el
+
+  def xml(self):
+    el = self.elements()
+    return ComplexElement('Pair', None, None, el, None)
+
+
+class StyleMap(StyleSelector):
+
+  """<StyleMap>...</StyleMap>"""
+
+  def __init__(self):
+    StyleSelector.__init__(self)
+    self.__pair = []
+
+  def Add_Pair(self, pair):
+    self.__pair.append(pair)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = []
+    for pair in self.__pair:
+      children.append(pair)
+    return ComplexElement('StyleMap', al, None, el, "".join(children))

@@ -88,44 +88,38 @@ def PlacemarkPoint(lon,lat,name):
 
 def LineStyle(a,b,g,r,width=1.0):
 
-  """<LineStyle>
+  """<LineStyle>...</LineStyle>
   """
 
-  linestyle = []
-  linestyle.append('<LineStyle>\n')
-  linestyle.append('<color>%02x%02x%02x%02x</color>\n' % (a,b,g,r))
-  linestyle.append('<width>%f</width>' % width)
-  linestyle.append('</LineStyle>\n')
-  return "".join(linestyle)
+  linestyle = kml.genxml.LineStyle()
+  linestyle.color = '%02x%02x%02x%02x' % (a,b,g,r)
+  linestyle.width = repr(width)
+  return linestyle.xml()
 
 
 def PolyStyle(a,b,g,r,fill,outline):
 
-  """<PolyStyle>
+  """<PolyStyle>...</PolyStyle>
   """
 
-  polystyle = []
-  polystyle.append('<PolyStyle>\n')
-  polystyle.append('<color>%02x%02x%02x%02x</color>\n' % (a,b,g,r))
-  polystyle.append('<fill>%d</fill>' % fill)
-  polystyle.append('<outline>%d</outline>\n' % outline)
-  polystyle.append('</PolyStyle>\n')
-  return "".join(polystyle)
+  polystyle = kml.genxml.PolyStyle()
+  polystyle.color = '%02x%02x%02x%02x' % (a,b,g,r)
+  polystyle.fill = repr(fill)
+  polystyle.outline = repr(outline)
+  return polystyle.xml()
 
 
 def ListStyle(listItemType):
 
-  """<ListStyle>
+  """<ListStyle>...</ListStyle>
 
   Args:
     listItemType: 'check', 'checkOffOnly', 'checkHideChildren', 'radioFolder'
   """
 
-  ls = []
-  ls.append('<ListStyle>\n')
-  ls.append('<listItemType>%s</listItemType>\n' % listItemType)
-  ls.append('</ListStyle>\n')
-  return "".join(ls)
+  liststyle = kml.genxml.ListStyle()
+  liststyle.listItemType = listItemType
+  return liststyle.xml()
 
 
 def CheckHideChildren(id=None):
