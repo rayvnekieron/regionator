@@ -1188,6 +1188,5 @@ class ScreenOverlay(Overlay):
       children.append(self.__size)
     if self.__rotation:
       children.append(SimpleElement('rotation',self.__rotation))
-    print 'ScreenOverlay children',children
     return ComplexElement('ScreenOverlay', al, None, el, "".join(children))
 

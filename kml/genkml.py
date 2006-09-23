@@ -381,34 +381,11 @@ def ScreenOverlay(name,href,draworder,x,y,wid,ht,color=None,region=None):
     KML: <ScreenOverlay>...</ScreenOverlay>
   """
 
-  """
-  so = []
-  so.append('<ScreenOverlay>\n')
-  so.append('<name>%s</name>\n' % name)
-  if region:
-    so.append(region)
-  so.append('<drawOrder>%d</drawOrder>\n' % draworder)
-  so.append('<Icon>\n')
-  so.append('<href>%s</href>\n' % href)
-  so.append('</Icon>\n')
-  # Map the lower left corner of the overlay...
-  so.append('<overlayXY x=\"0\" y=\"0\" xunits=\"pixels\" yunits=\"pixels\"/>\n')
-  # ... to x,y on the screen, and...
-  so.append('<screenXY x=\"%d\" y=\"%d\" xunits=\"pixels\" yunits=\"pixels\"/>\n' % (x,y))
-  # ... drawn at to wid,ht
-  so.append('<size x=\"%d\" y=\"%d\"/> \n' % (wid,ht))
-  so.append('</ScreenOverlay>\n')
-  return "".join(so)
-  """
-
   screenoverlay = kml.genxml.ScreenOverlay()
   screenoverlay.name = name
 
   if color:
     screenoverlay.color = color
-
-  if region:
-    print 'ScreenOverlayRect region',region
 
   if region:
     screenoverlay.Region = region
@@ -459,20 +436,6 @@ def ScreenOverlayRect(name,color,draworder,x,y,wid,ht,region=None):
     KML: '<ScreenOverlay>...</ScreenOverlay>'
   """
 
-  """
-  so = []
-  so.append('<ScreenOverlay>\n')
-  so.append('<name>%s</name>\n' % name)
-  if region:
-    so.append(region)
-  so.append('<color>%s</color>\n' % color)
-  so.append('<drawOrder>%d</drawOrder>\n' % draworder)
-  so.append('<overlayXY x=\"0\" y=\"0\" xunits=\"pixels\" yunits=\"pixels\"/>\n')
-  so.append('<screenXY x=\"%d\" y=\"%d\" xunits=\"pixels\" yunits=\"pixels\"/>\n' % (x,y))
-  so.append('<size x=\"%d\" y=\"%d\"/> \n' % (wid,ht))
-  so.append('</ScreenOverlay>\n')
-  return "".join(so)
-  """
   return ScreenOverlay(name,None,draworder,x,y,wid,ht,color=color,region=region)
 
 
