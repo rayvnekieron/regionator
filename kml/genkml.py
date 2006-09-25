@@ -182,8 +182,12 @@ def LineStringBox(n,s,e,w):
 
   """<LineString>
 
-  LineString between nw,ne,se,sw,nw
+  LineString between nw,ne,se,sw,nw.
 
+  Tessellated to follow terrain and curvature of the earth.
+
+  Returns:
+    KML: <LineString>...</LineString>
   """
 
   c = Coordinates()
@@ -202,16 +206,21 @@ def LineStringBox(n,s,e,w):
 
 def Box(n,s,e,w,name,styleurl=None):
 
-  """<Placemark><LineString>
+  """<Placemark><LineString>...</LineString></Placemark>
+
+  Returns a Placemark with a LineString box between the corners of the
+  given bounding box.
+
+  Returns:
+    KML: <Placemark><LineString>...</LineString></Placemark>
   """
 
-  box = []
-  box.append('<Placemark><name>box %s</name>\n' % name)
+  placemark = kml.genxml.Placemark()
+  placemark.name = name
   if styleurl:
-    box.append('<styleUrl>%s</styleUrl>\n' % styleurl)
-  box.append(LineStringBox(n,s,e,w))
-  box.append('</Placemark>\n')
-  return "".join(box)
+    placemark.styleUrl = styleurl
+  placemark.Geometry = LineStringBox(n,s,e,w)
+  return placemark.xml()
 
 
 def LatLonOutline(n,s,e,w,name):
@@ -236,7 +245,6 @@ def LatLonOutline(n,s,e,w,name):
   Returns:
     KML Placemark
   """
-
   ol = []
   ol.append('<Placemark><name>%s</name>\n' % name)
   ol.append('<Style>\n')

@@ -157,6 +157,9 @@ document.Add_Feature(placemark.xml())
 
 document.Add_Style(kml.genkml.CheckHideChildren('hidekids0'))
 
+placemarkboxkml =  kml.genkml.Box(20,-20,10,-10,'lsbox','#thatstyle')
+document.Add_Feature(placemarkboxkml)
+
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
 k.Feature = document.xml()
