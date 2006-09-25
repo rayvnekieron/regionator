@@ -149,6 +149,12 @@ style.balloonstyle = balloonstyle.xml()
 
 document.Add_Style(style.xml())
 
+polyboxkml = kml.genkml.PolygonBox(10,0,10,0,123)
+placemark = kml.genxml.Placemark()
+placemark.name = 'polygon box'
+placemark.Geometry = polyboxkml
+document.Add_Feature(placemark.xml())
+
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
 k.Feature = document.xml()

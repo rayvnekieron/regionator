@@ -140,7 +140,6 @@ def CheckHideChildren(id=None):
 
   Returns:
     KML: <Style><ListStyle><listItemType>checkHideChildren>...
-
   """
 
   chc = []
@@ -157,29 +156,30 @@ def CheckHideChildren(id=None):
 
 def PolygonBox(n,s,e,w,alt):
 
-  """<Polygon>
+  """<Polygon>...</Polygon>
 
   Polygon with corners at nw,ne,se,sw
+
+  Returns:
+    KML: <Polygon>...</Polygon>
   """
 
-  poly = []
-        
-  poly.append('<Polygon>\n')
-  poly.append('<outerBoundaryIs>\n')
-  poly.append('<LinearRing>\n')
-  poly.append('<coordinates>\n')
-  poly.append('%f,%f,%f\n' % (w,n,alt))
-  poly.append('%f,%f,%f\n' % (e,n,alt))
-  poly.append('%f,%f,%f\n' % (e,s,alt))
-  poly.append('%f,%f,%f\n' % (w,s,alt))
-  poly.append('%f,%f,%f\n' % (w,n,alt))
-  poly.append('</coordinates>\n')
-  poly.append('</LinearRing>\n')
-  poly.append('</outerBoundaryIs>\n')
- 
-  poly.append('</Polygon>\n')
+  coordinates = Coordinates()
+  coordinates.AddPoint(w,n,alt)
+  coordinates.AddPoint(e,n,alt)
+  coordinates.AddPoint(e,s,alt)
+  coordinates.AddPoint(w,s,alt)
+  coordinates.AddPoint(w,n,alt)
+  linearring = kml.genxml.LinearRing()
+  linearring.coordinates = coordinates.Coordinates()
 
-  return "".join(poly)
+  outer = kml.genxml.outerBoundaryIs()
+  outer.LinearRing = linearring.xml()
+
+  polygon = kml.genxml.Polygon()
+  polygon.outerBoundaryIs = outer.xml()
+
+  return polygon.xml()
 
 
 def LineStringBox(n,s,e,w):
