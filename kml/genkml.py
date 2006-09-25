@@ -115,6 +115,9 @@ def ListStyle(listItemType):
 
   Args:
     listItemType: 'check', 'checkOffOnly', 'checkHideChildren', 'radioFolder'
+
+  Returns:
+    KML: <ListStyle>...</ListStyle>
   """
 
   liststyle = kml.genxml.ListStyle()
@@ -124,34 +127,27 @@ def ListStyle(listItemType):
 
 def CheckHideChildren(id=None):
 
-  """<Style><ListStyle>...
+  """<Style><ListStyle>...</ListStyle></Style>
 
   Helper function to create the appropriate KML to hide the children of
-  either a Document or Folder.
+  either a Document, Folder or NetworkLink.
 
-  To hide a Document's children pass an id string such that a
-  styleUrl is created to refer to the Style.
-
-  This styleUrl trick is not necessary on a Folder given that it will
-  use this Style as the inline Style.
+  NOTE: In a Folder or NetworkLink this is an inline style.  In a Document
+  this is a shared style and the Document must also use a <styleUrl> to
+  reference this Style for the ListStyle to take effect.
 
   Args:
     id: unique string
 
   Returns:
-    KML: <Style><ListStyle><listItemType>checkHideChildren>...
+    KML: <Style><ListStyle><listItemType>checkHideChildren...</Style>
   """
 
-  chc = []
+  style = kml.genxml.Style()
   if id:
-    chc.append('<styleUrl>#%s</styleUrl>\n' % id)
-  chc.append('<Style')
-  if id:
-    chc.append(' id=\"%s\"' % id)
-  chc.append('>\n')
-  chc.append(ListStyle('checkHideChildren'))
-  chc.append('</Style>\n')
-  return "".join(chc)
+    style.id = id
+  style.ListStyle = ListStyle('checkHideChildren')
+  return style.xml()
 
 
 def PolygonBox(n,s,e,w,alt):

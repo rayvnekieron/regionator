@@ -155,6 +155,8 @@ placemark.name = 'polygon box'
 placemark.Geometry = polyboxkml
 document.Add_Feature(placemark.xml())
 
+document.Add_Style(kml.genkml.CheckHideChildren('hidekids0'))
+
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
 k.Feature = document.xml()
