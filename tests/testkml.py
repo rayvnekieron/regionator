@@ -3,13 +3,16 @@
 import kml.genxml
 import kml.genkml
 
-style0 = '<Style id="style0"/>\n'
-style1 = '<Style id="style1"/>\n'
 
-placemark0 = '<Placemark id="placemark0"/>\n'
-placemark1 = '<Placemark id="placemark1"/>\n'
+timestamp = kml.genxml.TimeStamp()
+timestamp.id = 'timestamp0'
+timestamp.when = '2006'
 
-timestamp0 = '<TimeStamp id="timestamp0"/>\n'
+timespan = kml.genxml.TimeSpan()
+timespan.id = 'timespan0'
+timespan.begin = '1997-07-16'
+timespan.end = '1977-12-01'
+
 
 region0 = '<Region id="region0"/>\n'
 
@@ -26,14 +29,10 @@ networklink.Link = link.xml()
 document = kml.genxml.Document()
 document.id = 'document0'
 document.name = 'my document'
-document.Add_Feature(placemark0)
-document.Add_Style(style0)
 document.Add_Schema(schema0)
-document.Add_Feature(placemark1)
 document.Add_Schema(schema1)
-document.Add_Style(style1)
 document.Region = region0
-document.TimePrimitive = timestamp0
+document.TimePrimitive = timestamp.xml()
 document.Add_Feature(networklink.xml())
 
 placemark = kml.genxml.Placemark()
@@ -59,6 +58,7 @@ region.Lod = lod.xml()
 document.Region = region.xml()
 
 folder = kml.genxml.Folder()
+folder.TimePrimitive = timespan.xml()
 
 r2xml = kml.genkml.Region(2,1,4,3)
 folder.Region = r2xml

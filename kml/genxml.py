@@ -1467,3 +1467,60 @@ class StyleMap(StyleSelector):
     for pair in self.__pair:
       children.append(pair)
     return ComplexElement('StyleMap', al, None, el, "".join(children))
+
+
+class TimeSpan(Object):
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__begin = None
+    self.__end = None
+
+  def Set_begin(self, begin):
+    self.__begin = begin
+
+  def Set_end(self, end):
+    self.__end = end
+
+  begin = property(fset=Set_begin)
+  end = property(fset=Set_end)
+
+  def elements(self):
+    el = []
+    if self.__begin:
+      el.append(('begin',self.__begin))
+    if self.__end:
+      el.append(('end',self.__end))
+    return el
+
+  def xml(self):
+    at = self.attributes()
+    el = self.elements()
+    return ComplexElement('TimeSpan', at, None, el, None)
+
+
+class TimeStamp(Object):
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__when = None
+
+  def Set_when(self, when):
+    print 'TimeStamp when',when
+    self.__when = when
+
+  when = property(fset=Set_when)
+
+  def elements(self):
+    el = []
+    print 'TimeStamp when',self.__when
+    if self.__when:
+      print 'TimeStamp when',self.__when
+      el.append(('when',self.__when))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    print 'TimeStamp elements',el
+    return ComplexElement('TimeStamp', al, None, el, None)
