@@ -439,18 +439,36 @@ def ScreenOverlayRect(name,color,draworder,x,y,wid,ht,region=None):
 
 def TimeSpan(b, e):
 
-  ts = []
-  ts.append('<TimeSpan><begin>%s</begin>' % b)
-  ts.append('<end>%s</end></TimeSpan>\n' % e)
-  return "".join(ts)
+  """<TimeSpan>...</TimeSpan>
+
+  Args:
+    begin: string
+    end: string
+
+  Returns:
+    KML: <TimeSpan>...</TimeSpan>
+  """ 
+
+  timespan = kml.genxml.TimeSpan()
+  timespan.begin = b
+  timespan.end = e
+  return timespan.xml()
 
 
 def TimeStamp(when):
 
-  ts = []
-  ts.append('<TimeStamp><when>%s</when></TimeStamp>' % when)
-  return "".join(ts)
+  """<TimeStamp>...</TimeStamp>
 
+  Args:
+    when: string
+
+  Returns:
+    KML: <TimeStamp>...</TimeStamp>
+  """ 
+
+  timestamp = kml.genxml.TimeStamp()
+  timestamp.when = when
+  return timestamp.xml()
 
 
 def Update(update,targethref):
