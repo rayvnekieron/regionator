@@ -27,6 +27,7 @@
 ./testregion.py
 ./testxml.py
 ./testkml.py
+./testoutline.py
 ./testmkroot.py
 
 # a box around USA
@@ -43,7 +44,8 @@
 ./testhierfile.py
 
 ./testhref.py
-# requires internet capability (does WMS fetches)
-./testwms.py
 
 ./testgridso.py
+
+# requires internet capability (does WMS fetches)
+./testwms.py
