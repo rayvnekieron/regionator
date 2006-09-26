@@ -165,8 +165,59 @@ k.comment = '<!-- this is my comment -->\n'
 k.Feature = document.xml()
 update = '<Change/>'
 targethref = 'http://foo.com/goo.py'
-nlc = kml.genkml.NetworkLinkControl('cookie','expires', update, targethref)
-k.NetworkLinkControl = nlc
+nlckml = kml.genkml.NetworkLinkControl('cookie','expires', update, targethref)
+
+
+update = kml.genxml.Update()
+update.targetHref = targethref
+
+del_pm123 = kml.genxml.Delete()
+placemark = kml.genxml.Placemark()
+placemark.targetId = 'placemark123'
+del_pm123.Add_Object(placemark.xml())
+update.Add_Operation(del_pm123.xml())
+
+# del_go456 = kml.genxml.Delete()
+# groundoverlay = kml.genxml.GroundOverlay()
+# groundoverlay.targetId = 'groundoverlay456'
+# del_go456.Add_Object(groundoverlay.xml())
+# update.Add_Operation(del_go456.xml())
+
+del_so789 = kml.genxml.Delete()
+screenoverlay = kml.genxml.ScreenOverlay()
+screenoverlay.targetId = 'screenoverlay789'
+del_so789.Add_Object(screenoverlay.xml())
+update.Add_Operation(del_so789.xml())
+
+del_nl123 = kml.genxml.Delete()
+networklink = kml.genxml.NetworkLink()
+networklink.targetId = 'networklink123'
+del_nl123.Add_Object(networklink.xml())
+update.Add_Operation(del_nl123.xml())
+
+del_fo456 = kml.genxml.Delete()
+folder = kml.genxml.Folder()
+folder.targetId = 'folder456'
+del_fo456.Add_Object(folder.xml())
+update.Add_Operation(del_fo456.xml())
+
+del_doc789 = kml.genxml.Delete()
+document = kml.genxml.Document()
+document.targetId = 'document789'
+del_doc789.Add_Object(document.xml())
+update.Add_Operation(del_doc789.xml())
+
+change_pm42 = kml.genxml.Change()
+placemark = kml.genxml.Placemark()
+placemark.targetId = 'placemark42'
+placemark.name = 'new name'
+change_pm42.Add_Object(placemark.xml())
+update.Add_Operation(change_pm42.xml())
+
+networklinkcontrol = kml.genxml.NetworkLinkControl()
+networklinkcontrol.Update = update.xml()
+
+k.NetworkLinkControl = networklinkcontrol.xml()
 
 f = open('testkml.kml','w')
 f.write(k.xml())

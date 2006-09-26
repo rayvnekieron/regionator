@@ -1506,21 +1506,68 @@ class TimeStamp(Object):
     self.__when = None
 
   def Set_when(self, when):
-    print 'TimeStamp when',when
     self.__when = when
 
   when = property(fset=Set_when)
 
   def elements(self):
     el = []
-    print 'TimeStamp when',self.__when
     if self.__when:
-      print 'TimeStamp when',self.__when
       el.append(('when',self.__when))
     return el
 
   def xml(self):
     al = self.attributes()
     el = self.elements()
-    print 'TimeStamp elements',el
     return ComplexElement('TimeStamp', al, None, el, None)
+
+
+class Update(object):
+
+  def __init__(self):
+    self.__targetHref = None
+    self.__operations = []
+
+  def Set_targetHref(self, targetHref):
+    self.__targetHref = targetHref
+
+  def Add_Operation(self, operation):
+    self.__operations.append(operation)
+
+  targetHref = property(fset=Set_targetHref)
+
+  def elements(self):
+    el = []
+    if self.__targetHref:
+      el.append(('targetHref',self.__targetHref))
+    return el
+
+  def xml(self):
+    el = self.elements()
+    return ComplexElement('Update', None, None, el, "".join(self.__operations))
+
+
+class Delete(object):
+
+  def __init__(self):
+    self.__objects = []
+
+  def Add_Object(self,object):
+    self.__objects.append(object)
+
+  def xml(self):
+    return ComplexElement('Delete', None, None, None, "".join(self.__objects))
+
+
+class Change(object):
+
+  def __init__(self):
+    self.__objects = []
+
+  def Add_Object(self,object):
+    self.__objects.append(object)
+
+  def xml(self):
+    return ComplexElement('Change', None, None, None, "".join(self.__objects))
+
+
