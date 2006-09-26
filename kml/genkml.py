@@ -245,15 +245,15 @@ def LatLonOutline(n,s,e,w,name):
   Returns:
     KML Placemark
   """
-  ol = []
-  ol.append('<Placemark><name>%s</name>\n' % name)
-  ol.append('<Style>\n')
-  ol.append(PolyStyle(0,0,0,0,1,1))
-  ol.append(LineStyle(255,255,255,255,2.0))
-  ol.append('</Style>\n')
-  ol.append(PolygonBox(n,s,e,w,0))
-  ol.append('</Placemark>')
-  return "".join(ol)
+
+  style = kml.genxml.Style()
+  style.PolyStyle = PolyStyle(0,0,0,0,1,1)
+  style.LineStyle = LineStyle(255,255,255,255,2.0)
+  placemark = kml.genxml.Placemark()
+  placemark.name = name
+  placemark.Add_Style(style.xml())
+  placemark.Geometry = PolygonBox(n,s,e,w,0)
+  return placemark.xml()
 
 
 def LatLonBox(n,s,e,w):
