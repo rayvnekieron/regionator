@@ -93,7 +93,7 @@ class SuperOverlayKML:
 
   # 1) create/init
   def __init__(self,rootregion,tiles,maxdepth,fmt,base_draworder,dir,
-                                                         timeprimitive,altitude):
+                                                         timeprimitive,altitude=None):
     self.__rootregion = rootregion
     self.__kmlhandler = SuperOverlayKMLRegionHandler(tiles,maxdepth,fmt,base_draworder)
     self.__rtor = kml.regionator.Regionator()
