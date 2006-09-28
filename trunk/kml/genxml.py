@@ -373,13 +373,16 @@ class Link(Object):
   def Set_href(self, href):
     self.__href = href
 
+  def Get_href(self):
+    return self.__href
+
   def Set_viewRefreshMode(self, viewRefreshMode):
     self.__viewRefreshMode = viewRefreshMode
 
   def Set_viewRefreshTime(self, viewRefreshTime):
     self.__viewRefreshTime = viewRefreshTime
 
-  href = property(fset=Set_href)
+  href = property(fset=Set_href, fget=Get_href)
   viewRefreshMode = property(fset=Set_viewRefreshMode)
   viewRefreshTime = property(fset=Set_viewRefreshTime)
 
@@ -467,22 +470,38 @@ class LatLonBox(Object):
     """ string """
     self.__north = north
 
+  def Get_north(self):
+    """ string """
+    return self.__north
+
   def Set_south(self, south):
     """ string """
     self.__south = south
+
+  def Get_south(self):
+    """ string """
+    return self.__south
 
   def Set_east(self, east):
     """ string """
     self.__east = east
 
+  def Get_east(self):
+    """ string """
+    return self.__east
+
   def Set_west(self, west):
     """ string """
     self.__west = west
 
-  north = property(fset=Set_north)
-  south = property(fset=Set_south)
-  east = property(fset=Set_east)
-  west = property(fset=Set_west)
+  def Get_west(self):
+    """ string """
+    return self.__west
+
+  north = property(fset=Set_north,fget=Get_north)
+  south = property(fset=Set_south,fget=Get_south)
+  east = property(fset=Set_east,fget=Get_east)
+  west = property(fset=Set_west,fget=Get_west)
 
   def elements(self):
     el = Object.elements(self)
@@ -959,11 +978,14 @@ class Overlay(Feature):
   def Set_drawOrder(self, drawOrder):
     self.__drawOrder = drawOrder
 
+  def Get_drawOrder(self):
+    return self.__drawOrder
+
   def Set_Icon(self, Icon):
     self.__Icon = Icon
 
   color = property(fset=Set_color)
-  drawOrder = property(fset=Set_drawOrder)
+  drawOrder = property(fset=Set_drawOrder, fget=Get_drawOrder)
   Icon = property(fset=Set_Icon)
 
   def elements(self):
@@ -983,14 +1005,30 @@ class Overlay(Feature):
 
 class GroundOverlay(Overlay):
 
-  def __init(self):
+  def __init__(self):
     Overlay.__init__(self)
     self.__latlonbox = None
+    self.__altitude = None
+    self.__altitudeMode = None
 
   def Set_LatLonBox(self, latlonbox):
     self.__latlonbox = latlonbox
 
+  def Set_altitude(self, altitude):
+    self.__altitude = altitude
+
+  def Get_altitude(self):
+    return self.__altitude
+
+  def Set_altitudeMode(self, altitudeMode):
+    self.__altitudeMode = altitudeMode
+
+  def Get_altitudeMode(self):
+    return self.__altitudeMode
+
   LatLonBox = property(fset=Set_LatLonBox)
+  altitude = property(fset=Set_altitude,fget=Get_altitude)
+  altitudeMode = property(fset=Set_altitudeMode,fget=Get_altitudeMode)
 
   def xml(self):
     al = self.attributes()
@@ -1479,11 +1517,17 @@ class TimeSpan(Object):
   def Set_begin(self, begin):
     self.__begin = begin
 
+  def Get_begin(self):
+    return self.__begin
+
   def Set_end(self, end):
     self.__end = end
 
-  begin = property(fset=Set_begin)
-  end = property(fset=Set_end)
+  def Get_end(self):
+    return self.__end
+
+  begin = property(fset=Set_begin,fget=Get_begin)
+  end = property(fset=Set_end,fget=Get_end)
 
   def elements(self):
     el = []

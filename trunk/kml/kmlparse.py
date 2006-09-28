@@ -29,6 +29,7 @@ Some utilities to parse and analyze KML
 import xml.dom.minidom
 
 import kml.coordbox
+import kml.genxml
 
 
 def GetText(node):
@@ -122,6 +123,112 @@ class KMLParse:
       k.append(schema.toxml())
     return "".join(k)
 
+
+  def ExtractLatLonBox(self):
+
+    """ Returns first LatLonBox
+
+    Returns:
+      kml.genxml.LatLonBox
+    """
+
+    llbs = self.__doc.getElementsByTagName('LatLonBox')
+    if not llbs:
+      return None
+
+    latlonbox = kml.genxml.LatLonBox()
+
+    llb = llbs[0]
+    north = llb.getElementsByTagName('north')
+    latlonbox.north = GetText(north[0])
+
+    south = llb.getElementsByTagName('south')
+    latlonbox.south = GetText(south[0])
+
+    east = llb.getElementsByTagName('east')
+    latlonbox.east = GetText(east[0])
+
+    west = llb.getElementsByTagName('west')
+    latlonbox.west = GetText(west[0])
+
+    return latlonbox
+
+
+  def ExtractTimeSpan(self):
+
+    """ Returns first TimeSpan
+
+    Returns:
+      kml.genxml.TimeSpan
+    """
+
+    tss = self.__doc.getElementsByTagName('TimeSpan')
+    if not tss:
+      return None
+
+    timespan = kml.genxml.TimeSpan()
+
+    ts = tss[0]
+    begin = ts.getElementsByTagName('begin')
+    timespan.begin = GetText(begin[0])
+
+    end = ts.getElementsByTagName('end')
+    timespan.end = GetText(end[0])
+
+    return timespan
+
+
+  def ExtractIcon(self):
+
+    """ Returns first Icon
+
+    Returns:
+      kml.genxml.Icon
+    """
+
+    icons = self.__doc.getElementsByTagName('Icon')
+    if not icons:
+      return None
+
+    icon = kml.genxml.Icon()
+
+    i = icons[0]
+    href = i.getElementsByTagName('href')
+    if href:
+      icon.href = GetText(href[0])
+
+    return icon
+
+
+  def ExtractGroundOverlay(self):
+
+    """ Returns first GroundOverlay
+
+    Returns:
+      kml.genxml.GroundOverlay
+    """
+
+    gos = self.__doc.getElementsByTagName('GroundOverlay')
+    if not gos:
+      return None
+
+    groundoverlay = kml.genxml.GroundOverlay()
+
+    go = gos[0]
+
+    drawOrder = go.getElementsByTagName('drawOrder')
+    if drawOrder:
+      groundoverlay.drawOrder = GetText(drawOrder[0])
+
+    altitude = go.getElementsByTagName('altitude')
+    if altitude:
+      groundoverlay.altitude = GetText(altitude[0])
+
+    altitudeMode = go.getElementsByTagName('altitudeMode')
+    if altitudeMode:
+      groundoverlay.altitudeMode = GetText(altitudeMode[0])
+      
+    return groundoverlay
 
 
 def ParseLocation(loc):
