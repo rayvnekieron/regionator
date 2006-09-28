@@ -30,12 +30,13 @@ import kml.superoverlaykml
 import kml.superoverlaytiles
 import kml.tile
 import kml.version
+import kml.kmlparse
 
-def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None, begin=None, end=None):
+def SuperOverlay(imagefile, root, dir, gofile=None):
 
   """This creates a SuperOverlay.
 
-  This creates a Region-based NetworkLink hierarchy of KML GroundOverlays
+  A SuperOverlay is a Region-based NetworkLink hierarchy of KML GroundOverlays
   from the given image at the specified location.  The image file is
   not altered.
 
@@ -47,6 +48,19 @@ def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None, begin=Non
   If the input image is not a geotiff the image bounding box
   must be supplied.
 
+  If a KML file with a GroundOverlay is defined the values found there
+  for LatLonBox north, south, east, and west, and/or TimeSpan begin,end,
+  and/or GroundOverlay drawOrder, altitude, altitudeMode are used
+  in creation of the SuperOverlay.  The Icon/href is ignored and as such
+  this GroundOverlay KML file can be used for planning purpose likely
+  with a downsampled version of the image.
+
+  Note that the drawOrder is the drawOrder of the coarsest tile and that
+  each level of finer detail is drawn with a higher drawOrder.  To specify
+  an overall drawOrder of multiple SuperOverlays the "base" drawOrder of each
+  must be properly spaced for best results.  A very large SuperOverlay can
+  use 20+ levels of imagery.
+ 
   The specified output directory must not already exist.
   All links between KML and image tiles within this directory
   are relative such that the directory can be used either
@@ -77,19 +91,42 @@ def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None, begin=Non
     imagefile: image file
     root: where to store root KML
     dir: where to store KML hierarchy and image tiles
-    n,s,e,w: edges of image, not required if img is geotiff
+    gofile: groundoverlay.kml for LatLonBox, TimeSpan and/or altitude
 
   Returns:
     bool: True on complete success, False on any failure
   """
 
   print 'version',kml.version.Revision()
-  
-  os.makedirs(dir)
-  
+
+  # Phase 0 - parse arguments
+
   image = kml.image.Image(imagefile)
-  if n and s and e and w:
-    image.SetNSEW(n,s,e,w)
+
+  base_draworder = 1
+  altitude = None
+  timeprimitive = None
+  if gofile:
+    kmldoc = kml.kmlparse.KMLParse(gofile)
+
+    # if there's a LatLonBox use it
+    latlonbox = kmldoc.ExtractLatLonBox()
+    if latlonbox:
+      n = float(latlonbox.north)
+      s = float(latlonbox.south)
+      e = float(latlonbox.east)
+      w = float(latlonbox.west)
+      image.SetNSEW(n, s, e, w)
+
+    groundoverlay = kmldoc.ExtractGroundOverlay()
+    if groundoverlay.drawOrder:
+      base_drawoder = groundoverlay.drawOrder
+    if groundoverlay.altitude and groundoverlay.altitudeMode == 'absolute':
+      altitude = int(groundoverlay.altitude)
+
+    timespan = kmldoc.ExtractTimeSpan()
+    if timespan:
+      timeprimitive = timespan.xml()
   
   if not image.ValidNSEW():
     (n,s,e,w) = image.NSEW()
@@ -114,13 +151,10 @@ def SuperOverlay(imagefile, root, dir, n=None, s=None, e=None, w=None, begin=Non
   tiles = superoverlayinfo.Tiles()
   
   # Phase 2 - generate the KML
+
+  os.makedirs(dir)
   
-  base_draworder = 1
-  if begin and end:
-    timeprimitive = kml.genkml.TimeSpan(begin,end)
-  else:
-    timeprimitive = None
-  superoverlaykml = kml.superoverlaykml.SuperOverlayKML(rootregion,tiles,maxdepth,fmt,base_draworder,dir,timeprimitive=timeprimitive)
+  superoverlaykml = kml.superoverlaykml.SuperOverlayKML(rootregion,tiles,maxdepth,fmt,base_draworder,dir,timeprimitive=timeprimitive,altitude=altitude)
   superoverlaykml.Regionate()
   
   # debug linestring boxes
