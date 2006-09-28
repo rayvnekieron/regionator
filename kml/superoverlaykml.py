@@ -41,6 +41,12 @@ class SuperOverlayKMLRegionHandler(kml.regionhandler.RegionHandler):
     self.__maxdepth = maxdepth
     self.__fmt = fmt
     self.__base_draworder = base_draworder
+    self.__altitude = None
+    self.__altitudeMode = None
+
+  def SetAltitude(self, altitude):
+    self.__altitude = altitude
+    self.__altitudeMode = 'absolute'
 
   def Start(self,region):
     if self.__tiles.has_key(region.Qid()):
@@ -63,13 +69,31 @@ class SuperOverlayKMLRegionHandler(kml.regionhandler.RegionHandler):
     href = '%s.%s' % (region.Id(),self.__fmt)
     draworder = self.__base_draworder + region.Depth()
 
-    return kml.genkml.GroundOverlay(n,s,e,w,href,draworder)
+    groundoverlay = kml.genxml.GroundOverlay()
+
+    latlonboxkml = kml.genkml.LatLonBox(n,s,e,w)
+    groundoverlay.LatLonBox = latlonboxkml
+
+    icon = kml.genxml.Icon()
+    icon.href = href
+    groundoverlay.Icon = icon.xml()
+
+    groundoverlay.drawOrder = draworder
+
+    if self.__altitude:
+      groundoverlay.altitude = self.__altitude
+
+    if self.__altitudeMode:
+      groundoverlay.altitudeMode = self.__altitudeMode
+
+    return groundoverlay.xml()
 
 
 class SuperOverlayKML:
 
   # 1) create/init
-  def __init__(self,rootregion,tiles,maxdepth,fmt,base_draworder,dir,timeprimitive):
+  def __init__(self,rootregion,tiles,maxdepth,fmt,base_draworder,dir,
+                                                         timeprimitive,altitude):
     self.__rootregion = rootregion
     self.__kmlhandler = SuperOverlayKMLRegionHandler(tiles,maxdepth,fmt,base_draworder)
     self.__rtor = kml.regionator.Regionator()
@@ -77,6 +101,8 @@ class SuperOverlayKML:
     self.__rtor.SetOutputDir(dir)
     if timeprimitive:
       self.__rtor.SetTimePrimitive(timeprimitive)
+    if altitude:
+      self.__kmlhandler.SetAltitude(altitude)
 
   # 2) regionate
   def Regionate(self):
