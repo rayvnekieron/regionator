@@ -57,3 +57,4 @@ tests/testhref.py
 tests/testxml.py
 tests/testkml.py
 tests/testmkroot.py
+tests/testparse.py
