@@ -28,25 +28,19 @@ import sys
 import kml.superoverlay
 
 argc = len(sys.argv)
-if argc != 4 and argc != 6 and argc != 8:
+if argc != 4 and argc != 5:
   print 'usage: %s image.gtif root.kml dir' % sys.argv[0]
-  print 'usage: %s image.gtif root.kml dir begin end' % sys.argv[0]
-  print 'usage: %s imagefile root.kml dir n s e w' % sys.argv[0]
+  print 'usage: %s imagefile go.kml root.kml dir' % sys.argv[0]
   sys.exit(1)
 
 imagefile = sys.argv[1]
-root = sys.argv[2]
-dir = sys.argv[3]
 
-if argc == 6:
-  begin = sys.argv[4]
-  end = sys.argv[5]
-  kml.superoverlay.SuperOverlay(imagefile, root, dir, begin=begin, end=end)
-elif argc == 8:
-  north = float(sys.argv[4])
-  south = float(sys.argv[5])
-  east = float(sys.argv[6])
-  west = float(sys.argv[7])
-  kml.superoverlay.SuperOverlay(imagefile, root, dir, north, south, east, west)
+if argc == 5:
+  gokml = sys.argv[2]
+  root = sys.argv[3]
+  dir = sys.argv[4]
+  kml.superoverlay.SuperOverlay(imagefile, root, dir, gofile=gokml)
 else:
+  root = sys.argv[2]
+  dir = sys.argv[3]
   kml.superoverlay.SuperOverlay(imagefile, root, dir)
