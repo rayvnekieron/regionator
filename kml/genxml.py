@@ -1033,6 +1033,10 @@ class GroundOverlay(Overlay):
   def xml(self):
     al = self.attributes()
     el = self.elements()
+    if self.__altitude:
+      el.append(('altitude',self.__altitude))
+    if self.__altitudeMode:
+      el.append(('altitudeMode',self.__altitudeMode))
     children = Overlay.children(self)
     if self.__latlonbox:
       children.append(self.__latlonbox)
