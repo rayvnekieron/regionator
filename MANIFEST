@@ -59,3 +59,10 @@ tests/testkml.py
 tests/testmkroot.py
 tests/testparse.py
 tests/go.kml
+tests/ testsuperoverlay.sh
+tests/ksc-llb-a.kml
+tests/ksc-llb-d.kml
+tests/NASA_KSC.jpg
+tests/ksc-llb-0.kml
+tests/ksc-llb-3.kml
+tests/ksc-llb-t.kml
