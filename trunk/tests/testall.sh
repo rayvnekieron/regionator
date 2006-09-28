@@ -23,4 +23,5 @@
 ./prversion.py
 sh testclean.sh
 sh tests.sh
+sh testsuperoverlay.sh
 ./prversion.py

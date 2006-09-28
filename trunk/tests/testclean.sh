@@ -33,3 +33,9 @@ rm -f screeno.kml screeno*.jpg
 rm -f gridso.kml gridso*.jpg
 rm -rf mv-polys
 rm -f terra.kml terra_e.jpg terra_w.jpg
+rm -rf llb-0.kml llb-0
+rm -rf llb-d.kml llb-d
+rm -rf llb-a.kml llb-a
+rm -rf llb-t.kml llb-t
+rm -rf llb-3.kml llb-3
+

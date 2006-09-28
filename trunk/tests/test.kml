@@ -175,5 +175,45 @@ exactly the same images.
 </Link>
 </NetworkLink>
 
+<NetworkLink>
+<name>Basic SuperOverlay</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-0.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay with non-default drawOrder</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-d.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay with TimeSpan</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-t.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay at altitude</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-a.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay with time, altitude and drawOrder</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-3.kml</href>
+</Link>
+</NetworkLink>
+
 </Folder>
 </kml>
