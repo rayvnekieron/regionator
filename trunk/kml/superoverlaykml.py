@@ -99,9 +99,19 @@ class SuperOverlayKML:
     self.__rtor = kml.regionator.Regionator()
     self.__rtor.SetRegionHandler(self.__kmlhandler)
     self.__rtor.SetOutputDir(dir)
+
     if timeprimitive:
       self.__rtor.SetTimePrimitive(timeprimitive)
+
     if altitude:
+
+      # for Region LatLonAltBox minAltitude/maxAltitude/altitudeMode
+      alt = float(altitude)
+      minalt = alt/2.0
+      maxalt = minalt + alt
+      self.__rtor.SetAltitude(minalt, maxalt)
+
+      # for GroundOverlay altitude/altitudeMode
       self.__kmlhandler.SetAltitude(altitude)
 
   # 2) regionate
