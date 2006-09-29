@@ -50,8 +50,13 @@ class Regionator:
   def __init__(self):
     self._region_handler = kml.regionhandler.RegionHandler()
     self.__rootregion = 0
-    self.__minfade = 0
-    self.__maxfade = 0
+
+    self.__minFadeExtent = None
+    self.__maxFadeExtent = None
+
+    self.__minAltitude = None
+    self.__maxAltitude = None
+    self.__altitudeMode = None
 
     self.__dir = ''
 
@@ -63,6 +68,7 @@ class Regionator:
     self.__qidlist = []
 
     self.__timeprimitive = None
+
 
 
   def SetRegionHandler(self,handler):
@@ -88,12 +94,17 @@ class Regionator:
 
     self.__dir = dir
 
-  def SetFade(self,minfade,maxfade):
-    self.__minfade = minfade
-    self.__maxfade = maxfade
+  def SetFade(self, minfade, maxfade):
+    self.__minFadeExtent = minfade
+    self.__maxFadeExtent = maxfade
 
   def SetTimePrimitive(self, tp):
     self.__timeprimitive = tp
+
+  def SetAltitude(self, minalt, maxalt, altmode='absolute'):
+    self.__minAltitude = minalt
+    self.__maxAltitude = maxalt
+    self.__altitudeMode = altmode
 
   # Recurse on child regions returning a list
   # of children with data.
@@ -153,10 +164,33 @@ class Regionator:
 
     (n,s,e,w) = region.NSEWstring()
     (minpx,maxpx) = rhandler.PixelLod(region)
-    minfade = self.__minfade
-    maxfade = self.__maxfade
-    regionxml = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx,minfade=minfade,maxfade=maxfade)
-    document.Region = regionxml
+    # minfade = self.__minfadalititude
+    # maxfade = self.__maxfade
+    # regionxml = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx,minfade=minfade,maxfade=maxfade)
+
+    llab = kml.genxml.LatLonAltBox()
+    llab.north = n
+    llab.south = s
+    llab.east = e
+    llab.west = w
+    if self.__minAltitude and self.__maxAltitude and self.__altitudeMode:
+      llab.altitudeMode = self.__altitudeMode
+      llab.minAltitude = self.__minAltitude
+      llab.maxAltitude = self.__maxAltitude
+
+    lod = kml.genxml.Lod()
+    lod.minLodPixels = minpx
+    lod.maxLodPixels = maxpx
+    if self.__minFadeExtent:
+      lod.minFadeExtent = self.__minFadeExtent
+    if self.__maxFadeExtent:
+      lod.maxFadeExtent = self.__maxFadeExtent
+
+    r = kml.genxml.Region()
+    r.Lod = lod.xml()
+    r.LatLonAltBox = llab.xml()
+    
+    document.Region = r.xml()
 
     # The Features of the region's Document: NetworkLinks and data
 
@@ -165,12 +199,40 @@ class Regionator:
     thisdepth = region.Depth()
     if thisdepth > self.__maxdepth:
       self.__maxdepth = thisdepth
+
     for r in children:
-      (minpx,maxpx) = rhandler.PixelLod(r)
+
+      networklink = kml.genxml.NetworkLink()
+      networklink.name = r.Qid()
+
+      link = kml.genxml.Link()
+      link.href = self._RegionFilename(r)
+      link.viewRefreshMode = 'onRegion'
+      networklink.Link = link.xml()
+
+      nlregion = kml.genxml.Region()
+      llab = kml.genxml.LatLonAltBox()
       (n,s,e,w) = r.NSEWstring()
-      href = self._RegionFilename(r)
-      nl = kml.genkml.RegionNetworkLink(n,s,e,w,r.Qid(),href,minpx,maxpx)
-      document.Add_Feature(nl)
+      llab.north = n
+      llab.south = s
+      llab.east = e
+      llab.west = w
+      if self.__minAltitude and self.__maxAltitude and self.__altitudeMode:
+        llab.altitudeMode = self.__altitudeMode
+        llab.minAltitude = self.__minAltitude
+        llab.maxAltitude = self.__maxAltitude
+
+      lod = kml.genxml.Lod()
+      (minpx,maxpx) = rhandler.PixelLod(r)
+      lod.minLodPixels = minpx
+      lod.maxLodPixels = -1 # else parents
+      
+      nlregion.Lod = lod.xml()
+      nlregion.LatLonAltBox = llab.xml()
+
+      networklink.Region = nlregion.xml()
+
+      document.Add_Feature(networklink.xml())
         
     # 3) data (Features) for this region
     
