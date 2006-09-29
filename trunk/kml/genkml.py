@@ -269,6 +269,13 @@ def LatLonBox(n,s,e,w):
 def Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0):
 
   """<Region>...</Region>
+
+  Args:
+    NOTE: all args are _string_ representations of the floating point values
+    n,s,e,w: geographic bounding box
+    minalt,maxalt: minAltitude,maxAltitude
+    minpx,maxpx: minLodPixels,maxLodPixels
+    minfade,maxfade: minFadePixels,maxFadePixels
   """
 
   latlonaltbox = kml.genxml.LatLonAltBox()
@@ -276,6 +283,10 @@ def Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0):
   latlonaltbox.south = s
   latlonaltbox.east = e
   latlonaltbox.west = w
+  if minalt:
+    latlonaltbox.minAltitude = minalt
+  if maxalt:
+    latlonaltbox.maxAltitude = maxalt
 
   lod = kml.genxml.Lod()
   lod.minLodPixels = minpx
