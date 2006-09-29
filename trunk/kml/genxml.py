@@ -369,6 +369,7 @@ class Link(Object):
     self.__href = None
     self.__viewRefreshMode = None
     self.__viewRefreshTime = None
+    self.__viewFormat = None
 
   def Set_href(self, href):
     self.__href = href
@@ -382,9 +383,13 @@ class Link(Object):
   def Set_viewRefreshTime(self, viewRefreshTime):
     self.__viewRefreshTime = viewRefreshTime
 
+  def Set_viewFormat(self, viewFormat):
+    self.__viewFormat = viewFormat
+
   href = property(fset=Set_href, fget=Get_href)
   viewRefreshMode = property(fset=Set_viewRefreshMode)
   viewRefreshTime = property(fset=Set_viewRefreshTime)
+  viewFormat = property(fset=Set_viewFormat)
 
   def elements(self):
     el = Object.elements(self)
@@ -394,12 +399,22 @@ class Link(Object):
       el.append(('viewRefreshMode',self.__viewRefreshMode))
     if self.__viewRefreshTime:
       el.append(('viewRefreshTime',self.__viewRefreshTime))
+    if self.__viewFormat:
+      el.append(('viewFormat',self.__viewFormat))
     return el
+
+  def children(self):
+    children = []
+    # hack to generate an empty <viewFormat/> if no viewFormat params specified
+    if not self.__viewFormat:
+      children.append(ComplexElement('viewFormat', None, None, None, None))
+    return "".join(children)
 
   def xml(self):
     al = self.attributes()
     el = self.elements()
-    return ComplexElement('Link', al, None, el, None)
+    children = self.children()
+    return ComplexElement('Link', al, None, el, children)
 
 
 class Icon(Link):
