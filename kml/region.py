@@ -38,6 +38,10 @@ class Region:
   def __init__(self,n,s,e,w,qid):
 
     """ Create a Region at the given location and node id.
+
+    Args:
+      n,s,e,w: float
+      qid: string
     """
 
     self.__n = n
@@ -56,7 +60,24 @@ class Region:
     return self.__id
 
   def NSEW(self):
+
+    """ Return bounding box as float tuple
+
+    Returns:
+      (n,s,e,w): floats
+    """
+
     return (self.__n,self.__s,self.__e,self.__w)
+
+  def NSEWstring(self):
+
+    """ Return bounding box as string tuple
+
+    Returns:
+      (n,s,e,w): strings
+    """
+
+    return (repr(self.__n),repr(self.__s),repr(self.__e),repr(self.__w))
 
   def ResetQid(self,qid):
     self.__qid = qid
