@@ -29,6 +29,7 @@ rm -rf usboxes
 rm -rf pmroot.kml pm
 rm -rf lsroot.kml ls
 rm -f outline.kml
+rm -f folder-regions.kml
 rm -f screeno.kml screeno*.jpg
 rm -f gridso.kml gridso*.jpg
 rm -rf mv-polys
