@@ -151,7 +151,7 @@ class Regionator:
 
     document.TimePrimitive = self.__timeprimitive
 
-    (n,s,e,w) = region.NSEW()
+    (n,s,e,w) = region.NSEWstring()
     (minpx,maxpx) = rhandler.PixelLod(region)
     minfade = self.__minfade
     maxfade = self.__maxfade
@@ -167,7 +167,7 @@ class Regionator:
       self.__maxdepth = thisdepth
     for r in children:
       (minpx,maxpx) = rhandler.PixelLod(r)
-      (n,s,e,w) = r.NSEW()
+      (n,s,e,w) = r.NSEWstring()
       href = self._RegionFilename(r)
       nl = kml.genkml.RegionNetworkLink(n,s,e,w,r.Qid(),href,minpx,maxpx)
       document.Add_Feature(nl)
@@ -277,10 +277,10 @@ def MakeRootKML(rootkml,region,lod,dir):
 
   link = kml.genxml.Link()
   link.href = '%s/1.kml' % dir
+  link.viewRefreshMode = 'onRegion'
 
-  (n,s,e,w) = region.NSEW()
-  maxpixels = -1
-  regionxml = kml.genkml.Region(n,s,e,w,lod,maxpixels)
+  (n,s,e,w) = region.NSEWstring()
+  regionxml = kml.genkml.Region(n,s,e,w,lod,minpx=lod,maxpx=-1)
 
   networklink = kml.genxml.NetworkLink()
   networklink.Link = link.xml()
