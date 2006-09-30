@@ -160,6 +160,30 @@ document.Add_Style(kml.genkml.CheckHideChildren('hidekids0'))
 placemarkboxkml =  kml.genkml.Box(20,-20,10,-10,'lsbox','#thatstyle')
 document.Add_Feature(placemarkboxkml)
 
+model = kml.genxml.Model()
+location = kml.genxml.Location()
+location.longitude = '123'
+location.latitude = '23'
+location.altitude = '2300'
+model.Location = location.xml()
+orientation = kml.genxml.Orientation()
+orientation.heading = '90'
+orientation.tilt = '45'
+orientation.roll = '20'
+model.Orientation = orientation.xml()
+scale = kml.genxml.Scale()
+scale.x = '1.2'
+scale.y = '.8'
+scale.z = '2.6'
+model.Scale = scale.xml()
+link = kml.genxml.Link()
+link.href = 'foo.dae'
+model.Link = link.xml()
+
+placemark = kml.genxml.Placemark()
+placemark.Geometry = model.xml()
+document.Add_Feature(placemark.xml())
+
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
 k.Feature = document.xml()

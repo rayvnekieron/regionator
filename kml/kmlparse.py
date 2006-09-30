@@ -52,7 +52,7 @@ def GetText(node):
 
 class KMLParse:
 
-  """Manage a DOM parse a KML file
+  """DOM parse a KML file
 
   """
 
@@ -231,26 +231,96 @@ class KMLParse:
     return groundoverlay
 
 
-def ParseLocation(loc):
+  def ExtractLocation(self):
 
-  """Parse <Location>
+    """ Returns first Location
 
-  Args:
-    loc: DOM node for <Location>
+    Returns:
+      kml.genxml.Location
+    """
 
-  Returns:
-    (lon,lat): <longitude>,<latitude> as float
+    locs = self.__doc.getElementsByTagName('Location')
+    if not locs:
+      return None
 
-  """
+    location = kml.genxml.Location()
 
-  lat = loc.getElementsByTagName('latitude')
-  if not lat:
-    return ''
-  lon = loc.getElementsByTagName('longitude')
-  if not lon:
-    return ''
-  latf = float(self.GetText(lat[0]))
-  lonf = float(self.GetText(lon[0]))
+    loc = locs[0]
 
-  return (lonf,latf)
+    # XXX finding lookat?
+    longitude = loc.getElementsByTagName('longitude')
+    if longitude:
+      location.longitude = GetText(longitude[0])
+
+    latitude = loc.getElementsByTagName('latitude')
+    if latitude:
+      location.latitude = GetText(latitude[0])
+
+    altitude = loc.getElementsByTagName('altitude')
+    if altitude:
+      location.altitude = GetText(altitude[0])
+
+    return location
+
+
+  def ExtractOrientation(self):
+
+    """ Returns first Orientation
+
+    Returns:
+      kml.genxml.Orientation
+    """
+
+    os = self.__doc.getElementsByTagName('Orientation')
+    if not os:
+      return None
+
+    orientation = kml.genxml.Orientation()
+
+    o = os[0]
+
+    heading = o.getElementsByTagName('heading')
+    if heading:
+      orientation.heading = GetText(heading[0])
+
+    tilt = o.getElementsByTagName('tilt')
+    if tilt:
+      orientation.tilt = GetText(tilt[0])
+
+    roll = o.getElementsByTagName('roll')
+    if roll:
+      orientation.roll = GetText(roll[0])
+
+    return orientation
+
+
+  def ExtractScale(self):
+
+    """ Returns first Scale
+
+    Returns:
+      kml.genxml.Scale
+    """
+
+    ss = self.__doc.getElementsByTagName('Scale')
+    if not ss:
+      return None
+
+    orientation = kml.genxml.Scale()
+
+    s = ss[0]
+
+    x = s.getElementsByTagName('x')
+    if x:
+      orientation.x = GetText(x[0])
+
+    y = s.getElementsByTagName('y')
+    if y:
+      orientation.y = GetText(y[0])
+
+    z = s.getElementsByTagName('z')
+    if z:
+      orientation.z = GetText(z[0])
+
+    return orientation
 

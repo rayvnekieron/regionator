@@ -1634,3 +1634,186 @@ class Change(object):
     return ComplexElement('Change', None, None, None, "".join(self.__objects))
 
 
+class Location(Object):
+
+  """<Location>...</Location>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__latitude = None
+    self.__longitude = None
+    self.__altitude = None
+
+  def Set_latitude(self, latitude):
+    self.__latitude = latitude
+
+  def Get_latitude(self):
+    return self.__latitude
+
+  def Set_longitude(self, longitude):
+    self.__longitude = longitude
+
+  def Get_longitude(self):
+    return self.__longitude
+
+  def Set_altitude(self, altitude):
+    self.__altitude = altitude
+
+  def Get_altitude(self):
+    return self.__altitude
+
+  latitude = property(fset=Set_latitude, fget=Get_latitude)
+  longitude = property(fset=Set_longitude, fget=Get_longitude)
+  altitude = property(fset=Set_altitude, fget=Get_altitude)
+
+  def elements(self):
+    el = []
+    if self.__latitude:
+      el.append(('latitude',self.__latitude))
+    if self.__longitude:
+      el.append(('longitude',self.__longitude))
+    if self.__altitude:
+      el.append(('altitude',self.__altitude))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Location', al, None, el, None)
+
+      
+class Orientation(Object):
+  """     
+  """     
+  def __init__(self):
+    Object.__init__(self)
+    self.__heading = None
+    self.__tilt = None
+    self.__roll = None
+
+  def Set_heading(self, heading):
+    self.__heading = heading
+
+  def Get_heading(self):
+    return self.__heading
+
+  def Set_tilt(self, tilt):
+    self.__tilt = tilt
+
+  def Get_tilt(self):
+    return self.__tilt
+
+  def Set_roll(self, roll):
+    self.__roll = roll
+
+  def Get_roll(self):
+    return self.__roll
+
+  heading = property(fset=Set_heading, fget=Get_heading)
+  tilt = property(fset=Set_tilt, fget=Get_tilt)
+  roll = property(fset=Set_roll, fget=Get_roll)
+
+  def elements(self):
+    el = []
+    if self.__heading:
+      el.append(('heading',self.__heading))
+    if self.__tilt:
+      el.append(('tilt',self.__tilt))
+    if self.__roll:
+      el.append(('roll',self.__roll))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Orientation', al, None, el, None)
+          
+class Scale(Object):
+  """     
+  """  
+  def __init__(self):
+    Object.__init__(self)
+    self.__x = None
+    self.__y = None
+    self.__z = None
+
+  def Set_x(self, x):
+    self.__x = x
+
+  def Get_x(self):
+    return self.__x
+
+  def Set_y(self, y):
+    self.__y = y
+
+  def Get_y(self):
+    return self.__y
+
+  def Set_z(self, z):
+    self.__z = z
+
+  def Get_z(self):
+    return self.__z
+
+  x = property(fset=Set_x, fget=Get_x)
+  y = property(fset=Set_y, fget=Get_y)
+  z = property(fset=Set_z, fget=Get_z)
+
+  def elements(self):
+    el = []
+    if self.__x:
+      el.append(('x',self.__x))
+    if self.__y:
+      el.append(('y',self.__y))
+    if self.__z:
+      el.append(('z',self.__z))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Scale', al, None, el, None)
+     
+
+class Model(Object):
+
+  """<Model>...</Model>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__Location = None
+    self.__Orientation = None
+    self.__Scale = None
+    self.__Link = None
+
+  def Set_Location(self, Location):
+    self.__Location = Location
+
+  def Set_Orientation(self, Orientation):
+    self.__Orientation = Orientation
+
+  def Set_Scale(self, Scale):
+    self.__Scale = Scale
+
+  def Set_Link(self, Link):
+    self.__Link = Link
+
+  Location = property(fset=Set_Location)
+  Orientation = property(fset=Set_Orientation)
+  Scale = property(fset=Set_Scale)
+  Link = property(fset=Set_Link)
+
+  def xml(self):
+    al = self.attributes()
+    children = []
+    if self.__Location:
+      children.append(self.__Location)
+    if self.__Orientation:
+      children.append(self.__Orientation)
+    if self.__Scale:
+      children.append(self.__Scale)
+    if self.__Link:
+      children.append(self.__Link)
+    return ComplexElement('Model', al, None, None, "".join(children))

@@ -66,3 +66,5 @@ tests/NASA_KSC.jpg
 tests/ksc-llb-0.kml
 tests/ksc-llb-3.kml
 tests/ksc-llb-t.kml
+tests/testmodel.py
+tests/coit.kml
