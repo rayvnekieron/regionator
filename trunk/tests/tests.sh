@@ -47,5 +47,7 @@
 
 ./testgridso.py
 
+./testmodel.py coit.kml
+
 # requires internet capability (does WMS fetches)
 ./testwms.py
