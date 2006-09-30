@@ -247,7 +247,6 @@ class KMLParse:
 
     loc = locs[0]
 
-    # XXX finding lookat?
     longitude = loc.getElementsByTagName('longitude')
     if longitude:
       location.longitude = GetText(longitude[0])
