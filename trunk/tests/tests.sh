@@ -49,5 +49,7 @@
 
 ./testmodel.py coit.kml
 
+./testimage.py 
+
 # requires internet capability (does WMS fetches)
 ./testwms.py
