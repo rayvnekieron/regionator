@@ -208,12 +208,18 @@ class Image:
 
     Just a recommendation...
 
+    If GIF: GIF
     If 1 or 3 channels: JPEG
     If 4 channels (assumed to be RGBA): PNG
 
     Returns:
         'PNG' or 'JPEG'
     """
+
+    driver = self.__ds.GetDriver()
+    fmt = driver.GetDescription()
+    if fmt == 'GIF':
+      return 'GIF'
 
     count = self.__ds.RasterCount
     if count == 4:
