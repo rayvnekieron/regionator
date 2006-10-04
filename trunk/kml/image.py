@@ -211,6 +211,7 @@ class Image:
     If GIF: GIF
     If 1 or 3 channels: JPEG
     If 4 channels (assumed to be RGBA): PNG
+    Otherwise return the input format
 
     Returns:
         'PNG' or 'JPEG'
@@ -226,6 +227,6 @@ class Image:
         return 'PNG'
     if count == 3 or count == 1:
         return 'JPEG'
-    return ''
+    return fmt
 
     
