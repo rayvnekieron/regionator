@@ -139,4 +139,17 @@ n0333333 = kml.region.Grid('0333333')
 print '0312312',n0312312
 print '0333333',n0333333
 
+root = kml.region.RootRegion()
+kml_lon = -122.082163
+kml_lat =   37.420422
+max_depth = 18
+print 'SnapPoint',kml_lon,kml_lat
+ra = root.SnapPoint(kml_lon, kml_lat, max_depth)
+rb = kml.region.RootSnapPoint(kml_lon, kml_lat, max_depth)
+if ra.NSEW() != rb.NSEW():
+  print 'ERROR RootSnap failed'
+print ra.Depth(), ra.Qid()
+if ra.Depth() != max_depth:
+  print 'ERROR RootSnapPoint failed'
+
 print 'region Region ...end'
