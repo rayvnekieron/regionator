@@ -200,6 +200,18 @@ class Region:
     r = Region(n,s,e,w,'0')
     return self._Search(r)
 
+
+  def SnapPoint(self, lon, lat, maxdepth):
+    for q in ['0','1','2','3']:
+      c = self.Child(q)
+      if c.InRegion(lon, lat):
+        if maxdepth > 2:
+          return c.SnapPoint(lon, lat, maxdepth - 1)
+        return c
+    # watch that indent...
+    return None
+
+
   def Grid(self):
     return Grid(self.__qid)
 
@@ -212,6 +224,12 @@ def RootRegion():
 def RootSnap(n,s,e,w):
   root = RootRegion()
   r = root.Snap(n,s,e,w)
+  r.ResetQid('0')
+  return r
+
+def RootSnapPoint(lon, lat, maxdepth):
+  root = RootRegion()
+  r = root.SnapPoint(lon, lat, maxdepth)
   r.ResetQid('0')
   return r
 
