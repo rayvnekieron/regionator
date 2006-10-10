@@ -15,11 +15,13 @@ kp = kml.kmlparse.KMLParse(modelkml)
 location = kp.ExtractLocation()
 orientation = kp.ExtractOrientation()
 scale = kp.ExtractScale()
+link = kp.ExtractLink()
 
 model = kml.genxml.Model()
 model.Location = location.xml()
 model.Orientation = orientation.xml()
 model.Scale = scale.xml()
+model.Link = link.xml()
 print model.xml()
 
 

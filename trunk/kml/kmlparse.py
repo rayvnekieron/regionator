@@ -200,6 +200,28 @@ class KMLParse:
     return icon
 
 
+  def ExtractLink(self):
+
+    """ Returns first Icon
+
+    Returns:
+      kml.genxml.Link
+    """
+
+    links = self.__doc.getElementsByTagName('Link')
+    if not links:
+      return None
+
+    link = kml.genxml.Link()
+
+    l = links[0]
+    href = l.getElementsByTagName('href')
+    if href:
+      link.href = GetText(href[0])
+
+    return link
+
+
   def ExtractGroundOverlay(self):
 
     """ Returns first GroundOverlay
