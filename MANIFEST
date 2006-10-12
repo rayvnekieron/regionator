@@ -27,6 +27,7 @@ kml/tile.py
 kml/dashboard.py
 kml/hierfile.py
 kml/wms.py
+kml/cgiregion.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
