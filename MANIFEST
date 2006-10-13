@@ -1,5 +1,6 @@
 README
 ./setup.py
+kml/svnversion.py
 kml/__init__.py
 kml/version.py
 kml/coordbox.py
