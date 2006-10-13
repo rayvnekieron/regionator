@@ -238,6 +238,15 @@ placemark.name = 'new name'
 change_pm42.Add_Object(placemark.xml())
 update.Add_Operation(change_pm42.xml())
 
+create_pmabc = kml.genxml.Create()
+folder = kml.genxml.Folder()
+folder.targetId = 'targetfolder'
+placemark = kml.genxml.Placemark()
+placemark.name = 'created Placemark'
+folder.Add_Feature(placemark.xml())
+create_pmabc.Folder = folder.xml()
+update.Add_Operation(create_pmabc.xml())
+
 networklinkcontrol = kml.genxml.NetworkLinkControl()
 networklinkcontrol.Update = update.xml()
 

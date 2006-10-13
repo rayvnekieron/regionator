@@ -1634,6 +1634,21 @@ class Change(object):
     return ComplexElement('Change', None, None, None, "".join(self.__objects))
 
 
+class Create(object):
+
+  def __init__(self):
+    self.__objects = []
+    self.__folder = None
+
+  def Set_folder(self, folder):
+    self.__folder = folder
+
+  Folder = property(fset=Set_folder)
+
+  def xml(self):
+    return ComplexElement('Create', None, None, None, self.__folder)
+
+
 class Location(Object):
 
   """<Location>...</Location>
