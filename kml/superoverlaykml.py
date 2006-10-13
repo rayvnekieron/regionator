@@ -106,10 +106,8 @@ class SuperOverlayKML:
     if altitude:
 
       # for Region LatLonAltBox minAltitude/maxAltitude/altitudeMode
-      alt = float(altitude)
-      minalt = alt/2.0
-      maxalt = minalt + alt
-      self.__rtor.SetAltitude(minalt, maxalt)
+      # Region for GroundOverlays: minAltitude = maxAltitude = altitude
+      self.__rtor.SetAltitude(altitude, altitude)
 
       # for GroundOverlay altitude/altitudeMode
       self.__kmlhandler.SetAltitude(altitude)
