@@ -26,7 +26,7 @@ import os
 import distutils.core
 
 def SVNVersion():
-  svnversioncmd = os.popen('svnversion -n')
+  svnversioncmd = os.popen('svnversion -n .')
   svnversion = svnversioncmd.read()
 
   f = open('kml/svnversion.py','w')
