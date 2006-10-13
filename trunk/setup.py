@@ -22,14 +22,17 @@ $Revision$
 $Date$
 """
 
-import sys
+import os
 import distutils.core
 
-sys.path.insert(0,'./kml') # pick up kml/version.py
+def SVNVersion():
+  svnversioncmd = os.popen('svnversion -n')
+  svnversion = svnversioncmd.read()
 
-import version
-
-v = version.Revision()
+  f = open('kml/svnversion.py','w')
+  f.write('svnversion = "%s"\n' % svnversion)
+  f.close()
+  return svnversion
 
 script_list = [
   'scripts/superoverlay.py',
@@ -39,7 +42,7 @@ script_list = [
 ]
 
 distutils.core.setup(name='kml',
-  version='%s' % v,
+  version='%s' % SVNVersion(),
   description='KML Regionator',
   packages=['kml'],
   scripts=script_list

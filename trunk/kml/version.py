@@ -20,13 +20,8 @@ $Revision$
 $Date$
 """
 
-revision = '$Revision$'
+import kml.svnversion
 
 def Revision():
-  s = revision.split(':')
-  if s and len(s) == 2:
-    s = s[1].split('$')
-    if s:
-      return '%s-BETA' % s[0].strip()
-  return 'XXX'
+  return kml.svnversion.svnversion
 
