@@ -334,6 +334,7 @@ def MakeRootKML(rootkml,region,lod,dir):
   Args:
     rootkml - name of file to create
     region - region of root of hierarchy
+    lod - minLodPixels
     dir - hierarchy directory
   """
 
@@ -342,7 +343,7 @@ def MakeRootKML(rootkml,region,lod,dir):
   link.viewRefreshMode = 'onRegion'
 
   (n,s,e,w) = region.NSEWstring()
-  regionxml = kml.genkml.Region(n,s,e,w,lod,minpx=lod,maxpx=-1)
+  regionxml = kml.genkml.Region(n,s,e,w,minpx=lod,maxpx=-1)
 
   networklink = kml.genxml.NetworkLink()
   networklink.Link = link.xml()
