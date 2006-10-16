@@ -76,5 +76,10 @@ if latlonaltbox.maxAltitude != '100001':
 if latlonaltbox.altitudeMode != 'absolute':
   print 'ERROR in ExtractLatLonAltBox.altitudeMode',latlonaltbox.altitudeMode
 
+kp = kml.kmlparse.KMLParse('ksc-llb-0.kml')
+latlonaltbox = kp.ExtractLatLonAltBox()
+if latlonaltbox:
+  print 'ERROR in ExtractLatLonAltBox, no such expected'
+
 print 'test kml.kmlparse.KMLParse go.kml ... done'
 
