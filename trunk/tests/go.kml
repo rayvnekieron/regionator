@@ -33,15 +33,15 @@ $Date$
     <href>foo.jpg</href>
   </Icon>
 
+  <altitude>100000</altitude>
+  <altitudeMode>relativeToGround</altitudeMode>
+
   <LatLonBox>
     <north>20</north>
     <south>-20</south>
     <east>20</east>
     <west>-20</west>
   </LatLonBox>
-
-  <altitude>100000</altitude>
-  <altitudeMode>relativeToGround</altitudeMode>
 
 </GroundOverlay>
 </kml>

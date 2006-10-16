@@ -26,15 +26,15 @@ $Date$
     <href>NASA_KSC.jpg</href>
   </Icon>
 
+  <altitude>100000</altitude>
+  <altitudeMode>absolute</altitudeMode>
+
   <LatLonBox>
     <north>28.61950682000437</north>
     <south>28.3816904168634</south>
     <east>-80.50658750810825</east>
     <west>-80.77730563832129</west>
   </LatLonBox>
-
-  <altitude>100000</altitude>
-  <altitudeMode>absolute</altitudeMode>
 
 </GroundOverlay>
 </kml>
