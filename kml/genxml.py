@@ -481,6 +481,9 @@ class LatLonBox(Object):
     self.__east = repr(e)
     self.__west = repr(w)
 
+  def Get_NSEW(self):
+    return (self.__north, self.__south, self.__east, self.__west)
+
   def Set_north(self, north):
     """ string """
     self.__north = north
