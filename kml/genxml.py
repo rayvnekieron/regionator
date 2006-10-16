@@ -544,31 +544,40 @@ class LatLonAltBox(LatLonBox):
 
   def __init__(self):
     LatLonBox.__init__(self)
-    self.__minaltitude = None
-    self.__maxaltitude = None
-    self.__altitudemode = None
+    self.__minAltitude = None
+    self.__maxAltitude = None
+    self.__altitudeMode = None
 
-  def Set_minAltitude(self, minaltitude):
-    self.__minaltitude = minaltitude
+  def Set_minAltitude(self, minAltitude):
+    self.__minAltitude = minAltitude
 
-  def Set_maxAltitude(self, maxaltitude):
-    self.__maxaltitude = maxaltitude
+  def Get_minAltitude(self):
+    return self.__minAltitude
 
-  def Set_altitudeMode(self, altitudemode):
-    self.__altitudemode = altitudemode
+  def Set_maxAltitude(self, maxAltitude):
+    self.__maxAltitude = maxAltitude
 
-  minAltitude = property(fset=Set_minAltitude)
-  maxAltitude = property(fset=Set_maxAltitude)
-  altitudeMode = property(fset=Set_altitudeMode)
+  def Get_maxAltitude(self):
+    return self.__maxAltitude
+
+  def Set_altitudeMode(self, altitudeMode):
+    self.__altitudeMode = altitudeMode
+
+  def Get_altitudeMode(self):
+    return self.__altitudeMode
+
+  minAltitude = property(fset=Set_minAltitude, fget=Get_minAltitude)
+  maxAltitude = property(fset=Set_maxAltitude, fget=Get_maxAltitude)
+  altitudeMode = property(fset=Set_altitudeMode, fget=Get_altitudeMode)
 
   def elements(self):
     el = LatLonBox.elements(self)
-    if self.__minaltitude:
-      el.append(('minAltitude',self.__minaltitude))
-    if self.__maxaltitude:
-      el.append(('maxAltitude',self.__maxaltitude))
-    if self.__altitudemode:
-      el.append(('altitudeMode',self.__altitudemode))
+    if self.__minAltitude:
+      el.append(('minAltitude',self.__minAltitude))
+    if self.__maxAltitude:
+      el.append(('maxAltitude',self.__maxAltitude))
+    if self.__altitudeMode:
+      el.append(('altitudeMode',self.__altitudeMode))
     return el
 
   def xml(self):
@@ -1048,6 +1057,7 @@ class GroundOverlay(Overlay):
   def xml(self):
     al = self.attributes()
     el = self.elements()
+    # XXX ordering...
     if self.__altitude:
       el.append(('altitude',self.__altitude))
     if self.__altitudeMode:
