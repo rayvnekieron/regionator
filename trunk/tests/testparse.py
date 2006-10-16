@@ -60,5 +60,21 @@ go = kmldoc.ExtractGroundOverlay()
 if go.drawOrder != '10':
   print 'ERROR in ExtractGroundOverlay'
 
+kp = kml.kmlparse.KMLParse('coit.kmz')
+location = kp.ExtractLocation()
+if location.longitude != '-122.405843291645':
+  print 'ERROR in KMZ parse',location.longitude
+
+kp = kml.kmlparse.KMLParse('region.kml')
+latlonaltbox = kp.ExtractLatLonAltBox()
+if latlonaltbox.west != '-80.859375':
+  print 'ERROR in ExtractLatLonAltBox.west'
+if latlonaltbox.minAltitude != '100000':
+  print 'ERROR in ExtractLatLonAltBox.minAltitude'
+if latlonaltbox.maxAltitude != '100001':
+  print 'ERROR in ExtractLatLonAltBox.maxAltitude'
+if latlonaltbox.altitudeMode != 'absolute':
+  print 'ERROR in ExtractLatLonAltBox.altitudeMode',latlonaltbox.altitudeMode
+
 print 'test kml.kmlparse.KMLParse go.kml ... done'
 

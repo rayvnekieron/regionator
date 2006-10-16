@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+
+    <Region>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+      <LatLonAltBox>
+        <north>28.828125</north>
+        <south>28.125</south>
+        <east>-80.15625</east>
+        <west>-80.859375</west>
+        <minAltitude>100000</minAltitude>
+        <maxAltitude>100001</maxAltitude>
+        <altitudeMode>absolute</altitudeMode>
+      </LatLonAltBox>
+    </Region>
+
+    <GroundOverlay>
+      <drawOrder>2</drawOrder>
+      <Icon>
+        <href>1.JPEG</href>
+      </Icon>
+      <altitude>100000</altitude>
+      <altitudeMode>absolute</altitudeMode>
+      <LatLonBox>
+        <north>28.619506820004371</north>
+        <south>28.3816904168634</south>
+        <east>-80.506587508108254</east>
+        <west>-80.777305638321295</west>
+      </LatLonBox>
+    </GroundOverlay>
+
+  </Document>
+</kml>
