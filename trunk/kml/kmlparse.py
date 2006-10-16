@@ -27,6 +27,7 @@ Some utilities to parse and analyze KML
 """
 
 import xml.dom.minidom
+import zipfile
 
 import kml.coordbox
 import kml.genxml
@@ -52,13 +53,32 @@ def GetText(node):
 
 class KMLParse:
 
-  """DOM parse a KML file
+  """DOM parse a KML or KMZ file
 
   """
 
   def __init__(self,kmlfile):
 
+    """
+    Args:
+      kmlfile: if .kml parse the file, if .kmz extract doc.kml and parse that
+    """
+
+    self.__doc = None
+
+    if zipfile.is_zipfile(kmlfile):
+      self.ParseKMZ(kmlfile)
+      return
+
     self.__doc = xml.dom.minidom.parse(kmlfile)
+
+
+  def ParseKMZ(self, kmzfile):
+    z = zipfile.ZipFile(kmzfile)
+    for name in z.namelist():
+      if name == 'doc.kml':
+        kmlstring = z.read(name)
+        self.__doc = xml.dom.minidom.parseString(kmlstring)
 
 
   def Doc(self):
@@ -124,6 +144,21 @@ class KMLParse:
     return "".join(k)
 
 
+  def GetNSEW(self, node, latlonbox):
+
+    north = node.getElementsByTagName('north')
+    latlonbox.north = GetText(north[0])
+
+    south = node.getElementsByTagName('south')
+    latlonbox.south = GetText(south[0])
+
+    east = node.getElementsByTagName('east')
+    latlonbox.east = GetText(east[0])
+
+    west = node.getElementsByTagName('west')
+    latlonbox.west = GetText(west[0])
+
+
   def ExtractLatLonBox(self):
 
     """ Returns first LatLonBox
@@ -139,19 +174,38 @@ class KMLParse:
     latlonbox = kml.genxml.LatLonBox()
 
     llb = llbs[0]
-    north = llb.getElementsByTagName('north')
-    latlonbox.north = GetText(north[0])
-
-    south = llb.getElementsByTagName('south')
-    latlonbox.south = GetText(south[0])
-
-    east = llb.getElementsByTagName('east')
-    latlonbox.east = GetText(east[0])
-
-    west = llb.getElementsByTagName('west')
-    latlonbox.west = GetText(west[0])
+    self.GetNSEW(llb, latlonbox)
 
     return latlonbox
+
+
+  def ExtractLatLonAltBox(self):
+
+    """ Returns first LatLonAltBox
+
+    Returns:
+      kml.genxml.LatLonAltBox
+    """
+
+    llabs = self.__doc.getElementsByTagName('LatLonAltBox')
+    if not llabs:
+      return None
+    llab = llabs[0]
+
+    latlonaltbox = kml.genxml.LatLonAltBox()
+
+    self.GetNSEW(llab, latlonaltbox)
+
+    minAltitude = llab.getElementsByTagName('minAltitude')
+    latlonaltbox.minAltitude = GetText(minAltitude[0])
+
+    maxAltitude = llab.getElementsByTagName('maxAltitude')
+    latlonaltbox.maxAltitude = GetText(maxAltitude[0])
+
+    altitudeMode = llab.getElementsByTagName('altitudeMode')
+    latlonaltbox.altitudeMode = GetText(altitudeMode[0])
+
+    return latlonaltbox
 
 
   def ExtractTimeSpan(self):
