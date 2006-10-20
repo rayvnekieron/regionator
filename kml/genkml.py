@@ -204,11 +204,16 @@ def LineStringBox(n,s,e,w):
   return linestring.xml()
 
 
-def LineStringAltBox(n,s,e,w,alt):
+def LineStringAltBox(n,s,e,w,alt,altMode='relativeToGround'):
 
   """<LineString>
 
   LineString between nw,ne,se,sw,nw at altitude alt.
+
+  Args:
+    n,s,e,w: float
+    alt: altitude
+    altMode: relativeToGround (default) or absolute
 
   Returns:
     KML: <LineString>...</LineString>
@@ -223,17 +228,24 @@ def LineStringAltBox(n,s,e,w,alt):
 
   linestring = kml.genxml.LineString()
   linestring.coordinates = c.Coordinates()
-  linestring.altitudeMode = 'absolute'
+  linestring.altitudeMode = altMode
 
   return linestring.xml()
 
 
-def Box(n,s,e,w,name,styleurl=None,alt=None):
+def Box(n,s,e,w,name,styleurl=None,alt=None,altMode='relativeToGround'):
 
   """<Placemark><LineString>...</LineString></Placemark>
 
   Returns a Placemark with a LineString box between the corners of the
   given bounding box.
+
+  Args:
+    n,s,e,w: float
+    name: Placemark name
+    styleurl: <styleUrl> xml string
+    alt: altitude
+    altMode: relativeToGround or absolute (only if alt != 0)
 
   Returns:
     KML: <Placemark><LineString>...</LineString></Placemark>
@@ -244,7 +256,7 @@ def Box(n,s,e,w,name,styleurl=None,alt=None):
   if styleurl:
     placemark.styleUrl = styleurl
   if alt:
-    placemark.Geometry = LineStringAltBox(n,s,e,w,alt)
+    placemark.Geometry = LineStringAltBox(n,s,e,w,alt,altMode)
   else:
     placemark.Geometry = LineStringBox(n,s,e,w)
   return placemark.xml()
