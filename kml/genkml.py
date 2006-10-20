@@ -204,7 +204,31 @@ def LineStringBox(n,s,e,w):
   return linestring.xml()
 
 
-def Box(n,s,e,w,name,styleurl=None):
+def LineStringAltBox(n,s,e,w,alt):
+
+  """<LineString>
+
+  LineString between nw,ne,se,sw,nw at altitude alt.
+
+  Returns:
+    KML: <LineString>...</LineString>
+  """
+
+  c = Coordinates()
+  c.AddPoint(w,n,alt)
+  c.AddPoint(e,n,alt)
+  c.AddPoint(e,s,alt)
+  c.AddPoint(w,s,alt)
+  c.AddPoint(w,n,alt)
+
+  linestring = kml.genxml.LineString()
+  linestring.coordinates = c.Coordinates()
+  linestring.altitudeMode = 'absolute'
+
+  return linestring.xml()
+
+
+def Box(n,s,e,w,name,styleurl=None,alt=None):
 
   """<Placemark><LineString>...</LineString></Placemark>
 
@@ -219,7 +243,10 @@ def Box(n,s,e,w,name,styleurl=None):
   placemark.name = name
   if styleurl:
     placemark.styleUrl = styleurl
-  placemark.Geometry = LineStringBox(n,s,e,w)
+  if alt:
+    placemark.Geometry = LineStringAltBox(n,s,e,w,alt)
+  else:
+    placemark.Geometry = LineStringBox(n,s,e,w)
   return placemark.xml()
 
 
