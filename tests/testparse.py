@@ -60,10 +60,18 @@ go = kmldoc.ExtractGroundOverlay()
 if go.drawOrder != '10':
   print 'ERROR in ExtractGroundOverlay'
 
+print 'test kml.kmlparse.KMLParse go.kml ... done'
+
+print 'test kml.kmlparse.KMLParse coit.kmz ... start'
+
 kp = kml.kmlparse.KMLParse('coit.kmz')
 location = kp.ExtractLocation()
 if location.longitude != '-122.405843291645':
   print 'ERROR in KMZ parse',location.longitude
+
+print 'test kml.kmlparse.KMLParse coit.kmz ... done'
+
+print 'test kml.kmlparse.KMLParse region.kml ... start'
 
 kp = kml.kmlparse.KMLParse('region.kml')
 latlonaltbox = kp.ExtractLatLonAltBox()
@@ -76,10 +84,14 @@ if latlonaltbox.maxAltitude != '100001':
 if latlonaltbox.altitudeMode != 'absolute':
   print 'ERROR in ExtractLatLonAltBox.altitudeMode',latlonaltbox.altitudeMode
 
+print 'test kml.kmlparse.KMLParse region.kml ... done'
+
+print 'test kml.kmlparse.KMLParse ksc-llb-0.kml ... start'
+
 kp = kml.kmlparse.KMLParse('ksc-llb-0.kml')
 latlonaltbox = kp.ExtractLatLonAltBox()
 if latlonaltbox:
   print 'ERROR in ExtractLatLonAltBox, no such expected'
 
-print 'test kml.kmlparse.KMLParse go.kml ... done'
+print 'test kml.kmlparse.KMLParse ksc-llb-0.kml ... done'
 

@@ -70,3 +70,5 @@ tests/ksc-llb-3.kml
 tests/ksc-llb-t.kml
 tests/testmodel.py
 tests/coit.kml
+tests/coit.kmz
+tests/region.kml
