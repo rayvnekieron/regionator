@@ -39,4 +39,4 @@ rm -rf llb-d.kml llb-d
 rm -rf llb-a.kml llb-a
 rm -rf llb-t.kml llb-t
 rm -rf llb-3.kml llb-3
-
+rm -f lhcopy.kmz
