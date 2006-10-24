@@ -68,6 +68,9 @@ kp = kml.kmlparse.KMLParse('coit.kmz')
 location = kp.ExtractLocation()
 if location.longitude != '-122.405843291645':
   print 'ERROR in KMZ parse',location.longitude
+lookat = kp.ExtractLookAt()
+if lookat.tilt != '49.82584784628866':
+  print 'ERROR in KMZ parse',lookat.tilt
 
 print 'test kml.kmlparse.KMLParse coit.kmz ... done'
 
