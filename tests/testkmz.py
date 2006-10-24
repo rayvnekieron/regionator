@@ -13,3 +13,6 @@ dir = tempfile.mkdtemp()
 namelist = kml.kmz.Extract(kmzin, dir)
 kml.kmz.Create(kmzout, namelist, dir)
 kml.kmz.RmMinusR(dir)
+
+kmldata = kml.kmz.ExtractKMLFile(kmzin)
+print kmldata
