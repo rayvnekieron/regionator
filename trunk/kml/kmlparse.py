@@ -197,13 +197,16 @@ class KMLParse:
     self.GetNSEW(llab, latlonaltbox)
 
     minAltitude = llab.getElementsByTagName('minAltitude')
-    latlonaltbox.minAltitude = GetText(minAltitude[0])
+    if minAltitude:
+      latlonaltbox.minAltitude = GetText(minAltitude[0])
 
     maxAltitude = llab.getElementsByTagName('maxAltitude')
-    latlonaltbox.maxAltitude = GetText(maxAltitude[0])
+    if maxAltitude:
+      latlonaltbox.maxAltitude = GetText(maxAltitude[0])
 
     altitudeMode = llab.getElementsByTagName('altitudeMode')
-    latlonaltbox.altitudeMode = GetText(altitudeMode[0])
+    if altitudeMode:
+      latlonaltbox.altitudeMode = GetText(altitudeMode[0])
 
     return latlonaltbox
 
@@ -399,3 +402,45 @@ class KMLParse:
 
     return orientation
 
+
+  def ExtractLookAt(self):
+
+    """ Returns first LookAt
+
+    Returns:
+      kml.genxml.LookAt
+    """
+
+    las = self.__doc.getElementsByTagName('LookAt')
+    if not las:
+      return None
+
+    lookat = kml.genxml.LookAt()
+
+    la = las[0]
+
+    longitude = la.getElementsByTagName('longitude')
+    if longitude:
+      lookat.longitude = GetText(longitude[0])
+
+    latitude = la.getElementsByTagName('latitude')
+    if latitude:
+      lookat.latitude = GetText(latitude[0])
+
+    altitude = la.getElementsByTagName('altitude')
+    if altitude:
+      lookat.altitude = GetText(altitude[0])
+
+    range = la.getElementsByTagName('range')
+    if range:
+      lookat.range = GetText(range[0])
+
+    tilt = la.getElementsByTagName('tilt')
+    if tilt:
+      lookat.tilt = GetText(tilt[0])
+
+    heading = la.getElementsByTagName('heading')
+    if heading:
+      lookat.heading = GetText(heading[0])
+
+    return lookat

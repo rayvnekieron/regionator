@@ -859,31 +859,52 @@ class LookAt(Object):
   def Set_longitude(self, longitude):
     self.__longitude = longitude
 
+  def Get_longitude(self):
+    return self.__longitude
+
   def Set_latitude(self, latitude):
     self.__latitude = latitude
+
+  def Get_latitude(self):
+    return self.__latitude
 
   def Set_altitude(self, altitude):
     self.__altitude = altitude
 
+  def Get_altitude(self):
+    return self.__altitude
+
   def Set_range(self, range):
     self.__range = range
+
+  def Get_range(self):
+    return self.__range
 
   def Set_tilt(self, tilt):
     self.__tilt = tilt
 
+  def Get_tilt(self):
+    return self.__tilt
+
   def Set_heading(self, heading):
     self.__heading = heading
+
+  def Get_heading(self):
+    return self.__heading
 
   def Set_altitudeMode(self, altitudeMode):
     self.__altitudeMode = altitudeMode
 
-  longitude = property(fset=Set_longitude)
-  latitude = property(fset=Set_latitude)
-  altitude = property(fset=Set_altitude)
-  range = property(fset=Set_range)
-  tilt = property(fset=Set_tilt)
-  heading = property(fset=Set_heading)
-  altitudeMode = property(fset=Set_altitudeMode)
+  def Get_altitudeMode(self):
+    return self.__altitudeMode
+
+  longitude = property(fset=Set_longitude, fget=Get_longitude)
+  latitude = property(fset=Set_latitude, fget=Get_latitude)
+  altitude = property(fset=Set_altitude, fget=Get_altitude)
+  range = property(fset=Set_range, fget=Get_range)
+  tilt = property(fset=Set_tilt, fget=Get_tilt)
+  heading = property(fset=Set_heading, fget=Get_heading)
+  altitudeMode = property(fset=Set_altitudeMode, fget=Get_altitudeMode)
 
   def elements(self):
     el = Object.elements(self)
