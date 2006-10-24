@@ -19,6 +19,7 @@ kml/regionator.py
 kml/regionhandler.py
 kml/simpleregionator.py
 kml/kmlparse.py
+kml/kmz.py
 kml/superoverlay.py
 kml/superoverlayinfo.py
 kml/superoverlaykml.py
@@ -72,3 +73,5 @@ tests/testmodel.py
 tests/coit.kml
 tests/coit.kmz
 tests/region.kml
+tests/testkmz.py
+tests/London_house.kmz

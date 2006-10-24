@@ -49,7 +49,12 @@
 
 ./testmodel.py coit.kml
 
+./testparse.py
+
+./testkmz.py London_house.kmz lhcopy.kmz
+
 ./testimage.py 
 
 # requires internet capability (does WMS fetches)
 ./testwms.py
+
