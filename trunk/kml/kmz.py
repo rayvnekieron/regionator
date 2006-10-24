@@ -31,6 +31,15 @@ import zipfile
 import os
 
 
+def ZipOpen(zipfilename):
+
+  if not zipfile.is_zipfile(zipfilename):
+    print 'ZipExtract: %s not a zipfile' % zipfilename
+    return None
+
+  return zipfile.ZipFile(zipfilename)
+
+
 def Extract(zipfilename, dir):
 
   """ KMZ extract to 'dir'
@@ -42,12 +51,10 @@ def Extract(zipfilename, dir):
   Returns:
     namelist: list of files in .zip/.kmz file
   """
-
-  if not zipfile.is_zipfile(zipfilename):
-    print 'ZipExtract: %s not a zipfile' % zipfilename
+  
+  zfd = ZipOpen(zipfilename)
+  if not zfd:
     return None
-
-  zfd = zipfile.ZipFile(zipfilename)
   namelist = zfd.namelist()
 
   # print 'ZipExtract: extracting %d files into %s' % (len(namelist), dir)
@@ -65,6 +72,27 @@ def Extract(zipfilename, dir):
   return namelist
 
 
+def ExtractKMLFile(kmzfile):
+
+  """ Extract the KML file from the KMZ archive
+
+  Args:
+    kmzfile: .kmz file
+
+  Returns:
+    data: the contents of the kml file
+  """
+
+  zfd = ZipOpen(kmzfile)
+  if zfd:
+    namelist = zfd.namelist()
+    for name in namelist:
+      if name.endswith('.kml'):
+        data = zfd.read(name)
+        return data
+  return None
+
+
 def Create(zipfilename, namelist, dir):
 
   """ KMZ create from dir
@@ -76,12 +104,15 @@ def Create(zipfilename, namelist, dir):
 
   """
 
-  zfd = zipfile.ZipFile(zipfilename, mode = 'w', compression = zipfile.ZIP_DEFLATED)
+  zfd = zipfile.ZipFile(zipfilename,
+                        mode = 'w',
+                        compression = zipfile.ZIP_DEFLATED)
 
   for name in namelist:
     fromname = os.path.join(dir,name)
     # print '%s -> %s' % (fromname, name)
     zfd.write(fromname, name)
+
 
 def RmMinusR(dir):
 
