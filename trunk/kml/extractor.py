@@ -32,6 +32,8 @@ some format known to GDAL.
 """
 
 import gdal
+import tempfile
+import os
 
 
 class Extractor:
@@ -95,7 +97,8 @@ class Extractor:
     i_data = self.__in_ds.ReadRaster(x,y,wid,ht,buf_xsize=twid,buf_ysize=tht)
 
     # Have to Create out to GTiff first (?)
-    tmpfile = '/tmp/file.gtiff' # XXX plat-indep tmpfile
+    (fd, tmpfile) = tempfile.mkstemp(suffix='GTiff')
+    os.close(fd)
     o_ds = self.__gtiff_driver.Create(tmpfile,twid,tht,bands=self.__bands)
     o_ds.WriteRaster(0,0,twid,tht,i_data)
 
