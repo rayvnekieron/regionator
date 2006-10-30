@@ -38,5 +38,6 @@ lod = 256
 per = 16
 
 pmr = kml.placemarkregionator.PlacemarkRegionator()
-pmr.Regionate(kmlfile,lod,per,rootkml,dir)
+if pmr:
+  pmr.Regionate(kmlfile,lod,per,rootkml,dir)
 
