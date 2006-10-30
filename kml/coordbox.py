@@ -33,6 +33,8 @@ Incrementally sweep out the bounding box for a set of points.
 
 import math
 
+import kml.coordinates
+
 
 class CoordBox:
 
@@ -58,7 +60,7 @@ class CoordBox:
     """
 
     Args:
-      lon,lat: in decimal degrees
+      lon,lat: decimal degrees float
 
     """
 
@@ -83,17 +85,10 @@ class CoordBox:
 
     """
 
-    # XXX accept two commas with any sort of whitespace as one point
+    pointlist = kml.coordinates.ParseCoordinates(coordinates)
+    for point in pointlist:
+      self.AddPoint(point[0], point[1])
 
-    clist = coordinates.split() # split on whitespace
-    for coord in clist:
-      # XXX a bit simplistic
-      point = coord.split(',')
-      if point.__len__() == 3:
-        lon = float(point[0].strip())
-        lat = float(point[1].strip())
-        # alt = float(point[2])
-        self.AddPoint(lon,lat)
 
   def MidPoint(self):
 
