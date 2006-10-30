@@ -30,6 +30,7 @@ kml/dashboard.py
 kml/hierfile.py
 kml/wms.py
 kml/cgiregion.py
+kml/coordinates.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
@@ -75,3 +76,4 @@ tests/coit.kmz
 tests/region.kml
 tests/testkmz.py
 tests/London_house.kmz
+tests/testcoordinates.py
