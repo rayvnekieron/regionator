@@ -30,6 +30,7 @@ import kml.coordbox
 import kml.simpleregionator
 import kml.genkml
 import kml.kmlparse
+import kml.coordinates
 
 class FeatureRegionator:
 
@@ -161,14 +162,11 @@ class FeatureRegionator:
 
   def AddPointCoordinates(self,cml):
     text = kml.kmlparse.GetText(cml)
-    if text.__len__() == 0:
-      return ''
-    cl = text.split(',')
-    if cl.__len__() != 3:
-      return ''
-    lon = float(cl[0].strip())
-    lat = float(cl[1].strip())
-    return self._AddLoc(lon,lat)
+    points = kml.coordinates.ParseCoordinates(text)
+    if points:
+      point = points[0]
+      return self._AddLoc(point[0], point[1])
+    return None
 
   def AddLinestringCoordinates(self,cml):
     text = kml.kmlparse.GetText(cml)
