@@ -133,6 +133,10 @@ class FeatureRegionator:
 
     self._SortItems()
 
+    if len(self.__items) == 0:
+      print 'no items extracted?'
+      return None
+
     (n,s,e,w) = self.__cbox.NSEW()
 
     print 'regionating',n,s,e,w
