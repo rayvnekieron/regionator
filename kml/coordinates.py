@@ -20,6 +20,28 @@ $Revision$
 $Date$
 """
 
+def ParsePointCoordinates(coordinates):
+
+  """ Parse <coordinates> for a Point
+
+  Permits a sloppy Point coordinates.
+
+  Arg:
+    coordinates: lon,lat,alt or lon,lat with spaces allowed
+
+  Returns:
+    None: if coordinates was not 2 or 3 comma separated numbers
+    (lon,lat): float tuple
+    (lon,lat,alt): float tuple
+  """
+  p = coordinates.split(',')
+  if len(p) == 2:
+    return (float(p[0].strip()), float(p[1].strip()))
+  elif len(p) == 3:
+    return (float(p[0].strip()), float(p[1].strip()), float(p[2].strip()))
+  return None
+ 
+
 def ParseCoordinates(coordinates):
 
   """ Parse <coordinates> contents
@@ -31,6 +53,10 @@ def ParseCoordinates(coordinates):
     list of float tuples: (lon,lat) or (lon,lat,alt)
   """
 
+  # See if it's a sloppy Point
+  point = ParsePointCoordinates(coordinates)
+  if point:
+    return [point]
   points = []
   clist = coordinates.split() # split on whitespace
   for coord in clist:
