@@ -24,6 +24,7 @@
 ./null.py
 ./print.py
 ./testcbox.py
+./testcoordinates.py
 ./testregion.py
 ./testxml.py
 ./testkml.py
