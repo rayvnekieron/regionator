@@ -39,6 +39,17 @@ class NoAltTestCase(unittest.TestCase):
     assert len(p0) == 2, 'result not simple pair'
     assert p0[0] == 21.456, 'bad lon'
     assert p0[1] == 78.123, 'bad lat'
+
+
+class SloppyPointTestCase(unittest.TestCase):
+  def runTest(self):
+    sloppypoint = '6.31914, 46.6487,20' # note the space
+    parsed = kml.coordinates.ParseCoordinates(sloppypoint)
+    assert len(parsed) == 1, 'result not 1 point'
+    p0 = parsed[0]
+    assert p0[0] == 6.31914, 'bad lon'
+    assert p0[1] == 46.6487, 'bad lat'
+    assert p0[2] == 20, 'bad alt'
     
 
 def suite():
@@ -46,6 +57,7 @@ def suite():
   suite.addTest(JHTTestCase())
   suite.addTest(MarinTestCase())
   suite.addTest(NoAltTestCase())
+  suite.addTest(SloppyPointTestCase())
   return suite
 
 
