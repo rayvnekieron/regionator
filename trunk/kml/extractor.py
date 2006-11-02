@@ -103,8 +103,11 @@ class Extractor:
     o_ds.WriteRaster(0,0,twid,tht,i_data)
 
     # Save off using the specified driver
-    filename = '%s.%s' % (basename,self.__fmt)
-    self.__o_driver.CreateCopy(filename,o_ds)
+    filename = '%s.%s' % (basename, self.__fmt)
+    options = []
+    if self.__fmt == 'JPEG':
+      options.append('QUALITY=90') # Default of 75 is low quality
+    self.__o_driver.CreateCopy(filename, o_ds, options=options)
 
     if self.__verbose:
       print filename
