@@ -26,17 +26,85 @@ $Date$
 
 # Simple test of Tile extraction
 
+import unittest
 import sys
+import os
+
+import gdal
 
 import kml.extractor
 
 in_image = sys.argv[1]
 
+"""
 ex = kml.extractor.Extractor(in_image,256,256,'JPEG')
 ex.Extract(0,0,256,256,'0')
 ex.Extract(256,0,256,256,'1')
 ex.Extract(0,256,256,256,'2')
 ex.Extract(256,256,256,256,'3')
+"""
 
 
+def VerifyDimensions(imagefile, wid, ht):
+  ds = gdal.Open(imagefile)
+  if wid == ds.RasterXSize and ht == ds.RasterYSize:
+    return True
+  return False
+
+
+class SimpleJPEGExtractorTestCase(unittest.TestCase):
+  def setUp(self):
+    self.wid = self.ht = 256
+    self.ex = kml.extractor.Extractor(in_image,self.wid,self.ht,'JPEG')
+  def testNW(self):
+    self.ex.Extract(0,0,256,256,'x')
+    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'NW wrong dimensions'
+  def testNE(self):
+    self.ex.Extract(256,0,256,256,'x')
+    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'NE wrong dimensions'
+  def testSW(self):
+    self.ex.Extract(0,256,256,256,'x')
+    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'SW wrong dimensions'
+  def testSE(self):
+    self.ex.Extract(256,256,256,256,'x')
+    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'SE wrong dimensions'
+  def tearDown(self):
+    os.unlink('x.JPEG')
+
+
+class SimplePNGExtractorTestCase(unittest.TestCase):
+  def setUp(self):
+    self.wid = self.ht = 256
+    self.ex = kml.extractor.Extractor(in_image,self.wid,self.ht,'PNG')
+  def testNW(self):
+    self.ex.Extract(0,0,256,256,'x')
+    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'NW wrong dimensions'
+  def testNE(self):
+    self.ex.Extract(256,0,256,256,'x')
+    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'NE wrong dimensions'
+  def testSW(self):
+    self.ex.Extract(0,256,256,256,'x')
+    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'SW wrong dimensions'
+  def testSE(self):
+    self.ex.Extract(256,256,256,256,'x')
+    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'SE wrong dimensions'
+  def tearDown(self):
+    os.unlink('x.PNG')
+
+
+def suite():
+  suite = unittest.TestSuite()
+  suite.addTest(SimpleJPEGExtractorTestCase("testNW"))
+  suite.addTest(SimpleJPEGExtractorTestCase("testSW"))
+  suite.addTest(SimpleJPEGExtractorTestCase("testSE"))
+  suite.addTest(SimpleJPEGExtractorTestCase("testNE"))
+  suite.addTest(SimplePNGExtractorTestCase("testNW"))
+  suite.addTest(SimplePNGExtractorTestCase("testSW"))
+  suite.addTest(SimplePNGExtractorTestCase("testSE"))
+  suite.addTest(SimplePNGExtractorTestCase("testNE"))
+  return suite
+
+
+runner = unittest.TextTestRunner()
+runner.run(suite())
 
