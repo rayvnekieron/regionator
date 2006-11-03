@@ -34,7 +34,7 @@ $Date$
   </Icon>
   
   <altitude>100000</altitude>
-  <altitudeMode>relativeToGround</altitudeMode>
+  <altitudeMode>absolute</altitudeMode>
 
   <LatLonBox>
     <north>28.61950682000437</north>
