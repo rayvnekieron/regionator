@@ -106,6 +106,9 @@ class Regionator:
     self.__maxAltitude = maxalt
     self.__altitudeMode = altmode
 
+  def GetAltitude(self):
+    return (self.__minAltitude, self.__maxAltitude, self.__altitudeMode)
+
   # Recurse on child regions returning a list
   # of children with data.
   def _Recurse(self,region):
