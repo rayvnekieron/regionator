@@ -50,7 +50,7 @@
 
 ./testmodel.py coit.kml
 
-./testparse.py
+./testkmlparse.py
 
 ./testkmz.py London_house.kmz lhcopy.kmz
 

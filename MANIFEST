@@ -61,7 +61,7 @@ tests/testhref.py
 tests/testxml.py
 tests/testkml.py
 tests/testmkroot.py
-tests/testparse.py
+tests/testkmlparse.py
 tests/go.kml
 tests/testsuperoverlay.sh
 tests/ksc-llb-a.kml
