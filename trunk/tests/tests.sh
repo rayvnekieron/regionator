@@ -26,6 +26,7 @@
 ./testcbox.py
 ./testcoordinates.py
 ./testregion.py
+./testregionator.py
 ./testxml.py
 ./testkml.py
 ./testoutline.py
