@@ -167,9 +167,6 @@ class Regionator:
 
     (n,s,e,w) = region.NSEWstring()
     (minpx,maxpx) = rhandler.PixelLod(region)
-    # minfade = self.__minfadalititude
-    # maxfade = self.__maxfade
-    # regionxml = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx,minfade=minfade,maxfade=maxfade)
 
     llab = kml.genxml.LatLonAltBox()
     llab.north = n
