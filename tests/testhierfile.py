@@ -22,24 +22,59 @@ $Revision$
 $Date$
 """
 
+import unittest
+
 import kml.hierfile
 
-hf3 = kml.hierfile.HierFile(3)
+class Len3TestCase(unittest.TestCase):
+  def setUp(self):
+    self.__hf3 = kml.hierfile.HierFile(3)
+  def testPath(self):
+    path = self.__hf3.Path('foobar')
+    assert path == 'foo/bar', 'Len3 Path bad'
+  def testMedium(self):
+    flatname = 'abcdefgh'
+    (dir,name) = self.__hf3.HierName(flatname)
+    assert dir == 'abc/def/', 'Len3 medium dirname bad'
+    assert name == 'gh', 'Len3 medium name bad'
+  def testLong(self):
+    flatname = '0123456789abcdefghijklmnopqrstuvwzyz'
+    (dir,name) = self.__hf3.HierName(flatname)
+    assert dir == '012/345/678/9ab/cde/fgh/ijk/lmn/opq/rst/uvw/',\
+           'Len3 long dir bad'
+    assert name == 'zyz', 'Len3 long name bad'
 
-flatname = 'abcdefgh'
-(dir,name) = hf3.HierName(flatname)
-print 'HierFile 3',flatname,dir,name
-if dir != 'abc/def/' or name != 'gh':
-  print 'ERROR: HierFile failed'
+class Len6TestCase(unittest.TestCase):
+  def setUp(self):
+    self.__hf6 = kml.hierfile.HierFile(6)
+  def testLong(self):
+    flatname = 'abcasd4a1ljplj4poijphkq2lpoiu'
+    (dir,name) = self.__hf6.HierName(flatname)
+    assert dir == 'abcasd/4a1ljp/lj4poi/jphkq2/', 'Len6 dir bad'
+    assert name == 'lpoiu', 'Len6 name bad'
 
-flatname = '0123456789abcdefghijklmnopqrstuvwzyz'
-(dir,name) = hf3.HierName(flatname)
-print 'HierFile 3',flatname,dir,name
+class WriteHierFileTestCase(unittest.TestCase):
+  def setUp(self):
+    """ """
+  def testLen2(self):
+    data = 'a little data'
+    flatname = 'abc123'
+    kml.hierfile.WriteHierFile('hiertestdir', flatname, 'foo', 2, data)
+    f = open('hiertestdir/ab/c1/23.foo', 'r')
+    got_data = f.read()
+    assert data == got_data, 'WriteHierFile Len2 failed'
 
-hf6 = kml.hierfile.HierFile(6)
-(dir,name) = hf6 = hf6.HierName(flatname)
 
-path = hf3.Path('foobar')
-if path != 'foo/bar':
-  print 'ERROR: HierFile Path() failed'
-print 'HierFile.Path()',path
+def suite():
+  suite = unittest.TestSuite()
+  suite.addTest(Len3TestCase("testPath"))
+  suite.addTest(Len3TestCase("testMedium"))
+  suite.addTest(Len3TestCase("testLong"))
+  suite.addTest(Len6TestCase("testLong"))
+  suite.addTest(WriteHierFileTestCase("testLen2"))
+  return suite
+
+
+runner = unittest.TextTestRunner()
+runner.run(suite())
+

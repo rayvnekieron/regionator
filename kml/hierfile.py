@@ -89,6 +89,26 @@ class HierFile:
     fullname = os.path.join(dir, hiername)
     self.MakeDir(fullname)
     f = open(fullname,'w')
-    f.write(buf.encode('utf-8'))
+    f.write(buf)
     f.close()
+
+
+def WriteHierFile(basedir, flatname, suffix, max_dirname_len, data):
+
+  """Save data to name in dir
+
+  Args:
+    basedir: directory to save to
+    flatname: no slashes
+    suffix: suffix with no dot
+    max_dirname_len: max chars in an intermediate dir
+    data: the data to write
+
+  """
+
+  hf = HierFile(max_dirname_len)
+  (hierdir, hiername) = hf.HierName(flatname)
+  dir = os.path.join(basedir, hierdir)
+  name = "".join([hiername, '.', suffix])
+  hf.Write(dir, name, data)
 
