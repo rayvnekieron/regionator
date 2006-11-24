@@ -131,6 +131,16 @@ class SnapPointTestCase(unittest.TestCase):
     assert ra.NSEW() == rb.NSEW(), 'bad NSEW'
     assert ra.Depth() == depth, 'bad depth'
 
+class ParentTestCase(unittest.TestCase):
+  def setUp(self):
+    self.__root = kml.region.RootRegion()
+  def testRoot(self):
+    assert self.__root.ParentQid() == '0', 'Bad root parent'
+  def testDeeper(self):
+    region = self.__root.Region('01230321')
+    assert region.ParentQid() == '0123032', 'Bad deeper region parent'
+ 
+
 print 'region Region ...end'
 
 def suite():
@@ -142,6 +152,8 @@ def suite():
   suite.addTest(RegionLocationTestCase())
   suite.addTest(RegionGridTestCase())
   suite.addTest(SnapPointTestCase())
+  suite.addTest(ParentTestCase("testRoot"))
+  suite.addTest(ParentTestCase("testDeeper"))
   return suite
 
 runner = unittest.TextTestRunner()
