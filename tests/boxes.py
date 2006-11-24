@@ -79,6 +79,7 @@ myregionator.SetRegionHandler(BoxRegionHandler())
 myregionator.SetOutputDir(dir)
 region = kml.region.Region(n,s,e,w,qid)
 myregionator.SetFade(minfade,maxfade)
+myregionator.SetVerbose(False)
 myregionator.Regionate(region)
 
 dbfile = os.path.join(dir, 'db.kml')
