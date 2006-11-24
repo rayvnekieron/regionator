@@ -216,9 +216,16 @@ class Region:
     return Grid(self.__qid)
 
 
+  def ParentQid(self):
+    if self.__qid == '0':
+      return '0'
+    return self.__qid[0:self.Depth()-1]
+
+
+
 def RootRegion():
   # yes n=180,s=-180
-  return Region(180.,-180.,180.,-180,'0')
+  return Region(180.,-180.,180.,-180.,'0')
 
 
 def RootSnap(n,s,e,w):
