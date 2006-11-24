@@ -200,6 +200,9 @@ class Feature(Object):
   def Set_open(self,open):
     self.__open = open
 
+  def Set_description(self, description):
+    self.__description = description
+
   def Set_LookAt(self, l):
     self.__LookAt = l
 
@@ -218,6 +221,7 @@ class Feature(Object):
   name = property(fset=Set_name)
   visibility = property(fset=Set_visibility)
   open = property(fset=Set_open)
+  description = property(fset=Set_description)
   LookAt = property(fset=Set_LookAt)
   TimePrimitive = property(fset=Set_TimePrimitive)
   styleUrl = property(fset=Set_styleUrl)
@@ -234,6 +238,8 @@ class Feature(Object):
       el.append(('visibility',self.__visibility))
     if self.__open:
       el.append(('open',self.__open))
+    if self.__description:
+      el.append(('description',self.__description))
     return el
 
   def children(self):
@@ -1495,7 +1501,7 @@ class BalloonStyle(Object):
 
   bgColor = property(fset=Set_bgColor)
   textColor = property(fset=Set_textColor)
-  textr = property(fset=Set_text)
+  text = property(fset=Set_text)
 
   def elements(self):
     el = Object.elements(self)
