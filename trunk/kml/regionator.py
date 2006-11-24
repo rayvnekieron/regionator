@@ -69,6 +69,11 @@ class Regionator:
 
     self.__timeprimitive = None
 
+    self.__verbose = True
+
+
+  def SetVerbose(self, verbose):
+    self.__verbose = verbose
 
 
   def SetRegionHandler(self,handler):
@@ -251,7 +256,8 @@ class Regionator:
     filename = self._RegionFilename(region)
     if self.__dir:
       path = os.path.join(self.__dir,filename)
-      print path
+      if self.__verbose:
+        print path
       # XXX error checking...
       f = open(path,'w')
       f.write(kmlstr.encode('utf-8'))
