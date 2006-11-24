@@ -50,8 +50,8 @@ class Region:
     self.__w = w
     self.__qid = qid
     self.__id = None
-    self.__x = (e+w)/2 # XXX
-    self.__y = (n+s)/2 # XXX
+    self.__x = (e+w)/2. # XXX
+    self.__y = (n+s)/2. # XXX
 
   def SetId(self,id):
     self.__id = id
