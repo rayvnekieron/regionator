@@ -41,6 +41,8 @@ if len(sys.argv) != 2:
 
 inputkml = sys.argv[1]
 
+region_count = 0
+
 
 def CheckLatLonBox(name, llb):
   status = True
@@ -80,6 +82,8 @@ def CheckLod(lod):
 
 def CheckRegion(region_node):
   print 'Region',
+  global region_count
+  region_count += 1
   status = True
   (llab_node, lod_node) = kml.kmlparse.ParseRegion(region_node)
   llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
@@ -111,6 +115,8 @@ def GetNetworkLinkFile(networklink_node):
   return None
 
 
+# TODO 1) check Region hierarchy within file
+# TODO 2) check Region hierarchy within children
 def WalkNetworkLinks(kmlfile):
   # XXX presumes kmlfile is a _file_...
   print kmlfile
@@ -119,8 +125,7 @@ def WalkNetworkLinks(kmlfile):
   region_nodelist = doc.getElementsByTagName('Region')
   for region in region_nodelist:
     if not CheckRegion(region):
-      if verbose:
-        print kmlfile,'bad Region'
+      print kmlfile,'bad Region'
   networklink_nodelist = doc.getElementsByTagName('NetworkLink')
   for networklink_node in networklink_nodelist:
     linkfile = GetNetworkLinkFile(networklink_node)
@@ -130,5 +135,5 @@ def WalkNetworkLinks(kmlfile):
 
 WalkNetworkLinks(inputkml)
 
-
+print 'checked %d regions' % region_count
 
