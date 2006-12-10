@@ -24,7 +24,9 @@ $Date: 2006-10-24 10:44:05 -0700 (Tue, 24 Oct 2006) $
 
 import unittest
 
+import xml.dom.minidom
 import kml.kmlparse
+import kml.genxml
 
 
 class GroundOverlayParseTestCase(unittest.TestCase):
@@ -78,6 +80,64 @@ class NoSuchElementTestCase(unittest.TestCase):
     assert not latlonaltbox, 'LatLonAltbox not expected'
 
 
+link_xml = ['<Link>\n',
+            '<href>foo.kml</href>\n',
+            '<viewRefreshMode>onRegion</viewRefreshMode>\n',
+            '</Link>\n']
+
+class ParseLinkTestCase(unittest.TestCase):
+  def runTest(self):
+    link_node = xml.dom.minidom.parseString("".join(link_xml))
+    link = kml.kmlparse.ParseLink(link_node)
+    assert link.href == 'foo.kml', 'Link href bad'
+    assert link.viewRefreshMode == 'onRegion', 'Link viewRefreshMode bad'
+
+
+llb_xml = ['<LatLonBox>\n',
+            '<north>123</north>\n',
+            '<south>-12.0987</south>\n',
+            '<east>-52</east>\n',
+            '<west>-80</west>\n',
+            '</LatLonBox>\n']
+
+class ParseLatLonBoxTestCase(unittest.TestCase):
+  def runTest(self):
+    llb_node = xml.dom.minidom.parseString("".join(llb_xml))
+    llb = kml.kmlparse.ParseLatLonBox(llb_node)
+    assert llb.north == '123', 'GetNSEW north bad'
+    assert llb.south == '-12.0987', 'GetNSEW south bad'
+    assert llb.east == '-52', 'GetNSEW east bad'
+    assert llb.west == '-80', 'GetNSEW west bad'
+
+
+region_xml = ['<Region>\n',
+              '<LatLonAltBox>\n',
+               '<north>56.65</north>\n',
+               '<south>-78.7</south>\n',
+               '<east>20.222</east>\n',
+               '<west>1.56780</west>\n',
+               '</LatLonAltBox>\n',
+               '<Lod>\n',
+               '<minLodPixels>128</minLodPixels>\n',
+               '<maxLodPixels>1024</maxLodPixels>\n',
+               '</Lod>\n',
+               '</Region>\n']
+
+class ParseRegionTestCase(unittest.TestCase):
+  def runTest(self):
+    doc = xml.dom.minidom.parseString("".join(region_xml))
+    (llab_node,lod_node) = kml.kmlparse.ParseRegion(doc)
+    llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
+    lod = kml.kmlparse.ParseLod(lod_node)
+    assert llab.north == '56.65', 'Region LatLonAltBox north bad'
+    assert llab.south == '-78.7', 'Region LatLonAltBox south bad'
+    assert llab.east == '20.222', 'Region LatLonAltBox east bad'
+    assert llab.west == '1.56780', 'Region LatLonAltBox west bad'
+    assert lod.minLodPixels == '128', 'Region Lod minLodPixels bad'
+    assert lod.maxLodPixels == '1024', 'Region Lod maxLodPixels bad'
+    
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(GroundOverlayParseTestCase("testLatLonBox"))
@@ -88,6 +148,9 @@ def suite():
   suite.addTest(KMZParseTestCase("testLookAt"))
   suite.addTest(RegionParseTestCase("testLatLonAltBox"))
   suite.addTest(NoSuchElementTestCase("testLatLonAltBox"))
+  suite.addTest(ParseLinkTestCase())
+  suite.addTest(ParseLatLonBoxTestCase())
+  suite.addTest(ParseRegionTestCase())
   return suite
 
 
