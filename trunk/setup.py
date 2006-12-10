@@ -38,7 +38,8 @@ script_list = [
   'scripts/superoverlay.py',
   'scripts/placemarks.py',
   'scripts/cgiregionator.py', # really for /var/www/cgi-bin or equiv
-  'scripts/insertregions.py'
+  'scripts/insertregions.py',
+  'scripts/checkregions.py'
 ]
 
 distutils.core.setup(name='kml',
