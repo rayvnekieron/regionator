@@ -156,13 +156,7 @@ class KMLParse:
     if not llbs:
       return None
 
-    latlonbox = kml.genxml.LatLonBox()
-
-    llb = llbs[0]
-
-    GetNSEW(llb, latlonbox)
-
-    return latlonbox
+    return ParseLatLonBox(llbs[0])
 
 
   def ExtractLatLonAltBox(self):
@@ -416,7 +410,7 @@ class KMLParse:
 
 
 def ParseLatLonBox(node):
-  llab = kml.genxml.LatAltLonBox()
+  llab = kml.genxml.LatLonAltBox()
   GetNSEW(node, llab)
   return llab
 
