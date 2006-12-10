@@ -200,6 +200,9 @@ class Feature(Object):
   def Set_open(self,open):
     self.__open = open
 
+  def Set_Snippet(self, Snippet):
+    self.__Snippet = Snippet
+
   def Set_description(self, description):
     self.__description = description
 
@@ -221,6 +224,7 @@ class Feature(Object):
   name = property(fset=Set_name)
   visibility = property(fset=Set_visibility)
   open = property(fset=Set_open)
+  Snippet = property(fset=Set_Snippet)
   description = property(fset=Set_description)
   LookAt = property(fset=Set_LookAt)
   TimePrimitive = property(fset=Set_TimePrimitive)
@@ -238,6 +242,8 @@ class Feature(Object):
       el.append(('visibility',self.__visibility))
     if self.__open:
       el.append(('open',self.__open))
+    if self.__Snippet:
+      el.append(('Snippet',self.__Snippet))
     if self.__description:
       el.append(('description',self.__description))
     return el
@@ -386,6 +392,9 @@ class Link(Object):
   def Set_viewRefreshMode(self, viewRefreshMode):
     self.__viewRefreshMode = viewRefreshMode
 
+  def Get_viewRefreshMode(self):
+    return self.__viewRefreshMode
+
   def Set_viewRefreshTime(self, viewRefreshTime):
     self.__viewRefreshTime = viewRefreshTime
 
@@ -393,7 +402,7 @@ class Link(Object):
     self.__viewFormat = viewFormat
 
   href = property(fset=Set_href, fget=Get_href)
-  viewRefreshMode = property(fset=Set_viewRefreshMode)
+  viewRefreshMode = property(fset=Set_viewRefreshMode, fget=Get_viewRefreshMode)
   viewRefreshTime = property(fset=Set_viewRefreshTime)
   viewFormat = property(fset=Set_viewFormat)
 
@@ -609,19 +618,31 @@ class Lod(Object):
   def Set_minLodPixels(self, minlodpixels):
     self.__minlodpixels = minlodpixels
 
+  def Get_minLodPixels(self):
+    return self.__minlodpixels
+
   def Set_maxLodPixels(self, maxlodpixels):
     self.__maxlodpixels = maxlodpixels
+
+  def Get_maxLodPixels(self):
+    return self.__maxlodpixels
 
   def Set_minFadeExtent(self, minfadeextent):
     self.__minfadeextent = minfadeextent
 
+  def Get_minFadeExtent(self):
+    return self.__minfadeextent
+
   def Set_maxFadeExtent(self, maxfadeextent):
     self.__maxfadeextent = maxfadeextent
 
-  minLodPixels = property(fset=Set_minLodPixels)
-  maxLodPixels = property(fset=Set_maxLodPixels)
-  minFadeExtent = property(fset=Set_minFadeExtent)
-  maxFadeExtent = property(fset=Set_maxFadeExtent)
+  def Get_maxFadeExtent(self):
+    return self.__maxfadeextent
+
+  minLodPixels = property(fset=Set_minLodPixels, fget=Get_minLodPixels)
+  maxLodPixels = property(fset=Set_maxLodPixels, fget=Get_maxLodPixels)
+  minFadeExtent = property(fset=Set_minFadeExtent, fget=Get_minFadeExtent)
+  maxFadeExtent = property(fset=Set_maxFadeExtent, fget=Get_maxFadeExtent)
 
   def elements(self):
     el = Object.elements(self)
