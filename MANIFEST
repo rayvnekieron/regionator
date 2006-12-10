@@ -35,6 +35,7 @@ scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
 scripts/insertregions.py
+scripts/checkregions.py
 tests/README
 tests/prversion.py
 tests/test.kml
