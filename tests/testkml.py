@@ -183,6 +183,7 @@ model.Link = link.xml()
 placemark = kml.genxml.Placemark()
 placemark.Geometry = model.xml()
 document.Add_Feature(placemark.xml())
+document.Snippet = 'This is the Snippet text'
 
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
