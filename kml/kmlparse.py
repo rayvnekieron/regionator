@@ -144,21 +144,6 @@ class KMLParse:
     return "".join(k)
 
 
-  def GetNSEW(self, node, latlonbox):
-
-    north = node.getElementsByTagName('north')
-    latlonbox.north = GetText(north[0])
-
-    south = node.getElementsByTagName('south')
-    latlonbox.south = GetText(south[0])
-
-    east = node.getElementsByTagName('east')
-    latlonbox.east = GetText(east[0])
-
-    west = node.getElementsByTagName('west')
-    latlonbox.west = GetText(west[0])
-
-
   def ExtractLatLonBox(self):
 
     """ Returns first LatLonBox
@@ -174,7 +159,8 @@ class KMLParse:
     latlonbox = kml.genxml.LatLonBox()
 
     llb = llbs[0]
-    self.GetNSEW(llb, latlonbox)
+
+    GetNSEW(llb, latlonbox)
 
     return latlonbox
 
@@ -190,25 +176,8 @@ class KMLParse:
     llabs = self.__doc.getElementsByTagName('LatLonAltBox')
     if not llabs:
       return None
-    llab = llabs[0]
 
-    latlonaltbox = kml.genxml.LatLonAltBox()
-
-    self.GetNSEW(llab, latlonaltbox)
-
-    minAltitude = llab.getElementsByTagName('minAltitude')
-    if minAltitude:
-      latlonaltbox.minAltitude = GetText(minAltitude[0])
-
-    maxAltitude = llab.getElementsByTagName('maxAltitude')
-    if maxAltitude:
-      latlonaltbox.maxAltitude = GetText(maxAltitude[0])
-
-    altitudeMode = llab.getElementsByTagName('altitudeMode')
-    if altitudeMode:
-      latlonaltbox.altitudeMode = GetText(altitudeMode[0])
-
-    return latlonaltbox
+    return ParseLatLonAltBox(llabs[0])
 
 
   def ExtractTimeSpan(self):
@@ -444,3 +413,103 @@ class KMLParse:
       lookat.heading = GetText(heading[0])
 
     return lookat
+
+
+def ParseLatLonBox(node):
+  llab = kml.genxml.LatAltLonBox()
+  GetNSEW(node, llab)
+  return llab
+
+
+def ParseLatLonAltBox(llab_node):
+
+  llab = kml.genxml.LatLonAltBox()
+
+  GetNSEW(llab_node, llab)
+
+  minAltitude = llab_node.getElementsByTagName('minAltitude')
+  if minAltitude:
+    llab.minAltitude = GetText(minAltitude[0])
+
+  maxAltitude = llab_node.getElementsByTagName('maxAltitude')
+  if maxAltitude:
+    llab.maxAltitude = GetText(maxAltitude[0])
+
+  altitudeMode = llab_node.getElementsByTagName('altitudeMode')
+  if altitudeMode:
+    llab.altitudeMode = GetText(altitudeMode[0])
+
+  return llab
+
+
+def GetNSEW(node, latlonbox):
+
+  north = node.getElementsByTagName('north')
+  if north:
+    latlonbox.north = GetText(north[0])
+
+  south = node.getElementsByTagName('south')
+  if south:
+    latlonbox.south = GetText(south[0])
+
+  east = node.getElementsByTagName('east')
+  if east:
+    latlonbox.east = GetText(east[0])
+
+  west = node.getElementsByTagName('west')
+  if west:
+    latlonbox.west = GetText(west[0])
+
+
+def ParseRegion(region_node):
+
+  llab_node = None
+  llab_list = region_node.getElementsByTagName('LatLonAltBox')
+  if llab_list:
+    llab_node = llab_list[0]
+
+  lod_node = None
+  lod_list = region_node.getElementsByTagName('Lod')
+  if lod_list:
+    lod_node = lod_list[0]
+  return (llab_node, lod_node)
+
+
+def ParseLod(lod_node):
+
+  lod = kml.genxml.Lod()
+
+  n = lod_node.getElementsByTagName('minLodPixels')
+  if n:
+    lod.minLodPixels = GetText(n[0])
+
+  n = lod_node.getElementsByTagName('maxLodPixels')
+  if n:
+    lod.maxLodPixels = GetText(n[0])
+
+  n = lod_node.getElementsByTagName('minFadeExtent')
+  if n:
+    lod.minFadeExtent = GetText(n[0])
+
+  n = lod_node.getElementsByTagName('maxFadeExtent')
+  if n:
+    lod.maxFadeExtent = GetText(n[0])
+
+  return lod
+
+
+def ParseLink(link_node):
+
+  link = kml.genxml.Link()
+
+  href = link_node.getElementsByTagName('href')
+  if href:
+    link.href = GetText(href[0])
+
+  vfr = link_node.getElementsByTagName('viewRefreshMode')
+  if vfr:
+    link.viewRefreshMode = GetText(vfr[0])
+
+  return link
+
+
