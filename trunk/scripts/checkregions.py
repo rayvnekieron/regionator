@@ -89,7 +89,7 @@ def CheckLod(lod):
   if lod.maxLodPixels == None or lod.maxLodPixels == -1:
     return status
 
-  if lod.minLodPixels <= lod.maxLodPixels:
+  if lod.minLodPixels > lod.maxLodPixels:
     print 'Lod: minLodPixels not greater than maxLodPixels'
     status = False
   return status
