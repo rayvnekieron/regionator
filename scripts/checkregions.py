@@ -86,11 +86,11 @@ def CheckLod(lod):
   if lod.minLodPixels < 0:
     print 'Lod bad minLodPixels',lod.minLodPixels
     status = False
-  if lod.maxLodPixels == None or lod.maxLodPixels == -1:
+  if lod.maxLodPixels == None or float(lod.maxLodPixels) == -1:
     return status
 
-  if lod.minLodPixels > lod.maxLodPixels:
-    print 'Lod: minLodPixels not greater than maxLodPixels'
+  if float(lod.minLodPixels) > float(lod.maxLodPixels):
+    print 'Lod: minLodPixels greater than maxLodPixels'
     status = False
   return status
 
@@ -144,6 +144,7 @@ def GetNetworkLinkRegion(networklink_node):
 # TODO 2) check Region hierarchy within children
 def WalkNetworkLinks(kmlfile):
   print kmlfile
+
   href = kml.href.Href()
   href.SetUrl(kmlfile)
   if href.GetScheme() == None:
@@ -151,10 +152,12 @@ def WalkNetworkLinks(kmlfile):
     kp = kml.kmlparse.KMLParse(kmlfile)
   else:
     # Assume http basically
+    # XXX handle kmz
     data = kml.href.FetchUrl(kmlfile)
     kp = kml.kmlparse.KMLParse(None)
     kp.ParseString(data)
   doc = kp.Doc()
+
   region_nodelist = doc.getElementsByTagName('Region')
   for region in region_nodelist:
     if not CheckRegion(region):
@@ -164,6 +167,7 @@ def WalkNetworkLinks(kmlfile):
     linkfile = GetNetworkLinkFile(networklink_node)
     #fullname = RelativeName(kmlfile, linkfile)
     # XXX yuck
+
     linkhref = kml.href.Href()
     linkhref.SetUrl(linkfile)
     if linkhref.GetScheme():
@@ -172,6 +176,7 @@ def WalkNetworkLinks(kmlfile):
       # Set the basename of the parent link to this child
       href.SetBasename(linkfile)
       fullname = href.Href()
+
     WalkNetworkLinks(fullname)
 
 
