@@ -49,12 +49,20 @@ class FileTestCase(unittest.TestCase):
     href.SetUrl('/a/b/d/hi.kml')
     assert href.GetScheme() == None,'scheme not none'
 
+class RelativeFileTestCase(unittest.TestCase):
+  def runTest(self):
+    href = kml.href.Href()
+    href.SetUrl('foo/goo.kml')
+    href.SetBasename('bar/baz.kml')
+    assert href.Href() == 'foo/bar/baz.kml','relative file bad'
+
 
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleTestCase())
   suite.addTest(HttpTestCase())
   suite.addTest(FileTestCase())
+  suite.addTest(RelativeFileTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
