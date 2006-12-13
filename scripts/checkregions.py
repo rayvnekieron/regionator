@@ -32,6 +32,7 @@ Verify sane Regions in a Region NetworkLink hierarchy
 import sys
 import kml.kmlparse
 import kml.genxml
+import kml.href
 import os.path
 
 
@@ -46,6 +47,20 @@ region_count = 0
 
 def CheckLatLonBox(name, llb):
   status = True
+  # These are _not_ the defaults
+  # A common error is for 0 to be take as "not set" (or None)
+  if llb.north == None:
+    print 'north not set'
+    llb.north = 0
+  if llb.south == None:
+    print 'south not set'
+    llb.south = 0
+  if llb.east == None:
+    print 'east not set'
+    llb.east = 0
+  if llb.west == None:
+    print 'east not set'
+    llb.west = 0
   if float(llb.north) <= float(llb.south):
     print '%s: north not greater than south' % name
     status = False
@@ -115,12 +130,30 @@ def GetNetworkLinkFile(networklink_node):
   return None
 
 
+def GetNetworkLinkRegion(networklink_node):
+  region_nodelist = networklink_node.getElementsByTagName('Region')
+  if region_nodelist:
+    (llab_node, lod_node) = kml.kmlparse.ParseRegion(region_nodelist[0])
+    llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
+    lod = kml.kmlparse.ParseLod(lod_node)
+    return (llab, lod) # XXX
+  return None
+
+
 # TODO 1) check Region hierarchy within file
 # TODO 2) check Region hierarchy within children
 def WalkNetworkLinks(kmlfile):
-  # XXX presumes kmlfile is a _file_...
   print kmlfile
-  kp = kml.kmlparse.KMLParse(kmlfile)
+  href = kml.href.Href()
+  href.SetUrl(kmlfile)
+  if href.GetScheme() == None:
+    # Assume this is a local file
+    kp = kml.kmlparse.KMLParse(kmlfile)
+  else:
+    # Assume http basically
+    data = kml.href.FetchUrl(kmlfile)
+    kp = kml.kmlparse.KMLParse(None)
+    kp.ParseString(data)
   doc = kp.Doc()
   region_nodelist = doc.getElementsByTagName('Region')
   for region in region_nodelist:
@@ -129,7 +162,16 @@ def WalkNetworkLinks(kmlfile):
   networklink_nodelist = doc.getElementsByTagName('NetworkLink')
   for networklink_node in networklink_nodelist:
     linkfile = GetNetworkLinkFile(networklink_node)
-    fullname = RelativeName(kmlfile, linkfile)
+    #fullname = RelativeName(kmlfile, linkfile)
+    # XXX yuck
+    linkhref = kml.href.Href()
+    linkhref.SetUrl(linkfile)
+    if linkhref.GetScheme():
+      fullname = linkfile
+    else:
+      # Set the basename of the parent link to this child
+      href.SetBasename(linkfile)
+      fullname = href.Href()
     WalkNetworkLinks(fullname)
 
 
