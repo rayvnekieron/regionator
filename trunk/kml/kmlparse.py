@@ -65,6 +65,8 @@ class KMLParse:
     """
 
     self.__doc = None
+    if kmlfile == None:
+      return
 
     if zipfile.is_zipfile(kmlfile):
       self.ParseKMZ(kmlfile)
@@ -79,6 +81,10 @@ class KMLParse:
       if name.endswith('.kml'): # GE reads first .kml in the archive
         kmlstring = z.read(name)
         self.__doc = xml.dom.minidom.parseString(kmlstring)
+
+
+  def ParseString(self, kmlstring):
+    self.__doc = xml.dom.minidom.parseString(kmlstring)
 
 
   def Doc(self):
