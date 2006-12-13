@@ -28,21 +28,50 @@ for use with KML <href>
 """
 
 import urlparse
+import urllib2
+import os.path
 
 class Href:
 
   def __init__(self):
-    self.__scheme = 'http'
+    #self.__scheme = 'http'
+    self.__scheme = None
     self.__netloc = None
-    self.__path = None
+    # path = dirname / basename
+    self.__dirname = None
+    self.__basename = None
     self.__querylist = []
     self.__fragment = None
+
+  def GetScheme(self):
+    return self.__scheme
+
+  def SetScheme(self, scheme):
+    self.__scheme = scheme
 
   def SetHostname(self, hostname):
     self.__netloc = hostname
 
   def SetPath(self, path):
-    self.__path = path
+    # XXX non-unix systems?
+    # borrowing os.path for url's is improper...
+    (dirname,basename) = os.path.split(path)
+    self.__dirname = dirname
+    self.__basename = basename
+
+  def SetBasename(self, basename):
+    self.__basename = basename
+
+  def SetDirname(self, dirname):
+    self.__dirname = dirname
+
+  def SetUrl(self, url):
+    (scheme, netloc, path, query, fragment) = urlparse.urlsplit(url)
+    if len(scheme):
+      self.__scheme = scheme
+    if len(netloc):
+      self.__netloc = netloc
+    self.SetPath(path)
 
   def AddQuery(self, query):
     self.__querylist.append(query)
@@ -62,8 +91,14 @@ class Href:
     arg = []
     arg.append(self.__scheme)
     arg.append(self.__netloc)
-    arg.append(self.__path)
+    # This is URL so raw '/' is okay
+    arg.append(self.__dirname + '/' + self.__basename)
     arg.append(self.Query())
     arg.append(self.__fragment)
     return urlparse.urlunsplit(arg)
 
+
+def FetchUrl(url):
+  f = urllib2.urlopen(url)
+  return f.read()
+  
