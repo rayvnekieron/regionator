@@ -43,6 +43,7 @@ if len(sys.argv) != 2:
 inputkml = sys.argv[1]
 
 region_count = 0
+file_count = 0
 
 
 def CheckLatLonBox(name, llb):
@@ -124,6 +125,7 @@ def GetLinkHref(link_node):
 
 
 def GetNetworkLinkFile(networklink_node):
+  # XXX or <Url>
   link_nodelist = networklink_node.getElementsByTagName('Link')
   if link_nodelist:
     return GetLinkHref(link_nodelist[0])
@@ -144,43 +146,29 @@ def GetNetworkLinkRegion(networklink_node):
 # TODO 2) check Region hierarchy within children
 def WalkNetworkLinks(kmlfile):
   print kmlfile
+  global file_count
+  file_count += 1
 
+  # Sets the url to which all children are relative
   href = kml.href.Href()
   href.SetUrl(kmlfile)
-  if href.GetScheme() == None:
-    # Assume this is a local file
-    kp = kml.kmlparse.KMLParse(kmlfile)
-  else:
-    # Assume http basically
-    # XXX handle kmz
-    data = kml.href.FetchUrl(kmlfile)
-    kp = kml.kmlparse.KMLParse(None)
-    kp.ParseString(data)
+
+  kp = kml.kmlparse.KMLParse(kmlfile)
   doc = kp.Doc()
 
   region_nodelist = doc.getElementsByTagName('Region')
   for region in region_nodelist:
     if not CheckRegion(region):
       print kmlfile,'bad Region'
+
   networklink_nodelist = doc.getElementsByTagName('NetworkLink')
   for networklink_node in networklink_nodelist:
-    linkfile = GetNetworkLinkFile(networklink_node)
-    #fullname = RelativeName(kmlfile, linkfile)
-    # XXX yuck
-
-    linkhref = kml.href.Href()
-    linkhref.SetUrl(linkfile)
-    if linkhref.GetScheme():
-      fullname = linkfile
-    else:
-      # Set the basename of the parent link to this child
-      href.SetBasename(linkfile)
-      fullname = href.Href()
-
-    WalkNetworkLinks(fullname)
+    # XXX assumes a relative href
+    href.SetBasename(GetNetworkLinkFile(networklink_node))
+    WalkNetworkLinks(href.Href())
 
 
 WalkNetworkLinks(inputkml)
 
-print 'checked %d regions' % region_count
+print 'checked %d regions in %d files' % (region_count,file_count)
 
