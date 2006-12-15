@@ -28,9 +28,12 @@ Some utilities to parse and analyze KML
 
 import xml.dom.minidom
 import zipfile
+import tempfile
+import os
 
 import kml.coordbox
 import kml.genxml
+import kml.href
 
 
 def GetText(node):
@@ -65,22 +68,41 @@ class KMLParse:
     """
 
     self.__doc = None
+    self.__href = kml.href.Href()
+
     if kmlfile == None:
       return
 
+    self.__href.SetUrl(kmlfile)
+    if self.__href.GetScheme() == None:
+      self._ParseFile(kmlfile)
+    else:
+      self._ParseHttp(kmlfile)
+
+
+  def _ParseFile(self, kmlfile):
     if zipfile.is_zipfile(kmlfile):
-      self.ParseKMZ(kmlfile)
+      self._ParseKMZ(kmlfile)
       return
 
     self.__doc = xml.dom.minidom.parse(kmlfile)
 
 
-  def ParseKMZ(self, kmzfile):
+  def _ParseKMZ(self, kmzfile):
     z = zipfile.ZipFile(kmzfile)
     for name in z.namelist():
       if name.endswith('.kml'): # GE reads first .kml in the archive
         kmlstring = z.read(name)
-        self.__doc = xml.dom.minidom.parseString(kmlstring)
+        self.ParseString(kmlstring)
+
+
+  def _ParseHttp(self, kmlurl):
+    data = kml.href.FetchUrl(kmlurl)
+    (fd,tempfilename) = tempfile.mkstemp('kmlparsehttp')
+    os.write(fd,data)
+    os.close(fd)
+    self._ParseFile(tempfilename)
+    os.unlink(tempfilename)
 
 
   def ParseString(self, kmlstring):
