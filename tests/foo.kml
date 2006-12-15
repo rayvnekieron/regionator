@@ -1,0 +1,8 @@
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+
+<!-- baked into HttpKmlTestCase -->
+<name>foo name</name>
+
+</Document>
+</kml>

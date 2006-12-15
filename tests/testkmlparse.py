@@ -125,8 +125,10 @@ region_xml = ['<Region>\n',
 
 class ParseRegionTestCase(unittest.TestCase):
   def runTest(self):
-    doc = xml.dom.minidom.parseString("".join(region_xml))
-    (llab_node,lod_node) = kml.kmlparse.ParseRegion(doc)
+    # doc = xml.dom.minidom.parseString("".join(region_xml))
+    kp = kml.kmlparse.KMLParse(None)
+    kp.ParseString("".join(region_xml))
+    (llab_node,lod_node) = kml.kmlparse.ParseRegion(kp.Doc())
     llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
     lod = kml.kmlparse.ParseLod(lod_node)
     assert llab.north == '56.65', 'Region LatLonAltBox north bad'
@@ -135,7 +137,29 @@ class ParseRegionTestCase(unittest.TestCase):
     assert llab.west == '1.56780', 'Region LatLonAltBox west bad'
     assert lod.minLodPixels == '128', 'Region Lod minLodPixels bad'
     assert lod.maxLodPixels == '1024', 'Region Lod maxLodPixels bad'
-    
+
+
+class HttpKmlTestCase(unittest.TestCase):
+  def runTest(self):
+    kp = kml.kmlparse.KMLParse('http://localhost/kml/foo.kml')
+    doc = kp.Doc()
+    namelist = doc.getElementsByTagName('name')
+    assert namelist, 'http kml: no name element found'
+    name = namelist[0]
+    assert kml.kmlparse.GetText(namelist[0]) == 'foo name', 'bad name'
+
+
+class HttpKmzTestCase(unittest.TestCase):
+  def runTest(self):
+    kp = kml.kmlparse.KMLParse('http://localhost/kml/foo.kmz')
+    doc = kp.Doc()
+    assert doc, 'http kmz: dom parse failed'
+    namelist = doc.getElementsByTagName('name')
+    assert namelist, 'http kmz: no name element found'
+    name = namelist[0]
+    assert kml.kmlparse.GetText(namelist[0]) == 'foo name', 'bad name'
+
+
 
 
 def suite():
@@ -151,6 +175,8 @@ def suite():
   suite.addTest(ParseLinkTestCase())
   suite.addTest(ParseLatLonBoxTestCase())
   suite.addTest(ParseRegionTestCase())
+  suite.addTest(HttpKmlTestCase())
+  suite.addTest(HttpKmzTestCase())
   return suite
 
 
