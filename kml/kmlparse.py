@@ -437,13 +437,32 @@ class KMLParse:
     return lookat
 
 
-def ParseLatLonBox(node):
-  llab = kml.genxml.LatLonAltBox()
-  GetNSEW(node, llab)
-  return llab
+def ParseLatLonBox(llb_node):
+
+  """Parse <LatLonBox> dom node
+
+  Args:
+    llb_node: <LatLonBox> dom node
+
+  Returns:
+    kml.genxml.LatLonBox:
+  """
+
+  llb = kml.genxml.LatLonBox()
+  GetNSEW(llb_node, llb)
+  return llb
 
 
 def ParseLatLonAltBox(llab_node):
+
+  """Parse <LatLonAltBox> dom node
+
+  Args:
+    llab_node: <LatLonAltBox> dom node
+
+  Returns:
+    kml.genxml.LatLonAltBox:
+  """
 
   llab = kml.genxml.LatLonAltBox()
 
@@ -466,6 +485,17 @@ def ParseLatLonAltBox(llab_node):
 
 def GetNSEW(node, latlonbox):
 
+  """Parse <LatLonBox> or <LatLonAltBox> bounding box
+
+  Parses <north>, <south>, <east>, <west> into the
+  specified kml.genxml.LatLonBox
+
+  Args:
+    node: <LatLonBox> or <LatLonAltBox> dom node
+    llb: kml.genxml.LatLonBox
+
+  """
+
   north = node.getElementsByTagName('north')
   if north:
     latlonbox.north = GetText(north[0])
@@ -485,6 +515,15 @@ def GetNSEW(node, latlonbox):
 
 def ParseRegion(region_node):
 
+  """Parse <Region> dom node
+
+  Args:
+    region_node: <Region> dom node
+
+  Returns:
+    (<LatLonAltBox> dom node, <Lod> dom node)
+  """
+
   llab_node = None
   llab_list = region_node.getElementsByTagName('LatLonAltBox')
   if llab_list:
@@ -498,6 +537,15 @@ def ParseRegion(region_node):
 
 
 def ParseLod(lod_node):
+
+  """Parse <Lod> dom node
+
+  Args:
+    lod_node: <Lod> dom node
+
+  Returns:
+    kml.genxml.Lod:
+  """
 
   lod = kml.genxml.Lod()
 
@@ -521,6 +569,15 @@ def ParseLod(lod_node):
 
 
 def ParseLink(link_node):
+
+  """Parse <Link> dom node
+
+  Args:
+    link_node: <Link> dom node
+
+  Returns:
+    kml.genxml.Link:
+  """
 
   link = kml.genxml.Link()
 
