@@ -22,31 +22,35 @@ $Revision$
 $Date$
 """
 
-import os
-import distutils.core
+"""
 
-def SVNVersion():
-  svnversioncmd = os.popen('svnversion -n .')
-  svnversion = svnversioncmd.read()
+Dig out the .kml in a .kmz
 
-  f = open('kml/svnversion.py','w')
-  f.write('svnversion = "%s"\n' % svnversion)
+"""
+
+import sys
+import os.path
+import kml.kmlparse
+import kml.genxml
+import kml.href
+import kml.kmz
+
+
+argc = len(sys.argv)
+if argc < 2 or argc > 3:
+  print 'usage: %s input.kmz [output.kml]' % sys.argv[0]
+  sys.exit(1)
+
+inputkmz = sys.argv[1]
+if argc == 3:
+  outputkml = sys.argv[2]
+else:
+  outputkml = None
+
+kmldata = kml.kmz.ExtractKMLFile(inputkmz)
+if outputkml:
+  f = open(outputkml,'w')
+  f.write(kmldata)
   f.close()
-  return svnversion
-
-script_list = [
-  'scripts/superoverlay.py',
-  'scripts/placemarks.py',
-  'scripts/cgiregionator.py', # really for /var/www/cgi-bin or equiv
-  'scripts/insertregions.py',
-  'scripts/checkregions.py',
-  'scripts/getkml.py'
-]
-
-distutils.core.setup(name='kml',
-  version='%s' % SVNVersion(),
-  description='KML Regionator',
-  packages=['kml'],
-  scripts=script_list
-)
-
+else:
+  print kmldata,
