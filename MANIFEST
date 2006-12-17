@@ -64,6 +64,8 @@ tests/testxml.py
 tests/testkml.py
 tests/testmkroot.py
 tests/testkmlparse.py
+tests/foo.kml
+tests/foo.kmz
 tests/go.kml
 tests/testsuperoverlay.sh
 tests/ksc-llb-a.kml
