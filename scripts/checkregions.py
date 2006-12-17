@@ -44,54 +44,80 @@ inputkml = sys.argv[1]
 
 region_count = 0
 file_count = 0
+error_count = 0
 
 
 def CheckLatLonBox(name, llb):
+  global error_count
   status = True
   # These are _not_ the defaults
   # A common error is for 0 to be take as "not set" (or None)
   if llb.north == None:
     print 'north not set'
+    error_count += 1
     llb.north = 0
   if llb.south == None:
     print 'south not set'
+    error_count += 1
     llb.south = 0
   if llb.east == None:
     print 'east not set'
+    error_count += 1
     llb.east = 0
   if llb.west == None:
     print 'east not set'
+    error_count += 1
     llb.west = 0
   if float(llb.north) <= float(llb.south):
     print '%s: north not greater than south' % name
+    error_count += 1
     status = False
   if float(llb.east) <= float(llb.west):
     print '%s: east not greater than west' % name
+    error_count += 1
     status = False
   return status
 
 
 def CheckLatLonAltBox(llab):
+  global error_count
   status = True
   if not CheckLatLonBox('LatLonAltBox', llab):
     status = False
   if llab.minAltitude and llab.maxAltitude:
     if float(llab.minAltitude) < float(llab.maxAltitude):
+      error_count += 1
       print 'east not greater than west'
       status = False
   return status
 
 
+def CheckLatLonBoxContains(parent_llb, child_llb):
+  global error_count
+  if parent_llb == None:
+    return True
+  if (float(parent_llb.north) >= float(child_llb.north) and
+      float(parent_llb.south) <= float(child_llb.south) and
+      float(parent_llb.east) >= float(child_llb.east) and
+      float(parent_llb.west) <= float(child_llb.west)):
+    return True
+  error_count += 1
+  return False
+
+
 def CheckLod(lod):
+  global error_count
   status = True
   if lod.minLodPixels < 0:
     print 'Lod bad minLodPixels',lod.minLodPixels
+    error_count += 1
     status = False
   if lod.maxLodPixels == None or float(lod.maxLodPixels) == -1:
     return status
 
   if float(lod.minLodPixels) > float(lod.maxLodPixels):
     print 'Lod: minLodPixels greater than maxLodPixels'
+    error_count += 1
     status = False
   return status
 
@@ -132,19 +158,23 @@ def GetNetworkLinkFile(networklink_node):
   return None
 
 
+def ParseRegion(region_node):
+  (llab_node, lod_node) = kml.kmlparse.ParseRegion(region_node)
+  llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
+  lod = kml.kmlparse.ParseLod(lod_node)
+  return (llab, lod)
+
+
 def GetNetworkLinkRegion(networklink_node):
   region_nodelist = networklink_node.getElementsByTagName('Region')
   if region_nodelist:
-    (llab_node, lod_node) = kml.kmlparse.ParseRegion(region_nodelist[0])
-    llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
-    lod = kml.kmlparse.ParseLod(lod_node)
-    return (llab, lod) # XXX
-  return None
+    return ParseRegion(region_nodelist[0])
+  return (None, None)
 
 
 # TODO 1) check Region hierarchy within file
 # TODO 2) check Region hierarchy within children
-def WalkNetworkLinks(kmlfile):
+def WalkNetworkLinks(kmlfile, parent_llab):
   print kmlfile
   global file_count
   file_count += 1
@@ -160,15 +190,20 @@ def WalkNetworkLinks(kmlfile):
   for region in region_nodelist:
     if not CheckRegion(region):
       print kmlfile,'bad Region'
+    (llab, lod) = ParseRegion(region)
+    if not CheckLatLonBoxContains(parent_llab, llab):
+      print kmlfile,'child region not within parent'
 
   networklink_nodelist = doc.getElementsByTagName('NetworkLink')
   for networklink_node in networklink_nodelist:
+    (llab,lod) = GetNetworkLinkRegion(networklink_node)
     # XXX assumes a relative href
     href.SetBasename(GetNetworkLinkFile(networklink_node))
-    WalkNetworkLinks(href.Href())
+    WalkNetworkLinks(href.Href(), llab)
 
 
-WalkNetworkLinks(inputkml)
+WalkNetworkLinks(inputkml, None)
 
-print 'checked %d regions in %d files' % (region_count,file_count)
+print 'checked %d regions in %d files, %d errors' % \
+      (region_count,file_count,error_count)
 
