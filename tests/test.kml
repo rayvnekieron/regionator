@@ -20,7 +20,7 @@ $Date$
 
 -->
 <kml xmlns="http://earth.google.com/kml/2.1">
-<Folder>
+<Folder id="keep">
 <name>Regionator tests $Revision$</name>
 
 <Snippet maxLines="10">
