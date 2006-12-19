@@ -68,11 +68,18 @@ class KMLHierarchy:
 
   def __init__(self):
     self.__node_handler = None
+    self.__verbose = False
 
   def SetNodeHandler(self, node_handler):
     self.__node_handler = node_handler
 
+  def SetVerbose(verbose):
+    self.__verbose = verbose
+
   def Walk(self, kmlfile, llab=None, lod=None):
+
+    if self.__verbose:
+      print kmlfile
 
     # Sets the url to which all children are relative
     href = kml.href.Href()
