@@ -73,7 +73,7 @@ class KMLHierarchy:
   def SetNodeHandler(self, node_handler):
     self.__node_handler = node_handler
 
-  def SetVerbose(verbose):
+  def SetVerbose(self, verbose):
     self.__verbose = verbose
 
   def Walk(self, kmlfile, llab=None, lod=None):
