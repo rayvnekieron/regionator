@@ -47,6 +47,20 @@ file_count = 0
 error_count = 0
 
 
+def CheckLatLonBoxSize(name, llb):
+  global error_count
+  status = True
+  if float(llb.north) - float(llb.south) < .0001:
+    print name,'bbox too short',llb.north,llb.south
+    error_count += 1
+    status = False
+  if float(llb.east) - float(llb.west) < .0001:
+    print name,'bbox too narrow',llb.east,llb.west
+    error_count += 1
+    status = False
+  return status
+
+
 def CheckLatLonBox(name, llb):
   global error_count
   status = True
@@ -89,6 +103,8 @@ def CheckLatLonAltBox(llab):
       error_count += 1
       print 'east not greater than west'
       status = False
+  if not CheckLatLonBoxSize('LatLonAltBox', llab):
+    status = False
   return status
 
 
