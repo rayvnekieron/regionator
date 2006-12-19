@@ -37,6 +37,7 @@ scripts/placemarks.py
 scripts/superoverlay.py
 scripts/insertregions.py
 scripts/checkregions.py
+scripts/mkregionboxes.py
 scripts/getkml.py
 tests/README
 tests/prversion.py
