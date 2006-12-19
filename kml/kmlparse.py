@@ -81,6 +81,9 @@ class KMLParse:
 
 
   def _ParseFile(self, kmlfile):
+    if not os.access(kmlfile, os.R_OK):
+      return
+
     if zipfile.is_zipfile(kmlfile):
       self._ParseKMZ(kmlfile)
       return
