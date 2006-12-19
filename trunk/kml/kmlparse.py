@@ -88,7 +88,11 @@ class KMLParse:
       self._ParseKMZ(kmlfile)
       return
 
-    self.__doc = xml.dom.minidom.parse(kmlfile)
+    try:
+      self.__doc = xml.dom.minidom.parse(kmlfile)
+    except:
+      print 'parse error'
+      self.__doc = None
 
 
   def _ParseKMZ(self, kmzfile):
@@ -109,7 +113,12 @@ class KMLParse:
 
 
   def ParseString(self, kmlstring):
-    self.__doc = xml.dom.minidom.parseString(kmlstring)
+    try:
+      self.__doc = xml.dom.minidom.parseString(kmlstring)
+    except:
+      print 'parse error'
+      self.__doc = None
+
 
 
   def Doc(self):
