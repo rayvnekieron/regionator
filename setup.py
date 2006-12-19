@@ -40,6 +40,7 @@ script_list = [
   'scripts/cgiregionator.py', # really for /var/www/cgi-bin or equiv
   'scripts/insertregions.py',
   'scripts/checkregions.py',
+  'scripts/mkregionboxes.py',
   'scripts/getkml.py'
 ]
 
