@@ -188,6 +188,7 @@ class CheckRegionNodeHandler(kml.walk.KMLNodeHandler):
 check_region_node_handler = CheckRegionNodeHandler()
 hierarchy = kml.walk.KMLHierarchy()
 hierarchy.SetNodeHandler(check_region_node_handler)
+hierarchy.SetVerbose(True)
 hierarchy.Walk(inputkml, None, None)
 check_region_node_handler.PrintSummary()
 
