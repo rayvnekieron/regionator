@@ -51,17 +51,11 @@ def MakeQidBoxes(rtor,boxfile):
 
   qids = rtor.QidList()
   for qid in qids:
-    placemark = kml.genxml.Placemark()
-    placemark.name = 'qid %s' % qid
-    
     r = rootregion.Region(qid)
     (n,s,e,w) = r.NSEW()
     (minpx,maxpx) = rtor.LodPixels(r)
-    regionxml = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
-    boxxml = kml.genkml.LineStringBox(n,s,e,w)
-    placemark.Geometry = boxxml
-    placemark.Region = regionxml
-    document.Add_Feature(placemark.xml())
+    name = 'qid %s' % qid
+    document.Add_Feature(kml.genkml.RegionBox(name,n,s,e,w,minpx,maxpx))
 
   k = kml.genxml.Kml()
   k.Feature = document.xml()

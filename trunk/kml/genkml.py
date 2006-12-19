@@ -262,6 +262,27 @@ def Box(n,s,e,w,name,styleurl=None,alt=None,altMode='relativeToGround'):
   return placemark.xml()
 
 
+def RegionBox(name,n,s,e,w,minpx,maxpx):
+
+    """ <Placemark><Region>...</Region><LineString>...</LineString></Placemark>
+
+    Args:
+      n,s,e,w: float
+      minpx,maxpx: minLodPixels, maxLodPixels
+
+    Returns:
+      KML: <Placemark><Region>...</Region><LineString>...</LineString></Placemark>
+    """
+
+    placemark = kml.genxml.Placemark()
+    placemark.name = name
+    regionxml = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
+    boxxml = kml.genkml.LineStringBox(n,s,e,w)
+    placemark.Geometry = boxxml
+    placemark.Region = regionxml
+    return placemark.xml()
+
+
 def LatLonOutline(n,s,e,w,name):
 
   """ Generate a lat-lon-aligned box
