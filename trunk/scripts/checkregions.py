@@ -185,6 +185,9 @@ def WalkNetworkLinks(kmlfile, parent_llab):
 
   kp = kml.kmlparse.KMLParse(kmlfile)
   doc = kp.Doc()
+  if not doc:
+    print kmlfile,'load or parse error'
+    return
 
   region_nodelist = doc.getElementsByTagName('Region')
   for region in region_nodelist:

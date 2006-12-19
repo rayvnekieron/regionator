@@ -160,6 +160,11 @@ class HttpKmzTestCase(unittest.TestCase):
     assert kml.kmlparse.GetText(namelist[0]) == 'foo name', 'bad name'
 
 
+class NoSuchFileTestCase(unittest.TestCase):
+  def runTest(self):
+   kp = kml.kmlparse.KMLParse('non-existent-file.kml')
+   doc = kp.Doc()
+   assert doc == None, 'failed to detect non-existent file'
 
 
 def suite():
@@ -177,6 +182,7 @@ def suite():
   suite.addTest(ParseRegionTestCase())
   suite.addTest(HttpKmlTestCase())
   suite.addTest(HttpKmzTestCase())
+  suite.addTest(NoSuchFileTestCase())
   return suite
 
 
