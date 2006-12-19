@@ -33,6 +33,7 @@ import sys
 import kml.kmlparse
 import kml.genxml
 import kml.href
+import kml.walk
 import os.path
 
 
@@ -155,25 +156,6 @@ def CheckRegion(region_node):
   return status
 
 
-def RelativeName(parent_path, relative_path):
-  # XXX presumes relative_path is just that...
-  dir = os.path.dirname(parent_path)
-  return os.path.join(dir, relative_path)
-
-
-def GetLinkHref(link_node):
-  link = kml.kmlparse.ParseLink(link_node)
-  return link.href
-
-
-def GetNetworkLinkFile(networklink_node):
-  # XXX or <Url>
-  link_nodelist = networklink_node.getElementsByTagName('Link')
-  if link_nodelist:
-    return GetLinkHref(link_nodelist[0])
-  return None
-
-
 def ParseRegion(region_node):
   (llab_node, lod_node) = kml.kmlparse.ParseRegion(region_node)
   llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
@@ -181,48 +163,31 @@ def ParseRegion(region_node):
   return (llab, lod)
 
 
-def GetNetworkLinkRegion(networklink_node):
-  region_nodelist = networklink_node.getElementsByTagName('Region')
-  if region_nodelist:
-    return ParseRegion(region_nodelist[0])
-  return (None, None)
+class CheckRegionNodeHandler(kml.walk.KMLNodeHandler):
+
+  def __init__(self):
+    self.__file_count = 0
+    self.__region_count = 0
+
+  def HandleNode(self, node, llab, lod):
+    self.__file_count += 1
+    region_nodelist = node.getElementsByTagName('Region')
+    for region in region_nodelist:
+      self.__region_count += 1
+      if not CheckRegion(region):
+        print 'bad Region'
+      (llab, lod) = ParseRegion(region)
+      if not CheckLatLonBoxContains(llab, llab):
+        print 'child region not within parent'
+
+  def PrintSummary(self):
+    print 'checked %d regions in %d files, %d errors' % \
+      (self.__region_count,self.__file_count,error_count)
 
 
-# TODO 1) check Region hierarchy within file
-# TODO 2) check Region hierarchy within children
-def WalkNetworkLinks(kmlfile, parent_llab):
-  print kmlfile
-  global file_count
-  file_count += 1
-
-  # Sets the url to which all children are relative
-  href = kml.href.Href()
-  href.SetUrl(kmlfile)
-
-  kp = kml.kmlparse.KMLParse(kmlfile)
-  doc = kp.Doc()
-  if not doc:
-    print kmlfile,'load or parse error'
-    return
-
-  region_nodelist = doc.getElementsByTagName('Region')
-  for region in region_nodelist:
-    if not CheckRegion(region):
-      print kmlfile,'bad Region'
-    (llab, lod) = ParseRegion(region)
-    if not CheckLatLonBoxContains(parent_llab, llab):
-      print kmlfile,'child region not within parent'
-
-  networklink_nodelist = doc.getElementsByTagName('NetworkLink')
-  for networklink_node in networklink_nodelist:
-    (llab,lod) = GetNetworkLinkRegion(networklink_node)
-    # XXX assumes a relative href
-    href.SetBasename(GetNetworkLinkFile(networklink_node))
-    WalkNetworkLinks(href.Href(), llab)
-
-
-WalkNetworkLinks(inputkml, None)
-
-print 'checked %d regions in %d files, %d errors' % \
-      (region_count,file_count,error_count)
+check_region_node_handler = CheckRegionNodeHandler()
+hierarchy = kml.walk.KMLHierarchy()
+hierarchy.SetNodeHandler(check_region_node_handler)
+hierarchy.Walk(inputkml, None, None)
+check_region_node_handler.PrintSummary()
 
