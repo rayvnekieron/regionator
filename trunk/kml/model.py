@@ -22,6 +22,7 @@ $Date$
 
 import os
 import kml.kmlparse
+import kml.coordbox
 
 
 class Model:
@@ -116,6 +117,14 @@ class ModelSet:
         if model.Parse(os.path.join(self.__dir,filename)):
           print 'adding',modelname
           self.__models[modelname] = model
+
+  def FindBBOX(self):
+    self.__cbox = kml.coordbox.CoordBox()
+    for modelname in self.__models:
+      model = self.__models[modelname]
+      (lon,lat) = model.Location()
+      self.__cbox.AddPoint(lon,lat)
+    return self.__cbox.NSEW()
 
   def Locations(self):
     """ List of (lon,lat,name) tuples """

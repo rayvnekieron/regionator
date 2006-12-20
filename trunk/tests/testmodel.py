@@ -54,10 +54,22 @@ class SimpleModelSetTestCase(unittest.TestCase):
     assert model.Kmz() == './London_house.kmz', 'model Kmz failed'
 
 
+class ModelSetBBOXTestCase(unittest.TestCase):
+  def runTest(self):
+    modelset = kml.model.ModelSet('.')
+    modelset.FindAndParse()
+    (n,s,e,w) = modelset.FindBBOX()
+    assert n == 51.515803220526, 'bad bbox north'
+    assert s == 37.802415973264, 'bad bbox south'
+    assert e == -0.114086084916, 'bad bbox east'
+    assert w == -122.405843291645, 'bad bbox west'
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleModelTestCase())
   suite.addTest(SimpleModelSetTestCase())
+  suite.addTest(ModelSetBBOXTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
