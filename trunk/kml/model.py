@@ -61,11 +61,7 @@ class Model:
     if not doc: # parse failed
       return False
 
-    nodelist = doc.getElementsByTagName('Placemark')
-    if not nodelist:
-      return False
-
-    nodelist = nodelist[0].getElementsByTagName('Model')
+    nodelist = doc.getElementsByTagName('Model')
     if not nodelist:
       return False
 
@@ -118,6 +114,7 @@ class ModelSet:
         model = Model()
         model.SetName(modelname)
         if model.Parse(os.path.join(self.__dir,filename)):
+          print 'adding',modelname
           self.__models[modelname] = model
 
   def Locations(self):
