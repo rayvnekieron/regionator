@@ -32,6 +32,7 @@ kml/wms.py
 kml/cgiregion.py
 kml/coordinates.py
 kml/walk.py
+kml/model.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
