@@ -36,9 +36,28 @@ class SimpleModelTestCase(unittest.TestCase):
     assert lat == 37.802415973264, 'bad latitude'
 
 
+class SimpleModelSetTestCase(unittest.TestCase):
+  def runTest(self):
+    modelset = kml.model.ModelSet('.')
+    modelset.FindAndParse()
+
+    locations = modelset.Locations()
+    print len(locations)
+    assert len(locations) == 2, 'modelset Locations failed'
+
+    model = modelset.GetModel('coit')
+    assert model, 'modelset GetModel failed'
+    assert model.Kmz() == './coit.kmz', 'model Kmz failed'
+
+    model = modelset.GetModel('London_house')
+    assert model, 'modelset GetModel failed'
+    assert model.Kmz() == './London_house.kmz', 'model Kmz failed'
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleModelTestCase())
+  suite.addTest(SimpleModelSetTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
