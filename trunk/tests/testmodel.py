@@ -1,27 +1,46 @@
 #!/usr/bin/python
 
-import sys
+"""
+Copyright (C) 2006 Google Inc.
 
-import kml.kmlparse
-import kml.genxml
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-if len(sys.argv) != 2:
-  print 'usage: %s model.kml' % sys.argv[0]
-  sys.exit(1)
+     http://www.apache.org/licenses/LICENSE-2.0
 
-modelkml = sys.argv[1]
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+"""
 
-kp = kml.kmlparse.KMLParse(modelkml)
-location = kp.ExtractLocation()
-orientation = kp.ExtractOrientation()
-scale = kp.ExtractScale()
-link = kp.ExtractLink()
+"""
+$URL$
+$Revision$
+$Date$
+"""
 
-model = kml.genxml.Model()
-model.Location = location.xml()
-model.Orientation = orientation.xml()
-model.Scale = scale.xml()
-model.Link = link.xml()
-print model.xml()
+import unittest
 
+import kml.model
+
+
+class SimpleModelTestCase(unittest.TestCase):
+  def runTest(self):
+    model = kml.model.Model()
+    model.Parse('coit.kml')
+    (lon,lat) = model.Location()
+    assert lon == -122.405843291645, 'bad longitude'
+    assert lat == 37.802415973264, 'bad latitude'
+
+
+def suite():
+  suite = unittest.TestSuite()
+  suite.addTest(SimpleModelTestCase())
+  return suite
+
+runner = unittest.TextTestRunner()
+runner.run(suite())
 
