@@ -74,6 +74,14 @@ def GetSimpleElementText(node, tagname):
   return None
 
 
+def GetFirstChildElement(node, tagname):
+  nodelist = node.getElementsByTagName(tagname)
+  if nodelist:
+    return nodelist[0]
+  else:
+    return None
+
+
 class KMLParse:
 
   """DOM parse a KML or KMZ file
@@ -467,15 +475,8 @@ def ParseRegion(region_node):
     (<LatLonAltBox> dom node, <Lod> dom node)
   """
 
-  llab_node = None
-  llab_list = region_node.getElementsByTagName('LatLonAltBox')
-  if llab_list:
-    llab_node = llab_list[0]
-
-  lod_node = None
-  lod_list = region_node.getElementsByTagName('Lod')
-  if lod_list:
-    lod_node = lod_list[0]
+  llab_node = GetFirstChildElement(region_node, 'LatLonAltBox')
+  lod_node = GetFirstChildElement(region_node, 'Lod')
   return (llab_node, lod_node)
 
 
@@ -514,3 +515,20 @@ def ParseLink(link_node):
   link.viewRefreshMode = GetSimpleElementText(link_node, 'viewRefreshMode')
   return link
 
+
+def ParseModel(model_node):
+
+  """Parse <Model> dom node
+
+  Args:
+    model_node: <Model> dom node
+
+  Returns:
+    (location, orientation, scale, link): dom nodes
+  """
+
+  location_node = GetFirstChildElement(model_node, 'Location')
+  orientation_node = GetFirstChildElement(model_node, 'Orientation')
+  scale_node = GetFirstChildElement(model_node, 'Scale')
+  link_node = GetFirstChildElement(model_node, 'Link')
+  return (location_node, orientation_node, scale_node, link_node)
