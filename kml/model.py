@@ -20,7 +20,7 @@ $Revision$
 $Date$
 """
 
-
+import os
 import kml.kmlparse
 
 
@@ -43,22 +43,44 @@ class Model:
     self.__link = None
 
 
+  def SetName(self, name):
+    self.__name = name
+
+  def Name(self):
+    return self.__name
+
+
   def Parse(self, kmzfile): 
 
-    """ Parse .kmz
+    """ Parse .kmz for first Placemark/Model
 
     """
 
     kp = kml.kmlparse.KMLParse(kmzfile)
     doc = kp.Doc()
     if not doc: # parse failed
-      return
+      return False
 
+    nodelist = doc.getElementsByTagName('Placemark')
+    if not nodelist:
+      return False
+
+    nodelist = nodelist[0].getElementsByTagName('Model')
+    if not nodelist:
+      return False
+
+    nodelist = nodelist[0].getElementsByTagName('Location')
+    if not nodelist:
+      return False
+
+    self.__location = kml.kmlparse.ParseLocation(nodelist[0])
     self.__kmzfile = kmzfile
 
-    self.__location = kp.ExtractLocation() 
+    return True
 
-    self.__lookat = kp.ExtractLookAt()
+
+  def Kmz(self):
+    return self.__kmzfile
 
 
   def Location(self):
@@ -77,4 +99,39 @@ class Model:
     else:
       return (None,None)
     
+
+class ModelSet:
+
+  """ A set of Models
+
+  """
+
+  def __init__(self, dir):
+   self.__dir = dir
+   self.__models = {}
+
+  def FindAndParse(self):
+    filenames = os.listdir(self.__dir)
+    for filename in filenames:
+      (modelname,ext) = os.path.splitext(filename)
+      if ext == '.kmz':
+        model = Model()
+        model.SetName(modelname)
+        if model.Parse(os.path.join(self.__dir,filename)):
+          self.__models[modelname] = model
+
+  def Locations(self):
+    """ List of (lon,lat,name) tuples """
+    locations = []
+    for modelname in self.__models:
+      model = self.__models[modelname]
+      (lon,lat) = model.Location()
+      name = model.Name()
+      locations.append((lon,lat,name))
+    return locations
+
+  def GetModel(self, name):
+    if self.__models.has_key(name):
+      return self.__models[name]
+    return None
 
