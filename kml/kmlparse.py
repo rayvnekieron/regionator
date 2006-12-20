@@ -54,6 +54,26 @@ def GetText(node):
   return "".join(text).strip()
 
 
+def GetSimpleElementText(node, tagname):
+
+  """Return text of <tagname> child of node
+
+  Args:
+    node: dom node
+    tagname: child element of dom node
+
+  Returns:
+    None: if node has no child of this tagname
+    text: character data of <tagname>
+
+  """
+
+  nodelist = node.getElementsByTagName(tagname)
+  if nodelist:
+    return GetText(nodelist[0])
+  return None
+
+
 class KMLParse:
 
   """DOM parse a KML or KMZ file
@@ -118,7 +138,6 @@ class KMLParse:
     except:
       print 'parse error'
       self.__doc = None
-
 
 
   def Doc(self):
@@ -226,16 +245,7 @@ class KMLParse:
     if not tss:
       return None
 
-    timespan = kml.genxml.TimeSpan()
-
-    ts = tss[0]
-    begin = ts.getElementsByTagName('begin')
-    timespan.begin = GetText(begin[0])
-
-    end = ts.getElementsByTagName('end')
-    timespan.end = GetText(end[0])
-
-    return timespan
+    return ParseTimeSpan(tss[0])
 
 
   def ExtractIcon(self):
@@ -249,15 +259,7 @@ class KMLParse:
     icons = self.__doc.getElementsByTagName('Icon')
     if not icons:
       return None
-
-    icon = kml.genxml.Icon()
-
-    i = icons[0]
-    href = i.getElementsByTagName('href')
-    if href:
-      icon.href = GetText(href[0])
-
-    return icon
+    return ParseIcon(icons[0])
 
 
   def ExtractLink(self):
@@ -271,15 +273,7 @@ class KMLParse:
     links = self.__doc.getElementsByTagName('Link')
     if not links:
       return None
-
-    link = kml.genxml.Link()
-
-    l = links[0]
-    href = l.getElementsByTagName('href')
-    if href:
-      link.href = GetText(href[0])
-
-    return link
+    return ParseLink(links[0])
 
 
   def ExtractGroundOverlay(self):
@@ -293,24 +287,7 @@ class KMLParse:
     gos = self.__doc.getElementsByTagName('GroundOverlay')
     if not gos:
       return None
-
-    groundoverlay = kml.genxml.GroundOverlay()
-
-    go = gos[0]
-
-    drawOrder = go.getElementsByTagName('drawOrder')
-    if drawOrder:
-      groundoverlay.drawOrder = GetText(drawOrder[0])
-
-    altitude = go.getElementsByTagName('altitude')
-    if altitude:
-      groundoverlay.altitude = GetText(altitude[0])
-
-    altitudeMode = go.getElementsByTagName('altitudeMode')
-    if altitudeMode:
-      groundoverlay.altitudeMode = GetText(altitudeMode[0])
-      
-    return groundoverlay
+    return ParseGroundOverlay(gos[0])
 
 
   def ExtractLocation(self):
@@ -324,24 +301,7 @@ class KMLParse:
     locs = self.__doc.getElementsByTagName('Location')
     if not locs:
       return None
-
-    location = kml.genxml.Location()
-
-    loc = locs[0]
-
-    longitude = loc.getElementsByTagName('longitude')
-    if longitude:
-      location.longitude = GetText(longitude[0])
-
-    latitude = loc.getElementsByTagName('latitude')
-    if latitude:
-      location.latitude = GetText(latitude[0])
-
-    altitude = loc.getElementsByTagName('altitude')
-    if altitude:
-      location.altitude = GetText(altitude[0])
-
-    return location
+    return ParseLocation(locs[0])
 
 
   def ExtractOrientation(self):
@@ -355,24 +315,7 @@ class KMLParse:
     os = self.__doc.getElementsByTagName('Orientation')
     if not os:
       return None
-
-    orientation = kml.genxml.Orientation()
-
-    o = os[0]
-
-    heading = o.getElementsByTagName('heading')
-    if heading:
-      orientation.heading = GetText(heading[0])
-
-    tilt = o.getElementsByTagName('tilt')
-    if tilt:
-      orientation.tilt = GetText(tilt[0])
-
-    roll = o.getElementsByTagName('roll')
-    if roll:
-      orientation.roll = GetText(roll[0])
-
-    return orientation
+    return ParseOrientation(os[0])
 
 
   def ExtractScale(self):
@@ -386,24 +329,7 @@ class KMLParse:
     ss = self.__doc.getElementsByTagName('Scale')
     if not ss:
       return None
-
-    orientation = kml.genxml.Scale()
-
-    s = ss[0]
-
-    x = s.getElementsByTagName('x')
-    if x:
-      orientation.x = GetText(x[0])
-
-    y = s.getElementsByTagName('y')
-    if y:
-      orientation.y = GetText(y[0])
-
-    z = s.getElementsByTagName('z')
-    if z:
-      orientation.z = GetText(z[0])
-
-    return orientation
+    return ParseScale(ss[0])
 
 
   def ExtractLookAt(self):
@@ -417,36 +343,63 @@ class KMLParse:
     las = self.__doc.getElementsByTagName('LookAt')
     if not las:
       return None
+    return ParseLookAt(las[0])
 
+
+def ParseLookAt(la_node):
     lookat = kml.genxml.LookAt()
-
-    la = las[0]
-
-    longitude = la.getElementsByTagName('longitude')
-    if longitude:
-      lookat.longitude = GetText(longitude[0])
-
-    latitude = la.getElementsByTagName('latitude')
-    if latitude:
-      lookat.latitude = GetText(latitude[0])
-
-    altitude = la.getElementsByTagName('altitude')
-    if altitude:
-      lookat.altitude = GetText(altitude[0])
-
-    range = la.getElementsByTagName('range')
-    if range:
-      lookat.range = GetText(range[0])
-
-    tilt = la.getElementsByTagName('tilt')
-    if tilt:
-      lookat.tilt = GetText(tilt[0])
-
-    heading = la.getElementsByTagName('heading')
-    if heading:
-      lookat.heading = GetText(heading[0])
-
+    lookat.longitude = GetSimpleElementText(la_node, 'longitude')
+    lookat.latitude = GetSimpleElementText(la_node, 'latitude')
+    lookat.altitude = GetSimpleElementText(la_node, 'altitude')
+    lookat.range = GetSimpleElementText(la_node, 'range')
+    lookat.tilt = GetSimpleElementText(la_node, 'tilt')
+    lookat.heading = GetSimpleElementText(la_node, 'heading')
     return lookat
+
+
+def ParseLocation(loc_node):
+    location = kml.genxml.Location()
+    location.longitude = GetSimpleElementText(loc_node, 'longitude')
+    location.latitude = GetSimpleElementText(loc_node, 'latitude')
+    location.altitude = GetSimpleElementText(loc_node, 'altitude')
+    return location
+
+
+def ParseOrientation(o_node):
+    orientation = kml.genxml.Orientation()
+    orientation.heading = GetSimpleElementText(o_node, 'heading')
+    orientation.tilt = GetSimpleElementText(o_node, 'tilt')
+    orientation.roll = GetSimpleElementText(o_node, 'roll')
+    return orientation
+
+
+def ParseScale(scale_node):
+    scale = kml.genxml.Scale()
+    scale.x = GetSimpleElementText(scale_node, 'x')
+    scale.y = GetSimpleElementText(scale_node, 'y')
+    scale.z = GetSimpleElementText(scale_node, 'z')
+    return scale
+
+
+def ParseGroundOverlay(go_node):
+    groundoverlay = kml.genxml.GroundOverlay()
+    groundoverlay.drawOrder = GetSimpleElementText(go_node, 'drawOrder')
+    groundoverlay.altitude = GetSimpleElementText(go_node, 'altitude')
+    groundoverlay.altitudeMode = GetSimpleElementText(go_node, 'altitudeMode')
+    return groundoverlay
+
+
+def ParseIcon(icon_node):
+    icon = kml.genxml.Icon()
+    icon.href = GetSimpleElementText(icon_node, 'href')
+    return icon
+
+
+def ParseTimeSpan(ts_node):
+    timespan = kml.genxml.TimeSpan()
+    timespan.begin = GetSimpleElementText(ts_node, 'begin')
+    timespan.end = GetSimpleElementText(ts_node, 'end')
+    return timespan
 
 
 def ParseLatLonBox(llb_node):
@@ -477,21 +430,10 @@ def ParseLatLonAltBox(llab_node):
   """
 
   llab = kml.genxml.LatLonAltBox()
-
   GetNSEW(llab_node, llab)
-
-  minAltitude = llab_node.getElementsByTagName('minAltitude')
-  if minAltitude:
-    llab.minAltitude = GetText(minAltitude[0])
-
-  maxAltitude = llab_node.getElementsByTagName('maxAltitude')
-  if maxAltitude:
-    llab.maxAltitude = GetText(maxAltitude[0])
-
-  altitudeMode = llab_node.getElementsByTagName('altitudeMode')
-  if altitudeMode:
-    llab.altitudeMode = GetText(altitudeMode[0])
-
+  llab.minAltitude = GetSimpleElementText(llab_node, 'minAltitude')
+  llab.maxAltitude = GetSimpleElementText(llab_node, 'maxAltitude')
+  llab.altitudeMode = GetSimpleElementText(llab_node, 'altitudeMode')
   return llab
 
 
@@ -508,21 +450,10 @@ def GetNSEW(node, latlonbox):
 
   """
 
-  north = node.getElementsByTagName('north')
-  if north:
-    latlonbox.north = GetText(north[0])
-
-  south = node.getElementsByTagName('south')
-  if south:
-    latlonbox.south = GetText(south[0])
-
-  east = node.getElementsByTagName('east')
-  if east:
-    latlonbox.east = GetText(east[0])
-
-  west = node.getElementsByTagName('west')
-  if west:
-    latlonbox.west = GetText(west[0])
+  latlonbox.north = GetSimpleElementText(node, 'north')
+  latlonbox.south = GetSimpleElementText(node, 'south')
+  latlonbox.east = GetSimpleElementText(node, 'east')
+  latlonbox.west = GetSimpleElementText(node, 'west')
 
 
 def ParseRegion(region_node):
@@ -560,23 +491,10 @@ def ParseLod(lod_node):
   """
 
   lod = kml.genxml.Lod()
-
-  n = lod_node.getElementsByTagName('minLodPixels')
-  if n:
-    lod.minLodPixels = GetText(n[0])
-
-  n = lod_node.getElementsByTagName('maxLodPixels')
-  if n:
-    lod.maxLodPixels = GetText(n[0])
-
-  n = lod_node.getElementsByTagName('minFadeExtent')
-  if n:
-    lod.minFadeExtent = GetText(n[0])
-
-  n = lod_node.getElementsByTagName('maxFadeExtent')
-  if n:
-    lod.maxFadeExtent = GetText(n[0])
-
+  lod.minLodPixels = GetSimpleElementText(lod_node, 'minLodPixels')
+  lod.maxLodPixels = GetSimpleElementText(lod_node, 'maxLodPixels')
+  lod.minFadeExtent = GetSimpleElementText(lod_node, 'minFadeExtent')
+  lod.maxFadeExtent = GetSimpleElementText(lod_node, 'maxFadeExtent')
   return lod
 
 
@@ -592,15 +510,7 @@ def ParseLink(link_node):
   """
 
   link = kml.genxml.Link()
-
-  href = link_node.getElementsByTagName('href')
-  if href:
-    link.href = GetText(href[0])
-
-  vfr = link_node.getElementsByTagName('viewRefreshMode')
-  if vfr:
-    link.viewRefreshMode = GetText(vfr[0])
-
+  link.href = GetSimpleElementText(link_node, 'href')
+  link.viewRefreshMode = GetSimpleElementText(link_node, 'viewRefreshMode')
   return link
-
 
