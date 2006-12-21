@@ -128,7 +128,6 @@ class ModelSet:
         model = Model()
         model.SetName(modelname)
         if model.Parse(os.path.join(self.__dir,filename)):
-          print 'adding',modelname
           self.__models[modelname] = model
 
   def FindBBOX(self):
@@ -146,12 +145,14 @@ class ModelSet:
       model = self.__models[modelname]
       (lon,lat) = model.Location()
       name = model.Name()
+      # dsu - decordate
       locations.append((model.KmzSize(),lon,lat,name))
+    # dsu - sort
     locations.sort()
     locations.reverse()
+    # dsu - undecorate
     return_locations = []
     for loc in locations:
-      print loc[0],loc[3] # size, name
       return_locations.append((loc[1],loc[2],loc[3]))
     return return_locations
 
