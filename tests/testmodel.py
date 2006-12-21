@@ -65,11 +65,19 @@ class ModelSetBBOXTestCase(unittest.TestCase):
     assert w == -122.405843291645, 'bad bbox west'
 
 
+class SimpleKmzTestCase(unittest.TestCase):
+  def runTest(self):
+    model = kml.model.Model()
+    model.Parse('coit.kmz')
+    assert model.KmzSize() == 667,'model kmz size bad'
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleModelTestCase())
   suite.addTest(SimpleModelSetTestCase())
   suite.addTest(ModelSetBBOXTestCase())
+  suite.addTest(SimpleKmzTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

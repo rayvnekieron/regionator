@@ -21,6 +21,7 @@ $Date$
 """
 
 import os
+import os.path
 import kml.kmlparse
 import kml.coordbox
 
@@ -55,6 +56,8 @@ class Model:
 
     """ Parse .kmz for first Placemark/Model
 
+    Model must have a Location and Link
+
     """
 
     kp = kml.kmlparse.KMLParse(kmzfile)
@@ -66,11 +69,15 @@ class Model:
     if not nodelist:
       return False
 
-    nodelist = nodelist[0].getElementsByTagName('Location')
-    if not nodelist:
+    (location_node, orientation_node, scale_node, link_node) = \
+                                              kml.kmlparse.ParseModel(nodelist[0])
+    if not location_node or not link_node:
       return False
 
-    self.__location = kml.kmlparse.ParseLocation(nodelist[0])
+    self.__location = kml.kmlparse.ParseLocation(location_node)
+    # self.__orientation = kml.kmlparse.ParseOrientation(orientation_node)
+    # self.__scale = kml.kmlparse.ParseScale(scale_node)
+    self.__link = kml.kmlparse.ParseScale(link_node)
     self.__kmzfile = kmzfile
 
     return True
@@ -78,6 +85,12 @@ class Model:
 
   def Kmz(self):
     return self.__kmzfile
+
+
+  def KmzSize(self):
+    if self.__kmzfile:
+      return os.path.getsize(self.__kmzfile)
+    return 0
 
 
   def Location(self):
