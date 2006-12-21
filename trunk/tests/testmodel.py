@@ -31,7 +31,7 @@ class SimpleModelTestCase(unittest.TestCase):
   def runTest(self):
     model = kml.model.Model()
     model.Parse('coit.kml')
-    (lon,lat) = model.Location()
+    (lon,lat) = model.LonLatF()
     assert lon == -122.405843291645, 'bad longitude'
     assert lat == 37.802415973264, 'bad latitude'
 

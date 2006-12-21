@@ -39,6 +39,7 @@ class Model:
     self.__lookat = None
     self.__latlonaltbox = None
 
+    self.__altitudeMode = None
     self.__location = None
     self.__orientation = None
     self.__scale = None
@@ -69,19 +70,42 @@ class Model:
     if not nodelist:
       return False
 
+    model_node = nodelist[0]
     (location_node, orientation_node, scale_node, link_node) = \
-                                              kml.kmlparse.ParseModel(nodelist[0])
+                                     kml.kmlparse.ParseModel(model_node)
     if not location_node or not link_node:
       return False
 
+    self.__altitudeMode = kml.kmlparse.GetSimpleElementText(model_node, \
+                                                            'altitudeMode')
     self.__location = kml.kmlparse.ParseLocation(location_node)
-    # self.__orientation = kml.kmlparse.ParseOrientation(orientation_node)
-    # self.__scale = kml.kmlparse.ParseScale(scale_node)
-    self.__link = kml.kmlparse.ParseScale(link_node)
+    self.__orientation = kml.kmlparse.ParseOrientation(orientation_node)
+    self.__scale = kml.kmlparse.ParseScale(scale_node)
+    self.__link = kml.kmlparse.ParseLink(link_node)
     self.__kmzfile = kmzfile
 
     return True
 
+  def Get_altitudeMode(self):
+    return self.__altitudeMode
+
+  def Get_Location(self):
+    return self.__location
+  
+  def Get_Orientation(self):
+    return self.__orientation
+  
+  def Get_Scale(self):
+    return self.__scale
+  
+  def Get_Link(self):
+    return self.__link
+  
+  altitudeMode = property(fget=Get_altitudeMode)
+  Location = property(fget=Get_Location)
+  Orientation = property(fget=Get_Orientation)
+  Scale = property(fget=Get_Scale)
+  Link = property(fget=Get_Link)
 
   def Kmz(self):
     return self.__kmzfile
@@ -93,7 +117,7 @@ class Model:
     return 0
 
 
-  def Location(self):
+  def LonLatF(self):
 
     """ Model Location longitude,latitude
 
@@ -134,7 +158,7 @@ class ModelSet:
     self.__cbox = kml.coordbox.CoordBox()
     for modelname in self.__models:
       model = self.__models[modelname]
-      (lon,lat) = model.Location()
+      (lon,lat) = model.LonLatF()
       self.__cbox.AddPoint(lon,lat)
     return self.__cbox.NSEW()
 
@@ -143,7 +167,7 @@ class ModelSet:
     locations = []
     for modelname in self.__models:
       model = self.__models[modelname]
-      (lon,lat) = model.Location()
+      (lon,lat) = model.LonLatF()
       name = model.Name()
       # dsu - decordate
       locations.append((model.KmzSize(),lon,lat,name))
