@@ -178,10 +178,13 @@ class Regionator:
     llab.south = s
     llab.east = e
     llab.west = w
-    if self.__minAltitude and self.__maxAltitude and self.__altitudeMode:
-      llab.altitudeMode = self.__altitudeMode
+
+    if self.__minAltitude:
       llab.minAltitude = self.__minAltitude
+    if self.__maxAltitude:
       llab.maxAltitude = self.__maxAltitude
+    if self.__altitudeMode:
+      llab.altitudeMode = self.__altitudeMode
 
     lod = kml.genxml.Lod()
     lod.minLodPixels = minpx
