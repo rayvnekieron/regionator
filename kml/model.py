@@ -146,8 +146,14 @@ class ModelSet:
       model = self.__models[modelname]
       (lon,lat) = model.Location()
       name = model.Name()
-      locations.append((lon,lat,name))
-    return locations
+      locations.append((model.KmzSize(),lon,lat,name))
+    locations.sort()
+    locations.reverse()
+    return_locations = []
+    for loc in locations:
+      print loc[0],loc[3] # size, name
+      return_locations.append((loc[1],loc[2],loc[3]))
+    return return_locations
 
   def GetModel(self, name):
     if self.__models.has_key(name):
