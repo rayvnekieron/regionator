@@ -50,7 +50,9 @@
 
 ./testgridso.py
 
-./testmodel.py coit.kml
+./testmodel.py
+
+./testresourcemap.py
 
 ./testkmlparse.py
 

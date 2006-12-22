@@ -33,6 +33,7 @@ kml/cgiregion.py
 kml/coordinates.py
 kml/walk.py
 kml/model.py
+kml/resourcemap.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
@@ -79,6 +80,8 @@ tests/ksc-llb-0.kml
 tests/ksc-llb-3.kml
 tests/ksc-llb-t.kml
 tests/testmodel.py
+tests/testresourcemap.py
+tests/textures.txt
 tests/coit.kml
 tests/coit.kmz
 tests/region.kml
