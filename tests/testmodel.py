@@ -66,10 +66,17 @@ class ModelSetBBOXTestCase(unittest.TestCase):
 
 
 class SimpleKmzTestCase(unittest.TestCase):
-  def runTest(self):
-    model = kml.model.Model()
-    model.Parse('coit.kmz')
-    assert model.KmzSize() == 667,'model kmz size bad'
+  def setUp(self):
+    self.__model = kml.model.Model()
+    self.__model.Parse('London_house.kmz')
+  def testKmzSize(self):
+    assert self.__model.KmzSize() == 24867,'model kmz size bad'
+  def testGeometrySize(self):
+    geometry = self.__model.GetGeometry()
+    assert len(geometry) == 36032,'model geometry size bad'
+  def testTexturesTxtSize(self):
+    textures_txt = self.__model.ReadFileData('textures.txt')
+    assert len(textures_txt) == 180,'model textures.txt size bad'
 
 
 def suite():
@@ -77,7 +84,9 @@ def suite():
   suite.addTest(SimpleModelTestCase())
   suite.addTest(SimpleModelSetTestCase())
   suite.addTest(ModelSetBBOXTestCase())
-  suite.addTest(SimpleKmzTestCase())
+  suite.addTest(SimpleKmzTestCase("testKmzSize"))
+  suite.addTest(SimpleKmzTestCase("testGeometrySize"))
+  suite.addTest(SimpleKmzTestCase("testTexturesTxtSize"))
   return suite
 
 runner = unittest.TextTestRunner()

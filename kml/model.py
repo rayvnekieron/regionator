@@ -22,8 +22,10 @@ $Date$
 
 import os
 import os.path
+import zipfile
 import kml.kmlparse
 import kml.coordbox
+import kml.kmz
 
 
 class Model:
@@ -35,6 +37,7 @@ class Model:
   def __init__(self):
     self.__name = None
     self.__kmzfile = None
+    self.__zfd = None
 
     self.__lookat = None
     self.__latlonaltbox = None
@@ -132,6 +135,42 @@ class Model:
       return (float(self.__location.longitude), float(self.__location.latitude))
     else:
       return (None,None)
+
+
+  def ReadFileData(self, filename):
+
+    """ Return the contents of the given file within the KMZ
+
+    The kmzfile must have been previously successfully Parse()'ed.
+
+    """
+
+    # Open the zip archive if we have not already done so
+    if not self.__zfd:
+      # A previous Parse() will have left a kmzfile name around
+      if not self.__kmzfile:
+        return None
+      zfd = kml.kmz.ZipOpen(self.__kmzfile)
+      if not zfd:
+        return None
+      self.__zfd = zfd
+
+    return self.__zfd.read(filename)
+
+
+  def GetGeometry(self):
+
+    """ Return the contents of the Model's geometry file
+
+    The geometry (Collada/dae) file is the target of the Model/Link/href.
+
+    The kmzfile must have been previously successfully Parse()'ed
+
+    """
+
+    if not self.__link:
+      return None
+    return self.ReadFileData(self.__link.href)
     
 
 class ModelSet:
