@@ -1,0 +1,7 @@
+#summary Welcome to the KML Regionator
+
+= Introduction =
+
+The KML Regionator is a set of Python classes and scripts useful for generating and verifying Region-based KML.
+
+
