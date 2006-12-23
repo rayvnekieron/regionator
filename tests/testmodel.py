@@ -37,22 +37,24 @@ class SimpleModelTestCase(unittest.TestCase):
 
 
 class SimpleModelSetTestCase(unittest.TestCase):
-  def runTest(self):
-    modelset = kml.model.ModelSet('.')
-    modelset.FindAndParse()
-
-    locations = modelset.Locations()
-    print len(locations)
+  def setUp(self):
+    self.__modelset = kml.model.ModelSet('.')
+    self.__modelset.FindAndParse()
+  def testLocations(self):
+    locations = self.__modelset.Locations()
     assert len(locations) == 2, 'modelset Locations failed'
-
-    model = modelset.GetModel('coit')
+  def testGetModel(self):
+    model = self.__modelset.GetModel('coit')
     assert model, 'modelset GetModel failed'
     assert model.Kmz() == './coit.kmz', 'model Kmz failed'
-
-    model = modelset.GetModel('London_house')
+    model = self.__modelset.GetModel('London_house')
     assert model, 'modelset GetModel failed'
     assert model.Kmz() == './London_house.kmz', 'model Kmz failed'
-
+  def testIterate(self):
+    count = 0
+    for model in self.__modelset:
+      count += 1
+    assert count == 2, 'model iterator failed'
 
 class ModelSetBBOXTestCase(unittest.TestCase):
   def runTest(self):
@@ -82,7 +84,9 @@ class SimpleKmzTestCase(unittest.TestCase):
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleModelTestCase())
-  suite.addTest(SimpleModelSetTestCase())
+  suite.addTest(SimpleModelSetTestCase("testLocations"))
+  suite.addTest(SimpleModelSetTestCase("testGetModel"))
+  suite.addTest(SimpleModelSetTestCase("testIterate"))
   suite.addTest(ModelSetBBOXTestCase())
   suite.addTest(SimpleKmzTestCase("testKmzSize"))
   suite.addTest(SimpleKmzTestCase("testGeometrySize"))

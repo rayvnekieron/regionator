@@ -180,8 +180,20 @@ class ModelSet:
   """
 
   def __init__(self, dir):
-   self.__dir = dir
-   self.__models = {}
+    self.__dir = dir
+    self.__models = {}
+
+  def __iter__(self):
+    self.__iter_keys = self.__models.keys()
+    self.__iter_index = 0
+    return self
+
+  def next(self):
+    if self.__iter_index > len(self.__iter_keys) - 1:
+      raise StopIteration
+    model = self.__models[self.__iter_keys[self.__iter_index]]
+    self.__iter_index += 1
+    return model
 
   def FindAndParse(self):
     filenames = os.listdir(self.__dir)
