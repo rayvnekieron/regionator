@@ -184,16 +184,13 @@ class ModelSet:
     self.__models = {}
 
   def __iter__(self):
-    self.__iter_keys = self.__models.keys()
-    self.__iter_index = 0
-    return self
 
-  def next(self):
-    if self.__iter_index > len(self.__iter_keys) - 1:
-      raise StopIteration
-    model = self.__models[self.__iter_keys[self.__iter_index]]
-    self.__iter_index += 1
-    return model
+    """The ModelSet iterator iterates over the set of model.
+
+    """
+
+    # The .next() of this iterator returns a kml.model.Model
+    return self.__models.itervalues()
 
   def FindAndParse(self):
     filenames = os.listdir(self.__dir)
