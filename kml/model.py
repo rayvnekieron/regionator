@@ -120,6 +120,10 @@ class Model:
     return 0
 
 
+  def KmzFileName(self):
+    return self.__kmzfile
+
+
   def LonLatF(self):
 
     """ Model Location longitude,latitude
