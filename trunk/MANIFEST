@@ -87,5 +87,6 @@ tests/coit.kmz
 tests/region.kml
 tests/testkmz.py
 tests/London_house.kmz
+tests/testimage.py
 tests/testcoordinates.py
 tests/testwalk.py
