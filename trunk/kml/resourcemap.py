@@ -34,6 +34,12 @@ class ResourceMapItem:
     self.__model_id = None
 
 
+  def Set(self, geom_path, kmz_path, model_id):
+    self.__geom_path = geom_path
+    self.__kmz_path = kmz_path
+    self.__model_id = model_id
+
+
   def ParseTexturesTxtLine(self, line):
 
     """Set this item from a line in textures.txt format:
@@ -77,6 +83,7 @@ class ResourceMap:
     self.__items = [] # list of ResourceMapItem's
     self.__geom_map = {} # map geom_path to RMI
     self.__kmz_map = {} # map kmz_path to RMI
+    self.__model_id = None
 
   def __iter__(self):
     return self.__items.__iter__()
@@ -86,6 +93,11 @@ class ResourceMap:
     """ Returns the number of ResourceMapItems """
 
     return len(self.__items)
+
+  def AddResourceMapItem(self, geom_path, kmz_path, model_id):
+    rmi = ResourceMapItem()
+    rmi.Set(geom_path, kmz_path, model_id)
+    self.__items.append(rmi)
 
   def ParseTexturesTxt(self, textures_txt_data):
 
@@ -166,3 +178,9 @@ class ResourceMap:
       (gp,kp,mid) = rmi.Mapping()
       return gp
     return None
+
+  def Serialize(self):
+    data = []
+    for rmi in self.__items:
+      data.append('<%s><%s><%s>\n' % rmi.Mapping())
+    return "".join(data)
