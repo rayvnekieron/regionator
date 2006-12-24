@@ -64,3 +64,5 @@
 ./testwms.py
 
 ./testwalk.py
+
+./mktestkmz.py

@@ -27,7 +27,7 @@ rm -f testxml.xml
 rm -f root.kml
 rm -f ancestors.kml
 rm -rf usboxes
-rm -rf pmroot.kml pm
+rm -rf pmroot.kml pm pm.kmz
 rm -rf lsroot.kml ls
 rm -f outline.kml
 rm -f folder-regions.kml
@@ -42,3 +42,4 @@ rm -rf llb-a.kml llb-a
 rm -rf llb-t.kml llb-t
 rm -rf llb-3.kml llb-3
 rm -f lhcopy.kmz
+rm -f test.kmz
