@@ -73,6 +73,9 @@ class SimpleKmzTestCase(unittest.TestCase):
     self.__model.Parse('London_house.kmz')
   def testKmzSize(self):
     assert self.__model.KmzSize() == 24867,'model kmz size bad'
+  def testKmzFileName(self):
+    kfn = self.__model.KmzFileName()
+    assert kfn == 'London_house.kmz','model kmz filename bad'
   def testGeometrySize(self):
     geometry = self.__model.GetGeometry()
     assert len(geometry) == 36032,'model geometry size bad'
