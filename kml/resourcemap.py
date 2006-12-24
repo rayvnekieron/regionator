@@ -79,15 +79,7 @@ class ResourceMap:
     self.__kmz_map = {} # map kmz_path to RMI
 
   def __iter__(self):
-    self.__iter_index = 0
-    return self
-
-  def next(self):
-    if self.__iter_index > len(self.__items) - 1:
-      raise StopIteration
-    item = self.__items[self.__iter_index]
-    self.__iter_index += 1
-    return item
+    return self.__items.__iter__()
 
   def Size(self):
 
