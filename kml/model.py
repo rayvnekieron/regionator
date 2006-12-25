@@ -73,7 +73,14 @@ class Model:
     if not nodelist:
       return False
 
-    model_node = nodelist[0]
+    if not self.ParseNode(nodelist[0]):
+      return False
+
+    self.__kmzfile = kmzfile
+    return True
+
+  def ParseNode(self, model_node):
+
     (location_node, orientation_node, scale_node, link_node) = \
                                      kml.kmlparse.ParseModel(model_node)
     if not location_node or not link_node:
@@ -85,7 +92,6 @@ class Model:
     self.__orientation = kml.kmlparse.ParseOrientation(orientation_node)
     self.__scale = kml.kmlparse.ParseScale(scale_node)
     self.__link = kml.kmlparse.ParseLink(link_node)
-    self.__kmzfile = kmzfile
 
     return True
 
@@ -118,10 +124,6 @@ class Model:
     if self.__kmzfile:
       return os.path.getsize(self.__kmzfile)
     return 0
-
-
-  def KmzFileName(self):
-    return self.__kmzfile
 
 
   def LonLatF(self):

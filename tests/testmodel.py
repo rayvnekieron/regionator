@@ -73,8 +73,8 @@ class SimpleKmzTestCase(unittest.TestCase):
     self.__model.Parse('London_house.kmz')
   def testKmzSize(self):
     assert self.__model.KmzSize() == 24867,'model kmz size bad'
-  def testKmzFileName(self):
-    kfn = self.__model.KmzFileName()
+  def testKmz(self):
+    kfn = self.__model.Kmz()
     assert kfn == 'London_house.kmz','model kmz filename bad'
   def testGeometrySize(self):
     geometry = self.__model.GetGeometry()
@@ -82,6 +82,15 @@ class SimpleKmzTestCase(unittest.TestCase):
   def testTexturesTxtSize(self):
     textures_txt = self.__model.ReadFileData('textures.txt')
     assert len(textures_txt) == 180,'model textures.txt size bad'
+
+
+class SimpleParseNodeTestCase(unittest.TestCase):
+  def runTest(self):
+    model = kml.model.Model()
+    kp = kml.kmlparse.KMLParse('coit.kml')
+    model_nodelist = kp.Doc().getElementsByTagName('Model')
+    model.ParseNode(model_nodelist[0])
+    assert model.Link.href == 'models/coittower.dae'
 
 
 def suite():
@@ -94,6 +103,7 @@ def suite():
   suite.addTest(SimpleKmzTestCase("testKmzSize"))
   suite.addTest(SimpleKmzTestCase("testGeometrySize"))
   suite.addTest(SimpleKmzTestCase("testTexturesTxtSize"))
+  suite.addTest(SimpleParseNodeTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
