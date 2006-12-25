@@ -31,6 +31,7 @@ import urlparse
 import urllib2
 import os.path
 import copy
+import tempfile
 
 class Href:
 
@@ -105,6 +106,13 @@ class Href:
 def FetchUrl(url):
   f = urllib2.urlopen(url)
   return f.read()
+
+
+def FetchUrlToTempFile(url):
+  (fd, name) = tempfile.mkstemp()
+  os.write(fd, FetchUrl(url))
+  os.close(fd)
+  return name
   
 
 def SplitKmzHref(parent_href, href_text):
