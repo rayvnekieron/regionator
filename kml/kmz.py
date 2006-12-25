@@ -29,6 +29,84 @@ KMZ utilities
 
 import zipfile
 import os
+import kml.href
+
+
+class Kmz:
+
+  """ Convenience front-end to zipfile
+
+  Fetches remote kmz into a local temp file.
+  Handles all zipfile exceptions.
+
+  """
+
+  def __init__(self, kmz_url):
+    self.__kmz_temp = None
+    self.__zfd = None
+
+    href = kml.href.Href()
+    href.SetUrl(kmz_url)
+
+    if href.GetScheme():
+      # The KMZ must first be fetched
+      self.__kmz_temp = kml.href.FetchUrlToTempFile(kmz_url)
+      kmz_path = self.__kmz_temp
+    else:
+      kmz_path = kmz_url
+
+    try:
+      zfd = zipfile.ZipFile(kmz_path)
+    except:
+      self.__del__()
+
+      return
+    self.__zfd = zfd
+
+  def __del__(self):
+    if self.__zfd:
+      self.__zfd.close()
+    if self.__kmz_temp:
+      os.unlink(self.__kmz_temp)
+
+  def GetSize(self, name):
+
+    """Returns file size
+
+    Args:
+      name: name of file in archive
+
+    Returns:
+      size: uncompressed size if name exists
+      None: no such name exists in archive
+    """
+
+    try:
+      info = self.__zfd.getinfo(name)
+      size = info.file_size
+    except:
+      size = None
+    return size
+
+  def Read(self, name):
+
+    """Returns file data
+
+    Args:
+      name: name of file in archive
+
+    Returns:
+      data: the contents of name if it exists
+      None: no such name exists in archive
+    """
+    try:
+      data = self.__zfd.read(name)
+    except:
+      data = None
+    return data
+    
+   
+
 
 
 def ZipOpen(zipfilename):
