@@ -30,6 +30,7 @@ for use with KML <href>
 import urlparse
 import urllib2
 import os.path
+import copy
 
 class Href:
 
@@ -105,3 +106,27 @@ def FetchUrl(url):
   f = urllib2.urlopen(url)
   return f.read()
   
+
+def SplitKmzHref(parent_href, href_text):
+
+  """ Split out the parts of a path pointing into a .kmz
+
+  Args:
+    parent_href: kml.href.Href() of kml file with the given href_text
+    href_text: a path string typically straight out of <Link><href>
+
+  Returns:
+    (kmz_path, file_path):
+                 kmz_path: filename/url of .kmz file
+                file_path: filename inside the .kmz (.zip) archive
+  """
+  dot_kmz = href_text.find('.kmz/')
+  if dot_kmz == -1:
+    return (None,href_text)
+  split_pos = dot_kmz + 4 # '.kmz/'
+  kmz_path = href_text[:split_pos]
+  file_path = href_text[split_pos+1:]
+  kmz_href = copy.deepcopy(parent_href)
+  kmz_href.SetBasename(kmz_path)
+  return (kmz_href.Href(), file_path)
+

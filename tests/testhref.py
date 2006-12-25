@@ -56,6 +56,16 @@ class RelativeFileTestCase(unittest.TestCase):
     href.SetBasename('bar/baz.kml')
     assert href.Href() == 'foo/bar/baz.kml','relative file bad'
 
+class SplitKmzTestCase(unittest.TestCase):
+  def runTest(self):
+    parent_path = 'http://foo.com/able/baker/foo.kml'
+    link_path = 'charlie.kmz/delta/epsilon.dae'
+    href = kml.href.Href()
+    href.SetUrl(parent_path)
+    (kmz_url, kmz_file) = kml.href.SplitKmzHref(href, link_path)
+    assert kmz_url == 'http://foo.com/able/baker/charlie.kmz'
+    assert kmz_file == 'delta/epsilon.dae'
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -63,6 +73,7 @@ def suite():
   suite.addTest(HttpTestCase())
   suite.addTest(FileTestCase())
   suite.addTest(RelativeFileTestCase())
+  suite.addTest(SplitKmzTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
