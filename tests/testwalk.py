@@ -37,7 +37,7 @@ class SimpleWalkTestCase(unittest.TestCase):
         self.__count = 0
       def GetCount(self):
         return self.__count
-      def HandleNode(self, node, llab, lod):
+      def HandleNode(self, href, node, llab, lod):
         self.__count += 1
     
     my_node_handler = MyNodeHandler()

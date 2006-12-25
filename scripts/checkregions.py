@@ -169,7 +169,7 @@ class CheckRegionNodeHandler(kml.walk.KMLNodeHandler):
     self.__file_count = 0
     self.__region_count = 0
 
-  def HandleNode(self, node, llab, lod):
+  def HandleNode(self, href, node, llab, lod):
     self.__file_count += 1
     region_nodelist = node.getElementsByTagName('Region')
     for region in region_nodelist:

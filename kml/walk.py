@@ -33,7 +33,7 @@ Walk a KML NetworkLink hierarchy.
 
 class KMLNodeHandler:
 
-  def HandleNode(self, node, llab, lod):
+  def HandleNode(self, href, node, llab, lod):
     """ """
 
 
@@ -91,7 +91,7 @@ class KMLHierarchy:
       print kmlfile,'load or parse error'
       return
 
-    self.__node_handler.HandleNode(doc, llab, lod)
+    self.__node_handler.HandleNode(href, doc, llab, lod)
 
     networklink_nodelist = doc.getElementsByTagName('NetworkLink')
     for networklink_node in networklink_nodelist:
