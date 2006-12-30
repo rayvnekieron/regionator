@@ -60,8 +60,8 @@ class Kmz:
     except:
       self.__del__()
 
-      return
     self.__zfd = zfd
+    return
 
   def __del__(self):
     if self.__zfd:
@@ -88,6 +88,9 @@ class Kmz:
       size = None
     return size
 
+  def Namelist(self):
+    return self.__zfd.namelist()
+
   def Read(self, name):
 
     """Returns file data
@@ -104,18 +107,21 @@ class Kmz:
     except:
       data = None
     return data
-    
-   
 
+  def ReadKml(self):
 
+    """Returns the kmz's kml file data
 
-def ZipOpen(zipfilename):
+    Returns:
+      data: contents of first kml file if one exists
+      None: no kml file found
+    """
 
-  if not zipfile.is_zipfile(zipfilename):
-    print 'ZipExtract: %s not a zipfile' % zipfilename
+    namelist = self.__zfd.namelist()
+    for name in namelist:
+      if name.endswith('.kml'):
+        return self.__zfd.read(name)
     return None
-
-  return zipfile.ZipFile(zipfilename)
 
 
 def Extract(zipfilename, dir):
@@ -130,15 +136,14 @@ def Extract(zipfilename, dir):
     namelist: list of files in .zip/.kmz file
   """
   
-  zfd = ZipOpen(zipfilename)
-  if not zfd:
+  kmz = Kmz(zipfilename)
+  if not kmz:
     return None
-  namelist = zfd.namelist()
 
   # print 'ZipExtract: extracting %d files into %s' % (len(namelist), dir)
-  for name in namelist:
+  for name in kmz.Namelist():
     # print name
-    data = zfd.read(name)
+    data = kmz.Read(name)
     outname = os.path.join(dir, name)
     odir = os.path.dirname(outname)
     if not os.path.exists(odir):
@@ -161,14 +166,8 @@ def ExtractKMLFile(kmzfile):
     data: the contents of the kml file
   """
 
-  zfd = ZipOpen(kmzfile)
-  if zfd:
-    namelist = zfd.namelist()
-    for name in namelist:
-      if name.endswith('.kml'):
-        data = zfd.read(name)
-        return data
-  return None
+  kmz = Kmz(kmzfile)
+  return kmz.KmlFileData()
 
 
 def Create(zipfilename, namelist, dir):
