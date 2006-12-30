@@ -57,10 +57,11 @@ def GetLinkHref(link_node):
 
 
 def GetNetworkLinkFile(networklink_node):
-  # XXX or <Url>
-  link_nodelist = networklink_node.getElementsByTagName('Link')
-  if link_nodelist:
-    return GetLinkHref(link_nodelist[0])
+  link = kml.kmlparse.GetFirstChildElement(networklink_node, 'Link')
+  if not link:
+    link = kml.kmlparse.GetFirstChildElement(networklink_node, 'Url')
+  if link:
+    return GetLinkHref(link)
   return None
 
 
