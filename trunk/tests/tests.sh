@@ -65,4 +65,3 @@
 
 ./testwalk.py
 
-./mktestkmz.py
