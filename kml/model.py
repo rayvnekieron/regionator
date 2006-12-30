@@ -37,7 +37,7 @@ class Model:
   def __init__(self):
     self.__name = None
     self.__kmzfile = None
-    self.__zfd = None
+    self.__kmz = None
 
     self.__lookat = None
     self.__latlonaltbox = None
@@ -152,16 +152,13 @@ class Model:
     """
 
     # Open the zip archive if we have not already done so
-    if not self.__zfd:
+    if not self.__kmz:
       # A previous Parse() will have left a kmzfile name around
       if not self.__kmzfile:
         return None
-      zfd = kml.kmz.ZipOpen(self.__kmzfile)
-      if not zfd:
-        return None
-      self.__zfd = zfd
+      self.__kmz = kml.kmz.Kmz(self.__kmzfile)
 
-    return self.__zfd.read(filename)
+    return self.__kmz.Read(filename)
 
 
   def GetGeometry(self):
