@@ -24,4 +24,5 @@
 sh testclean.sh
 sh tests.sh
 sh testsuperoverlay.sh
+./mktestkmz.py
 ./prversion.py
