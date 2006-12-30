@@ -141,7 +141,7 @@ class ParseRegionTestCase(unittest.TestCase):
 
 class HttpKmlTestCase(unittest.TestCase):
   def runTest(self):
-    kp = kml.kmlparse.KMLParse('http://localhost/kml/foo.kml')
+    kp = kml.kmlparse.KMLParse('http://regionator.googlecode.com/files/foo.kml')
     doc = kp.Doc()
     namelist = doc.getElementsByTagName('name')
     assert namelist, 'http kml: no name element found'
@@ -151,13 +151,15 @@ class HttpKmlTestCase(unittest.TestCase):
 
 class HttpKmzTestCase(unittest.TestCase):
   def runTest(self):
-    kp = kml.kmlparse.KMLParse('http://localhost/kml/foo.kmz')
+    kp = kml.kmlparse.KMLParse('http://regionator.googlecode.com/files/foo.kmz')
     doc = kp.Doc()
     assert doc, 'http kmz: dom parse failed'
     namelist = doc.getElementsByTagName('name')
     assert namelist, 'http kmz: no name element found'
     name = namelist[0]
     assert kml.kmlparse.GetText(namelist[0]) == 'foo name', 'bad name'
+
+# XXX http://regionator.googlecode.com/files/foo.kmz/foo.kml
 
 
 class NoSuchFileTestCase(unittest.TestCase):
