@@ -129,6 +129,7 @@ class KMLParse:
       if name.endswith('.kml'): # GE reads first .kml in the archive
         kmlstring = z.read(name)
         self.ParseString(kmlstring)
+        return # parse only the first .kml found
 
 
   def _ParseHttp(self, kmlurl):
