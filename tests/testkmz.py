@@ -42,6 +42,9 @@ class SimpleKmzTestCase(unittest.TestCase):
     nodata = kmz.Read('no_such_file')
     assert nodata == None, 'Kmz.Read() of non-existent file failed'
 
+    data = kmz.ReadKml()
+    assert len(data) == 818, 'Kmz.ReadKml() failed'
+
 
 class HttpKmzTestCase(unittest.TestCase):
   def runTest(self):
