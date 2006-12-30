@@ -97,7 +97,14 @@ class KMLHierarchy:
     networklink_nodelist = doc.getElementsByTagName('NetworkLink')
     for networklink_node in networklink_nodelist:
       (llab,lod) = GetNetworkLinkRegion(networklink_node)
-      # XXX assumes a relative href
-      href.SetBasename(GetNetworkLinkFile(networklink_node))
-      self.Walk(href.Href(), llab, lod)
+      
+      linkfile = GetNetworkLinkFile(networklink_node)
+      this_href = kml.href.Href()
+      this_href.SetUrl(linkfile)
+      if not this_href.GetScheme():
+        href.SetBasename(GetNetworkLinkFile(networklink_node))
+        walk_linkfile = href.Href()
+      else:
+        walk_linkfile = this_href.Href()
+      self.Walk(walk_linkfile, llab, lod)
 
