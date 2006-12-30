@@ -115,6 +115,17 @@ def FetchUrlToTempFile(url):
   return name
   
 
+def SplitKmzPath(href_text):
+  dot_kmz = href_text.find('.kmz/')
+  if dot_kmz == -1:
+    return (href_text, None)
+
+  split_pos = dot_kmz + 4 # '.kmz/'
+  kmz_path = href_text[:split_pos]
+  file_path = href_text[split_pos+1:]
+  return (kmz_path, file_path)
+
+
 def SplitKmzHref(parent_href, href_text):
 
   """ Split out the parts of a path pointing into a .kmz
@@ -128,12 +139,7 @@ def SplitKmzHref(parent_href, href_text):
                  kmz_path: filename/url of .kmz file
                 file_path: filename inside the .kmz (.zip) archive
   """
-  dot_kmz = href_text.find('.kmz/')
-  if dot_kmz == -1:
-    return (None,href_text)
-  split_pos = dot_kmz + 4 # '.kmz/'
-  kmz_path = href_text[:split_pos]
-  file_path = href_text[split_pos+1:]
+  (kmz_path, file_path) = SplitKmzPath(href_text)
   kmz_href = copy.deepcopy(parent_href)
   kmz_href.SetBasename(kmz_path)
   return (kmz_href.Href(), file_path)
