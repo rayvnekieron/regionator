@@ -34,6 +34,7 @@ import os
 import kml.coordbox
 import kml.genxml
 import kml.href
+import kml.kmz
 
 
 def GetText(node):
@@ -124,19 +125,15 @@ class KMLParse:
 
 
   def _ParseKMZ(self, kmzfile):
-    z = zipfile.ZipFile(kmzfile)
-    for name in z.namelist():
-      if name.endswith('.kml'): # GE reads first .kml in the archive
-        kmlstring = z.read(name)
+    kmz = kml.kmz.Kmz(kmzfile)
+    if kmz:
+      kmlstring = kmz.ReadKml()
+      if kmlstring:
         self.ParseString(kmlstring)
-        return # parse only the first .kml found
 
 
   def _ParseHttp(self, kmlurl):
-    data = kml.href.FetchUrl(kmlurl)
-    (fd,tempfilename) = tempfile.mkstemp('kmlparsehttp')
-    os.write(fd,data)
-    os.close(fd)
+    tempfilename = kml.href.FetchUrlToTempFile(kmlurl)
     self._ParseFile(tempfilename)
     os.unlink(tempfilename)
 
