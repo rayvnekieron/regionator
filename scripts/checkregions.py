@@ -32,9 +32,7 @@ Verify sane Regions in a Region NetworkLink hierarchy
 import sys
 import kml.kmlparse
 import kml.genxml
-import kml.href
 import kml.walk
-import os.path
 
 
 if len(sys.argv) != 2:
@@ -144,9 +142,7 @@ def CheckRegion(region_node):
   global region_count
   region_count += 1
   status = True
-  (llab_node, lod_node) = kml.kmlparse.ParseRegion(region_node)
-  llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
-  lod = kml.kmlparse.ParseLod(lod_node)
+  (llab, lod) = ParseRegion(region_node)
   if not CheckLatLonAltBox(llab):
     status = False
   if not CheckLod(lod):
