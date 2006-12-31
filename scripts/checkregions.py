@@ -100,9 +100,9 @@ def CheckLatLonAltBox(llab):
   if not CheckLatLonBox('LatLonAltBox', llab):
     status = False
   if llab.minAltitude and llab.maxAltitude:
-    if float(llab.minAltitude) < float(llab.maxAltitude):
+    if float(llab.minAltitude) > float(llab.maxAltitude):
       error_count += 1
-      print 'east not greater than west'
+      print 'minAltitude less than maxAltitude'
       status = False
   if not CheckLatLonBoxSize('LatLonAltBox', llab):
     status = False
