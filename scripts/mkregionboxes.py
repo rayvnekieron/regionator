@@ -49,7 +49,7 @@ class RegionBoxNodeHandler(kml.walk.KMLNodeHandler):
   def __init__(self):
     self.__kml_doc = kml.genxml.Document()
 
-  def HandleNode(self, node, llab, lod):
+  def HandleNode(self, href, node, llab, lod):
     region_nodelist = node.getElementsByTagName('Region')
     for region in region_nodelist:
       (llab_node, lod_node) = kml.kmlparse.ParseRegion(region)
