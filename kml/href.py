@@ -118,7 +118,7 @@ def FetchUrlToTempFile(url):
 def SplitKmzPath(href_text):
   dot_kmz = href_text.find('.kmz/')
   if dot_kmz == -1:
-    return (href_text, None)
+    return (None, href_text)
 
   split_pos = dot_kmz + 4 # '.kmz/'
   kmz_path = href_text[:split_pos]
