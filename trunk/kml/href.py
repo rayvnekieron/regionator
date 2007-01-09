@@ -140,7 +140,9 @@ def SplitKmzHref(parent_href, href_text):
                 file_path: filename inside the .kmz (.zip) archive
   """
   (kmz_path, file_path) = SplitKmzPath(href_text)
-  kmz_href = copy.deepcopy(parent_href)
-  kmz_href.SetBasename(kmz_path)
-  return (kmz_href.Href(), file_path)
+  if kmz_path:
+    kmz_href = copy.deepcopy(parent_href)
+    kmz_href.SetBasename(kmz_path)
+    return (kmz_href.Href(), file_path)
+  return (parent_href.Href(), file_path)
 
