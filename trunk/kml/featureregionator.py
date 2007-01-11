@@ -52,6 +52,10 @@ class FeatureRegionator:
     # XXX duplicating stuff in Regionator...
     self.__minfade = 0
     self.__maxfade = 0
+    self.__verbose = True
+
+  def SetVerbose(self, verbose):
+    self.__verbose = verbose
 
   def SetFade(self,minfade,maxfade):
     self.__minfade = minfade
@@ -80,7 +84,8 @@ class FeatureRegionator:
     if num == 0:
       return
     # sorts smallest to largest
-    print 'sorting %d items...' % num
+    if self.__verbose:
+      print 'sorting %d items...' % num
     self.__weighted_items.sort()
     for i in self.__weighted_items:
       item = (i[1],i[2])
@@ -122,25 +127,30 @@ class FeatureRegionator:
 
     os.makedirs(dir)
 
-    print 'parsing...'
+    if self.__verbose == True:
+      print 'parsing...'
     self.__kmlparse = kml.kmlparse.KMLParse(kmlfile)
 
-    print 'extracting styles...'
+    if self.__verbose:
+      print 'extracting styles...'
     self.__style_kml = self.__kmlparse.ExtractDocumentStyles()
     self.__schema_kml += self.__kmlparse.ExtractSchemas()
 
-    print 'extracting items...'
+    if self.__verbose:
+      print 'extracting items...'
     self.ExtractItems()
 
     self._SortItems()
 
     if len(self.__items) == 0:
-      print 'no items extracted?'
+      if self.__verbose:
+        print 'no items extracted?'
       return None
 
     (n,s,e,w) = self.__cbox.NSEW()
 
-    print 'regionating',n,s,e,w
+    if self.__verbose:
+      print 'regionating',n,s,e,w
     rtor = kml.simpleregionator.Regionate(n,s,e,w,lod,per,self.__items,dir,style=self.__style_kml,schema=self.__schema_kml,minfade=self.__minfade,maxfade=self.__maxfade)
 
     kml.regionator.MakeRootKML(rootkml,rtor.RootRegion(),lod,dir)
@@ -149,7 +159,8 @@ class FeatureRegionator:
 
   def _SaneLoc(self,lon,lat):
     if lon < -180.0 or lon > 180.0 or lat < -90.0 or lat > 90.0:
-      print 'bad lon/lat',lon,lat
+      if self.__verbose:
+        print 'bad lon/lat',lon,lat
       return False
     return True
 
