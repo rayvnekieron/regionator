@@ -27,6 +27,7 @@
 ./testcoordinates.py
 ./testregion.py
 ./testregionator.py
+./testftor.py
 ./testgenxml.py
 ./testxml.py
 ./testkml.py
