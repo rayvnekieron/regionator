@@ -24,6 +24,7 @@ $Date$
 
 import unittest
 import os
+import tempfile
 import kml.featureregionator
 
 
@@ -32,7 +33,7 @@ class NullFeatureRegionatorTestCase(unittest.TestCase):
     # Direct use of kml.featureregionator.FeatureRegionator() does nothing
     ftor = kml.featureregionator.FeatureRegionator()
     ftor.SetVerbose(False)
-    dir = 'ftor_dir'
+    dir = tempfile.mktemp()
     ret = ftor.Regionate('placemarks.kml', 128, 16, 'none.kml', dir)
     assert ret == None
     assert os.access('none.kml', os.F_OK) == 0
@@ -59,8 +60,8 @@ class PlacemarkRegionatorTestCase(unittest.TestCase):
                 item = (lonlat, coord.toxml())
                 self.AddItem(item)
 
-    self.__dir = 'frtor_pm_dir'
-    self.__root = 'frtor_pm.kml'
+    self.__dir = tempfile.mktemp()
+    self.__root = tempfile.mktemp()
     self.__pmr = pmrtor()
     self.__pmr.SetVerbose(False)
 
@@ -80,10 +81,44 @@ class PlacemarkRegionatorTestCase(unittest.TestCase):
     assert len(os.listdir(self.__dir)) == 14
 
 
+class LineStringRegionatorTestCase(unittest.TestCase):
+  def setUp(self):
+    class lsrtor(kml.featureregionator.FeatureRegionator):
+      def ExtractItems(self):
+        doc = self.GetDoc()
+        placemark_nodes = doc.getElementsByTagName('Placemark')
+        for placemark in placemark_nodes:
+          ls_nodes = placemark.getElementsByTagName('LineString')
+          for ls in ls_nodes:
+            coord_nodes = ls.getElementsByTagName('coordinates')
+            for coord in coord_nodes:
+              (size,lonlat) = self.AddLinestringCoordinates(coord)
+              if lonlat:
+                item = (size, lonlat, coord.toxml())
+                self.AddWeightedItem(item)
+
+    self.__dir = tempfile.mktemp()
+    self.__root = tempfile.mktemp()
+    self.__lsr = lsrtor()
+    self.__lsr.SetVerbose(False)
+
+  def tearDown(self):
+    os.unlink(self.__root)
+    for file in os.listdir(self.__dir):
+      os.unlink(os.path.join(self.__dir, file))
+    os.rmdir(self.__dir)
+
+  def testRegionate(self):
+    rtor = self.__lsr.Regionate('marin.kml', 256, 16, self.__root, self.__dir)
+    assert len(rtor.QidList()) == 146, 'ftor ls qidlist bad'
+    assert rtor.MaxDepth() == 9, 'ftor ls max depth bad'
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(NullFeatureRegionatorTestCase())
   suite.addTest(PlacemarkRegionatorTestCase('testRegionate'))
+  suite.addTest(LineStringRegionatorTestCase('testRegionate'))
   return suite
 
 runner = unittest.TextTestRunner()
