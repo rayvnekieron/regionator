@@ -151,7 +151,14 @@ class FeatureRegionator:
 
     if self.__verbose:
       print 'regionating',n,s,e,w
-    rtor = kml.simpleregionator.Regionate(n,s,e,w,lod,per,self.__items,dir,style=self.__style_kml,schema=self.__schema_kml,minfade=self.__minfade,maxfade=self.__maxfade)
+    rtor = kml.simpleregionator.Regionate(n,s,e,w,lod,per,
+                                          self.__items,
+                                          dir,
+                                          style=self.__style_kml,
+                                          schema=self.__schema_kml,
+                                          minfade=self.__minfade,
+                                          maxfade=self.__maxfade,
+                                          verbose=self.__verbose)
 
     kml.regionator.MakeRootKML(rootkml,rtor.RootRegion(),lod,dir)
 
