@@ -95,9 +95,10 @@ class Href:
     arg.append(self.__netloc)
     # This is URL so raw '/' is okay
     if self.__dirname:
-      arg.append(self.__dirname + '/' + self.__basename)
+      path = self.__dirname + '/' + self.__basename
     else:
-      arg.append(self.__basename)
+      path = self.__basename
+    arg.append(os.path.normpath(path))
     arg.append(self.Query())
     arg.append(self.__fragment)
     return urlparse.urlunsplit(arg)
