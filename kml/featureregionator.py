@@ -57,6 +57,9 @@ class FeatureRegionator:
   def SetVerbose(self, verbose):
     self.__verbose = verbose
 
+  def GetVerbose(self):
+    return self.__verbose
+
   def SetFade(self,minfade,maxfade):
     self.__minfade = minfade
     self.__maxfade = maxfade
