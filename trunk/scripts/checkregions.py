@@ -127,7 +127,8 @@ def CheckLod(lod):
     print 'Lod bad minLodPixels',lod.minLodPixels
     error_count += 1
     status = False
-  if lod.maxLodPixels == None or float(lod.maxLodPixels) == -1.0:
+  # < 0.0 catches -1.0 and more...
+  if lod.maxLodPixels == None or float(lod.maxLodPixels) < 0.0:
     return status
 
   if float(lod.minLodPixels) > float(lod.maxLodPixels):
