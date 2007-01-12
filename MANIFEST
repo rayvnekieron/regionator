@@ -54,6 +54,7 @@ tests/testregion.py
 tests/testregionator.py
 tests/testftor.py
 tests/teststor.py
+tests/testptor.py
 tests/boxes.py
 tests/testpm.py
 tests/placemarks.kml
