@@ -47,7 +47,8 @@ class PlacemarkRegionator(kml.featureregionator.FeatureRegionator):
   def ExtractItems(self):
     doc = self.GetDoc()
     placemarks = doc.getElementsByTagName('Placemark')
-    print 'extracting %d placemarks...' % placemarks.__len__()
+    if self.GetVerbose():
+      print 'extracting %d placemarks...' % placemarks.__len__()
     for placemark in placemarks:
       point = placemark.getElementsByTagName('Point')
       if not point:
