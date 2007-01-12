@@ -6,7 +6,7 @@
 
 ksc=NASA_KSC.jpg
 
-./testextractor.py $ksc
+./testextractor.py
 
 # will properly fail due to no bbox info in a .jpg
 superoverlay.py $ksc x x
