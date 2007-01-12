@@ -23,8 +23,10 @@ $Date$
 """
 
 import unittest
-
+import os
+import tempfile
 import kml.kmz
+
 
 class SimpleKmzTestCase(unittest.TestCase):
   def runTest(self):
@@ -52,13 +54,24 @@ class HttpKmzTestCase(unittest.TestCase):
 
     test_kml_size = kmz.GetSize('test.kml')
     assert test_kml_size == 5321, 'http kmz get size failed'
+
+
+class SimpleExtractTestCase(unittest.TestCase):
+  def runTest(self):
+    dir = tempfile.mkdtemp()
+    namelist = kml.kmz.Extract('London_house.kmz', dir)
+    assert len(namelist) == 6, 'kmz Extract namelist bad'
+    kml.kmz.RmMinusR(dir)
+    assert os.access(dir, os.F_OK) == 0, 'kmz RmMinusR failed'
    
 
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleKmzTestCase())
   suite.addTest(HttpKmzTestCase())
+  suite.addTest(SimpleExtractTestCase())
   return suite
+
 
 runner = unittest.TextTestRunner()
 runner.run(suite())
