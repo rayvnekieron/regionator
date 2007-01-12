@@ -66,6 +66,16 @@ class SplitKmzTestCase(unittest.TestCase):
     assert kmz_url == 'http://foo.com/able/baker/charlie.kmz'
     assert kmz_file == 'delta/epsilon.dae'
 
+class DotDotTestCase(unittest.TestCase):
+  def runTest(self):
+    parent_path = 'http://foo.com/able/baker/foo.kml'
+    dotdot_path = '../charlie/goo.kml'
+    want_path = 'http://foo.com/able/charlie/goo.kml'
+    href = kml.href.Href()
+    href.SetUrl(parent_path)
+    href.SetBasename(dotdot_path)
+    assert href.Href() == want_path, 'dot dot href failed'
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -74,6 +84,7 @@ def suite():
   suite.addTest(FileTestCase())
   suite.addTest(RelativeFileTestCase())
   suite.addTest(SplitKmzTestCase())
+  suite.addTest(DotDotTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
