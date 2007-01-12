@@ -22,27 +22,11 @@ $Revision$
 $Date$
 """
 
-
-
-# Simple test of Tile extraction
-
 import unittest
-import sys
 import os
-
+import tempfile
 import gdal
-
 import kml.extractor
-
-in_image = sys.argv[1]
-
-"""
-ex = kml.extractor.Extractor(in_image,256,256,'JPEG')
-ex.Extract(0,0,256,256,'0')
-ex.Extract(256,0,256,256,'1')
-ex.Extract(0,256,256,256,'2')
-ex.Extract(256,256,256,256,'3')
-"""
 
 
 def VerifyDimensions(imagefile, wid, ht):
@@ -55,41 +39,53 @@ def VerifyDimensions(imagefile, wid, ht):
 class SimpleJPEGExtractorTestCase(unittest.TestCase):
   def setUp(self):
     self.wid = self.ht = 256
-    self.ex = kml.extractor.Extractor(in_image,self.wid,self.ht,'JPEG')
+    self.ex = kml.extractor.Extractor('NASA_KSC.jpg',self.wid,self.ht,'JPEG')
+    self.tempname = tempfile.mktemp()
+    self.tempnamej = '%s.JPEG' % self.tempname
   def testNW(self):
-    self.ex.Extract(0,0,256,256,'x')
-    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'NW wrong dimensions'
+    self.ex.Extract(0,0,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamej, self.wid, self.ht)
+    assert good, 'NW wrong dimensions'
   def testNE(self):
-    self.ex.Extract(256,0,256,256,'x')
-    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'NE wrong dimensions'
+    self.ex.Extract(256,0,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamej, self.wid, self.ht)
+    assert good, 'NE wrong dimensions'
   def testSW(self):
-    self.ex.Extract(0,256,256,256,'x')
-    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'SW wrong dimensions'
+    self.ex.Extract(0,256,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamej, self.wid, self.ht)
+    assert good, 'SW wrong dimensions'
   def testSE(self):
-    self.ex.Extract(256,256,256,256,'x')
-    assert VerifyDimensions('x.JPEG', self.wid, self.ht), 'SE wrong dimensions'
+    self.ex.Extract(256,256,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamej, self.wid, self.ht)
+    assert good, 'SE wrong dimensions'
   def tearDown(self):
-    os.unlink('x.JPEG')
+    os.unlink(self.tempnamej)
 
 
 class SimplePNGExtractorTestCase(unittest.TestCase):
   def setUp(self):
     self.wid = self.ht = 256
-    self.ex = kml.extractor.Extractor(in_image,self.wid,self.ht,'PNG')
+    self.ex = kml.extractor.Extractor('NASA_KSC.jpg',self.wid,self.ht,'PNG')
+    self.tempname = tempfile.mktemp()
+    self.tempnamep = '%s.PNG' % self.tempname
   def testNW(self):
-    self.ex.Extract(0,0,256,256,'x')
-    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'NW wrong dimensions'
+    self.ex.Extract(0,0,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamep, self.wid, self.ht)
+    assert good, 'NW wrong dimensions'
   def testNE(self):
-    self.ex.Extract(256,0,256,256,'x')
-    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'NE wrong dimensions'
+    self.ex.Extract(256,0,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamep, self.wid, self.ht)
+    assert good, 'NE wrong dimensions'
   def testSW(self):
-    self.ex.Extract(0,256,256,256,'x')
-    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'SW wrong dimensions'
+    self.ex.Extract(0,256,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamep, self.wid, self.ht)
+    assert good, 'SW wrong dimensions'
   def testSE(self):
-    self.ex.Extract(256,256,256,256,'x')
-    assert VerifyDimensions('x.PNG', self.wid, self.ht), 'SE wrong dimensions'
+    self.ex.Extract(256,256,256,256,self.tempname)
+    good = VerifyDimensions(self.tempnamep, self.wid, self.ht)
+    assert good, 'SE wrong dimensions'
   def tearDown(self):
-    os.unlink('x.PNG')
+    os.unlink(self.tempnamep)
 
 
 def suite():
