@@ -152,7 +152,7 @@ def Extract(zipfilename, dir):
     f.write(data)
     f.close
 
-  return namelist
+  return kmz.Namelist()
 
 
 def ExtractKMLFile(kmzfile):
