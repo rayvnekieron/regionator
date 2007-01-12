@@ -29,6 +29,7 @@
 ./testregionator.py
 ./testftor.py
 ./teststor.py
+./testptor.py
 ./testgenxml.py
 ./testxml.py
 ./testkml.py
