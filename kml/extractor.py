@@ -64,7 +64,8 @@ class Extractor:
 
     self.__bands = self.__in_ds.RasterCount
 
-    print 'Extractor %s %d bands' % (imgfile,self.__bands)
+    if self.__verbose:
+      print 'Extractor %s %d bands' % (imgfile,self.__bands)
 
     # Intermediate work must be in GTiff (?)
     self.__gtiff_driver = gdal.GetDriverByName('GTiff')
