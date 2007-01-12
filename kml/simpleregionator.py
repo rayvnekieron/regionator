@@ -37,7 +37,10 @@ import kml.regionator
 import kml.latlon
 
 
-def Regionate(n,s,e,w,minpx,per,items,dir,style='',schema='',minfade=0,maxfade=0):
+def Regionate(n,s,e,w,
+              minpx, per, items, dir,
+              style='', schema='', minfade=0, maxfade=0,
+              verbose=True):
 
   """ Creates a KML Region hierarchy top down in list order.
 
@@ -57,6 +60,7 @@ def Regionate(n,s,e,w,minpx,per,items,dir,style='',schema='',minfade=0,maxfade=0
   rtor.SetRegionHandler(SimpleRegionHandler(items,minpx,per,style,schema))
   rtor.SetOutputDir(dir)
   rtor.SetFade(minfade,maxfade)
+  rtor.SetVerbose(verbose)
 
   # snap the region to the smallest enclosing earth-native region
   r = kml.region.RootSnap(n,s,e,w)
