@@ -105,11 +105,17 @@ class Href:
 
 
 def FetchUrl(url):
-  try:
-    f = urllib2.urlopen(url)
-    return f.read()
-  except:
-    return None
+  if IsHttp(url):
+    try:
+      f = urllib2.urlopen(url)
+    except:
+      return None
+  else:
+    try:
+      f = open(url,'r')
+    except:
+      return None
+  return f.read()
 
 
 def FetchUrlToTempFile(url):
@@ -154,3 +160,43 @@ def SplitKmzHref(parent_href, href_text):
     return (kmz_href.Href(), file_path)
   return (parent_href.Href(), file_path)
 
+
+def IsHttp(url):
+  return url[:7] == 'http://'
+
+def IsRoot(url):
+  return url[:7] == 'root://'
+
+
+def ComputeChildUrl(parent_href, child_href):
+
+  """Compute the URL to the child relative to the parent
+
+  Possibilities for either href and the return include:
+    - absolute http   http://foo.com/goo.kml
+    - relative        dir/goo.kml
+    - a kmz           dir/foo.kmz
+    - inside a kmz    http://foo.com/goo.kmz/bar.kml
+
+  Args:
+    parent_href: the parent.kml 
+    child_href: the contents of an <href> inside the parent.kml
+
+  Returns:
+    url: absolute URL to the child
+
+  """
+
+  # If the child is absolute we're done
+  if IsHttp(child_href) or IsRoot(child_href):
+    return child_href
+
+  # See if the parent is KMZ
+  (kmz_path, file_path) = SplitKmzPath(parent_href)
+
+  if file_path and not kmz_path:
+    # Parent is ...parent.kml
+    href = Href()
+    href.SetUrl(parent_href)
+    href.SetBasename(child_href)
+    return href.Href()
