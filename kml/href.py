@@ -94,7 +94,7 @@ class Href:
     arg.append(self.__scheme)
     arg.append(self.__netloc)
     # This is URL so raw '/' is okay
-    if self.__dirname:
+    if self.__dirname and self.__dirname != '/':
       path = self.__dirname + '/' + self.__basename
     else:
       path = self.__basename

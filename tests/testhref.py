@@ -35,6 +35,19 @@ class SimpleTestCase(unittest.TestCase):
     hrefstr = href.Href()
     assert hrefstr == want,'bad url [%s]' % hrefstr
 
+class BasicHttpTestCase(unittest.TestCase):
+  def runTest(self):
+    href = kml.href.Href()
+    href.SetUrl('http://foo.com/foo.kml')
+    href.SetBasename('bar.jpeg')
+    url = href.Href()
+    assert url == 'http://foo.com/bar.jpeg'
+
+    href = kml.href.Href()
+    href.SetUrl('http://foo.com/dir/foo.kml')
+    href.SetBasename('bar.jpeg')
+    url = href.Href()
+    assert url == 'http://foo.com/dir/bar.jpeg'
 
 class HttpTestCase(unittest.TestCase):
   def runTest(self):
@@ -86,10 +99,10 @@ class NoSuchFetchUrlTempTestCase(unittest.TestCase):
     nada = kml.href.FetchUrlToTempFile("xxxp://nosuch.host.com/no/such/file")
     assert nada == None, 'FetchUrlToTmpeFile of bad url failed'
 
-
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleTestCase())
+  suite.addTest(BasicHttpTestCase())
   suite.addTest(HttpTestCase())
   suite.addTest(FileTestCase())
   suite.addTest(RelativeFileTestCase())
