@@ -99,6 +99,13 @@ class NoSuchFetchUrlTempTestCase(unittest.TestCase):
     nada = kml.href.FetchUrlToTempFile("xxxp://nosuch.host.com/no/such/file")
     assert nada == None, 'FetchUrlToTmpeFile of bad url failed'
 
+class BasicComputeChildUrlTestCase(unittest.TestCase):
+  def runTest(self):
+    parent = 'http://foo.com/bar.kml'
+    child = 'goo.jpeg'
+    url = kml.href.ComputeChildUrl(parent, child)
+    assert url == 'http://foo.com/goo.jpeg'
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleTestCase())
@@ -110,6 +117,7 @@ def suite():
   suite.addTest(DotDotTestCase())
   suite.addTest(NoSuchFetchUrlTestCase())
   suite.addTest(NoSuchFetchUrlTempTestCase())
+  suite.addTest(BasicComputeChildUrlTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
