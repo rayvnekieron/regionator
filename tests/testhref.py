@@ -76,6 +76,16 @@ class DotDotTestCase(unittest.TestCase):
     href.SetBasename(dotdot_path)
     assert href.Href() == want_path, 'dot dot href failed'
 
+class NoSuchFetchUrlTestCase(unittest.TestCase):
+  def runTest(self):
+    nada = kml.href.FetchUrl("xxxp://nosuch.host.com/no/such/file")
+    assert nada == None, 'FetchUrl of bad url failed'
+
+class NoSuchFetchUrlTempTestCase(unittest.TestCase):
+  def runTest(self):
+    nada = kml.href.FetchUrlToTempFile("xxxp://nosuch.host.com/no/such/file")
+    assert nada == None, 'FetchUrlToTmpeFile of bad url failed'
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -85,6 +95,8 @@ def suite():
   suite.addTest(RelativeFileTestCase())
   suite.addTest(SplitKmzTestCase())
   suite.addTest(DotDotTestCase())
+  suite.addTest(NoSuchFetchUrlTestCase())
+  suite.addTest(NoSuchFetchUrlTempTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
