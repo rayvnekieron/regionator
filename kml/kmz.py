@@ -45,10 +45,7 @@ class Kmz:
     self.__kmz_temp = None
     self.__zfd = None
 
-    href = kml.href.Href()
-    href.SetUrl(kmz_url)
-
-    if href.GetScheme():
+    if kml.href.IsHttp(kmz_url):
       # The KMZ must first be fetched
       self.__kmz_temp = kml.href.FetchUrlToTempFile(kmz_url)
       kmz_path = self.__kmz_temp
