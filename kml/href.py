@@ -105,13 +105,20 @@ class Href:
 
 
 def FetchUrl(url):
-  f = urllib2.urlopen(url)
-  return f.read()
+  try:
+    f = urllib2.urlopen(url)
+    return f.read()
+  except:
+    return None
 
 
 def FetchUrlToTempFile(url):
   (fd, name) = tempfile.mkstemp()
-  os.write(fd, FetchUrl(url))
+  data = FetchUrl(url)
+  if data:
+    os.write(fd, data)
+  else:
+    name = None
   os.close(fd)
   return name
   
