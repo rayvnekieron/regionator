@@ -56,7 +56,7 @@ def GetLinkHref(link_node):
   return link.href
 
 
-def GetNetworkLinkFile(networklink_node):
+def GetNetworkLinkHref(networklink_node):
   link = kml.kmlparse.GetFirstChildElement(networklink_node, 'Link')
   if not link:
     link = kml.kmlparse.GetFirstChildElement(networklink_node, 'Url')
@@ -82,7 +82,6 @@ class KMLHierarchy:
     if self.__verbose:
       print kmlfile
 
-    # Sets the url to which all children are relative
     href = kml.href.Href()
     href.SetUrl(kmlfile)
 
@@ -97,14 +96,7 @@ class KMLHierarchy:
     networklink_nodelist = doc.getElementsByTagName('NetworkLink')
     for networklink_node in networklink_nodelist:
       (llab,lod) = GetNetworkLinkRegion(networklink_node)
-      
-      linkfile = GetNetworkLinkFile(networklink_node)
-      this_href = kml.href.Href()
-      this_href.SetUrl(linkfile)
-      if not this_href.GetScheme():
-        href.SetBasename(GetNetworkLinkFile(networklink_node))
-        walk_linkfile = href.Href()
-      else:
-        walk_linkfile = this_href.Href()
-      self.Walk(walk_linkfile, llab, lod)
+      child_href = GetNetworkLinkHref(networklink_node)
+      child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
+      self.Walk(child_url, llab, lod)
 
