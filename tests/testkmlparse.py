@@ -143,6 +143,7 @@ class HttpKmlTestCase(unittest.TestCase):
   def runTest(self):
     kp = kml.kmlparse.KMLParse('http://regionator.googlecode.com/files/foo.kml')
     doc = kp.Doc()
+    assert doc, 'http kml: fetch or parse failed'
     namelist = doc.getElementsByTagName('name')
     assert namelist, 'http kml: no name element found'
     name = namelist[0]
