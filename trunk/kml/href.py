@@ -130,11 +130,11 @@ def FetchUrlToTempFile(url):
   
 
 def SplitKmzPath(href_text):
-  dot_kmz = href_text.find('.kmz/')
-  if dot_kmz == -1:
-    return (None, href_text)
+  dot_kmz_slash = href_text.find('.kmz/')
+  if dot_kmz_slash == -1:
+    return (href_text, None)
 
-  split_pos = dot_kmz + 4 # '.kmz/'
+  split_pos = dot_kmz_slash + 4 # '.kmz/'
   kmz_path = href_text[:split_pos]
   file_path = href_text[split_pos+1:]
   return (kmz_path, file_path)
@@ -192,9 +192,9 @@ def ComputeChildUrl(parent_href, child_href):
     return child_href
 
   # See if the parent is KMZ
-  (kmz_path, file_path) = SplitKmzPath(parent_href)
+  (url, file) = SplitKmzPath(parent_href)
 
-  if file_path and not kmz_path:
+  if url and not file:
     # Parent is ...parent.kml
     href = Href()
     href.SetUrl(parent_href)
