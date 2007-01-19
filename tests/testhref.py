@@ -106,6 +106,23 @@ class BasicComputeChildUrlTestCase(unittest.TestCase):
     url = kml.href.ComputeChildUrl(parent, child)
     assert url == 'http://foo.com/goo.jpeg'
 
+class BasicSplitKmzPath(unittest.TestCase):
+  def runTest(self):
+    href = 'http://goo.org/London_house.kmz/models/LondonHouse.dae'
+    (kmz_path, file_path) = kml.href.SplitKmzPath(href)
+    assert kmz_path == 'http://goo.org/London_house.kmz'
+    assert file_path == 'models/LondonHouse.dae'
+
+    href = 'http://goo.org/London_house.kml'
+    (kmz_path, file_path) = kml.href.SplitKmzPath(href)
+    assert kmz_path == 'http://goo.org/London_house.kml'
+    assert file_path == None
+
+    href = 'http://goo.org/London_house.kmz'
+    (kmz_path, file_path) = kml.href.SplitKmzPath(href)
+    assert kmz_path == 'http://goo.org/London_house.kmz'
+    assert file_path == None
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleTestCase())
@@ -118,6 +135,7 @@ def suite():
   suite.addTest(NoSuchFetchUrlTestCase())
   suite.addTest(NoSuchFetchUrlTempTestCase())
   suite.addTest(BasicComputeChildUrlTestCase())
+  suite.addTest(BasicSplitKmzPath())
   return suite
 
 runner = unittest.TextTestRunner()
