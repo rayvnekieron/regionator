@@ -103,8 +103,8 @@ class ResourceMapAddTestCase(unittest.TestCase):
     rmap.AddResourceMapItem('gpath0','kpath0','mid0')
     rmap.AddResourceMapItem('gpath1','kpath1','mid1')
     got_tt = rmap.Serialize()
-    want_tt[0] = '<gpath0><kpath0><mid0>'
-    want_tt[1] = '<gpath1><kpath1><mid1>'
+    want_tt[0] = '<gpath0>  <kpath0> <mid0>'
+    want_tt[1] = '<gpath1>  <kpath1> <mid1>'
     assert got_tt == "\n".join(want_tt), 'resource map serialize failed'
 
 
@@ -124,4 +124,3 @@ def suite():
 
 runner = unittest.TextTestRunner()
 runner.run(suite())
-
