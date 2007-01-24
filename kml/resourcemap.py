@@ -182,5 +182,5 @@ class ResourceMap:
   def Serialize(self):
     data = []
     for rmi in self.__items:
-      data.append('<%s><%s><%s>\n' % rmi.Mapping())
+      data.append('<%s>  <%s> <%s>\n' % rmi.Mapping())
     return "".join(data)
