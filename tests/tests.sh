@@ -31,6 +31,7 @@
 ./teststor.py
 ./testptor.py
 ./testgenxml.py
+./testgenkml.py
 ./testxml.py
 ./testkml.py
 ./testoutline.py
