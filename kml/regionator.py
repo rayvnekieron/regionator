@@ -172,33 +172,13 @@ class Regionator:
 
     (n,s,e,w) = region.NSEWstring()
     (minpx,maxpx) = rhandler.PixelLod(region)
-
-    llab = kml.genxml.LatLonAltBox()
-    llab.north = n
-    llab.south = s
-    llab.east = e
-    llab.west = w
-
-    if self.__minAltitude:
-      llab.minAltitude = self.__minAltitude
-    if self.__maxAltitude:
-      llab.maxAltitude = self.__maxAltitude
-    if self.__altitudeMode:
-      llab.altitudeMode = self.__altitudeMode
-
-    lod = kml.genxml.Lod()
-    lod.minLodPixels = minpx
-    lod.maxLodPixels = maxpx
-    if self.__minFadeExtent:
-      lod.minFadeExtent = self.__minFadeExtent
-    if self.__maxFadeExtent:
-      lod.maxFadeExtent = self.__maxFadeExtent
-
-    r = kml.genxml.Region()
-    r.Lod = lod.xml()
-    r.LatLonAltBox = llab.xml()
-    
-    document.Region = r.xml()
+    document.Region = kml.genkml.Region(n,s,e,w,
+                                        minalt=self.__minAltitude,
+                                        maxalt=self.__maxAltitude,
+                                        altmode=self.__altitudeMode,
+                                        minpx=minpx, maxpx=maxpx,
+                                        minfade=self.__minFadeExtent,
+                                        maxfade=self.__maxFadeExtent)
 
     # The Features of the region's Document: NetworkLinks and data
 
@@ -218,29 +198,17 @@ class Regionator:
       link.viewRefreshMode = 'onRegion'
       networklink.Link = link.xml()
 
-      nlregion = kml.genxml.Region()
-      llab = kml.genxml.LatLonAltBox()
       (n,s,e,w) = r.NSEWstring()
-      llab.north = n
-      llab.south = s
-      llab.east = e
-      llab.west = w
-      if self.__minAltitude:
-        llab.minAltitude = self.__minAltitude
-      if self.__maxAltitude:
-        llab.maxAltitude = self.__maxAltitude
-      if self.__altitudeMode:
-        llab.altitudeMode = self.__altitudeMode
-
-      lod = kml.genxml.Lod()
-      (minpx,maxpx) = rhandler.PixelLod(r)
-      lod.minLodPixels = minpx
-      lod.maxLodPixels = -1 # else parents
-      
-      nlregion.Lod = lod.xml()
-      nlregion.LatLonAltBox = llab.xml()
-
-      networklink.Region = nlregion.xml()
+      (minpx,ignored) = rhandler.PixelLod(r)
+      maxpx = -1 # To prevent flying under a KML hierarchy
+      networklink.Region = kml.genkml.Region(n,s,e,w,
+                                             minalt=self.__minAltitude,
+                                             maxalt=self.__maxAltitude,
+                                             altmode=self.__altitudeMode,
+                                             minpx=minpx,
+                                             maxpx=maxpx,
+                                             minfade=self.__minFadeExtent,
+                                             maxfade=self.__maxFadeExtent)
 
       document.Add_Feature(networklink.xml())
         
