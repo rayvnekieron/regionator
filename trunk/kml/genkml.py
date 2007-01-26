@@ -326,7 +326,9 @@ def LatLonBox(n,s,e,w):
   return latlonbox.xml()
 
 
-def Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0):
+def Region(n,s,e,w,
+           minalt=0,maxalt=0,altmode=None,
+           minpx=128,minfade=0,maxpx=1024,maxfade=0):
 
   """<Region>...</Region>
 
@@ -334,6 +336,7 @@ def Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0):
     NOTE: all args are _string_ representations of the floating point values
     n,s,e,w: geographic bounding box
     minalt,maxalt: minAltitude,maxAltitude
+    altmode: altitudeMode
     minpx,maxpx: minLodPixels,maxLodPixels
     minfade,maxfade: minFadePixels,maxFadePixels
   """
@@ -347,10 +350,16 @@ def Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0):
     latlonaltbox.minAltitude = minalt
   if maxalt:
     latlonaltbox.maxAltitude = maxalt
+  if altmode:
+    latlonaltbox.altitudeMode = altmode
 
   lod = kml.genxml.Lod()
   lod.minLodPixels = minpx
   lod.maxLodPixels = maxpx
+  if minfade:
+    lod.minFadeExtent = minfade
+  if maxfade:
+    lod.maxFadeExtent = maxfade
 
   region = kml.genxml.Region()
   region.LatLonAltBox = latlonaltbox.xml()
@@ -370,15 +379,15 @@ def RegionLod(n,s,e,w,minpx,maxpx):
   return Region(n,s,e,w,0,0,minpx,0,maxpx,0)
 
 
-def RegionNetworkLink(n,s,e,w,name,href,minpx,maxpx):
-
+def RegionNetworkLink(n,s,e,w,name,href,minpx,maxpx,
+                      minalt=None,maxalt=None,altmode=None):
   """<NetworkLink><Region>...</Region></NetworkLink>
 
   Region-based NetworkLink, onRegion viewRefreshMode.
 
   """
 
-  regionxml = Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
+  regionxml = Region(n,s,e,w,minpx=minpx,maxpx=maxpx,altmode=altmode)
 
   link = kml.genxml.Link()
   link.href = href
