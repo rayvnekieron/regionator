@@ -170,6 +170,24 @@ class NoSuchFileTestCase(unittest.TestCase):
    assert doc == None, 'failed to detect non-existent file'
 
 
+class RegionExtractTestCase(unittest.TestCase):
+  def runTest(self):
+    kp = kml.kmlparse.KMLParse(None)
+    kp.ParseString("".join(region_xml))
+    assert kp.Doc()
+    (llab_node, lod_node) = kp.ExtractRegion()
+    llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
+    assert llab
+    assert llab.north == '56.65', 'RegionExtract LatLonAltBox north bad'
+    assert llab.south == '-78.7', 'RegionExtract LatLonAltBox south bad'
+    assert llab.east == '20.222', 'RegionExtract LatLonAltBox east bad'
+    assert llab.west == '1.56780', 'RegionExtract LatLonAltBox west bad'
+    lod = kml.kmlparse.ParseLod(lod_node)
+    assert lod
+    assert lod.minLodPixels == '128', 'RegionExtract Lod minLodPixels bad'
+    assert lod.maxLodPixels == '1024', 'RegionExtract Lod maxLodPixels bad'
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(GroundOverlayParseTestCase("testLatLonBox"))
@@ -186,6 +204,7 @@ def suite():
   suite.addTest(HttpKmlTestCase())
   suite.addTest(HttpKmzTestCase())
   suite.addTest(NoSuchFileTestCase())
+  suite.addTest(RegionExtractTestCase())
   return suite
 
 
