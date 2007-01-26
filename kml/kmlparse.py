@@ -351,6 +351,17 @@ class KMLParse:
       return None
     return ParseLookAt(las[0])
 
+  def ExtractRegion(self):
+
+    """ Returns first Region
+
+    Returns:
+      kml.genxml.Region
+    """
+
+    region_node = GetFirstChildElement(self.__doc, 'Region')
+    return ParseRegion(region_node)
+
 
 def ParseLookAt(la_node):
     lookat = kml.genxml.LookAt()
