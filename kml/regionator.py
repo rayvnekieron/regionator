@@ -182,7 +182,7 @@ class Regionator:
 
     # The Features of the region's Document: NetworkLinks and data
 
-    # 2) NetworkLink to each child Region
+    # 3) NetworkLink to each child Region
 
     thisdepth = region.Depth()
     if thisdepth > self.__maxdepth:
@@ -212,7 +212,7 @@ class Regionator:
 
       document.Add_Feature(networklink.xml())
         
-    # 3) data (Features) for this region
+    # 4) data (Features) for this region
     
     features = rhandler.Data(region)
     document.Add_Feature(features)
@@ -224,7 +224,7 @@ class Regionator:
 
     kmlstr = k.xml()
 
-    # 4) emit kml for this Region
+    # 5) emit kml for this Region
 
     filename = self._RegionFilename(region)
     if self.__dir:
