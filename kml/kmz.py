@@ -207,3 +207,26 @@ def RmMinusR(dir):
     # print 'Removing',dirpath
     os.rmdir(dirpath)
 
+
+def WriteAsKmz(kmldata, kmzname):
+
+  """Save the kmldata as a .kmz
+
+  The kmz archive is created and the kmldata is stored into it as doc.kml.
+
+  Args:
+    kmldata: '<kml>...</kml>'
+    kmzname: file.kmz
+
+  Returns:
+    bool: true if success, false on failure
+
+  """
+
+  try:
+    zfd = zipfile.ZipFile(kmzname, mode="w", compression=zipfile.ZIP_DEFLATED)
+    zfd.writestr('doc.kml', kmldata)
+    zfd.close()
+  except:
+    return False
+  return True
