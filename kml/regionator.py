@@ -71,9 +71,14 @@ class Regionator:
 
     self.__verbose = True
 
+    self.__use_kmz = False
+
 
   def SetVerbose(self, verbose):
     self.__verbose = verbose
+
+  def SetSaveAsKmz(self, save_as_kmz):
+    self.__use_kmz = save_as_kmz
 
 
   def SetRegionHandler(self,handler):
@@ -126,6 +131,8 @@ class Regionator:
     return children
 
   def _RegionFilename(self,region):
+    if self.__use_kmz:
+      return '%d.kmz' % region.Id()
     return '%d.kml' % region.Id()
 
   def _Regionate(self,region):
@@ -232,9 +239,13 @@ class Regionator:
       if self.__verbose:
         print path
       # XXX error checking...
-      f = open(path,'w')
-      f.write(kmlstr.encode('utf-8'))
-      f.close()
+      kmldata = kmlstr.encode('utf-8')
+      if self.__use_kmz:
+        kml.kmz.WriteAsKmz(kmldata, path)
+      else:
+        f = open(path,'w')
+        f.write(kmldata)
+        f.close()
     else:
       rhandler.Kml(region,filename,kmlstr)
 
