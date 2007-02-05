@@ -24,11 +24,21 @@ $Date$
 
 import unittest
 import os
+import tempfile
 import kml.region
 import kml.regionhandler
 import kml.regionator
 import kml.genkml
 import kml.kmlparse
+
+
+class SimpleRegionHandler(kml.regionhandler.RegionHandler):
+
+  def Start(self, region):
+    # Recurse 2 levels
+    if region.Depth() > 2:
+      return [False,False]
+    return [True,True]
 
 
 class NullRegionatorTestCase(unittest.TestCase):
@@ -49,15 +59,6 @@ class NullRegionatorTestCase(unittest.TestCase):
 
 class SimpleRegionatorTestCase(unittest.TestCase):
   def runTest(self):
-
-    class SimpleRegionHandler(kml.regionhandler.RegionHandler):
-
-      def Start(self, region):
-        # Recurse 2 levels
-        if region.Depth() > 2:
-          return [False,False]
-        return [True,True]
-
     l2rtor = kml.regionator.Regionator()
     l2rtor.SetRegionHandler(SimpleRegionHandler())
     region = kml.region.Region(30,10,40,20,'0')
@@ -126,11 +127,24 @@ class SmallRegionatorTestCase(unittest.TestCase):
     assert llab.Get_NSEW() == want_nsew, 'Small rtor 85.kml bad'
 
 
+class KmzRegionatorTestCase(unittest.TestCase):
+  def runTest(self):
+    testdir = tempfile.mkdtemp()
+    kmzrtor = kml.regionator.Regionator()
+    kmzrtor.SetRegionHandler(SimpleRegionHandler())
+    region = kml.region.Region(30,10,40,20,'0')
+    kmzrtor.SetOutputDir(testdir)
+    kmzrtor.SetSaveAsKmz(True)
+    kmzrtor.Regionate(region)
+    # os.unlink(testdir)
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(NullRegionatorTestCase())
   suite.addTest(SimpleRegionatorTestCase())
   suite.addTest(SmallRegionatorTestCase())
+  suite.addTest(KmzRegionatorTestCase())
   return suite
 
 
