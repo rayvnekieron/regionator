@@ -63,13 +63,22 @@ class SimpleExtractTestCase(unittest.TestCase):
     assert len(namelist) == 6, 'kmz Extract namelist bad'
     kml.kmz.RmMinusR(dir)
     assert os.access(dir, os.F_OK) == 0, 'kmz RmMinusR failed'
-   
+
+
+class WriteKmzTestCase(unittest.TestCase):
+  def runTest(self):
+    kmldata = '<kml><Placemark/></kml>'
+    kmzfile = tempfile.mktemp(suffix='.kmz')
+    assert kml.kmz.WriteAsKmz(kmldata, kmzfile)
+    os.unlink(kmzfile)
+
 
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleKmzTestCase())
   suite.addTest(HttpKmzTestCase())
   suite.addTest(SimpleExtractTestCase())
+  suite.addTest(WriteKmzTestCase())
   return suite
 
 
