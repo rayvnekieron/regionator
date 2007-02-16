@@ -135,6 +135,7 @@ class KmzRegionatorTestCase(unittest.TestCase):
     region = kml.region.Region(30,10,40,20,'0')
     kmzrtor.SetOutputDir(testdir)
     kmzrtor.SetSaveAsKmz(True)
+    kmzrtor.SetVerbose(False)
     kmzrtor.Regionate(region)
     # os.unlink(testdir)
 
@@ -148,7 +149,5 @@ def suite():
   return suite
 
 
-print 'test Regionator ... begin'
 runner = unittest.TextTestRunner()
 runner.run(suite())
-print 'test Regionator ... end'
