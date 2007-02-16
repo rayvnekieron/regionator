@@ -86,11 +86,39 @@ class SimpleKmzTestCase(unittest.TestCase):
 
 class SimpleParseNodeTestCase(unittest.TestCase):
   def runTest(self):
-    model = kml.model.Model()
     kp = kml.kmlparse.KMLParse('coit.kml')
     model_nodelist = kp.Doc().getElementsByTagName('Model')
+    model = kml.model.Model()
     model.ParseNode(model_nodelist[0])
     assert model.Link.href == 'models/coittower.dae'
+    assert model.Scale.y == '.6'
+    assert model.Orientation.tilt == '20.20'
+    assert model.Location.altitude == '51.550851800942'
+    assert model.altitudeMode == 'absolute'
+
+
+class NullParseNodeTestCase(unittest.TestCase):
+  def runTest(self):
+    model = kml.model.Model()
+    status = model.ParseNode(None)
+    assert status == False, 'KMLParse failed on null node'
+
+
+def suite():
+  suite = unittest.TestSuite()
+  suite.addTest(SimpleModelTestCase())
+  suite.addTest(SimpleModelSetTestCase("testLocations"))
+  suite.addTest(SimpleModelSetTestCase("testGetModel"))
+  suite.addTest(SimpleModelSetTestCase("testIterate"))
+  suite.addTest(ModelSetBBOXTestCase())
+  suite.addTest(SimpleKmzTestCase("testKmzSize"))
+  suite.addTest(SimpleKmzTestCase("testGeometrySize"))
+  suite.addTest(SimpleKmzTestCase("testTexturesTxtSize"))
+  suite.addTest(SimpleParseNodeTestCase())
+  suite.addTest(NullParseNodeTestCase())
+  return suite
+
+runner = unittest.TextTestRunner()
 
 
 def suite():

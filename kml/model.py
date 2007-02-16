@@ -65,21 +65,25 @@ class Model:
     """
 
     kp = kml.kmlparse.KMLParse(kmzfile)
-    doc = kp.Doc()
-    if not doc: # parse failed
+    if not self.ParseNode(kml.kmlparse.GetFirstChildElement(kp.Doc(), 'Model')):
       return False
-
-    nodelist = doc.getElementsByTagName('Model')
-    if not nodelist:
-      return False
-
-    if not self.ParseNode(nodelist[0]):
-      return False
-
     self.__kmzfile = kmzfile
     return True
 
   def ParseNode(self, model_node):
+
+    """ Parse child elements of Model
+
+    Args:
+      model_node: dom node of Model
+
+    Return:
+      true: found at least Location and Link
+      false: bad Model or missing Location or Link
+    """
+
+    if not model_node:
+      return False
 
     (location_node, orientation_node, scale_node, link_node) = \
                                      kml.kmlparse.ParseModel(model_node)
