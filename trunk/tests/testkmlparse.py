@@ -188,6 +188,20 @@ class RegionExtractTestCase(unittest.TestCase):
     assert lod.maxLodPixels == '1024', 'RegionExtract Lod maxLodPixels bad'
 
 
+class GetFirstChildElementNoNodeTestCase(unittest.TestCase):
+  def runTest(self):
+    ret = kml.kmlparse.GetFirstChildElement(None, 'foo')
+    assert ret == None, 'GetFirstChildElement failed on null doc'
+
+
+class GetFirstChildElementSimpleTestCase(unittest.TestCase):
+  def runTest(self):
+    doc = xml.dom.minidom.parseString("".join(region_xml))
+    region_node = kml.kmlparse.GetFirstChildElement(doc, 'Region')
+    assert region_node, 'GetFirstChildElement failed to find Region'
+    assert region_node.tagName == 'Region', 'GetFirstChildElement bad tag'
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(GroundOverlayParseTestCase("testLatLonBox"))
@@ -205,6 +219,8 @@ def suite():
   suite.addTest(HttpKmzTestCase())
   suite.addTest(NoSuchFileTestCase())
   suite.addTest(RegionExtractTestCase())
+  suite.addTest(GetFirstChildElementNoNodeTestCase())
+  suite.addTest(GetFirstChildElementSimpleTestCase())
   return suite
 
 

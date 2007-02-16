@@ -76,6 +76,8 @@ def GetSimpleElementText(node, tagname):
 
 
 def GetFirstChildElement(node, tagname):
+  if not node:
+    return None
   nodelist = node.getElementsByTagName(tagname)
   if nodelist:
     return nodelist[0]
