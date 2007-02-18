@@ -47,8 +47,6 @@ class FeatureRegionator:
     self.__cbox = kml.coordbox.CoordBox()
     self.__items = []
     self.__weighted_items = [] # XXX
-    self.__style_kml = ''
-    self.__schema_kml = ''
     # XXX duplicating stuff in Regionator...
     self.__minfade = 0
     self.__maxfade = 0
@@ -80,7 +78,9 @@ class FeatureRegionator:
 
     """
 
-    return self.__kmlparse.Doc()
+    if self.__kmlparse:
+      return self.__kmlparse.Doc()
+    return None
 
   def _SortItems(self):
     num = self.__weighted_items.__len__()
@@ -133,11 +133,8 @@ class FeatureRegionator:
     if self.__verbose == True:
       print 'parsing...'
     self.__kmlparse = kml.kmlparse.KMLParse(kmlfile)
-
-    if self.__verbose:
-      print 'extracting styles...'
-    self.__style_kml = self.__kmlparse.ExtractDocumentStyles()
-    self.__schema_kml += self.__kmlparse.ExtractSchemas()
+    if not self.__kmlparse.Doc():
+      return
 
     if self.__verbose:
       print 'extracting items...'
@@ -154,11 +151,13 @@ class FeatureRegionator:
 
     if self.__verbose:
       print 'regionating',n,s,e,w
+    style_kml = self.__kmlparse.ExtractDocumentStyles()
+    schema_kml = self.__kmlparse.ExtractSchemas()
     rtor = kml.simpleregionator.Regionate(n,s,e,w,lod,per,
                                           self.__items,
                                           dir,
-                                          style=self.__style_kml,
-                                          schema=self.__schema_kml,
+                                          style=style_kml,
+                                          schema=schema_kml,
                                           minfade=self.__minfade,
                                           maxfade=self.__maxfade,
                                           verbose=self.__verbose)
