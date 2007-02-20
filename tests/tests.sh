@@ -27,6 +27,7 @@
 ./testcoordinates.py
 ./testregion.py
 ./testregionator.py
+./testfeaturequeue.py
 ./testftor.py
 ./teststor.py
 ./testptor.py
