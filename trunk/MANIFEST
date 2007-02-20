@@ -17,6 +17,7 @@ kml/qidboxes.py
 kml/region.py
 kml/regionator.py
 kml/regionhandler.py
+kml/featurequeue.py
 kml/simpleregionator.py
 kml/kmlparse.py
 kml/kmz.py
@@ -53,6 +54,7 @@ tests/print.py
 tests/testcbox.py
 tests/testregion.py
 tests/testregionator.py
+tests/testfeaturequeue.py
 tests/testftor.py
 tests/teststor.py
 tests/testptor.py
