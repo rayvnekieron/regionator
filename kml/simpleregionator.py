@@ -34,11 +34,11 @@ of objects per Region.
 import kml.region
 import kml.regionhandler
 import kml.regionator
-import kml.latlon
+import kml.featurequeue
 
 
 def Regionate(n,s,e,w,
-              minpx, per, items, dir,
+              minpx, per, featureq, dir,
               style='', schema='', minfade=0, maxfade=0,
               verbose=True):
 
@@ -57,7 +57,7 @@ def Regionate(n,s,e,w,
   """
 
   rtor = kml.regionator.Regionator()
-  rtor.SetRegionHandler(SimpleRegionHandler(items,minpx,per,style,schema))
+  rtor.SetRegionHandler(SimpleRegionHandler(featureq,minpx,per,style,schema))
   rtor.SetOutputDir(dir)
   rtor.SetFade(minfade,maxfade)
   rtor.SetVerbose(verbose)
@@ -71,47 +71,13 @@ def Regionate(n,s,e,w,
 
 class SimpleRegionHandler(kml.regionhandler.RegionHandler):
 
-  def __init__(self,items,minpx,per,style,schema):
-    self.__items = items
+  def __init__(self,featureq,minpx,per,style,schema):
+    self.__featureq = featureq
     self.__minpx = minpx
     self.__maxper = per
     self.__qid_items = {}
     self.__style = style
     self.__schema = schema
-
-
-  def _Split(self,region):
-
-    """
-
-    Finds the first '__maxper' objects within this Region,
-    stores them to the _qid_items dictionary index by
-    the qid, and _removes_ them from the __items list.
-
-    Returns:
-      num: number of items found for this Region.
-
-    """
-    
-    (n,s,e,w) = region.NSEW()
-    ritems = []
-    index = 0
-    nitems = self.__maxper
-    # This (unfortunately) searches the whole __items list
-    # in trying to fill out the maximum.
-    while nitems and index < self.__items.__len__():
-      tryitem = self.__items[index]
-      (lon,lat) = kml.latlon.SplitPoint(tryitem[0])
-      if region.InRegion(lon,lat):
-        gotitem = self.__items.pop(index)
-        ritems.append(gotitem)
-        nitems -= 1
-      else:
-        # increment index if we didn't shrink the list
-        index += 1
-    # save the items in this region
-    self.__qid_items[region.Qid()] = ritems
-    return ritems.__len__()
 
   def Start(self,region):
 
@@ -124,10 +90,12 @@ class SimpleRegionHandler(kml.regionhandler.RegionHandler):
 
     """
 
-    nitems = self._Split(region)
+    ritems = self.__featureq.Split(region, self.__maxper)
+    nitems = len(ritems)
     if nitems == 0:
       # nothing here, so nothing below either
       return [False,False]
+    self.__qid_items[region.Qid()] = ritems
     if nitems == self.__maxper:
       # full load here, so maybe some below too
       return [True,True]
