@@ -27,6 +27,7 @@ import os
 import tempfile
 import kml.region
 import kml.simpleregionator
+import kml.featurequeue
 
 
 pm1_kml = "<Placemark><name>1</name></Placemark>"
@@ -35,10 +36,10 @@ pm3_kml = "<Placemark><name>3</name></Placemark>"
 
 class BasicSimpleRegionatorTestCase(unittest.TestCase):
   def setUp(self):
-    self.__items = []
-    self.__items.append(("1.2+3.4", pm1_kml))
-    self.__items.append(("2.4+-6.8", pm2_kml))
-    self.__items.append(("-33.44+55.66", pm3_kml))
+    self.__featureq = kml.featurequeue.FeatureQueueX()
+    self.__featureq.AddItem(("1.2+3.4", pm1_kml))
+    self.__featureq.AddItem(("2.4+-6.8", pm2_kml))
+    self.__featureq.AddItem(("-33.44+55.66", pm3_kml))
     self.__region = kml.region.Region(60,-7,4,-40,'0')
     self.__dir = tempfile.mkdtemp()
 
@@ -53,7 +54,7 @@ class BasicSimpleRegionatorTestCase(unittest.TestCase):
     per = 2
     rtor = kml.simpleregionator.Regionate(n,s,e,w,
                                           minpx, per,
-                                          self.__items,self.__dir,
+                                          self.__featureq,self.__dir,
                                           verbose=False)
     assert len(os.listdir(self.__dir)) == 2, 'basic simple rtor2 file count bad'
     assert rtor.MaxDepth() == 2, 'basic simple rtor2 max depth bad'
@@ -66,7 +67,7 @@ class BasicSimpleRegionatorTestCase(unittest.TestCase):
     per = 1
     rtor = kml.simpleregionator.Regionate(n,s,e,w,
                                           minpx, per,
-                                          self.__items,self.__dir,
+                                          self.__featureq,self.__dir,
                                           verbose=False)
     assert len(os.listdir(self.__dir)) == 3, 'basic simple rtor1 file count bad'
     assert rtor.MaxDepth() == 2, 'basic simple rtor1 max depth bad'
