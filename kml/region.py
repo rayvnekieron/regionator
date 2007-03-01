@@ -172,6 +172,13 @@ class Region:
       return True
     return False
 
+  def WhichChildForPoint(self, lon, lat):
+    for q in ['0','1','2','3']:
+      c = self.Child(q)
+      if c.InRegion(lon, lat):
+        return c
+    return None
+
   # return which child node contains r
   # return 0 if none
   def _WhichChild(self,r):
