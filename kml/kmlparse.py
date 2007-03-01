@@ -54,6 +54,12 @@ def GetText(node):
       text.append(child.data)
   return "".join(text).strip()
 
+def GetCDATA(node):
+  cdata = []
+  for child in node.childNodes:
+    if child.nodeType == child.CDATA_SECTION_NODE:
+      cdata.append(child.data)
+  return "".join(cdata)
 
 def GetSimpleElementText(node, tagname):
 
