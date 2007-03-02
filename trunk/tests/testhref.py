@@ -127,6 +127,7 @@ class IsRelativeTestCase(unittest.TestCase):
   def runTest(self):
     assert kml.href.IsRelative('hi/there')
     assert not kml.href.IsRelative('http://host.com/path')
+    assert not kml.href.IsRelative('')
 
 def suite():
   suite = unittest.TestSuite()
