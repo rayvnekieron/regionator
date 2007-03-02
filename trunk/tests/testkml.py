@@ -185,6 +185,20 @@ placemark.Geometry = model.xml()
 document.Add_Feature(placemark.xml())
 document.Snippet = 'This is the Snippet text'
 
+placemark = kml.genxml.Placemark()
+placemark.name = 'MultiGeometry'
+multigeometry = kml.genxml.MultiGeometry()
+point = kml.genxml.Point()
+point.coordinates = '10,10'
+multigeometry.AddGeometry(point.xml())
+linestring = kml.genxml.LineString()
+linestring.coordinates = '1,1 2,2 3,3'
+multigeometry.AddGeometry(linestring.xml())
+multigeometry.AddGeometry(point.xml())
+multigeometry.AddGeometry(linestring.xml())
+placemark.Geometry = multigeometry.xml()
+document.Add_Feature(placemark.xml())
+
 k = kml.genxml.Kml()
 k.comment = '<!-- this is my comment -->\n'
 k.Feature = document.xml()
