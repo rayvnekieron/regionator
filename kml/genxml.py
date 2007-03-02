@@ -803,6 +803,24 @@ class LinearRing(Geometry):
     return ComplexElement('LinearRing', al, None, el, None)
 
 
+class MultiGeometry(Geometry):
+
+  def __init__(self):
+    Geometry.__init__(self)
+    self.__GeometryList = []
+
+  def AddGeometry(self, geometry_xml):
+    self.__GeometryList.append(geometry_xml)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = []
+    for f in self.__GeometryList:
+      children.append(f)
+    return ComplexElement('MultiGeometry', al, None, el, "".join(children))
+
+
 class Boundary(object):
 
   def __init__(self):
