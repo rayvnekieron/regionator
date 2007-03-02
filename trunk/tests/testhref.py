@@ -123,6 +123,11 @@ class BasicSplitKmzPath(unittest.TestCase):
     assert kmz_path == 'http://goo.org/London_house.kmz'
     assert file_path == None
 
+class IsRelativeTestCase(unittest.TestCase):
+  def runTest(self):
+    assert kml.href.IsRelative('hi/there')
+    assert not kml.href.IsRelative('http://host.com/path')
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleTestCase())
@@ -136,6 +141,7 @@ def suite():
   suite.addTest(NoSuchFetchUrlTempTestCase())
   suite.addTest(BasicComputeChildUrlTestCase())
   suite.addTest(BasicSplitKmzPath())
+  suite.addTest(IsRelativeTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

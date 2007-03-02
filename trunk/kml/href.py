@@ -84,6 +84,12 @@ class Href:
   def Query(self):
     return "&amp;".join(self.__querylist)
 
+  def Path(self):
+    if self.__dirname and self.__dirname != '/':
+      return self.__dirname + '/' + self.__basename
+    else:
+      return self.__basename
+
   def Href(self):
 
     """ URL string appropriate for KML <href>
@@ -93,12 +99,15 @@ class Href:
     arg = []
     arg.append(self.__scheme)
     arg.append(self.__netloc)
+    """
     # This is URL so raw '/' is okay
     if self.__dirname and self.__dirname != '/':
       path = self.__dirname + '/' + self.__basename
     else:
       path = self.__basename
     arg.append(os.path.normpath(path))
+    """
+    arg.append(os.path.normpath(self.Path()))
     arg.append(self.Query())
     arg.append(self.__fragment)
     return urlparse.urlunsplit(arg)
@@ -166,6 +175,11 @@ def IsHttp(url):
 
 def IsRoot(url):
   return url[:7] == 'root://'
+
+def IsRelative(url):
+  href = Href()
+  href.SetUrl(url)
+  return href.GetScheme() == None and href.Path()[0] != '/'
 
 
 def ComputeChildUrl(parent_href, child_href):
