@@ -179,7 +179,10 @@ def IsRoot(url):
 def IsRelative(url):
   href = Href()
   href.SetUrl(url)
-  return href.GetScheme() == None and href.Path()[0] != '/'
+  path = href.Path()
+  if not path:
+    return False
+  return href.GetScheme() == None and path[0] != '/'
 
 
 def ComputeChildUrl(parent_href, child_href):
