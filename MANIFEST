@@ -18,6 +18,7 @@ kml/region.py
 kml/regionator.py
 kml/regionhandler.py
 kml/featurequeue.py
+kml/featureset.py
 kml/simpleregionator.py
 kml/kmlparse.py
 kml/kmz.py
@@ -35,6 +36,7 @@ kml/coordinates.py
 kml/walk.py
 kml/model.py
 kml/resourcemap.py
+kml/modelator.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
@@ -43,6 +45,7 @@ scripts/checkregions.py
 scripts/checklinks.py
 scripts/mkregionboxes.py
 scripts/getkml.py
+scripts/modelator.py
 tests/README
 tests/prversion.py
 tests/test.kml
@@ -55,6 +58,7 @@ tests/testcbox.py
 tests/testregion.py
 tests/testregionator.py
 tests/testfeaturequeue.py
+tests/testfeatureset.py
 tests/testftor.py
 tests/teststor.py
 tests/testptor.py
