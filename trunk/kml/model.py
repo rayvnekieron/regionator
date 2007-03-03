@@ -26,6 +26,7 @@ import zipfile
 import kml.kmlparse
 import kml.coordbox
 import kml.kmz
+import kml.featureset
 
 
 class Model:
@@ -188,17 +189,25 @@ class ModelSet:
 
   def __init__(self, dir):
     self.__dir = dir
-    self.__models = {}
+    # self.__models = {}
+    self.__feature_set = kml.featureset.FeatureSet()
 
   def __iter__(self):
 
-    """The ModelSet iterator iterates over the set of model.
+    """The ModelSet iterator iterates over the set of models.
 
     """
+    self.__iter_index = 0
+    return self
 
-    # The .next() of this iterator returns a kml.model.Model
-    return self.__models.itervalues()
-
+  def next(self):
+    if self.__iter_index == self.__feature_set.Size():
+      raise StopIteration
+    else:
+      model = self.__feature_set.GetFeature(self.__iter_index)
+      self.__iter_index += 1
+      return model
+    
   def FindAndParse(self):
     filenames = os.listdir(self.__dir)
     for filename in filenames:
@@ -207,36 +216,27 @@ class ModelSet:
         model = Model()
         model.SetName(modelname)
         if model.Parse(os.path.join(self.__dir,filename)):
-          self.__models[modelname] = model
+          (lon, lat) = model.LonLatF()
+          weight = model.KmzSize() # TODO: volume-based weight
+          self.__feature_set.AddWeightedFeatureAtLocation(weight, lon, lat, model)
 
   def FindBBOX(self):
-    self.__cbox = kml.coordbox.CoordBox()
-    for modelname in self.__models:
-      model = self.__models[modelname]
-      (lon,lat) = model.LonLatF()
-      self.__cbox.AddPoint(lon,lat)
-    return self.__cbox.NSEW()
+    return self.__feature_set.NSEW()
+
+  def FeatureSet(self):
+    return self.__feature_set
 
   def Locations(self):
     """ List of (lon,lat,name) tuples """
+    self.__feature_set.Sort()
     locations = []
-    for modelname in self.__models:
-      model = self.__models[modelname]
-      (lon,lat) = model.LonLatF()
-      name = model.Name()
-      # dsu - decordate
-      locations.append((model.KmzSize(),lon,lat,name))
-    # dsu - sort
-    locations.sort()
-    locations.reverse()
-    # dsu - undecorate
-    return_locations = []
-    for loc in locations:
-      return_locations.append((loc[1],loc[2],loc[3]))
-    return return_locations
+    for (w,lon,lat,model) in self.__feature_set:
+      locations.append((model.KmzSize(),lon,lat,model.Name()))
+    return locations
 
   def GetModel(self, name):
-    if self.__models.has_key(name):
-      return self.__models[name]
+    for (w,lon,lat,model) in self.__feature_set:
+      if model.Name() == name:
+        return model
     return None
 
