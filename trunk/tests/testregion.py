@@ -139,9 +139,20 @@ class ParentTestCase(unittest.TestCase):
   def testDeeper(self):
     region = self.__root.Region('01230321')
     assert region.ParentQid() == '0123032', 'Bad deeper region parent'
- 
 
-print 'region Region ...end'
+
+class WhichChildTestCase(unittest.TestCase):
+  def runTest(self):
+    root = kml.region.RootRegion()
+    nw = root.WhichChildForPoint(-10, 10)
+    ne = root.WhichChildForPoint(10, 10)
+    se = root.WhichChildForPoint(10, -10)
+    sw = root.WhichChildForPoint(-10, -10)
+    assert nw.Qid() == '00'
+    assert ne.Qid() == '01'
+    assert sw.Qid() == '02'
+    assert se.Qid() == '03'
+ 
 
 def suite():
   suite = unittest.TestSuite()
@@ -154,6 +165,7 @@ def suite():
   suite.addTest(SnapPointTestCase())
   suite.addTest(ParentTestCase("testRoot"))
   suite.addTest(ParentTestCase("testDeeper"))
+  suite.addTest(WhichChildTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
