@@ -88,10 +88,10 @@ class FeatureSet(object):
     coords = kml.kmlparse.GetSimpleElementText(geometry_node, 'coordinates')
     if coords:
       c = kml.coordbox.CoordBox()
-      c.AddCoordinates(text)
+      c.AddCoordinates(coords)
       (lon,lat) = c.MidPoint()
       size = c.Size()
-      self.AddWeightedFeatureAtLocation(size, lon, lat, location_node)
+      self.AddWeightedFeatureAtLocation(size, lon, lat, feature_node)
       return True
     return False
 
