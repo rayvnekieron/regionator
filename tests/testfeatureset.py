@@ -25,6 +25,7 @@ $Date$
 import unittest
 import xml.dom.minidom
 import kml.featureset
+import kml.genkml
 import kml.kmlparse
 
 class SimpleFeatureSetTestCase(unittest.TestCase):
@@ -89,7 +90,7 @@ def PointPlacemark(id, lon, lat):
   pp.append('</Placemark>')
   return "".join(pp)
 
-def CreateFeatureSet():
+def CreatePointFeatureSet():
   a_node = xml.dom.minidom.parseString(PointPlacemark('a',1,1))
   b_node = xml.dom.minidom.parseString(PointPlacemark('b',-21,1))
   c_node = xml.dom.minidom.parseString(PointPlacemark('c',-21,-41))
@@ -101,7 +102,7 @@ def CreateFeatureSet():
 
 class IndexFeatureSetTestCase(unittest.TestCase):
   def setUp(self):
-    self.featureset = CreateFeatureSet()
+    self.featureset = CreatePointFeatureSet()
   def testSize(self):
     assert 3 == self.featureset.Size()
   def testIterate(self):
@@ -117,7 +118,7 @@ class IndexFeatureSetTestCase(unittest.TestCase):
 
 class SortFeatureSetTestCase(unittest.TestCase):
   def runTest(self):
-    fs = CreateFeatureSet()
+    fs = CreatePointFeatureSet()
     fs.Sort()
     assert (-21,1) == fs.GetLoc(0)
     assert (-21,-41) == fs.GetLoc(1)
@@ -125,7 +126,7 @@ class SortFeatureSetTestCase(unittest.TestCase):
 
 class IterateFeatureSetTestCase(unittest.TestCase):
   def runTest(self):
-    fs = CreateFeatureSet()
+    fs = CreatePointFeatureSet()
     fs.Sort()
     id_list = []
     for (w,lon,lat,feature) in fs:
@@ -133,6 +134,40 @@ class IterateFeatureSetTestCase(unittest.TestCase):
       id_list.append(placemark_node.getAttribute('id'))
     assert id_list[0] == 'b'
     assert id_list[1] == 'c'
+    assert id_list[2] == 'a'
+
+def LineStringPlacemark(id, n, s, e, w):
+  ls = []
+  ls.append('<Placemark id="%s">' % id)
+  ls.append(kml.genkml.LineStringBox(n,s,e,w))
+  ls.append('</Placemark>')
+  return "".join(ls)
+
+def CreateLineStringFeatureSet():
+  a_node = xml.dom.minidom.parseString(LineStringPlacemark('a',1,0,1,0))
+  b_node = xml.dom.minidom.parseString(LineStringPlacemark('b',2,0,2,0))
+  c_node = xml.dom.minidom.parseString(LineStringPlacemark('c',3,-3,3,-3))
+  featureset = kml.featureset.FeatureSet()
+  featureset.AddLineString(a_node)
+  featureset.AddLineString(b_node)
+  featureset.AddLineString(c_node)
+  return featureset
+
+class LineStringFeatureSetTestCase(unittest.TestCase):
+  def setUp(self):
+    self.fs = CreateLineStringFeatureSet()
+  def testLoc(self):
+    assert (0,0) == self.fs.GetLoc(2)
+    assert (1,1) == self.fs.GetLoc(1)
+    assert (.5,.5) == self.fs.GetLoc(0)
+  def testSort(self):
+    self.fs.Sort()
+    id_list = []
+    for (w,lon,lat,feature) in self.fs:
+      placemark_node = kml.kmlparse.GetFirstChildElement(feature, 'Placemark')
+      id_list.append(placemark_node.getAttribute('id'))
+    assert id_list[0] == 'c'
+    assert id_list[1] == 'b'
     assert id_list[2] == 'a'
 
 def suite():
@@ -148,6 +183,8 @@ def suite():
   suite.addTest(IndexFeatureSetTestCase("testLoc"))
   suite.addTest(SortFeatureSetTestCase())
   suite.addTest(IterateFeatureSetTestCase())
+  suite.addTest(LineStringFeatureSetTestCase("testLoc"))
+  suite.addTest(LineStringFeatureSetTestCase("testSort"))
   return suite
 
 runner = unittest.TextTestRunner()
