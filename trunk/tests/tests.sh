@@ -27,6 +27,7 @@
 ./testcoordinates.py
 ./testregion.py
 ./testregionator.py
+./testkmlregionator.py
 ./testfeaturequeue.py
 ./testftor.py
 ./teststor.py
@@ -42,6 +43,7 @@
 ./boxes.py usboxes 50.0 24.0 -66.0 -125.0 256 2048 4
 
 ./testpm.py placemarks.kml pmroot.kml pm
+./testpm2.py placemarks.kml pm2root.kml pm2
 
 ./testls.py marin.kml lsroot.kml ls
 

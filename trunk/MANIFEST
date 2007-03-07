@@ -68,6 +68,7 @@ tests/testgenkml.py
 tests/testgenxml.py
 tests/boxes.py
 tests/testpm.py
+tests/testpm2.py
 tests/placemarks.kml
 tests/testls.py
 tests/marin.kml
