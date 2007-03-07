@@ -70,7 +70,7 @@ Enable the following two tests along with this one for
 two ways to visualize the active Regions.
 </Snippet>
 <Link>
-<href>pmroot.kml</href>
+<href>pm2root.kml</href>
 </Link>
 </NetworkLink>
 
@@ -82,7 +82,7 @@ This is a set of LineStrings arranged in the same
 Region NetworkLink hierarchy as the preceeding test.
 </Snippet>
 <Link>
-<href>pm/qidboxes.kml</href>
+<href>pm2/qidboxes.kml</href>
 </Link>
 </NetworkLink>
 
@@ -98,7 +98,7 @@ as hierarchy depth increases.
 </Snippet>
 
 <Link>
-<href>pm/db.kml</href>
+<href>pm2/db.kml</href>
 </Link>
 </NetworkLink>
 
