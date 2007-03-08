@@ -118,7 +118,7 @@ class KMLParse:
 
 
   def _ParseFile(self, kmlfile):
-    if not os.access(kmlfile, os.R_OK):
+    if not kmlfile or not os.access(kmlfile, os.R_OK):
       return
 
     if zipfile.is_zipfile(kmlfile):
@@ -142,8 +142,9 @@ class KMLParse:
 
   def _ParseHttp(self, kmlurl):
     tempfilename = kml.href.FetchUrlToTempFile(kmlurl)
-    self._ParseFile(tempfilename)
-    os.unlink(tempfilename)
+    if tempfilename:
+      self._ParseFile(tempfilename)
+      os.unlink(tempfilename)
 
 
   def ParseString(self, kmlstring):
