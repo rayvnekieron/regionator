@@ -71,4 +71,4 @@
 ./testwms.py
 
 ./testwalk.py
-
+./testchecklinks.py
