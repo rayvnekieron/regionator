@@ -27,7 +27,8 @@ rm -f testxml.xml
 rm -f root.kml
 rm -f ancestors.kml
 rm -rf usboxes
-rm -rf pmroot.kml pm pm.kmz
+rm -rf pmroot.kml pm
+rm -rf pm2root.kml pm2
 rm -rf lsroot.kml ls
 rm -f outline.kml
 rm -f folder-regions.kml
