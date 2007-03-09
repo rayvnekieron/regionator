@@ -3,32 +3,19 @@
 # Check all link targets in a KML file/hierarchy.
 
 import sys
-import kml.walk
+import kml.checklinks
 
-if len(sys.argv) != 2:
-  print 'usage: %s url.kml' % sys.argv[0]
+if len(sys.argv) < 2:
+  print 'usage: %s [-k] [-h] [-a] [-r] [-v] url.kml' % sys.argv[0]
+  print '   -k: check KML hrefs'
+  print '   -h: check HTML hrefs'
+  print '   -r: check relative URLs'
+  print '   -a: check absolute URLs'
+  print '   -v: verbose'
   sys.exit(1)
 
-inputkml = sys.argv[1]
+inputkml = sys.argv[len(sys.argv)-1]
 
-class HrefNodeHandler(kml.walk.KMLNodeHandler):
-  def HandleNode(self, href, node, llab, lod):
-    parent = href.Href()
-    print 'P  ',parent
-    href_nodelist = node.getElementsByTagName('href')
-    for href_node in href_nodelist:
-      child =  kml.kmlparse.GetText(href_node)
-      print 'C  ',child
-      url = kml.href.ComputeChildUrl(parent, child)
-      print 'U  ',url
-      data = kml.href.FetchUrl(url)
-      if data:
-        print 'D  ',len(data)
-      else:
-        print 'ERR',child
+status = kml.checklinks.CheckLinks(sys.argv[1:], inputkml)
 
-
-hier = kml.walk.KMLHierarchy()
-hier.SetNodeHandler(HrefNodeHandler())
-hier.Walk(inputkml)
- 
+sys.exit(status)

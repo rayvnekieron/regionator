@@ -38,6 +38,7 @@ kml/walk.py
 kml/model.py
 kml/resourcemap.py
 kml/modelator.py
+kml/checklinks.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
@@ -105,3 +106,4 @@ tests/London_house.kmz
 tests/testimage.py
 tests/testcoordinates.py
 tests/testwalk.py
+tests/testchecklinks.py
