@@ -107,3 +107,4 @@ tests/testimage.py
 tests/testcoordinates.py
 tests/testwalk.py
 tests/testchecklinks.py
+tests/html.kml
