@@ -79,26 +79,28 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
         print m,
       print # newline
 
-  def _CountRelative(self, url):
-    if not url:
-      self.empty_link_count += 1
-      return False
-    if kml.href.IsRelative(url):
-      self.relative_link_count += 1
-      if self.__check_relative:
-        return True
-    else:
-      self.absolute_link_count += 1
-      if self.__check_absolute:
-        return True
-    return False
-
   def _Fetch(self, parent, child):
-    if not self._CountRelative(child):
+    # Handle empty href and count this separately from errors.
+    if not child:
       self._Print('ERR','[empty]',parent)
+      self.empty_link_count += 1
       return
+
+    # Count and fetch only if asked to.
+    if kml.href.IsRelative(child):
+      if not self.__check_relative:
+        return
+      self.relative_link_count += 1
+    else:
+      if not self.__check_absolute:
+        return
+      self.absolute_link_count += 1
+
+    # Be verbose only if asked and only about links we're asked to check.
     if self.__verbose:
       self._Print('C  ',child)
+
+    # Compute the absolute URL and try to fetch it.
     url = kml.href.ComputeChildUrl(parent, child)
     self._Print('U  ',url)
     data = kml.href.FetchUrl(url)
