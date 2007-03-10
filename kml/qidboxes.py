@@ -34,6 +34,8 @@ dataset's Regions.
 import kml.regionator
 import kml.genxml
 import kml.genkml
+import kml.kmlparse
+import kml.walk
 
 
 def MakeQidBoxes(rtor,boxfile):
@@ -63,4 +65,55 @@ def MakeQidBoxes(rtor,boxfile):
   f = open(boxfile,'w')
   f.write(k.xml())
   f.close()
+
+
+
+class RegionBoxNodeHandler(kml.walk.KMLNodeHandler):
+
+  def __init__(self):
+    self.__kml_doc = kml.genxml.Document()
+
+  def HandleNode(self, href, node, llab, lod):
+    region_nodelist = node.getElementsByTagName('Region')
+    for region in region_nodelist:
+      (llab_node, lod_node) = kml.kmlparse.ParseRegion(region)
+      llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
+      if not (llab.north and llab.south and llab.east and llab.west):
+        continue
+      lod = kml.kmlparse.ParseLod(lod_node)
+      if not lod.minLodPixels:
+        lod.minLodPixels = 0
+      if not lod.maxLodPixels:
+        lod.maxLodPixels = -1
+      region_box = kml.genkml.RegionBox('x',
+                                        float(llab.north),
+                                        float(llab.south),
+                                        float(llab.east),
+                                        float(llab.west),
+                                        float(lod.minLodPixels),
+                                        float(lod.maxLodPixels))
+      self.__kml_doc.Add_Feature(region_box)
+
+  def WriteFile(self, kmlfile):
+    k = kml.genxml.Kml()
+    k.Feature = self.__kml_doc.xml()
+    f = open(kmlfile, 'w')
+    f.write(k.xml().encode('utf-8'))
+    f.close()
+
+
+def MakeRegionBoxes(inputkml, outputkml):
+
+  """Make a KML file of a LineString box for each region in the input hierarchy
+
+  Args:
+    inputkml: KML/KMZ file with Regions and/or NetworkLinks
+    outputkml: KML file of one Region LineString for each region in the input
+  """
+
+  region_box_node_handler = RegionBoxNodeHandler()
+  hierarchy = kml.walk.KMLHierarchy()
+  hierarchy.SetNodeHandler(region_box_node_handler)
+  hierarchy.Walk(inputkml, None, None)
+  region_box_node_handler.WriteFile(outputkml)
 
