@@ -24,17 +24,13 @@ $Date$
 
 """
 
-Generate Region LineString boxes for each Region in the KML hierarchy
+Generate a Region LineString box for each Region in the KML hierarchy
 
 """
 
 
 import sys
-import kml.kmlparse
-import kml.genxml
-import kml.genkml
-import kml.walk
-
+import kml.qidboxes
 
 if len(sys.argv) != 3:
   print 'usage: %s input.kml boxes.kml' % sys.argv[0]
@@ -43,39 +39,4 @@ if len(sys.argv) != 3:
 inputkml = sys.argv[1]
 outputkml = sys.argv[2]
 
-
-class RegionBoxNodeHandler(kml.walk.KMLNodeHandler):
-
-  def __init__(self):
-    self.__kml_doc = kml.genxml.Document()
-
-  def HandleNode(self, href, node, llab, lod):
-    region_nodelist = node.getElementsByTagName('Region')
-    for region in region_nodelist:
-      (llab_node, lod_node) = kml.kmlparse.ParseRegion(region)
-      llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
-      lod = kml.kmlparse.ParseLod(lod_node)
-      region_box = kml.genkml.RegionBox('x',
-                                        float(llab.north),
-                                        float(llab.south),
-                                        float(llab.east),
-                                        float(llab.west),
-                                        float(lod.minLodPixels),
-                                        float(lod.maxLodPixels))
-      self.__kml_doc.Add_Feature(region_box)
-
-  def WriteFile(self, kmlfile):
-    k = kml.genxml.Kml()
-    k.Feature = self.__kml_doc.xml()
-    f = open(kmlfile, 'w')
-    f.write(k.xml())
-    f.close()
-
-
-region_box_node_handler = RegionBoxNodeHandler()
-hierarchy = kml.walk.KMLHierarchy()
-hierarchy.SetNodeHandler(region_box_node_handler)
-hierarchy.Walk(inputkml, None, None)
-region_box_node_handler.WriteFile(outputkml)
-
-
+kml.qidboxes.MakeRegionBoxes(inputkml, outputkml)
