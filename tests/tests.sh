@@ -75,3 +75,4 @@
 ./testchecklinks.py
 ./testmkregionboxes.py
 ./testcheckregions.py
+./testcsvregionator.py
