@@ -72,6 +72,7 @@ tests/testpm.py
 tests/testpm2.py
 tests/placemarks.kml
 tests/testls.py
+tests/testls2.py
 tests/marin.kml
 tests/testoutline.py
 tests/testextractor.py

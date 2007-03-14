@@ -114,7 +114,7 @@ Enable the next item for a visualization of the Region hiearchy.
 </Snippet>
 
 <Link>
-<href>lsroot.kml</href>
+<href>lsroot2.kml</href>
 </Link>
 </NetworkLink>
 
@@ -126,7 +126,7 @@ This is the Region NetworkLink hierarchy for the preceding
 test with a box around each Region.
 </Snippet>
 <Link>
-<href>ls/qidboxes.kml</href>
+<href>ls2/qidboxes.kml</href>
 </Link>
 </NetworkLink>
 
