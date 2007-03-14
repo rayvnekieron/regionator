@@ -46,6 +46,7 @@
 ./testpm2.py placemarks.kml pm2root.kml pm2
 
 ./testls.py marin.kml lsroot.kml ls
+./testls2.py marin.kml ls2root.kml ls2
 
 ./testoutline.py
 
