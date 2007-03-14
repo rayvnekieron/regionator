@@ -109,3 +109,5 @@ tests/testwalk.py
 tests/testchecklinks.py
 tests/html.kml
 tests/testmkregionboxes.py
+tests/testcheckregions.py
+tests/badregions.kml
