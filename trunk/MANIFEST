@@ -20,6 +20,7 @@ kml/regionhandler.py
 kml/featurequeue.py
 kml/featureset.py
 kml/kmlregionator.py
+kml/csvregionator.py
 kml/simpleregionator.py
 kml/kmlparse.py
 kml/kmz.py
@@ -62,6 +63,7 @@ tests/testregionator.py
 tests/testfeaturequeue.py
 tests/testfeatureset.py
 tests/testkmlregionator.py
+tests/testcsvregionator.py
 tests/testftor.py
 tests/teststor.py
 tests/testptor.py
