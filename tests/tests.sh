@@ -73,3 +73,4 @@
 ./testwalk.py
 ./testchecklinks.py
 ./testmkregionboxes.py
+./testcheckregions.py

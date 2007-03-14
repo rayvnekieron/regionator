@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+
+<Placemark>
+  <Region id="br1">
+    <LatLonAltBox/>
+    <!-- missing north, south, east, west: 4 errors -->
+    <!-- missing Lod: okay -->
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br2"> <!-- no errors -->
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+    </LatLonAltBox>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br3">
+    <LatLonAltBox>
+      <north>20</north>
+      <!-- no <south>: 1 error -->
+      <east>50</east>
+      <west>-50</west>
+    </LatLonAltBox>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br4">
+    <LatLonAltBox>
+      <north>20</north>
+      <south>30</south> <!-- south > north: 1 error -->
+      <east>50</east>
+      <west>-50</west>
+    </LatLonAltBox>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br5">
+    <LatLonAltBox>
+      <north>20</north>
+      <south>30</south> <!-- south > north: 1 error -->
+      <east>50</east>
+      <west>70</west> <!-- west > east: 1 error -->
+    </LatLonAltBox>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br6">
+    <LatLonAltBox>
+      <!-- all out of range: 4 errors -->
+      <north>300</north>
+      <south>-200</south>
+      <east>1000</east>
+      <west>-2000</west>
+    </LatLonAltBox>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br7"> <!-- no errors -->
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+    </LatLonAltBox>
+    <Lod>
+      <minLodPixels>128</minLodPixels>
+    </Lod>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br8"> <!-- no errors -->
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+    </LatLonAltBox>
+    <Lod>
+      <maxLodPixels>1024</maxLodPixels>
+    </Lod>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br9"> <!-- no errors -->
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+    </LatLonAltBox>
+    <Lod>
+      <minLodPixels>128</minLodPixels>
+      <maxLodPixels>1024</maxLodPixels>
+    </Lod>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br10">
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+    </LatLonAltBox>
+    <Lod> <!-- min > max: 1 error -->
+      <minLodPixels>129</minLodPixels>
+      <maxLodPixels>128</maxLodPixels>
+    </Lod>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br11">
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+    </LatLonAltBox>
+    <Lod> <!-- min < 0: 1 error -->
+      <minLodPixels>-1</minLodPixels>
+      <maxLodPixels>128</maxLodPixels>
+    </Lod>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br12">
+    <LatLonAltBox>
+      <north>20.00000001</north>  <!-- too short: 1 error -->
+      <south>20</south>
+      <east>50.000001</east> <!-- too skinny: 1 error -->
+      <west>50</west>
+    </LatLonAltBox>
+    <Lod>
+      <minLodPixels>128</minLodPixels>
+      <maxLodPixels>1024</maxLodPixels>
+    </Lod>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br13"> <!-- no errors -->
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+    </LatLonAltBox>
+    <Lod>
+      <maxLodPixels>1024</maxLodPixels>
+      <minAltitude>0</minAltitude>
+      <maxAltitude>1000</maxAltitude>
+    </Lod>
+  </Region>
+</Placemark>
+
+<Placemark>
+  <Region id="br14">
+    <LatLonAltBox>
+      <north>20</north>
+      <south>10</south>
+      <east>50</east>
+      <west>40</west>
+      <minAltitude>2000</minAltitude>  <!-- min > max: 1 error -->
+      <maxAltitude>1000</maxAltitude>
+    </LatLonAltBox>
+    <Lod>
+      <maxLodPixels>1024</maxLodPixels>
+    </Lod>
+  </Region>
+</Placemark>
+
+</Document>
+</kml>
+
+
