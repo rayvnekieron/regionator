@@ -201,6 +201,13 @@ class GetFirstChildElementSimpleTestCase(unittest.TestCase):
     assert region_node, 'GetFirstChildElement failed to find Region'
     assert region_node.tagName == 'Region', 'GetFirstChildElement bad tag'
 
+class NoneNodeTestCase(unittest.TestCase):
+  def runTest(self):
+    assert None == kml.kmlparse.GetText(None)
+    assert None == kml.kmlparse.CDATA(None)
+    assert None == kml.kmlparse.GetSimpleElementText(None, 'ignored')
+    assert None == kml.kmlparse.GetFirstChildElement(None, 'ignored')
+
 
 def suite():
   suite = unittest.TestSuite()

@@ -48,6 +48,8 @@ def GetText(node):
     text: stripped concatenation of all TEXT_NODEs
   """
 
+  if not node:
+    return None
   text = []
   for child in node.childNodes:
     if child.nodeType == child.TEXT_NODE:
@@ -55,6 +57,8 @@ def GetText(node):
   return "".join(text).strip()
 
 def GetCDATA(node):
+  if not node:
+    return None
   cdata = []
   for child in node.childNodes:
     if child.nodeType == child.CDATA_SECTION_NODE:
@@ -75,6 +79,8 @@ def GetSimpleElementText(node, tagname):
 
   """
 
+  if not node:
+    return None
   nodelist = node.getElementsByTagName(tagname)
   if nodelist:
     return GetText(nodelist[0])
