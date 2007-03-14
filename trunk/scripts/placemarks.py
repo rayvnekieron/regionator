@@ -23,21 +23,28 @@ $Date$
 """
 
 import sys
-
-import kml.placemarkregionator
+import os
+import kml.kmlregionator
 
 if len(sys.argv) != 4:
-  print 'usage: %s input.kml odir oroot.kml' % sys.argv[0]
+  print 'usage: %s input.kml oroot.kml odir' % sys.argv[0]
   sys.exit(1)
 
 kmlfile = sys.argv[1]
-dir = sys.argv[2]
-rootkml = sys.argv[3]
+rootkml = sys.argv[2]
+dir = sys.argv[3]
 
 lod = 256
 per = 16
+verbose = True
 
-pmr = kml.placemarkregionator.PlacemarkRegionator()
-if pmr:
-  pmr.Regionate(kmlfile,lod,per,rootkml,dir)
+os.makedirs(dir)
 
+rtor = kml.kmlregionator.RegionateKML(kmlfile,lod,per,rootkml,dir,verbose)
+
+if not rtor:
+  status = -1
+else:
+  status = 0
+
+sys.exit(status)
