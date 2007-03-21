@@ -77,3 +77,4 @@
 ./testmkregionboxes.py
 ./testcheckregions.py
 ./testcsvregionator.py
+./testsuperoverlay.py

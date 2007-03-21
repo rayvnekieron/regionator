@@ -117,3 +117,4 @@ tests/testmkregionboxes.py
 tests/testcheckregions.py
 tests/badregions.kml
 tests/testcheckimages.py
+tests/testsuperoverlay.py
