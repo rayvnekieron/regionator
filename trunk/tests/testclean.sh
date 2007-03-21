@@ -21,7 +21,6 @@
 
 # clean up after tests.sh and testimg.sh
 
-rm -rf smallrtortestdir
 rm -f testkml.kml
 rm -f testxml.xml
 rm -f root.kml
