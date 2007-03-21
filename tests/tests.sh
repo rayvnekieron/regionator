@@ -73,6 +73,7 @@
 
 ./testwalk.py
 ./testchecklinks.py
+./testcheckimages.py
 ./testmkregionboxes.py
 ./testcheckregions.py
 ./testcsvregionator.py

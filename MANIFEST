@@ -40,12 +40,14 @@ kml/model.py
 kml/resourcemap.py
 kml/modelator.py
 kml/checklinks.py
+kml/checkimages.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
 scripts/insertregions.py
 scripts/checkregions.py
 scripts/checklinks.py
+scripts/checkimages.py
 scripts/mkregionboxes.py
 scripts/getkml.py
 scripts/modelator.py
@@ -114,3 +116,4 @@ tests/html.kml
 tests/testmkregionboxes.py
 tests/testcheckregions.py
 tests/badregions.kml
+tests/testcheckimages.py

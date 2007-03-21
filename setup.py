@@ -42,6 +42,7 @@ script_list = [
   'scripts/insertregions.py',
   'scripts/checkregions.py',
   'scripts/checklinks.py',
+  'scripts/checkimages.py',
   'scripts/mkregionboxes.py',
   'scripts/getkml.py'
 ]
