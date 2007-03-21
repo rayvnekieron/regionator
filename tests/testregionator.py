@@ -102,8 +102,7 @@ class SmallRegionatorTestCase(unittest.TestCase):
 
     # Create a Region NetworkLink hierarchy in the test directory
     smallrtor = kml.regionator.Regionator()
-    testdir = 'smallrtortestdir'
-    os.makedirs(testdir)
+    testdir = tempfile.mkdtemp()
     smallrtor.SetRegionHandler(SmallRegionHandler(testdir))
     root = kml.region.Region(90,-90,180,-180,'0')
     smallrtor.Regionate(root)
@@ -126,6 +125,9 @@ class SmallRegionatorTestCase(unittest.TestCase):
     want_nsew = ('-67.5', '-90', '180', '135.0')
     assert llab.Get_NSEW() == want_nsew, 'Small rtor 85.kml bad'
 
+    for file in os.listdir(testdir):
+      os.unlink(os.path.join(testdir, file))
+    os.rmdir(testdir)
 
 class KmzRegionatorTestCase(unittest.TestCase):
   def runTest(self):
@@ -137,7 +139,9 @@ class KmzRegionatorTestCase(unittest.TestCase):
     kmzrtor.SetSaveAsKmz(True)
     kmzrtor.SetVerbose(False)
     kmzrtor.Regionate(region)
-    # os.unlink(testdir)
+    for file in os.listdir(testdir):
+      os.unlink(os.path.join(testdir, file))
+    os.rmdir(testdir)
 
 
 def suite():
