@@ -53,12 +53,10 @@ class BasicTestCase(unittest.TestCase):
                                                verbose)
 
   def tearDown(self):
-    """
     os.unlink(self.rootkml)
     for file in os.listdir(self.dir):
       os.unlink(os.path.join(self.dir, file))
     os.rmdir(self.dir)
-    """
 
   def testCheckRegions(self):
     # MakeRootKML basically expects a relative dir but we hand it
@@ -70,7 +68,6 @@ class BasicTestCase(unittest.TestCase):
 class BadRegionFileTestCase(unittest.TestCase):
   def runTest(self):
     status = kml.checkregions.CheckRegions('', 'badregions.kml')
-    print status
     assert 19 == status
 
 def suite():
