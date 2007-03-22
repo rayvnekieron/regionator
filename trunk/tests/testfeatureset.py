@@ -22,11 +22,15 @@ $Revision$
 $Date$
 """
 
+import os
+import tempfile
 import unittest
 import xml.dom.minidom
+import kml.checkregions
 import kml.featureset
 import kml.genkml
 import kml.kmlparse
+import kml.csvregionator
 
 class SimpleFeatureSetTestCase(unittest.TestCase):
   def setUp(self):
@@ -170,6 +174,35 @@ class LineStringFeatureSetTestCase(unittest.TestCase):
     assert id_list[1] == 'b'
     assert id_list[2] == 'a'
 
+class FeatureSetRegionatorTestCase(unittest.TestCase):
+  def setUp(self):
+    fs = kml.csvregionator.CreateFeatureSet('gec.csv','latin_1')
+    minlod = 128
+    maxper = 4
+    fs_handler = kml.featureset.FeatureSetRegionHandler(fs, minlod, maxper)
+    rtor = kml.regionator.Regionator()
+    rtor.SetRegionHandler(fs_handler)
+    self.tmpdir = tempfile.mkdtemp()
+    rtor.SetOutputDir(self.tmpdir)
+    (n,s,e,w) = fs.NSEW()
+    region = kml.region.RootSnap(n,s,e,w)
+    rtor.SetVerbose(False)
+    rtor.Regionate(region)
+
+  def tearDown(self):
+    for file in os.listdir(self.tmpdir):
+      os.unlink(os.path.join(self.tmpdir, file))
+    os.rmdir(self.tmpdir)
+
+  def testKmlHierarchy(self):
+    kml1 = os.path.join(self.tmpdir, '1.kml')
+    region_handler = kml.checkregions.CheckRegions('-rk', kml1)
+    (regions, files, errors) = region_handler.Statistics()
+    assert 1422 == regions
+    assert 356 == files
+    assert 0 == errors
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleFeatureSetTestCase("testSize"))
@@ -185,6 +218,7 @@ def suite():
   suite.addTest(IterateFeatureSetTestCase())
   suite.addTest(LineStringFeatureSetTestCase("testLoc"))
   suite.addTest(LineStringFeatureSetTestCase("testSort"))
+  suite.addTest(FeatureSetRegionatorTestCase("testKmlHierarchy"))
   return suite
 
 runner = unittest.TextTestRunner()
