@@ -51,8 +51,8 @@ class BasicCsvRegionatorTestCase(unittest.TestCase):
 
     assert 206 == len(os.listdir(odir))
 
-    check_status = kml.checkregions.CheckRegions('', kml1)
-    assert 0 == check_status
+    region_handler = kml.checkregions.CheckRegions('', kml1)
+    assert 0 == region_handler.Status()
 
     for file in os.listdir(odir):
       os.unlink(os.path.join(odir, file))
