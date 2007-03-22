@@ -40,7 +40,8 @@ class BasicSuperOverlayTestCase(unittest.TestCase):
     assert True == status
     kml1 = os.path.join(dir, '1.kml')
     assert 0 == kml.checklinks.CheckLinks('-rk', kml1)
-    assert 0 == kml.checkregions.CheckRegions('', kml1)
+    region_handler = kml.checkregions.CheckRegions('', kml1)
+    assert 0 == region_handler.Status()
     for file in os.listdir(dir):
       os.unlink(os.path.join(dir, file))
     os.rmdir(dir)

@@ -63,12 +63,13 @@ class BasicTestCase(unittest.TestCase):
     # an absolute path in setUp.  So we hop over it here.
     kml1 = os.path.join(self.dir, '1.kml')
     # This NetworkLink hierarchy is known to have no errors
-    assert 0 == kml.checkregions.CheckRegions('',kml1)
+    region_handler = kml.checkregions.CheckRegions('',kml1)
+    assert 0 == region_handler.Status()
 
 class BadRegionFileTestCase(unittest.TestCase):
   def runTest(self):
-    status = kml.checkregions.CheckRegions('', 'badregions.kml')
-    assert 19 == status
+    region_handler = kml.checkregions.CheckRegions('', 'badregions.kml')
+    assert 19 == region_handler.Status()
 
 def suite():
   suite = unittest.TestSuite()
