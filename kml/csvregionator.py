@@ -20,90 +20,11 @@ $Revision$
 $Date$
 """
 
-""" BasicCSVRegionHandler
-
-A Regionator of CSV input data.
-
-The CVS point data in the input file is sorted into a
-Region NetworkLink hierarchy with the given number
-of Points per region.
-
-The input file is of this form:
-
-score|lat|lon|name|description
-
-A point with a higher score appears from further away.
-The name becomes the Placemark's <name>.
-The description becomes the Placemark's <description>
-(for balloon and snippet).
-
-"""
-
 import os
-import xml.dom.minidom
 import kml.region
-import kml.regionhandler
 import kml.regionator
 import kml.featureset
 import kml.qidboxes
-
-
-class BasicCSVRegionHandler(kml.regionhandler.RegionHandler):
-
-  def __init__(self, feature_set, min_lod_pixels, maxper):
-
-    """
-    Args:
-      cvslist: list of tuples 
-      min_lod_pixels: minLodPixels
-      maxper: maximum Features per region
-    """
-
-    self.__input_feature_set = feature_set
-    self.__node_feature_set = {}
-    self.__min_lod_pixels = min_lod_pixels
-    self.__maxper = maxper
-
-
-  def Start(self,region):
-
-    """ RegionHandler.Start()
-
-    Split out the Features for this region.
-
-    The overall sort is top-down given that the pre-recursion
-    method is used to split out the input items.
-
-    """
-
-    region_fs = self.__input_feature_set.SplitByRegion(region, self.__maxper)
-    nitems = region_fs.Size()
-    if nitems == 0:
-      # nothing here, so nothing below either
-      return [False,False]
-    self.__node_feature_set[region.Qid()] = region_fs
-    if nitems == self.__maxper:
-      # full load here, so maybe some below too
-      return [True,True]
-    # nitems < self.__maxper
-    # didn't max out the region so no more for child regions
-    return [True,False]
-
-  def PixelLod(self, region):
-    return (self.__min_lod_pixels,-1)
-
-  def Data(self, region):
-
-    """ RegionHandler.Data()
-
-    Create the KML objects for this Region.
-
-    """
-
-    _kml = []
-    for (w,lon,lat,feature_node) in self.__node_feature_set[region.Qid()]:
-      _kml.append(feature_node)  # feature_node is "<Placemark>...</Placemark>"
-    return "".join(_kml)
 
 
 def CDATA(cdata):
@@ -157,12 +78,12 @@ def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose):
   if not feature_set:
     return None
 
-  csv_region_handler = BasicCSVRegionHandler(feature_set,
-                                             min_lod_pixels,
-                                             max_per)
+  feature_set_handler = kml.featureset.FeatureSetRegionHandler(feature_set,
+                                                               min_lod_pixels,
+                                                               max_per)
   (n,s,e,w) = feature_set.NSEW()
   rtor = kml.regionator.Regionator()
-  rtor.SetRegionHandler(csv_region_handler)
+  rtor.SetRegionHandler(feature_set_handler)
   rtor.SetOutputDir(dir)
   region = kml.region.RootSnap(n,s,e,w)
   rtor.SetVerbose(verbose)
