@@ -26,7 +26,7 @@ import kml.walk
 
 class RegionCheckingNodeHandler(kml.walk.KMLNodeHandler):
 
-  def __init__(self, opts, ):
+  def __init__(self, opts):
     self.__file_count = 0
     self.__region_count = 0
     self.__error_count = 0
@@ -40,6 +40,8 @@ class RegionCheckingNodeHandler(kml.walk.KMLNodeHandler):
   def Status(self):
     return self.__error_count
 
+  def Statistics(self):
+    return (self.__region_count, self.__file_count, self.__error_count)
 
   def _Print(self, code, data, *more):
     if self.__verbose:
@@ -162,4 +164,4 @@ def CheckRegions(opts, inputkml):
   hierarchy.SetNodeHandler(region_checking_node_handler)
   hierarchy.Walk(inputkml, None, None)
   region_checking_node_handler.PrintSummary()
-  return region_checking_node_handler.Status()
+  return region_checking_node_handler
