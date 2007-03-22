@@ -295,6 +295,41 @@ class FeatureSet(object):
         index += 1
     return fs
 
+  def Copy5Ways(self, region, max):
+
+    size = len(self.__feature_list)
+    if max >= size:
+      max = size
+
+    index = 0
+    fs = FeatureSet()
+    while index < max:
+      (weight, lon, lat, feature) = self.__feature_list[index]
+      fs.AddWeightedFeatureAtLocation(weight, lon, lat, feature)
+      index += 1
+
+    c0 = region.Child('0')
+    fs0 = FeatureSet()
+    c1 = region.Child('1')
+    fs1 = FeatureSet()
+    c2 = region.Child('2')
+    fs2 = FeatureSet()
+    c3 = region.Child('3')
+    fs3 = FeatureSet()
+    while index < size:
+      (weight, lon, lat, feature) = self.__feature_list[index]
+      if c0.InRegion(lon, lat):
+        fs0.AddWeightedFeatureAtLocation(weight, lon, lat, feature)
+      elif c1.InRegion(lon, lat):
+        fs1.AddWeightedFeatureAtLocation(weight, lon, lat, feature)
+      elif c2.InRegion(lon, lat):
+        fs2.AddWeightedFeatureAtLocation(weight, lon, lat, feature)
+      elif c3.InRegion(lon, lat):
+        fs3.AddWeightedFeatureAtLocation(weight, lon, lat, feature)
+      index += 1
+    return (fs, fs0, fs1, fs2, fs3)
+ 
+
   def Sort(self):
     """Sort this FeatureSet largest weight first"""
     self.__feature_list.sort()
@@ -312,8 +347,8 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
       maxper: maximum Features per region
     """
 
-    self.__input_feature_set = feature_set
     self.__node_feature_set = {}
+    self.__node_feature_set['0'] = feature_set
     self.__min_lod_pixels = min_lod_pixels
     self.__maxper = maxper
 
@@ -329,12 +364,23 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
 
     """
 
-    region_fs = self.__input_feature_set.SplitByRegion(region, self.__maxper)
-    nitems = region_fs.Size()
+    if not self.__node_feature_set.has_key(region.Qid()):
+      return [False, False]
+    ifs = self.__node_feature_set[region.Qid()]
+    (fs, fs0, fs1, fs2, fs3) = ifs.Copy5Ways(region, self.__maxper)
+    nitems = fs.Size()
     if nitems == 0:
       # nothing here, so nothing below either
       return [False,False]
-    self.__node_feature_set[region.Qid()] = region_fs
+    self.__node_feature_set[region.Qid()] = fs
+    if fs0:
+      self.__node_feature_set[region.Child('0').Qid()] = fs0
+    if fs1:
+      self.__node_feature_set[region.Child('1').Qid()] = fs1
+    if fs2:
+      self.__node_feature_set[region.Child('2').Qid()] = fs2
+    if fs3:
+      self.__node_feature_set[region.Child('3').Qid()] = fs3
     if nitems == self.__maxper:
       # full load here, so maybe some below too
       return [True,True]
