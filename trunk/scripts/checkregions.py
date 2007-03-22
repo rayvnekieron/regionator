@@ -38,7 +38,7 @@ if len(sys.argv) < 2:
 
 inputkml = sys.argv[len(sys.argv)-1]
 
-status = kml.checkregions.CheckRegions(sys.argv[1:], inputkml)
+region_handler = kml.checkregions.CheckRegions(sys.argv[1:], inputkml)
 
-sys.exit(status) # status 0 on no errors
+sys.exit(region_handler.Status()) # status 0 on no errors
 
