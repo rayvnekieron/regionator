@@ -12,16 +12,21 @@ ksc=NASA_KSC.jpg
 superoverlay.py $ksc x x
 
 # use GroundOverlay LatLonBox
-superoverlay.py $ksc ksc-llb-0.kml llb-0.kml llb-0
+kmlsuperoverlay.py -i $ksc -k ksc-llb-0.kml -r llb-0.kml -d llb-0
 
 # use GroundOverlay LatLonBox + drawOrder
-superoverlay.py $ksc ksc-llb-d.kml llb-d.kml llb-d
+kmlsuperoverlay.py -i $ksc -k ksc-llb-d.kml -r llb-d.kml -d llb-d
 
 # use GroundOverlay LatLonBox + altitude
-superoverlay.py $ksc ksc-llb-a.kml llb-a.kml llb-a
+kmlsuperoverlay.py -i $ksc -k ksc-llb-a.kml -r llb-a.kml -d llb-a
 
 # use GroundOverlay LatLonBox + TimeSpan
-superoverlay.py $ksc ksc-llb-t.kml llb-t.kml llb-t
+kmlsuperoverlay.py -i $ksc -k ksc-llb-t.kml -r llb-t.kml -d llb-t
 
 # LatLonBox plus the full trifecta: drawOrder, altitude, TimeSpan
-superoverlay.py $ksc ksc-llb-3.kml llb-3.kml llb-3
+kmlsuperoverlay.py -i $ksc -k ksc-llb-3.kml -r llb-3.kml -d llb-3
+
+# same as above with old mainline
+superoverlay.py $ksc ksc-llb-3.kml llb-3-old.kml llb-3-old
+
+diff -r llb-3 llb-3-old

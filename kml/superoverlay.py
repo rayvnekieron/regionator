@@ -21,6 +21,7 @@ $Date$
 """
 
 
+import getopt
 import sys
 import os
 
@@ -31,8 +32,125 @@ import kml.superoverlaytiles
 import kml.tile
 import kml.version
 import kml.kmlparse
+import kml.region
 
-def SuperOverlay(imagefile, root, dir, gofile=None):
+
+class SuperOverlayConfig(object):
+
+  def __init__(self, args):
+    self.__image_file = None
+    self.__tile_size = 256
+    self.__base_draw_order = 0
+    self.__time_span = None
+    self.__altitude = 0
+    self.__gokml = None
+    self.__verbose = False
+    self.__tiles = {}
+    self.__root_kml = False
+    self.__output_dir = False
+
+    self._GetOpt(args)
+
+    if self.__image_file:
+      self._InitImage()
+
+  def _GetOpt(self, args):
+    (opts, left_over_args) = getopt.getopt(args, "i:k:r:d:t:v")
+    for (option, value) in opts:
+      if option == '-i':
+        self.__image_file = value
+      elif option == '-k':
+        self.__gokml = value
+      elif option == '-r':
+        self.__root_kml = value
+      elif option == '-d':
+        self.__output_dir = value
+      elif option == '-t':
+        self.__tile_size = int(value)
+      elif option == '-v':
+        self.__verbose = True
+
+  def _InitImage(self):
+    self.__image = kml.image.Image(self.__image_file)
+
+    if self.__gokml:
+      self._ParseGoFile(self.__gokml)
+
+    if not self.__image.ValidNSEW():
+      (n,s,e,w) = self.__image.NSEW()
+      raise "invalid image bounding box" # XXX
+
+
+  def _ParseGoFile(self, gokml):
+    kp = kml.kmlparse.KMLParse(gokml)
+
+    # if there's a LatLonBox use it
+    latlonbox = kp.ExtractLatLonBox()
+    if latlonbox:
+      n = float(latlonbox.north)
+      s = float(latlonbox.south)
+      e = float(latlonbox.east)
+      w = float(latlonbox.west)
+      self.__image.SetNSEW(n, s, e, w)
+
+    groundoverlay = kp.ExtractGroundOverlay()
+    if groundoverlay.drawOrder:
+      self.__base_draw_order = int(groundoverlay.drawOrder)
+    if groundoverlay.altitude and groundoverlay.altitudeMode == 'absolute':
+      self.__altitude = int(groundoverlay.altitude)
+
+    timespan = kp.ExtractTimeSpan()
+    if timespan:
+      self.__time_span = timespan.xml()
+
+  def SetImageFile(self, image_file):
+    self.__image_file = image_file
+    self._InitImage()
+
+  def Image(self):
+    return self.__image
+
+  def TileSize(self):
+    return self.__tile_size
+
+  def RootRegion(self):
+    if self.__image:
+       (n,s,e,w) = self.__image.NSEW()
+       return kml.region.RootSnap(n,s,e,w)
+    return None
+
+  def TimePrimitive(self):
+    return self.__time_span
+
+  def Altitude(self):
+    return self.__altitude
+
+  def SetTileList(self, tiles):
+    self.__tiles = tiles
+
+  def TileList(self):
+    return self.__tiles
+
+  def OutputImageFormat(self):
+    return self.__image.OutputFormat()
+
+  def BaseDrawOrder(self):
+    return self.__base_draw_order
+
+  def InputImageFile(self):
+    return self.__image_file
+
+  def OutputDir(self):
+    return self.__output_dir
+
+  def RootKml(self):
+    return self.__root_kml
+
+  def Verbose(self):
+    return self.__verbose
+
+
+def CreateSuperOverlay(superoverlay):
 
   """This creates a SuperOverlay.
 
@@ -88,85 +206,59 @@ def SuperOverlay(imagefile, root, dir, gofile=None):
   and error messages may come in the form of a Python exception dump.
 
   Args:
-    imagefile: image file
-    root: where to store root KML
-    dir: where to store KML hierarchy and image tiles
-    gofile: groundoverlay.kml for LatLonBox, TimeSpan and/or altitude
+    superoverlay: kml.superoverlay.SuperOverlayConfig()
 
   Returns:
     bool: True on complete success, False on any failure
   """
 
-  print 'version',kml.version.Revision()
 
-  # Phase 0 - parse arguments
 
-  image = kml.image.Image(imagefile)
-
-  base_draworder = 1
-  altitude = None
-  timeprimitive = None
-  if gofile:
-    kmldoc = kml.kmlparse.KMLParse(gofile)
-
-    # if there's a LatLonBox use it
-    latlonbox = kmldoc.ExtractLatLonBox()
-    if latlonbox:
-      n = float(latlonbox.north)
-      s = float(latlonbox.south)
-      e = float(latlonbox.east)
-      w = float(latlonbox.west)
-      image.SetNSEW(n, s, e, w)
-
-    groundoverlay = kmldoc.ExtractGroundOverlay()
-    if groundoverlay.drawOrder:
-      base_drawoder = groundoverlay.drawOrder
-    if groundoverlay.altitude and groundoverlay.altitudeMode == 'absolute':
-      altitude = int(groundoverlay.altitude)
-
-    timespan = kmldoc.ExtractTimeSpan()
-    if timespan:
-      timeprimitive = timespan.xml()
-  
-  if not image.ValidNSEW():
-    (n,s,e,w) = image.NSEW()
-    print 'image bounds not valid: n=%f,s=%f,e=%f,w=%f' % (n,s,e,w)
-    return False
-  
-  print 'original dimensions',image.Dimensions()
-  
-  fmt = image.OutputFormat()
-  twid = 512
-  tht = 512
-  
   # Phase 1 - find the regions with tiles
   
-  superoverlayinfo = kml.superoverlayinfo.SuperOverlayInfo(image,twid,tht)
-  rtor = superoverlayinfo.Regionate()
-  maxdepth = rtor.MaxDepth()
-  print 'maxdepth',maxdepth
-  print 'count',rtor.RegionCount()
-  rootregion = superoverlayinfo.RootRegion()
-  print 'root region',rootregion.NSEW()
-  tiles = superoverlayinfo.Tiles()
+  tile_list = kml.superoverlayinfo.FindSuperOverlayTiles(superoverlay)
+  superoverlay.SetTileList(tile_list)
   
   # Phase 2 - generate the KML
 
-  os.makedirs(dir)
+  os.makedirs(superoverlay.OutputDir())
   
-  superoverlaykml = kml.superoverlaykml.SuperOverlayKML(rootregion,tiles,maxdepth,fmt,base_draworder,dir,timeprimitive=timeprimitive,altitude=altitude)
-  superoverlaykml.Regionate()
+  rtor = kml.superoverlaykml.CreateSuperOverlayKML(superoverlay)
   
   # debug linestring boxes
   
-  qidboxes = os.path.join(dir, 'qidboxes.kml')
+  qidboxes = os.path.join(superoverlay.OutputDir(), 'qidboxes.kml')
   kml.qidboxes.MakeQidBoxes(rtor, qidboxes)
   
+  if superoverlay.RootKml():
+    kml.regionator.MakeRootKML(superoverlay.RootKml(),
+                               superoverlay.RootRegion(),
+                               128,
+                               superoverlay.OutputDir())
+
   # Phase 3 - chop out image tiles
   
-  superoverlaytiles = kml.superoverlaytiles.SuperOverlayTiles(rootregion,tiles,imagefile,dir,fmt,256,256)
-  superoverlaytiles.Regionate()
-  
-  kml.regionator.MakeRootKML(root,rootregion,128,dir)
- 
+  kml.superoverlaytiles.ChopSuperOverlayTiles(superoverlay)
   return True
+
+
+def SuperOverlay(imagefile, root, dir, gofile=None):
+
+  """DEPRECATED: Use CreateSuperOverlay()"""
+
+  print 'version',kml.version.Revision()
+
+  argv = []
+  argv.append('-i')
+  argv.append(imagefile)
+  argv.append('-k')
+  argv.append(gofile)
+  argv.append('-r')
+  argv.append(root)
+  argv.append('-d')
+  argv.append(dir)
+  argv.append('-v')
+  try:
+    status = CreateSuperOverlay(SuperOverlayConfig(argv))
+  except:
+    return False

@@ -42,5 +42,6 @@ rm -rf llb-d.kml llb-d
 rm -rf llb-a.kml llb-a
 rm -rf llb-t.kml llb-t
 rm -rf llb-3.kml llb-3
+rm -rf llb-3-old.kml llb-3-old
 rm -f lhcopy.kmz
 rm -f test.kmz
