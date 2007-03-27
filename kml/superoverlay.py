@@ -38,6 +38,7 @@ import kml.region
 class SuperOverlayConfig(object):
 
   def __init__(self, args):
+    self.__image = None
     self.__image_file = None
     self.__tile_size = 256
     self.__base_draw_order = 0
@@ -132,7 +133,9 @@ class SuperOverlayConfig(object):
     return self.__tiles
 
   def OutputImageFormat(self):
-    return self.__image.OutputFormat()
+    if self.__image:
+      return self.__image.OutputFormat()
+    return None
 
   def BaseDrawOrder(self):
     return self.__base_draw_order
