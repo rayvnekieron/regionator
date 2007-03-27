@@ -26,6 +26,10 @@ import sys
 
 import kml.superoverlay
 
-superoverlayconfig = kml.superoverlay.SuperOverlayConfig(sys.argv[1:])
+try:
+  superoverlayconfig = kml.superoverlay.SuperOverlayConfig(sys.argv[1:])
+except:
+  print '%s: -i image -d output_dir [-k go.kml] [-r rookml]' % sys.argv[0]
+  sys.exit(1)
 
 kml.superoverlay.CreateSuperOverlay(superoverlayconfig)
