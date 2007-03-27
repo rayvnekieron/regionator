@@ -37,21 +37,24 @@ import kml.latlon
 import kml.genkml
 import kml.tile
 import kml.extractor
+import kml.superoverlay
 
 class SuperOverlayTileRegionHandler(kml.regionhandler.RegionHandler):
 
-  def __init__(self,tiles,dir,fmt,exor):
-    self.__tiles = tiles
-    self.__dir = dir
-    self.__fmt = fmt
+  def __init__(self, superoverlay ,exor):
+    self.__tile_list = superoverlay.TileList()
+    self.__dir = superoverlay.OutputDir()
+    self.__fmt = superoverlay.OutputImageFormat()
     self.__exor = exor
+    self.__verbose = superoverlay.Verbose()
 
   def _Extract(self,region,tile):
 
     (fx,fy,fw,fh) = tile.Info()
     obase = os.path.join(self.__dir,repr(region.Id()))
 
-    print '%d/%d' % (region.Id(),len(self.__tiles)),'%s.%s'%(obase,self.__fmt)
+    if self.__verbose:
+      print '%d/%d' % (region.Id(),len(self.__tile_list)),'%s.%s'%(obase,self.__fmt)
     
     # XXX resample original image...
     x = int(fx)
@@ -61,28 +64,24 @@ class SuperOverlayTileRegionHandler(kml.regionhandler.RegionHandler):
     self.__exor.Extract(x,y,w,h,obase)
 
   def Start(self,region):
-    if self.__tiles.has_key(region.Qid()):
-      self._Extract(region,self.__tiles[region.Qid()])
+    if self.__tile_list.has_key(region.Qid()):
+      self._Extract(region,self.__tile_list[region.Qid()])
       return [True,True]
     return [False,False]
 
 
-class SuperOverlayTiles:
+def ChopSuperOverlayTiles(superoverlay):
 
-  # 1) create/init
-
-  def __init__(self,rootregion,tiles,imgfile,dir,fmt,wid,ht):
+    imgfile = superoverlay.InputImageFile()
+    wid = ht = superoverlay.TileSize()
+    fmt = superoverlay.OutputImageFormat()
     exor = kml.extractor.Extractor(imgfile,wid,ht,fmt)
-    self.__rootregion = rootregion
-    self.__tilehandler = SuperOverlayTileRegionHandler(tiles,dir,fmt,exor)
-    self.__rtor = kml.regionator.Regionator()
-    self.__rtor.SetRegionHandler(self.__tilehandler)
-
-  # 2) regionate
-  def Regionate(self):
-
+    tilehandler = SuperOverlayTileRegionHandler(superoverlay,exor)
+    rtor = kml.regionator.Regionator()
+    rtor.SetRegionHandler(tilehandler)
+    rtor.SetVerbose(superoverlay.Verbose())
     # Descend down from root region extracting the tile for each region
-    self.__rtor.Regionate(self.__rootregion)
+    rtor.Regionate(superoverlay.RootRegion())
     
-    return self.__rtor
+    return rtor
 

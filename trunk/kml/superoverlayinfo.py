@@ -36,13 +36,14 @@ import kml.qidboxes
 import kml.genkml
 import kml.tile
 import kml.image
+import kml.superoverlay
 
 class SuperOverlayInfoRegionHandler(kml.regionhandler.RegionHandler):
 
-  def __init__(self,image,twid,tht):
-    self.__image = image
-    self.__twid = twid
-    self.__tht = tht
+  def __init__(self, superoverlay):
+    self.__image = superoverlay.Image()
+    self.__twid = superoverlay.TileSize()
+    self.__tht = superoverlay.TileSize()
     self.__maxdepth = 0
     self.__count = 0
     self.__tiles = {}
@@ -58,7 +59,7 @@ class SuperOverlayInfoRegionHandler(kml.regionhandler.RegionHandler):
         self.__maxdepth = rd
       tile = self.__image.Tile(n,s,e,w)
       self.__tiles[region.Qid()] = tile
-      if tile.Wid() > self.__twid or tile.Ht() > self.__tht:
+      if tile.Wid() > self.__twid * 2 or tile.Ht() > self.__tht * 2:
         return [True,True]
       return [True,False]
     return [False,False]
@@ -73,35 +74,31 @@ class SuperOverlayInfoRegionHandler(kml.regionhandler.RegionHandler):
     return self.__tiles
 
 
+"""
 class SuperOverlayInfo:
 
-  def __init__(self,image,twid,tht):
-    self.__image = image
-    self.__infohandler = SuperOverlayInfoRegionHandler(image,twid,tht)
+  def __init__(self, superoverlay):
+    self.__superoverlay = superoverlay
+    self.__infohandler = SuperOverlayInfoRegionHandler(superoverlay)
     self.__rtor = kml.regionator.Regionator()
     self.__rtor.SetRegionHandler(self.__infohandler)
-    self.__twid = twid
-    self.__tht = tht
 
   def Regionate(self):
-    (n,s,e,w) = self.__image.NSEW()
-    r = kml.region.RootSnap(n,s,e,w)
-    self.__rootregion = r
 
     # Descend down from this node finding
     # the tile for each region at each
     # level of hierarchy down to the specified tile size
-    self.__rtor.Regionate(r)
+    self.__rtor.Regionate(self.__superoverlay.RootRegion())
+
+    self.__superoverlay.SetTileList(self.__infohandler.Tiles())
     
     return self.__rtor
+"""
 
-  # valid only after regionate
-
-  # a dictionary mapping qid to Tile
-  def Tiles(self):
-    return self.__infohandler.Tiles()
-
-  def RootRegion(self):
-    return self.__rootregion
-
-
+def FindSuperOverlayTiles(superoverlay):
+    infohandler = SuperOverlayInfoRegionHandler(superoverlay)
+    rtor = kml.regionator.Regionator()
+    rtor.SetRegionHandler(infohandler)
+    rtor.SetVerbose(superoverlay.Verbose())
+    rtor.Regionate(superoverlay.RootRegion())
+    return infohandler.Tiles()

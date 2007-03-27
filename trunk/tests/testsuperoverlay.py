@@ -31,22 +31,29 @@ import kml.checkregions
 
 class BasicSuperOverlayTestCase(unittest.TestCase):
   def runTest(self):
-    imagefile = 'NASA_KSC.jpg'
+    argv = []
+    argv.append('-i')
+    argv.append('NASA_KSC.jpg')
     tmpdir = tempfile.mkdtemp()
-    rootkml = os.path.join(tmpdir, 'root.kml')
     dir = os.path.join(tmpdir, 'dir')
-    gofile = 'go.kml'
-    status = kml.superoverlay.SuperOverlay(imagefile, rootkml, dir, gofile)
+    argv.append('-d')
+    argv.append(dir)
+    argv.append('-k')
+    argv.append('go.kml')
+    superoverlay = kml.superoverlay.SuperOverlayConfig(argv)
+    status = kml.superoverlay.CreateSuperOverlay(superoverlay)
     assert True == status
     kml1 = os.path.join(dir, '1.kml')
     assert 0 == kml.checklinks.CheckLinks('-rk', kml1)
     region_handler = kml.checkregions.CheckRegions('', kml1)
     assert 0 == region_handler.Status()
+
+    """
     for file in os.listdir(dir):
       os.unlink(os.path.join(dir, file))
     os.rmdir(dir)
-    os.unlink(rootkml)
     os.rmdir(tmpdir)
+    """
 
 def suite():
   suite = unittest.TestSuite()

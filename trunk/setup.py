@@ -36,6 +36,7 @@ def SVNVersion():
 
 script_list = [
   'scripts/superoverlay.py',
+  'scripts/kmlsuperoverlay.py',
   'scripts/placemarks.py',
   'scripts/modelator.py',
   'scripts/cgiregionator.py', # really for /var/www/cgi-bin or equiv
