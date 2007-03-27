@@ -52,8 +52,12 @@ class SuperOverlayConfig(object):
 
     self._GetOpt(args)
 
-    if self.__image_file:
-      self._InitImage()
+    if not self.__image_file:
+      raise "image file required"
+    if not self.__output_dir:
+      raise "output dir required"
+
+    self._InitImage()
 
   def _GetOpt(self, args):
     (opts, left_over_args) = getopt.getopt(args, "i:k:r:d:t:v")
