@@ -29,7 +29,8 @@ import kml.superoverlay
 try:
   superoverlayconfig = kml.superoverlay.SuperOverlayConfig(sys.argv[1:])
 except:
-  print '%s: -i image -d output_dir [-k go.kml] [-r rookml]' % sys.argv[0]
+  print '%s: [-v] -i image -d output_dir ' \
+        '[-k go.kml] [-r rookml] [-t tile_size]' % sys.argv[0]
   sys.exit(1)
 
 kml.superoverlay.CreateSuperOverlay(superoverlayconfig)
