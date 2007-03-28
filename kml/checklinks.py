@@ -48,28 +48,37 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       elif o == '-v':
         self.__verbose = True
 
-    self.node_count = 0
-    self.kml_link_count = 0
-    self.html_link_count = 0
-    self.relative_link_count = 0
-    self.absolute_link_count = 0
-    self.empty_link_count = 0
+    self.__node_count = 0
+    self.__kml_link_count = 0
+    self.__html_link_count = 0
+    self.__relative_link_count = 0
+    self.__absolute_link_count = 0
+    self.__empty_link_count = 0
     self.__error_count = 0
 
   def Status(self):
     return self.__error_count
 
+  def Statistics(self):
+    return (self.__node_count,
+            self.__kml_link_count,
+            self.__html_link_count,
+            self.__relative_link_count,
+            self.__absolute_link_count,
+            self.__empty_link_count,
+            self.__error_count)
+
   def PrintSummary(self):
-    self._Print('X  ', '%d nodes' % self.node_count)
+    self._Print('X  ', '%d nodes' % self.__node_count)
     if self.__check_kml:
-      self._Print('X  ','%d kml links' % self.kml_link_count)
+      self._Print('X  ','%d kml links' % self.__kml_link_count)
     if self.__check_html:
-      self._Print('X  ','%d html links' % self.html_link_count)
+      self._Print('X  ','%d html links' % self.__html_link_count)
     if self.__check_relative:
-      self._Print('X  ','%d relative links' % self.relative_link_count)
+      self._Print('X  ','%d relative links' % self.__relative_link_count)
     if self.__check_absolute:
-      self._Print('X  ','%d absolute links' % self.absolute_link_count)
-    self._Print('X  ','%d empty links' % self.empty_link_count)
+      self._Print('X  ','%d absolute links' % self.__absolute_link_count)
+    self._Print('X  ','%d empty links' % self.__empty_link_count)
     self._Print('X  ','%d errors' % self.__error_count)
 
   def _Print(self, code, data, *more):
@@ -83,18 +92,18 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     # Handle empty href and count this separately from errors.
     if not child:
       self._Print('ERR','[empty]',parent)
-      self.empty_link_count += 1
+      self.__empty_link_count += 1
       return
 
     # Count and fetch only if asked to.
     if kml.href.IsRelative(child):
       if not self.__check_relative:
         return
-      self.relative_link_count += 1
+      self.__relative_link_count += 1
     else:
       if not self.__check_absolute:
         return
-      self.absolute_link_count += 1
+      self.__absolute_link_count += 1
 
     # Be verbose only if asked and only about links we're asked to check.
     if self.__verbose:
@@ -118,23 +127,23 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       # so we dig through the CDATA as a raw string.
       href_list = cdata.split('href="') # as in <a href="http://foo.com/hi">
       for n in href_list[1:]: # [0] is the stuff before the first 'href'
-        self.html_link_count += 1
+        self.__html_link_count += 1
         end_quote = n.find('"')
         self._Fetch(parent, n[0:end_quote])
       src_list = cdata.split('src="') # as in <img src="foo.jpg">
       for n in src_list[1:]: # [0] is the stuff before the first 'src'
-        self.html_link_count += 1
+        self.__html_link_count += 1
         end_quote = n.find('"')
         self._Fetch(parent, n[0:end_quote])
 
   # kml.walk.KMLNodeHandler:HandleNode()
   def HandleNode(self, href, node, llab, lod):
-    self.node_count += 1
+    self.__node_count += 1
     parent = href.Href()
     self._Print('P  ',parent)
     href_nodelist = node.getElementsByTagName('href')
     for href_node in href_nodelist:
-      self.kml_link_count += 1
+      self.__kml_link_count += 1
       child = kml.kmlparse.GetText(href_node)
       self._Fetch(parent, child)
     if self.__check_html:

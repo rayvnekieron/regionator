@@ -71,22 +71,69 @@ class BasicTestCase(unittest.TestCase):
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk(os.path.join(self.dir, '1.kml'))
-    assert 50 == link_checker.node_count
-    assert 49 == link_checker.kml_link_count
-    assert 0 == link_checker.html_link_count
-    assert 49 == link_checker.relative_link_count
-    assert 0 == link_checker.absolute_link_count
-    assert 0 == link_checker.empty_link_count
+    (nodes, kmls, htmls, rel, abs, empty, errs) = link_checker.Statistics()
+    assert 50 == nodes
+    assert 49 == kmls
+    assert 0 == htmls
+    assert 49 == rel
+    assert 0 == abs
+    assert 0 == empty
+    assert 0 == errs
 
 class BasicHtmlTestCase(unittest.TestCase):
   def runTest(self):
-    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-a'])
+    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k'])
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk('html.kml')
-    assert 8 == link_checker.html_link_count
-    assert 1 == link_checker.empty_link_count
-    assert 0 == link_checker.Status()
+    (nodes, kmls, htmls, rel, abs, empty, errs) = link_checker.Statistics()
+    # The file html.kml is the one and only KML in the hierarchy:
+    assert 1 == nodes
+    # There is one href in KML (IconStyle/Icon/href):
+    assert 1 == kmls
+    # There are 8 hrefs in the HTML:
+    assert 8 == htmls
+    # One hrefs are relative:
+    assert 3 == rel
+    # Checking of absolute links not requested:
+    assert 0 == abs
+    # One href is empty:
+    assert 1 == empty
+    # Three errors due to non-existent files:
+    assert 3 == errs
+
+class BadEncodingTestCase(unittest.TestCase):
+  def setUp(self):
+    self.link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k'])
+    self.hier = kml.walk.KMLHierarchy()
+    self.hier.SetNodeHandler(self.link_checker)
+
+  def testCorrectEncoding(self):
+    self.hier.Walk('es-latin1.kml')
+    (nodes, kmls, htmls, rel, abs, empty, errs) = self.link_checker.Statistics()
+    assert 1 == nodes
+    assert 1 == kmls
+    assert 8 == htmls
+    # This thinks "www.google.fr" is a relative link:
+    assert 4 == rel
+    # Not checking absolute links (no '-a' specified):
+    assert 0 == abs
+    assert 0 == empty
+    # None of the relative links exist here:
+    assert 4 == errs
+
+  def testWrongEncoding(self):
+    self.hier.Walk('es-utf1.kml')
+    (nodes, kmls, htmls, rel, abs, empty, errs) = self.link_checker.Statistics()
+    # xml.dom.minidom will fail to parse, hence no nodes, no nothin':
+    assert 0 == nodes
+    assert 0 == kmls
+    assert 0 == htmls
+    assert 0 == rel
+    assert 0 == abs
+    assert 0 == empty
+    assert 0 == errs
+ 
 
 def suite():
   suite = unittest.TestSuite()
@@ -94,6 +141,8 @@ def suite():
   suite.addTest(BasicTestCase("testCheckLinksOnRelativeKml"))
   suite.addTest(BasicTestCase("testLinkCheckerOnRelativeKml"))
   suite.addTest(BasicHtmlTestCase())
+  suite.addTest(BadEncodingTestCase("testWrongEncoding"))
+  suite.addTest(BadEncodingTestCase("testCorrectEncoding"))
   return suite
 
 runner = unittest.TextTestRunner()
