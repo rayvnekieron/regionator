@@ -39,7 +39,7 @@ import kml.regionator
 import kml.featureset
 
 
-class KMLRegionHandler(kml.regionhandler.RegionHandler):
+class KMLRegionHandler(kml.featureset.FeatureSetRegionHandler):
 
   def __init__(self,kmlparse,minpx,maxper):
 
@@ -50,45 +50,16 @@ class KMLRegionHandler(kml.regionhandler.RegionHandler):
       maxper: maximum Features per region
     """
 
-    self._Parse(kmlparse.Doc())
+    fs = self._Parse(kmlparse.Doc())
     self.__style = kmlparse.ExtractDocumentStyles()
     self.__schemas = kmlparse.ExtractSchemas()
-    self.__node_feature_set = {}
-    self.__minpx = minpx
-    self.__maxper = maxper
+    kml.featureset.FeatureSetRegionHandler.__init__(self, fs, minpx, maxper)
 
   def _Parse(self, doc):
     fs = kml.featureset.FeatureSet()
-    for placemark_node in doc.getElementsByTagName('Placemark'):
-      fs.AddFeature(placemark_node)
-    self.__input_feature_set = fs
-
-  def NSEW(self):
-    return self.__input_feature_set.NSEW()
-
-  def Start(self,region):
-
-    """ RegionHandler.Start()
-
-    Split out the Features for this region.
-
-    The overall sort is top-down given that the pre-recursion
-    method is used to split out the input items.
-
-    """
-
-    fs = self.__input_feature_set.SplitByRegion(region, self.__maxper)
-    nitems = fs.Size()
-    if nitems == 0:
-      # nothing here, so nothing below either
-      return [False,False]
-    self.__node_feature_set[region.Qid()] = fs
-    if nitems == self.__maxper:
-      # full load here, so maybe some below too
-      return [True,True]
-    # nitems < self.__maxper
-    # didn't max out the region so no more for child regions
-    return [True,False]
+    for placemark_dom_node in doc.getElementsByTagName('Placemark'):
+      fs.AddFeature(placemark_dom_node)
+    return fs
 
   def Styles(self, region):
     # TODO: make all Style's shared and save out to common file
@@ -97,32 +68,16 @@ class KMLRegionHandler(kml.regionhandler.RegionHandler):
   def Schema(self, region):
     return self.__schemas
 
-  def Data(self,region):
+  def Data(self, region):
 
-    """ RegionHandler.Data()
-
-    Create the KML objects for this Region.
-
-    """
+    # We have our own Data because FeatureSetRegionHandler's Data
+    # expects a feature in KML form.  We operate in minidom node space.
 
     _kml = []
-    for (w,lon,lat,feature_node) in self.__node_feature_set[region.Qid()]:
-      _kml.append(feature_node.toxml())
+    for (w,lon,lat,feature_dom_node) in self._node_feature_set[region.Qid()]:
+      feature_kml = feature_dom_node.toxml()
+      _kml.append(feature_kml)
     return "".join(_kml)
-
-  def PixelLod(self,region):
-
-    """ RegionHandler.PixelLod()
-
-    KML objects accumulate down the hierarchy: items at the coarsest
-    level of hierarchy are visible to the finest level.  This is
-    achieved through the use of maxLodPixels = -1.
-
-    """
-
-    maxPixels = -1 # visible to 0 range
-    minPixels = self.__minpx
-    return (minPixels,maxPixels)
 
 
 def RegionateKML(inputkml, min_lod_pixels, max_per, rootkml, dir, verbose):
