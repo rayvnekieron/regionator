@@ -54,6 +54,8 @@ def Regionate(n,s,e,w,
     dir: where to write the kml files
     style: '<Style>...</Style>'
     schema: '<Schema>...</Schema>'
+
+  DEPRECATED: Use kml.kmlregionator.
   """
 
   rtor = kml.regionator.Regionator()
