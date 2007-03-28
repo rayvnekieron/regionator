@@ -38,6 +38,7 @@ class LineStringRegionator(kml.featureregionator.FeatureRegionator):
   """
   Build Region hierarchy of existing KML LineStrings based on "size"
 
+  DEPRECATED: Use kml.kmlregionator
   """
 
   def ExtractItems(self):

@@ -39,6 +39,8 @@ class FeatureRegionator(kml.featurequeue.FeatureQueueX):
      should use Add*() to define the dataset bounding box, and
   3) AddItem() on each KML object.
 
+  DEPRECATED: Use kml.featureset and/or kml.kmlregionator
+
   """
 
   def __init__(self):

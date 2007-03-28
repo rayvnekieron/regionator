@@ -41,6 +41,8 @@ class PlacemarkRegionator(kml.featureregionator.FeatureRegionator):
 
   Find all Placemark/Point/coordinates in the parsed KML document.
 
+  DEPRECATED: Use kml.kmlregionator
+
   """
  
 
