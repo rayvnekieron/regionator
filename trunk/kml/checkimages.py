@@ -72,12 +72,6 @@ class ImageCheckingNodeHandler(kml.walk.KMLNodeHandler):
   def PrintSummary(self):
     self._Print('X  ', '%d nodes' % self.__node_count)
     self._Print('X  ', '%d images' % self.__image_count)
-    """
-    if self.__check_relative:
-      self._Print('X  ','%d relative links' % self.relative_link_count)
-    if self.__check_absolute:
-      self._Print('X  ','%d absolute links' % self.absolute_link_count)
-    """
     self._Print('X  ', '%d max' % self.__max_image_size)
     self._Print('X  ', self.__max_image_url)
     self._Print('X  ', '%d min' % self.__min_image_size)
