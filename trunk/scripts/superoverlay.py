@@ -31,6 +31,7 @@ argc = len(sys.argv)
 if argc != 4 and argc != 5:
   print 'usage: %s image.gtif root.kml dir' % sys.argv[0]
   print 'usage: %s imagefile go.kml root.kml dir' % sys.argv[0]
+  print 'DEPRECATED: use kmlsuperoverlay.py'
   sys.exit(1)
 
 imagefile = sys.argv[1]
