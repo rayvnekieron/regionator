@@ -38,18 +38,21 @@ class NullTestCase(unittest.TestCase):
 
 class BasicTestCase(unittest.TestCase):
   def setUp(self):
-    # Create a SuperOverlay to check
-    imagefile = 'NASA_KSC.jpg'
+    argv = []
+    argv.append('-i')
+    argv.append('NASA_KSC.jpg')
+    argv.append('-k')
+    argv.append('ksc-llb-3.kml')
+    argv.append('-d')
     self.tmpdir = tempfile.mkdtemp()
-    self.root = os.path.join(self.tmpdir, 'root.kml')
     self.sodir = os.path.join(self.tmpdir, 'dir')
-    gofile = 'ksc-llb-3.kml'
-    kml.superoverlay.SuperOverlay(imagefile, self.root, self.sodir, gofile)
+    argv.append(self.sodir)
+    superoverlay = kml.superoverlay.SuperOverlayConfig(argv)
+    status = kml.superoverlay.CreateSuperOverlay(superoverlay)
 
   def tearDown(self):
     for file in os.listdir(self.sodir):
       os.unlink(os.path.join(self.sodir, file))
-    os.unlink(self.root)
     os.rmdir(self.sodir)
     os.rmdir(self.tmpdir)
 
