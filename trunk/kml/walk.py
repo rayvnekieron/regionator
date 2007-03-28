@@ -88,7 +88,8 @@ class KMLHierarchy:
     kp = kml.kmlparse.KMLParse(kmlfile)
     doc = kp.Doc()
     if not doc:
-      print kmlfile,'load or parse error'
+      if self.__verbose:
+        print kmlfile,'load or parse error'
       return
 
     self.__node_handler.HandleNode(href, doc, llab, lod)
