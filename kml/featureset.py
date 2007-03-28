@@ -347,8 +347,8 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
       maxper: maximum Features per region
     """
 
-    self.__node_feature_set = {}
-    self.__node_feature_set['0'] = feature_set
+    self._node_feature_set = {} # "protected"
+    self._node_feature_set['0'] = feature_set
     self.__min_lod_pixels = min_lod_pixels
     self.__maxper = maxper
 
@@ -364,23 +364,23 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
 
     """
 
-    if not self.__node_feature_set.has_key(region.Qid()):
+    if not self._node_feature_set.has_key(region.Qid()):
       return [False, False]
-    ifs = self.__node_feature_set[region.Qid()]
+    ifs = self._node_feature_set[region.Qid()]
     (fs, fs0, fs1, fs2, fs3) = ifs.Copy5Ways(region, self.__maxper)
     nitems = fs.Size()
     if nitems == 0:
       # nothing here, so nothing below either
       return [False,False]
-    self.__node_feature_set[region.Qid()] = fs
+    self._node_feature_set[region.Qid()] = fs
     if fs0:
-      self.__node_feature_set[region.Child('0').Qid()] = fs0
+      self._node_feature_set[region.Child('0').Qid()] = fs0
     if fs1:
-      self.__node_feature_set[region.Child('1').Qid()] = fs1
+      self._node_feature_set[region.Child('1').Qid()] = fs1
     if fs2:
-      self.__node_feature_set[region.Child('2').Qid()] = fs2
+      self._node_feature_set[region.Child('2').Qid()] = fs2
     if fs3:
-      self.__node_feature_set[region.Child('3').Qid()] = fs3
+      self._node_feature_set[region.Child('3').Qid()] = fs3
     if nitems == self.__maxper:
       # full load here, so maybe some below too
       return [True,True]
@@ -400,8 +400,9 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
     """
 
     _kml = []
-    for (w,lon,lat,feature_kml) in self.__node_feature_set[region.Qid()]:
-      _kml.append(feature_kml)  # feature_node is "<Placemark>...</Placemark>"
+    for (w,lon,lat,feature_kml) in self._node_feature_set[region.Qid()]:
+      _kml.append(feature_kml)  # feature_kml is "<Placemark>...</Placemark>"
     return "".join(_kml)
 
-
+  def NSEW(self):
+    return self._node_feature_set['0'].NSEW()
