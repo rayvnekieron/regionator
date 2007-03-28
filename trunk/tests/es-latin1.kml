@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='latin1'?>
+<kml xmlns='http://earth.google.com/kml/2.0'>
+<Document>
+	<Style id="MyStyleId">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>./../sketchup_building_golden1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+
+	<Placemark>
+		<styleUrl>#MyStyleId</styleUrl>
+
+		<Snippet maxLines="2"/>
+		<description>
+			<![CDATA[
+				<table>
+					<tr>
+						<td>
+							<a href="http://sketchup.google.com/3dwarehouse?hl=es">
+								<img src="./../3dwh-logo_es.gif" />
+							 </a>
+						</td>
+						<td align=right valign=middle>
+					        <font size =6><b>hangar</b></font>
+					    </td>
+					</tr>
+					<tr>
+						<td>
+							<b>Modelado por: </b>
+							<a href="http://sketchup.google.com/3dwarehouse/search?uq=4860290481511171477&hl=es">struck</a>
+						</td>
+						<td align="right">
+							<a href="www.google.fr"> www.google.fr </a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<b>Descripción: </b> le hangar de mon papa (monsieur DE VREESE)
+						</td>
+					</tr>
+					<tr>
+						 <td align="center" colspan="2">
+							<a href="http://sketchup.google.com/3dwarehouse/details?mid=83296ef80cc26d2e84139d98fd186f88&hl=es">          
+								<img src="../../placemarks/999/83296ef80cc26d2e84139d98fd186f88.jpg">
+							</a>
+						 </td>
+					</tr>
+					<tr>
+						<td>
+						<a href="http://sketchup.google.com/support/bin/request.py?contact_type=reportmodel&hl=en&mid=83296ef80cc26d2e84139d98fd186f88">Informar sobre infracciones (English)</a>
+						</td>
+						<td align=right>
+							<a href="http://sketchup.google.com/support/bin/answer.py?answer=57057&hl=en">
+								Modele el mundo (English)
+							</a>
+						</td>
+					</tr>
+				</table>
+			]]>
+		</description>
+		
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>3.16611120554277, 48.3356733783779, 11.9381313496177</coordinates>
+		</Point>
+		
+	</Placemark>
+</Document>
+</kml>

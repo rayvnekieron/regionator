@@ -114,6 +114,8 @@ tests/testcoordinates.py
 tests/testwalk.py
 tests/testchecklinks.py
 tests/html.kml
+tests/es-latin1.kml
+tests/es-utf8.kml
 tests/testmkregionboxes.py
 tests/testcheckregions.py
 tests/badregions.kml
