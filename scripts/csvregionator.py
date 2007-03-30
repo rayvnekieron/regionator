@@ -24,23 +24,35 @@ $Date$
 
 """
 Regionate pipe-delimited data, sorted by score.
+
+General usage is:
+  ./csvregionator.py data.csv out.kml outdir
+
 The minimum supplied data are in this format:
 score|lat|lon|name|description
 
-Additionally, a 6th row may be supplied to define a <styleUrl>:
+Additionally, a 6th row may be supplied in the csv file to define a
+<styleUrl> for each placemark:
 score|lat|lon|name|description|styleUrl
 
 In this case, the styleUrl should use a relative href to point to a file at
 the top-level of the generated directory structure, or should point to a kml
 file over http.
+
+It is also possible to supply a global styleUrl to script as a 4th argument:
+  ./csvregionator data.csv out.kml outdir http://path/to/mystyles.kml#myStyle
+
+In this case, the global styleUrl will be applied to each line in csvfile where
+a styleUrl has not been explicitly defined. An explicitly defined styleUrl
+overrides the global styleUrl.
 """
 
 import os
 import sys
 import kml.csvregionator
 
-if len(sys.argv) != 4:
-  print 'usage: %s input.csv root.kml dir' % sys.argv[0]
+if len(sys.argv) < 4 or len(sys.argv) > 5:
+  print 'usage: %s input.csv root.kml dir [styleUrl]' % sys.argv[0]
   sys.exit(1)
 
 csvfile = sys.argv[1]
@@ -49,10 +61,13 @@ min_lod = 256
 max_per = 16
 rootkml = sys.argv[2]
 dir = sys.argv[3]
+global_styleUrl = None
+if len(sys.argv) == 5:
+  global_styleUrl = sys.argv[4]
 verbose = True
 os.makedirs(dir)
 rtor = kml.csvregionator.RegionateCSV(csvfile, codec, min_lod, max_per,
-                                      rootkml, dir, verbose)
+                                      rootkml, dir, verbose, global_styleUrl)
 if not rtor:
   status = -1
 else:

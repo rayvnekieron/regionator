@@ -46,7 +46,10 @@ def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
   return placemark.xml()
 
 
-def CreateFeatureSet(csvfile, codec):
+def CreateFeatureSet(csvfile, global_styleUrl, codec):
+  # The styleUrl arg is either a string or None. If a string, we use the
+  # value as the global <styleUrl> for all features. An explicit styleUrl
+  # specified in csvfile will still override this if present.
   try:
     file = open(csvfile, 'r')
   except:
@@ -60,18 +63,20 @@ def CreateFeatureSet(csvfile, codec):
     lon = float(tuple[2])
     name = tuple[3].decode(codec)
     description = tuple[4].decode(codec)
-    styleurl = None
-    if len(tuple) == 6: # styleUrl is optional
-      styleurl = tuple[5].decode(codec)
+    if len(tuple) == 6: # override the global styleUrl (if any)
+      styleUrl = tuple[5].decode(codec)
+    else:
+      styleUrl = global_styleUrl
     id = 'pm%d' % count
-    placemark_kml = CreatePlacemark(id, lon, lat, name, description, styleurl)
+    placemark_kml = CreatePlacemark(id, lon, lat, name, description, styleUrl)
     feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark_kml)
     count += 1
   feature_set.Sort()  # Sort based on score.
   return feature_set
 
 
-def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose):
+def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose,
+                 global_styleUrl):
 
   if not os.access(dir, os.W_OK):
     if verbose:
@@ -79,7 +84,7 @@ def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose):
     return None
 
   # Read the CSV data into a FeatureSet created a Placemark for each item
-  feature_set = CreateFeatureSet(inputcsv, codec)
+  feature_set = CreateFeatureSet(inputcsv, global_styleUrl, codec)
   if not feature_set:
     return None
 
