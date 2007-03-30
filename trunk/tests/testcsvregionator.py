@@ -38,13 +38,15 @@ class BasicCsvRegionatorTestCase(unittest.TestCase):
     root = None # Don't make a root.kml
     odir = tempfile.mkdtemp()
     verbose = False
+    global_styleUrl = None
     rtor = kml.csvregionator.RegionateCSV(csvfile,
                                           codec,
                                           min_lod_pixels,
                                           max_per,
                                           root,
                                           odir,
-                                          verbose)
+                                          verbose,
+                                          global_styleUrl)
 
     kml1 = os.path.join(odir, '1.kml')
     assert os.access(kml1, os.R_OK)
