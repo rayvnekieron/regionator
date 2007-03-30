@@ -45,7 +45,8 @@ script_list = [
   'scripts/checklinks.py',
   'scripts/checkimages.py',
   'scripts/mkregionboxes.py',
-  'scripts/getkml.py'
+  'scripts/getkml.py',
+  'scripts/csvregionator.py'
 ]
 
 distutils.core.setup(name='kml',

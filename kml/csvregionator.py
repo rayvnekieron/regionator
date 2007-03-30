@@ -31,7 +31,7 @@ def CDATA(cdata):
   return '<![CDATA[%s]]>' % cdata
 
 
-def CreatePlacemark(id, lon, lat, name, description):
+def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
   placemark = kml.genxml.Placemark()
   placemark.name = CDATA(name)
   placemark.id = id
@@ -41,6 +41,8 @@ def CreatePlacemark(id, lon, lat, name, description):
   coordinates.AddPoint2(lon, lat)
   point.coordinates = coordinates.Coordinates()
   placemark.Geometry = point.xml()
+  if styleUrl:
+    placemark.styleUrl = styleUrl
   return placemark.xml()
 
 
@@ -58,8 +60,11 @@ def CreateFeatureSet(csvfile, codec):
     lon = float(tuple[2])
     name = tuple[3].decode(codec)
     description = tuple[4].decode(codec)
+    styleurl = None
+    if len(tuple) == 6: # styleUrl is optional
+      styleurl = tuple[5].decode(codec)
     id = 'pm%d' % count
-    placemark_kml = CreatePlacemark(id, lon, lat, name, description)
+    placemark_kml = CreatePlacemark(id, lon, lat, name, description, styleurl)
     feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark_kml)
     count += 1
   feature_set.Sort()  # Sort based on score.
