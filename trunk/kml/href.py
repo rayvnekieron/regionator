@@ -32,6 +32,7 @@ import urllib2
 import os.path
 import copy
 import tempfile
+import socket
 
 class Href:
 
@@ -183,6 +184,13 @@ def IsRelative(url):
   if not path:
     return False
   return href.GetScheme() == None and path[0] != '/'
+
+def IsHostname(hostname):
+  try:
+    ipaddr = socket.gethostbyname(hostname)
+    return True
+  except:
+    return False
 
 
 def ComputeChildUrl(parent_href, child_href):
