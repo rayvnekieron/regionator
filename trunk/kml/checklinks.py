@@ -53,6 +53,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__html_link_count = 0
     self.__relative_link_count = 0
     self.__absolute_link_count = 0
+    self.__hostname_only_link_count = 0
     self.__empty_link_count = 0
     self.__error_count = 0
 
@@ -65,6 +66,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
             self.__html_link_count,
             self.__relative_link_count,
             self.__absolute_link_count,
+            self.__hostname_only_link_count,
             self.__empty_link_count,
             self.__error_count)
 
@@ -78,6 +80,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self._Print('X  ','%d relative links' % self.__relative_link_count)
     if self.__check_absolute:
       self._Print('X  ','%d absolute links' % self.__absolute_link_count)
+    self._Print('X  ','%d hostname links' % self.__hostname_only_link_count)
     self._Print('X  ','%d empty links' % self.__empty_link_count)
     self._Print('X  ','%d errors' % self.__error_count)
 
@@ -91,9 +94,18 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
   def _Fetch(self, parent, child):
     # Handle empty href and count this separately from errors.
     if not child:
-      self._Print('ERR','[empty]',parent)
+      self._Print('EMP','[empty]',parent)
       self.__empty_link_count += 1
       return
+
+    # href's are often just a hostname (www.foo.com).  This converts
+    # these to an absolute URL.  We still print the original href contents.
+    prchild = child
+    if kml.href.IsHostname(child):
+      # Make child an absolute URL to pass the next test more nicely
+      child = 'http://' + child
+      self._Print('HST',prchild,child)
+      self.__hostname_only_link_count += 1
 
     # Count and fetch only if asked to.
     if kml.href.IsRelative(child):
@@ -105,9 +117,8 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
         return
       self.__absolute_link_count += 1
 
-    # Be verbose only if asked and only about links we're asked to check.
-    if self.__verbose:
-      self._Print('C  ',child)
+    # Print only if asked to count this type of link.
+    self._Print('C  ',prchild)
 
     # Compute the absolute URL and try to fetch it.
     url = kml.href.ComputeChildUrl(parent, child)

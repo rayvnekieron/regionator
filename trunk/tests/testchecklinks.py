@@ -71,12 +71,13 @@ class BasicTestCase(unittest.TestCase):
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk(os.path.join(self.dir, '1.kml'))
-    (nodes, kmls, htmls, rel, abs, empty, errs) = link_checker.Statistics()
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = link_checker.Statistics()
     assert 50 == nodes
     assert 49 == kmls
     assert 0 == htmls
     assert 49 == rel
     assert 0 == abs
+    assert 0 == hn
     assert 0 == empty
     assert 0 == errs
 
@@ -86,7 +87,7 @@ class BasicHtmlTestCase(unittest.TestCase):
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk('html.kml')
-    (nodes, kmls, htmls, rel, abs, empty, errs) = link_checker.Statistics()
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = link_checker.Statistics()
     # The file html.kml is the one and only KML in the hierarchy:
     assert 1 == nodes
     # There is one href in KML (IconStyle/Icon/href):
@@ -97,6 +98,8 @@ class BasicHtmlTestCase(unittest.TestCase):
     assert 3 == rel
     # Checking of absolute links not requested:
     assert 0 == abs
+    # No hostname-only hrefs:
+    assert 0 == hn
     # One href is empty:
     assert 1 == empty
     # Three errors due to non-existent files:
@@ -110,27 +113,29 @@ class BadEncodingTestCase(unittest.TestCase):
 
   def testCorrectEncoding(self):
     self.hier.Walk('es-latin1.kml')
-    (nodes, kmls, htmls, rel, abs, empty, errs) = self.link_checker.Statistics()
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = self.link_checker.Statistics()
     assert 1 == nodes
     assert 1 == kmls
     assert 8 == htmls
-    # This thinks "www.google.fr" is a relative link:
-    assert 4 == rel
+    assert 3 == rel
     # Not checking absolute links (no '-a' specified):
     assert 0 == abs
+    # "www.google.fr":
+    assert 1 == hn
     assert 0 == empty
     # None of the relative links exist here:
-    assert 4 == errs
+    assert 3 == errs
 
   def testWrongEncoding(self):
     self.hier.Walk('es-utf1.kml')
-    (nodes, kmls, htmls, rel, abs, empty, errs) = self.link_checker.Statistics()
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = self.link_checker.Statistics()
     # xml.dom.minidom will fail to parse, hence no nodes, no nothin':
     assert 0 == nodes
     assert 0 == kmls
     assert 0 == htmls
     assert 0 == rel
     assert 0 == abs
+    assert 0 == hn
     assert 0 == empty
     assert 0 == errs
  
