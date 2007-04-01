@@ -129,6 +129,11 @@ class IsRelativeTestCase(unittest.TestCase):
     assert not kml.href.IsRelative('http://host.com/path')
     assert not kml.href.IsRelative('')
 
+class IsHostnameTestCase(unittest.TestCase):
+  def runTest(self):
+    assert kml.href.IsHostname('www.google.com')
+    assert not kml.href.IsHostname('not a hostname')
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleTestCase())
@@ -143,6 +148,7 @@ def suite():
   suite.addTest(BasicComputeChildUrlTestCase())
   suite.addTest(BasicSplitKmzPath())
   suite.addTest(IsRelativeTestCase())
+  suite.addTest(IsHostnameTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
