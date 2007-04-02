@@ -133,6 +133,11 @@ class IsHostnameTestCase(unittest.TestCase):
   def runTest(self):
     assert kml.href.IsHostname('www.google.com')
     assert not kml.href.IsHostname('not a hostname')
+    # No spaces, but the tld is too long
+    assert not kml.href.IsHostname('not.hostname')
+    # Note: 'might.a.hostname.be' IS a real host!
+    # assert not kml.href.IsHostname('might.a.hostname.be')
+    assert not kml.href.IsHostname('might.be.info')
 
 def suite():
   suite = unittest.TestSuite()
