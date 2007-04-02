@@ -186,6 +186,14 @@ def IsRelative(url):
   return href.GetScheme() == None and path[0] != '/'
 
 def IsHostname(hostname):
+  # Anything with a space is not a hostname
+  if hostname.find(' ') != -1:
+    return False
+  # Anything with no dot near the end is not a hostname
+  dot = hostname.rfind('.')
+  if len(hostname) - dot > 4:
+    return False
+  # Any blah.tld that has an ipaddr is definitely a hostname
   try:
     ipaddr = socket.gethostbyname(hostname)
     return True
