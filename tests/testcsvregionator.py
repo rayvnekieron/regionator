@@ -61,9 +61,44 @@ class BasicCsvRegionatorTestCase(unittest.TestCase):
     os.rmdir(odir)
 
 
+class StyledCsvRegionatorTestCase(unittest.TestCase):
+  def runTest(self):
+    csvfile = 'mixed-styles.csv'
+    codec = 'UTF-8'
+    min_lod_pixels = 256
+    max_per = 8
+    root = None # Don't make a root.kml
+    odir = tempfile.mkdtemp()
+    verbose = False
+    global_styleUrls = [None, '#globalStyle']
+    for i in range(2):
+      odir = tempfile.mkdtemp()
+      rtor = kml.csvregionator.RegionateCSV(csvfile,
+                                            codec,
+                                            min_lod_pixels,
+                                            max_per,
+                                            root,
+                                            odir,
+                                            verbose,
+                                            global_styleUrls[i])
+      kml1 = os.path.join(odir, '1.kml')
+      assert os.access(kml1, os.R_OK)
+      kml1_data = open(kml1, 'r').read()
+      assert kml1_data.count('#tomStyle') == 1
+      assert kml1_data.count('#harryStyle') == 1
+      if i == 0: # No global style
+        assert kml1_data.count('#globalStyle') == 0
+      else: # Second placemark should have global styleUrl
+        assert kml1_data.count('#globalStyle') == 1
+      for file in os.listdir(odir):
+        os.unlink(os.path.join(odir, file))
+      os.rmdir(odir)
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicCsvRegionatorTestCase())
+  suite.addTest(StyledCsvRegionatorTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
