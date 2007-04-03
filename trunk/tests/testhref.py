@@ -139,6 +139,10 @@ class IsHostnameTestCase(unittest.TestCase):
     # assert not kml.href.IsHostname('might.a.hostname.be')
     assert not kml.href.IsHostname('might.be.info')
 
+class UserAgentTestCase(unittest.TestCase):
+  def runTest(self):
+    assert kml.href.FetchUrl('http://de.wikipedia.org/wiki/Stadtsparkasse_Wuppertal#Standort_und_st.C3.A4dtebauliche_Geschichte')
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleTestCase())
@@ -154,6 +158,7 @@ def suite():
   suite.addTest(BasicSplitKmzPath())
   suite.addTest(IsRelativeTestCase())
   suite.addTest(IsHostnameTestCase())
+  suite.addTest(UserAgentTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

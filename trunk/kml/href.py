@@ -116,8 +116,14 @@ class Href:
 
 def FetchUrl(url):
   if IsHttp(url):
+    txdata = None
+    txheaders = {   
+      'User-Agent': 'regionator',
+      'Accept': '*/*',
+    }
+    req = urllib2.Request(url, txdata, txheaders)
     try:
-      f = urllib2.urlopen(url)
+      f = urllib2.urlopen(req)
     except:
       return None
   else:
