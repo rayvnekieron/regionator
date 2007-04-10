@@ -21,6 +21,7 @@ $Date$
 """
 
 import getopt
+import md5
 import sys
 import kml.walk
 import kml.href
@@ -34,8 +35,9 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__check_absolute = False
     self.__check_relative = False
     self.__verbose = False
+    self.__md5 = None
 
-    opts, args = getopt.getopt(opts, "khrav")
+    opts, args = getopt.getopt(opts, "khravs")
     for o,a in opts:
       if o == '-k':
         self.__check_kml = True
@@ -47,6 +49,8 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
         self.__check_absolute = True
       elif o == '-v':
         self.__verbose = True
+      elif o == '-s':
+        self.__md5 = md5.md5()
 
     self.__node_count = 0
     self.__kml_link_count = 0
@@ -68,7 +72,13 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
             self.__absolute_link_count,
             self.__hostname_only_link_count,
             self.__empty_link_count,
-            self.__error_count)
+            self.__error_count,
+            self.Checksum())
+
+  def Checksum(self):
+    if self.__md5:
+      return self.__md5.hexdigest()
+    return None
 
   def PrintSummary(self):
     self._Print('X  ', '%d nodes' % self.__node_count)
@@ -83,6 +93,9 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self._Print('X  ','%d hostname links' % self.__hostname_only_link_count)
     self._Print('X  ','%d empty links' % self.__empty_link_count)
     self._Print('X  ','%d errors' % self.__error_count)
+    sum = self.Checksum()
+    if sum:
+      self._Print('X  ','%s checksum' % sum)
 
   def _Print(self, code, data, *more):
     if self.__verbose:
@@ -126,6 +139,8 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     data = kml.href.FetchUrl(url)
     if data:
       self._Print('D  ',len(data))
+      if self.__md5:
+        self.__md5.update(data)
     else:
       self._Print('ERR',child,parent)
       self.__error_count += 1
