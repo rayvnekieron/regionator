@@ -65,13 +65,15 @@ class BasicTestCase(unittest.TestCase):
     status = kml.checklinks.CheckLinks(['-k','-r'], kml1)
     assert 0 == status
 
-  def testLinkCheckerOnRelativeKml(self):
-    # Set up LinkCheckingNodeHandler directly to dig out its various fields
-    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-k','-r'])
+  def CheckLinks(self):
+    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-k','-r', '-s'])
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk(os.path.join(self.dir, '1.kml'))
-    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = link_checker.Statistics()
+    return link_checker.Statistics()
+
+  def testLinkCheckerOnRelativeKml(self):
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs, md5) = self.CheckLinks()
     assert 50 == nodes
     assert 49 == kmls
     assert 0 == htmls
@@ -80,14 +82,27 @@ class BasicTestCase(unittest.TestCase):
     assert 0 == hn
     assert 0 == empty
     assert 0 == errs
+    assert '593c29ef1fe46b36e48136ee029d8ba8' == md5
+
+  def testLinkCheckerOnDamagedKml(self):
+    before = self.CheckLinks()
+    os.unlink(os.path.join(self.dir, '6.kml'))
+    after = self.CheckLinks()
+    # 6.kml was a leaf node, so the after check finds one less node
+    assert 50 ==  before[0]
+    assert 49 == after[0]
+    # checksum is different
+    assert '593c29ef1fe46b36e48136ee029d8ba8' == before[8]
+    assert '1ba6753a610998d41fb9bdeab64289e6' == after[8]
 
 class BasicHtmlTestCase(unittest.TestCase):
   def runTest(self):
-    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k'])
+    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k','-s'])
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk('html.kml')
-    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = link_checker.Statistics()
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs, md5) = \
+                                                      link_checker.Statistics()
     # The file html.kml is the one and only KML in the hierarchy:
     assert 1 == nodes
     # There is one href in KML (IconStyle/Icon/href):
@@ -104,6 +119,7 @@ class BasicHtmlTestCase(unittest.TestCase):
     assert 1 == empty
     # Three errors due to non-existent files:
     assert 3 == errs
+    assert 'd41d8cd98f00b204e9800998ecf8427e' == md5
 
 class BadEncodingTestCase(unittest.TestCase):
   def setUp(self):
@@ -113,7 +129,8 @@ class BadEncodingTestCase(unittest.TestCase):
 
   def testCorrectEncoding(self):
     self.hier.Walk('es-latin1.kml')
-    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = self.link_checker.Statistics()
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs, md5) = \
+                                                 self.link_checker.Statistics()
     assert 1 == nodes
     assert 1 == kmls
     assert 8 == htmls
@@ -125,10 +142,12 @@ class BadEncodingTestCase(unittest.TestCase):
     assert 0 == empty
     # None of the relative links exist here:
     assert 3 == errs
+    assert None == md5
 
   def testWrongEncoding(self):
     self.hier.Walk('es-utf1.kml')
-    (nodes, kmls, htmls, rel, abs, hn, empty, errs) = self.link_checker.Statistics()
+    (nodes, kmls, htmls, rel, abs, hn, empty, errs, md5) = \
+                                                 self.link_checker.Statistics()
     # xml.dom.minidom will fail to parse, hence no nodes, no nothin':
     assert 0 == nodes
     assert 0 == kmls
@@ -138,6 +157,7 @@ class BadEncodingTestCase(unittest.TestCase):
     assert 0 == hn
     assert 0 == empty
     assert 0 == errs
+    assert None == md5
  
 
 def suite():
@@ -145,6 +165,7 @@ def suite():
   suite.addTest(NullTestCase())
   suite.addTest(BasicTestCase("testCheckLinksOnRelativeKml"))
   suite.addTest(BasicTestCase("testLinkCheckerOnRelativeKml"))
+  suite.addTest(BasicTestCase("testLinkCheckerOnDamagedKml"))
   suite.addTest(BasicHtmlTestCase())
   suite.addTest(BadEncodingTestCase("testWrongEncoding"))
   suite.addTest(BadEncodingTestCase("testCorrectEncoding"))
