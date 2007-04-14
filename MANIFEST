@@ -40,6 +40,7 @@ kml/model.py
 kml/resourcemap.py
 kml/modelator.py
 kml/checklinks.py
+kml/gatherlinks.py
 kml/checkimages.py
 scripts/cgiregionator.py
 scripts/placemarks.py
@@ -115,6 +116,7 @@ tests/testwalk.py
 tests/foop.kml
 tests/walkme.kml
 tests/testchecklinks.py
+tests/testgatherlinks.py
 tests/html.kml
 tests/es-latin1.kml
 tests/es-utf8.kml
