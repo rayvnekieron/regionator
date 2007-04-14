@@ -36,7 +36,7 @@ class LinkGatheringNodeHandler(kml.walk.KMLNodeHandler):
     self.__gather_relative = False
     self.__gather_absolute = False
 
-    opts, args = getopt.getopt(opts, "khrv")
+    opts, args = getopt.getopt(opts, "khra")
     for o,a in opts:
       if o == '-k':
         self.__gather_kml = True
@@ -106,6 +106,7 @@ def GatherLinks(opts, kmlurl):
   link_gathering_node_handler = LinkGatheringNodeHandler(opts)
   hier = kml.walk.KMLHierarchy()
   hier.SetNodeHandler(link_gathering_node_handler)
-  hier.Walk(kmlurl)
+  if not hier.Walk(kmlurl):
+    return None
   return link_gathering_node_handler.Links()
 
