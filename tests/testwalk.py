@@ -29,28 +29,59 @@ import xml.dom.minidom
 import kml.walk
 import kml.genxml
 
+class NodeCounter(kml.walk.KMLNodeHandler):
+  def __init__(self):
+    self.__count = 0
+  def GetCount(self):
+    return self.__count
+  def HandleNode(self, href, node, llab, lod):
+    self.__count += 1
 
 class SimpleWalkTestCase(unittest.TestCase):
   def runTest(self):
-    class MyNodeHandler(kml.walk.KMLNodeHandler):
-      def __init__(self):
-        self.__count = 0
-      def GetCount(self):
-        return self.__count
-      def HandleNode(self, href, node, llab, lod):
-        self.__count += 1
     
-    my_node_handler = MyNodeHandler()
+    node_counter = NodeCounter()
     hierarchy = kml.walk.KMLHierarchy()
-    hierarchy.SetNodeHandler(my_node_handler)
+    hierarchy.SetNodeHandler(node_counter)
     # generated in testpm.py from placemarks.kml
     hierarchy.Walk('pmroot.kml')
-    assert my_node_handler.GetCount() == 33,'simple walk failed'
+    assert node_counter.GetCount() == 33,'simple walk failed'
+
+class NoNodeHandlerTestCase(unittest.TestCase):
+  def runTest(self):
+    walker = kml.walk.KMLHierarchy()
+    # foo.kml exists and parses, but no KMLNodeHandler was set:
+    assert False == walker.Walk('foo.kml')
+
+class NonExistentUrlTestCase(unittest.TestCase):
+  def runTest(self):
+    walker = kml.walk.KMLHierarchy()
+    assert False == walker.Walk('this-does-not-exist')
+
+class BasicWalkTestCase(unittest.TestCase):
+  def setUp(self):
+    self.node_counter = NodeCounter()
+    self.walker = kml.walk.KMLHierarchy()
+    self.walker.SetNodeHandler(self.node_counter)
+  def testNoChildren(self):
+    # foo.kml exists and parses, but has no NetworkLinks:
+    assert True == self.walker.Walk('foo.kml')
+  def testOneChild(self):
+    # foop.kml exists and parses, and has one NetworkLink
+    assert True == self.walker.Walk('foop.kml')
+  def testMissingChild(self):
+    # walkme.kml exists and parses, and has one missing child NetworkLink
+    assert False == self.walker.Walk('walkme.kml')
 
 
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleWalkTestCase())
+  suite.addTest(NoNodeHandlerTestCase())
+  suite.addTest(NonExistentUrlTestCase())
+  suite.addTest(BasicWalkTestCase("testNoChildren"))
+  suite.addTest(BasicWalkTestCase("testOneChild"))
+  suite.addTest(BasicWalkTestCase("testMissingChild"))
   return suite
 
 runner = unittest.TextTestRunner()
