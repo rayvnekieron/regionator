@@ -102,6 +102,7 @@ def RegionateKML(inputkml, min_lod_pixels, max_per, rootkml, dir, verbose):
   region = kml.region.RootSnap(n,s,e,w)
   rtor.Regionate(region)
 
-  kml.regionator.MakeRootKML(rootkml, region, min_lod_pixels, dir)
+  if rootkml:
+    kml.regionator.MakeRootKML(rootkml, region, min_lod_pixels, dir)
 
   return rtor
