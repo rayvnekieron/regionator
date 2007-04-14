@@ -158,6 +158,11 @@ class BadEncodingTestCase(unittest.TestCase):
     assert 0 == empty
     assert 0 == errs
     assert None == md5
+
+class NonExistentRootTestCase(unittest.TestCase):
+  def runTest(self):
+    status = kml.checklinks.CheckLinks('','this-file-does-not-exist')
+    assert -1 == status
  
 
 def suite():
@@ -169,6 +174,7 @@ def suite():
   suite.addTest(BasicHtmlTestCase())
   suite.addTest(BadEncodingTestCase("testWrongEncoding"))
   suite.addTest(BadEncodingTestCase("testCorrectEncoding"))
+  suite.addTest(NonExistentRootTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
