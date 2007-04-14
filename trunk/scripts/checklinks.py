@@ -19,4 +19,7 @@ inputkml = sys.argv[len(sys.argv)-1]
 
 status = kml.checklinks.CheckLinks(sys.argv[1:], inputkml)
 
+if status == -1:
+  print '%s: not found or failed parse' % inputkml
+
 sys.exit(status)

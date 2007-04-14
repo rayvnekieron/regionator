@@ -181,7 +181,8 @@ def CheckLinks(opts, kmlurl):
   link_checking_node_handler = LinkCheckingNodeHandler(opts)
   hier = kml.walk.KMLHierarchy()
   hier.SetNodeHandler(link_checking_node_handler)
-  hier.Walk(kmlurl)
+  if not hier.Walk(kmlurl):
+    return -1 # kmlurl non-existent or failed parse
   link_checking_node_handler.PrintSummary()
   return link_checking_node_handler.Status()
 
