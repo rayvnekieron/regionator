@@ -112,6 +112,8 @@ tests/London_house.kmz
 tests/testimage.py
 tests/testcoordinates.py
 tests/testwalk.py
+tests/foop.kml
+tests/walkme.kml
 tests/testchecklinks.py
 tests/html.kml
 tests/es-latin1.kml
