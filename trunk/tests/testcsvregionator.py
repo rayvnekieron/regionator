@@ -71,7 +71,7 @@ class StyledCsvRegionatorTestCase(unittest.TestCase):
     odir = tempfile.mkdtemp()
     verbose = False
     global_styleUrls = [None, '#globalStyle']
-    for i in range(2):
+    for i in range(2): # Test creation w/ and w/o cmd line global styleUrls
       odir = tempfile.mkdtemp()
       rtor = kml.csvregionator.RegionateCSV(csvfile,
                                             codec,
@@ -84,12 +84,12 @@ class StyledCsvRegionatorTestCase(unittest.TestCase):
       kml1 = os.path.join(odir, '1.kml')
       assert os.access(kml1, os.R_OK)
       kml1_data = open(kml1, 'r').read()
-      assert kml1_data.count('#tomStyle') == 1
-      assert kml1_data.count('#harryStyle') == 1
+      assert 1 == kml1_data.count('#tomStyle')
+      assert 1 == kml1_data.count('#harryStyle')
       if i == 0: # No global style
-        assert kml1_data.count('#globalStyle') == 0
+        assert 0 == kml1_data.count('#globalStyle')
       else: # Second placemark should have global styleUrl
-        assert kml1_data.count('#globalStyle') == 1
+        assert  1 == kml1_data.count('#globalStyle')
       for file in os.listdir(odir):
         os.unlink(os.path.join(odir, file))
       os.rmdir(odir)
