@@ -73,6 +73,41 @@ class BasicWalkTestCase(unittest.TestCase):
     # walkme.kml exists and parses, and has one missing child NetworkLink
     assert False == self.walker.Walk('walkme.kml')
 
+class GetHtmlLinksTestCase(unittest.TestCase):
+  def setUp(self):
+    self.html_text = 'text<a href="foo.html">hi</a><img src="goo.jpg"/>more'
+  def testGetHref(self):
+    link_list = []
+    kml.walk.GetLinksOfAttr(self.html_text, 'href', link_list)
+    assert 1 == len(link_list)
+    assert 'foo.html' == link_list[0]
+  def testGetSrc(self):
+    link_list = []
+    kml.walk.GetLinksOfAttr(self.html_text, 'src', link_list)
+    assert 1 == len(link_list)
+    assert 'goo.jpg' == link_list[0]
+  def testGetHrefAndSrc(self):
+    link_list = []
+    kml.walk.GetLinksOfAttr(self.html_text, 'href', link_list)
+    kml.walk.GetLinksOfAttr(self.html_text, 'src', link_list)
+    assert 2 == len(link_list)
+    assert 'foo.html' == link_list[0]
+    assert 'goo.jpg' == link_list[1]
+  def testGetLinksInHtml(self):
+    link_list = []
+    kml.walk.GetLinksInHtml(self.html_text, link_list)
+    assert 2 == len(link_list)
+    assert 'foo.html' == link_list[0]
+    assert 'goo.jpg' == link_list[1]
+
+class GetLinksInKmlNodeTestCase(unittest.TestCase):
+  def runTest(self):
+    node = xml.dom.minidom.parse('es-latin1.kml')
+    link_list = kml.walk.GetHtmlLinksInNode(node)
+    assert 8 == len(link_list)
+    assert 'http://sketchup.google.com/3dwarehouse?hl=es' == link_list[0]
+    assert './../3dwh-logo_es.gif' == link_list[6]
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -82,6 +117,11 @@ def suite():
   suite.addTest(BasicWalkTestCase("testNoChildren"))
   suite.addTest(BasicWalkTestCase("testOneChild"))
   suite.addTest(BasicWalkTestCase("testMissingChild"))
+  suite.addTest(GetHtmlLinksTestCase("testGetHref"))
+  suite.addTest(GetHtmlLinksTestCase("testGetSrc"))
+  suite.addTest(GetHtmlLinksTestCase("testGetHrefAndSrc"))
+  suite.addTest(GetHtmlLinksTestCase("testGetLinksInHtml"))
+  suite.addTest(GetLinksInKmlNodeTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
