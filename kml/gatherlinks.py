@@ -76,19 +76,9 @@ class LinkGatheringNodeHandler(kml.walk.KMLNodeHandler):
       self.__links[url] = 1
 
   def _GatherHtmlLinks(self, parent, node):
-    description_nodelist = node.getElementsByTagName('description')
-    for description_node in description_nodelist:
-      cdata = kml.kmlparse.GetCDATA(description_node)
-      # The HTML typically found here is not well structured enough to dom parse
-      # so we dig through the CDATA as a raw string.
-      href_list = cdata.split('href="') # as in <a href="http://foo.com/hi">
-      for n in href_list[1:]: # [0] is the stuff before the first 'href'
-        end_quote = n.find('"')
-        self._SaveLink(parent, n[0:end_quote])
-      src_list = cdata.split('src="') # as in <img src="foo.jpg">
-      for n in src_list[1:]: # [0] is the stuff before the first 'src'
-        end_quote = n.find('"')
-        self._SaveLink(parent, n[0:end_quote])
+    links = kml.walk.GetHtmlLinksInNode(node)
+    for link in links:
+      self._SaveLink(parent, link)
 
   # kml.walk.KMLNodeHandler:HandleNode()
   def HandleNode(self, href, node, llab, lod):
@@ -110,3 +100,15 @@ def GatherLinks(opts, kmlurl):
     return None
   return link_gathering_node_handler.Links()
 
+
+def PrintLinks(link_map):
+  """Print all links in the dictionary
+  Args:
+    links: a map of link names to reference count
+  """
+  link_list = []
+  for link in link_map.keys():
+    link_list.append(link)
+  link_list.sort()
+  for link in link_list:
+    print link,link_map[link]
