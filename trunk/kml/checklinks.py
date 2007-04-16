@@ -50,7 +50,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       elif o == '-v':
         self.__verbose = True
       elif o == '-s':
-        self.__md5 = md5.md5()
+        self.__md5 = md5.new('')
 
     self.__node_count = 0
     self.__kml_link_count = 0
@@ -146,21 +146,10 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self.__error_count += 1
 
   def _CheckHtml(self, parent, node):
-    description_nodelist = node.getElementsByTagName('description')
-    for description_node in description_nodelist:
-      cdata = kml.kmlparse.GetCDATA(description_node)
-      # The HTML typically found here is not well structured enough to dom parse
-      # so we dig through the CDATA as a raw string.
-      href_list = cdata.split('href="') # as in <a href="http://foo.com/hi">
-      for n in href_list[1:]: # [0] is the stuff before the first 'href'
-        self.__html_link_count += 1
-        end_quote = n.find('"')
-        self._Fetch(parent, n[0:end_quote])
-      src_list = cdata.split('src="') # as in <img src="foo.jpg">
-      for n in src_list[1:]: # [0] is the stuff before the first 'src'
-        self.__html_link_count += 1
-        end_quote = n.find('"')
-        self._Fetch(parent, n[0:end_quote])
+    links = kml.walk.GetHtmlLinksInNode(node)
+    self.__html_link_count += len(links)
+    for link in links:
+      self._Fetch(parent, link)
 
   # kml.walk.KMLNodeHandler:HandleNode()
   def HandleNode(self, href, node, llab, lod):
