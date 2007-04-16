@@ -132,3 +132,34 @@ class KMLHierarchy:
 
     return my_status
 
+
+def GetLinksOfAttr(html_text, attr, link_list):
+  # as in <TAG ATTR="http://foo.com/hi">
+  attr_list = html_text.split('%s="' % attr)
+  for n in attr_list[1:]: # [0] is the stuff before the first 'href'
+    end_quote = n.find('"')
+    link_list.append(n[0:end_quote])
+
+
+def GetLinksInHtml(html_text, link_list):
+  """Return a list of all links in the HTML
+  Looks for <a href="..."> and <img src="...">
+  Args:
+    html_text: HTML text
+  Returns:
+    list: list of links
+  """
+  GetLinksOfAttr(html_text, 'href', link_list)
+  GetLinksOfAttr(html_text, 'src', link_list)
+
+
+def GetHtmlLinksInNode(kml_node):
+  link_list = []
+  description_nodelist = kml_node.getElementsByTagName('description')
+  for description_node in description_nodelist:
+    cdata = kml.kmlparse.GetCDATA(description_node)
+    kml.walk.GetLinksInHtml(cdata, link_list)
+  return link_list
+  
+
+
