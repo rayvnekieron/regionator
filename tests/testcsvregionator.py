@@ -1,5 +1,6 @@
 #!/usr/bin/python
-
+# coding=UTF-8
+#  See http://www.python.org/dev/peps/pep-0263/
 """
 Copyright (C) 2007 Google Inc.
 
@@ -95,12 +96,55 @@ class StyledCsvRegionatorTestCase(unittest.TestCase):
       os.rmdir(odir)
 
 
+class CodecCsvRegionatorTestCase(unittest.TestCase):
+  # Codecs aren't being tested anywhere else? Put a test here to make sure it's
+  # doing the right thing.
+  def runTest(self):
+    csvfile = 'utf8.csv'
+    codecs = ('utf-8', 'latin_1')
+    min_lod_pixels = 256
+    max_per = 8
+    root = None # Don't make a root.kml
+    verbose = False
+    global_styleUrl = None
+    for codec in codecs:
+      odir = tempfile.mkdtemp()
+      rtor = kml.csvregionator.RegionateCSV(csvfile,
+                                            codec,
+                                            min_lod_pixels,
+                                            max_per,
+                                            root,
+                                            odir,
+                                            verbose,
+                                            global_styleUrl)
+
+      kml1 = os.path.join(odir, '1.kml')
+      assert os.access(kml1, os.R_OK)
+
+      kmldata = open(kml1, 'r').read()
+      assert 0 < len(kmldata)
+      utf8_name_str = '<name><![CDATA[ὕαλον ϕαγεῖν]]></name>'
+
+      print '----- for %s find is %s' %(codec, kmldata.find(utf8_name_str))
+      if codec == 'utf-8':
+        assert -1 != kmldata.find(utf8_name_str)
+      elif codec == 'latin_1':
+        assert -1 == kmldata.find(utf8_name_str)
+    
+      region_handler = kml.checkregions.CheckRegions('', kml1)
+      assert 0 == region_handler.Status()
+
+      for file in os.listdir(odir):
+        os.unlink(os.path.join(odir, file))
+      os.rmdir(odir)
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicCsvRegionatorTestCase())
   suite.addTest(StyledCsvRegionatorTestCase())
+  suite.addTest(CodecCsvRegionatorTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
 runner.run(suite())
-
