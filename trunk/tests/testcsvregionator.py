@@ -125,7 +125,6 @@ class CodecCsvRegionatorTestCase(unittest.TestCase):
       assert 0 < len(kmldata)
       utf8_name_str = '<name><![CDATA[ὕαλον ϕαγεῖν]]></name>'
 
-      print '----- for %s find is %s' %(codec, kmldata.find(utf8_name_str))
       if codec == 'utf-8':
         assert -1 != kmldata.find(utf8_name_str)
       elif codec == 'latin_1':
