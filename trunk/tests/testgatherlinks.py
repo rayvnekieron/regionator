@@ -84,8 +84,6 @@ class BasicAbsoluteTestCase(unittest.TestCase):
 
 class NonExistentRootTestCase(unittest.TestCase):
   def runTest(self):
-    status = kml.gatherlinks.GatherLinks('','no-such-file-or-url')
-    print status
     assert None == kml.gatherlinks.GatherLinks('','no-such-file-or-url')
 
 def suite(): 
