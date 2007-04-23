@@ -78,3 +78,4 @@
 ./testcheckregions.py
 ./testcsvregionator.py
 ./testsuperoverlay.py
+./testicons.py
