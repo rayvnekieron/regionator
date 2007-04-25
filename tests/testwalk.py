@@ -43,8 +43,8 @@ class SimpleWalkTestCase(unittest.TestCase):
     node_counter = NodeCounter()
     hierarchy = kml.walk.KMLHierarchy()
     hierarchy.SetNodeHandler(node_counter)
-    # generated in testpm.py from placemarks.kml
-    hierarchy.Walk('pmroot.kml')
+    # generated in testpm2.py from placemarks.kml
+    assert True == hierarchy.Walk('pm2root.kml')
     assert node_counter.GetCount() == 33,'simple walk failed'
 
 class NoNodeHandlerTestCase(unittest.TestCase):
