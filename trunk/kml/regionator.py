@@ -313,8 +313,16 @@ class Regionator:
   def LodPixels(self,region):
     return self._region_handler.PixelLod(region)
 
+  def RootHref(self):
+    root_file = self._RegionFilename(self.__rootregion)
+    return '%s/%s' % (self.__dir, root_file)
+
 
 def MakeRootKML(rootkml,region,lod,dir):
+  """ Deprecated API.  Use MakeRootForHref() """
+  return MakeRootForHref(rootkml,region,lod,'%s/1.kml'%dir)
+
+def MakeRootForHref(rootkml,region,lod,root_href):
 
   """Make a NetworkLink KML file to the root
 
@@ -325,11 +333,11 @@ def MakeRootKML(rootkml,region,lod,dir):
     rootkml - name of file to create
     region - region of root of hierarchy
     lod - minLodPixels
-    dir - hierarchy directory
+    root_href - href to first file in hierarchy
   """
 
   link = kml.genxml.Link()
-  link.href = '%s/1.kml' % dir
+  link.href = root_href
   link.viewRefreshMode = 'onRegion'
 
   (n,s,e,w) = region.NSEWstring()
