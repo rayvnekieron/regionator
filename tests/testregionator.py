@@ -144,12 +144,49 @@ class KmzRegionatorTestCase(unittest.TestCase):
     os.rmdir(testdir)
 
 
+class MakeRootTestCase(unittest.TestCase):
+  def setUp(self):
+    self.l2rtor = kml.regionator.Regionator()
+    self.l2rtor.SetRegionHandler(SimpleRegionHandler())
+    self.region = kml.region.Region(30,10,40,20,'0')
+    self.base_dir = tempfile.mkdtemp()
+    self.rtor_output_dir = os.path.join(self.base_dir, 'hier')
+    os.makedirs(self.rtor_output_dir)
+    self.l2rtor.SetOutputDir(self.rtor_output_dir)
+    self.root_kml = os.path.join(self.base_dir, 'root.kml')
+    self.l2rtor.SetVerbose(False)
+
+  def tearDown(self):
+    for file in os.listdir(self.rtor_output_dir):
+      os.unlink(os.path.join(self.rtor_output_dir, file))
+    os.rmdir(self.rtor_output_dir)
+    os.unlink(self.root_kml)
+    os.rmdir(self.base_dir)
+
+  def testMakeKml(self):
+    self.l2rtor.Regionate(self.region)
+    root_href = self.l2rtor.RootHref()
+    assert os.path.join(self.rtor_output_dir,'1.kml') == root_href
+    root_region = self.l2rtor.RootRegion()
+    kml.regionator.MakeRootKML(self.root_kml, root_region, 128, root_href)
+
+  def testMakeKmz(self):
+    self.l2rtor.SetSaveAsKmz(True)
+    self.l2rtor.Regionate(self.region)
+    root_href = self.l2rtor.RootHref()
+    assert os.path.join(self.rtor_output_dir,'1.kmz') == root_href
+    root_region = self.l2rtor.RootRegion()
+    kml.regionator.MakeRootKML(self.root_kml, root_region, 128, root_href)
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(NullRegionatorTestCase())
   suite.addTest(SimpleRegionatorTestCase())
   suite.addTest(SmallRegionatorTestCase())
   suite.addTest(KmzRegionatorTestCase())
+  suite.addTest(MakeRootTestCase("testMakeKml"))
+  suite.addTest(MakeRootTestCase("testMakeKmz"))
   return suite
 
 
