@@ -101,8 +101,9 @@ def RegionateKML(inputkml, min_lod_pixels, max_per, rootkml, dir, verbose):
   rtor.SetVerbose(verbose)
   region = kml.region.RootSnap(n,s,e,w)
   rtor.Regionate(region)
+  root_href = rtor.RootHref()
 
   if rootkml:
-    kml.regionator.MakeRootKML(rootkml, region, min_lod_pixels, dir)
+    kml.regionator.MakeRootForHref(rootkml, region, min_lod_pixels, root_href)
 
   return rtor
