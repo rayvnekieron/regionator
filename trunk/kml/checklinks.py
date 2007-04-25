@@ -111,6 +111,9 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self.__empty_link_count += 1
       return
 
+    if kml.href.IsRoot(child):
+      return # Don't fetch root:// icons
+
     # href's are often just a hostname (www.foo.com).  This converts
     # these to an absolute URL.  We still print the original href contents.
     prchild = child
