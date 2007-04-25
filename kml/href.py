@@ -33,6 +33,7 @@ import os.path
 import copy
 import tempfile
 import socket
+import kml.kmz
 
 class Href:
 
@@ -100,21 +101,52 @@ class Href:
     arg = []
     arg.append(self.__scheme)
     arg.append(self.__netloc)
-    """
-    # This is URL so raw '/' is okay
-    if self.__dirname and self.__dirname != '/':
-      path = self.__dirname + '/' + self.__basename
-    else:
-      path = self.__basename
-    arg.append(os.path.normpath(path))
-    """
     arg.append(os.path.normpath(self.Path()))
     arg.append(self.Query())
     arg.append(self.__fragment)
     return urlparse.urlunsplit(arg)
 
+def FetchHref(href):
+  """ Fetch anything that could appear in an <href>
+
+  These are the possibilities:
+  1) relative - 'foo.kml', '../images/foo.jpg'
+  2) absolute file - '/home/baduser/badidea/but/if/you/insist.kml'
+  3) absolute http - 'http://www.coolgeostuff.com/dir/bar.kml'
+  4) kmz internal = 'WHATEVER/myhouse.kmz/models/geometry.dae'
+  5) root://icon - KML 2.0 icons
+
+  Returns:
+    data: the contents of the fetched file if found
+    None: fetch failed
+  """
+
+  if IsRoot(href):
+    # Need the x,y,w,h to actually fetch the corresponding URL, but we at
+    # least detect it's a root:// URL and return nicely.
+    return None
+
+  (kmz_path, file_path) = SplitKmzPath(href)
+  if file_path:
+    kmz = kml.kmz.Kmz(kmz_path)
+    return kmz.Read(file_path)
+  return FetchUrl(kmz_path)
+  
 
 def FetchUrl(url):
+  """ Fetches a standard URL
+
+  See FetchHref() for 
+
+  2 possibilities:
+  1) http - 'http://www.goofy.com/zowie.kml'
+  2) file - 'localfile.kml'
+
+  Returns:
+    data: contents of fetched file
+    None: fetch failed
+  """
+
   if IsHttp(url):
     txdata = None
     txheaders = {   

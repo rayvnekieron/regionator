@@ -143,8 +143,17 @@ class UserAgentTestCase(unittest.TestCase):
   def runTest(self):
     assert kml.href.FetchUrl('http://de.wikipedia.org/wiki/Stadtsparkasse_Wuppertal#Standort_und_st.C3.A4dtebauliche_Geschichte')
 
+class FetchHrefTestCase(unittest.TestCase):
+  def runTest(self):
+    data = kml.href.FetchHref('London_house.kmz/models/LondonHouse.dae')
+    assert 36032 == len(data)
+    data = kml.href.FetchHref('London_house.kmz')
+    assert 24867 == len(data)
+
+
 def suite():
   suite = unittest.TestSuite()
+  """
   suite.addTest(SimpleTestCase())
   suite.addTest(BasicHttpTestCase())
   suite.addTest(HttpTestCase())
@@ -159,6 +168,8 @@ def suite():
   suite.addTest(IsRelativeTestCase())
   suite.addTest(IsHostnameTestCase())
   suite.addTest(UserAgentTestCase())
+  """
+  suite.addTest(FetchHrefTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
