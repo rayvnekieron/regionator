@@ -153,7 +153,6 @@ class FetchHrefTestCase(unittest.TestCase):
 
 def suite():
   suite = unittest.TestSuite()
-  """
   suite.addTest(SimpleTestCase())
   suite.addTest(BasicHttpTestCase())
   suite.addTest(HttpTestCase())
@@ -168,7 +167,6 @@ def suite():
   suite.addTest(IsRelativeTestCase())
   suite.addTest(IsHostnameTestCase())
   suite.addTest(UserAgentTestCase())
-  """
   suite.addTest(FetchHrefTestCase())
   return suite
 
