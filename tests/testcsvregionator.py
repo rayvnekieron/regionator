@@ -69,7 +69,6 @@ class StyledCsvRegionatorTestCase(unittest.TestCase):
     min_lod_pixels = 256
     max_per = 8
     root = None # Don't make a root.kml
-    odir = tempfile.mkdtemp()
     verbose = False
     global_styleUrls = [None, '#globalStyle']
     for i in range(2): # Test creation w/ and w/o cmd line global styleUrls
