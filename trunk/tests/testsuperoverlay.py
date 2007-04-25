@@ -48,12 +48,10 @@ class BasicSuperOverlayTestCase(unittest.TestCase):
     region_handler = kml.checkregions.CheckRegions('', kml1)
     assert 0 == region_handler.Status()
 
-    """
     for file in os.listdir(dir):
       os.unlink(os.path.join(dir, file))
     os.rmdir(dir)
     os.rmdir(tmpdir)
-    """
 
 def suite():
   suite = unittest.TestSuite()
