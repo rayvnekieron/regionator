@@ -224,8 +224,12 @@ def IsRelative(url):
   return href.GetScheme() == None and path[0] != '/'
 
 def IsHostname(hostname):
-  # Anything with a space is not a hostname
-  if hostname.find(' ') != -1:
+  # Skip anything with a space or a slash is, or
+  # anything ending in .kmz or .kmz is not a hostname.
+  # (Avoid throwing just anything at gethostbyname())
+  if hostname.find(' ') != -1 or \
+     hostname.find('/') != -1 or \
+     hostname.endswith('.kml') or hostname.endswith('.kmz'):
     return False
   # Anything with no dot near the end is not a hostname
   dot = hostname.rfind('.')
