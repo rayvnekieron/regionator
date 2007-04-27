@@ -59,6 +59,14 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__absolute_link_count = 0
     self.__hostname_only_link_count = 0
     self.__empty_link_count = 0
+
+    self.__max_file_size = 0
+    self.__max_file_url = None
+    self.__min_file_size = 200000000 # XXX maxint
+    self.__min_file_url = None
+    self.__size_count = 0
+    self.__total_size = 0
+
     self.__error_count = 0
 
   def Status(self):
@@ -92,6 +100,17 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self._Print('X  ','%d absolute links' % self.__absolute_link_count)
     self._Print('X  ','%d hostname links' % self.__hostname_only_link_count)
     self._Print('X  ','%d empty links' % self.__empty_link_count)
+    self._Print('X  ', '%d max' % self.__max_file_size)
+    self._Print('X  ', self.__max_file_url)
+    self._Print('X  ', '%d min' % self.__min_file_size)
+    self._Print('X  ', self.__min_file_url)
+    self._Print('X  ', '%d total' % self.__total_size)
+    if self.__size_count:
+      ave = self.__total_size/self.__size_count
+    else:
+      ave = -1
+    self._Print('X  ', '%d average' % ave)
+
     self._Print('X  ','%d errors' % self.__error_count)
     sum = self.Checksum()
     if sum:
@@ -103,6 +122,16 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       for m in more:
         print m,
       print # newline
+
+  def _SaveSize(self, size, url):
+    self.__size_count += 1
+    if size > self.__max_file_size:
+      self.__max_file_size = size
+      self.__max_file_url = url
+    if size < self.__min_file_size:
+      self.__min_file_size = size
+      self.__min_file_url = url
+    self.__total_size += size
 
   def _Fetch(self, parent, child):
     # Handle empty href and count this separately from errors.
@@ -139,14 +168,20 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     # Compute the absolute URL and try to fetch it.
     url = kml.href.ComputeChildUrl(parent, child)
     self._Print('U  ',url)
+
+    # If url is a foo.kmz/bar.ext fetch foo.kmz
+    (url, file_path) = kml.href.SplitKmzPath(url)
     data = kml.href.FetchUrl(url)
     if data:
-      self._Print('D  ',len(data))
+      numbytes = len(data)
+      self._SaveSize(numbytes, url)
+      self._Print('D  ', numbytes)
       if self.__md5:
         self.__md5.update(data)
     else:
       self._Print('ERR',child,parent)
       self.__error_count += 1
+    
 
   def _CheckHtml(self, parent, node):
     links = kml.walk.GetHtmlLinksInNode(node)
