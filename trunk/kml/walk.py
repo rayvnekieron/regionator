@@ -94,13 +94,14 @@ class KMLHierarchy:
 
   def Walk(self, kmlfile, llab=None, lod=None):
     """
+    NOTE: Errors with child links are not propagated to the return value.
     Args:
       kmlfile: pathname or URL to top of KML hierarchy
       llab: LatLonAltBox of parent
       lod: Lod of parent
     Returns:
-      True: kmlfile and all immediate children exists and parses
-      False: kmlfile or child does not exist or fails to parse
+      True: kmlfile and exists and parses
+      False: kmlfile does not exist or fails to parse
     """
     if self.__verbose:
       print kmlfile
@@ -120,17 +121,15 @@ class KMLHierarchy:
 
     self.__node_handler.HandleNode(href, doc, llab, lod)
 
-    my_status = True
     networklink_nodelist = doc.getElementsByTagName('NetworkLink')
     for networklink_node in networklink_nodelist:
       (llab,lod) = GetNetworkLinkRegion(networklink_node)
       child_href = GetNetworkLinkHref(networklink_node)
       child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
-      child_status = self.Walk(child_url, llab, lod)
-      if child_status == False:
-        my_status = False
+      # NOTE: Errors on children are not propagated up.
+      self.Walk(child_url, llab, lod)
 
-    return my_status
+    return True
 
 
 def GetLinksOfAttr(html_text, attr, link_list):
