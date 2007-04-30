@@ -47,7 +47,7 @@ class ImageCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__image_count = 0
     self.__max_image_size = 0
     self.__max_image_url = None
-    self.__min_image_size = 200000000 # XXX maxint
+    self.__min_image_size = sys.maxint
     self.__min_image_url = None
     self.__total_size = 0
 

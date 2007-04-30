@@ -62,7 +62,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
 
     self.__max_file_size = 0
     self.__max_file_url = None
-    self.__min_file_size = 200000000 # XXX maxint
+    self.__min_file_size = sys.maxint
     self.__min_file_url = None
     self.__size_count = 0
     self.__total_size = 0
