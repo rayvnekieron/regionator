@@ -6,13 +6,14 @@ import sys
 import kml.checklinks
 
 if len(sys.argv) < 2:
-  print 'usage: %s [-k] [-h] [-a] [-r] [-v] url.kml' % sys.argv[0]
+  print 'usage: %s [-k] [-h] [-a] [-r] [-v] [-s] [-c] url.kml' % sys.argv[0]
   print '   -k: check KML hrefs'
   print '   -h: check HTML hrefs'
   print '   -r: check relative URLs'
   print '   -a: check absolute URLs'
+  print '   -c: compute checksum'
   print '   -v: verbose'
-  print '   -s: compute checksum'
+  print '   -s: print summary only'
   sys.exit(1)
 
 inputkml = sys.argv[len(sys.argv)-1]

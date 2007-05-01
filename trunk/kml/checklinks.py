@@ -35,9 +35,10 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__check_absolute = False
     self.__check_relative = False
     self.__verbose = False
+    self.__summary = False
     self.__md5 = None
 
-    opts, args = getopt.getopt(opts, "khravs")
+    opts, args = getopt.getopt(opts, "khravsc")
     for o,a in opts:
       if o == '-k':
         self.__check_kml = True
@@ -49,7 +50,10 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
         self.__check_absolute = True
       elif o == '-v':
         self.__verbose = True
+        self.__summary = True
       elif o == '-s':
+        self.__summary = True
+      elif o == '-c':
         self.__md5 = md5.new('')
 
     self.__node_count = 0
@@ -89,6 +93,9 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     return None
 
   def PrintSummary(self):
+    if not self.__summary:
+      return
+    self.__verbose = True # yuck
     self._Print('X  ', '%d nodes' % self.__node_count)
     if self.__check_kml:
       self._Print('X  ','%d kml links' % self.__kml_link_count)

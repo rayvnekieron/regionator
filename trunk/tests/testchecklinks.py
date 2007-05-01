@@ -66,7 +66,7 @@ class BasicTestCase(unittest.TestCase):
     assert 0 == status
 
   def CheckLinks(self):
-    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-k','-r','-s'])
+    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-k','-r','-c'])
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk(os.path.join(self.dir, '1.kml'))
@@ -97,7 +97,7 @@ class BasicTestCase(unittest.TestCase):
 
 class BasicHtmlTestCase(unittest.TestCase):
   def runTest(self):
-    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k','-s'])
+    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k','-c'])
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk('html.kml')
