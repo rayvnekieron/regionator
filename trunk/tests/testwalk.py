@@ -71,7 +71,7 @@ class BasicWalkTestCase(unittest.TestCase):
     assert True == self.walker.Walk('foop.kml')
   def testMissingChild(self):
     # walkme.kml exists and parses, and has one missing child NetworkLink
-    assert False == self.walker.Walk('walkme.kml')
+    assert True == self.walker.Walk('walkme.kml')
 
 class GetHtmlLinksTestCase(unittest.TestCase):
   def setUp(self):
