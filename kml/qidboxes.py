@@ -76,11 +76,9 @@ class RegionBoxNodeHandler(kml.walk.KMLNodeHandler):
   def HandleNode(self, href, node, llab, lod):
     region_nodelist = node.getElementsByTagName('Region')
     for region in region_nodelist:
-      (llab_node, lod_node) = kml.kmlparse.ParseRegion(region)
-      llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
+      (llab, lod) = kml.kmlparse.ParseRegion(region)
       if not (llab.north and llab.south and llab.east and llab.west):
         continue
-      lod = kml.kmlparse.ParseLod(lod_node)
       if not lod.minLodPixels:
         lod.minLodPixels = 0
       if not lod.maxLodPixels:

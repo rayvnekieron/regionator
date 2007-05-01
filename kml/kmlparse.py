@@ -30,6 +30,7 @@ import xml.dom.minidom
 import zipfile
 import tempfile
 import os
+import encodings
 
 import kml.coordbox
 import kml.genxml
@@ -496,12 +497,12 @@ def ParseRegion(region_node):
     region_node: <Region> dom node
 
   Returns:
-    (<LatLonAltBox> dom node, <Lod> dom node)
+    (kml.genxml.LatLonAltBox, kml.genxml.Lod)
   """
 
   llab_node = GetFirstChildElement(region_node, 'LatLonAltBox')
   lod_node = GetFirstChildElement(region_node, 'Lod')
-  return (llab_node, lod_node)
+  return (ParseLatLonAltBox(llab_node), ParseLod(lod_node))
 
 
 def ParseLod(lod_node):
@@ -556,3 +557,11 @@ def ParseModel(model_node):
   scale_node = GetFirstChildElement(model_node, 'Scale')
   link_node = GetFirstChildElement(model_node, 'Link')
   return (location_node, orientation_node, scale_node, link_node)
+
+
+def GetNetworkLinkRegion(networklink_node):
+  region_nodelist = networklink_node.getElementsByTagName('Region')
+  if region_nodelist:
+    return ParseRegion(region_nodelist[0])
+  return (None, None)
+

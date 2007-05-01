@@ -134,17 +134,12 @@ class RegionCheckingNodeHandler(kml.walk.KMLNodeHandler):
 
 
   def CheckRegion(self, region_node):
-    (llab, lod) = self.ParseRegion(region_node)
+    (llab, lod) = kml.kmlparse.ParseRegion(region_node)
     self._Print('Region', llab.north, llab.south, llab.east, llab.west)
     self.__region_count += 1
     self.CheckLatLonAltBox(llab)
     self.CheckLod(lod)
 
-  def ParseRegion(self, region_node):
-    (llab_node, lod_node) = kml.kmlparse.ParseRegion(region_node)
-    llab = kml.kmlparse.ParseLatLonAltBox(llab_node)
-    lod = kml.kmlparse.ParseLod(lod_node)
-    return (llab, lod)
 
   # kml.walk.KMLNodeHandler::HandleNode()
   def HandleNode(self, href, node, parent_llab, parent_lod):
@@ -154,7 +149,7 @@ class RegionCheckingNodeHandler(kml.walk.KMLNodeHandler):
     for region in region_nodelist:
       self.__region_count += 1
       self.CheckRegion(region)
-      (llab, lod) = self.ParseRegion(region)
+      (llab, lod) = kml.kmlparse.ParseRegion(region)
       self.CheckLatLonBoxContains(parent_llab, llab)
 
 
