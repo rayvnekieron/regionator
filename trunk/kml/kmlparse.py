@@ -162,6 +162,11 @@ class KMLParse:
       self.__doc = None
 
 
+  def ParseStringUsingCodec(self, kml_data, codec):
+    xml_header = "<?xml version='1.0' encoding='%s'?>" % codec
+    self.ParseString("".join([xml_header, kml_data]))
+
+
   def Doc(self):
 
     return self.__doc
@@ -581,3 +586,72 @@ def GetNetworkLinkHref(networklink_node):
     return link.href
   return None
 
+
+
+
+def SplitXmlHeaderFromFile(xmlfile):
+  f = open(xmlfile, 'r')
+  xmldata = f.read()
+  f.close()
+  return SplitXmlHeaderFromData(xmldata)
+
+def SplitXmlHeaderFromData(xml_input):
+  """Split the XML header from the rest of the document
+  Args:
+    xml_input: xml with or without xml header
+  Returns:
+    (xml_header, xml_data): if a header was found
+    (None, xml_input): if no header
+  """
+  if xmldata[:5] == '<?xml':
+    end_of_xml_header = xmldata.find('?>')
+    return (xmldata[:end_of_xml_header+2],xmldata[end_of_xml_header+2:])
+  return (None,xmldata)
+
+def UnQuote(quoted_data):
+  """
+  Args:
+    quoted_data: "foo" or 'foo'
+  Returns:
+    foo:
+  """
+  quote_char = quoted_data[0]
+  end_quote = quoted_data[1:].find(quote_char)
+  if end_quote != -1:
+    return quoted_data[1:end_quote+1]
+  return None
+
+def GetEncoding(xml_header):
+  """ Return the encoding in the xml header
+  Args:
+    xmlheader: '<?xml ... encoding='ENCODING'?>'
+  Returns:
+    codec: Python encodings-normalized case-folded ENCODING
+    None: if there is either no xml header or no encoding specified
+  """
+  if not xml_header:
+    return None
+  encoding_str = 'encoding='
+  encoding_str_len = len(encoding_str)
+  encoding = xml_header.find(encoding_str)
+  if encoding == -1:
+    return None
+  val = UnQuote(xml_header[encoding+encoding_str_len:])
+  if val:
+    return encodings.normalize_encoding(val.lower())
+  return None
+
+def Decode(data, codec):
+  """Decode the data with the given codec
+  Args:
+    data: buffer of data encoded with the given codec
+    codec: codec name
+  Returns:
+    data: decoded data if codec valid
+    None: codec failed to decode data
+  """
+  try:
+    decoded_data = data.decode(codec)
+    return decoded_data
+  except:
+    return None
