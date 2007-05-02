@@ -200,9 +200,27 @@ class GetFirstChildElementSimpleTestCase(unittest.TestCase):
 class NoneNodeTestCase(unittest.TestCase):
   def runTest(self):
     assert None == kml.kmlparse.GetText(None)
-    assert None == kml.kmlparse.CDATA(None)
+    assert None == kml.kmlparse.GetCDATA(None)
     assert None == kml.kmlparse.GetSimpleElementText(None, 'ignored')
     assert None == kml.kmlparse.GetFirstChildElement(None, 'ignored')
+
+class ParseFeatureRegionTestCase(unittest.TestCase):
+  def runTest(self):
+    doc = xml.dom.minidom.parse('rbnl.kml')
+    node = kml.kmlparse.GetFirstChildElement(doc, 'NetworkLink')
+    (llab,lod) = kml.kmlparse.ParseFeatureRegion(node)
+    assert '-28.828125' == llab.north
+    assert '-45.125' == llab.south
+    assert '10.15625' == llab.east
+    assert '-20.859375' == llab.west
+    assert '122' == lod.minLodPixels
+
+class GetNetworkLinkHrefTestCase(unittest.TestCase):
+  def runTest(self):
+    doc = xml.dom.minidom.parse('rbnl.kml')
+    node = kml.kmlparse.GetFirstChildElement(doc, 'NetworkLink')
+    href = kml.kmlparse.GetNetworkLinkHref(node)
+    assert 'non-existent-file.kml' == href
 
 
 def suite():
@@ -224,6 +242,9 @@ def suite():
   suite.addTest(RegionExtractTestCase())
   suite.addTest(GetFirstChildElementNoNodeTestCase())
   suite.addTest(GetFirstChildElementSimpleTestCase())
+  suite.addTest(NoneNodeTestCase())
+  suite.addTest(ParseFeatureRegionTestCase())
+  suite.addTest(GetNetworkLinkHrefTestCase())
   return suite
 
 
