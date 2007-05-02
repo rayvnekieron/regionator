@@ -559,9 +559,25 @@ def ParseModel(model_node):
   return (location_node, orientation_node, scale_node, link_node)
 
 
-def GetNetworkLinkRegion(networklink_node):
-  region_nodelist = networklink_node.getElementsByTagName('Region')
-  if region_nodelist:
-    return ParseRegion(region_nodelist[0])
+def ParseFeatureRegion(feature_node):
+  region_node = GetFirstChildElement(feature_node, 'Region')
+  if region_node:
+    return ParseRegion(region_node)
   return (None, None)
+
+
+def GetNetworkLinkHref(networklink_node):
+  """
+  Args:
+    networklink_node: xml.dom.minidom node for NetworkLink
+  Returns:
+    href: contents of href child of either of Link or Url
+  """
+  link_node = kml.kmlparse.GetFirstChildElement(networklink_node, 'Link')
+  if not link_node:
+    link_node = kml.kmlparse.GetFirstChildElement(networklink_node, 'Url')
+  if link_node:
+    link = kml.kmlparse.ParseLink(link_node)
+    return link.href
+  return None
 
