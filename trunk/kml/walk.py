@@ -37,16 +37,6 @@ class KMLNodeHandler:
     """ """
 
 
-def GetNetworkLinkHref(networklink_node):
-  link_node = kml.kmlparse.GetFirstChildElement(networklink_node, 'Link')
-  if not link_node:
-    link_node = kml.kmlparse.GetFirstChildElement(networklink_node, 'Url')
-  if link_node:
-    link = kml.kmlparse.ParseLink(link_node)
-    return link.href
-  return None
-
-
 class KMLHierarchy:
 
   """
@@ -105,8 +95,8 @@ class KMLHierarchy:
 
     networklink_nodelist = doc.getElementsByTagName('NetworkLink')
     for networklink_node in networklink_nodelist:
-      (llab,lod) = kml.kmlparse.GetNetworkLinkRegion(networklink_node)
-      child_href = GetNetworkLinkHref(networklink_node)
+      (llab,lod) = kml.kmlparse.ParseFeatureRegion(networklink_node)
+      child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
       child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
       # NOTE: Errors on children are not propagated up.
       self.Walk(child_url, llab, lod)
