@@ -35,28 +35,26 @@ class NullTestCase(unittest.TestCase):
     # Do nothing and status should be 0
     assert 0 == link_checker.Status()
 
+def RegionatePlacemarks():
+  # Create a Region-based NetworkLink hierarchy to check
+  dir = tempfile.mkdtemp()
+  kml.kmlregionator.RegionateKML('placemarks.kml', 246, 4, None, dir, False)
+  return dir
+
+def CheckLinks(dir):
+  link_checker = kml.checklinks.LinkCheckingNodeHandler(['-k','-r','-c'])
+  hier = kml.walk.KMLHierarchy()
+  hier.SetNodeHandler(link_checker)
+  hier.Walk(os.path.join(dir, '1.kml'))
+  return link_checker
+
+
 class BasicTestCase(unittest.TestCase):
   def setUp(self):
-    # Create a Region-based NetworkLink hierarchy to check
-    inputkml = 'placemarks.kml'
-    minpx = 256
-    maxper = 4
-    (fd,self.rootkml) = tempfile.mkstemp()
-    os.close(fd)
-    self.dir = tempfile.mkdtemp()
-    verbose = False
-    self.rtor = kml.kmlregionator.RegionateKML(inputkml,
-                                               minpx,
-                                               maxper,
-                                               self.rootkml,
-                                               self.dir,
-                                               verbose)
+    self.dir = RegionatePlacemarks()
 
   def tearDown(self):
-    os.unlink(self.rootkml)
-    for file in os.listdir(self.dir):
-      os.unlink(os.path.join(self.dir, file))
-    os.rmdir(self.dir)
+    kml.kmz.RmMinusR(self.dir)
 
   def testCheckLinksOnRelativeKml(self):
     # MakeRootKML basically expects a relative dir but we hand it
@@ -66,10 +64,7 @@ class BasicTestCase(unittest.TestCase):
     assert 0 == status
 
   def CheckLinks(self):
-    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-k','-r','-c'])
-    hier = kml.walk.KMLHierarchy()
-    hier.SetNodeHandler(link_checker)
-    hier.Walk(os.path.join(self.dir, '1.kml'))
+    link_checker = CheckLinks(self.dir)
     return link_checker.Statistics()
 
   def testLinkCheckerOnRelativeKml(self):
@@ -165,6 +160,17 @@ class NonExistentRootTestCase(unittest.TestCase):
   def runTest(self):
     status = kml.checklinks.CheckLinks('','this-file-does-not-exist')
     assert -1 == status
+
+class CheckSumTestCase(unittest.TestCase):
+  def runTest(self):
+    self.dir1 = RegionatePlacemarks()
+    self.dir2 = RegionatePlacemarks()
+    lc1 = CheckLinks(self.dir1)
+    lc2 = CheckLinks(self.dir2)
+    assert lc1.Status() == lc2.Status() == 0
+    assert lc1.Checksum() == lc2.Checksum()
+    kml.kmz.RmMinusR(self.dir1)
+    kml.kmz.RmMinusR(self.dir2)
  
 
 def suite():
@@ -177,6 +183,7 @@ def suite():
   suite.addTest(BadEncodingTestCase("testWrongEncoding"))
   suite.addTest(BadEncodingTestCase("testCorrectEncoding"))
   suite.addTest(NonExistentRootTestCase())
+  suite.addTest(CheckSumTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
