@@ -167,15 +167,14 @@ def FetchUrl(url):
 
 
 def FetchUrlToTempFile(url):
-  (fd, name) = tempfile.mkstemp()
   data = FetchUrl(url)
-  if data:
-    os.write(fd, data)
-  else:
-    name = None
+  if not data:
+    return None
+  (fd, name) = tempfile.mkstemp()
+  os.write(fd, data)
   os.close(fd)
   return name
-  
+
 
 def SplitKmzPath(href_text):
   dot_kmz_slash = href_text.find('.kmz/')
