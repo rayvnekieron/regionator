@@ -109,6 +109,7 @@ tests/textures.txt
 tests/coit.kml
 tests/coit.kmz
 tests/region.kml
+tests/rbnl.kml
 tests/testkmz.py
 tests/London_house.kmz
 tests/testimage.py
