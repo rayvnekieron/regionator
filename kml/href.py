@@ -27,12 +27,13 @@ for use with KML <href>
 
 """
 
+import copy
+import os.path
+import socket
+import tempfile
+import time
 import urlparse
 import urllib2
-import os.path
-import copy
-import tempfile
-import socket
 import kml.kmz
 
 class Href:
@@ -177,6 +178,13 @@ def FetchUrlToTempFile(url):
 
 
 def SplitKmzPath(href_text):
+  """Split the .kmz URL from the reference into the .kmz
+  Args:
+    href: any URL or pathname or '...foo.kmz/path-inside-kmz'
+  Returns:
+    (kmz_path, file_path): if href_text is a reference into a .kmz
+    (href_text, None): if href_text is a plain URL or pathname
+  """
   dot_kmz_slash = href_text.find('.kmz/')
   if dot_kmz_slash == -1:
     return (href_text, None)
@@ -274,3 +282,44 @@ def ComputeChildUrl(parent_href, child_href):
     href.SetUrl(parent_href)
     href.SetBasename(child_href)
     return href.Href()
+
+
+class Fetcher:
+
+  def __init__(self, href):
+    (self.__url, self.__file) = SplitKmzPath(href)
+    self.__seconds = -1
+    self.__bytes = -1
+
+  def FetchData(self):
+    """Fetch URL or read file and return data"""
+    t0 = time.time()
+    data = FetchUrl(self.__url)
+    self.__seconds = time.time() - t0
+    if data:
+      self.__bytes = len(data)
+    return data
+
+  def Time(self):
+    """Fetch time in seconds"""
+    return self.__seconds
+
+  def Size(self):
+    """Count of bytes fetched"""
+    return self.__bytes
+
+  def PrettyBPS(self):
+    """Pretty string of bits per second"""
+    if self.__seconds == -1 or self.__seconds == 0 or \
+       self.__bytes == -1 or self.__bytes == 0:
+      return None
+    return PrettyBPS(self.__bytes*8/self.__seconds)
+
+
+def PrettyBPS(bits_per_second):
+   if bits_per_second > 1024 * 1024:
+     return '%.1fM' % (bits_per_second/(1024*1024))
+   if bits_per_second > 1024:
+     return '%.1fK' % (bits_per_second/1024)
+   return '%.1f' % bits_per_second
+
