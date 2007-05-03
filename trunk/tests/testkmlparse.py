@@ -223,6 +223,23 @@ class GetNetworkLinkHrefTestCase(unittest.TestCase):
     assert 'non-existent-file.kml' == href
 
 
+class ParseUsingCodecTestCase(unittest.TestCase):
+  def runTest(self):
+    (xml_header, xml_data) = kml.kmlparse.SplitXmlHeaderFromFile('es-utf8.kml')
+    assert 'utf_8' == kml.kmlparse.GetEncoding(xml_header)
+    # Parser fails due to wrong encoding
+    kp = kml.kmlparse.KMLParse('es-utf8.kml')
+    assert None == kp.Doc()
+    # Parse with the proper codec for file contents:
+    kp = kml.kmlparse.KMLParse(None)
+    kp.ParseStringUsingCodec(xml_data, 'latin1')
+    doc = kp.Doc()
+    style = doc.getElementsByTagName('Style')
+    # This file is known to have one Style element with the asserted id
+    assert 1 == len(style)
+    assert 'MyStyleId' == style[0].getAttribute('id')
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(GroundOverlayParseTestCase("testLatLonBox"))
@@ -245,6 +262,7 @@ def suite():
   suite.addTest(NoneNodeTestCase())
   suite.addTest(ParseFeatureRegionTestCase())
   suite.addTest(GetNetworkLinkHrefTestCase())
+  suite.addTest(ParseUsingCodecTestCase())
   return suite
 
 
