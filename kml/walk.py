@@ -49,6 +49,7 @@ class KMLHierarchy:
   def __init__(self):
     self.__node_handler = None
     self.__verbose = False
+    self.__encoding = None
 
   def SetNodeHandler(self, node_handler):
     """
@@ -63,6 +64,13 @@ class KMLHierarchy:
       verbose: if True enable output to stdout, if False fully silent
     """
     self.__verbose = verbose
+
+  def SetEncoding(self, encoding):
+    """
+    Args:
+      encoding: override encoding specified in xml header
+    """
+    self.__encoding = encoding
 
   def Walk(self, kmlfile, llab=None, lod=None):
     """
@@ -81,7 +89,13 @@ class KMLHierarchy:
     href = kml.href.Href()
     href.SetUrl(kmlfile)
 
-    kp = kml.kmlparse.KMLParse(kmlfile)
+    if self.__encoding:
+      data = kml.href.FetchUrl(kmlfile)
+      (xml_header, xml_data) = kml.kmlparse.SplitXmlHeaderFromData(data)
+      kp = kml.kmlparse.KMLParse(None)
+      kp.ParseStringUsingCodec(xml_data, self.__encoding)
+    else:
+      kp = kml.kmlparse.KMLParse(kmlfile)
     doc = kp.Doc()
     if not doc:
       if self.__verbose:
