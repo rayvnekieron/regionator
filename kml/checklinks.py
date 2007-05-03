@@ -23,6 +23,7 @@ $Date$
 import getopt
 import md5
 import sys
+import time
 import kml.walk
 import kml.href
 
@@ -72,9 +73,12 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__min_file_size = sys.maxint
     self.__min_file_url = None
     self.__size_count = 0
-    self.__total_size = 0
+    self.__total_bytes = 0
+    self.__total_seconds = 0
 
     self.__error_count = 0
+
+    self.__start_time = time.time()
 
   def GetEncoding(self):
     return self.__encoding
@@ -117,13 +121,18 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self._Print('X  ', self.__max_file_url)
     self._Print('X  ', '%d min' % self.__min_file_size)
     self._Print('X  ', self.__min_file_url)
-    self._Print('X  ', '%d total' % self.__total_size)
+    self._Print('X  ', '%d total bytes' % self.__total_bytes)
     if self.__size_count:
-      self._Print('X  ', '%d count' % self.__size_count)
-      ave = self.__total_size/self.__size_count
-    else:
-      ave = -1
-    self._Print('X  ', '%d average' % ave)
+      self._Print('X  ', '%d files' % self.__size_count)
+      ave = self.__total_bytes/self.__size_count
+      self._Print('X  ', '%d average bytes/file' % ave)
+    if self.__total_bytes and self.__total_seconds:
+      bps = (self.__total_bytes * 8) / self.__total_seconds
+      self._Print('X  ', '%s average bps' % kml.href.PrettyBPS(bps))
+      overall_seconds = time.time() - self.__start_time
+      self._Print('X  ', '%d seconds overall' % overall_seconds)
+      bps = (self.__total_bytes * 8) / overall_seconds
+      self._Print('X  ', '%s overall bps' % kml.href.PrettyBPS(bps))
 
     self._Print('X  ','%d errors' % self.__error_count)
     sum = self.Checksum()
@@ -137,15 +146,16 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
         print m,
       print # newline
 
-  def _SaveSize(self, size, url):
+  def _SaveSizeAndTime(self, bytes, url, seconds):
     self.__size_count += 1
-    if size > self.__max_file_size:
-      self.__max_file_size = size
+    if bytes > self.__max_file_size:
+      self.__max_file_size = bytes
       self.__max_file_url = url
-    if size < self.__min_file_size:
-      self.__min_file_size = size
+    if bytes < self.__min_file_size:
+      self.__min_file_size = bytes
       self.__min_file_url = url
-    self.__total_size += size
+    self.__total_bytes += bytes
+    self.__total_seconds += seconds
 
   def _Fetch(self, parent, child):
     # Handle empty href and count this separately from errors.
@@ -183,13 +193,14 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     url = kml.href.ComputeChildUrl(parent, child)
     self._Print('U  ',url)
 
-    # If url is a foo.kmz/bar.ext fetch foo.kmz
-    (url, file_path) = kml.href.SplitKmzPath(url)
-    data = kml.href.FetchUrl(url)
+    fetcher = kml.href.Fetcher(url)
+    # If url is a foo.kmz/bar.ext this fetches foo.kmz
+    data = fetcher.FetchData()
     if data:
-      numbytes = len(data)
-      self._SaveSize(numbytes, url)
+      numbytes = fetcher.Size()
+      self._SaveSizeAndTime(numbytes, url, fetcher.Time())
       self._Print('D  ', numbytes)
+      self._Print('T  ', fetcher.PrettyBPS())
       if self.__md5:
         self.__md5.update(data)
     else:
