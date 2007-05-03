@@ -37,8 +37,9 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__verbose = False
     self.__summary = False
     self.__md5 = None
+    self.__encoding = None
 
-    opts, args = getopt.getopt(opts, "khravsc")
+    opts, args = getopt.getopt(opts, "khravsce:")
     for o,a in opts:
       if o == '-k':
         self.__check_kml = True
@@ -55,6 +56,8 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
         self.__summary = True
       elif o == '-c':
         self.__md5 = md5.new('')
+      elif o == '-e':
+        self.__encoding = a
 
     self.__node_count = 0
     self.__kml_link_count = 0
@@ -72,6 +75,9 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__total_size = 0
 
     self.__error_count = 0
+
+  def GetEncoding(self):
+    return self.__encoding
 
   def Status(self):
     return self.__error_count
@@ -113,6 +119,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self._Print('X  ', self.__min_file_url)
     self._Print('X  ', '%d total' % self.__total_size)
     if self.__size_count:
+      self._Print('X  ', '%d count' % self.__size_count)
       ave = self.__total_size/self.__size_count
     else:
       ave = -1
@@ -215,6 +222,9 @@ def CheckLinks(opts, kmlurl):
   link_checking_node_handler = LinkCheckingNodeHandler(opts)
   hier = kml.walk.KMLHierarchy()
   hier.SetNodeHandler(link_checking_node_handler)
+  encoding = link_checking_node_handler.GetEncoding()
+  if encoding:
+    hier.SetEncoding(encoding)
   if not hier.Walk(kmlurl):
     return -1 # kmlurl non-existent or failed parse
   link_checking_node_handler.PrintSummary()

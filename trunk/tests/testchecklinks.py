@@ -171,6 +171,13 @@ class CheckSumTestCase(unittest.TestCase):
     assert lc1.Checksum() == lc2.Checksum()
     kml.kmz.RmMinusR(self.dir1)
     kml.kmz.RmMinusR(self.dir2)
+
+class UseEncodingTestCase(unittest.TestCase):
+  def runTest(self):
+    # Expect failure
+    assert -1 == kml.checklinks.CheckLinks('', 'es-utf8.kml')
+    # Expect success
+    print  kml.checklinks.CheckLinks(['-e','latin1'], 'es-utf8.kml')
  
 
 def suite():
@@ -184,6 +191,7 @@ def suite():
   suite.addTest(BadEncodingTestCase("testCorrectEncoding"))
   suite.addTest(NonExistentRootTestCase())
   suite.addTest(CheckSumTestCase())
+  suite.addTest(UseEncodingTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
