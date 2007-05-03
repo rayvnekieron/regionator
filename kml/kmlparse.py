@@ -589,11 +589,18 @@ def GetNetworkLinkHref(networklink_node):
 
 
 
-def SplitXmlHeaderFromFile(xmlfile):
-  f = open(xmlfile, 'r')
-  xmldata = f.read()
+def SplitXmlHeaderFromFile(xml_file):
+  """Split the XML header from the rest of the document
+  Args:
+    xml_file: name of local xml file
+  Returns:
+    (xml_header, xml_data): if a header was found
+    (None, xml_input): if no header
+  """
+  f = open(xml_file, 'r')
+  xml_data = f.read()
   f.close()
-  return SplitXmlHeaderFromData(xmldata)
+  return SplitXmlHeaderFromData(xml_data)
 
 def SplitXmlHeaderFromData(xml_input):
   """Split the XML header from the rest of the document
@@ -603,10 +610,10 @@ def SplitXmlHeaderFromData(xml_input):
     (xml_header, xml_data): if a header was found
     (None, xml_input): if no header
   """
-  if xmldata[:5] == '<?xml':
-    end_of_xml_header = xmldata.find('?>')
-    return (xmldata[:end_of_xml_header+2],xmldata[end_of_xml_header+2:])
-  return (None,xmldata)
+  if xml_input[:5] == '<?xml':
+    end_of_xml_header = xml_input.find('?>')
+    return (xml_input[:end_of_xml_header+2],xml_input[end_of_xml_header+2:])
+  return (None,xml_input)
 
 def UnQuote(quoted_data):
   """
