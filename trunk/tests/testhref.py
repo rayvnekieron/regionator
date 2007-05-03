@@ -150,6 +150,24 @@ class FetchHrefTestCase(unittest.TestCase):
     data = kml.href.FetchHref('London_house.kmz')
     assert 24867 == len(data)
 
+class BasicFetcherTestCase(unittest.TestCase):
+  def runTest(self):
+    f0 = kml.href.Fetcher('London_house.kmz/models/LondonHouse.dae')
+    f1 = kml.href.Fetcher('London_house.kmz')
+    d0 = f0.FetchData()
+    d1 = f1.FetchData()
+    assert 24867 == len(d0) == f0.Size()
+    assert -1 != f0.Time()
+    assert d0 == d1
+    # Can't predict the time, but it should not be None
+    assert f0.PrettyBPS()
+
+class BasicPrettyBPSTestCase(unittest.TestCase):
+  def runTest(self):
+    assert '96.4M' == kml.href.PrettyBPS(101101010.1)
+    assert '120.9K' == kml.href.PrettyBPS(123763.9087)
+    assert '530.7' == kml.href.PrettyBPS(530.723)
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -168,6 +186,8 @@ def suite():
   suite.addTest(IsHostnameTestCase())
   suite.addTest(UserAgentTestCase())
   suite.addTest(FetchHrefTestCase())
+  suite.addTest(BasicFetcherTestCase())
+  suite.addTest(BasicPrettyBPSTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
