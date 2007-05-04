@@ -40,24 +40,25 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__md5 = None
     self.__encoding = None
 
-    opts, args = getopt.getopt(opts, "khravsce:")
+    opts, args = getopt.getopt(opts, "khravsce:",["k","h","r","a","v","s","c","e="])
     for o,a in opts:
-      if o == '-k':
+      o = o.lstrip('-')
+      if o == 'k':
         self.__check_kml = True
-      elif o == '-h':
+      elif o == 'h':
         self.__check_html = True
-      elif o == '-r':
+      elif o == 'r':
         self.__check_relative = True
-      elif o == '-a':
+      elif o == 'a':
         self.__check_absolute = True
-      elif o == '-v':
+      elif o == 'v':
         self.__verbose = True
         self.__summary = True
-      elif o == '-s':
+      elif o == 's':
         self.__summary = True
-      elif o == '-c':
+      elif o == 'c':
         self.__md5 = md5.new('')
-      elif o == '-e':
+      elif o == 'e':
         self.__encoding = a
 
     self.__node_count = 0

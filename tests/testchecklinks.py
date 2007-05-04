@@ -63,6 +63,12 @@ class BasicTestCase(unittest.TestCase):
     status = kml.checklinks.CheckLinks(['-k','-r'], kml1)
     assert 0 == status
 
+  def testLongArgs(self):
+    # long args version of testCheckLinksOnRelativeKml()
+    kml1 = os.path.join(self.dir, '1.kml')
+    status = kml.checklinks.CheckLinks(['--k','--r','--e=latin1'], kml1)
+    assert 0 == status
+
   def CheckLinks(self):
     link_checker = CheckLinks(self.dir)
     return link_checker.Statistics()
@@ -89,6 +95,7 @@ class BasicTestCase(unittest.TestCase):
     assert 49 == after[0]
     # checksum is different
     assert before[8] != after[8]
+
 
 class BasicHtmlTestCase(unittest.TestCase):
   def runTest(self):
@@ -177,7 +184,7 @@ class UseEncodingTestCase(unittest.TestCase):
     # Expect failure
     assert -1 == kml.checklinks.CheckLinks('', 'es-utf8.kml')
     # Expect success
-    print  kml.checklinks.CheckLinks(['-e','latin1'], 'es-utf8.kml')
+    assert 0 == kml.checklinks.CheckLinks(['-e','latin1'], 'es-utf8.kml')
  
 
 def suite():
@@ -186,6 +193,7 @@ def suite():
   suite.addTest(BasicTestCase("testCheckLinksOnRelativeKml"))
   suite.addTest(BasicTestCase("testLinkCheckerOnRelativeKml"))
   suite.addTest(BasicTestCase("testLinkCheckerOnDamagedKml"))
+  suite.addTest(BasicTestCase("testLongArgs"))
   suite.addTest(BasicHtmlTestCase())
   suite.addTest(BadEncodingTestCase("testWrongEncoding"))
   suite.addTest(BadEncodingTestCase("testCorrectEncoding"))
