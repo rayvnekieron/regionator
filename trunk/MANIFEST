@@ -54,6 +54,7 @@ scripts/checkimages.py
 scripts/mkregionboxes.py
 scripts/getkml.py
 scripts/modelator.py
+scripts/kmlgoforimage.py
 tests/README
 tests/prversion.py
 tests/test.kml
