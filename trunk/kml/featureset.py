@@ -28,6 +28,19 @@ import kml.regionhandler
 
 
 class FeatureSet(object):
+  """A collection of features each with a lon, lat and weight
+  0) Create a FeatureSet instance
+  1) Add features:
+    a) Add opaque features using AddWeightedFeatureAtLocation()
+    b) Or, add KML Features using AddFeature() and/or Add{Geometry}()
+  2) Organize features:
+    a) In-place sort by weight using Sort()
+    b) CopyByRegion(), SplitByRegion(), Copy5Ways()
+    c) Get bounding box of feature set with NSEW()
+  3) Access features:
+    a) The iterator returns a (weight,lon,lat,feature) tuple
+    b) Random access of feature and location using GetFeature(), GetLoc()
+  """
 
   def __init__(self):
     self.__feature_list = [] # list of (weight, lon, lat, feature) tuples
@@ -43,6 +56,11 @@ class FeatureSet(object):
     else:
       self.__index += 1
       return self.__feature_list[index]
+
+  def Sort(self):
+    """Sort this FeatureSet largest weight first"""
+    self.__feature_list.sort()
+    self.__feature_list.reverse()
 
   def Size(self):
     return len(self.__feature_list)
@@ -63,7 +81,6 @@ class FeatureSet(object):
     return None
 
   def NSEW(self):
-
     """
     Returns:
       (n,s,e,w): bounding box of feature set
@@ -74,29 +91,23 @@ class FeatureSet(object):
     return cbox.NSEW()
 
   def AddWeightedFeatureAtLocation(self, weight, lon, lat, feature):
-
-    """
+    """The core primitive to add a feature to the feature set
     Args:
       weight: value specifying feature importance
       lon,lat: longitude,latitude
       feature: opaque feature data
     """
-
     self.__feature_list.append((weight, lon, lat, feature))
 
   def AddFeatureAtLocation(self, lon, lat, feature):
-
-    """
-    Adds feature with 0 weight.
-
+    """ Adds feature with 0 weight.
     Args:
       lon,lat: longitude,latitude of feature
       feature: opaque feature data
     """
-    self.__feature_list.append((0, lon, lat, feature))
+    self.AddWeightedFeatureAtLocation(0, lon, lat, feature)
 
   def AddPoint(self, placemark_dom_node):
-
     """ Add the Placemark/Point to the FeatureSet
 
     Args:
@@ -129,7 +140,6 @@ class FeatureSet(object):
     return False
 
   def AddLineString(self, placemark_dom_node):
-
     """ Add the Placemark/Linestring to the FeatureSet
 
     The Placemark represented by the minidom node placemark_dom_node
@@ -146,7 +156,6 @@ class FeatureSet(object):
       True: Placemark and LineString valid and added
       False: invalid LineString Placemark not added
     """
-
     ls_node = kml.kmlparse.GetFirstChildElement(placemark_dom_node,
                                                 'LineString')
     if ls_node:
@@ -154,7 +163,6 @@ class FeatureSet(object):
     return False
 
   def AddPolygon(self, placemark_dom_node):
-
     """ Add the Placemark/Polygon to the FeatureSet
 
     The Placemark represented by the minidom node placemark_dom_node
@@ -173,7 +181,6 @@ class FeatureSet(object):
       True: Placemark and Polgyon valid and added
       False: invalid Polgyon Placemark not added
     """
-    
     polygon_node = kml.kmlparse.GetFirstChildElement(placemark_dom_node,
                                                      'Polygon')
     if polygon_node:
@@ -183,7 +190,6 @@ class FeatureSet(object):
     return False
 
   def AddLocation(model_dom_node):
-
     """ Add the Model to the FeatureSet
 
     The Model must have a <Location> child element which in turn must
@@ -207,7 +213,6 @@ class FeatureSet(object):
     return False
 
   def AddFeature(self, feature_dom_node):
-
     """ Add the xml minidom representation of the Feature.
 
     Feature must be a Placemark with either Point, LineString,
@@ -247,7 +252,6 @@ class FeatureSet(object):
     return False
 
   def CopyByRegion(self, region):
-
     """Creates a new FeatureSet for features within the region
 
     The FeatureSet is unchanged.
@@ -258,7 +262,6 @@ class FeatureSet(object):
     Returns:
       featureset: kml.featureset.FeatureSet
     """
-
     fs = FeatureSet()
     for (weight, lon, lat, feature_node) in self.__feature_list:
       if region.InRegion(lon, lat):
@@ -267,7 +270,6 @@ class FeatureSet(object):
 
 
   def SplitByRegion(self, region, max=None):
-
     """Moves features in the region into a new FeatureSet
 
     NOTE: This is destructive.  The features are DELETED
@@ -280,7 +282,6 @@ class FeatureSet(object):
     Returns:
       featureset: kml.featureset.FeatureSet
     """
-
     if max == None:
       max = len(self.__feature_list)
     fs = FeatureSet()
@@ -330,10 +331,6 @@ class FeatureSet(object):
     return (fs, fs0, fs1, fs2, fs3)
  
 
-  def Sort(self):
-    """Sort this FeatureSet largest weight first"""
-    self.__feature_list.sort()
-    self.__feature_list.reverse()
 
 
 class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
