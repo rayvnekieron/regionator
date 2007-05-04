@@ -176,7 +176,7 @@ class LineStringFeatureSetTestCase(unittest.TestCase):
 
 class FeatureSetRegionatorTestCase(unittest.TestCase):
   def setUp(self):
-    fs = kml.csvregionator.CreateFeatureSet('gec.csv','latin_1')
+    fs = kml.csvregionator.CreateFeatureSet('gec.csv', None, 'latin_1')
     minlod = 128
     maxper = 4
     fs_handler = kml.featureset.FeatureSetRegionHandler(fs, minlod, maxper)
