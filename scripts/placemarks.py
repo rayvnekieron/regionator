@@ -27,7 +27,7 @@ import os
 import kml.kmlregionator
 
 if len(sys.argv) != 4:
-  print 'usage: %s input.kml oroot.kml odir' % sys.argv[0]
+  print 'usage: %s input.kml oroot.kml odir' % os.path.basename(sys.argv[0])
   sys.exit(1)
 
 kmlfile = sys.argv[1]

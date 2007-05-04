@@ -22,15 +22,16 @@ $Revision$
 $Date$
 """
 
+import os
 import sys
-
 import kml.superoverlay
 
 try:
   superoverlayconfig = kml.superoverlay.SuperOverlayConfig(sys.argv[1:])
 except:
+  appname = os.path.basename(sys.argv[0])
   print '%s: [-v] -i image -d output_dir ' \
-        '[-k go.kml] [-r rookml] [-t tile_size]' % sys.argv[0]
+        '[-k go.kml] [-r rookml] [-t tile_size]' % appname
   sys.exit(1)
 
 kml.superoverlay.CreateSuperOverlay(superoverlayconfig)
