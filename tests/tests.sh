@@ -79,3 +79,4 @@
 ./testcsvregionator.py
 ./testsuperoverlay.py
 ./testicons.py
+./testkmlgetopt.py

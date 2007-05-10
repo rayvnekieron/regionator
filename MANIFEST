@@ -43,6 +43,7 @@ kml/checklinks.py
 kml/gatherlinks.py
 kml/checkimages.py
 kml/icons.py
+kml/kmlgetopt.py
 scripts/cgiregionator.py
 scripts/placemarks.py
 scripts/superoverlay.py
@@ -50,6 +51,7 @@ scripts/kmlsuperoverlay.py
 scripts/insertregions.py
 scripts/checkregions.py
 scripts/checklinks.py
+scripts/kmlgatherlinks.py
 scripts/checkimages.py
 scripts/mkregionboxes.py
 scripts/getkml.py
@@ -129,3 +131,4 @@ tests/badregions.kml
 tests/testcheckimages.py
 tests/testsuperoverlay.py
 tests/testicons.py
+tests/testkmlgetopt.py
