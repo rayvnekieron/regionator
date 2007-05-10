@@ -26,40 +26,22 @@ import sys
 import time
 import kml.walk
 import kml.href
+import kml.kmlgetopt
 
 
 class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
 
-  def __init__(self, opts):
-    self.__check_kml = False
-    self.__check_html = False
-    self.__check_absolute = False
-    self.__check_relative = False
-    self.__verbose = False
-    self.__summary = False
-    self.__md5 = None
-    self.__encoding = None
-
-    opts, args = getopt.getopt(opts, "khravsce:",["k","h","r","a","v","s","c","e="])
-    for o,a in opts:
-      o = o.lstrip('-')
-      if o == 'k':
-        self.__check_kml = True
-      elif o == 'h':
-        self.__check_html = True
-      elif o == 'r':
-        self.__check_relative = True
-      elif o == 'a':
-        self.__check_absolute = True
-      elif o == 'v':
-        self.__verbose = True
-        self.__summary = True
-      elif o == 's':
-        self.__summary = True
-      elif o == 'c':
-        self.__md5 = md5.new('')
-      elif o == 'e':
-        self.__encoding = a
+  def __init__(self, go):
+    self.__check_kml = go.Get('k')
+    self.__check_html = go.Get('h')
+    self.__check_absolute = go.Get('a')
+    self.__check_relative = go.Get('r')
+    self.__verbose = go.Get('v')
+    self.__summary = go.Get('s')
+    if go.Get('c'):
+      self.__md5 = md5.new('')
+    else:
+      self.__md5 = None
 
     self.__node_count = 0
     self.__kml_link_count = 0
@@ -80,9 +62,6 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__error_count = 0
 
     self.__start_time = time.time()
-
-  def GetEncoding(self):
-    return self.__encoding
 
   def Status(self):
     return self.__error_count
@@ -229,12 +208,18 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self._CheckHtml(parent, node)
 
 
+def ParseArgv(argv):
+  return kml.kmlgetopt.Getopt(argv, 'kharvsce:u:')
 
-def CheckLinks(opts, kmlurl):
-  link_checking_node_handler = LinkCheckingNodeHandler(opts)
+def CheckLinks(argv):
+  go = ParseArgv(argv)
+  kmlurl = go.Get('u')
+  if not kmlurl:
+    return -1
+  link_checking_node_handler = LinkCheckingNodeHandler(go)
   hier = kml.walk.KMLHierarchy()
   hier.SetNodeHandler(link_checking_node_handler)
-  encoding = link_checking_node_handler.GetEncoding()
+  encoding = go.Get('e')
   if encoding:
     hier.SetEncoding(encoding)
   if not hier.Walk(kmlurl):

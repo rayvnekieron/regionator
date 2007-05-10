@@ -44,7 +44,7 @@ class BasicSuperOverlayTestCase(unittest.TestCase):
     status = kml.superoverlay.CreateSuperOverlay(superoverlay)
     assert True == status
     kml1 = os.path.join(dir, '1.kml')
-    assert 0 == kml.checklinks.CheckLinks('-rk', kml1)
+    assert 0 == kml.checklinks.CheckLinks(['-rk', '-u', kml1])
     region_handler = kml.checkregions.CheckRegions('', kml1)
     assert 0 == region_handler.Status()
 

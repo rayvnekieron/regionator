@@ -26,12 +26,14 @@ import unittest
 import os
 import tempfile
 import kml.checklinks
+import kml.kmlgetopt
 import kml.kmlregionator
 
 class NullTestCase(unittest.TestCase):
   def runTest(self):
     # Create an instance with no arguments
-    link_checker = kml.checklinks.LinkCheckingNodeHandler('')
+    go = kml.checklinks.ParseArgv([])
+    link_checker = kml.checklinks.LinkCheckingNodeHandler(go)
     # Do nothing and status should be 0
     assert 0 == link_checker.Status()
 
@@ -42,10 +44,12 @@ def RegionatePlacemarks():
   return dir
 
 def CheckLinks(dir):
-  link_checker = kml.checklinks.LinkCheckingNodeHandler(['-k','-r','-c'])
+  argv = ['-k','-r','-c','-u',os.path.join(dir, '1.kml')]
+  go = kml.checklinks.ParseArgv(argv)
+  link_checker = kml.checklinks.LinkCheckingNodeHandler(go)
   hier = kml.walk.KMLHierarchy()
   hier.SetNodeHandler(link_checker)
-  hier.Walk(os.path.join(dir, '1.kml'))
+  hier.Walk(go.Get('u'))
   return link_checker
 
 
@@ -60,14 +64,17 @@ class BasicTestCase(unittest.TestCase):
     # MakeRootKML basically expects a relative dir but we hand it
     # an absolute path in setUp.  So we hop over it here.
     kml1 = os.path.join(self.dir, '1.kml')
-    status = kml.checklinks.CheckLinks(['-k','-r'], kml1)
+    argv = ['-k','-r','-c','-u',kml1]
+    status = kml.checklinks.CheckLinks(argv)
     assert 0 == status
 
+  """
   def testLongArgs(self):
     # long args version of testCheckLinksOnRelativeKml()
     kml1 = os.path.join(self.dir, '1.kml')
     status = kml.checklinks.CheckLinks(['--k','--r','--e=latin1'], kml1)
     assert 0 == status
+  """
 
   def CheckLinks(self):
     link_checker = CheckLinks(self.dir)
@@ -99,7 +106,8 @@ class BasicTestCase(unittest.TestCase):
 
 class BasicHtmlTestCase(unittest.TestCase):
   def runTest(self):
-    link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k','-c'])
+    go = kml.checklinks.ParseArgv(['-h','-k','-r','-c'])
+    link_checker = kml.checklinks.LinkCheckingNodeHandler(go)
     hier = kml.walk.KMLHierarchy()
     hier.SetNodeHandler(link_checker)
     hier.Walk('html.kml')
@@ -126,7 +134,8 @@ class BasicHtmlTestCase(unittest.TestCase):
 
 class BadEncodingTestCase(unittest.TestCase):
   def setUp(self):
-    self.link_checker = kml.checklinks.LinkCheckingNodeHandler(['-h','-r','-k'])
+    go = kml.checklinks.ParseArgv(['-h','-k','-r'])
+    self.link_checker = kml.checklinks.LinkCheckingNodeHandler(go)
     self.hier = kml.walk.KMLHierarchy()
     self.hier.SetNodeHandler(self.link_checker)
 
@@ -165,7 +174,8 @@ class BadEncodingTestCase(unittest.TestCase):
 
 class NonExistentRootTestCase(unittest.TestCase):
   def runTest(self):
-    status = kml.checklinks.CheckLinks('','this-file-does-not-exist')
+    go = kml.checklinks.ParseArgv(['-u','this-file-does-not-exist'])
+    status = kml.checklinks.CheckLinks(go)
     assert -1 == status
 
 class CheckSumTestCase(unittest.TestCase):
@@ -182,9 +192,44 @@ class CheckSumTestCase(unittest.TestCase):
 class UseEncodingTestCase(unittest.TestCase):
   def runTest(self):
     # Expect failure
-    assert -1 == kml.checklinks.CheckLinks('', 'es-utf8.kml')
+    assert -1 == kml.checklinks.CheckLinks(['-u','es-utf8.kml'])
     # Expect success
-    assert 0 == kml.checklinks.CheckLinks(['-e','latin1'], 'es-utf8.kml')
+    assert 0 == kml.checklinks.CheckLinks(['-e','latin1','-u','es-utf8.kml'])
+
+class ParseArgvTestCase(unittest.TestCase):
+  def runTest(self):
+    # All possible args
+    argv = ['-k','-h','-a','-r','-v','-s','-c','-e','enc','-u','url']
+    go = kml.checklinks.ParseArgv(argv)
+    assert True == go.Get('k')
+    assert True == go.Get('h')
+    assert True == go.Get('a')
+    assert True == go.Get('r')
+    assert True == go.Get('v')
+    assert True == go.Get('s')
+    assert True == go.Get('c')
+    assert 'enc' == go.Get('e')
+    assert 'url' == go.Get('u')
+
+    # Junk args
+    argv = ['-j','-k','-l','garbage','blah']
+    go = kml.checklinks.ParseArgv(argv)
+    # If any argument bad Get() returns None
+    assert None == go.Get('k')
+
+    # Unset args
+    # Not setting '-h'
+    argv = ['-k','-u','url']
+    go = kml.checklinks.ParseArgv(argv)
+    assert True == go.Get('k')
+    assert 'url' == go.Get('u')
+    assert False == go.Get('h')
+    assert False == go.Get('v')
+
+    go = kml.checklinks.ParseArgv(['-e','latin1','-u','es-utf8.kml'])
+    assert 'latin1' == go.Get('e')
+    assert 'es-utf8.kml' == go.Get('u')
+
  
 
 def suite():
@@ -193,13 +238,16 @@ def suite():
   suite.addTest(BasicTestCase("testCheckLinksOnRelativeKml"))
   suite.addTest(BasicTestCase("testLinkCheckerOnRelativeKml"))
   suite.addTest(BasicTestCase("testLinkCheckerOnDamagedKml"))
+  """
   suite.addTest(BasicTestCase("testLongArgs"))
+  """
   suite.addTest(BasicHtmlTestCase())
   suite.addTest(BadEncodingTestCase("testWrongEncoding"))
   suite.addTest(BadEncodingTestCase("testCorrectEncoding"))
   suite.addTest(NonExistentRootTestCase())
   suite.addTest(CheckSumTestCase())
   suite.addTest(UseEncodingTestCase())
+  suite.addTest(ParseArgvTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

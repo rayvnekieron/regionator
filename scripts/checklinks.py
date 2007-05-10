@@ -6,7 +6,7 @@ import sys
 import kml.checklinks
 
 if len(sys.argv) < 2:
-  print 'usage: %s [-k] [-h] [-a] [-r] [-v] [-s] [-c] [-e encoding] url.kml' \
+  print 'usage: %s [-k] [-h] [-a] [-r] [-v] [-s] [-c] [-e encoding] -u url.kml' \
                                                                   % sys.argv[0]
   print '   -k: check KML hrefs'
   print '   -h: check HTML hrefs'
@@ -16,13 +16,12 @@ if len(sys.argv) < 2:
   print '   -v: verbose'
   print '   -s: print summary only'
   print '   -e encoding: override xml encoding'
+  print '   -u url.kml: KML file or hierarchy to check'
   sys.exit(1)
 
-inputkml = sys.argv[len(sys.argv)-1]
-
-status = kml.checklinks.CheckLinks(sys.argv[1:], inputkml)
+status = kml.checklinks.CheckLinks(sys.argv[1:])
 
 if status == -1:
-  print '%s: not found or failed parse' % inputkml
+  print 'KML arg bad'
 
 sys.exit(status)
