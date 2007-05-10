@@ -72,6 +72,13 @@ class WriteKmzTestCase(unittest.TestCase):
     assert kml.kmz.WriteAsKmz(kmldata, kmzfile)
     os.unlink(kmzfile)
 
+class ExtractKmlTestCase(unittest.TestCase):
+  def runTest(self):
+    kmldata = kml.kmz.ExtractKMLFile('foo.kmz')
+    lines = kmldata.split('\n')
+    assert '<kml xmlns="http://earth.google.com/kml/2.1">' == lines[0]
+    assert '<name>foo name</name>' == lines[4]
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -79,6 +86,7 @@ def suite():
   suite.addTest(HttpKmzTestCase())
   suite.addTest(SimpleExtractTestCase())
   suite.addTest(WriteKmzTestCase())
+  suite.addTest(ExtractKmlTestCase())
   return suite
 
 
