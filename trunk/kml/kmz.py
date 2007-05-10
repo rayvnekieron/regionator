@@ -54,10 +54,10 @@ class Kmz:
 
     try:
       zfd = zipfile.ZipFile(kmz_path)
+      self.__zfd = zfd
     except:
       self.__del__()
 
-    self.__zfd = zfd
     return
 
   def __del__(self):
@@ -164,7 +164,7 @@ def ExtractKMLFile(kmzfile):
   """
 
   kmz = Kmz(kmzfile)
-  return kmz.KmlFileData()
+  return kmz.ReadKml()
 
 
 def Create(zipfilename, namelist, dir):
