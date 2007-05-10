@@ -20,32 +20,24 @@ $Revision$
 $Date$
 """
 
-import getopt
 import md5
 import sys
 import kml.walk
 import kml.href
+import kml.kmlgetopt
 
 
 class LinkGatheringNodeHandler(kml.walk.KMLNodeHandler):
 
-  def __init__(self, opts):
+  def __init__(self, go):
     self.__links = {}
-    self.__gather_kml = False
-    self.__gather_html = False
-    self.__gather_relative = False
-    self.__gather_absolute = False
+    self.__gather_kml = go.Get('k')
+    self.__gather_html = go.Get('h')
+    self.__gather_relative = go.Get('r')
+    self.__gather_absolute = go.Get('a')
 
-    opts, args = getopt.getopt(opts, "khra")
-    for o,a in opts:
-      if o == '-k':
-        self.__gather_kml = True
-      elif o == '-h':
-        self.__gather_html = True
-      elif o == '-r':
-        self.__gather_relative = True
-      elif o == '-a':
-        self.__gather_absolute = True
+  def SetRoot(self, root):
+    self.__root = root
 
   def Links(self):
     return self.__links
@@ -91,12 +83,19 @@ class LinkGatheringNodeHandler(kml.walk.KMLNodeHandler):
       self._GatherHtmlLinks(parent, node)
 
 
+def ParseArgv(argv):
+  return kml.kmlgetopt.Getopt(argv, 'khare:u:')
 
-def GatherLinks(opts, kmlurl):
-  link_gathering_node_handler = LinkGatheringNodeHandler(opts)
+
+def GatherLinks(argv):
+  go = ParseArgv(argv)
+  link_gathering_node_handler = LinkGatheringNodeHandler(go)
   hier = kml.walk.KMLHierarchy()
   hier.SetNodeHandler(link_gathering_node_handler)
-  if not hier.Walk(kmlurl):
+  enc = go.Get('e')
+  if enc:
+    hier.SetEncoding(enc)
+  if not hier.Walk(go.Get('u')):
     return None
   return link_gathering_node_handler.Links()
 
@@ -112,3 +111,7 @@ def PrintLinks(link_map):
   link_list.sort()
   for link in link_list:
     print link,link_map[link]
+
+def GatherAndPrintLinks(opts, kmlurl):
+  map = GatherLinks(opts, kmlurl)
+  PrintLinks(map)

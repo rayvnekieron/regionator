@@ -51,12 +51,12 @@ class BasicRbNLTestCase(unittest.TestCase):
 
   def testGatherNoLinks(self):
     kml1 = os.path.join(self.dir, '1.kml')
-    links = kml.gatherlinks.GatherLinks('', kml1)
+    links = kml.gatherlinks.GatherLinks(['-u', kml1])
     assert 0 == len(links)
 
   def testGatherRelativeKmlLinks(self):
     kml1 = os.path.join(self.dir, '1.kml')
-    links = kml.gatherlinks.GatherLinks(['-k','-r'], kml1)
+    links = kml.gatherlinks.GatherLinks(['-k','-r','-u',kml1])
     # The above RnNL hierarchy is known to have files 2.kml ... 50.kml
     filenum = 2
     while filenum <= 50:
@@ -66,7 +66,7 @@ class BasicRbNLTestCase(unittest.TestCase):
 
 class BasicRelativeTestCase(unittest.TestCase):
   def runTest(self):
-    links = kml.gatherlinks.GatherLinks(['-h','-k','-r'],'html.kml')
+    links = kml.gatherlinks.GatherLinks(['-h','-k','-r','-u','html.kml'])
     assert 1 == links['../sketchup_building_golden1.png']
     assert 1 == links['../3dwh-logo_en.gif']
     assert 1 == links['../../placemarks/99/1952f8d3e8d27fe065a153e1a3d3359c.jpg']
@@ -74,7 +74,7 @@ class BasicRelativeTestCase(unittest.TestCase):
 
 class BasicAbsoluteTestCase(unittest.TestCase):
   def runTest(self):
-    links = kml.gatherlinks.GatherLinks(['-h','-k','-a'],'html.kml')
+    links = kml.gatherlinks.GatherLinks(['-h','-k','-a','-u','html.kml'])
     assert 5 == len(links)
     assert 1 == links['http://sketchup.google.com/support/bin/answer.py?answer=57057&hl=en']
     assert 1 == links['http://sketchup.google.com/support/bin/request.py?contact_type=reportmodel&hl=en&mid=1952f8d3e8d27fe065a153e1a3d3359c']
@@ -84,7 +84,7 @@ class BasicAbsoluteTestCase(unittest.TestCase):
 
 class NonExistentRootTestCase(unittest.TestCase):
   def runTest(self):
-    assert None == kml.gatherlinks.GatherLinks('','no-such-file-or-url')
+    assert None == kml.gatherlinks.GatherLinks(['-u','no-such-file-or-url'])
 
 def suite(): 
   suite = unittest.TestSuite()

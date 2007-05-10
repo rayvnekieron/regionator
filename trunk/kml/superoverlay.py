@@ -21,7 +21,6 @@ $Date$
 """
 
 
-import getopt
 import sys
 import os
 
@@ -33,24 +32,29 @@ import kml.tile
 import kml.version
 import kml.kmlparse
 import kml.region
+import kml.kmlgetopt
 
 
 class SuperOverlayConfig(object):
 
-  def __init__(self, args):
+  def __init__(self, argv):
+    go = kml.kmlgetopt.Getopt(argv, "i:k:r:d:t:v")
+    self.__image_file = go.Get('i')
+    self.__gokml = go.Get('k')
+    self.__root_kml = go.Get('r')
+    self.__output_dir = go.Get('d')
+    tile_size = go.Get('t')
+    if tile_size:
+      self.__tile_size = int(tile_size)
+    else:
+      self.__tile_size = 256
+    self.__verbose = go.Get('v')
+
     self.__image = None
-    self.__image_file = None
-    self.__tile_size = 256
     self.__base_draw_order = 0
     self.__time_span = None
     self.__altitude = 0
-    self.__gokml = None
-    self.__verbose = False
     self.__tiles = {}
-    self.__root_kml = False
-    self.__output_dir = False
-
-    self._GetOpt(args)
 
     if not self.__image_file:
       raise "image file required"
@@ -58,22 +62,6 @@ class SuperOverlayConfig(object):
       raise "output dir required"
 
     self._InitImage()
-
-  def _GetOpt(self, args):
-    (opts, left_over_args) = getopt.getopt(args, "i:k:r:d:t:v")
-    for (option, value) in opts:
-      if option == '-i':
-        self.__image_file = value
-      elif option == '-k':
-        self.__gokml = value
-      elif option == '-r':
-        self.__root_kml = value
-      elif option == '-d':
-        self.__output_dir = value
-      elif option == '-t':
-        self.__tile_size = int(value)
-      elif option == '-v':
-        self.__verbose = True
 
   def _InitImage(self):
     self.__image = kml.image.Image(self.__image_file)
