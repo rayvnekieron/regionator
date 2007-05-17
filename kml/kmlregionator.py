@@ -20,16 +20,6 @@ $Revision$
 $Date$
 """
 
-""" SimpleKMLRegionHandler
-
-A Regionator of KML input data.
-
-The KML Features in the input are sorted into a
-Region NetworkLink hierarchy with the given number
-of features per region.
-
-"""
-
 import os
 import xml.dom.minidom
 import kml.kmlparse
@@ -81,6 +71,27 @@ class KMLRegionHandler(kml.featureset.FeatureSetRegionHandler):
 
 
 def RegionateKML(inputkml, min_lod_pixels, max_per, rootkml, dir, verbose):
+  """Regionate a KML file
+
+  The KML Placemarks in the input are sorted into a
+  Region NetworkLink hierarchy with the given number
+  of features per region.
+
+  The RbNL sort order depends on the Placemark's Geometry:
+  Point/Model: order in appearance in inputkml "most important" first.
+  LineString/Polygon: order by NSEW bounding box size.
+  See kml.featureset.FeatureSet().
+
+  Args:
+    input: KML file of Placemarks
+    min_lod_pixels: value for <minLodPixels>
+    max_per: maximum number of Placemarks per node
+    rootkml: file to create to point to RbNL hierarchy
+    dir: directory to write RbNL (must exist)
+    verbose: if False operate silently
+  Returns:
+    kml.regionator.Regionator: or None if anything failed
+  """
 
   if not os.access(dir, os.W_OK):
     if verbose:

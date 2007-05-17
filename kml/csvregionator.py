@@ -28,10 +28,30 @@ import kml.qidboxes
 
 
 def CDATA(cdata):
+  """Create a CDATA section
+
+  Args:
+    arbitrary_text: as the name suggests
+  Returns:
+    <![CDATA[arbitrary_text]]>
+  """
   return '<![CDATA[%s]]>' % cdata
 
 
 def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
+  """Create Point Placemark
+  
+  The name and description will be wrapped in CDATA sections.
+
+  Args:
+    id: value to use for id attribute of <Placemark>
+    lon, lat: longitude, latitude
+    name: for <Placemark>'s <name>
+    description: for <Placemark>'s <description>
+    styleUrl: for <Placemark>'s <styleUrl>
+  Returns:
+    kml: '<Placemark>...</Placemark>'
+  """
   placemark = kml.genxml.Placemark()
   placemark.name = CDATA(name)
   placemark.id = id
@@ -47,9 +67,22 @@ def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
 
 
 def CreateFeatureSet(csvfile, global_styleUrl, codec):
-  # The styleUrl arg is either a string or None. If a string, we use the
-  # value as the global <styleUrl> for all features. An explicit styleUrl
-  # specified in csvfile will still override this if present.
+  """Create a FeatureSet from the CSV file
+
+  Each line of the input cvsfile represents a Point Placemark.
+  If global_styleUrl is not None it is used as the styleUrl for
+  any line with no styleUrl of its own.  If global_styleUrl is None
+  there is no styleUrl for the given line then no <styleUrl> is
+  generated for that point.
+
+  Args:
+    csvfile: lines of score|lat|lon|name|description[|styleUrl]
+    global_styleUrl: None or value for <styleUrl>
+    codec: encoding of name and description
+  Returns:
+    kml.featureset.FeatureSet: or None of anything fails
+  """
+
   try:
     file = open(csvfile, 'r')
   except:
@@ -77,6 +110,20 @@ def CreateFeatureSet(csvfile, global_styleUrl, codec):
 
 def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose,
                  global_styleUrl):
+  """Regionate the given CSV file
+
+  Args:
+    inputcsv: CSV file one point per line (see CreateFeatureSet())
+    codec: encoding of name and description in inputcsv
+    min_lod_pixels: value for <minLodPixels>
+    max_per: maximum number of items per output node
+    root: KML file to create to point to RbNL hierarchy
+    dir: directory write RnBNL to (must exist)
+    verbose: if False operate silently, if true print generated files on stdout
+    global_styleURL: value for <styleUrl> (see CreateFeatureSet())
+  Returns:
+    kml.regionator.Regionator: or None if anything fails
+  """
 
   if not os.access(dir, os.W_OK):
     if verbose:
