@@ -117,15 +117,10 @@ class FeatureSet(object):
       False: invalid Point Placemark not added
 
     """
-    point_node = kml.kmlparse.GetFirstChildElement(placemark_dom_node, 'Point')
-    if point_node:
-      coords = kml.kmlparse.GetSimpleElementText(point_node, 'coordinates')
-      if coords:
-        lonlatalt = kml.coordinates.ParsePointCoordinates(coords)
-        lon = lonlatalt[0]
-        lat = lonlatalt[1]
-        self.AddFeatureAtLocation(lon, lat, placemark_dom_node)
-        return True
+    loc = kml.kmlparse.ParsePointLoc(placemark_dom_node)
+    if loc:
+      self.AddFeatureAtLocation(loc[0], loc[1], placemark_dom_node)
+      return True
     return False
 
   def _AddCoordinatesFeature(self, geometry_dom_node, placemark_dom_node):

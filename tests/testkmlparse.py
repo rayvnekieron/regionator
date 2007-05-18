@@ -239,6 +239,27 @@ class ParseUsingCodecTestCase(unittest.TestCase):
     assert 1 == len(style)
     assert 'MyStyleId' == style[0].getAttribute('id')
 
+point_2d_xml = ['<Placemark>',
+                '<Point><coordinates>-123,38</coordinates></Point>',
+                '</Placemark>']
+
+point_3d_xml = ['<Placemark>',
+                '<Point><coordinates>10.1,-34.8,10001</coordinates></Point>',
+                '</Placemark>']
+
+class ParsePointLocTestCase(unittest.TestCase):
+  def runTest(self):
+    node = xml.dom.minidom.parseString("".join(point_2d_xml))
+    (lon,lat) = kml.kmlparse.ParsePointLoc(node)
+    assert -123 == lon
+    assert 38 == lat
+
+    node = xml.dom.minidom.parseString("".join(point_3d_xml))
+    (lon,lat,alt) = kml.kmlparse.ParsePointLoc(node)
+    assert 10.1 == lon
+    assert -34.8 == lat
+    assert 10001 == alt
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -263,6 +284,7 @@ def suite():
   suite.addTest(ParseFeatureRegionTestCase())
   suite.addTest(GetNetworkLinkHrefTestCase())
   suite.addTest(ParseUsingCodecTestCase())
+  suite.addTest(ParsePointLocTestCase())
   return suite
 
 
