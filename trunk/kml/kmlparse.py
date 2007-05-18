@@ -662,3 +662,21 @@ def Decode(data, codec):
     return decoded_data
   except:
     return None
+
+
+def ParsePointLoc(placemark_node):
+  """Parse out the location of the Point Placemark
+  Args:
+    placemark_node: xml.dom.minidom node for Placemark
+  Returns:
+    (lon,lat,alt): for <coordinates>lon,lat,alt</coordinates>
+    (lon,lat): for <ccordinates>lon,lat</coordinates>
+    None: if no Point or no cooordinates
+  """
+  point_node = kml.kmlparse.GetFirstChildElement(placemark_node, 'Point')
+  if point_node:
+    coords = kml.kmlparse.GetSimpleElementText(point_node, 'coordinates')
+    if coords:
+      return kml.coordinates.ParsePointCoordinates(coords)
+  return None
+
