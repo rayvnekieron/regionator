@@ -1,0 +1,38 @@
+
+This shows some ways to present a sample large dataset of
+15,000 Swiss transit stations and the 18,000 connections between them.
+
+
+Short form:
+
+1) sh regionate.sh
+2) open ch-sbb.kml
+
+
+Long form:
+
+ch-stations.csv:
+  "CSV" file of 15,000 transit station locations and count
+  of connections per day.
+
+ch-connections.csv:
+  "CSV" file of 18,000 connections between transit stations.
+
+
+There are 3 programs to "regionate" this data:
+
+regionator-basic.sh:
+  RbNL hierarchy of stations using standard csvregionator with no styling.
+
+regionator-style.sh:
+  RbNL hiearchy of stations with styleUrl per Placemark to global shared style.
+
+regionator-multi.py:
+  RbNL hierarchy of station points and lines for connections using
+  global shared style.
+
+
+Open this file in Google Earth to view the result:
+
+ch-sbb.kml:
+  A radio folder to each of the 3 RbNL hierachies.
