@@ -66,6 +66,28 @@ def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
   return placemark.xml()
 
 
+def ParseCsvLine(csv_line, codec):
+  """
+  NOTE: The csv_line is lat, lon
+        The tuple is lon, lat
+        The returned style_url is None if the csv_line has no such entry
+  Args:
+    csv_line: score|lat|lon|name|description[|style_url]
+  Returns:
+    tuple: (score, lon, lat, name, description, style_url)
+  """
+  tuple = csv_line.split('|')
+  score = int(tuple[0])
+  lat = float(tuple[1])
+  lon = float(tuple[2])
+  name = tuple[3].decode(codec)
+  description = tuple[4].decode(codec)
+  if len(tuple) == 6:
+    styleurl = tuple[5]
+  else:
+    styleurl = None
+  return (score, lon, lat, name, description, styleurl)
+
 def CreateFeatureSet(csvfile, global_styleUrl, codec):
   """Create a FeatureSet from the CSV file
 
@@ -90,15 +112,8 @@ def CreateFeatureSet(csvfile, global_styleUrl, codec):
   feature_set = kml.featureset.FeatureSet()
   count = 0
   for line in file:
-    tuple = line.split('|')
-    score = int(tuple[0])
-    lat = float(tuple[1])
-    lon = float(tuple[2])
-    name = tuple[3].decode(codec)
-    description = tuple[4].decode(codec)
-    if len(tuple) == 6: # override the global styleUrl (if any)
-      styleUrl = tuple[5].decode(codec)
-    else:
+    (score, lon, lat, name, description, styleUrl) = ParseCsvLine(line, codec)
+    if not styleUrl and global_styleUrl:
       styleUrl = global_styleUrl
     id = 'pm%d' % count
     placemark_kml = CreatePlacemark(id, lon, lat, name, description, styleUrl)

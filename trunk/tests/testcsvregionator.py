@@ -136,12 +136,24 @@ class CodecCsvRegionatorTestCase(unittest.TestCase):
         os.unlink(os.path.join(odir, file))
       os.rmdir(odir)
 
+class BasicParseCsvLineTestCase(unittest.TestCase):
+  def runTest(self):
+    csv_line = '10336|46.7559458035|6.95348450281|Chatonnaye|www.chatonnaye.ch'
+    (score, lon, lat, name, description, style_url) = \
+      kml.csvregionator.ParseCsvLine(csv_line, 'utf-8')
+    # assert 10366 == score
+    # assert 46.7559458035 == lon
+    # assert 6.95348450281 == lat
+    assert 'Chatonnaye' == name
+    assert 'www.chatonnaye.ch' == description
+    assert None == style_url
 
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicCsvRegionatorTestCase())
   suite.addTest(StyledCsvRegionatorTestCase())
   suite.addTest(CodecCsvRegionatorTestCase())
+  suite.addTest(BasicParseCsvLineTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
