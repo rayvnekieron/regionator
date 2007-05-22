@@ -46,6 +46,10 @@ def MakeDashBoard(rtor, dbfile):
   rootregion = rtor.RootRegion()
   maxdepth = rtor.MaxDepth()
 
+  # Anything more fills too much of the screen.
+  if maxdepth > 6:
+    maxdepth = 6
+
   qids = rtor.QidList()
   for qid in qids:
     r = rootregion.Region(qid)
@@ -54,6 +58,9 @@ def MakeDashBoard(rtor, dbfile):
     kmlregion = kml.genkml.Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
 
     depth = r.Depth()
+    # There are only so many levels to reasonably show.
+    if depth > maxdepth:
+      continue
     (x,y) = r.Grid()
     s = kml.region.DepthScale(depth,maxdepth)
 
