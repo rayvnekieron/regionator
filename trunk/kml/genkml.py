@@ -233,6 +233,25 @@ def LineStringAltBox(n,s,e,w,alt,altMode='relativeToGround'):
   return linestring.xml()
 
 
+def SimpleLineString(a_lon, a_lat, b_lon, b_lat):
+  """
+  Create a LineString from point a to point b
+
+  Args:
+    a_lon, a_lat: point at one end
+    b_lon, b_lat: point at the other
+  Returns:
+    kml: '<LineString>...</LineString>'
+  """
+  coordinates = kml.genkml.Coordinates()
+  coordinates.AddPoint2(a_lon, a_lat)
+  coordinates.AddPoint2(b_lon, b_lat)
+  linestring = kml.genxml.LineString()
+  linestring.coordinates = coordinates.Coordinates()
+  linestring.tessellate = 1
+  return linestring.xml()
+
+
 def Box(n,s,e,w,name,styleurl=None,alt=None,altMode='relativeToGround'):
 
   """<Placemark><LineString>...</LineString></Placemark>
