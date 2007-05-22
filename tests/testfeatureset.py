@@ -203,6 +203,31 @@ class FeatureSetRegionatorTestCase(unittest.TestCase):
     assert 0 == errors
 
 
+class BasicRegionateTestCase(unittest.TestCase):
+  def setUp(self):
+    self.fs = kml.csvregionator.CreateFeatureSet('gec.csv', None, 'latin_1')
+    self.tmpdir = tempfile.mkdtemp()
+
+  def tearDown(self):
+    for file in os.listdir(self.tmpdir):
+      os.unlink(os.path.join(self.tmpdir, file))
+    os.rmdir(self.tmpdir)
+
+  def testRegionate(self):
+    minlod = 128
+    maxper = 4
+    rtor = kml.featureset.Regionate(self.fs, minlod, maxper, None,
+                                    self.tmpdir, False)
+    kml1 = os.path.join(self.tmpdir, '1.kml')
+    region_handler = kml.checkregions.CheckRegions('-rk', kml1)
+    # Verify same result as FeatureSetRegionatorTestCase, testKmlHierarchy
+    (regions, files, errors) = region_handler.Statistics()
+    assert 1422 == regions
+    assert 356 == files
+    assert 0 == errors
+
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(SimpleFeatureSetTestCase("testSize"))
@@ -219,6 +244,7 @@ def suite():
   suite.addTest(LineStringFeatureSetTestCase("testLoc"))
   suite.addTest(LineStringFeatureSetTestCase("testSort"))
   suite.addTest(FeatureSetRegionatorTestCase("testKmlHierarchy"))
+  suite.addTest(BasicRegionateTestCase("testRegionate"))
   return suite
 
 runner = unittest.TextTestRunner()
