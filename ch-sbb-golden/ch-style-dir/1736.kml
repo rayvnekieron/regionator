@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1736 032030113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.03271484375</north>
+<south>46.0107421875</south>
+<east>8.96484375</east>
+<west>8.94287109375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14417">
+<name><![CDATA[Lugano, Cimitero]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.957600,46.019600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12859">
+<name><![CDATA[Lugano, Vignola]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.956370,46.017300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1066">
+<name><![CDATA[Porza, Tavesio]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.956610,46.030500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8525">
+<name><![CDATA[Porza, Paese]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.951330,46.026500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6358">
+<name><![CDATA[Savosa, Paese]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.951140,46.024300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2724">
+<name><![CDATA[Savosa, Roncaccio]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.947190,46.021300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5643">
+<name><![CDATA[La Santa]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.964730,46.011500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6794">
+<name><![CDATA[Lugano, Cornaredo]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.960470,46.023000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

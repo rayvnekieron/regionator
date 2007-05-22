@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>967 0231003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>7.91015625</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02310030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>968.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02310031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>7.91015625</east>
+<west>7.8662109375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>972.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02310032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.2744140625</north>
+<south>46.23046875</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>977.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02310033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.2744140625</north>
+<south>46.23046875</south>
+<east>7.91015625</east>
+<west>7.8662109375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>982.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6160">
+<name><![CDATA[Baltschieder, Hof]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>7.861250,46.309200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6371">
+<name><![CDATA[Visp, Forsthaus]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>7.853210,46.292100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm328">
+<name><![CDATA[Visperterminen, Schulhaus]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.901640,46.259300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8576">
+<name><![CDATA[Visperterminen, Dorfeingang]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.898030,46.257400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6156">
+<name><![CDATA[Visperterminen, Chrizji]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.896390,46.264000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2028">
+<name><![CDATA[Niederhäusern]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.895630,46.259100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9376">
+<name><![CDATA[Bizinen, Abzw.]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.894560,46.265900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2769">
+<name><![CDATA[Visperterminen, Bächji]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.893330,46.277500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10105">
+<name><![CDATA[Visperterminen, Oberstalden]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.893190,46.272800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2958">
+<name><![CDATA[Visperterminen, Unterstalden]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.889570,46.272800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5064">
+<name><![CDATA[Visp, Tschill]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.886830,46.287500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7192">
+<name><![CDATA[Visperterminen, Toppi]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.886250,46.280800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2130">
+<name><![CDATA[Visp, Spital]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.884300,46.288000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12815">
+<name><![CDATA[Visp, Hohlegasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.876380,46.291800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm976">
+<name><![CDATA[Visp, Schlüsselacker]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.874290,46.291700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4932">
+<name><![CDATA[Visp, Untere Albe]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.870870,46.292600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

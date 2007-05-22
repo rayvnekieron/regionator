@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>434 02113011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5844">
+<name><![CDATA[Birmenstorf AG, Heigelweg]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.260180,47.457700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14007">
+<name><![CDATA[Birmenstorf AG, Mellingerstr.]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.251580,47.459600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10481">
+<name><![CDATA[Birrhard, Steibode]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.247650,47.441000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4960">
+<name><![CDATA[Birrhard, Gemeindehaus]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.245880,47.433300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm474">
+<name><![CDATA[Birrhard, Unterdorf]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.244950,47.437400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7840">
+<name><![CDATA[Mülligen, Stock]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.242910,47.456300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5568">
+<name><![CDATA[Mülligen, Post]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.238630,47.457900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10169">
+<name><![CDATA[Mülligen, Löh]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.233650,47.457500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5502">
+<name><![CDATA[Birrhard, Post]]></name>
+<description><![CDATA[61 connections
+]]></description>
+<Point>
+<coordinates>8.241870,47.431300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

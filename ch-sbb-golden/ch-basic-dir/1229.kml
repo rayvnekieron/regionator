@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1229 03003012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7586">
+<name><![CDATA[Schindlet]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.895450,47.377300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1546">
+<name><![CDATA[Schmidrüti, Buchenenstock]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.912190,47.415500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1907">
+<name><![CDATA[Turbenthal, Freckmünd]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.891010,47.414500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10499">
+<name><![CDATA[Turbenthal, Kellersacker]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.885720,47.412400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12709">
+<name><![CDATA[Wila, Steinenbach]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.903260,47.402100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4781">
+<name><![CDATA[Sternenberg, Kirche]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.911540,47.387200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3583">
+<name><![CDATA[Sternenberg, Sunnenbad]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.906180,47.389700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

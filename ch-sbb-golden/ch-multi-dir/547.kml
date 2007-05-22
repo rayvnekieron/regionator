@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>547 02120222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Avry-sur-Matran, bif.</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.074570,46.786800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.074570,46.786800
+7.062150,46.782900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.074570,46.786800
+7.150440,46.803200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.074570,46.786800
+7.077520,46.785900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.074570,46.786800
+7.070630,46.788600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Avry-sur-Matran, village</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.070630,46.788600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.070630,46.788600
+7.150440,46.803200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.070630,46.788600
+7.048300,46.796600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.070630,46.788600
+7.077520,46.785900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.070630,46.788600
+7.074570,46.786800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.070630,46.788600
+7.062150,46.782900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Seedorf FR</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.048300,46.796600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.048300,46.796600
+7.070630,46.788600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.048300,46.796600
+7.027290,46.803700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

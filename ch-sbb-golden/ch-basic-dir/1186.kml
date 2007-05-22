@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1186 030023010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.26318359375</south>
+<east>8.67919921875</east>
+<west>8.6572265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10559">
+<name><![CDATA[Meilen, Hohenegg]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.660990,47.274000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9785">
+<name><![CDATA[Meilen, Au]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.667160,47.272300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11216">
+<name><![CDATA[Meilen, In der Au]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.665090,47.272400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6270">
+<name><![CDATA[Meilen, Charrhalten]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.663570,47.277000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6781">
+<name><![CDATA[Meilen, Roren]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.669920,47.282900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12242">
+<name><![CDATA[Meilen, Bundi]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.667020,47.281200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11917">
+<name><![CDATA[Meilen, Bezibüel-Chilchbüel]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.663090,47.279100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

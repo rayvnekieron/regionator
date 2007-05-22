@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>673 0212232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02122321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>674.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5800">
+<name><![CDATA[Gstaad, Eggli]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.285660,46.468300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6579">
+<name><![CDATA[Gstaad, Rütti Schulhaus]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.285150,46.469500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1144">
+<name><![CDATA[Grund b. Gstaad, Moosfang]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.281130,46.458500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12799">
+<name><![CDATA[Grund b. Gstaad,Moosfangbrücke]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.279190,46.455800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4877">
+<name><![CDATA[Grund b. Gstaad, Lädeli]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.277570,46.451900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14355">
+<name><![CDATA[Grund b. Gstaad, Post]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.274020,46.444700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6043">
+<name><![CDATA[Grund b. Gstaad, Klösterli]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.272420,46.435700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7319">
+<name><![CDATA[Grund b. Gstaad, Grundbrücke]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.270500,46.426100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5080">
+<name><![CDATA[Feutersoey, Bühl]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.268660,46.409000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3686">
+<name><![CDATA[Saanen, Bellerivstrasse]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.278460,46.481400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8636">
+<name><![CDATA[Saanen, Wyssmülleri]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.273240,46.485900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm322">
+<name><![CDATA[Saanen, Schwimmbad]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.269330,46.486800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5399">
+<name><![CDATA[Saanen, Bahnhof]]></name>
+<description><![CDATA[49 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.260210,46.488600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9545">
+<name><![CDATA[Saanen, Gemeindeverwaltung]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.261510,46.490400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12218">
+<name><![CDATA[Saanen, Steigenberger]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.266710,46.493100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14132">
+<name><![CDATA[Saanen, Grubenstrasse]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.281070,46.479600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

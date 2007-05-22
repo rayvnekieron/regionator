@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1659 03200303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>8.701171875</east>
+<west>8.6572265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5612">
+<name><![CDATA[Intragna FIPC]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.700830,46.179100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12563">
+<name><![CDATA[Costa FIPC]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.688090,46.176900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

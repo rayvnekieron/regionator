@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>127 02032213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.5380859375</north>
+<south>46.494140625</south>
+<east>6.50390625</east>
+<west>6.4599609375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Vaux-sur-Morges, village</name>
+<description>48 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.463250,46.535600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.463250,46.535600
+6.438700,46.541200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.463250,46.535600
+6.494320,46.510600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.463250,46.535600
+6.449690,46.546500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.463250,46.535600
+6.479020,46.528300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Morges, Vogéaz</name>
+<description>46 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.482590,46.510800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.482590,46.510800
+6.494320,46.510600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.482590,46.510800
+6.466410,46.504800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lully VD</name>
+<description>46 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.466410,46.504800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.466410,46.504800
+6.482590,46.510800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.466410,46.504800
+6.449160,46.504200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.466410,46.504800
+6.456390,46.518400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Monnaz, village</name>
+<description>44 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.479020,46.528300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.479020,46.528300
+6.494320,46.510600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.479020,46.528300
+6.463250,46.535600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Morges CGN</name>
+<description>28 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.500490,46.508400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.500490,46.508400
+6.561400,46.508500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.500490,46.508400
+6.461900,46.478700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

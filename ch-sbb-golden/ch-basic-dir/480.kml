@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>480 021133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0211330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>481.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>486.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>490.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>493.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7575">
+<name><![CDATA[Muri AG, Egg]]></name>
+<description><![CDATA[392 connections
+]]></description>
+<Point>
+<coordinates>8.343280,47.275400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1354">
+<name><![CDATA[Aristau, Birri]]></name>
+<description><![CDATA[372 connections
+]]></description>
+<Point>
+<coordinates>8.362280,47.279200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4366">
+<name><![CDATA[Hünenberg, Ehret]]></name>
+<description><![CDATA[334 connections
+]]></description>
+<Point>
+<coordinates>8.428150,47.169400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3813">
+<name><![CDATA[Gisikon-Root, Bahnhof]]></name>
+<description><![CDATA[324 connections
+]]></description>
+<Point>
+<coordinates>8.395380,47.121600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm660">
+<name><![CDATA[Muri AG, Bahnhof]]></name>
+<description><![CDATA[307 connections
+]]></description>
+<Point>
+<coordinates>8.339990,47.276300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm992">
+<name><![CDATA[Obfelden, Hirschen]]></name>
+<description><![CDATA[306 connections
+]]></description>
+<Point>
+<coordinates>8.433240,47.269200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10830">
+<name><![CDATA[Obfelden, Toussen]]></name>
+<description><![CDATA[306 connections
+]]></description>
+<Point>
+<coordinates>8.430950,47.264400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6963">
+<name><![CDATA[Obfelden, alte Post]]></name>
+<description><![CDATA[306 connections
+]]></description>
+<Point>
+<coordinates>8.420330,47.262100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14651">
+<name><![CDATA[Obfelden, Unterlunnern]]></name>
+<description><![CDATA[306 connections
+]]></description>
+<Point>
+<coordinates>8.409810,47.263400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10454">
+<name><![CDATA[Rotkreuz]]></name>
+<description><![CDATA[294 connections
+]]></description>
+<Point>
+<coordinates>8.430470,47.141800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14171">
+<name><![CDATA[Ottenbach, Post]]></name>
+<description><![CDATA[282 connections
+]]></description>
+<Point>
+<coordinates>8.405220,47.281400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12005">
+<name><![CDATA[Muri AG, Kreisel]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>8.341600,47.273600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6120">
+<name><![CDATA[Meierskappel, Feissenacker]]></name>
+<description><![CDATA[264 connections
+]]></description>
+<Point>
+<coordinates>8.434760,47.113400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm689">
+<name><![CDATA[Meierskappel, Neuhof]]></name>
+<description><![CDATA[264 connections
+]]></description>
+<Point>
+<coordinates>8.428110,47.109900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm117">
+<name><![CDATA[Rotkreuz, Weidstrasse]]></name>
+<description><![CDATA[256 connections
+]]></description>
+<Point>
+<coordinates>8.432220,47.136100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9037">
+<name><![CDATA[Rotkreuz, Schulanlagen]]></name>
+<description><![CDATA[256 connections
+]]></description>
+<Point>
+<coordinates>8.430300,47.139300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

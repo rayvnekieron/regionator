@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1758 03203101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.0107421875</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3758">
+<name><![CDATA[Oria]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.032680,46.021200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7391">
+<name><![CDATA[Gandria Confine]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.019730,46.015000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8294">
+<name><![CDATA[Gandria, Dogana]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.019460,46.015100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

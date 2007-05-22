@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1303 03010202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>9.1845703125</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11631">
+<name><![CDATA[Opfershofen TG, Dorf]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>9.174680,47.560100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2044">
+<name><![CDATA[Mauren TG, Post]]></name>
+<description><![CDATA[25 connections
+]]></description>
+<Point>
+<coordinates>9.154240,47.564900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

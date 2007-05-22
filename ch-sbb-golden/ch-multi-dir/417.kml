@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>417 02112313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.0859375</east>
+<west>8.0419921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Knutwil, Schmittenrain</name>
+<description>26 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.072770,47.200100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.072770,47.200100
+8.074380,47.196700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.072770,47.200100
+8.071440,47.199000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Knutwil, Gemeindehaus</name>
+<description>25 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.071440,47.199000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.071440,47.199000
+8.072770,47.200100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.071440,47.199000
+8.055640,47.202600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Knutwil, Eriswil</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.055640,47.202600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.055640,47.202600
+8.040160,47.205200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.055640,47.202600
+8.071440,47.199000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Triengen, Dorfschulhaus</name>
+<description>22 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.077160,47.235800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.077160,47.235800
+8.081530,47.242500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.077160,47.235800
+8.074850,47.236500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Triengen, Bahnhof</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.073510,47.234500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.073510,47.234500
+8.074850,47.236500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.073510,47.234500
+8.064490,47.226000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wilihof, Schulhaus</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.065440,47.222400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.065440,47.222400
+8.064490,47.226000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.065440,47.222400
+8.060120,47.218600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wilihof, Gemeindehaus</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.064490,47.226000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.064490,47.226000
+8.065440,47.222400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.064490,47.226000
+8.073510,47.234500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wilihof, Dieboldswil</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.060120,47.218600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.060120,47.218600
+8.065440,47.222400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

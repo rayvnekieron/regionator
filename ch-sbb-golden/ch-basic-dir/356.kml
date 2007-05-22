@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>356 02112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>8.0859375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>7.91015625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>357.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>377.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>7.91015625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>394.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>407.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13200">
+<name><![CDATA[Bubendorf, Unterdorf]]></name>
+<description><![CDATA[523 connections
+]]></description>
+<Point>
+<coordinates>7.738400,47.454500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9934">
+<name><![CDATA[Zofingen, Riedtalstrasse]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<Point>
+<coordinates>7.951440,47.278300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11444">
+<name><![CDATA[Zofingen, Römerbad]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<Point>
+<coordinates>7.948830,47.281900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4321">
+<name><![CDATA[Zofingen, Oberer Stadteingang]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<Point>
+<coordinates>7.947540,47.285000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7350">
+<name><![CDATA[Aarau, Post Kaufhaus]]></name>
+<description><![CDATA[454 connections
+]]></description>
+<Point>
+<coordinates>8.044270,47.392900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14441">
+<name><![CDATA[Rombach, Rombacherhof]]></name>
+<description><![CDATA[454 connections
+]]></description>
+<Point>
+<coordinates>8.043370,47.401000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14657">
+<name><![CDATA[Olten, Bahnhof]]></name>
+<description><![CDATA[430 connections
+]]></description>
+<Point>
+<coordinates>7.906830,47.352700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8259">
+<name><![CDATA[Zofingen, Bifangstrasse]]></name>
+<description><![CDATA[388 connections
+]]></description>
+<Point>
+<coordinates>7.944960,47.291300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4059">
+<name><![CDATA[Langenthal]]></name>
+<description><![CDATA[386 connections
+]]></description>
+<Point>
+<coordinates>7.784710,47.217300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11976">
+<name><![CDATA[Zofingen]]></name>
+<description><![CDATA[377 connections
+]]></description>
+<Point>
+<coordinates>7.943100,47.288100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm483">
+<name><![CDATA[Obergösgen, Dorf]]></name>
+<description><![CDATA[347 connections
+]]></description>
+<Point>
+<coordinates>7.950940,47.363700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm273">
+<name><![CDATA[Winznau, Dorf]]></name>
+<description><![CDATA[342 connections
+]]></description>
+<Point>
+<coordinates>7.932410,47.363800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5807">
+<name><![CDATA[Ettiswil, Post]]></name>
+<description><![CDATA[336 connections
+]]></description>
+<Point>
+<coordinates>8.015800,47.149300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11688">
+<name><![CDATA[Aarau, Bahnhof]]></name>
+<description><![CDATA[328 connections
+]]></description>
+<Point>
+<coordinates>8.051210,47.391600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9428">
+<name><![CDATA[Hägendorf, Solothurnerstrasse]]></name>
+<description><![CDATA[322 connections
+]]></description>
+<Point>
+<coordinates>7.840820,47.331800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14462">
+<name><![CDATA[Wangen b. Olten, Dorf]]></name>
+<description><![CDATA[321 connections
+]]></description>
+<Point>
+<coordinates>7.870020,47.342500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

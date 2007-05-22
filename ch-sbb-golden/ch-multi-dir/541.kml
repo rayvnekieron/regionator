@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>541 02120210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>7.1630859375</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Jeuss, Schulhaus</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.161710,46.904000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.161710,46.904000
+7.151680,46.901000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.161710,46.904000
+7.148540,46.912900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Cressier FR, bif.</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.151680,46.901000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.151680,46.901000
+7.161710,46.904000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.151680,46.901000
+7.170950,46.892300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Salvenach, Schulhaus</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.148540,46.912900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.148540,46.912900
+7.161710,46.904000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.148540,46.912900
+7.115630,46.925600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Münchenwiler, Bären</name>
+<description>30 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.124910,46.912900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.124910,46.912900
+7.106480,46.920700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.124910,46.912900
+7.114830,46.911900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.124910,46.912900
+7.152370,46.932700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Altavilla</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.152370,46.932700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.152370,46.932700
+7.124910,46.912900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.152370,46.932700
+7.172090,46.928300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

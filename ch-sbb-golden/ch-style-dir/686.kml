@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>686 0212311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm802">
+<name><![CDATA[Spiezwiler, Rössli]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.666070,46.681900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4035">
+<name><![CDATA[Faulensee, Dorf]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.702770,46.674900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm151">
+<name><![CDATA[Faulensee ThS]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.703580,46.676000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7121">
+<name><![CDATA[Spiez Schiffstation]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.689920,46.688400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2232">
+<name><![CDATA[Oberhofen am Thunersee]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.667490,46.730400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3035">
+<name><![CDATA[Hilterfingen ThS]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.657330,46.735100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1264">
+<name><![CDATA[Gunten ThS]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.700320,46.712500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3470">
+<name><![CDATA[Spiez, Altersheim]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.696080,46.671000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1684">
+<name><![CDATA[Schwanden (Sigriswil), Säge]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.729110,46.739300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4677">
+<name><![CDATA[Aeschlen ob Gunten, Dorf]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.698590,46.720000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14350">
+<name><![CDATA[Heustrich-Emdthal]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.684560,46.670300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8908">
+<name><![CDATA[Spiez, Seepark]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.695160,46.684300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12943">
+<name><![CDATA[Spiez, Schiffstation]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.688310,46.688100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2055">
+<name><![CDATA[Einigen ThS]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.647190,46.709700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2852">
+<name><![CDATA[Spiez, Ghei]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.654390,46.702600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

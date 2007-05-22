@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1072 0300102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Stein URh</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.856640,47.659900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.856640,47.659900
+8.748850,47.690400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.856640,47.659900
+8.894480,47.652200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Ramsen, Milchzentrale</name>
+<description>30 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.810760,47.707200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.810760,47.707200
+8.807360,47.707100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.810760,47.707200
+8.782230,47.717100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Ramsen, Mühle</name>
+<description>30 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.807360,47.707100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.807360,47.707100
+8.810760,47.707200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.807360,47.707100
+8.755730,47.696600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

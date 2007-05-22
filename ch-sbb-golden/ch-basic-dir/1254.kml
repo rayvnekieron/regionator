@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1254 03003131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>9.140625</east>
+<west>9.0966796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10043">
+<name><![CDATA[Brunnadern-Neckertal, Bahnhof]]></name>
+<description><![CDATA[77 connections
+]]></description>
+<Point>
+<coordinates>9.130400,47.338100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1744">
+<name><![CDATA[Oberhelfenschwil, Metzwil]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.123160,47.349600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11801">
+<name><![CDATA[Oberhelfenschwil, Post]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.113370,47.354300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11275">
+<name><![CDATA[Oberhelfenschwil, Tobelacker]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.100680,47.350400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4201">
+<name><![CDATA[Necker, Grütli]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>9.130380,47.348000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

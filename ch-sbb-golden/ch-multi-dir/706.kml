@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>706 0213001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.91015625</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Eriswil, Hinterdorf</name>
+<description>54 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.856000,47.072700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.856000,47.072700
+7.850790,47.079900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.856000,47.072700
+7.847780,47.074000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wyssachen, Post</name>
+<description>50 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.829700,47.078100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.829700,47.078100
+7.829670,47.073700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.829700,47.078100
+7.828600,47.107800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wyssachen, Abzw. Roggengrat</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.829670,47.073700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.829670,47.073700
+7.829700,47.078100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.829670,47.073700
+7.838460,47.060800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wyssachen, Fritzenflue</name>
+<description>14 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.838460,47.060800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.838460,47.060800
+7.847780,47.074000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.838460,47.060800
+7.829670,47.073700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

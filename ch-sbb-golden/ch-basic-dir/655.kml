@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>655 0212200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>7.119140625</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7786">
+<name><![CDATA[Le Bry, poste]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.082980,46.703100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2348">
+<name><![CDATA[Gumefens]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.079230,46.677000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm678">
+<name><![CDATA[Sorens, Malessert laiterie]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.036930,46.670400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2390">
+<name><![CDATA[Cottens FR, gare]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<Point>
+<coordinates>7.034560,46.751100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5561">
+<name><![CDATA[Pont-la-Ville]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.110460,46.698700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11691">
+<name><![CDATA[Rueyres-St-Laurent, village]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.031890,46.715600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11150">
+<name><![CDATA[Farvagny-le-Grand, CO Gibloux]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.069460,46.720200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

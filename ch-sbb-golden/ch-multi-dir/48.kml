@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>48 02030323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>6.591796875</east>
+<west>6.5478515625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Villars-sous-Champvent</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.583130,46.786400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.583130,46.786400
+6.579710,46.795200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.583130,46.786400
+6.575310,46.784100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Champvent, poste</name>
+<description>13 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.575310,46.784100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.575310,46.784100
+6.572390,46.782500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.575310,46.784100
+6.583130,46.786400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Essert-sous-Champvent, gare</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.579710,46.795200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.579710,46.795200
+6.583130,46.786400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Champvent, Croix fédérale</name>
+<description>3 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.572390,46.782500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.572390,46.782500
+6.575310,46.784100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

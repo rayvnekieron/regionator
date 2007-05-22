@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>701 0212333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4674">
+<name><![CDATA[Kandersteg LKS]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.663560,46.476600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11424">
+<name><![CDATA[Sunnbüel]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.650440,46.457900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6007">
+<name><![CDATA[Selden, Gasthaus Steinbock]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.724940,46.445200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9716">
+<name><![CDATA[Kandersteg, Neubrücke/Waldhaus]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.661330,46.484900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14821">
+<name><![CDATA[Kandersteg, Kasernement Bären]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.659990,46.475000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6151">
+<name><![CDATA[Kandersteg, Talstat. Sunnbüel]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.663440,46.476900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12437">
+<name><![CDATA[Selden, Hotel Gasterntal]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.726230,46.444300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2797">
+<name><![CDATA[Kandersteg KlKA]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.661020,46.489200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4222">
+<name><![CDATA[Allmenalp]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.649450,46.492300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

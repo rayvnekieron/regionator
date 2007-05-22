@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>805 02133011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7839">
+<name><![CDATA[Mägisalp]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.236860,46.749300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13145">
+<name><![CDATA[Bidmi MHB]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.219430,46.744200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14846">
+<name><![CDATA[Planplatten]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.257250,46.737700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

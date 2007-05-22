@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1040 03000213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8733">
+<name><![CDATA[Flaach, Schollenberg]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.587520,47.574200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4847">
+<name><![CDATA[Flaach, Ziegelhütte]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.581650,47.575100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

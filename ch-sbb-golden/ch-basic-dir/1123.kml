@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1123 03002020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.4814453125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030020200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.35107421875</south>
+<east>8.45947265625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1124.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030020201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.35107421875</south>
+<east>8.4814453125</east>
+<west>8.45947265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1125.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030020203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.35107421875</north>
+<south>47.3291015625</south>
+<east>8.4814453125</east>
+<west>8.45947265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1126.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm11388">
+<name><![CDATA[Stallikon, Diebis]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>8.476400,47.348900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7826">
+<name><![CDATA[Wettswil a.A., Heidenchilen]]></name>
+<description><![CDATA[200 connections
+]]></description>
+<Point>
+<coordinates>8.466690,47.345600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15130">
+<name><![CDATA[Birmensdorf ZH, Landikon]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<Point>
+<coordinates>8.461710,47.352400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6540">
+<name><![CDATA[Birmensdorf ZH, Obere Risi]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<Point>
+<coordinates>8.450740,47.358800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15064">
+<name><![CDATA[Birmensdorf ZH]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.437540,47.357400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm385">
+<name><![CDATA[Uitikon Waldegg]]></name>
+<description><![CDATA[157 connections
+]]></description>
+<Point>
+<coordinates>8.465980,47.365800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2793">
+<name><![CDATA[Ringlikon]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.477380,47.360200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5343">
+<name><![CDATA[Wettswil a.A., Moosstrasse]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>8.474750,47.335000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6827">
+<name><![CDATA[Uitikon, Neuhaus]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<Point>
+<coordinates>8.463870,47.364200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm734">
+<name><![CDATA[Uitikon, Halde]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<Point>
+<coordinates>8.458720,47.369300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12474">
+<name><![CDATA[Uitikon, Roracher]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<Point>
+<coordinates>8.451400,47.372100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12039">
+<name><![CDATA[Wettswil a.A., Beerimoos]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.480070,47.329600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2651">
+<name><![CDATA[Wettswil a.A., Chilenholzstr.]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.478710,47.334100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15127">
+<name><![CDATA[Wettswil a.A., Schürli]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.477890,47.332900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5997">
+<name><![CDATA[Wettswil a.A., Oberhusen]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.477850,47.337700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9933">
+<name><![CDATA[Wettswil a.A., Eggächer]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.475800,47.340200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

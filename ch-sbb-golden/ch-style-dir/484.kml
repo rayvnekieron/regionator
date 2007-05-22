@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>484 02113302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.3056640625</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7522">
+<name><![CDATA[Lieli LU, Dorf]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.298440,47.207700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1512">
+<name><![CDATA[Sulz LU, Chlotisberg]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.287500,47.216900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12133">
+<name><![CDATA[Sulz LU, Oberdorf]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.286200,47.218400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3529">
+<name><![CDATA[Gelfingen, Bäckerei]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.265020,47.214400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3798">
+<name><![CDATA[Hämikon, Berg]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.295420,47.241200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

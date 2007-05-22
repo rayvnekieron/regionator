@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>644 02121320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>7.6025390625</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13674">
+<name><![CDATA[Wichtrach, Bernstrasse]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.576420,46.844800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1983">
+<name><![CDATA[Kiesen, Dorf]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.586060,46.821200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

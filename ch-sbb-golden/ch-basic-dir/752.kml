@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>752 02131130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>8.3935546875</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021311302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.99951171875</north>
+<south>46.9775390625</south>
+<east>8.37158203125</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>753.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6274">
+<name><![CDATA[Kehrsiten-Bürgenstock]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.382320,47.003100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1669">
+<name><![CDATA[Kehrsiten-Bürgenstock BB]]></name>
+<description><![CDATA[93 connections
+]]></description>
+<Point>
+<coordinates>8.382380,47.002900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5572">
+<name><![CDATA[Bürgenstock]]></name>
+<description><![CDATA[93 connections
+]]></description>
+<Point>
+<coordinates>8.378870,46.997200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7933">
+<name><![CDATA[Kehrsiten Dorf]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>8.365840,47.000400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6699">
+<name><![CDATA[Stansstad, Seewli]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>8.352760,46.979800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11521">
+<name><![CDATA[Obbürgen, alte Post]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.363000,46.982700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1969">
+<name><![CDATA[Obbürgen, Abzw. Trogen]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.389190,46.995700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1806">
+<name><![CDATA[Obbürgen, Unter-Misli]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.386210,46.994800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12775">
+<name><![CDATA[Obbürgen, Moos]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.381660,46.997800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4936">
+<name><![CDATA[Obbürgen, Grabacher]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.369990,46.987800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15043">
+<name><![CDATA[Kehrsiten, Feuerwehrdepot]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.364910,46.998600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4315">
+<name><![CDATA[Kehrsiten, Baumgarten]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.362600,46.997700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8340">
+<name><![CDATA[Stansstad, Hüttenort]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.355610,46.992800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11983">
+<name><![CDATA[Stansstad, Steinbruch]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.351580,46.987500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm508">
+<name><![CDATA[Bürgenstock, Hotels]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<Point>
+<coordinates>8.386250,46.997100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9488">
+<name><![CDATA[Kehrsiten, Hostatt]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>8.370890,47.002200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

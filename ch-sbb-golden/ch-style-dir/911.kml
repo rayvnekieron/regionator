@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>911 023003111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.20849609375</south>
+<east>7.3828125</east>
+<west>7.36083984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1799">
+<name><![CDATA[La Vernaz VS, d'en-Haut]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.374700,46.210300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8575">
+<name><![CDATA[Les Agettes, Crettaz-à-l'Oeil]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.370560,46.211400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

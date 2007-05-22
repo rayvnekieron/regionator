@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>994 0231013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02310130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>995.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02310132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.2744140625</north>
+<south>46.23046875</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>996.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3220">
+<name><![CDATA[Brig, Stützen]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.999780,46.310400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7554">
+<name><![CDATA[Ried-Brig, Alte Gasse]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.011500,46.310800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6102">
+<name><![CDATA[Ried-Brig, Brei]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.009690,46.308300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11093">
+<name><![CDATA[Ried-Brig, Bleiken]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.008250,46.306500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8284">
+<name><![CDATA[Ried-Brig, Lauenen]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.023680,46.317300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10592">
+<name><![CDATA[Simplon Hospiz, Hospiz]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.029080,46.246600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8115">
+<name><![CDATA[Simplon, Monte Leone]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.024850,46.246000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8214">
+<name><![CDATA[Simplon Dorf, Niwen]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.021320,46.238500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2535">
+<name><![CDATA[Ried-Brig, Talstation LRR]]></name>
+<description><![CDATA[41 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.025430,46.313300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5229">
+<name><![CDATA[Simplon Pass, Simplonblick]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.031440,46.249800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2357">
+<name><![CDATA[Berisal, Kehr]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.063550,46.294600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7661">
+<name><![CDATA[Berisal, Brände]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.057850,46.294000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10588">
+<name><![CDATA[Eisten, Ganterbrücke]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.055460,46.295100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8693">
+<name><![CDATA[Schallbett]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.046260,46.257200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11069">
+<name><![CDATA[Eisten, Ganter]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.045860,46.297700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3820">
+<name><![CDATA[Berisal, Eggen]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.044620,46.288300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

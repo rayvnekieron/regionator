@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1633 031221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>10.1953125</east>
+<west>10.01953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9204">
+<name><![CDATA[Punt la Drossa]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.190200,46.653900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14400">
+<name><![CDATA[Zernez, Vallun Chafuol]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.171100,46.662600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3262">
+<name><![CDATA[Zernez, Champlönch]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.167200,46.679600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6858">
+<name><![CDATA[Ova Spin]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.160800,46.678800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1913">
+<name><![CDATA[Zernez, Laschadura]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.135400,46.692200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9105">
+<name><![CDATA[Zernez,Chasa dal Parc Naziunal]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.097200,46.698200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4362">
+<name><![CDATA[Zernez, posta]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.091000,46.697800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6520">
+<name><![CDATA[Cinuos-chel-Brail, staziun]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.022100,46.640200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13290">
+<name><![CDATA[Brail]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>10.033900,46.653900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3990">
+<name><![CDATA[Prazet]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>10.052300,46.669900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9142">
+<name><![CDATA[Susch, staziun]]></name>
+<description><![CDATA[25 connections
+]]></description>
+<Point>
+<coordinates>10.079600,46.751900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1719">
+<name><![CDATA[Susch, Surplatz]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>10.078200,46.750300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8271">
+<name><![CDATA[Röven]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>10.024700,46.754900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

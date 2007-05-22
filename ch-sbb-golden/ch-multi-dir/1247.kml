@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1247 03003112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.0966796875</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Lütisburg, Dorf</name>
+<description>121 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.081590,47.394700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.081590,47.394700
+9.087760,47.382300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.081590,47.394700
+9.082220,47.395700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Rindal, Grütli</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.095840,47.407600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.095840,47.407600
+9.089590,47.409300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.095840,47.407600
+9.118370,47.407700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Rindal, Unterrindal</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.089590,47.409300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.089590,47.409300
+9.095840,47.407600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.089590,47.409300
+9.079850,47.404900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lütisburg, Schulhaus</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.082220,47.395700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.082220,47.395700
+9.081590,47.394700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.082220,47.395700
+9.081980,47.398800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lütisburg, Abzw. Tufertschwil</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.081980,47.398800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.081980,47.398800
+9.082220,47.395700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.081980,47.398800
+9.079850,47.404900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lütisburg, Grünhügel</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.079850,47.404900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.079850,47.404900
+9.089590,47.409300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.079850,47.404900
+9.081980,47.398800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Bazenheid, Eichbühl</name>
+<description>42 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.067110,47.415000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.067110,47.415000
+9.068400,47.409600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.067110,47.415000
+9.063610,47.417600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Kirchberg SG, Breiti</name>
+<description>42 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.054620,47.414200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.054620,47.414200
+9.045540,47.411700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.054620,47.414200
+9.063610,47.417600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Bazenheid, Bahnhof</name>
+<description>21 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.068400,47.409600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.068400,47.409600
+9.067110,47.415000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lütisburg, Restaurant Bahnhof</name>
+<description>4 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.070240,47.383000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.070240,47.383000
+9.068410,47.410000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.070240,47.383000
+9.074800,47.359100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Bazenheid, Barriere</name>
+<description>4 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.068410,47.410000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.068410,47.410000
+9.041510,47.462800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.068410,47.410000
+9.070240,47.383000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

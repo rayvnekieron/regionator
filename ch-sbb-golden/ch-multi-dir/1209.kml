@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1209 03002320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>8.6572265625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Hütten, Langmoos</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.653920,47.175600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.653920,47.175600
+8.676840,47.175400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.653920,47.175600
+8.644460,47.174600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.653920,47.175600
+8.665860,47.175400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Hütten, Chneus</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.644460,47.174600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.644460,47.174600
+8.635120,47.173200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.644460,47.174600
+8.653920,47.175600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Menzingen, Finsterseebrücke</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.639130,47.171400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.639130,47.171400
+8.635120,47.173200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.639130,47.171400
+8.634340,47.170200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Hütten, Abzw. Schönenberg</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.635120,47.173200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.635120,47.173200
+8.644460,47.174600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.635120,47.173200
+8.639130,47.171400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Finstersee, Bostadel</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.634340,47.170200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.634340,47.170200
+8.623770,47.169200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.634340,47.170200
+8.639130,47.171400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Finstersee, Kirche</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.629680,47.168000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.629680,47.168000
+8.616900,47.171700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.629680,47.168000
+8.623770,47.169200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Seehof (Finstersee)</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.623770,47.169200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.623770,47.169200
+8.634340,47.170200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.623770,47.169200
+8.629680,47.168000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Menzingen, Wilen</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.616900,47.171700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.616900,47.171700
+8.611340,47.174000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.616900,47.171700
+8.629680,47.168000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

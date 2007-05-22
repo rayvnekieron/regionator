@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1313 03010223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>9.228515625</east>
+<west>9.1845703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1232">
+<name><![CDATA[Niederhelfenschwil, Neudorf]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.185810,47.474000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

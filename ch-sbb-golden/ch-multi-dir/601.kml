@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>601 02121103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.646484375</east>
+<west>7.6025390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Burgdorf, Hammerweg</name>
+<description>70 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.612910,47.060000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.612910,47.060000
+7.602850,47.061600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.612910,47.060000
+7.621600,47.059800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Burgdorf, Lerchenbühlweg</name>
+<description>70 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.612910,47.059400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.612910,47.059400
+7.602850,47.061600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.612910,47.059400
+7.621600,47.059800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Burgdorf, Meiefeld</name>
+<description>70 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.602850,47.061600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.602850,47.061600
+7.612910,47.060000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.602850,47.061600
+7.612910,47.059400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Burgdorf, Gyrischachen</name>
+<description>66 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.630500,47.063100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.630500,47.063100
+7.629820,47.058400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Burgdorf, Gymnasium</name>
+<description>14 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.621260,47.056900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.621260,47.056900
+7.627510,47.055900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.621260,47.056900
+7.621600,47.059800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

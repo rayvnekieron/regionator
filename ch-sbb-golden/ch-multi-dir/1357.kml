@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1357 03012033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>9.31640625</east>
+<west>9.2724609375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Urnäsch, Anker</name>
+<description>62 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.276330,47.309700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.276330,47.309700
+9.277780,47.313300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.276330,47.309700
+9.275220,47.306200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Urnäsch, Sonne Thal</name>
+<description>62 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.275220,47.306200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.275220,47.306200
+9.276330,47.309700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.275220,47.306200
+9.271900,47.296300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.275220,47.306200
+9.273710,47.300800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Urnäsch, Taube</name>
+<description>38 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.282870,47.317100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.282870,47.317100
+9.277780,47.313300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.282870,47.317100
+9.285210,47.317700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Urnäsch, Bahnhof</name>
+<description>31 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.285210,47.317700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.285210,47.317700
+9.282870,47.317100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.285210,47.317700
+9.277780,47.313300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Urnäsch, Frohsinn</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.273710,47.300800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.273710,47.300800
+9.279800,47.285600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.273710,47.300800
+9.275220,47.306200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>54 02031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.7578125</south>
+<east>7.03125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>020310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>55.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>66.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>72.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>81.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10335">
+<name><![CDATA[La Chaux-de-Fonds]]></name>
+<description><![CDATA[306 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.826040,47.097800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12222">
+<name><![CDATA[Areuse]]></name>
+<description><![CDATA[270 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.854100,46.954100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2257">
+<name><![CDATA[Neuchâtel, Place Pury]]></name>
+<description><![CDATA[266 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.931220,46.989500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8833">
+<name><![CDATA[St-Aubin NE, Senet]]></name>
+<description><![CDATA[250 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.775290,46.895600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5161">
+<name><![CDATA[Fontainemelon, Mais. commune]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.889790,47.055900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1690">
+<name><![CDATA[La Chaux-de-Fonds, gare]]></name>
+<description><![CDATA[240 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.824800,47.099200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12412">
+<name><![CDATA[Le Crêt-du-Locle,rte cantonale]]></name>
+<description><![CDATA[235 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.785530,47.078800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3041">
+<name><![CDATA[Les Eplatures, aéroport]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.797960,47.085100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9681">
+<name><![CDATA[Gorgier-St-Aubin, gare]]></name>
+<description><![CDATA[221 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.781150,46.899100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14514">
+<name><![CDATA[Boudry, station TN]]></name>
+<description><![CDATA[211 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.838330,46.949500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2449">
+<name><![CDATA[Bevaix, Centre]]></name>
+<description><![CDATA[210 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.814910,46.930000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14272">
+<name><![CDATA[Chez-le-Bart, poste]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.786040,46.901300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7320">
+<name><![CDATA[Villiers, centre]]></name>
+<description><![CDATA[194 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.971230,47.074300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8569">
+<name><![CDATA[Payerne]]></name>
+<description><![CDATA[175 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.939880,46.819600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6564">
+<name><![CDATA[Auvernier]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.877710,46.979600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7531">
+<name><![CDATA[Neuchâtel-Serrières]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.903370,46.984000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

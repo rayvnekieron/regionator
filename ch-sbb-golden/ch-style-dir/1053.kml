@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1053 030003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>8.7890625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1054.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1058.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1063.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1064.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10784">
+<name><![CDATA[Oberwinterthur]]></name>
+<description><![CDATA[304 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.760370,47.507900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10193">
+<name><![CDATA[Wiesendangen, Bahnhof]]></name>
+<description><![CDATA[295 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.775960,47.525500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1605">
+<name><![CDATA[Neftenbach, alte Post]]></name>
+<description><![CDATA[233 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.668780,47.526900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5955">
+<name><![CDATA[Brütten, Harossen]]></name>
+<description><![CDATA[229 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.682490,47.471500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5236">
+<name><![CDATA[Winterthur Seen]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.766780,47.487400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7989">
+<name><![CDATA[Brütten, Post]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.676480,47.472100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4889">
+<name><![CDATA[Oberwil b. Nürensdorf]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.639950,47.464100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10023">
+<name><![CDATA[Neftenbach, Wolfzangen]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.670470,47.521800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12708">
+<name><![CDATA[Flaach, Oberdorf]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.615790,47.575400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7139">
+<name><![CDATA[Sennhof-Kyburg]]></name>
+<description><![CDATA[192 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.760330,47.465200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13476">
+<name><![CDATA[Wiesendangen, Gemeindehaus]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.788270,47.522500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9232">
+<name><![CDATA[Rickenbach ZH, Sunnezirkel]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.788470,47.538300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15090">
+<name><![CDATA[Rickenbach ZH, Volg]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.787730,47.541200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3259">
+<name><![CDATA[Winterthur, Lindenplatz]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.694070,47.510600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10550">
+<name><![CDATA[Oberembrach, Post]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.619570,47.487000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2833">
+<name><![CDATA[Oberwinterthur, Bahnhof]]></name>
+<description><![CDATA[159 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.759410,47.507300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

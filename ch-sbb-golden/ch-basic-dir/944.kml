@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>944 02301202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6832">
+<name><![CDATA[Prolin-Cerise]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.393320,46.165700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12664">
+<name><![CDATA[Les Collons]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.385530,46.186400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7543">
+<name><![CDATA[Mâche, village]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<Point>
+<coordinates>7.390740,46.154900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

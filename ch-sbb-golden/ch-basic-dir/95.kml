@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>95 0203200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>6.416015625</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02032001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>6.416015625</east>
+<west>6.3720703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>96.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02032003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.416015625</east>
+<west>6.3720703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>97.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6558">
+<name><![CDATA[Vallorbe, gare]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>6.370660,46.712200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7740">
+<name><![CDATA[Ballaigues, Vers-chez-Barrat]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.407480,46.729100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm786">
+<name><![CDATA[Vallorbe, Le Creux]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>6.388880,46.730200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10828">
+<name><![CDATA[Vaulion, Le Moulin]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.400910,46.693400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11576">
+<name><![CDATA[Vallorbe, Les Jurats]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.392180,46.722300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14968">
+<name><![CDATA[Vallorbe, Les Pontets]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.392090,46.727000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8730">
+<name><![CDATA[Vaulion, Sur la Creusaz]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.391810,46.690600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2575">
+<name><![CDATA[Vaulion, centre]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.388920,46.688100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11554">
+<name><![CDATA[Vallorbe, Les Eterpaz]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.387590,46.716000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14159">
+<name><![CDATA[Vallorbe, gendarmerie]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.381370,46.713200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1481">
+<name><![CDATA[Ballaigues, poste]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.413750,46.729500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3334">
+<name><![CDATA[Ballaigues, cure]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.410360,46.729300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12070">
+<name><![CDATA[Vallorbe, poste]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>6.379040,46.711900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm279">
+<name><![CDATA[Vallorbe, Place de la Liberté]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>6.376160,46.711900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6717">
+<name><![CDATA[Vaulion, poste]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.386960,46.688100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5133">
+<name><![CDATA[Ballaigues, collège]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.413220,46.730200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

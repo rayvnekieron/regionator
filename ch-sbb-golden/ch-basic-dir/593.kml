@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>593 021210321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.95556640625</south>
+<east>7.5146484375</east>
+<west>7.49267578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3665">
+<name><![CDATA[Bolligen, Lindenburg]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.500800,46.974700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3846">
+<name><![CDATA[Ostermundigen, Wiesenstrasse]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.495830,46.961800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2998">
+<name><![CDATA[Bolligen, Rothus]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.494890,46.968200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

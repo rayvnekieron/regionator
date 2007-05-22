@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1216 03002331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>8.7890625</east>
+<west>8.7451171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Pfäffikon SZ, Wannenweid</name>
+<description>50 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.780010,47.192400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.780010,47.192400
+8.782800,47.198500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.780010,47.192400
+8.774700,47.191400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Pfäffikon SZ, Luegeten</name>
+<description>50 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.774700,47.191400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.774700,47.191400
+8.773030,47.190500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.774700,47.191400
+8.780010,47.192400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Pfäffikon SZ, Abzw. Etzelpass</name>
+<description>50 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.773030,47.190500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.773030,47.190500
+8.774700,47.191400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.773030,47.190500
+8.763720,47.187700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Feusisberg, Riedhof</name>
+<description>50 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.763720,47.187700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.763720,47.187700
+8.759780,47.188200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.763720,47.187700
+8.773030,47.190500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Feusisberg, Ried</name>
+<description>50 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.759780,47.188200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.759780,47.188200
+8.763720,47.187700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.759780,47.188200
+8.747540,47.186500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Feusisberg, Post</name>
+<description>45 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.747540,47.186500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.747540,47.186500
+8.742870,47.184800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.747540,47.186500
+8.759780,47.188200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Egg SZ, Eintracht</name>
+<description>36 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.785440,47.159100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.785440,47.159100
+8.781210,47.161400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.785440,47.159100
+8.789210,47.151800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Egg SZ, Schlapprig</name>
+<description>18 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.783650,47.153700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.783650,47.153700
+8.764100,47.149400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.783650,47.153700
+8.789210,47.151800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Egg SZ, Post</name>
+<description>18 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.781210,47.161400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.781210,47.161400
+8.785440,47.159100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

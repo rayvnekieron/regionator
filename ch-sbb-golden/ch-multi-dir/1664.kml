@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1664 03200331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0986328125</south>
+<east>8.7890625</east>
+<west>8.7451171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Dirinella, Confine</name>
+<description>22 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.756820,46.104100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.756820,46.104100
+8.764340,46.107600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Gerra (Gambarogno), Stazione</name>
+<description>18 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.785410,46.122600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.785410,46.122600
+8.786700,46.122600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>S. Abbondio</name>
+<description>14 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.772810,46.110200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.772810,46.110200
+8.772850,46.111800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scaiano, Paese</name>
+<description>14 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.760670,46.103100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.760670,46.103100
+8.763300,46.104900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Gerra (Gambarogno) NLM</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.788590,46.124800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.788590,46.124800
+8.804300,46.133300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.788590,46.124800
+8.770050,46.113000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Ranzo</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.770050,46.113000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.770050,46.113000
+8.710920,46.118200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.770050,46.113000
+8.788590,46.124800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.770050,46.113000
+8.734720,46.132600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

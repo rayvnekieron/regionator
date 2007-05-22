@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>949 02301233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>La Sage, Sépey</name>
+<description>14 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.527520,46.078100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.527520,46.078100
+7.520070,46.086300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.527520,46.078100
+7.534710,46.073800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Ferpècle</name>
+<description>7 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.548060,46.061500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.548060,46.061500
+7.534710,46.073800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

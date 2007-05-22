@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1112 0300133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03001330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>9.0966796875</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1113.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>9.140625</east>
+<west>9.0966796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1114.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4455">
+<name><![CDATA[Rossrüti, Altersheim]]></name>
+<description><![CDATA[129 connections
+]]></description>
+<Point>
+<coordinates>9.060410,47.473600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5316">
+<name><![CDATA[Lenggenwil, Wiesental]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>9.136560,47.469300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15126">
+<name><![CDATA[Lenggenwil, Taa]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>9.131620,47.470300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm749">
+<name><![CDATA[Laupen SG]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>9.123510,47.465700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm915">
+<name><![CDATA[Märwil]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>9.069210,47.533100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13002">
+<name><![CDATA[Hosenruck, Post]]></name>
+<description><![CDATA[75 connections
+]]></description>
+<Point>
+<coordinates>9.120340,47.491200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12980">
+<name><![CDATA[Braunau, Post]]></name>
+<description><![CDATA[75 connections
+]]></description>
+<Point>
+<coordinates>9.070930,47.502900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10875">
+<name><![CDATA[Schönholzerswilen, Kirche]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.138650,47.517900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3194">
+<name><![CDATA[Mettlen, Post]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.123890,47.530000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11706">
+<name><![CDATA[Mettlen, Unterdorf]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.121680,47.533600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12062">
+<name><![CDATA[Reuti b. Weinfelden, Hauptstr.]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.116650,47.542500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4089">
+<name><![CDATA[Rüdenwil, Dorf]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.135790,47.490800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2259">
+<name><![CDATA[Hagenwil am Nollen]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.120180,47.507100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7517">
+<name><![CDATA[Hagenbuch-Toos]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.117500,47.516800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14728">
+<name><![CDATA[Wuppenau, Welfensberg]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.115520,47.496200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14972">
+<name><![CDATA[Lanterswil, Dorf]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.096770,47.520700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1300 0301020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>9.228515625</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03010200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>9.1845703125</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1301.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03010201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>9.228515625</east>
+<west>9.1845703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1302.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03010202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>9.1845703125</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1303.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03010203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>9.228515625</east>
+<west>9.1845703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1304.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3755">
+<name><![CDATA[Scherzingen, Kirche]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<Point>
+<coordinates>9.223090,47.632100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5389">
+<name><![CDATA[Bürglen]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<Point>
+<coordinates>9.149850,47.549100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3255">
+<name><![CDATA[Lengwil]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>9.190250,47.625600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13803">
+<name><![CDATA[Berg]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>9.174500,47.582300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9849">
+<name><![CDATA[Kehlhof]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>9.169760,47.572200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10153">
+<name><![CDATA[Siegershausen]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>9.168230,47.610900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm59">
+<name><![CDATA[Erlen]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>9.226190,47.551500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2248">
+<name><![CDATA[Alterswilen]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.153680,47.609400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5292">
+<name><![CDATA[Kreuzlingen, Kaserne]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.150420,47.632000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8718">
+<name><![CDATA[Lengwil, Ekkarthof]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.205930,47.616500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10187">
+<name><![CDATA[Lengwil, Dettighofen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.200480,47.620500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm762">
+<name><![CDATA[Lengwil, Oberhofen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.196830,47.618800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2482">
+<name><![CDATA[Lengwil, Post]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.193900,47.622700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8928">
+<name><![CDATA[Kreuzlingen, Möösliweg]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.183420,47.635800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1029">
+<name><![CDATA[Happerswil]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>9.223790,47.577800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9275">
+<name><![CDATA[Heimenhofen, Abzw. Andwil TG]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>9.209460,47.566700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

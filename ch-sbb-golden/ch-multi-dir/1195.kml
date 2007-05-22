@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1195 030023102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.26318359375</north>
+<south>47.2412109375</south>
+<east>8.72314453125</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Männedorf, Widenbad</name>
+<description>86 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.710800,47.261300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.710800,47.261300
+8.703670,47.257100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.710800,47.261300
+8.718250,47.269900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Wiesengrund</name>
+<description>84 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.722540,47.245000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.722540,47.245000
+8.719640,47.245000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.722540,47.245000
+8.726340,47.245200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Lattenberg</name>
+<description>84 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.719780,47.248800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.719780,47.248800
+8.719760,47.246600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.719780,47.248800
+8.723810,47.249300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Echtlenbach</name>
+<description>84 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.719760,47.246600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.719760,47.246600
+8.719780,47.248800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.719760,47.246600
+8.719640,47.245000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Rain</name>
+<description>84 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.719640,47.245000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.719640,47.245000
+8.722540,47.245000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.719640,47.245000
+8.719760,47.246600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Kniebreche</name>
+<description>68 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.722330,47.251600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.722330,47.251600
+8.720820,47.254700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.722330,47.251600
+8.727640,47.246600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Schützenhaus Wanne</name>
+<description>68 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.720820,47.254700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.720820,47.254700
+8.720080,47.257900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.720820,47.254700
+8.722330,47.251600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Mühlehölzli</name>
+<description>68 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.720080,47.257900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.720080,47.257900
+8.720820,47.254700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.720080,47.257900
+8.724760,47.265800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stäfa, Strandbad</name>
+<description>64 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.713870,47.241300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.713870,47.241300
+8.706920,47.247300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.713870,47.241300
+8.721920,47.240700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Männedorf, Cerberus</name>
+<description>64 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.706920,47.247300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.706920,47.247300
+8.713870,47.241300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.706920,47.247300
+8.701970,47.249600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Männedorf, Asylstrasse</name>
+<description>64 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.701970,47.249600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.701970,47.249600
+8.696900,47.251200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.701970,47.249600
+8.706920,47.247300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

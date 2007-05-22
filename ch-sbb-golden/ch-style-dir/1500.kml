@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1500 03023220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4188">
+<name><![CDATA[Carì, Tecc d'Int]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.824580,46.493400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1929">
+<name><![CDATA[Carì, Condomini]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.820030,46.493500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7511">
+<name><![CDATA[Faido, Ospedale Distrettuale]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.805790,46.478100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6874">
+<name><![CDATA[Tengia]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.830490,46.469800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12619">
+<name><![CDATA[Carì, Paese]]></name>
+<description><![CDATA[29 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.818720,46.493400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14641">
+<name><![CDATA[Faido, centro scolastico]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.801400,46.478300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3836">
+<name><![CDATA[Faido, Balcengo]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.798180,46.479700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

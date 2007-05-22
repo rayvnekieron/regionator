@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1038 03000211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Ellikon am Rhein</name>
+<description>2 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.596850,47.605800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.596850,47.605800
+8.600650,47.638100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.596850,47.605800
+8.609330,47.575400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

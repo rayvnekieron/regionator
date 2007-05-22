@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1497 0302320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Lukmanier Passhöhe</name>
+<description>18 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.801600,46.563600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.801600,46.563600
+8.803600,46.586000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.801600,46.563600
+8.814240,46.547900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Pian Segno</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.848950,46.528500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.848950,46.528500
+8.882540,46.517300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.848950,46.528500
+8.833540,46.537700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Acquacalda</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.833540,46.537700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.833540,46.537700
+8.814240,46.547900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.833540,46.537700
+8.848950,46.528500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Alpe Casaccia</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.814240,46.547900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.814240,46.547900
+8.801600,46.563600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.814240,46.547900
+8.833540,46.537700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Tarnolgio</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.799330,46.499400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.799330,46.499400
+8.788530,46.499800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.799330,46.499400
+8.796830,46.503500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Predelp</name>
+<description>6 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.796830,46.503500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.796830,46.503500
+8.799330,46.499400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

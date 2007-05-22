@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>400 02112212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm469">
+<name><![CDATA[Altbüron, Ludligen]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>7.861290,47.201300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9184">
+<name><![CDATA[St. Urban, Unterberghof]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>7.857030,47.205100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm848">
+<name><![CDATA[St. Urban, Chlisonnhalde]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>7.849160,47.211200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1179">
+<name><![CDATA[St. Urban, Sonnhaldenhof]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>7.844920,47.218600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15072">
+<name><![CDATA[St. Urban, Tundwilerweg]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>7.840020,47.224300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10060">
+<name><![CDATA[St. Urban Ziegelei]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>7.836060,47.227300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>724 0213020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.822265625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Röthenbach i.E., Dorf</name>
+<description>55 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.741260,46.852700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.741260,46.852700
+7.795310,46.875900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.741260,46.852700
+7.726930,46.870200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

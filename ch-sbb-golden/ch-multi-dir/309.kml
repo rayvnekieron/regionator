@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>309 0210333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Oberönz, Kreuz</name>
+<description>76 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.694560,47.179300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.694560,47.179300
+7.666560,47.161800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.694560,47.179300
+7.705160,47.188200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.694560,47.179300
+7.668070,47.154100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.694560,47.179300
+7.701200,47.188300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.694560,47.179300
+7.691950,47.184700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Seeberg BE, Stalderhof</name>
+<description>74 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.668070,47.154100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.668070,47.154100
+7.694560,47.179300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.668070,47.154100
+7.668020,47.141600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Hermiswil, Brücke</name>
+<description>72 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.695750,47.151400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.695750,47.151400
+7.668020,47.141600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.695750,47.151400
+7.693060,47.139700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.695750,47.151400
+7.701200,47.188300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Grasswil, Oberdorf</name>
+<description>72 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.668020,47.141600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.668020,47.141600
+7.695750,47.151400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.668020,47.141600
+7.668070,47.154100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Riedtwil, Bahnhof</name>
+<description>68 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.693060,47.139700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.693060,47.139700
+7.695750,47.151400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.693060,47.139700
+7.662590,47.103800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Thörigen, Post</name>
+<description>54 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.728830,47.172900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.728830,47.172900
+7.752640,47.184500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.728830,47.172900
+7.711680,47.172900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Bettenhausen, Post</name>
+<description>54 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.711680,47.172900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.711680,47.172900
+7.709020,47.167500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.711680,47.172900
+7.728830,47.172900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Bollodingen, Dorf</name>
+<description>54 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.709020,47.167500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.709020,47.167500
+7.711680,47.172900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.709020,47.167500
+7.701200,47.188300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Winistorf, Rest. Traube</name>
+<description>18 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.649600,47.151500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.649600,47.151500
+7.633830,47.165000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.649600,47.151500
+7.664230,47.180200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Steinhof SO</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.686570,47.161300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.686570,47.161300
+7.664230,47.180200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Herzogenbuchsee, Sonnenplatz</name>
+<description>4 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.705160,47.188200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.705160,47.188200
+7.694560,47.179300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.705160,47.188200
+7.693340,47.199100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.705160,47.188200
+7.743570,47.213300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Seeberg BE, Schlüssel</name>
+<description>2 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.666560,47.161800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.666560,47.161800
+7.694560,47.179300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.666560,47.161800
+7.647680,47.146300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Hellsau, Dorfmitte</name>
+<description>2 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.647680,47.146300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.647680,47.146300
+7.666560,47.161800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.647680,47.146300
+7.632030,47.142500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

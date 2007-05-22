@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>453 0211312003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.362060546875</north>
+<south>47.35107421875</south>
+<east>8.28369140625</east>
+<west>8.272705078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Wohlen AG, Aeschstrasse/Notter</name>
+<description>30 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.275130,47.354400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.275130,47.354400
+8.277760,47.353000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.275130,47.354400
+8.273490,47.355100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wohlen AG, Kindergarten Aesch</name>
+<description>30 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.273490,47.355100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.273490,47.355100
+8.270190,47.356000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.273490,47.355100
+8.275130,47.354400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wohlen AG, Güpfstr./Bankweg</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.273780,47.353100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.273780,47.353100
+8.272770,47.351900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.273780,47.353100
+8.272150,47.354200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wohlen AG, Güpfstr./Bünzmatt</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.272770,47.351900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.272770,47.351900
+8.272400,47.349300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.272770,47.351900
+8.273780,47.353100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

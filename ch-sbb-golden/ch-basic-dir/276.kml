@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>276 02103110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7600">
+<name><![CDATA[Seewen SO, Zelgli]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>7.660340,47.436600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8233">
+<name><![CDATA[Büren SO, Schulhaus]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>7.666560,47.449600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

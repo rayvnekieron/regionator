@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>575 02121020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12665">
+<name><![CDATA[Kirchlindach, Friedhof]]></name>
+<description><![CDATA[252 connections
+]]></description>
+<Point>
+<coordinates>7.418910,47.000600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3278">
+<name><![CDATA[Kirchlindach, Post]]></name>
+<description><![CDATA[252 connections
+]]></description>
+<Point>
+<coordinates>7.414970,46.999700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11233">
+<name><![CDATA[Oberlindach, Käserei]]></name>
+<description><![CDATA[249 connections
+]]></description>
+<Point>
+<coordinates>7.425490,47.003300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7592">
+<name><![CDATA[Kirchlindach, Jetzikofenstr.]]></name>
+<description><![CDATA[249 connections
+]]></description>
+<Point>
+<coordinates>7.409710,46.997900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11380">
+<name><![CDATA[Ortschwaben, Postgasse]]></name>
+<description><![CDATA[220 connections
+]]></description>
+<Point>
+<coordinates>7.401830,46.989800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7825">
+<name><![CDATA[Uettligen, Dorf]]></name>
+<description><![CDATA[214 connections
+]]></description>
+<Point>
+<coordinates>7.387670,46.987800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11550">
+<name><![CDATA[Kirchlindach, Heimenhaus]]></name>
+<description><![CDATA[201 connections
+]]></description>
+<Point>
+<coordinates>7.411030,46.993400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3766">
+<name><![CDATA[Ausserortschwaben]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<Point>
+<coordinates>7.409060,46.987500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14448">
+<name><![CDATA[Ortschwaben, Schulhaus]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<Point>
+<coordinates>7.401830,46.994300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7183">
+<name><![CDATA[Ortschwaben, Schützenrain]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<Point>
+<coordinates>7.393940,46.996000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6665">
+<name><![CDATA[Ortschwaben, Weissenstein Abzw]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<Point>
+<coordinates>7.387360,46.998700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13414">
+<name><![CDATA[Ortschwaben, Aetzikofen Abzw.]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<Point>
+<coordinates>7.387360,46.998700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9783">
+<name><![CDATA[Ortschwaben, Gehracher]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>7.404460,46.995200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1706">
+<name><![CDATA[Oberdettigen]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<Point>
+<coordinates>7.397890,46.982600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12658">
+<name><![CDATA[Uettligen, Post]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>7.385100,46.987600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

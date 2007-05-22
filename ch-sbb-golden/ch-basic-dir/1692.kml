@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1692 03201220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0986328125</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7830">
+<name><![CDATA[Gerra (Gambarogno),Bv.Cheventi]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.790600,46.123500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2492">
+<name><![CDATA[Indemini, Pezze]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.830730,46.098700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11152">
+<name><![CDATA[S. Nazzaro]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.807050,46.135100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12957">
+<name><![CDATA[S. Nazzaro NLM]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.804300,46.133300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm930">
+<name><![CDATA[S. Nazzaro, Bagno]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.804110,46.133200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4074">
+<name><![CDATA[S. Nazzaro, Fontanella]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>8.815480,46.135300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2899">
+<name><![CDATA[S. Nazzaro, 5 Fonti]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>8.806380,46.133600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1894">
+<name><![CDATA[S. Nazzaro, Taverna]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>8.800500,46.131400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

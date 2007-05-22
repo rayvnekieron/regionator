@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>607 02121130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11522">
+<name><![CDATA[Lützelflüh-Goldbach, Bahnhof]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<Point>
+<coordinates>7.681900,47.004800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

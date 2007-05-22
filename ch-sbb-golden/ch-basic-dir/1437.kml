@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1437 030201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>8.7890625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0302010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1438.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1439.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1441.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1442.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14260">
+<name><![CDATA[Sattel, Krone]]></name>
+<description><![CDATA[205 connections
+]]></description>
+<Point>
+<coordinates>8.634340,47.081600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6098">
+<name><![CDATA[Muotathal, hintere Brücke]]></name>
+<description><![CDATA[197 connections
+]]></description>
+<Point>
+<coordinates>8.771220,46.972100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1959">
+<name><![CDATA[Schwyz]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>8.632140,47.026400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7765">
+<name><![CDATA[Seewen SZ, Seewenmarkt]]></name>
+<description><![CDATA[139 connections
+]]></description>
+<Point>
+<coordinates>8.628750,47.032400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6515">
+<name><![CDATA[Sattel-Aegeri, Bahnhof]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<Point>
+<coordinates>8.627720,47.079900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1106">
+<name><![CDATA[Morgarten, Hotel]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>8.640130,47.104900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11148">
+<name><![CDATA[Sattel, Gondelbahn]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<Point>
+<coordinates>8.634800,47.078500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2434">
+<name><![CDATA[Rickenbach SZ, Stalden]]></name>
+<description><![CDATA[103 connections
+]]></description>
+<Point>
+<coordinates>8.674900,47.012800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12602">
+<name><![CDATA[Morschach, Post]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>8.618980,46.981900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11212">
+<name><![CDATA[Unteriberg, Post]]></name>
+<description><![CDATA[97 connections
+]]></description>
+<Point>
+<coordinates>8.788200,47.059200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12350">
+<name><![CDATA[Steinen, Dorfbrücke]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>8.613880,47.049200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm36">
+<name><![CDATA[Sisikon]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.620730,46.949200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13640">
+<name><![CDATA[Oberiberg, Oberjessenen]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.779350,47.047800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1262">
+<name><![CDATA[Oberiberg, Post]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.781140,47.040200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11500">
+<name><![CDATA[Schlattli SSSF]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.668370,46.991900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8973">
+<name><![CDATA[Stoos]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.664690,46.983900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

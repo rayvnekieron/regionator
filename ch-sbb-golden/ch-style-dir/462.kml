@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>462 02113130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.3935546875</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021131302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.35107421875</north>
+<south>47.3291015625</south>
+<east>8.37158203125</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>463.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5356">
+<name><![CDATA[Oberwil AG, Post]]></name>
+<description><![CDATA[212 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.386330,47.336500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2208">
+<name><![CDATA[Oberwil-Lieli, Bündtemättli]]></name>
+<description><![CDATA[212 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.382740,47.339700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4156">
+<name><![CDATA[Berikon-Widen]]></name>
+<description><![CDATA[211 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.366790,47.362200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5792">
+<name><![CDATA[Rudolfstetten]]></name>
+<description><![CDATA[210 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.381800,47.370000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6125">
+<name><![CDATA[Zufikon Hammergut]]></name>
+<description><![CDATA[208 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.354730,47.355800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10366">
+<name><![CDATA[Zufikon]]></name>
+<description><![CDATA[208 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.354710,47.352500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1868">
+<name><![CDATA[Heinrüti]]></name>
+<description><![CDATA[208 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.353350,47.361700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12289">
+<name><![CDATA[Rudolfstetten Hofacker]]></name>
+<description><![CDATA[206 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.377100,47.364700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4513">
+<name><![CDATA[Belveder BDWM]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.359230,47.357600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13285">
+<name><![CDATA[Zufikon, Algier]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.354670,47.341800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9818">
+<name><![CDATA[Zufikon, Emaus]]></name>
+<description><![CDATA[165 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.351930,47.344700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4086">
+<name><![CDATA[Bremgarten AG, Badenerstrasse]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.349920,47.354500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11284">
+<name><![CDATA[Berikon, Kesslernmatt]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.365980,47.364700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1148">
+<name><![CDATA[Oberwil-Lieli, im Moos]]></name>
+<description><![CDATA[111 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.393350,47.340700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13318">
+<name><![CDATA[Widen, Burkertsmatt]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.365340,47.365900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10963">
+<name><![CDATA[Zufikon, Post]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.358070,47.347800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

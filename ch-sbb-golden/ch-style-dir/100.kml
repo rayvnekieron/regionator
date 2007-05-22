@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>100 0203202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>6.416015625</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm986">
+<name><![CDATA[L'Isle-Mont-la-Ville]]></name>
+<description><![CDATA[45 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.411220,46.617500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6915">
+<name><![CDATA[L'Isle, poste]]></name>
+<description><![CDATA[43 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.412150,46.617900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2000">
+<name><![CDATA[Mont-la-Ville, poste]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.409000,46.646000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5974">
+<name><![CDATA[Mont-la-Ville, Le Battoir]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.406750,46.644400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2908">
+<name><![CDATA[La Coudre (L'Isle), Bas villag]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.404280,46.636700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15074">
+<name><![CDATA[La Coudre (L'Isle), village]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.402600,46.639200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11467">
+<name><![CDATA[Villars-Bozon, village]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.405480,46.608400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5758">
+<name><![CDATA[Montricher, village]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.376910,46.600500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm997">
+<name><![CDATA[Montricher, Champet]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.373350,46.599100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm692">
+<name><![CDATA[Mollendruz, col]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.367460,46.649200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11293">
+<name><![CDATA[Mollendruz, Fontaine froide]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.357650,46.650000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6883">
+<name><![CDATA[L'Abbaye, Petra Félix]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.348320,46.659100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3070">
+<name><![CDATA[L'Abbaye, Crêt-Blanc]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.336270,46.657200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

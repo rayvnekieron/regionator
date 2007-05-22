@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1594 03032110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Paspels, Abzw. Dusch</name>
+<description>36 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.448030,46.749200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.448030,46.749200
+9.451510,46.755000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.448030,46.749200
+9.455290,46.759700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Rodels-Realta, Abzw. Bahnhof</name>
+<description>26 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.433080,46.736300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.433080,46.736300
+9.427620,46.733700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.433080,46.736300
+9.444600,46.736200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Cazis, Siedlung Realta</name>
+<description>26 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.427620,46.733700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.427620,46.733700
+9.426340,46.729100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.427620,46.733700
+9.433080,46.736300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lescha, Skilift</name>
+<description>6 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.405330,46.721800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.405330,46.721800
+9.404060,46.730000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Rodels-Realta, Bahnhof</name>
+<description>4 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.433450,46.735500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.433450,46.735500
+9.426340,46.729100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.433450,46.735500
+9.444600,46.736200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

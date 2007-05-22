@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>233 02102131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021021311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.35107421875</south>
+<east>7.3828125</east>
+<west>7.36083984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>234.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13954">
+<name><![CDATA[Châtillon JU, bas du village]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>7.343720,47.330400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10913">
+<name><![CDATA[Delémont, rue St-Randoald]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.339380,47.352200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4195">
+<name><![CDATA[Delémont, Communance]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.339370,47.354000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7035">
+<name><![CDATA[Delémont, rue des Bordgeais]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.356880,47.373000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4789">
+<name><![CDATA[Delémont, rue des Primevères]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.356560,47.367000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6158">
+<name><![CDATA[Delémont, centre l'Avenir]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.354050,47.365200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4656">
+<name><![CDATA[Delémont, rue des Moissons]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.353510,47.371700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8678">
+<name><![CDATA[Delémont, rue des Martins]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.350130,47.371100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8098">
+<name><![CDATA[Delémont, Giratoire Vorbourg]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.349930,47.371200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm574">
+<name><![CDATA[Delémont, Chapelle Montcroix]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.345300,47.367600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9250">
+<name><![CDATA[Delémont, place de la Foire]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.344910,47.366600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14429">
+<name><![CDATA[Delémont, rue des Sources]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.339370,47.354000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm890">
+<name><![CDATA[Courroux, Sous-Rosé]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.382250,47.360200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10997">
+<name><![CDATA[Courroux, La Plaine]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.381720,47.357900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3402">
+<name><![CDATA[Courroux, Les Suédois]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.379210,47.355800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13687">
+<name><![CDATA[Courroux, Jardin d'enfants]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.377620,47.357500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

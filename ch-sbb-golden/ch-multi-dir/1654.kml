@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1654 0320022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Zornasco</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.490810,46.129700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.490810,46.129700
+8.479680,46.132900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.490810,46.129700
+8.498830,46.129200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Villette (Vigezzo)</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.521260,46.128400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.521260,46.128400
+8.498830,46.129200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.521260,46.128400
+8.538360,46.126500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Buttogno</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.445060,46.136000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.445060,46.136000
+8.433420,46.133100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.445060,46.136000
+8.460730,46.136600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

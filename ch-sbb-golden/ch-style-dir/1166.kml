@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1166 03002202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.4814453125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1220">
+<name><![CDATA[Niederwil bei Cham]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.451120,47.212000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14998">
+<name><![CDATA[Knonau, Uttenberg]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.449070,47.234400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13503">
+<name><![CDATA[Knonau, Kirche]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.460720,47.224000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

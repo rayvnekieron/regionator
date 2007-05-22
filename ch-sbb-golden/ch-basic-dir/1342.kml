@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1342 03012002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.1845703125</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13800">
+<name><![CDATA[Flawil, Kirche]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>9.182560,47.415300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10921">
+<name><![CDATA[Flawil, Alterssiedlung]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>9.180210,47.414500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11574">
+<name><![CDATA[Flawil, Oberstrasse]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>9.176850,47.413000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11782">
+<name><![CDATA[Flawil, Unterstrasse]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>9.174930,47.415000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4826">
+<name><![CDATA[Flawil, Niederberg]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.176940,47.415900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6406">
+<name><![CDATA[Flawil, Scheidweg]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.167370,47.416900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9175">
+<name><![CDATA[Flawil, Maestrani]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.164590,47.413100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm489">
+<name><![CDATA[Flawil, Bubental]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.155160,47.408300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1353">
+<name><![CDATA[Flawil, Oberdorf]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.184210,47.415300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

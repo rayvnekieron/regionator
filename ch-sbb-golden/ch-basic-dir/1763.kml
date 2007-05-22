@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1763 03203120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.9228515625</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2022">
+<name><![CDATA[Rovio, Selvone]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.985970,45.943000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10495">
+<name><![CDATA[Melano, Cappelletta per Rovio]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.985000,45.924600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4864">
+<name><![CDATA[Rovio, Costa]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.983870,45.930100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2376">
+<name><![CDATA[Rovio, Ala Materna]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.983530,45.936400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3093">
+<name><![CDATA[Rovio, Basso]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.979520,45.931400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8026">
+<name><![CDATA[Arogno, Paese]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<Point>
+<coordinates>8.987510,45.958700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6241">
+<name><![CDATA[Maroggia-Melano, Stazione]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<Point>
+<coordinates>8.973490,45.932500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6254">
+<name><![CDATA[Melano, Posta]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>8.984200,45.923600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11354">
+<name><![CDATA[Arogno, Pasquée]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.983330,45.961300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10619">
+<name><![CDATA[Arogno, S. Vitale]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.982080,45.962700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

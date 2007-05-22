@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>973 023100310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.29638671875</south>
+<east>7.88818359375</east>
+<west>7.8662109375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Eggerberg, Eggen</name>
+<description>44 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.880150,46.311100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.880150,46.311100
+7.885050,46.307900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.880150,46.311100
+7.888540,46.309700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

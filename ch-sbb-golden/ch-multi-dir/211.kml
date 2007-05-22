@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>211 02101332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Gempen, Post</name>
+<description>115 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.658850,47.476400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.658850,47.476400
+7.623030,47.475600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.658850,47.476400
+7.641870,47.459600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>St. Pantaleon, bei den Tannen</name>
+<description>92 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.687300,47.462000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.687300,47.462000
+7.685670,47.468000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.687300,47.462000
+7.702550,47.460800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Nuglar, St. Pantaleonstrasse</name>
+<description>92 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.685670,47.468000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.685670,47.468000
+7.687300,47.462000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.685670,47.468000
+7.691320,47.469600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

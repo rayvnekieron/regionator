@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>825 022011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>6.328125</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0220110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>6.240234375</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>826.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0220111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>6.328125</east>
+<west>6.240234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>830.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0220112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>6.240234375</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>834.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0220113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>6.328125</east>
+<west>6.240234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>835.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6554">
+<name><![CDATA[Hermance]]></name>
+<description><![CDATA[197 connections
+]]></description>
+<Point>
+<coordinates>6.241530,46.301600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3845">
+<name><![CDATA[Changins]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>6.234860,46.400200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1935">
+<name><![CDATA[Coppet]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>6.187820,46.317400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2379">
+<name><![CDATA[Versoix]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>6.165730,46.279700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1556">
+<name><![CDATA[Tannay]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>6.181110,46.307600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14926">
+<name><![CDATA[Mies]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>6.169560,46.299900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1631">
+<name><![CDATA[Pont-Céard]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>6.162660,46.287400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13750">
+<name><![CDATA[Creux-de-Genthod]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>6.161300,46.263800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4786">
+<name><![CDATA[Genthod-Bellevue]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>6.153950,46.256700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14750">
+<name><![CDATA[Jussy, Les Meurets]]></name>
+<description><![CDATA[139 connections
+]]></description>
+<Point>
+<coordinates>6.271870,46.236200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9879">
+<name><![CDATA[Nyon, Colovray]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.228050,46.370200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13254">
+<name><![CDATA[Crans-près-Céligny, port]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.215310,46.358600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8195">
+<name><![CDATA[Crans-près-Céligny, village]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.204620,46.357600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8772">
+<name><![CDATA[Céligny, gare]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.199640,46.348100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14439">
+<name><![CDATA[Céligny, village]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.195670,46.351000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13842">
+<name><![CDATA[Founex, village]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.191860,46.333000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

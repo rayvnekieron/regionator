@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1535 0303031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>9.4921875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Vättis, Post</name>
+<description>33 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.440580,46.910000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.440580,46.910000
+9.401300,46.913100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.440580,46.910000
+9.484750,46.949500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

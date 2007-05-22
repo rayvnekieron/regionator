@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1296 03010023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.6806640625</north>
+<south>47.63671875</south>
+<east>9.228515625</east>
+<west>9.1845703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm506">
+<name><![CDATA[Bottighofen, Hinterdorf]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.204510,47.637600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2687">
+<name><![CDATA[Bottighofen (See)]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>9.211890,47.644800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

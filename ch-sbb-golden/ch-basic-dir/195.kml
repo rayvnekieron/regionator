@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>195 021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>7.734375</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>196.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>310.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.40625</south>
+<east>7.734375</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>496.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>702.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3364">
+<name><![CDATA[Oberwil BL, Dorf]]></name>
+<description><![CDATA[999 connections
+]]></description>
+<Point>
+<coordinates>7.556790,47.514300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7144">
+<name><![CDATA[Bottmingen, Station]]></name>
+<description><![CDATA[982 connections
+]]></description>
+<Point>
+<coordinates>7.571410,47.524000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13195">
+<name><![CDATA[Steffisburg, Platz]]></name>
+<description><![CDATA[968 connections
+]]></description>
+<Point>
+<coordinates>7.635220,46.778200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11639">
+<name><![CDATA[Thun, Strandbad]]></name>
+<description><![CDATA[950 connections
+]]></description>
+<Point>
+<coordinates>7.627670,46.740500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10462">
+<name><![CDATA[Basel, Brausebad]]></name>
+<description><![CDATA[938 connections
+]]></description>
+<Point>
+<coordinates>7.576140,47.555900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8005">
+<name><![CDATA[Basel, Kannenfeldplatz]]></name>
+<description><![CDATA[938 connections
+]]></description>
+<Point>
+<coordinates>7.573510,47.565800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6314">
+<name><![CDATA[Basel, Im Wasenboden]]></name>
+<description><![CDATA[938 connections
+]]></description>
+<Point>
+<coordinates>7.569530,47.569600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm312">
+<name><![CDATA[Basel, Friedrich-Miescher-Str.]]></name>
+<description><![CDATA[938 connections
+]]></description>
+<Point>
+<coordinates>7.564560,47.573900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11171">
+<name><![CDATA[Binningen]]></name>
+<description><![CDATA[934 connections
+]]></description>
+<Point>
+<coordinates>7.575160,47.537300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6834">
+<name><![CDATA[Bottmingen]]></name>
+<description><![CDATA[934 connections
+]]></description>
+<Point>
+<coordinates>7.571610,47.524300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2955">
+<name><![CDATA[Basel Heuwaage]]></name>
+<description><![CDATA[932 connections
+]]></description>
+<Point>
+<coordinates>7.586830,47.551400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8758">
+<name><![CDATA[Therwil]]></name>
+<description><![CDATA[914 connections
+]]></description>
+<Point>
+<coordinates>7.557220,47.499800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9065">
+<name><![CDATA[Oberwil BL]]></name>
+<description><![CDATA[911 connections
+]]></description>
+<Point>
+<coordinates>7.559310,47.514800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13004">
+<name><![CDATA[Emmenbrücke, Sprengi]]></name>
+<description><![CDATA[908 connections
+]]></description>
+<Point>
+<coordinates>8.271850,47.081000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5946">
+<name><![CDATA[Gümligen]]></name>
+<description><![CDATA[898 connections
+]]></description>
+<Point>
+<coordinates>7.505510,46.934300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10313">
+<name><![CDATA[Münchenstein,Motorfahrzeug-Prü]]></name>
+<description><![CDATA[846 connections
+]]></description>
+<Point>
+<coordinates>7.601950,47.524800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

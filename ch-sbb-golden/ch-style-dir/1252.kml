@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1252 0300313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03003130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>9.0966796875</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1253.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>9.140625</east>
+<west>9.0966796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1254.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>9.0966796875</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1255.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>9.140625</east>
+<west>9.0966796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1256.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7485">
+<name><![CDATA[Bütschwil, Hofwiesen]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.073570,47.362300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4308">
+<name><![CDATA[Bütschwil, Bahnhof]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.074800,47.359100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9616">
+<name><![CDATA[Bütschwil, Pflegeheim]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.070220,47.360800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9572">
+<name><![CDATA[Mosnang, Schreinersberg]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.059680,47.362500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7406">
+<name><![CDATA[Dietfurt]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.078300,47.344600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9687">
+<name><![CDATA[Bütschwil]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.075130,47.359600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8343">
+<name><![CDATA[Dietfurt, Neudietfurt]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.081990,47.345300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm962">
+<name><![CDATA[Ulisbach]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.100330,47.286300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14515">
+<name><![CDATA[Lichtensteig, Steigrüti]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.084530,47.331300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11674">
+<name><![CDATA[Lichtensteig, Obertor]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.086960,47.324300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5921">
+<name><![CDATA[Wattwil, Bunt]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.083960,47.312700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4878">
+<name><![CDATA[Brunnadern-Neckertal]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.129870,47.337300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2209">
+<name><![CDATA[Brunnadern, Anker]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.137060,47.329000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9736">
+<name><![CDATA[Brunnadern, Alters-und Pflegeh]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.133850,47.331900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13269">
+<name><![CDATA[Heiterswil, Krummbach]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.127520,47.299200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12767">
+<name><![CDATA[Wattwil, Eggberg]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.113650,47.299900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>711 021301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0213010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>712.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>713.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>717.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>718.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13089">
+<name><![CDATA[Hergiswil LU, Post]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.957820,47.084800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6559">
+<name><![CDATA[Hergiswil LU, Vordere Säge]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.956160,47.083000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12999">
+<name><![CDATA[Hübeli LU, Hintersagi]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.953010,47.063500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11997">
+<name><![CDATA[Hergiswil LU, Feldmätteli]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.952710,47.067100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm857">
+<name><![CDATA[Hergiswil LU, Luegental]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.952130,47.075200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9763">
+<name><![CDATA[Entlebuch, Drei Könige]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.064730,46.992600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11159">
+<name><![CDATA[Wolhusen Weid]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.071110,47.065200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13910">
+<name><![CDATA[Menznau]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.040930,47.083400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5491">
+<name><![CDATA[Hasle LU]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.046970,46.978100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3478">
+<name><![CDATA[Schüpfheim, Wegmattensäge]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.009250,46.936200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3395">
+<name><![CDATA[Schüpfheim, Landbrücke]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.007360,46.944300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3823">
+<name><![CDATA[Schüpfheim, Badhus]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.006990,46.940500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6885">
+<name><![CDATA[Entlebuch, Marktplatz]]></name>
+<description><![CDATA[61 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.065700,46.990700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1374">
+<name><![CDATA[Finsterwald LU, Erlengraben]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.084600,46.977400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6318">
+<name><![CDATA[Entlebuch, Unteregg]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.075760,46.980100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3036">
+<name><![CDATA[Entlebuch, Spüelen]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.068890,46.983100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

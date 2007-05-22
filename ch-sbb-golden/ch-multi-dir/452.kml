@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>452 0211312002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.362060546875</north>
+<south>47.35107421875</south>
+<east>8.272705078125</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Wohlen AG, Aeschstr/S. Allmend</name>
+<description>29 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.270190,47.356000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.270190,47.356000
+8.273490,47.355100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.270190,47.356000
+8.272190,47.356700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wohlen AG, Schüwo</name>
+<description>27 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.267930,47.359600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.267930,47.359600
+8.268900,47.358300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.267930,47.359600
+8.266940,47.359600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Wohlen AG, Bankw./Narzissenweg</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.272150,47.354200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.272150,47.354200
+8.273780,47.353100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.272150,47.354200
+8.270490,47.353800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

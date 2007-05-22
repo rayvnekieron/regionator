@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>155 02033032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.6259765625</north>
+<south>46.58203125</south>
+<east>6.8115234375</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Ferlens VD, Café du Nord</name>
+<description>6 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.788470,46.592100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.788470,46.592100
+6.802880,46.587000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.788470,46.592100
+6.783560,46.593000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

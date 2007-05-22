@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1707 0320132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03201320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0986328125</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1708.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03201322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1709.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03201323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1713.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8308">
+<name><![CDATA[Maglio di Colla, Paese]]></name>
+<description><![CDATA[81 connections
+]]></description>
+<Point>
+<coordinates>9.048860,46.088200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3162">
+<name><![CDATA[Cimadera, Bivio per Cimadera]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>9.041500,46.084200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5656">
+<name><![CDATA[Sonvico, Stazione ARL]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.988650,46.058000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9164">
+<name><![CDATA[Signôra, Crana]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.050260,46.096100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3454">
+<name><![CDATA[Signôra, Paese]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.047170,46.092500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm535">
+<name><![CDATA[Scareglia, Paese]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.035190,46.089600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6341">
+<name><![CDATA[Insone, Paese]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.029140,46.086000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9082">
+<name><![CDATA[Corticiasca, Ai Corte]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.027660,46.088400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3892">
+<name><![CDATA[Corticiasca, Vecchia]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.023000,46.088200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm680">
+<name><![CDATA[Corticiasca, Paese]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.017270,46.087000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8656">
+<name><![CDATA[Corticiasca, Puffino]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.009690,46.084300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm182">
+<name><![CDATA[Bidogno, Ai Mulini]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.002080,46.084700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7722">
+<name><![CDATA[Bidogno, Ventiga]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.001580,46.080700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9370">
+<name><![CDATA[Bidogno, Paese]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.998140,46.078000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13538">
+<name><![CDATA[Bidogno, Bivio per Somazzo]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.996650,46.078200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12560">
+<name><![CDATA[Bidogno, Bivio per Lupo]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.993560,46.076300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

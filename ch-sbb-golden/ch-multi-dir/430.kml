@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>430 02113002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Auenstein, Wiweg</name>
+<description>116 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.129000,47.415400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.129000,47.415400
+8.131670,47.416700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Hunzenschwil</name>
+<description>98 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.125680,47.388300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.125680,47.388300
+8.170380,47.391200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.125680,47.388300
+8.082280,47.371600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Biberstein, Ihegi</name>
+<description>96 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.090560,47.414300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.090560,47.414300
+8.043370,47.401000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.090560,47.414300
+8.044270,47.392900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Hunzenschwil, Gemeindehaus</name>
+<description>70 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.122900,47.384200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.122900,47.384200
+8.126850,47.403200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.122900,47.384200
+8.139200,47.385200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Rupperswil, Bahnhof</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.126850,47.403200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.126850,47.403200
+8.122900,47.384200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>249 02102322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Nidau BSG</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.243340,47.121800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.243340,47.121800
+7.235290,47.131200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.243340,47.121800
+7.256610,47.118300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Biel/Bienne (Evilard)</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.245350,47.142800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.245350,47.142800
+7.240900,47.147700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Evilard/Leubringen</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.240900,47.147700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.240900,47.147700
+7.245350,47.142800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

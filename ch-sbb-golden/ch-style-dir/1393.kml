@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1393 0301300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03013000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.5361328125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1394.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03013001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.580078125</east>
+<west>9.5361328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1395.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03013002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.5361328125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1399.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03013003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.580078125</east>
+<west>9.5361328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1400.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5820">
+<name><![CDATA[Grub AR, Ebne Grub]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.516490,47.447200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7045">
+<name><![CDATA[Grub AR, Post]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.508560,47.447800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8671">
+<name><![CDATA[Grub AR, Krähtobel]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.504440,47.444200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13030">
+<name><![CDATA[Grub AR, Halten]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.496080,47.442400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3555">
+<name><![CDATA[Heiden, Spital]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.529910,47.442600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13612">
+<name><![CDATA[Heiden, Rosengarten]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.529530,47.441300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6459">
+<name><![CDATA[Heiden, Waldegg Heiden]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.526640,47.435300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4837">
+<name><![CDATA[Heiden, Hirschli]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.519960,47.434100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14157">
+<name><![CDATA[Unterrechstein, Heilbad]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.515260,47.432600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9040">
+<name><![CDATA[Oberegg AI, Rutlenstrasse]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.549690,47.422900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15000">
+<name><![CDATA[Oberegg AI, Riethof]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.546590,47.428400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8287">
+<name><![CDATA[Heiden, Wässern]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.538730,47.430800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11379">
+<name><![CDATA[Heiden, Bissau]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.535380,47.438500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7502">
+<name><![CDATA[Oberegg AI, Post]]></name>
+<description><![CDATA[155 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.552970,47.422200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9896">
+<name><![CDATA[Wolfhalden, Post]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.549900,47.453500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1348">
+<name><![CDATA[Wolfhalden, Luchten]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.546170,47.451300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

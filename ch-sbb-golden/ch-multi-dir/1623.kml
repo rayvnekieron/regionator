@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1623 031202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>10.01953125</east>
+<west>9.84375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Klosters DKB</name>
+<description>6 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.880440,46.869000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.880440,46.869000
+9.858090,46.862000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Gotschnagrat</name>
+<description>6 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.847780,46.859000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.847780,46.859000
+9.858090,46.862000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Klosters BKM</name>
+<description>5 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.875580,46.884500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.875580,46.884500
+9.864090,46.902200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Madrisa</name>
+<description>5 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.864090,46.902200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.864090,46.902200
+9.875580,46.884500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mitteltälli</name>
+<description>4 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.918870,46.809400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.918870,46.809400
+9.896090,46.802600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Dörfji</name>
+<description>4 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.896090,46.802600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.896090,46.802600
+9.918870,46.809400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Jakobshorn</name>
+<description>4 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.848470,46.772300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.848470,46.772300
+9.832430,46.786700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

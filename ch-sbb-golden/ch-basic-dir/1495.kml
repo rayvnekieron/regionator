@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1495 0302313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12071">
+<name><![CDATA[Lumbrein, Mulina]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>9.100280,46.668600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8329">
+<name><![CDATA[Vrin, Dado]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>9.099540,46.657500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14665">
+<name><![CDATA[Vrin, posta]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>9.098820,46.655200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11253">
+<name><![CDATA[Surin, posta]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<Point>
+<coordinates>9.117040,46.665500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11032">
+<name><![CDATA[Surin, Pruastg dado]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.124360,46.669600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4571">
+<name><![CDATA[Vrin, Cons]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>9.091450,46.649300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm361">
+<name><![CDATA[Vrin, Ligiazium]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>9.085420,46.644200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12087">
+<name><![CDATA[Vrin, S. Giusep]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>9.081850,46.642800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5391">
+<name><![CDATA[Vrin, Puzzatsch]]></name>
+<description><![CDATA[9 connections
+]]></description>
+<Point>
+<coordinates>9.070250,46.639400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

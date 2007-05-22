@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1310 03010220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>9.1845703125</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3978">
+<name><![CDATA[Buhwil, Post]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.163630,47.526500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2585">
+<name><![CDATA[Buhwil, Hinterbach]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.156180,47.522100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13526">
+<name><![CDATA[Buhwil, Oberdorf]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.150290,47.524700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10738">
+<name><![CDATA[Ritzisbuhwil, Dorf]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.149630,47.524900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5476">
+<name><![CDATA[Schönholzerswilen, Klingen]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.141130,47.518700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13078">
+<name><![CDATA[Schönholzerswilen, Post]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.140710,47.516000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5172">
+<name><![CDATA[Neukirch an der Thur, Post]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>9.173080,47.511100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7469">
+<name><![CDATA[Sulgen, Bahnhof]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>9.183270,47.538400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9843">
+<name><![CDATA[Bürglen TG, Bahnhof]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>9.149720,47.548300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1947">
+<name><![CDATA[Rüti b. Heiligkreuz]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>9.151690,47.506400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

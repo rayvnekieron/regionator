@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>245 02102313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Grenchen, Holzerhütte</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.377930,47.200200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.377930,47.200200
+7.395090,47.193000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.377930,47.200200
+7.368680,47.210100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Stierenberg b. Grenchen</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.368680,47.210100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.368680,47.210100
+7.380550,47.220900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.368680,47.210100
+7.377930,47.200200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Grenchen, Unterer Grenchenberg</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.380550,47.220900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.380550,47.220900
+7.368680,47.210100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

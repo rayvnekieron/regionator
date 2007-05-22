@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1260 03003201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030032010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.26318359375</south>
+<east>8.85498046875</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1261.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030032011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.26318359375</south>
+<east>8.876953125</east>
+<west>8.85498046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1262.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8755">
+<name><![CDATA[Dürnten, Unterdorf]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.859090,47.278100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10139">
+<name><![CDATA[Rüti ZH, Rekrutierungszentrum]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.843030,47.259900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7358">
+<name><![CDATA[Rüti ZH, Fägswil]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.873190,47.266300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8619">
+<name><![CDATA[Rüti ZH, Steinacher]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.857930,47.252700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm651">
+<name><![CDATA[Rüti ZH, Steinstrasse]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.857930,47.252700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6444">
+<name><![CDATA[Rüti ZH, Drei Eichen]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.856520,47.253400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1369">
+<name><![CDATA[Rüti ZH, Bergacher]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.856350,47.251000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12287">
+<name><![CDATA[Rüti ZH, Gruebenplatz]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.853650,47.251900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10714">
+<name><![CDATA[Rüti ZH, Moosstrasse]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.856140,47.255800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8429">
+<name><![CDATA[Tann, Blatt]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.855560,47.273600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1900">
+<name><![CDATA[Tann, Sonnenberg]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.852600,47.266400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11647">
+<name><![CDATA[Tann, Nauen]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.852560,47.270700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3177">
+<name><![CDATA[Tann, Härtiplatz]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.851510,47.260800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10037">
+<name><![CDATA[Dürnten, Giebelackerstrasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.848040,47.277700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5515">
+<name><![CDATA[Dürnten, Post]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.843670,47.278200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14754">
+<name><![CDATA[Dürnten, Etzelstrasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.841100,47.277400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

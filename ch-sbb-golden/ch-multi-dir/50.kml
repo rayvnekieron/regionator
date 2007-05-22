@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>50 02030330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>6.6357421875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Giez, poste</name>
+<description>26 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.618180,46.811200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.618180,46.811200
+6.622130,46.809600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.618180,46.811200
+6.613840,46.812000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.618180,46.811200
+6.628130,46.798700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Giez, La Croix</name>
+<description>26 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.613840,46.812000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.613840,46.812000
+6.618180,46.811200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.613840,46.812000
+6.591700,46.803600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Giez, La Pommelaz</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.622130,46.809600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.622130,46.809600
+6.618180,46.811200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.622130,46.809600
+6.639110,46.808800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Novalles, collège</name>
+<description>18 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.596020,46.828600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.596020,46.828600
+6.578410,46.823700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.596020,46.828600
+6.606230,46.838300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Grandevent, village</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.606230,46.838300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.606230,46.838300
+6.645990,46.809100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.606230,46.838300
+6.596020,46.828600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

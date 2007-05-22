@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>11 020133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0201331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>12.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0201333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>13.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm11082">
+<name><![CDATA[St-Imier, gare]]></name>
+<description><![CDATA[43 connections
+]]></description>
+<Point>
+<coordinates>6.999570,47.150800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12659">
+<name><![CDATA[Les Cerlatez]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.028200,47.243400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm30">
+<name><![CDATA[Saignelégier, Rouges-Terres]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.019550,47.252100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2484">
+<name><![CDATA[Saignelégier, La Neuvevie]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.012280,47.252100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6215">
+<name><![CDATA[Saignelégier, Centre Loisirs]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.004020,47.252500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2542">
+<name><![CDATA[Les Pommerats, village]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.983720,47.271100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4616">
+<name><![CDATA[Le Plan-Marmet]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>6.995850,47.122000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5395">
+<name><![CDATA[Les Pontins, restaurant]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>6.993150,47.130100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3576">
+<name><![CDATA[Goumois, Belfond]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>6.961420,47.252300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8404">
+<name><![CDATA[Goumois, Tournant Theusseret]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>6.949520,47.253600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4573">
+<name><![CDATA[Savagnières, parc]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<Point>
+<coordinates>7.005060,47.123900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6959">
+<name><![CDATA[Goumois, douane]]></name>
+<description><![CDATA[13 connections
+]]></description>
+<Point>
+<coordinates>6.952420,47.261500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7424">
+<name><![CDATA[St-Imier, place du Marché]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>6.995610,47.151700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6247">
+<name><![CDATA[Les Breuleux, gare]]></name>
+<description><![CDATA[11 connections
+]]></description>
+<Point>
+<coordinates>7.004360,47.210200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1974">
+<name><![CDATA[Biaufond, douane]]></name>
+<description><![CDATA[7 connections
+]]></description>
+<Point>
+<coordinates>6.858350,47.163700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1417">
+<name><![CDATA[St-Imier, Longines]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.002220,47.149000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

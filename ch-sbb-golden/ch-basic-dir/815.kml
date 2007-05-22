@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>815 021333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0213330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>816.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>817.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>818.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1139">
+<name><![CDATA[Oberwald]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.342210,46.529800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10565">
+<name><![CDATA[Furka]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.435910,46.538300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14058">
+<name><![CDATA[Obergesteln]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>8.326330,46.513300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4895">
+<name><![CDATA[Ulrichen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>8.309010,46.505100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12930">
+<name><![CDATA[Geschinen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>8.282160,46.491600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5565">
+<name><![CDATA[Münster VS]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>8.266780,46.485300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm546">
+<name><![CDATA[Grimsel Hospiz, Abzw.]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>8.340360,46.573700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3067">
+<name><![CDATA[Gletsch, Post]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.360690,46.561400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10580">
+<name><![CDATA[Oberwald VS, Rhonequelle]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.355510,46.544400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14811">
+<name><![CDATA[Oberwald VS, Dorf]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.348500,46.534300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm383">
+<name><![CDATA[Grimsel Passhöhe]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.338530,46.562100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6287">
+<name><![CDATA[Oberwald, Bahnhof]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>8.342070,46.530200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7715">
+<name><![CDATA[Grimsel, Rest. Grimselblick]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.345040,46.561600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2735">
+<name><![CDATA[Griespass, Abzw.]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.381970,46.472900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10992">
+<name><![CDATA[Ladstafel]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.368700,46.477000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm638">
+<name><![CDATA[Grimsel, Hospiz]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.332500,46.571800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

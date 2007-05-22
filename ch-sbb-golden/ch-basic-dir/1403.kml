@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1403 03013011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.66796875</east>
+<west>9.6240234375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2181">
+<name><![CDATA[St. Margrethen SG, Mineralbad]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.635340,47.450600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4044">
+<name><![CDATA[St. Margrethen SG,Schäflisberg]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.629590,47.447800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5098">
+<name><![CDATA[St. Margrethen SG, Gletscherh]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.626270,47.447600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13271">
+<name><![CDATA[Leuchen]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.624050,47.442000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12137">
+<name><![CDATA[St. Margrethen SG,Industriestr]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.646910,47.449700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7077">
+<name><![CDATA[St. Margrethen SG, Apfelberg]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>9.626370,47.450100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

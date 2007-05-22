@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1729 032030101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.03271484375</south>
+<east>8.9208984375</east>
+<west>8.89892578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm664">
+<name><![CDATA[Gravesano, Posta]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.917890,46.041100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10137">
+<name><![CDATA[Gravesano, Paese]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.918020,46.041100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm82">
+<name><![CDATA[Gravesano, Cimaronco]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.912470,46.041500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6386">
+<name><![CDATA[Arosio, Cappella di Toma]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.904720,46.046300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11330">
+<name><![CDATA[Arosio, Arosio Bassa]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.901370,46.046500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13608">
+<name><![CDATA[Arosio, Posta]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.900660,46.049000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

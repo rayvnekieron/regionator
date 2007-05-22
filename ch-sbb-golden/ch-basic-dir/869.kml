@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>869 0221133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02211332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>870.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02211333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>7.03125</east>
+<west>6.9873046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>871.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7224">
+<name><![CDATA[Col-de-la-Forclaz]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.001080,46.057800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1827">
+<name><![CDATA[Le Trétien]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.994300,46.099300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10167">
+<name><![CDATA[Finhaut]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.976360,46.082300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14312">
+<name><![CDATA[Le Châtelard VS]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.958650,46.062000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2448">
+<name><![CDATA[La Médettaz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.006350,46.107600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1316">
+<name><![CDATA[Trient, poste]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<Point>
+<coordinates>6.994150,46.056300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4415">
+<name><![CDATA[Trient, bif. rte Finhaut]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.964450,46.061500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5760">
+<name><![CDATA[La Caffe, hameau]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.018640,46.064900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7705">
+<name><![CDATA[Martigny-Combe, Mayens-Basses]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.012850,46.061700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm636">
+<name><![CDATA[Trient, camping]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.991020,46.062000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13517">
+<name><![CDATA[Trient, rte de Litroz]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.983870,46.067500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10638">
+<name><![CDATA[Tête-Noire]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.975520,46.071400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4123">
+<name><![CDATA[Trient, Le Plan]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.969990,46.068100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8648">
+<name><![CDATA[Le Châtelard VS, village]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.958130,46.058000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11878">
+<name><![CDATA[Les Marécottes TLC]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.006290,46.111300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2092">
+<name><![CDATA[La Creusaz TLC]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>6.994440,46.118400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

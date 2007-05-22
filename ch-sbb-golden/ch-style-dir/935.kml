@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>935 023011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0230110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>936.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0230111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>937.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0230112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>938.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0230113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>939.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13048">
+<name><![CDATA[Turtmann, Seilbahn LTUO]]></name>
+<description><![CDATA[113 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.700800,46.298600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm221">
+<name><![CDATA[Turtmann]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.699600,46.309300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8055">
+<name><![CDATA[Salgesch]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.579000,46.309400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12691">
+<name><![CDATA[Tschingeren]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.626940,46.332000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8579">
+<name><![CDATA[Rumeling]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.621760,46.334700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6740">
+<name><![CDATA[Inden]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.617890,46.343700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4763">
+<name><![CDATA[Leukerbad, Russengraben]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.614040,46.358100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2979">
+<name><![CDATA[Albinen, Post]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.634760,46.340100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm509">
+<name><![CDATA[Turtmann LTUO]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.701480,46.298600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3033">
+<name><![CDATA[Turtmann, Bahnhof]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.699550,46.308500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm190">
+<name><![CDATA[Oberems]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.695460,46.282900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4405">
+<name><![CDATA[Leukerbad]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.619350,46.392300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1875">
+<name><![CDATA[Varen, Post]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.604820,46.316800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14681">
+<name><![CDATA[Jeizinen LGJ]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.722790,46.326300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5598">
+<name><![CDATA[Turtmann, Soleil]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.700820,46.302200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2311">
+<name><![CDATA[Albinenleitern, Flaschen]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.621840,46.359900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

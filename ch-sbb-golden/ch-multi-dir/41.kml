@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>41 02030310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>6.6357421875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Couvet, hôpital</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.631140,46.925700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.631140,46.925700
+6.631110,46.927500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.631140,46.925700
+6.623290,46.923400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.631140,46.925700
+6.635120,46.922600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Couvet, centre commercial</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.623290,46.923400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.623290,46.923400
+6.631140,46.925700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.623290,46.923400
+6.614820,46.919300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Boveresse, piscine</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.614820,46.919300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.614820,46.919300
+6.601080,46.916500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.614820,46.919300
+6.623290,46.923400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Couvet, gare</name>
+<description>18 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.635120,46.922600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.635120,46.922600
+6.654950,46.913800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.635120,46.922600
+6.631110,46.927500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.635120,46.922600
+6.631140,46.925700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Provence, Vuissens</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.629250,46.894200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.629250,46.894200
+6.654950,46.913800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.629250,46.894200
+6.640730,46.881000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Boveresse, gare</name>
+<description>2 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.595790,46.918700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.595790,46.918700
+6.601080,46.916500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.595790,46.918700
+6.608150,46.926500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

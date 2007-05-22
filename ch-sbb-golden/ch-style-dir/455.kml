@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>455 021131202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.35107421875</north>
+<south>47.3291015625</south>
+<east>8.28369140625</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0211312021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.35107421875</north>
+<south>47.340087890625</south>
+<east>8.28369140625</east>
+<west>8.272705078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>456.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14193">
+<name><![CDATA[Wohlen AG, Brühlmattstrasse]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.275940,47.342500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10594">
+<name><![CDATA[Wohlen AG, Büttikerstrasse]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.274910,47.340700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6686">
+<name><![CDATA[Wohlen AG, Brünismatt]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.274620,47.343200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4235">
+<name><![CDATA[Wohlen AG, u.Farnbstr/Freiämt.]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.272980,47.344100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6938">
+<name><![CDATA[Wohlen AG, Harzer]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.272890,47.338500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3815">
+<name><![CDATA[Wohlen AG, Industrie/Ringstr.]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.262480,47.349500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12360">
+<name><![CDATA[Wohlen AG, Markusplatz]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.274390,47.349700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11944">
+<name><![CDATA[Wohlen AG, Haldenschulen]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.280690,47.350500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4220">
+<name><![CDATA[Wohlen AG, Rösslimatt]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.276310,47.345400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1482">
+<name><![CDATA[Wohlen AG, Kehrplatz Stegmatt]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.281300,47.346700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11793">
+<name><![CDATA[Wohlen AG, Altersheim Bifang]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.278970,47.346300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11702">
+<name><![CDATA[Wohlen AG, Freiämt./Aargauers.]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.276310,47.345400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm866">
+<name><![CDATA[Wohlen AG, Junkholzweg]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.281240,47.343100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12327">
+<name><![CDATA[Wohlen AG, Gewerbering]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.278260,47.342900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12211">
+<name><![CDATA[Wohlen AG, Dammweg/Boll]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.276610,47.343600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5583">
+<name><![CDATA[Wohlen AG, Freiämterhof]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.264430,47.347500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

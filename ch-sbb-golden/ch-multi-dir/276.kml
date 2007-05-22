@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>276 02103110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Seewen SO, Zelgli</name>
+<description>62 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.660340,47.436600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.660340,47.436600
+7.665310,47.435200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.660340,47.436600
+7.655690,47.434800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Büren SO, Schulhaus</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.666560,47.449600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.666560,47.449600
+7.665310,47.435200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.666560,47.449600
+7.670340,47.449200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

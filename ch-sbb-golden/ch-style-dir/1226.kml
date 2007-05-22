@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1226 0300301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03003010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1227.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1228.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1229.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1230.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5409">
+<name><![CDATA[Bichelsee, Post]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.922370,47.448000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3274">
+<name><![CDATA[Balterswil, Post]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.937080,47.452300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10897">
+<name><![CDATA[Itaslen]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.942000,47.438700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13341">
+<name><![CDATA[Turbenthal, Abzw. Auli]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.879530,47.410000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6815">
+<name><![CDATA[Turbenthal, Wilden]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.897320,47.402300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8452">
+<name><![CDATA[Turbenthal, Traube]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.887980,47.407400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5811">
+<name><![CDATA[Turbenthal, Neubrunn]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.893180,47.440100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6577">
+<name><![CDATA[Turbenthal, Oberhofen]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.878560,47.434200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2267">
+<name><![CDATA[Wallenwil, Schulhaus]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.955770,47.456500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9090">
+<name><![CDATA[Turbenthal, Seelmatten]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.895480,47.453800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6640">
+<name><![CDATA[Sternenberg, Rossweid]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.914970,47.384800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4153">
+<name><![CDATA[Bichelsee, Niederhofen-Höfli]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.909630,47.454800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13751">
+<name><![CDATA[Sternenberg, Höchstock]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.909420,47.379400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1109">
+<name><![CDATA[Schmidrüti, Post]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.903800,47.415000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9579">
+<name><![CDATA[Bauma, Musterplatz]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.899680,47.380700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4836">
+<name><![CDATA[Turbenthal,Strandbad Bichelsee]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.899050,47.455700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

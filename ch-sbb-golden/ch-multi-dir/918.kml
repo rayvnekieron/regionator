@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>918 0230033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Siviez (Super-Nendaz)</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.316160,46.136600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.316160,46.136600
+7.315220,46.150200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

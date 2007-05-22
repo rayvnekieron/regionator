@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>264 02103011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Zwingen, Schützenhaus</name>
+<description>100 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.519830,47.436600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.519830,47.436600
+7.525130,47.437700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.519830,47.436600
+7.519190,47.449800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.519830,47.436600
+7.509880,47.430000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Brislach, Ebnet</name>
+<description>86 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.540020,47.423300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.540020,47.423300
+7.542660,47.419000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.540020,47.423300
+7.538700,47.425100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Zwingen, Nenzlingenmatten</name>
+<description>76 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.549010,47.444900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.549010,47.444900
+7.539060,47.439500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.549010,47.444900
+7.560280,47.446900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Zwingen, Strengenfeld</name>
+<description>76 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.539060,47.439500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.539060,47.439500
+7.549010,47.444900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.539060,47.439500
+7.525130,47.437700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.539060,47.439500
+7.530770,47.436800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Blauen, Dorfplatz</name>
+<description>50 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.519190,47.449800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.519190,47.449800
+7.519830,47.436600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

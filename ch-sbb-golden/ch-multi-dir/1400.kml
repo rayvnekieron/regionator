@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1400 03013003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.580078125</east>
+<west>9.5361328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Altstätten SG</name>
+<description>110 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.556510,47.374200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.556510,47.374200
+9.586750,47.392700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.556510,47.374200
+9.627250,47.410400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.556510,47.374200
+9.478630,47.168400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.556510,47.374200
+9.571370,47.323500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Altstätten SG, Spital</name>
+<description>88 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.540470,47.382600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.540470,47.382600
+9.537580,47.376400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.540470,47.382600
+9.540640,47.378600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Reute AR, Steinegacht</name>
+<description>58 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.578230,47.415700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.578230,47.415700
+9.569440,47.419700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.578230,47.415700
+9.580740,47.412200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mohren, Sturzenhard</name>
+<description>58 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.576280,47.408500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.576280,47.408500
+9.572870,47.405900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.576280,47.408500
+9.580740,47.412200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mohren</name>
+<description>54 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.572870,47.405900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.572870,47.405900
+9.566810,47.403500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.572870,47.405900
+9.576280,47.408500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mohren, Grütli</name>
+<description>45 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.566810,47.403500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.566810,47.403500
+9.572870,47.405900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.566810,47.403500
+9.557270,47.396900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Marbach SG, Bruggtobel</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.557270,47.396900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.557270,47.396900
+9.554890,47.395400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.557270,47.396900
+9.566810,47.403500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Altstätten SG, Kapf</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.554890,47.395400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.554890,47.395400
+9.547600,47.387000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.554890,47.395400
+9.557270,47.396900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lüchingen, Hallenbad</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.547600,47.387000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.547600,47.387000
+9.554890,47.395400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.547600,47.387000
+9.542080,47.381500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Altstätten SG, Heime</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.542080,47.381500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.542080,47.381500
+9.540640,47.378600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.542080,47.381500
+9.547600,47.387000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Altstätten Stadt</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.537310,47.376800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.537310,47.376800
+9.505600,47.365700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.537310,47.376800
+9.522080,47.368600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Oberegg AI, St. Anton Rössli</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.538930,47.410800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.538930,47.410800
+9.538410,47.414400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.538930,47.410800
+9.534260,47.409900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Oberegg AI, Bäumen</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.538410,47.414400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.538410,47.414400
+9.543270,47.419900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.538410,47.414400
+9.538930,47.410800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

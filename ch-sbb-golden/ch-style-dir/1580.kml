@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1580 03032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>9.4921875</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>9.31640625</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1581.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>9.4921875</east>
+<west>9.31640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1588.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>9.31640625</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1599.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>9.4921875</east>
+<west>9.31640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1600.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8503">
+<name><![CDATA[Thusis, Dorf]]></name>
+<description><![CDATA[368 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.440660,46.700800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10280">
+<name><![CDATA[Thusis, Bahnhof]]></name>
+<description><![CDATA[313 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.440560,46.698100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5084">
+<name><![CDATA[Scharans, Mosterei]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.454950,46.715600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10395">
+<name><![CDATA[Scharans, St. Agatha]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.452820,46.711100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm629">
+<name><![CDATA[Pratval, Gemeindehaus]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.432310,46.733200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9869">
+<name><![CDATA[Zillis, posta]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.445070,46.634500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13184">
+<name><![CDATA[Pratval, Rietberg]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.447820,46.735000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2712">
+<name><![CDATA[Pratval, Dorf]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.445410,46.731700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12561">
+<name><![CDATA[Andeer, Heilbad]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.427000,46.605200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15106">
+<name><![CDATA[Pignia, Bad]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.430630,46.615000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7159">
+<name><![CDATA[Fürstenau, Schloss]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.446790,46.721200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10973">
+<name><![CDATA[Fürstenau, Dorf]]></name>
+<description><![CDATA[139 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.448180,46.718400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm611">
+<name><![CDATA[Sils im Domleschg, Post]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.454060,46.700500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3273">
+<name><![CDATA[Sils im Domleschg, Oberdorf]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.450680,46.697600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11420">
+<name><![CDATA[Rodels, Dorf]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.444600,46.736200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14089">
+<name><![CDATA[Thusis]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.440610,46.698700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

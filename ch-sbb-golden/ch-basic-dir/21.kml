@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>21 020233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>6.328125</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0202330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>6.240234375</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>22.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0202331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>6.328125</east>
+<west>6.240234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>23.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0202332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>6.240234375</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>24.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0202333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>6.328125</east>
+<west>6.240234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>25.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4655">
+<name><![CDATA[St-Cergue]]></name>
+<description><![CDATA[91 connections
+]]></description>
+<Point>
+<coordinates>6.160360,46.448600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12230">
+<name><![CDATA[Gimel, la Vernette]]></name>
+<description><![CDATA[79 connections
+]]></description>
+<Point>
+<coordinates>6.307350,46.509600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5397">
+<name><![CDATA[Gland, Riant Coteau]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.282640,46.419100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7578">
+<name><![CDATA[Gland, Malagny]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.276960,46.416800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6402">
+<name><![CDATA[Gland, Mauverney]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.275640,46.417600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12939">
+<name><![CDATA[Gland, Rue du Midi]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.271480,46.417700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2631">
+<name><![CDATA[Gimel, Le Prunier]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>6.319080,46.509500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11183">
+<name><![CDATA[Gimel, bas du village]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>6.311290,46.508300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11798">
+<name><![CDATA[Gland, Meydez]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>6.277870,46.420000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5518">
+<name><![CDATA[Gland, Route Suisse]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>6.274930,46.411700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8144">
+<name><![CDATA[Gland, Montoly]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>6.274570,46.422400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10176">
+<name><![CDATA[Gland, Perron]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>6.274040,46.419800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2457">
+<name><![CDATA[Gland, gare sud]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>6.271100,46.420100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10295">
+<name><![CDATA[Gland, Pont Farbel]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>6.255300,46.414200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm305">
+<name><![CDATA[Gland, Sous-les-Vignes]]></name>
+<description><![CDATA[59 connections
+]]></description>
+<Point>
+<coordinates>6.271840,46.425000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7569">
+<name><![CDATA[Tartegnin, La Vissenche]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.308970,46.463500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

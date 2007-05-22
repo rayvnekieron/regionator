@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1361 03012101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.404296875</east>
+<west>9.3603515625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5903">
+<name><![CDATA[Wittenbach, Oedenhof Ost]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>9.389340,47.460800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7508">
+<name><![CDATA[St. Gallen TB]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>9.370470,47.423600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3423">
+<name><![CDATA[St. Gallen AB]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>9.370590,47.423400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm180">
+<name><![CDATA[Bernhardzell, Lee]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.361740,47.458800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11120">
+<name><![CDATA[Kronbühl, Krone]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.394920,47.459400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2682">
+<name><![CDATA[St. Gallen, Bleicheli]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.372000,47.421800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

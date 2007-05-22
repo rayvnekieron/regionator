@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1427 03020001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9018">
+<name><![CDATA[Walchwil SGZ]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.512490,47.099700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

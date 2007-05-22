@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>229 02102122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm149">
+<name><![CDATA[Undervelier, poste]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.224100,47.303500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1127">
+<name><![CDATA[Berlincourt]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.222680,47.327500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11894">
+<name><![CDATA[Undervelier, Forges]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.218110,47.311600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

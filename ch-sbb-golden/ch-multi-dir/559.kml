@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>559 02120331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Milken, Hofland</name>
+<description>38 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.358720,46.806200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.358720,46.806200
+7.354800,46.800800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.358720,46.806200
+7.357400,46.813400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Schwarzenburg, Zelg</name>
+<description>38 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.357400,46.813400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.357400,46.813400
+7.344290,46.817000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.357400,46.813400
+7.358720,46.806200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Schwarzenburg, Milkenstrasse</name>
+<description>38 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.344290,46.817000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.344290,46.817000
+7.357400,46.813400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.344290,46.817000
+7.341670,46.818800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Schwarzenburg, Althaus</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.346890,46.829600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.346890,46.829600
+7.342970,46.826900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.346890,46.829600
+7.341640,46.832300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lanzenhäusern, Niedereichi</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.344950,46.845700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.344950,46.845700
+7.336380,46.846200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.344950,46.845700
+7.346870,46.841300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lanzenhäusern, Schulhaus Moos</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.343330,46.834900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.343330,46.834900
+7.341640,46.832300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.343330,46.834900
+7.346870,46.841300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Schwarzenburg, Häusern</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.342970,46.826900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.342970,46.826900
+7.341670,46.818800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.342970,46.826900
+7.346890,46.829600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lanzenhäusern, Steinhaus</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.341640,46.832300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.341640,46.832300
+7.343330,46.834900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.341640,46.832300
+7.346890,46.829600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

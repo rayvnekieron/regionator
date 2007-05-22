@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1317 03010233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>9.31640625</east>
+<west>9.2724609375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11196">
+<name><![CDATA[Waldkirch, Scheiwil]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.314380,47.479600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm277">
+<name><![CDATA[St. Pelagiberg, Hasum]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.307620,47.485400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3124">
+<name><![CDATA[St. Pelagiberg, Kurhaus]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>9.299740,47.487700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2812">
+<name><![CDATA[St. Pelagiberg, Trön]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.301700,47.487000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1282">
+<name><![CDATA[Wilen (Gottshaus), Mollishaus]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.294380,47.486200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5876">
+<name><![CDATA[Wilen (Gottshaus), Lauften]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.290730,47.486300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14730">
+<name><![CDATA[Wilen (Gottshaus), Hoferberg]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.288830,47.489000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12329">
+<name><![CDATA[Wilen (Gottshaus)]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.282020,47.493400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9814">
+<name><![CDATA[Waldkirch, Fillisweid]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>9.281230,47.461000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

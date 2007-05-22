@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>292 02103220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm670">
+<name><![CDATA[Grenchen, Brücke]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>7.420170,47.172400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9115">
+<name><![CDATA[Grenchen Nord, Bahnhof]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.389820,47.191200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12819">
+<name><![CDATA[Grenchen, Flughafen]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>7.409960,47.181500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14392">
+<name><![CDATA[Grenchen BSG]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.422530,47.172900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2104">
+<name><![CDATA[Staad (Grenchen), Käserei]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>7.405670,47.162500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

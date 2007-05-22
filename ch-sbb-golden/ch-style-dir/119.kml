@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>119 02032131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.6259765625</south>
+<east>6.6796875</east>
+<west>6.6357421875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5336">
+<name><![CDATA[Poliez-Pittet, Grands-Champs]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.676650,46.632600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10909">
+<name><![CDATA[Poliez-le-Grand, La Sauvenière]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.668790,46.634100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm819">
+<name><![CDATA[Poliez-Pittet, Les Roches]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.679630,46.629700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10340">
+<name><![CDATA[Echallens, collège/parc]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.645860,46.639300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2991">
+<name><![CDATA[Poliez-Pittet, collège]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.677990,46.630300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2284">
+<name><![CDATA[Poliez-le-Grand, Bois-la-Croix]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.674620,46.637600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

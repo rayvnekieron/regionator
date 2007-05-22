@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>291 0210322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02103220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>292.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02103221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>293.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02103223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>294.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7936">
+<name><![CDATA[Leuzigen, Dezaley]]></name>
+<description><![CDATA[147 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.458420,47.174200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2090">
+<name><![CDATA[Arch, Kreuz]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.428090,47.167000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14667">
+<name><![CDATA[Gächliwil, Wendeplatz]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.445230,47.123800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10836">
+<name><![CDATA[Lüterswil, Dorf]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.438640,47.121100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13823">
+<name><![CDATA[Bettlach]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.428370,47.195000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2339">
+<name><![CDATA[Schnottwil, Schulhaus]]></name>
+<description><![CDATA[109 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.387250,47.111200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6840">
+<name><![CDATA[Biezwil, Ausserdorf]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.421510,47.116600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm832">
+<name><![CDATA[Biezwil, Dorf]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.418210,47.113900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10782">
+<name><![CDATA[Schnottwil, Oberdorf]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.393840,47.111200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12244">
+<name><![CDATA[Grenchen Nord]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.389470,47.191800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4461">
+<name><![CDATA[Oberwil b. Büren, Dorf]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.406350,47.130300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7417">
+<name><![CDATA[Oberwil b. Büren, Bad]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.403060,47.123800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12612">
+<name><![CDATA[Schnottwil, Kappeli]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.395160,47.115700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11542">
+<name><![CDATA[Schnottwil, Kreuzstrasse]]></name>
+<description><![CDATA[85 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.391210,47.112100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7981">
+<name><![CDATA[Aetigkofen, Dorf]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.466310,47.125600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6758">
+<name><![CDATA[Gächliwil, alte Post]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.454450,47.125600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>857 02211130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12923">
+<name><![CDATA[Collombey-le-Grand]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.948540,46.279500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

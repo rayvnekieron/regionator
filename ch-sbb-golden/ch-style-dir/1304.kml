@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1304 03010203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>9.228515625</east>
+<west>9.1845703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12570">
+<name><![CDATA[Mattwil, Post]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.209200,47.578900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9294">
+<name><![CDATA[Leimbach TG, Post]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.187330,47.560800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12057">
+<name><![CDATA[Andwil TG, Dorf]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.223750,47.560800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9005">
+<name><![CDATA[Mattwil, Ochsen]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.206500,47.577600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3924">
+<name><![CDATA[Birwinken, Dorf]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.198150,47.582600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5703">
+<name><![CDATA[Donzhausen, Dorf]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.196570,47.554900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

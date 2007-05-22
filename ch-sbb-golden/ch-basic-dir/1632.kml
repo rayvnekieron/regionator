@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1632 031220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>10.01953125</east>
+<west>9.84375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13849">
+<name><![CDATA[Chapella, La Resgia]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.007700,46.632500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9085">
+<name><![CDATA[Madulain, vih]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.937610,46.585400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9844">
+<name><![CDATA[Zuoz, plaz]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<Point>
+<coordinates>9.959270,46.602000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1566">
+<name><![CDATA[S-chanf, Parc Naziunal]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>10.009700,46.618000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13709">
+<name><![CDATA[Chantsura]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.981960,46.744200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1477">
+<name><![CDATA[Susch, Abzw. Schwarzhorn]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.970720,46.741700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8091">
+<name><![CDATA[Flüela, Ospiz]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.947230,46.750400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7020">
+<name><![CDATA[Sertig, Sand]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.849650,46.720500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13026">
+<name><![CDATA[Dischma, Dürrboden]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>9.921640,46.720800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

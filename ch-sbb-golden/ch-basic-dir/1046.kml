@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1046 0300023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03000230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.5693359375</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1047.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03000231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1050.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03000232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.5693359375</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1051.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03000233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1052.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13258">
+<name><![CDATA[Bülach, Niederflachs]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>8.531170,47.515600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6753">
+<name><![CDATA[Bülach, Kaserne]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>8.525870,47.513100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12193">
+<name><![CDATA[Rorbas, Dorfplatz]]></name>
+<description><![CDATA[208 connections
+]]></description>
+<Point>
+<coordinates>8.579380,47.529800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9853">
+<name><![CDATA[Freienstein, Post]]></name>
+<description><![CDATA[207 connections
+]]></description>
+<Point>
+<coordinates>8.580680,47.530400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4920">
+<name><![CDATA[Rorbas, Hirschen]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<Point>
+<coordinates>8.574750,47.530800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4323">
+<name><![CDATA[Bachenbülach, alte Post]]></name>
+<description><![CDATA[194 connections
+]]></description>
+<Point>
+<coordinates>8.545990,47.505100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7405">
+<name><![CDATA[Winkel, Scheidweg]]></name>
+<description><![CDATA[194 connections
+]]></description>
+<Point>
+<coordinates>8.545370,47.496900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13565">
+<name><![CDATA[Bachenbülach, Schmiede]]></name>
+<description><![CDATA[194 connections
+]]></description>
+<Point>
+<coordinates>8.544990,47.500900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7464">
+<name><![CDATA[Bülach, Mettmenriet]]></name>
+<description><![CDATA[194 connections
+]]></description>
+<Point>
+<coordinates>8.543510,47.512300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6456">
+<name><![CDATA[Winkel, Seeb]]></name>
+<description><![CDATA[189 connections
+]]></description>
+<Point>
+<coordinates>8.547880,47.491300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7245">
+<name><![CDATA[Winkel, Oberrüti]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>8.562520,47.479900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm771">
+<name><![CDATA[Winkel, Bühlhof]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>8.560720,47.483300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13902">
+<name><![CDATA[Winkel, Oberdorf]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>8.555500,47.491400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm620">
+<name><![CDATA[Winkel, Zentrum]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>8.552190,47.492500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm158">
+<name><![CDATA[Winkel, Niderrüti]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>8.554580,47.478500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1921">
+<name><![CDATA[Embrach, Oberdorf]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>8.598890,47.500200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

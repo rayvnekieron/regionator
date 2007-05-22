@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>27 02023332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>6.2841796875</east>
+<west>6.240234375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1229">
+<name><![CDATA[Begnins, Le Pauffet]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.248820,46.445400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13437">
+<name><![CDATA[Begnins, Bellevue]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.247250,46.443100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5372">
+<name><![CDATA[Begnins, Bois-du-Four]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.246800,46.448700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4642">
+<name><![CDATA[Gland, Golf Impérial]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.275600,46.407600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10121">
+<name><![CDATA[Gland, Les Perrerets]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.261190,46.424400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

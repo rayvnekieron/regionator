@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>568 02121003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Lätti, Hauptstrasse</name>
+<description>92 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.429430,47.039200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.429430,47.039200
+7.429430,47.033800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.429430,47.039200
+7.423170,47.054100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Moosaffoltern</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.437320,47.043700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.437320,47.043700
+7.423170,47.054100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.437320,47.043700
+7.430740,47.039200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lätti, Dorf</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.430740,47.039200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.430740,47.039200
+7.429430,47.033800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.430740,47.039200
+7.437320,47.043700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

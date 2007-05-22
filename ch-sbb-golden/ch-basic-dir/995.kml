@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>995 02310130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11161">
+<name><![CDATA[Rothwald, Post]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.037810,46.279500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4970">
+<name><![CDATA[Rothwald, Ganterwald]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.037430,46.283400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8277">
+<name><![CDATA[Schallberg]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.022860,46.293800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

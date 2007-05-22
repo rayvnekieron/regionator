@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>887 02300130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm21">
+<name><![CDATA[Savièse, Visse]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.336350,46.305200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm407">
+<name><![CDATA[Savièse, Dilogne]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.333060,46.304100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm510">
+<name><![CDATA[Savièse, Vouagno]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.328220,46.303700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6251">
+<name><![CDATA[Savièse, Sur-le-Scex]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.325950,46.307100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7028">
+<name><![CDATA[Savièse, Roua]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.324760,46.301900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3061">
+<name><![CDATA[Coppet (Savièse)]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.324720,46.286700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9658">
+<name><![CDATA[Plan-Cernet]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.323870,46.292500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1765">
+<name><![CDATA[Savièse, Plan-d'Agy]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.322050,46.309100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8270">
+<name><![CDATA[Dorbagnon]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.318450,46.311700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1054">
+<name><![CDATA[Grand-Zour]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.314310,46.303200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

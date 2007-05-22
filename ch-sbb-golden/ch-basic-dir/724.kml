@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>724 0213020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.822265625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6257">
+<name><![CDATA[Röthenbach i.E., Dorf]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<Point>
+<coordinates>7.741260,46.852700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

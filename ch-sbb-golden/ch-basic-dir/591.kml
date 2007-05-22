@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>591 02121032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.5146484375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021210320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.95556640625</south>
+<east>7.49267578125</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>592.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021210321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.95556640625</south>
+<east>7.5146484375</east>
+<west>7.49267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>593.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021210322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.95556640625</north>
+<south>46.93359375</south>
+<east>7.49267578125</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>594.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021210323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.95556640625</north>
+<south>46.93359375</south>
+<east>7.5146484375</east>
+<west>7.49267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>595.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9835">
+<name><![CDATA[Bolligen, Hallenbad]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>7.495730,46.976700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6888">
+<name><![CDATA[Bolligen, Altes Schulhaus]]></name>
+<description><![CDATA[210 connections
+]]></description>
+<Point>
+<coordinates>7.498790,46.977000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5038">
+<name><![CDATA[Bern, Ostring]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<Point>
+<coordinates>7.471750,46.945000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4432">
+<name><![CDATA[Ittigen, Hausmattstrasse]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>7.490220,46.975800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10982">
+<name><![CDATA[Ostermundigen, Wegmühlegässli]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>7.493450,46.957900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6971">
+<name><![CDATA[Ostermundigen, Blankweg]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>7.492340,46.955900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2161">
+<name><![CDATA[Ostermundigen, Hubel]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>7.490720,46.953100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14296">
+<name><![CDATA[Ostermundigen, Bahnhof]]></name>
+<description><![CDATA[123 connections
+]]></description>
+<Point>
+<coordinates>7.481990,46.955600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7235">
+<name><![CDATA[Melchenbühl, Bahnhof]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>7.497730,46.934900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13337">
+<name><![CDATA[Ostermundigen, Dennigkofen]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>7.489260,46.949300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5203">
+<name><![CDATA[Bern, UPD Waldau]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<Point>
+<coordinates>7.481250,46.965500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13207">
+<name><![CDATA[Bern, Schermenweg]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<Point>
+<coordinates>7.479210,46.960600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1302">
+<name><![CDATA[Ostermundigen, Waldeck]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<Point>
+<coordinates>7.476730,46.954700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11562">
+<name><![CDATA[Bern, Zent]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<Point>
+<coordinates>7.475590,46.957600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8413">
+<name><![CDATA[Ostermundigen, Zollgasse]]></name>
+<description><![CDATA[113 connections
+]]></description>
+<Point>
+<coordinates>7.487260,46.957600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5919">
+<name><![CDATA[Gümligen, Meisenweg]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>7.500090,46.940100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

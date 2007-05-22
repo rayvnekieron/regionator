@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>804 02133010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>8.2177734375</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7208">
+<name><![CDATA[Willigen, Klinik Reichenbach]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.187460,46.719700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14860">
+<name><![CDATA[Meiringen, Casinoplatz]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.186930,46.728500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12954">
+<name><![CDATA[Hasliberg Reuti MHB]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.209210,46.732900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4393">
+<name><![CDATA[Schattenhalb, Müör]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.204690,46.714900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7991">
+<name><![CDATA[Meiringen MHB]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.192110,46.728300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5848">
+<name><![CDATA[Meiringen, Altersheim]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.190870,46.729100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8298">
+<name><![CDATA[Meiringen RfB]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.187740,46.719400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5683">
+<name><![CDATA[Reichenbachfall]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.182890,46.714500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

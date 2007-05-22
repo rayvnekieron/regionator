@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1298 030101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.63671875</south>
+<east>9.4921875</east>
+<west>9.31640625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Friedrichshafen Hafen</name>
+<description>58 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.481870,47.650900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.481870,47.650900
+9.367090,47.662400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.481870,47.650900
+9.179960,47.660300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.481870,47.650900
+9.539910,47.595200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.481870,47.650900
+9.684270,47.544300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Immenstaad (Bodensee)</name>
+<description>58 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.367090,47.662400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.367090,47.662400
+9.481870,47.650900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.367090,47.662400
+9.313480,47.672800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Friedrichshafen Autoquai</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.482060,47.648600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.482060,47.648600
+9.381090,47.564700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

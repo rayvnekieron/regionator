@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>865 02211310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Daviaz, Vers-chez-Combe</name>
+<description>22 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.985340,46.224800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.985340,46.224800
+6.984540,46.222400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.985340,46.224800
+6.988220,46.227100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Massongex, Le Moulin</name>
+<description>22 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.984980,46.227800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.984980,46.227800
+6.988220,46.227100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.984980,46.227800
+6.986310,46.231000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Vérossaz, Chavanne</name>
+<description>22 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.984640,46.214000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.984640,46.214000
+6.986890,46.211500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.984640,46.214000
+6.981680,46.214200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Daviaz, village</name>
+<description>22 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.984540,46.222400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.984540,46.222400
+6.988370,46.213100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.984540,46.222400
+6.985340,46.224800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Vérossaz, La Doey village</name>
+<description>22 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.981680,46.214200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.981680,46.214200
+6.984640,46.214000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.981680,46.214200
+6.982780,46.211200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Vérossaz, La Doey place</name>
+<description>11 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.982780,46.211200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.982780,46.211200
+6.981680,46.214200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

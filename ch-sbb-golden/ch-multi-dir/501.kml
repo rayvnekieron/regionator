@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>501 02120001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>7.119140625</east>
+<west>7.0751953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>La Main, bif. sur Lignières</name>
+<description>52 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.093710,47.070400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.093710,47.070400
+7.115990,47.086900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.093710,47.070400
+7.091100,47.065700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>La Neuveville, Les Moulins</name>
+<description>52 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.091100,47.065700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.091100,47.065700
+7.093710,47.070400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.091100,47.065700
+7.095070,47.063000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

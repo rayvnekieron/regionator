@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1725 032030033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.98876953125</north>
+<south>45.966796875</south>
+<east>8.876953125</east>
+<west>8.85498046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14461">
+<name><![CDATA[Ponte Tresa SNL]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>8.859820,45.967400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1571 03031233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>9.66796875</east>
+<west>9.6240234375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10386">
+<name><![CDATA[Arosa LAH]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.659680,46.772600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11961">
+<name><![CDATA[Weisshorn]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.639120,46.789300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

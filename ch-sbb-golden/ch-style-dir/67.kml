@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>67 0203110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3591">
+<name><![CDATA[Engollon, village]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.914980,47.037100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

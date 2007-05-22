@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1334 0301122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03011222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>9.5361328125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1335.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm498">
+<name><![CDATA[Altenrhein]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.560290,47.498700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13764">
+<name><![CDATA[Altenrhein, Flugplatz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.550960,47.488400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13298">
+<name><![CDATA[Altenrhein, Markthalle]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.543490,47.484200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1667">
+<name><![CDATA[Staad SG, Speck]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.540760,47.482300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12887">
+<name><![CDATA[Staad SG, Bahnhof]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.537080,47.481400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9422">
+<name><![CDATA[Staad SG, Hafen]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.534390,47.480600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm717">
+<name><![CDATA[Rorschacherberg, Hörnlibuck]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.528720,47.479800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2767">
+<name><![CDATA[Rorschacherberg, Seebleiche]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.515340,47.477100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4203">
+<name><![CDATA[Rorschacherberg, Bachwies]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.511030,47.477200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11089">
+<name><![CDATA[Rorschach, Ost]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.505380,47.476800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm288">
+<name><![CDATA[Rorschach, Altersheim]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.498660,47.474700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13718">
+<name><![CDATA[Altenrhein, Dorf]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.555020,47.490300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12504">
+<name><![CDATA[Altenrhein, Hegi]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.570300,47.482400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4948">
+<name><![CDATA[Altenrhein, Am Rhein]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.559980,47.490000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3791">
+<name><![CDATA[Altenrhein, Schulhaus]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.556330,47.490100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12650">
+<name><![CDATA[Thal, Buriet]]></name>
+<description><![CDATA[49 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.577350,47.476200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

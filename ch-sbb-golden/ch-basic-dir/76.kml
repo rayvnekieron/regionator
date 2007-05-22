@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>76 02031203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>6.767578125</east>
+<west>6.7236328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12711">
+<name><![CDATA[Vaumarcus débarcadère]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.761260,46.878000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13510">
+<name><![CDATA[Vaumarcus]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>6.757590,46.877600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

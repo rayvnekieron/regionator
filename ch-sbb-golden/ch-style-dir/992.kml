@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>992 02310120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>7.9541015625</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6670">
+<name><![CDATA[Brigerbad, Thermalbad]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.931140,46.301700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6735">
+<name><![CDATA[Brigerbad, Mittagsfluh]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.926210,46.300800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13079">
+<name><![CDATA[Brigerbad, Dorf]]></name>
+<description><![CDATA[81 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.918310,46.299600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10148">
+<name><![CDATA[Mund, untere Wartfluh]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.947220,46.315300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5772">
+<name><![CDATA[Mund, Bachtola]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.944380,46.314100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3582">
+<name><![CDATA[Mund, Brunnen]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.943700,46.315100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3368">
+<name><![CDATA[Mund, Kummegga]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.941900,46.313300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4064">
+<name><![CDATA[Gamsen, Kantonsstrasse]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.952700,46.305800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8494">
+<name><![CDATA[Mund, Dorf]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.941500,46.314700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4556">
+<name><![CDATA[Gamsen, Explosifs]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.950330,46.300000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>374 02112031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>7.91015625</east>
+<west>7.8662109375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4026">
+<name><![CDATA[Aarburg, Längacker]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.906320,47.332400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13995">
+<name><![CDATA[Trimbach]]></name>
+<description><![CDATA[73 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.904280,47.366100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm460">
+<name><![CDATA[Wangen b. Olten, Gäuerstübli]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.867340,47.338900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9010">
+<name><![CDATA[Olten, Amthausquai]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.904510,47.352200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5778">
+<name><![CDATA[Olten, Hammer BOGG]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.899190,47.349500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7261">
+<name><![CDATA[Wangen b. Olten, Mühlestrasse]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.883310,47.349600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

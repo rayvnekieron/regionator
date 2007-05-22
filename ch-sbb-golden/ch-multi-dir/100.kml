@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>100 0203202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>6.416015625</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>L'Isle-Mont-la-Ville</name>
+<description>45 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.411220,46.617500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.411220,46.617500
+6.402150,46.610300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>L'Isle, poste</name>
+<description>43 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.412150,46.617900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.412150,46.617900
+6.404280,46.636700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.412150,46.617900
+6.409000,46.646000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.412150,46.617900
+6.432570,46.625500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.412150,46.617900
+6.405480,46.608400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mont-la-Ville, poste</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.409000,46.646000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.409000,46.646000
+6.412150,46.617900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.409000,46.646000
+6.427220,46.667300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.409000,46.646000
+6.367460,46.649200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.409000,46.646000
+6.406750,46.644400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mont-la-Ville, Le Battoir</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.406750,46.644400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.406750,46.644400
+6.402600,46.639200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.406750,46.644400
+6.409000,46.646000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>La Coudre (L'Isle), Bas villag</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.404280,46.636700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.404280,46.636700
+6.412150,46.617900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.404280,46.636700
+6.402600,46.639200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>La Coudre (L'Isle), village</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.402600,46.639200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.402600,46.639200
+6.406750,46.644400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.402600,46.639200
+6.404280,46.636700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Villars-Bozon, village</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.405480,46.608400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.405480,46.608400
+6.376910,46.600500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.405480,46.608400
+6.412150,46.617900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Montricher, village</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.376910,46.600500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.376910,46.600500
+6.405480,46.608400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.376910,46.600500
+6.373350,46.599100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Montricher, Champet</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.373350,46.599100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.373350,46.599100
+6.376910,46.600500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.373350,46.599100
+6.364270,46.579900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mollendruz, col</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.367460,46.649200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.367460,46.649200
+6.357650,46.650000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.367460,46.649200
+6.409000,46.646000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mollendruz, Fontaine froide</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.357650,46.650000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.357650,46.650000
+6.348320,46.659100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.357650,46.650000
+6.367460,46.649200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>L'Abbaye, Petra Félix</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.348320,46.659100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.348320,46.659100
+6.357650,46.650000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.348320,46.659100
+6.336270,46.657200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>L'Abbaye, Crêt-Blanc</name>
+<description>8 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.336270,46.657200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.336270,46.657200
+6.324620,46.668100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.336270,46.657200
+6.348320,46.659100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>538 02120202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Villarepos, centre</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.071290,46.883000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.071290,46.883000
+7.058230,46.874900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.071290,46.883000
+7.042470,46.877500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Avenches, poste</name>
+<description>9 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.039490,46.881100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.039490,46.881100
+7.041150,46.879100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.039490,46.881100
+7.037010,46.861500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Avenches, collège</name>
+<description>6 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>7.037010,46.861500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.037010,46.861500
+7.041150,46.879100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.037010,46.861500
+7.039490,46.881100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>7.037010,46.861500
+7.017470,46.886400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

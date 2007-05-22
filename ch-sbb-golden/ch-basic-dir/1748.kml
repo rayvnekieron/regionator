@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1748 0320303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.87890625</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03203030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.9228515625</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1749.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.9228515625</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1750.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.9228515625</north>
+<south>45.87890625</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1754.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.9228515625</north>
+<south>45.87890625</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1755.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5852">
+<name><![CDATA[Melide]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<Point>
+<coordinates>8.948360,45.955700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4197">
+<name><![CDATA[Tremona, Sala Sociale]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>8.955950,45.881000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5677">
+<name><![CDATA[Grancia, Centro Commerciale 2]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.909040,45.952300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4295">
+<name><![CDATA[Grancia, Molini di Grancia]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.921670,45.966200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14164">
+<name><![CDATA[Barbengo, Baldoria]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.921630,45.960100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7130">
+<name><![CDATA[Barbengo, Sidema]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.918900,45.958600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12898">
+<name><![CDATA[Barbengo, Via Balconi]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.915620,45.958800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5604">
+<name><![CDATA[Barbengo, Posta/scuole]]></name>
+<description><![CDATA[87 connections
+]]></description>
+<Point>
+<coordinates>8.916070,45.959400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5158">
+<name><![CDATA[Casoro, Paese]]></name>
+<description><![CDATA[87 connections
+]]></description>
+<Point>
+<coordinates>8.908400,45.952500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2283">
+<name><![CDATA[Barbengo, Tassera]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.911540,45.954100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12935">
+<name><![CDATA[Olivella, Lago]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.929540,45.933000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14219">
+<name><![CDATA[Tremona, Paese]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.957470,45.880200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5732">
+<name><![CDATA[Meride, Alla Guana]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.951160,45.885000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm348">
+<name><![CDATA[Meride, Campeggio]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.950970,45.887300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15012">
+<name><![CDATA[Carona, Nodivra]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.940540,45.962900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm251">
+<name><![CDATA[Carona, Ciona]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.939270,45.965800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

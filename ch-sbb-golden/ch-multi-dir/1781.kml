@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1781 03203302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.8349609375</north>
+<south>45.791015625</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Seseglio, Paese</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.000270,45.827100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.000270,45.827100
+8.997970,45.830000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.000270,45.827100
+9.014260,45.825600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Seseglio, Centro sportivo</name>
+<description>20 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>8.997970,45.830000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>8.997970,45.830000
+9.000270,45.827100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

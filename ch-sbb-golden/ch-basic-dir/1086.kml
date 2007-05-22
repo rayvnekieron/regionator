@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1086 03001212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3361">
+<name><![CDATA[Frauenfeld, Reutenenstrasse]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.899070,47.553300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm299">
+<name><![CDATA[Frauenfeld, Rosenbergstrasse]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.905270,47.549200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2562">
+<name><![CDATA[Frauenfeld, Neuhofstrasse]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.899350,47.563600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1622">
+<name><![CDATA[Frauenfeld, Kreuzplatz]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.895130,47.555200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5963">
+<name><![CDATA[Frauenfeld, Gerlikonerstrasse]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.893390,47.552300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2475">
+<name><![CDATA[Frauenfeld, Talackerstrasse]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.893360,47.550900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1846">
+<name><![CDATA[Frauenfeld, Ochsen]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.892740,47.552700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8821">
+<name><![CDATA[Frauenfeld, Fliederstrasse]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.890140,47.550000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11016">
+<name><![CDATA[Warth, Rohr]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.884280,47.583600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1356">
+<name><![CDATA[Niederwil TG, Dorf]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.896090,47.553600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12083">
+<name><![CDATA[Frauenfeld, Kath. Kirche]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.897660,47.557600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8826">
+<name><![CDATA[Frauenfeld, Freiestrasse]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.897490,47.556100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

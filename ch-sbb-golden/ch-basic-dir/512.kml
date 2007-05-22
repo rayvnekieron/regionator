@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>512 02120032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.1630859375</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9235">
+<name><![CDATA[Muntelier-Löwenberg, Station]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>7.132360,46.938400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13153">
+<name><![CDATA[Sugiez, gare]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>7.119350,46.964100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

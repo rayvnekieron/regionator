@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1130 0300203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03002030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.5693359375</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1131.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1132.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>8.5693359375</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1133.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1134.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1689">
+<name><![CDATA[Zürich Brunau]]></name>
+<description><![CDATA[310 connections
+]]></description>
+<Point>
+<coordinates>8.526230,47.352100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7134">
+<name><![CDATA[Wildpark-Höfli]]></name>
+<description><![CDATA[300 connections
+]]></description>
+<Point>
+<coordinates>8.535650,47.296600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14056">
+<name><![CDATA[Zürich Tiefenbrunnen]]></name>
+<description><![CDATA[297 connections
+]]></description>
+<Point>
+<coordinates>8.561370,47.350100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14966">
+<name><![CDATA[Zürich Wollishofen]]></name>
+<description><![CDATA[288 connections
+]]></description>
+<Point>
+<coordinates>8.533590,47.347400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5352">
+<name><![CDATA[Rüschlikon]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>8.555150,47.307100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2630">
+<name><![CDATA[Kilchberg]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>8.548000,47.324400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8455">
+<name><![CDATA[Winkel am Zürichsee]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>8.598970,47.297200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6856">
+<name><![CDATA[Erlenbach ZH]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>8.591500,47.305800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3150">
+<name><![CDATA[Küsnacht ZH]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>8.580610,47.319200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14732">
+<name><![CDATA[Küsnacht Goldbach]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>8.575950,47.326900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm112">
+<name><![CDATA[Zollikon]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>8.569720,47.337300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6476">
+<name><![CDATA[Zürich Rehalp]]></name>
+<description><![CDATA[268 connections
+]]></description>
+<Point>
+<coordinates>8.583200,47.351000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11569">
+<name><![CDATA[Zürich Balgrist]]></name>
+<description><![CDATA[268 connections
+]]></description>
+<Point>
+<coordinates>8.575020,47.354600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14583">
+<name><![CDATA[Zürich Hegibachplatz]]></name>
+<description><![CDATA[268 connections
+]]></description>
+<Point>
+<coordinates>8.560620,47.361700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1335">
+<name><![CDATA[Zürich Kreuzplatz]]></name>
+<description><![CDATA[268 connections
+]]></description>
+<Point>
+<coordinates>8.554080,47.364900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5879">
+<name><![CDATA[Zollikerberg]]></name>
+<description><![CDATA[260 connections
+]]></description>
+<Point>
+<coordinates>8.603400,47.346100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

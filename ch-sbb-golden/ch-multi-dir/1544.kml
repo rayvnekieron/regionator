@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1544 0303101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Malbun, Jöraboden</name>
+<description>72 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.607570,47.102900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.607570,47.102900
+9.599330,47.109300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.607570,47.102900
+9.609840,47.101900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Triesenberg, Schneeflucht</name>
+<description>72 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.599330,47.109300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.599330,47.109300
+9.607570,47.102900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.599330,47.109300
+9.596660,47.110100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Malbun, Zentrum</name>
+<description>36 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.609840,47.101900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.609840,47.101900
+9.607570,47.102900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

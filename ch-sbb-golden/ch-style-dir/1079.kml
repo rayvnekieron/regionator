@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1079 03001200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11385">
+<name><![CDATA[Dietingen, Oberdietingen]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.800510,47.596100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7056">
+<name><![CDATA[Oberneunforn, Hochberg]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.789320,47.600500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10114">
+<name><![CDATA[Trüttlikon]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.818120,47.595500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11517">
+<name><![CDATA[Uerschhausen, Dorf]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.817160,47.609900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12113">
+<name><![CDATA[Wilen bei Neunforn, Dorf]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.797420,47.602400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

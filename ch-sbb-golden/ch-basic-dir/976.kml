@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>976 023100313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.29638671875</north>
+<south>46.2744140625</south>
+<east>7.91015625</east>
+<west>7.88818359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3622">
+<name><![CDATA[Eyholz]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.906560,46.295900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

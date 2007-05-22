@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1772 0320330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.791015625</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03203300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.8349609375</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1773.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.8349609375</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1778.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.8349609375</north>
+<south>45.791015625</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1781.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.8349609375</north>
+<south>45.791015625</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1782.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5880">
+<name><![CDATA[Morbio Superiore, Verana]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.025600,45.861700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6599">
+<name><![CDATA[Morbio Superiore, Chiavarino]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.024300,45.861500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5899">
+<name><![CDATA[Morbio Superiore, Buée]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.023270,45.859300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10757">
+<name><![CDATA[Morbio Superiore, Chiesa]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.022380,45.862000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12499">
+<name><![CDATA[Chiasso]]></name>
+<description><![CDATA[113 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.031450,45.832100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6880">
+<name><![CDATA[Castel S.Pietro, Posta]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.007580,45.862100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10630">
+<name><![CDATA[Morbio Inferiore, Scuole Elem.]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.022140,45.835800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10308">
+<name><![CDATA[Morbio Inferiore, S. Giorgio]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.021330,45.847600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm257">
+<name><![CDATA[Morbio Inferiore, Pomera]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.020110,45.850100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11784">
+<name><![CDATA[Morbio Inferiore, Villette]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.023070,45.841300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6526">
+<name><![CDATA[Morbio Inferiore, Balbio Alta]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.022170,45.843600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2578">
+<name><![CDATA[Pizzamiglio, Dogana]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.037270,45.842700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13549">
+<name><![CDATA[Vacallo, Scuole]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.032210,45.845400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10088">
+<name><![CDATA[Vacallo, Casa Materna]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.032130,45.842800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1726">
+<name><![CDATA[Vacallo, Ponte Picio]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.031670,45.840200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10690">
+<name><![CDATA[Chiasso, Viale Bertola]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.031630,45.836700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

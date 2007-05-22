@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>735 0213100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.173828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1294">
+<name><![CDATA[Malters, Hinter-Widenmatt]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.173400,47.031700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7214">
+<name><![CDATA[Malters, Schürmatt]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.167750,47.027700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13736">
+<name><![CDATA[Malters, Liebetsegg]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.167710,47.024300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11591">
+<name><![CDATA[Malters, Mattgut]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.162140,47.025700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10927">
+<name><![CDATA[Schachen LU]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.143250,47.038000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12538">
+<name><![CDATA[Werthenstein]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.101850,47.057000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

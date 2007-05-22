@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1493 0302310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9478">
+<name><![CDATA[Trun, staziun]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>8.990920,46.742700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12305">
+<name><![CDATA[Trun, casa da scola]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.989090,46.742900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12671">
+<name><![CDATA[Zignau, vitg]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<Point>
+<coordinates>9.006210,46.741900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12423">
+<name><![CDATA[Trun, Flutginas]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>8.996800,46.747000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10974">
+<name><![CDATA[Trun, Via Casa S. Martin]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>8.991620,46.744200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7726">
+<name><![CDATA[Trun, Campliun]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.973140,46.738900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm26">
+<name><![CDATA[Schlans, vitg]]></name>
+<description><![CDATA[13 connections
+]]></description>
+<Point>
+<coordinates>9.015300,46.752700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11743">
+<name><![CDATA[Runcahez Val Sumvitg]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.967960,46.680900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

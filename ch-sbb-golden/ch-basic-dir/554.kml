@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>554 0212031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02120312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>555.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1912">
+<name><![CDATA[Ueberstorf, Dorfstrasse]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>7.310110,46.862900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13712">
+<name><![CDATA[Thörishaus, Camping]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>7.330250,46.894000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13542">
+<name><![CDATA[Neuenegg, Tennis]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>7.308810,46.894400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6276">
+<name><![CDATA[Neuenegg, Bahnhof]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>7.299700,46.893800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7402">
+<name><![CDATA[Albligen, Kurried]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.316360,46.857500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7686">
+<name><![CDATA[Flamatt, Post]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.312670,46.889800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm404">
+<name><![CDATA[Flamatt Dorf]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.310520,46.889900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13678">
+<name><![CDATA[Ueberstorf, Abzw. Steinhaus]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.306160,46.872700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6275">
+<name><![CDATA[Ueberstorf, Abzw. Grossried]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.306140,46.879900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm821">
+<name><![CDATA[Neuenegg]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.299860,46.894100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm351">
+<name><![CDATA[Niedermettlen]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.327150,46.871000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13421">
+<name><![CDATA[Albligen, Dorf]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.318660,46.851800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6052">
+<name><![CDATA[Thörishaus, Dorf]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<Point>
+<coordinates>7.352030,46.893500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1038">
+<name><![CDATA[Flamatt, Bahnhof]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.319240,46.888100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14098">
+<name><![CDATA[Ueberstorf, Albligenstrasse]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>7.311420,46.864700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12818">
+<name><![CDATA[Albligen, Ruchmühle]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.336380,46.846200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

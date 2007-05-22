@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1466 0302113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Nidfurn-Haslen</name>
+<description>62 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.059260,46.985900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.059260,46.985900
+9.046920,46.975700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.059260,46.985900
+9.077450,46.996800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Schwändi b. Schwanden GL, Post</name>
+<description>51 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.066640,47.005200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.066640,47.005200
+9.076910,46.997000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.066640,47.005200
+9.071630,47.039500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Mettmen</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.095910,46.958700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.095910,46.958700
+9.090910,46.968000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Kies LKM</name>
+<description>32 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.090910,46.968000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.090910,46.968000
+9.095910,46.958700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Sool</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.084850,46.998600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.084850,46.998600
+9.076910,46.997000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Kies (Niederental)</name>
+<description>14 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.090480,46.968000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.090480,46.968000
+9.076910,46.997000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>340 0211122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.173828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02111220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>341.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02111221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>342.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02111223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>343.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12056">
+<name><![CDATA[Effingen, Dorf]]></name>
+<description><![CDATA[227 connections
+]]></description>
+<Point>
+<coordinates>8.102750,47.488900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8406">
+<name><![CDATA[Unterbözberg, Haldensteinstr.]]></name>
+<description><![CDATA[220 connections
+]]></description>
+<Point>
+<coordinates>8.172290,47.480100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13233">
+<name><![CDATA[Stalden b. Brugg, Neustalden]]></name>
+<description><![CDATA[220 connections
+]]></description>
+<Point>
+<coordinates>8.138470,47.481000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2754">
+<name><![CDATA[Villnachern, Post]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<Point>
+<coordinates>8.163530,47.470100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7399">
+<name><![CDATA[Schinznach Dorf, Wallbach]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<Point>
+<coordinates>8.156140,47.463100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3496">
+<name><![CDATA[Bözen, Ausserdorf]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>8.090200,47.493400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3852">
+<name><![CDATA[Gallenkirch, Schützenhaus]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.127870,47.481500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6544">
+<name><![CDATA[Effingen, Schwerzbrünneli]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.102070,47.487800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7873">
+<name><![CDATA[Zeihen, Abzw. Station Effingen]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.097980,47.478600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4314">
+<name><![CDATA[Zeihen, Stauftel]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.088690,47.478200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8617">
+<name><![CDATA[Zeihen, Hohbächli]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.086020,47.476800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9793">
+<name><![CDATA[Hottwil, Post]]></name>
+<description><![CDATA[135 connections
+]]></description>
+<Point>
+<coordinates>8.162590,47.547400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1949">
+<name><![CDATA[Gansingen, Post]]></name>
+<description><![CDATA[133 connections
+]]></description>
+<Point>
+<coordinates>8.133980,47.543100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1046">
+<name><![CDATA[Unterbözberg, Vierlinden]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>8.159350,47.479500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10069">
+<name><![CDATA[Elfingen, Sternen]]></name>
+<description><![CDATA[125 connections
+]]></description>
+<Point>
+<coordinates>8.099320,47.506900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14895">
+<name><![CDATA[Bürensteig, Passhöhe]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>8.159010,47.528100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

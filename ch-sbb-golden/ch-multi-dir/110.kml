@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>110 02032112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.6357421875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Penthéréaz, Le Battoir</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.605630,46.686100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.605630,46.686100
+6.620560,46.693300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.605630,46.686100
+6.603920,46.682700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Penthéréaz, Laiterie</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.603920,46.682700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.603920,46.682700
+6.603750,46.680900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.603920,46.682700
+6.605630,46.686100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Penthéréaz, village</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.603750,46.680900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.603750,46.680900
+6.603920,46.682700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.603750,46.680900
+6.606370,46.659500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Penthéréaz, Champ-de-Vaud</name>
+<description>15 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.620560,46.693300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.620560,46.693300
+6.605630,46.686100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.620560,46.693300
+6.645860,46.639300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.620560,46.693300
+6.618200,46.697800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Corcelles-s-Chavornay, Tuile</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.618200,46.697800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.618200,46.697800
+6.606020,46.703400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.618200,46.697800
+6.620560,46.693300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Corcelles-s-Chavornay, Longera</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.606020,46.703400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.606020,46.703400
+6.600780,46.704200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.606020,46.703400
+6.618200,46.697800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Corcelles-s-Chavornay, village</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.600780,46.704200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.600780,46.704200
+6.606020,46.703400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.600780,46.704200
+6.595760,46.703300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Corcelles-s-Chavornay, Carré</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.595760,46.703300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.595760,46.703300
+6.567990,46.710000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.595760,46.703300
+6.600780,46.704200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

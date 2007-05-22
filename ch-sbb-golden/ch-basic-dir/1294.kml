@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1294 0301002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>9.228515625</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03010022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.6806640625</north>
+<south>47.63671875</south>
+<east>9.1845703125</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1295.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03010023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.6806640625</north>
+<south>47.63671875</south>
+<east>9.228515625</east>
+<west>9.1845703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1296.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10403">
+<name><![CDATA[Konstanz, Sternenplatz]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>9.181050,47.669200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2576">
+<name><![CDATA[Konstanz, Konzilstrasse]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>9.178000,47.661300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1879">
+<name><![CDATA[Mainau (Bodensee)]]></name>
+<description><![CDATA[119 connections
+]]></description>
+<Point>
+<coordinates>9.200700,47.705900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9067">
+<name><![CDATA[Konstanz, Schweizer Bahnhof]]></name>
+<description><![CDATA[95 connections
+]]></description>
+<Point>
+<coordinates>9.177500,47.658500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11630">
+<name><![CDATA[Kreuzlingen Bernrain]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>9.163180,47.642100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4152">
+<name><![CDATA[Kreuzlingen, Bahnhof]]></name>
+<description><![CDATA[77 connections
+]]></description>
+<Point>
+<coordinates>9.169050,47.652400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9812">
+<name><![CDATA[Unteruhldingen]]></name>
+<description><![CDATA[73 connections
+]]></description>
+<Point>
+<coordinates>9.226820,47.723200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm591">
+<name><![CDATA[Kreuzlingen, Weiherstrasse]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.164730,47.650500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm290">
+<name><![CDATA[Konstanz, Zähringerplatz]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.185460,47.677600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13352">
+<name><![CDATA[Konstanz, Marktstätte]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.177520,47.658900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11941">
+<name><![CDATA[Konstanz Hafen]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<Point>
+<coordinates>9.179960,47.660300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7711">
+<name><![CDATA[Kreuzlingen, Kirche Bernrain]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.156580,47.637300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6078">
+<name><![CDATA[Konstanz URh]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.176630,47.667700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14755">
+<name><![CDATA[Dingelsdorf]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>9.181820,47.716900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6184">
+<name><![CDATA[Kreuzlingen, Gaissbergstrasse]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.182480,47.639400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14378">
+<name><![CDATA[Kreuzlingen, Remisbergstrasse]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.180490,47.643900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

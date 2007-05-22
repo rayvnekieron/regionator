@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>820 0220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.703125</south>
+<east>6.328125</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.0546875</south>
+<east>5.9765625</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>821.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.0546875</south>
+<east>6.328125</east>
+<west>5.9765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>822.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9062">
+<name><![CDATA[Corsier GE, port]]></name>
+<description><![CDATA[366 connections
+]]></description>
+<Point>
+<coordinates>6.214190,46.264400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7795">
+<name><![CDATA[Collonge-Bellerive]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<Point>
+<coordinates>6.204040,46.254400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11624">
+<name><![CDATA[Vésenaz]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<Point>
+<coordinates>6.197880,46.239900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10760">
+<name><![CDATA[Genève, plage]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<Point>
+<coordinates>6.168820,46.207200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1225">
+<name><![CDATA[Nyon, gare]]></name>
+<description><![CDATA[330 connections
+]]></description>
+<Point>
+<coordinates>6.236500,46.384700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5394">
+<name><![CDATA[Bernex, place]]></name>
+<description><![CDATA[324 connections
+]]></description>
+<Point>
+<coordinates>6.075000,46.176400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7877">
+<name><![CDATA[Troinex, Les Crêts]]></name>
+<description><![CDATA[270 connections
+]]></description>
+<Point>
+<coordinates>6.146900,46.165100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13958">
+<name><![CDATA[Carouge GE, Plateau de Pinchat]]></name>
+<description><![CDATA[270 connections
+]]></description>
+<Point>
+<coordinates>6.142480,46.170900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm208">
+<name><![CDATA[Avully, village]]></name>
+<description><![CDATA[262 connections
+]]></description>
+<Point>
+<coordinates>6.001370,46.169200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5130">
+<name><![CDATA[Chambésy, fontaine]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>6.140760,46.242900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5861">
+<name><![CDATA[Pregny, village]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>6.139450,46.234800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8533">
+<name><![CDATA[Colovrex]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>6.131390,46.255400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7573">
+<name><![CDATA[Collex, centre]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>6.121960,46.269600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12117">
+<name><![CDATA[Vandoeuvres]]></name>
+<description><![CDATA[243 connections
+]]></description>
+<Point>
+<coordinates>6.202200,46.221100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14763">
+<name><![CDATA[Carre-d'Amont]]></name>
+<description><![CDATA[237 connections
+]]></description>
+<Point>
+<coordinates>6.216150,46.234700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9518">
+<name><![CDATA[Carouge GE, Tours]]></name>
+<description><![CDATA[233 connections
+]]></description>
+<Point>
+<coordinates>6.137000,46.183400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

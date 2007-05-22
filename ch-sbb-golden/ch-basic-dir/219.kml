@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>219 0210201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>7.20703125</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12052">
+<name><![CDATA[Fregiécourt, village]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<Point>
+<coordinates>7.198150,47.412700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4378">
+<name><![CDATA[Cornol, poste]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.164530,47.407300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1050">
+<name><![CDATA[Miécourt]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<Point>
+<coordinates>7.174890,47.427400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3644">
+<name><![CDATA[Charmoille, anc. poste]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.204070,47.422600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7156">
+<name><![CDATA[Fregiécourt, rte de Cornol]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.192990,47.411600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2926">
+<name><![CDATA[Miserez-Dessus]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.190280,47.423400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4734">
+<name><![CDATA[Cornol, bas du village]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.159090,47.408500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3249">
+<name><![CDATA[Courgenay, haut du village]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.134600,47.403900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2150">
+<name><![CDATA[Alle, poste/gare]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.128780,47.425000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12992">
+<name><![CDATA[Courgenay, anc. poste]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.124670,47.403700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4797">
+<name><![CDATA[Courgenay, Pierre Percée]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.120150,47.405400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

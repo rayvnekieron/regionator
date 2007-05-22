@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1673 0320112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03201120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1674.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5881">
+<name><![CDATA[Gnosca, Centro]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.022790,46.232700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11198">
+<name><![CDATA[Gnosca, S. Giovanni]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.021440,46.230900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13980">
+<name><![CDATA[Claro, Ponton]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.019540,46.254600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5806">
+<name><![CDATA[Claro, Biv. per Scubiago]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.018720,46.259700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10480">
+<name><![CDATA[Gnosca, Cusnà]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.018130,46.239500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9643">
+<name><![CDATA[Cresciano, Palazzi]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.008570,46.279000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1571">
+<name><![CDATA[Preonzo, Bivio per Claro]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.007570,46.255400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6979">
+<name><![CDATA[Preonzo, Alla Serta]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.006030,46.258300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9634">
+<name><![CDATA[Cresciano, Paese]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.005040,46.280400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3295">
+<name><![CDATA[Preonzo, Posta]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.001660,46.264300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8039">
+<name><![CDATA[Preonzo, Piazza]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.001620,46.262900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4834">
+<name><![CDATA[Preonzo, Nord]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.996540,46.266600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8367">
+<name><![CDATA[Moleno]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.994620,46.267700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2422">
+<name><![CDATA[Osogna, Stazione]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.993580,46.299500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11637">
+<name><![CDATA[Prosito, Sud]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.987770,46.277500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7700">
+<name><![CDATA[Osogna, Paese]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.987450,46.311900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

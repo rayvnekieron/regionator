@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1018 030000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.63671875</south>
+<east>8.61328125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.724609375</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1019.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.724609375</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1020.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1021.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1022.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9186">
+<name><![CDATA[Schleitheim, Gemeindehaus]]></name>
+<description><![CDATA[284 connections
+]]></description>
+<Point>
+<coordinates>8.486420,47.750100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11603">
+<name><![CDATA[Siblingerhöhe]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<Point>
+<coordinates>8.503500,47.721500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3419">
+<name><![CDATA[Wilchingen, Abendstrasse]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>8.463820,47.667900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8585">
+<name><![CDATA[Wilchingen, Schulgasse]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>8.469120,47.667000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13312">
+<name><![CDATA[Wilchingen, Post]]></name>
+<description><![CDATA[169 connections
+]]></description>
+<Point>
+<coordinates>8.466460,47.667000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1957">
+<name><![CDATA[Jestetten, Bahnhof]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>8.574040,47.654300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9486">
+<name><![CDATA[Hallau, Atlingen]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>8.465720,47.697600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9809">
+<name><![CDATA[Oberhallau, Dorf]]></name>
+<description><![CDATA[161 connections
+]]></description>
+<Point>
+<coordinates>8.477830,47.703800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7675">
+<name><![CDATA[Hallau, Brugg]]></name>
+<description><![CDATA[161 connections
+]]></description>
+<Point>
+<coordinates>8.457630,47.692300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11469">
+<name><![CDATA[Hallau, Post]]></name>
+<description><![CDATA[157 connections
+]]></description>
+<Point>
+<coordinates>8.453720,47.696800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1524">
+<name><![CDATA[Wilchingen-Hallau, Bahnhof]]></name>
+<description><![CDATA[153 connections
+]]></description>
+<Point>
+<coordinates>8.476030,47.679500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14757">
+<name><![CDATA[Altenburg, Schaffhauserstrasse]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>8.593740,47.666600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14202">
+<name><![CDATA[Osterfingen, Unterdorf]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>8.485010,47.662300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5582">
+<name><![CDATA[Neunkirch, Bahnhof]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>8.494860,47.689200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1476">
+<name><![CDATA[Beggingen, Post]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>8.535370,47.766700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9947">
+<name><![CDATA[Rheinau, Hallenbad]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>8.600650,47.638100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

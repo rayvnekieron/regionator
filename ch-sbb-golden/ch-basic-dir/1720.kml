@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1720 03203000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.0107421875</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13710">
+<name><![CDATA[Astano, La Bolla]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.825540,46.011500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9899">
+<name><![CDATA[Astano, Posta]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<Point>
+<coordinates>8.817410,46.011900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

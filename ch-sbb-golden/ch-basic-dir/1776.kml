@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1776 032033002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.85693359375</north>
+<south>45.8349609375</south>
+<east>8.98681640625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4303">
+<name><![CDATA[Mendrisio, Colle degli Ulivi]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>8.986430,45.856500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

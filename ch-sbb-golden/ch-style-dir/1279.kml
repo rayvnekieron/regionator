@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1279 0300330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03003300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1280.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1281.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1282.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1283.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1333">
+<name><![CDATA[Ernetschwil, Dorf]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.000730,47.237300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5413">
+<name><![CDATA[Steg SG (Gebertingen)]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.994910,47.252700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2128">
+<name><![CDATA[Gommiswald, Kistler]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.015910,47.236900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9628">
+<name><![CDATA[Ernetschwil, Hinterernetschwil]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.008340,47.237700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4260">
+<name><![CDATA[Betzikon SG]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.981590,47.249300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5602">
+<name><![CDATA[Rieden SG, Freigaden]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.042350,47.226600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12915">
+<name><![CDATA[Gommiswald, Alpenblick]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.026940,47.230200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1760">
+<name><![CDATA[Gommiswald, Breiten]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.024510,47.237500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4907">
+<name><![CDATA[Uznach, Neumühle]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.988650,47.230800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12339">
+<name><![CDATA[Uznach, St. Otmarsberg]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.987590,47.228300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5111">
+<name><![CDATA[Gebertingen, Abzw.Schulstrasse]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.007700,47.251900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7951">
+<name><![CDATA[Uznach, Kinderheim]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.994120,47.225700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm910">
+<name><![CDATA[Gommiswald, Schönenbach]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.011700,47.228600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm436">
+<name><![CDATA[Uznach, Sonnenhof]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.001420,47.227000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13489">
+<name><![CDATA[Ricken SG, Rittmarren]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.038890,47.254400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5393">
+<name><![CDATA[Ricken SG, Bildhaus]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.030510,47.250400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

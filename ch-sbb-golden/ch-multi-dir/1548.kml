@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1548 030310202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.99951171875</north>
+<south>46.9775390625</south>
+<east>9.51416015625</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>St. Margrethenberg, Tristeli</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.505380,46.981700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.505380,46.981700
+9.511850,46.979100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.505380,46.981700
+9.501110,46.990300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Pfäfers, Eselrank</name>
+<description>34 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.501110,46.990300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.501110,46.990300
+9.505380,46.981700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.501110,46.990300
+9.501760,46.990100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>St. Margrethenberg, Dorf</name>
+<description>17 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.511850,46.979100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.511850,46.979100
+9.505380,46.981700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

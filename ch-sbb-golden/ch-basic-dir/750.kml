@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>750 02131123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>8.349609375</east>
+<west>8.3056640625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2358">
+<name><![CDATA[Stans, Galgenried]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.345670,46.968900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12987">
+<name><![CDATA[Stansstad, Schützen]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.342170,46.975600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14324">
+<name><![CDATA[Stansstad, Abzw. Rotzloch]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.339430,46.968500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3138">
+<name><![CDATA[Stansstad, Seehof]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.338490,46.971200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5177">
+<name><![CDATA[Ennetmoos, Riedmatthof]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.331280,46.952600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5271">
+<name><![CDATA[Rotzloch]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.329130,46.965600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

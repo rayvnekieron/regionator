@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>299 02103233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11435">
+<name><![CDATA[Utzenstorf, Bahnhof]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.553300,47.130000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4790">
+<name><![CDATA[Utzenstorf, Koppigenstrasse]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>7.547390,47.132700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12377">
+<name><![CDATA[Bätterkinden, Kreuz]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>7.540120,47.130000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm284">
+<name><![CDATA[Bätterkinden, Sternen]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>7.537890,47.133600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2059">
+<name><![CDATA[Bätterkinden, Schützenstrasse]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>7.534870,47.141800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7343">
+<name><![CDATA[Kräiligen, Restaurant Brücke]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.533120,47.149800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10919">
+<name><![CDATA[Küttigkofen-Kräiligen]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.528970,47.151800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

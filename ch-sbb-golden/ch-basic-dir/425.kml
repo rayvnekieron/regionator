@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>425 02113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>8.26171875</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>426.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>443.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.26171875</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>467.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>480.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10125">
+<name><![CDATA[Fislisbach, Alterszentrum]]></name>
+<description><![CDATA[526 connections
+]]></description>
+<Point>
+<coordinates>8.293430,47.443100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm75">
+<name><![CDATA[Fislisbach, Gemeindehaus]]></name>
+<description><![CDATA[526 connections
+]]></description>
+<Point>
+<coordinates>8.291720,47.440000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10539">
+<name><![CDATA[Hagendorn, Hofmatt]]></name>
+<description><![CDATA[518 connections
+]]></description>
+<Point>
+<coordinates>8.431120,47.201400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8844">
+<name><![CDATA[Lenzburg, Bahnhof]]></name>
+<description><![CDATA[517 connections
+]]></description>
+<Point>
+<coordinates>8.171060,47.390400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5742">
+<name><![CDATA[Rotkreuz, Bahnhof Süd]]></name>
+<description><![CDATA[510 connections
+]]></description>
+<Point>
+<coordinates>8.431000,47.141500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm227">
+<name><![CDATA[Dietikon]]></name>
+<description><![CDATA[504 connections
+]]></description>
+<Point>
+<coordinates>8.404970,47.405800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1182">
+<name><![CDATA[Sursee, Park]]></name>
+<description><![CDATA[494 connections
+]]></description>
+<Point>
+<coordinates>8.102450,47.172200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9249">
+<name><![CDATA[Birmensdorf ZH, Letten]]></name>
+<description><![CDATA[490 connections
+]]></description>
+<Point>
+<coordinates>8.436830,47.354700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14550">
+<name><![CDATA[Wohlen AG, Bahnhof]]></name>
+<description><![CDATA[464 connections
+]]></description>
+<Point>
+<coordinates>8.269090,47.349300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm327">
+<name><![CDATA[Wohlen AG, a. Bahnhofstr./Coop]]></name>
+<description><![CDATA[458 connections
+]]></description>
+<Point>
+<coordinates>8.271760,47.350600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2378">
+<name><![CDATA[Sandblatten]]></name>
+<description><![CDATA[458 connections
+]]></description>
+<Point>
+<coordinates>8.242570,47.126400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10361">
+<name><![CDATA[Rotkreuz, Ried]]></name>
+<description><![CDATA[454 connections
+]]></description>
+<Point>
+<coordinates>8.427460,47.146500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4771">
+<name><![CDATA[Lenzburg]]></name>
+<description><![CDATA[452 connections
+]]></description>
+<Point>
+<coordinates>8.170380,47.391200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4744">
+<name><![CDATA[Fislisbach, Post]]></name>
+<description><![CDATA[438 connections
+]]></description>
+<Point>
+<coordinates>8.291000,47.436100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10712">
+<name><![CDATA[Sursee, Bahnhof]]></name>
+<description><![CDATA[427 connections
+]]></description>
+<Point>
+<coordinates>8.098470,47.170500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13036">
+<name><![CDATA[Mellingen Heitersberg, Bahnhof]]></name>
+<description><![CDATA[419 connections
+]]></description>
+<Point>
+<coordinates>8.272960,47.427300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>547 02120222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6504">
+<name><![CDATA[Avry-sur-Matran, bif.]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>7.074570,46.786800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10241">
+<name><![CDATA[Avry-sur-Matran, village]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.070630,46.788600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13381">
+<name><![CDATA[Seedorf FR]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.048300,46.796600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

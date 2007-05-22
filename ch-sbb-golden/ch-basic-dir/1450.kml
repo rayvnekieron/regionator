@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1450 03020302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>8.6572265625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7972">
+<name><![CDATA[Altdorf UR, Hagenschulhaus]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.638710,46.879600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4046">
+<name><![CDATA[Altdorf UR, Langmatt]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.635300,46.876900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14328">
+<name><![CDATA[Altdorf UR, Chornmatt]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.630860,46.880800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12164">
+<name><![CDATA[Altdorf UR, Allmend]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.627620,46.882600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14385">
+<name><![CDATA[Seedorf UR, Reussbrücke]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.619780,46.883800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12749">
+<name><![CDATA[Seedorf UR, Wyden]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.616120,46.881700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12160">
+<name><![CDATA[Altdorf UR, Post]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<Point>
+<coordinates>8.642360,46.881300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15098">
+<name><![CDATA[Schattdorf LSH]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.655650,46.865400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3297">
+<name><![CDATA[Attinghausen KlAB]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.622670,46.857100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

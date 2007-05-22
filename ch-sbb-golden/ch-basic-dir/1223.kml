@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1223 03003001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3727">
+<name><![CDATA[Turbenthal, Kehlhof]]></name>
+<description><![CDATA[53 connections
+]]></description>
+<Point>
+<coordinates>8.856740,47.434500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11678">
+<name><![CDATA[Wila, Bahnhof]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>8.848390,47.417800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10887">
+<name><![CDATA[Zell ZH, Hand]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>8.844610,47.458100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1071">
+<name><![CDATA[Girenbad b. Turbenthal]]></name>
+<description><![CDATA[7 connections
+]]></description>
+<Point>
+<coordinates>8.846600,47.452400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14711">
+<name><![CDATA[Wila, Werkhof]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.844740,47.420600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

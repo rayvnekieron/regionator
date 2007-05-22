@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>211 02101332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5562">
+<name><![CDATA[Gempen, Post]]></name>
+<description><![CDATA[115 connections
+]]></description>
+<Point>
+<coordinates>7.658850,47.476400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10614">
+<name><![CDATA[St. Pantaleon, bei den Tannen]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>7.687300,47.462000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13983">
+<name><![CDATA[Nuglar, St. Pantaleonstrasse]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>7.685670,47.468000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

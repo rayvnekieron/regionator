@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>834 0220112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>6.240234375</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5924">
+<name><![CDATA[Coppet, gare]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>6.188350,46.316300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8916">
+<name><![CDATA[Commugny, centre]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.175330,46.317900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2840">
+<name><![CDATA[La Belotte]]></name>
+<description><![CDATA[47 connections
+]]></description>
+<Point>
+<coordinates>6.191620,46.235600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7860">
+<name><![CDATA[Versoix CGN]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.169710,46.277500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5052">
+<name><![CDATA[Bellevue CGN]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>6.156020,46.255200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5043">
+<name><![CDATA[Coppet CGN]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>6.192950,46.315000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7064">
+<name><![CDATA[Tannay, village]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.173260,46.309400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5028">
+<name><![CDATA[Bellerive SMGN]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.193100,46.252900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6581">
+<name><![CDATA[Ruth]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.188930,46.231400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13643">
+<name><![CDATA[Creux-de-Genthod SMGN]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.163430,46.263400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7118">
+<name><![CDATA[Bellevue GE Port Gitana]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.153690,46.253200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

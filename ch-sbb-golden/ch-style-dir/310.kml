@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>310 0211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>8.0859375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>311.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>8.4375</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>331.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>8.0859375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>356.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>425.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm11318">
+<name><![CDATA[Hünenberg, Dorf]]></name>
+<description><![CDATA[822 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.426680,47.175300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13017">
+<name><![CDATA[Baden, Bahnhof]]></name>
+<description><![CDATA[821 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.307550,47.475800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm144">
+<name><![CDATA[Brugg AG, Bahnhof]]></name>
+<description><![CDATA[811 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.209460,47.481500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3639">
+<name><![CDATA[Aarau]]></name>
+<description><![CDATA[778 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.051260,47.391400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7741">
+<name><![CDATA[Dättwil AG, Täfere]]></name>
+<description><![CDATA[692 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.290890,47.450300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4386">
+<name><![CDATA[Dättwil AG, Kantonsspital]]></name>
+<description><![CDATA[670 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.279350,47.454200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7394">
+<name><![CDATA[Brugg AG, Brücke]]></name>
+<description><![CDATA[652 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.206550,47.486400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11323">
+<name><![CDATA[Zofingen, Bahnhof]]></name>
+<description><![CDATA[634 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.943610,47.288200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8790">
+<name><![CDATA[Baden]]></name>
+<description><![CDATA[627 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.307690,47.476400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6419">
+<name><![CDATA[Baden, Lindenplatz]]></name>
+<description><![CDATA[608 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.306150,47.471300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11112">
+<name><![CDATA[Dättwil AG, Langacker]]></name>
+<description><![CDATA[608 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.288340,47.456400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7423">
+<name><![CDATA[Frick, Unterdorf]]></name>
+<description><![CDATA[594 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.019700,47.508200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4748">
+<name><![CDATA[Brugg AG]]></name>
+<description><![CDATA[573 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.208830,47.480900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13208">
+<name><![CDATA[Wettingen, EW]]></name>
+<description><![CDATA[572 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.325960,47.465800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1443">
+<name><![CDATA[Baden, Segelhof]]></name>
+<description><![CDATA[546 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.278750,47.458500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7590">
+<name><![CDATA[Sursee, Altstadt]]></name>
+<description><![CDATA[538 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.110700,47.172700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

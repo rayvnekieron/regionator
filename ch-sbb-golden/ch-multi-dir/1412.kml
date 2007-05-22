@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1412 030132022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.21923828125</north>
+<south>47.197265625</south>
+<east>9.51416015625</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Eschen, Brühl</name>
+<description>68 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.513530,47.209700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.513530,47.209700
+9.506660,47.211300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.513530,47.209700
+9.521110,47.209300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Bendern, Mühlegass</name>
+<description>62 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.508820,47.215800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.508820,47.215800
+9.503930,47.212400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.508820,47.215800
+9.516270,47.229200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Bendern, Fallsbretscha</name>
+<description>62 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>9.503930,47.212400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.503930,47.212400
+9.508820,47.215800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>9.503930,47.212400
+9.503010,47.210800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

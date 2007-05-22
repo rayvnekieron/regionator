@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1069 03001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>9.140625</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.63671875</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1070.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.63671875</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1074.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1077.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1098.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8551">
+<name><![CDATA[Wil]]></name>
+<description><![CDATA[455 connections
+]]></description>
+<Point>
+<coordinates>9.040980,47.462400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11222">
+<name><![CDATA[Weinfelden]]></name>
+<description><![CDATA[374 connections
+]]></description>
+<Point>
+<coordinates>9.106340,47.566200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5220">
+<name><![CDATA[Frauenfeld]]></name>
+<description><![CDATA[354 connections
+]]></description>
+<Point>
+<coordinates>8.896530,47.558200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm439">
+<name><![CDATA[Frauenfeld, Bahnhof]]></name>
+<description><![CDATA[303 connections
+]]></description>
+<Point>
+<coordinates>8.897210,47.558300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5569">
+<name><![CDATA[Wil SG, Rössli]]></name>
+<description><![CDATA[290 connections
+]]></description>
+<Point>
+<coordinates>9.047440,47.461600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11172">
+<name><![CDATA[Wil SG, Bahnhof-Süd]]></name>
+<description><![CDATA[254 connections
+]]></description>
+<Point>
+<coordinates>9.041610,47.461300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10081">
+<name><![CDATA[Sirnach, Bahnhof]]></name>
+<description><![CDATA[250 connections
+]]></description>
+<Point>
+<coordinates>9.000040,47.462500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10590">
+<name><![CDATA[Zuzwil SG, Gemeindehaus]]></name>
+<description><![CDATA[236 connections
+]]></description>
+<Point>
+<coordinates>9.111860,47.474900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10041">
+<name><![CDATA[Etzwilen]]></name>
+<description><![CDATA[234 connections
+]]></description>
+<Point>
+<coordinates>8.818590,47.661200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7033">
+<name><![CDATA[Zuzwil SG, Post]]></name>
+<description><![CDATA[233 connections
+]]></description>
+<Point>
+<coordinates>9.108840,47.473600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4438">
+<name><![CDATA[Zuzwil SG, Grünegg]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>9.106390,47.469500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6789">
+<name><![CDATA[Züberwangen, Weieren]]></name>
+<description><![CDATA[226 connections
+]]></description>
+<Point>
+<coordinates>9.102240,47.464200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14663">
+<name><![CDATA[Züberwangen, Schulhaus]]></name>
+<description><![CDATA[226 connections
+]]></description>
+<Point>
+<coordinates>9.092680,47.466100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10338">
+<name><![CDATA[Züberwangen, Post]]></name>
+<description><![CDATA[226 connections
+]]></description>
+<Point>
+<coordinates>9.086050,47.466000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3522">
+<name><![CDATA[Züberwangen, Kirchstrasse]]></name>
+<description><![CDATA[225 connections
+]]></description>
+<Point>
+<coordinates>9.083750,47.466700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6986">
+<name><![CDATA[Wil SG, Friedberg]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>9.063800,47.465200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

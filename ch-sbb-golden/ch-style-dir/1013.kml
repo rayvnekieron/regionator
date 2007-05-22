@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1013 02312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.703125</south>
+<east>8.0859375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13390">
+<name><![CDATA[Zermatt]]></name>
+<description><![CDATA[147 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.748030,46.024600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12647">
+<name><![CDATA[Findelbach]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.748670,46.009900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5860">
+<name><![CDATA[Riffelalp]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.754120,46.004900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14018">
+<name><![CDATA[Rotenboden]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.765360,45.984500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1753">
+<name><![CDATA[Riffelberg]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.755210,45.992800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11667">
+<name><![CDATA[Zermatt GGB]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.749460,46.023700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11541">
+<name><![CDATA[Gornergrat]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.782160,45.983400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11775">
+<name><![CDATA[Mattmark]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.956770,46.048900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm684">
+<name><![CDATA[Blauherd ZBAG-lsu]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.785840,46.016700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8838">
+<name><![CDATA[Zermatt ZBAG-lz]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.742860,46.014700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm19">
+<name><![CDATA[Sunnegga ZBAG-zsb]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.770020,46.017100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2555">
+<name><![CDATA[Zermatt ZBAG-zsb]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.752250,46.022400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1822">
+<name><![CDATA[Unterrothorn]]></name>
+<description><![CDATA[9 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.797390,46.021500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3646">
+<name><![CDATA[Sunnegga ZBAG-lsu]]></name>
+<description><![CDATA[9 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.770470,46.016800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

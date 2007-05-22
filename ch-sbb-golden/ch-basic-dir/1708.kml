@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1708 03201320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0986328125</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8106">
+<name><![CDATA[Isone, Cardosio]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.987580,46.129800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14709">
+<name><![CDATA[Isone, Paese]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.984650,46.133600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14905">
+<name><![CDATA[Isone, Mulino]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.981530,46.126400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5695">
+<name><![CDATA[Medeglia, Paese]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.968920,46.115100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10409">
+<name><![CDATA[Isone, Piazzale]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.990750,46.131900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

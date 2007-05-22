@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>428 02113000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4608">
+<name><![CDATA[Thalheim AG, Unterdorf]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.102780,47.438500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm307">
+<name><![CDATA[Thalheim AG, Dorfplatz]]></name>
+<description><![CDATA[83 connections
+]]></description>
+<Point>
+<coordinates>8.098760,47.434500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13790">
+<name><![CDATA[Thalheim AG, Post]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.105440,47.438500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

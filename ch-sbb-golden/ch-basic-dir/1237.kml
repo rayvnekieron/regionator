@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1237 03003030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7959">
+<name><![CDATA[Bauma, Gniststrasse]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.881800,47.366600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

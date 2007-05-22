@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>855 02211121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>6.943359375</east>
+<west>6.8994140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11357">
+<name><![CDATA[Vionnaz, gare]]></name>
+<description><![CDATA[9 connections
+]]></description>
+<Point>
+<coordinates>6.916210,46.314800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>493 0211333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02113330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>8.3935546875</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>494.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02113333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>8.4375</east>
+<west>8.3935546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>495.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13562">
+<name><![CDATA[Hünenberg, Bösch]]></name>
+<description><![CDATA[155 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.434590,47.160900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5400">
+<name><![CDATA[Perlen, Post]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.364900,47.112000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7729">
+<name><![CDATA[Gisikon-Root]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.394780,47.121300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11755">
+<name><![CDATA[Sins, Bahnhof]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.400640,47.194400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6931">
+<name><![CDATA[Sins]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.397810,47.188300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2266">
+<name><![CDATA[Oberrüti]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.404770,47.165900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6695">
+<name><![CDATA[Dietwil, Kirchenplatz]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.391890,47.147700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8496">
+<name><![CDATA[Rotkreuz, Bahnhof Nord]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.430540,47.141600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10382">
+<name><![CDATA[Oberrüti, Dorf]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.394060,47.166200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2043">
+<name><![CDATA[Hünenberg, Gartenstrasse]]></name>
+<description><![CDATA[77 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.427530,47.178600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm766">
+<name><![CDATA[Abtwil AG, Post]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.355420,47.174100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10822">
+<name><![CDATA[Sins, Schulstrasse]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.392700,47.193600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2668">
+<name><![CDATA[Rotkreuz, Lindenplatz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.426690,47.140100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14078">
+<name><![CDATA[Aettenschwil, Oberdorf]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.372720,47.183000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12406">
+<name><![CDATA[Aettenschwil, Post]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.371400,47.183000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11769">
+<name><![CDATA[Küntwil]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.420610,47.132200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

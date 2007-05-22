@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1669 0320102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11077">
+<name><![CDATA[Lavertezzo, Aquino]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.828740,46.262000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12840">
+<name><![CDATA[Brione (Verzasca), Motta]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.808270,46.273100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5501">
+<name><![CDATA[Brione (Verzasca), Chiosetto]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.802950,46.281000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11895">
+<name><![CDATA[Gerra(Verzasca),Prato Maggiore]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.802490,46.314300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4609">
+<name><![CDATA[Gerra (Verzasca), Al Ponte]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.799980,46.317700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14759">
+<name><![CDATA[Brione (Verzasca), Ganne]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.796830,46.282900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5647">
+<name><![CDATA[Gerra (Verzasca), Predell]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.795190,46.308100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5362">
+<name><![CDATA[Brione (Verzasca), Piee]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.793450,46.290300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14589">
+<name><![CDATA[Brione (Verzasca), Alnasca]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.793150,46.304300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3337">
+<name><![CDATA[Brione (Verzasca), Sottomuro]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.791560,46.292600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4272">
+<name><![CDATA[Brione (Verzasca), Paese]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.790690,46.296900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

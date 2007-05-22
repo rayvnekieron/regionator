@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>697 021233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0212330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>698.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>699.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>700.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>701.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3265">
+<name><![CDATA[Adelboden, Schlegeli Hari]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.564990,46.495800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1303">
+<name><![CDATA[Adelboden, Boden Wendeplatz]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.558700,46.482100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6415">
+<name><![CDATA[Achseten, Post]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.592430,46.525500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2984">
+<name><![CDATA[Lötschberg]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.720970,46.432600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6482">
+<name><![CDATA[Kandersteg]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.671260,46.495500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm467">
+<name><![CDATA[Kandersteg, Bahnhof]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.671900,46.495500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1519">
+<name><![CDATA[Kandergrund, Post]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.670780,46.563100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6909">
+<name><![CDATA[Blausee BE]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.668250,46.534300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11950">
+<name><![CDATA[Kandergrund, Riegelsee]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.667420,46.539100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7329">
+<name><![CDATA[Kandergrund, Altels]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.661840,46.545300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5630">
+<name><![CDATA[Kandergrund, Bifige]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.658260,46.562400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7069">
+<name><![CDATA[Frutigen, Zrydsbrügg]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.656710,46.566100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1542">
+<name><![CDATA[Frutigen, Rybrügg]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.653860,46.572000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6678">
+<name><![CDATA[Frutigen, Ried]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.622020,46.567400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13453">
+<name><![CDATA[Frutigen, Rohrbach]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.602660,46.550000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1052">
+<name><![CDATA[Adelboden, Hirzboden]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.583270,46.514700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

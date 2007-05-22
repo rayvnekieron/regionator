@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1637 031230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>10.37109375</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9887">
+<name><![CDATA[Tschierv, Minschuns]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.324400,46.637000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm748">
+<name><![CDATA[Buffalora]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.267400,46.648000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11359">
+<name><![CDATA[Zernez, Stabelchod]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>10.243500,46.660500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9226">
+<name><![CDATA[Scuol, Schmelzra]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>10.334100,46.717800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9630">
+<name><![CDATA[Scuol, Val Mingèr]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>10.305600,46.730200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1926">
+<name><![CDATA[Lü, posta]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>10.369300,46.623200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9671">
+<name><![CDATA[S-charl]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>10.334600,46.715500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

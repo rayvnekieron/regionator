@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>304 02103302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>7.6025390625</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3276">
+<name><![CDATA[Luterbach, Gemeindehaus]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.587810,47.215400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6746">
+<name><![CDATA[Luterbach, Kraftwerk]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.575930,47.214600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7917">
+<name><![CDATA[Derendingen, Ritterplatz]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>7.585130,47.200200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3632">
+<name><![CDATA[Luterbach, Bahnhof Nordseite]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.585180,47.218100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

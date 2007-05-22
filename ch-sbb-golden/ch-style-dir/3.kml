@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>3 02</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>45.0</south>
+<east>8.4375</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>4.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>195.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.0</south>
+<east>7.03125</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>819.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.0</south>
+<east>8.4375</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>873.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1173">
+<name><![CDATA[Reinach BL Dorf]]></name>
+<description><![CDATA[1530 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.589180,47.492900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4841">
+<name><![CDATA[Bern]]></name>
+<description><![CDATA[1529 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.439120,46.948800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6776">
+<name><![CDATA[Carouge GE, Rondeau]]></name>
+<description><![CDATA[1512 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.138380,46.179900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9064">
+<name><![CDATA[Münchenstein Loogstrasse]]></name>
+<description><![CDATA[1488 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.610110,47.522200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7582">
+<name><![CDATA[Solothurn, Bahnhof]]></name>
+<description><![CDATA[1476 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.542240,47.204300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1624">
+<name><![CDATA[Luzern, Kasernenplatz]]></name>
+<description><![CDATA[1444 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.300680,47.051500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm209">
+<name><![CDATA[Solothurn, Amthausplatz]]></name>
+<description><![CDATA[1431 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.534330,47.208100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11325">
+<name><![CDATA[Basel Schifflände]]></name>
+<description><![CDATA[1417 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.588510,47.559600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm183">
+<name><![CDATA[Lancy, Bachet-de-Pesay]]></name>
+<description><![CDATA[1404 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.129440,46.174400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4211">
+<name><![CDATA[Genève, Av. Appia]]></name>
+<description><![CDATA[1263 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.137900,46.227100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5910">
+<name><![CDATA[Baden, Badener Tor]]></name>
+<description><![CDATA[1236 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.289130,47.464500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13858">
+<name><![CDATA[Olten]]></name>
+<description><![CDATA[1086 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.907690,47.351900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4529">
+<name><![CDATA[Genève, Plainpalais]]></name>
+<description><![CDATA[1074 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.141860,46.197000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6961">
+<name><![CDATA[Ebikon, Hofmatt]]></name>
+<description><![CDATA[1072 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.343320,47.082500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9528">
+<name><![CDATA[Ebikon, Schmiedhof]]></name>
+<description><![CDATA[1030 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.332690,47.077100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4933">
+<name><![CDATA[Steffisburg, Dorf]]></name>
+<description><![CDATA[1020 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.634890,46.778900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>852 02211112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.3623046875</north>
+<south>46.318359375</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14704">
+<name><![CDATA[Corbeyrier, café de Luan]]></name>
+<description><![CDATA[7 connections
+]]></description>
+<Point>
+<coordinates>6.977710,46.359100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

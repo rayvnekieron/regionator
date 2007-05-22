@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>145 02033003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.767578125</east>
+<west>6.7236328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7969">
+<name><![CDATA[Thierrens, le Planchy]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.766860,46.698300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10766">
+<name><![CDATA[Thierrens, La Croix]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.757400,46.701900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10958">
+<name><![CDATA[Boulens, Moulin de l'Augine]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.725360,46.677200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4334">
+<name><![CDATA[Thierrens, Carron]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.763500,46.710200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3744">
+<name><![CDATA[Thierrens, Fontana-Bion]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.758650,46.706700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1381 0301222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>9.228515625</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11687">
+<name><![CDATA[Amden, Post]]></name>
+<description><![CDATA[75 connections
+]]></description>
+<Point>
+<coordinates>9.140850,47.147200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm125">
+<name><![CDATA[Murg]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.215020,47.113200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8779">
+<name><![CDATA[Mühlehorn]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.173000,47.117800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6387">
+<name><![CDATA[Amden, Vorderdorf]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.147500,47.148900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2308">
+<name><![CDATA[Mühlehorn, Stutz]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.182990,47.115100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13702">
+<name><![CDATA[Mühlehorn, Hohrain]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.178080,47.116000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7352">
+<name><![CDATA[Mühlehorn, Oberdorf]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.173160,47.116600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11457">
+<name><![CDATA[Mühlehorn, Beerenboden]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.170740,47.113000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5168">
+<name><![CDATA[Obstalden, Walenguflen]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.157680,47.116800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10694">
+<name><![CDATA[Betlis]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>9.146020,47.134400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9007">
+<name><![CDATA[Mühlehorn, Bahnhof]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<Point>
+<coordinates>9.172200,47.117500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4709">
+<name><![CDATA[Obstalden, Stocken]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>9.165580,47.116700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14081">
+<name><![CDATA[Obstalden, Bödeli]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>9.162620,47.116700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11000">
+<name><![CDATA[Arvenbüel, Arven]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.173810,47.146700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10533">
+<name><![CDATA[Mühlehorn (See)]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.174310,47.118300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

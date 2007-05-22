@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1288 03003323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8857">
+<name><![CDATA[Niederurnen]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.046700,47.125100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2628">
+<name><![CDATA[Morgenholz]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.020140,47.125500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4662">
+<name><![CDATA[Bilten, Unterbilten]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.018640,47.152900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3243">
+<name><![CDATA[Schänis, Windegg]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>9.049860,47.147100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2041">
+<name><![CDATA[Schänis, Winklen]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.050560,47.148500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

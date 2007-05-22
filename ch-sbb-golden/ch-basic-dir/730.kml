@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>730 0213031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3770">
+<name><![CDATA[Flühli LU, Hirseggbrücke]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.015600,46.855400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13044">
+<name><![CDATA[Flühli LU, Post]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.014930,46.884400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8980">
+<name><![CDATA[Flühli LU, Matzenbach]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.014700,46.893400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12237">
+<name><![CDATA[Flühli LU, Usser-Lamm]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.013980,46.918600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5716">
+<name><![CDATA[Flühli LU, Krutacher]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.013540,46.908300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm372">
+<name><![CDATA[Flühli LU, Schintmoos]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.013120,46.899700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12873">
+<name><![CDATA[Flühli LU, Mittlere Hirsegg]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.012890,46.846600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6875">
+<name><![CDATA[Klusstalden]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.012460,46.929900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>951 0230130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13152">
+<name><![CDATA[Zinal, Le Bouillet]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.625260,46.144200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9653">
+<name><![CDATA[Ayer, Pralong]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.623850,46.149500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm659">
+<name><![CDATA[Ayer, Les Morasses]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.609380,46.166900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6112">
+<name><![CDATA[Ayer, poste]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.604420,46.177100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9789">
+<name><![CDATA[Sorebois]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.603720,46.144400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm195">
+<name><![CDATA[Ayer, Prarrayer]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.600760,46.180200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3702">
+<name><![CDATA[Ayer, Blanches Pierre]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.598320,46.183100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7535">
+<name><![CDATA[Ayer, Val d'Uccle]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.595980,46.184400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4746">
+<name><![CDATA[Mission]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.592920,46.192200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13878">
+<name><![CDATA[Ayer, Cuimey]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.591210,46.205300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9648">
+<name><![CDATA[Ayer, Les Morands]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.589330,46.210800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3658">
+<name><![CDATA[Grimentz, Le Boccard]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.571190,46.173500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12495">
+<name><![CDATA[Tignousa]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.609700,46.229100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9306">
+<name><![CDATA[St-Luc FLC]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.602580,46.219600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

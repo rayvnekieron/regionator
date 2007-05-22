@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1709 03201322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>032013220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.07666015625</south>
+<east>8.98681640625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1710.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032013222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.07666015625</north>
+<south>46.0546875</south>
+<east>8.98681640625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1711.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032013223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.07666015625</north>
+<south>46.0546875</south>
+<east>9.0087890625</east>
+<west>8.98681640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1712.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm366">
+<name><![CDATA[Roveredo TI, Treggia]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.990050,46.075400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10172">
+<name><![CDATA[Roveredo TI, Paese]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.984570,46.073600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14577">
+<name><![CDATA[Lopagno, Miera]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.981180,46.072700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8167">
+<name><![CDATA[Lopagno, Ronchetto]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.977760,46.070600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5600">
+<name><![CDATA[Lopagno, Paese]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.977300,46.068200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9635">
+<name><![CDATA[Tesserete, Campestro]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.971070,46.069500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11866">
+<name><![CDATA[Odogno, Bivio per Bettagno]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.971620,46.082300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7993">
+<name><![CDATA[Odogno, Paese]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.970300,46.081300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8339">
+<name><![CDATA[Capriasca, Piana]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.969770,46.080300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12765">
+<name><![CDATA[Pezzolo, Paese]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.967860,46.077300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8179">
+<name><![CDATA[Tesserete, Canvetto Tiratori]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.967150,46.075000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10213">
+<name><![CDATA[Tesserete, Resega]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.966620,46.069800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1582">
+<name><![CDATA[Oggio, Fiume bello]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.007430,46.077600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1890">
+<name><![CDATA[Oggio, Paese]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.987340,46.071200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10477">
+<name><![CDATA[Oggio, Fornaci]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.981850,46.069000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13440">
+<name><![CDATA[Cagiallo, San Matteo]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.978940,46.066600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1280 03003300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6281">
+<name><![CDATA[Goldingen, Vorhalden]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.976870,47.278000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13757">
+<name><![CDATA[Goldingen, Vordersäge]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.975120,47.276800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13934">
+<name><![CDATA[Goldingen, Baumgarten]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.967830,47.264800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3160">
+<name><![CDATA[Goldingen, Unterdorf]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.967080,47.261400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5738">
+<name><![CDATA[Goldingen, Riedern]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.967880,47.254900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14656">
+<name><![CDATA[Gebertingen, Frohe Aussicht]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.002460,47.251300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14802">
+<name><![CDATA[Ernetschwil, Hof]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.000650,47.245900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12937">
+<name><![CDATA[Ernetschwil, Häblingen]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.996570,47.241900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2273">
+<name><![CDATA[Atzmännig, Schutt]]></name>
+<description><![CDATA[43 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.996170,47.284600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1193">
+<name><![CDATA[Gebertingen, Schulhaus]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.008090,47.251600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

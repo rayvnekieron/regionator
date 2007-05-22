@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1595 03032112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2877">
+<name><![CDATA[Masein, Cresta]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.433120,46.700200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8021">
+<name><![CDATA[Masein, Unterdorf]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.430470,46.699400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13994">
+<name><![CDATA[Masein, Dorf]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.428580,46.701200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4664">
+<name><![CDATA[Masein, Dalaus]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.425890,46.699200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7599">
+<name><![CDATA[Masein, Martinsruh]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.417260,46.704500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14538">
+<name><![CDATA[Flerden, Baria]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.414660,46.696300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11634">
+<name><![CDATA[Flerden, Post]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.407000,46.701100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2158">
+<name><![CDATA[Urmein, Coms]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.406720,46.693500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11571">
+<name><![CDATA[Flerden, Pro Peua]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.404930,46.698200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4250">
+<name><![CDATA[Rongellen, Dorf]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>9.443440,46.673600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

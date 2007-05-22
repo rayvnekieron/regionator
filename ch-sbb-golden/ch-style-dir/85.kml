@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>85 02031311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>7.03125</east>
+<west>6.9873046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7102">
+<name><![CDATA[Salavaux, Cotterd]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.021800,46.920200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12589">
+<name><![CDATA[Salavaux, village]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.020180,46.918600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

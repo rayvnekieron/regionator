@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>10 020132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6005">
+<name><![CDATA[Les Joux-Derrière, La Grébille]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.804820,47.117500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3719">
+<name><![CDATA[Les Planchettes, Le Dazenet]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.800850,47.118900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3298">
+<name><![CDATA[Les Planchettes, Sur-le-Ring]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.781840,47.111600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4700">
+<name><![CDATA[Biaufond, La Rasse]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.844600,47.154600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11210">
+<name><![CDATA[Biaufond, Les Avants]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.843360,47.147900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14163">
+<name><![CDATA[La Maison-Monsieur, bif.]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.841360,47.149700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11907">
+<name><![CDATA[La Chaux-de-Fonds, Brenetets]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.825030,47.136500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

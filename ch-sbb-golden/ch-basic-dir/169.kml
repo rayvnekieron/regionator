@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>169 02033120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.6259765625</south>
+<east>6.8994140625</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5981">
+<name><![CDATA[La Pierraz]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.895130,46.658300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm399">
+<name><![CDATA[Chavannes-Les-Forts, Café]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>6.896510,46.651100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm374">
+<name><![CDATA[Prez-vers-Siviriez, village]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.873140,46.637500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

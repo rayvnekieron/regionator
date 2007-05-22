@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1115 03002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>8.7890625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>8.61328125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1116.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>8.7890625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1138.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.61328125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1162.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.7890625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1182.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5911">
+<name><![CDATA[Wallisellen, Bahnhof]]></name>
+<description><![CDATA[626 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.592230,47.412400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13458">
+<name><![CDATA[Zürich Selnau]]></name>
+<description><![CDATA[620 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.532030,47.372900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7869">
+<name><![CDATA[Zürich Altstetten]]></name>
+<description><![CDATA[617 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.488940,47.391500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9436">
+<name><![CDATA[Oberwil b. Zug, Widenstrasse]]></name>
+<description><![CDATA[612 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.506580,47.146700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11862">
+<name><![CDATA[Holzhäusern ZG, St. Wendelin]]></name>
+<description><![CDATA[610 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.439480,47.154300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9469">
+<name><![CDATA[Kloten, z. Wilden Mann]]></name>
+<description><![CDATA[598 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.580200,47.453600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13328">
+<name><![CDATA[Zürich Flughafen]]></name>
+<description><![CDATA[597 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.562380,47.450400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7007">
+<name><![CDATA[Zürich Flughafen, Fracht/OPS]]></name>
+<description><![CDATA[576 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.565650,47.452700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8479">
+<name><![CDATA[Schönegg]]></name>
+<description><![CDATA[564 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.521190,47.151300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6110">
+<name><![CDATA[Lindencham]]></name>
+<description><![CDATA[550 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.443640,47.193500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8817">
+<name><![CDATA[Unterägeri, Station]]></name>
+<description><![CDATA[549 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.581810,47.137700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1013">
+<name><![CDATA[Effretikon]]></name>
+<description><![CDATA[548 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.686660,47.425800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10391">
+<name><![CDATA[Pfäffikon SZ]]></name>
+<description><![CDATA[537 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.778110,47.203000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10908">
+<name><![CDATA[Kloten, GAC]]></name>
+<description><![CDATA[531 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.572060,47.452500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8878">
+<name><![CDATA[Allenwinden, Dorf]]></name>
+<description><![CDATA[525 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.554410,47.164300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13930">
+<name><![CDATA[Hombrechtikon, Tobel]]></name>
+<description><![CDATA[522 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.780330,47.253700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

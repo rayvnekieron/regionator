@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>424 02112332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3649">
+<name><![CDATA[Willisau, Rossgassmoos]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>8.005910,47.117400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1158 030021303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.35107421875</north>
+<south>47.3291015625</south>
+<east>8.7451171875</east>
+<west>8.72314453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9988">
+<name><![CDATA[Uster, Neufuhr]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>8.740670,47.334100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>150 0203302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>6.767578125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02033020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.6259765625</south>
+<east>6.7236328125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>151.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.6259765625</south>
+<east>6.767578125</east>
+<west>6.7236328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>152.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.6259765625</north>
+<south>46.58203125</south>
+<east>6.767578125</east>
+<west>6.7236328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>153.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12610">
+<name><![CDATA[Villars-Mendraz, croisée]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>6.729350,46.647200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5296">
+<name><![CDATA[Villars-Tiercelin, village]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>6.704180,46.624900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7298">
+<name><![CDATA[Sottens, croisée]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.741990,46.655000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11842">
+<name><![CDATA[Sottens, Radio]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.736800,46.656800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1821">
+<name><![CDATA[Chapelle-sur-Moudon, poste]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.736790,46.667800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm727">
+<name><![CDATA[Villars-Mendraz, Praz-Longet]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.726980,46.643500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm223">
+<name><![CDATA[Poliez-Pittet, village]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>6.683910,46.627200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8362">
+<name><![CDATA[Peney-le-Jorat, poste]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.726930,46.632900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3161">
+<name><![CDATA[Peney-le-Jorat, Chalet Renards]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.722070,46.629700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1024">
+<name><![CDATA[Poliez-Pittet, Les Adelins]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.692490,46.610800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9149">
+<name><![CDATA[Froideville, Bas-du-Caraset]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.684890,46.604100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5691">
+<name><![CDATA[Corcelles-le-Jt.,Champ-la-Dame]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.743520,46.611800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2064">
+<name><![CDATA[Corcelles-le-Jorat, village]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.742600,46.607600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12759">
+<name><![CDATA[Corcelles-le-Jt., Le Torel]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.742010,46.602200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8746">
+<name><![CDATA[Dommartin, croisée]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.701900,46.648700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12751">
+<name><![CDATA[Naz, laiterie]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.695540,46.658500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

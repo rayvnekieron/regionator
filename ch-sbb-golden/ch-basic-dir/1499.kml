@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1499 0302322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03023220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1500.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03023221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1501.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03023223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1502.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9731">
+<name><![CDATA[Rossura, Paese]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.825420,46.475300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7452">
+<name><![CDATA[Mairengo, Campasc]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.793140,46.486500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7135">
+<name><![CDATA[Mairengo, Selva]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.789930,46.488300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13137">
+<name><![CDATA[Tortengo]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.789890,46.486500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5310">
+<name><![CDATA[Faido, Centrale elettrica]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.789350,46.485800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10637">
+<name><![CDATA[Faido]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.790700,46.483100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12018">
+<name><![CDATA[Chinchengo]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.813760,46.477700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2734">
+<name><![CDATA[Faido, Chia Meiza]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.809890,46.478900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11947">
+<name><![CDATA[Primadengo]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.806080,46.482700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3749">
+<name><![CDATA[Calpiogna]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.804880,46.486800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3266">
+<name><![CDATA[Faido, Centrale telefoni]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.790440,46.482500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13975">
+<name><![CDATA[Campello]]></name>
+<description><![CDATA[59 connections
+]]></description>
+<Point>
+<coordinates>8.819200,46.486600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14455">
+<name><![CDATA[Molare, Paese]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.830260,46.486000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4955">
+<name><![CDATA[Molare, Stella Alpina]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.828380,46.489200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2878">
+<name><![CDATA[Rossura, Barescia]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.827350,46.484400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6329">
+<name><![CDATA[Rossura, Campi]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.826870,46.491000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

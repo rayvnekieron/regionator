@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1392 030130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>9.66796875</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0301300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1393.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0301301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1401.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0301302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1404.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0301303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1405.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14435">
+<name><![CDATA[Altstätten SG, Stadt]]></name>
+<description><![CDATA[354 connections
+]]></description>
+<Point>
+<coordinates>9.537580,47.376400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14250">
+<name><![CDATA[Altstätten SG, Bahnhof]]></name>
+<description><![CDATA[338 connections
+]]></description>
+<Point>
+<coordinates>9.556030,47.374200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1469">
+<name><![CDATA[Heiden, Post]]></name>
+<description><![CDATA[328 connections
+]]></description>
+<Point>
+<coordinates>9.534970,47.444800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13504">
+<name><![CDATA[Diepoldsau, Dorf]]></name>
+<description><![CDATA[320 connections
+]]></description>
+<Point>
+<coordinates>9.654500,47.385000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7378">
+<name><![CDATA[Heiden, Rosental]]></name>
+<description><![CDATA[264 connections
+]]></description>
+<Point>
+<coordinates>9.532930,47.443500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14861">
+<name><![CDATA[Au SG, Oberdorf]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>9.633810,47.429500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6293">
+<name><![CDATA[Heerbrugg, Neuwies]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>9.631970,47.416900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8172">
+<name><![CDATA[Au SG, Monstein]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<Point>
+<coordinates>9.638120,47.437500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9397">
+<name><![CDATA[Oberriet SG, Sekundarschule]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<Point>
+<coordinates>9.565900,47.322800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11831">
+<name><![CDATA[Oberriet SG, Rathaus]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<Point>
+<coordinates>9.564400,47.318300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10038">
+<name><![CDATA[Rüthi (Rheintal), Dorf]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<Point>
+<coordinates>9.538320,47.294500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8498">
+<name><![CDATA[Berneck, Rathaus]]></name>
+<description><![CDATA[235 connections
+]]></description>
+<Point>
+<coordinates>9.608440,47.425200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4647">
+<name><![CDATA[St. Margrethen]]></name>
+<description><![CDATA[216 connections
+]]></description>
+<Point>
+<coordinates>9.638250,47.453200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14685">
+<name><![CDATA[St. Margrethen SG, Rheinpark]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<Point>
+<coordinates>9.650890,47.449600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10441">
+<name><![CDATA[Kaien]]></name>
+<description><![CDATA[187 connections
+]]></description>
+<Point>
+<coordinates>9.507800,47.428200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5003">
+<name><![CDATA[Heiden, Lindenplatz]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>9.528100,47.447200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

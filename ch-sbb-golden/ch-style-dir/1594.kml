@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1594 03032110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7201">
+<name><![CDATA[Paspels, Abzw. Dusch]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.448030,46.749200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12102">
+<name><![CDATA[Rodels-Realta, Abzw. Bahnhof]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.433080,46.736300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14736">
+<name><![CDATA[Cazis, Siedlung Realta]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.427620,46.733700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14865">
+<name><![CDATA[Lescha, Skilift]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.405330,46.721800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3723">
+<name><![CDATA[Rodels-Realta, Bahnhof]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.433450,46.735500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

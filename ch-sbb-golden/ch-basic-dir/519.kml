@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>519 02120103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm390">
+<name><![CDATA[Bühl bei Aarberg, Römerhof]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>7.254350,47.062500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4097">
+<name><![CDATA[Aarberg, Bernfeld]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>7.286650,47.044300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11654">
+<name><![CDATA[Bargen]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>7.261180,47.040200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5197">
+<name><![CDATA[Aarberg]]></name>
+<description><![CDATA[71 connections
+]]></description>
+<Point>
+<coordinates>7.278690,47.044500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11893">
+<name><![CDATA[Aarberg, Bifang]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>7.282360,47.050800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13246">
+<name><![CDATA[Aarberg, Spital]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>7.279410,47.047200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11871">
+<name><![CDATA[Lobsigen, Post]]></name>
+<description><![CDATA[61 connections
+]]></description>
+<Point>
+<coordinates>7.293940,47.026600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

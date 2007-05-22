@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>525 0212012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02120120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>526.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>527.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>528.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12388">
+<name><![CDATA[Mühleberg, Dorf]]></name>
+<description><![CDATA[135 connections
+]]></description>
+<Point>
+<coordinates>7.261290,46.954400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3316">
+<name><![CDATA[Innerberg BE, Frieswilfeld]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.291210,46.995800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5557">
+<name><![CDATA[Frieswil, Dorf]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.286110,46.994800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13741">
+<name><![CDATA[Radelfingen b. A., Salzmatt]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.278170,47.019300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5484">
+<name><![CDATA[Detligen, Schulhausweg]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.275600,47.001300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6980">
+<name><![CDATA[Detligen, Post]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.271650,47.001300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7288">
+<name><![CDATA[Detligen, Jucher]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.263760,47.004000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5580">
+<name><![CDATA[Ferenbalm-Gurbrü]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.218870,46.954100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1796">
+<name><![CDATA[Gümmenen, Bahnhof]]></name>
+<description><![CDATA[91 connections
+]]></description>
+<Point>
+<coordinates>7.232430,46.943700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2646">
+<name><![CDATA[Mühleberg, Post]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>7.258670,46.952700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2138">
+<name><![CDATA[Oberei b. Mühleberg]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.292800,46.960000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9625">
+<name><![CDATA[Fuchsenried, Mühlebergwerk]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.278330,46.965400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm295">
+<name><![CDATA[Buttenried]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.275710,46.962700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm947">
+<name><![CDATA[Mühleberg, Säge]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.271790,46.958200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12730">
+<name><![CDATA[Gümmenen, Stutz]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.249500,46.945500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11723">
+<name><![CDATA[Gümmenen, Dorf]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.242940,46.943700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>675 0212233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02122330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>676.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02122331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>677.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8724">
+<name><![CDATA[Turbach, Eigenmatte]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.327630,46.477600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4594">
+<name><![CDATA[Lauenen b. Gstaad, Fängli]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.333290,46.412000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5624">
+<name><![CDATA[Lauenen b. Gstaad, Unterschüpf]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.329380,46.416000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3581">
+<name><![CDATA[Lauenen b. Gstaad, Rohrbrücke]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.324170,46.418900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1345">
+<name><![CDATA[Turbach, Höhe]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.321450,46.476700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11938">
+<name><![CDATA[Turbach, Schwenterli]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.314610,46.477800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7370">
+<name><![CDATA[Turbach, Fängli]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.329580,46.479200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7997">
+<name><![CDATA[Scheidbach, Mürni]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.323410,46.473600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1625">
+<name><![CDATA[Scheidbach, Bissen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.318200,46.472000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7580">
+<name><![CDATA[Gstaad, Wasserngratbahn]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.311700,46.469700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4807">
+<name><![CDATA[Gstaad, Bissenegg]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.308420,46.479200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11527">
+<name><![CDATA[Gstaad, Bissen Litzi]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.305510,46.469500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3367">
+<name><![CDATA[Gstaad, Bissen Schulhaus]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.305200,46.466600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14341">
+<name><![CDATA[Gstaad, Staldenmatte]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.301260,46.479200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1522">
+<name><![CDATA[Gstaad, Bissenbrücke]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.299650,46.471100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3493">
+<name><![CDATA[Turbach, Post]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.331530,46.478500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

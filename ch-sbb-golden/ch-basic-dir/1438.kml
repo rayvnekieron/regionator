@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1438 0302010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8249">
+<name><![CDATA[Burg b. Schwyz, Rest. Burg]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.632210,47.044700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10998">
+<name><![CDATA[Rothenthurm]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.674660,47.105800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5887">
+<name><![CDATA[Rothenthurm, Bahnhof]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.673060,47.104600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm427">
+<name><![CDATA[Biberegg]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.669130,47.093300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11847">
+<name><![CDATA[Sattel-Aegeri]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.627230,47.079900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13755">
+<name><![CDATA[Holzegg]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.698390,47.028800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9017">
+<name><![CDATA[Biberegg, Bahnhof]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.669530,47.093100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6433">
+<name><![CDATA[Morgarten Denkmal]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.641490,47.106700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6424">
+<name><![CDATA[Morgarten Hotel AeS]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.640130,47.104900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

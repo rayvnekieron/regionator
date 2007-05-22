@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>985 02310103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.3623046875</north>
+<south>46.318359375</south>
+<east>7.998046875</east>
+<west>7.9541015625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5709">
+<name><![CDATA[Naters, Birchegga]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.981850,46.325200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7100">
+<name><![CDATA[Naters, Mehlbaum]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.981750,46.349200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2505">
+<name><![CDATA[Naters, Rafji]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.981630,46.347500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10089">
+<name><![CDATA[Naters, Ahorn]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.980400,46.354300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm646">
+<name><![CDATA[Blatten b. Naters, Eija]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.979940,46.356800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12482">
+<name><![CDATA[Birgisch, Eiholz]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.976120,46.322600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6277">
+<name><![CDATA[Schlucht]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.966970,46.318600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6054">
+<name><![CDATA[Naters]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.987820,46.323800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1798">
+<name><![CDATA[Blatten b. Naters, Post]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.984070,46.358800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3950">
+<name><![CDATA[Naters, Bammatte]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.988610,46.325000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13101">
+<name><![CDATA[Brig, Alpina]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.988880,46.319000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

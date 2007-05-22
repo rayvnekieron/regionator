@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1627 031212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>10.37109375</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0312121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>10.37109375</east>
+<west>10.283203125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1628.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0312122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>10.283203125</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1629.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark>
+<name>Sent, Tuffera</name>
+<description>48 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.347500,46.817300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.347500,46.817300
+10.360400,46.820000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.347500,46.817300
+10.337000,46.817100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Ftan, posta</name>
+<description>45 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.246300,46.795800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.246300,46.795800
+10.266000,46.791300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.246300,46.795800
+10.206000,46.776200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Sent, Sur En Camping</name>
+<description>42 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.366400,46.818500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.366400,46.818500
+10.360400,46.820000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.366400,46.818500
+10.362900,46.816300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Vnà, scoula</name>
+<description>42 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.364100,46.842700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.364100,46.842700
+10.383100,46.834600</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.364100,46.842700
+10.364300,46.843700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Tarasp, posta</name>
+<description>40 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.261100,46.777200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.261100,46.777200
+10.261300,46.781000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol, Serras</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.308500,46.797200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.308500,46.797200
+10.307600,46.798200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.308500,46.797200
+10.298400,46.790900</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol, Runà</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.307600,46.798200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.307600,46.798200
+10.301500,46.798000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.307600,46.798200
+10.308500,46.797200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol, San Jon</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.305000,46.786500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.305000,46.786500
+10.298400,46.790900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.305000,46.786500
+10.298100,46.767800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol, Gurlaina</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.298400,46.790900</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.298400,46.790900
+10.305000,46.786500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.298400,46.790900
+10.308500,46.797200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol, Plan da Funtanas</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.298100,46.767800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.298100,46.767800
+10.305600,46.730200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.298100,46.767800
+10.305000,46.786500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Vnà, posta</name>
+<description>21 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.364300,46.843700</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.364300,46.843700
+10.364100,46.842700</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Sent, Sur En</name>
+<description>21 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.362900,46.816300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.362900,46.816300
+10.366400,46.818500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Sent, Chavriz Pitschen</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.348100,46.838100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.348100,46.838100
+10.336000,46.851900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.348100,46.838100
+10.347500,46.817300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Sent, Tschern</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.347500,46.817300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.347500,46.817300
+10.348100,46.838100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.347500,46.817300
+10.337000,46.817100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol PSFS</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.289200,46.795300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.289200,46.795300
+10.272200,46.810800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Motta Naluns</name>
+<description>10 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.272200,46.810800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.272200,46.810800
+10.289200,46.795300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

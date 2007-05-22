@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1228 03003011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6226">
+<name><![CDATA[Tannegg]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.953990,47.429100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6285">
+<name><![CDATA[Hatterswil]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.945650,47.427000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4356">
+<name><![CDATA[Dussnang, Abzw. Sigisegg]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.939030,47.427300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10397">
+<name><![CDATA[Schurten]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.933000,47.425100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

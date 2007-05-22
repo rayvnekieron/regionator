@@ -1,0 +1,109 @@
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!--
+
+  poly.kml
+
+    StyleMap:
+      normal:
+        icon:  white paddle
+        label: hidden
+        line:  hidden
+        poly:  hidden
+      highlight:
+        icon:  red stars
+        label: random blue-green
+        line:  2 pixel wide red
+        poly:  semi-transparent violet
+-->
+
+  <Document>
+
+    <Style id="station_icon_normal">
+      <IconStyle>
+        <Icon>
+          <href>wht-blank.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <!-- This hides all lines in non-highlight -->
+      <LineStyle>
+        <color>00000000</color>
+        <!-- a==00: fully transparent Polygon outline -->
+      </LineStyle>
+      <!-- This hides all Polygons in non-highlight -->
+      <PolyStyle>
+        <color>00000000</color>
+        <!-- a==00: fully transparent fill -->
+      </PolyStyle>
+      <!-- This hides the label in non-highlight -->
+    </Style>
+
+    <Style id="station_icon_highlight">
+      <IconStyle>
+        <Icon>
+          <href>red-stars.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff90c010</color>
+        <colorMode>random</colorMode>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff3f00ff</color>
+        <!-- solid black Polygon outline -->
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f7f007f</color>
+        <!-- a==00: semi transparent fill -->
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffbb8b</bgColor>
+        <text>
+          <![CDATA[
+The station is <b>$[name]</b><br/>
+there are $[description].
+]]>
+        </text>
+      </BalloonStyle>
+    </Style>
+
+    <StyleMap id="station_icon">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#station_icon_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#station_icon_highlight</styleUrl>
+      </Pair>
+
+    </StyleMap>
+
+    <!-- Test the StyleMap -->
+    <Placemark>
+      <styleUrl>#station_icon</styleUrl>
+      <MultiGeometry>
+        <Point>
+          <coordinates>0,0</coordinates>
+        </Point>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-1,1 1,1 1,-1 -1,-1 -1,1</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <LineString>
+          <coordinates>-2,0 2,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+
+
+  </Document>
+</kml>

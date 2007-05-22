@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>816 0213330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2066">
+<name><![CDATA[Ulrichen, Kittbrücke]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.330320,46.498900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9157">
+<name><![CDATA[Obergesteln, Dorfplatz]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.323780,46.513700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7975">
+<name><![CDATA[Ulrichen, Bahnhof]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.308930,46.505400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8667">
+<name><![CDATA[Ulrichen, Abz. Nufenen]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.306020,46.507200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4301">
+<name><![CDATA[Oberaar, Berghaus]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.277350,46.548800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9148">
+<name><![CDATA[Oberaar, Staumauer Station]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.275720,46.548400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

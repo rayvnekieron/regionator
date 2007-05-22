@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>468 0211320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.173828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02113200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>469.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02113202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>470.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02113203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>471.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14150">
+<name><![CDATA[Leimbach AG]]></name>
+<description><![CDATA[236 connections
+]]></description>
+<Point>
+<coordinates>8.167860,47.272700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm226">
+<name><![CDATA[Zetzwil]]></name>
+<description><![CDATA[236 connections
+]]></description>
+<Point>
+<coordinates>8.153020,47.282400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm811">
+<name><![CDATA[Gontenschwil]]></name>
+<description><![CDATA[236 connections
+]]></description>
+<Point>
+<coordinates>8.144790,47.280400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2792">
+<name><![CDATA[Geuensee, Chäppelimatt]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.109360,47.197400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1061">
+<name><![CDATA[Geuensee, Sternen]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.107080,47.199700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7013">
+<name><![CDATA[Büron, Eichenmoos]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.100560,47.206400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12994">
+<name><![CDATA[Büron, Dorf]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.094710,47.213700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1427">
+<name><![CDATA[Büron, Triengenacker]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.088860,47.220700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8895">
+<name><![CDATA[Kirchrued, Kirche]]></name>
+<description><![CDATA[129 connections
+]]></description>
+<Point>
+<coordinates>8.098230,47.284700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2051">
+<name><![CDATA[Schmiedrued, Matt]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>8.110690,47.276800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3708">
+<name><![CDATA[Walde AG, Käserei]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>8.107540,47.263100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7472">
+<name><![CDATA[Schmiedrued, Dorf]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>8.104650,47.269400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6516">
+<name><![CDATA[Walde AG, Bank]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<Point>
+<coordinates>8.112790,47.260300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3238">
+<name><![CDATA[Schiltwald, Firma Michel]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>8.117690,47.255800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14454">
+<name><![CDATA[Rickenbach LU, Kirchplatz]]></name>
+<description><![CDATA[113 connections
+]]></description>
+<Point>
+<coordinates>8.152880,47.219600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm676">
+<name><![CDATA[Gunzwil, Kagiswil]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.163700,47.214400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

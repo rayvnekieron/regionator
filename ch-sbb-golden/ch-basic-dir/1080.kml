@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1080 03001201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2761">
+<name><![CDATA[Hüttwilen, Oberdorf]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>8.871030,47.609900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11303">
+<name><![CDATA[Buch bei Frauenfeld, Dorf]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.837830,47.599400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

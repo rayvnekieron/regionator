@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>497 02120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.7578125</south>
+<east>7.3828125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>498.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>514.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>534.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>549.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8060">
+<name><![CDATA[Fribourg, gare]]></name>
+<description><![CDATA[610 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.150440,46.803200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2405">
+<name><![CDATA[Lyss]]></name>
+<description><![CDATA[509 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.306300,47.076300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1558">
+<name><![CDATA[Hinterkappelen, Bernstrasse]]></name>
+<description><![CDATA[378 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.379510,46.966400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1717">
+<name><![CDATA[Busswil]]></name>
+<description><![CDATA[376 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.318620,47.098700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6800">
+<name><![CDATA[Fribourg]]></name>
+<description><![CDATA[352 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.151040,46.803100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1630">
+<name><![CDATA[Lyss, Bahnhof]]></name>
+<description><![CDATA[320 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.305650,47.076000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9355">
+<name><![CDATA[Suberg-Grossaffoltern]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.339000,47.058800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13470">
+<name><![CDATA[Ins]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.099560,46.999800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm222">
+<name><![CDATA[Worben, Bad]]></name>
+<description><![CDATA[274 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.291240,47.093600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10407">
+<name><![CDATA[Kerzers]]></name>
+<description><![CDATA[274 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.192800,46.975100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1495">
+<name><![CDATA[Marly, Cité]]></name>
+<description><![CDATA[261 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.153200,46.776200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9507">
+<name><![CDATA[Fribourg, Bourg]]></name>
+<description><![CDATA[257 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.163520,46.805900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12059">
+<name><![CDATA[Aarberg, Post/Bahnhof]]></name>
+<description><![CDATA[249 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.278100,47.044300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12148">
+<name><![CDATA[Hinterkappelen, Bennenboden]]></name>
+<description><![CDATA[242 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.369480,46.969900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6911">
+<name><![CDATA[Wohlen b. Bern, Gemeindehaus]]></name>
+<description><![CDATA[242 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.355910,46.971200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4160">
+<name><![CDATA[Muntelier-Löwenberg]]></name>
+<description><![CDATA[214 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.133260,46.938000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

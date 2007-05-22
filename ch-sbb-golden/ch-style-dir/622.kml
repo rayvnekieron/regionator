@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>622 0212122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02121220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>623.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02121221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>624.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02121222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>625.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02121223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>626.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5093">
+<name><![CDATA[Fultigen, Abzw.]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.449120,46.822400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm202">
+<name><![CDATA[Rüeggisberg, Gemeindehaus]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.441260,46.821500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5682">
+<name><![CDATA[Rüeggisberg, Post]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.438700,46.821400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13431">
+<name><![CDATA[Rüeggisberg, Tromwil]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.466160,46.819700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9992">
+<name><![CDATA[Rüeggisberg, Mättiwil]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.455670,46.822400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12208">
+<name><![CDATA[Riggisberg, Otzenbach]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.462220,46.813400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12399">
+<name><![CDATA[Helgisried, Lauimatt]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.443880,46.815200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4299">
+<name><![CDATA[Helgisried-Rohrbach, Post]]></name>
+<description><![CDATA[97 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.430780,46.814300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4420">
+<name><![CDATA[Wislisau, Wirtschaft]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.407190,46.807100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4018">
+<name><![CDATA[Rohrbach b. Riggisberg,Schulh.]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.421600,46.811600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6302">
+<name><![CDATA[Rüschegg Heubach, Post]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.405900,46.781100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6913">
+<name><![CDATA[Rüschegg Graben, Rütiplötsch]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.405890,46.791000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3689">
+<name><![CDATA[Rüschegg Graben, Kreuzung]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.403270,46.794600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6352">
+<name><![CDATA[Rüschegg Heubach, Längenboden]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.396740,46.776600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm547">
+<name><![CDATA[Mamishaus, Wyden Schulhaus]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.384940,46.792700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6684">
+<name><![CDATA[Rüschegg Gambach, Hirschhorn]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.383650,46.775700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

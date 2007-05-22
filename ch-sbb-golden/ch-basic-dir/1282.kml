@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1282 03003302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11366">
+<name><![CDATA[Kaltbrunn, Fischhausen]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>9.006770,47.217900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10659">
+<name><![CDATA[Uznach, Rotfarb]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.998600,47.220700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14938">
+<name><![CDATA[Uznach, Spital]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.994360,47.222600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14061">
+<name><![CDATA[Uznach, Post]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.981240,47.225500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13989">
+<name><![CDATA[Uznach, Kreuzkirche]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.977330,47.227300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13871">
+<name><![CDATA[Uznach, Burgerfeld]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.972050,47.227600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11762">
+<name><![CDATA[Uznach, St. Josef]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.966490,47.229500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3126">
+<name><![CDATA[Tuggen, Grynau]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>8.970080,47.216400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2305">
+<name><![CDATA[Benken]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.008630,47.204500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11484">
+<name><![CDATA[Ernetschwil, Post]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>8.998770,47.238000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1117">
+<name><![CDATA[Benken SG, Starrberg]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.008310,47.203000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10569">
+<name><![CDATA[Benken SG, Post]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.003870,47.197900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm562">
+<name><![CDATA[Benken SG, Röten]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.002530,47.197300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

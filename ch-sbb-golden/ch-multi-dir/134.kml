@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>134 02032300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.5380859375</south>
+<east>6.5478515625</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Bremblens, bas du village</name>
+<description>64 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.514580,46.544800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.514580,46.544800
+6.506800,46.523300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.514580,46.544800
+6.512190,46.551000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Romanel-sur-Morges, Pra-Vuatte</name>
+<description>64 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.512190,46.551000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.512190,46.551000
+6.510810,46.555800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.512190,46.551000
+6.514580,46.544800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Romanel-sur-Morges, poste</name>
+<description>64 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.510810,46.555800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.510810,46.555800
+6.510290,46.567200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.510810,46.555800
+6.512190,46.551000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Aclens, collège</name>
+<description>64 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>6.510290,46.567200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.510290,46.567200
+6.510810,46.555800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>6.510290,46.567200
+6.509310,46.586100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

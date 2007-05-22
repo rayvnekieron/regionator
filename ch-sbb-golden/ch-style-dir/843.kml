@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>843 02211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.0546875</south>
+<east>7.03125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>022110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>844.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>022111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>845.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>022112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>861.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>022113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>862.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9798">
+<name><![CDATA[Corbier]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.951440,46.272200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1555">
+<name><![CDATA[Collombey-Muraz]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.946020,46.270200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9461">
+<name><![CDATA[Evionnaz]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.025510,46.169200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9133">
+<name><![CDATA[Vouvry, poste]]></name>
+<description><![CDATA[107 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.891390,46.336900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9242">
+<name><![CDATA[Vionnaz, croisée d'Illarsaz]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.925610,46.317900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3992">
+<name><![CDATA[Massongex]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.985640,46.241200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14059">
+<name><![CDATA[Collombey, église]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.946210,46.267700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9781">
+<name><![CDATA[Monthey-Ville]]></name>
+<description><![CDATA[101 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.947500,46.254100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm97">
+<name><![CDATA[Aigle, rte d'Evian]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.959880,46.318400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9452">
+<name><![CDATA[Aigle, Pautex]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.955020,46.317100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3279">
+<name><![CDATA[Aigle, Golf]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.947640,46.314900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8396">
+<name><![CDATA[Aigle, Service Auto]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.939320,46.316200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3779">
+<name><![CDATA[Aigle, La Mêlée]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.937810,46.318300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4530">
+<name><![CDATA[Bex Pont-Neuf]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.023780,46.252700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2108">
+<name><![CDATA[Villeneuve]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.926990,46.398400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3444">
+<name><![CDATA[Choëx, école]]></name>
+<description><![CDATA[87 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.949880,46.239400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

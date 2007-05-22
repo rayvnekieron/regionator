@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1431 0302002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4722">
+<name><![CDATA[Beckenried, Boden]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.479290,46.963900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5546">
+<name><![CDATA[Beckenried]]></name>
+<description><![CDATA[107 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.475500,46.966900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2543">
+<name><![CDATA[Emmetten, Schöneck]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.506450,46.958500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12622">
+<name><![CDATA[Beckenried, Obgass]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.491370,46.960000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2922">
+<name><![CDATA[Beckenried, Fellerwil]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.485170,46.962000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4311">
+<name><![CDATA[Emmetten, Post]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.515610,46.956400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6260">
+<name><![CDATA[Beckenried, Höfe]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.475650,46.962600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7155">
+<name><![CDATA[Gersau Autoquai]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.503000,46.992000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15124">
+<name><![CDATA[Beckenried Autoquai]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.459680,46.971900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12729">
+<name><![CDATA[Rotschuo]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.488020,46.993100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11213">
+<name><![CDATA[Emmetten KlEN]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.519010,46.955900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10428">
+<name><![CDATA[Beckenried BBE]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.473220,46.966300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm294">
+<name><![CDATA[Klewenalp]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.472970,46.940400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2919">
+<name><![CDATA[Emmetten BBE]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.513320,46.956800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13747">
+<name><![CDATA[Stockhütte]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.505200,46.945200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>894 02300211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>7.20703125</east>
+<west>7.1630859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8989">
+<name><![CDATA[Ovronnaz, poste]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.167910,46.203000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7564">
+<name><![CDATA[Vérines, Tsavedonde]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.206530,46.209900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12810">
+<name><![CDATA[Vérines, Camping]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.203330,46.210500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm240">
+<name><![CDATA[Mayens-de-Chamoson, Ravoire]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.193190,46.205800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4452">
+<name><![CDATA[Mayens-de-Chamoson, Berze]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.189780,46.206000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10488">
+<name><![CDATA[Mayens-de-Chamoson, Prili]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.189060,46.204700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8008">
+<name><![CDATA[Mayens-de-Chamoson,Prili-Plane]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.185680,46.206900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2384">
+<name><![CDATA[Mayens-de-Chamoson, anc. Laite]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.183400,46.205000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12901">
+<name><![CDATA[Mayens-de-Chamoson, Chapelle]]></name>
+<description><![CDATA[41 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.181080,46.206000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6942">
+<name><![CDATA[Mayens-de-Chamoson, Peuplier]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.178840,46.202600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

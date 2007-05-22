@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1727 03203010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.0107421875</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>032030100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.03271484375</south>
+<east>8.89892578125</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1728.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.03271484375</south>
+<east>8.9208984375</east>
+<west>8.89892578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1729.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.03271484375</north>
+<south>46.0107421875</south>
+<east>8.89892578125</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1730.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.03271484375</north>
+<south>46.0107421875</south>
+<east>8.9208984375</east>
+<west>8.89892578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1731.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9246">
+<name><![CDATA[Vernate, Bivio per Cimo]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.890260,46.024900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11966">
+<name><![CDATA[Bedano, Via Mara]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.920530,46.048200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12434">
+<name><![CDATA[Bedano, S. Rocco]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.919600,46.051800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14913">
+<name><![CDATA[Bedano, Paese]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.918390,46.050200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2200">
+<name><![CDATA[Cademario, Kurhaus]]></name>
+<description><![CDATA[99 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.891390,46.021000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14184">
+<name><![CDATA[Arosio, Bivio per Arosio]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.897270,46.047900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3638">
+<name><![CDATA[Aranno, Maestà]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.877810,46.015700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2648">
+<name><![CDATA[Manno, Suglio]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.920570,46.030400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8851">
+<name><![CDATA[Manno, La Monda]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.919480,46.028300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9296">
+<name><![CDATA[Bioggio, Via Industria]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.917880,46.017100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5061">
+<name><![CDATA[Manno, Centro di Calcolo]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.917130,46.022500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1226">
+<name><![CDATA[Bioggio, Pianoni]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.916930,46.020100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11644">
+<name><![CDATA[Bioggio, Cavezzolo]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.913430,46.014700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14285">
+<name><![CDATA[Bioggio Molinazzo, Stazione]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.912960,46.014700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12620">
+<name><![CDATA[Manno, Paese]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.920060,46.035600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm340">
+<name><![CDATA[Manno, Boschetti]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.918580,46.038200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

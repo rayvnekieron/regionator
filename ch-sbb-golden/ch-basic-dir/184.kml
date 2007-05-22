@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>184 020333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0203330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>185.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>188.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>189.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>194.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1412">
+<name><![CDATA[Chamby]]></name>
+<description><![CDATA[157 connections
+]]></description>
+<Point>
+<coordinates>6.913500,46.449200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7209">
+<name><![CDATA[La Tour-de-Peilz]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<Point>
+<coordinates>6.859520,46.455400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12461">
+<name><![CDATA[Chernex]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>6.910080,46.445900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm617">
+<name><![CDATA[Clarens]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>6.895770,46.442700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3592">
+<name><![CDATA[Glion TG]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.923760,46.431900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13235">
+<name><![CDATA[Territet MVR-mtgn]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.923400,46.427100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2532">
+<name><![CDATA[Corsier-sur-Vevey, La Chaux]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>6.859090,46.486300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11370">
+<name><![CDATA[Blonay]]></name>
+<description><![CDATA[137 connections
+]]></description>
+<Point>
+<coordinates>6.895940,46.465700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12136">
+<name><![CDATA[St-Légier-Gare]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>6.871930,46.470500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14983">
+<name><![CDATA[Château-de-Blonay]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.891750,46.468300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2194">
+<name><![CDATA[La Chiésaz]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.882130,46.469500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4111">
+<name><![CDATA[St-Légier-Village]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.876570,46.471000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2645">
+<name><![CDATA[Château-d'Hauteville]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.865290,46.468500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13908">
+<name><![CDATA[Hauteville]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.860890,46.466200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10375">
+<name><![CDATA[Fontanivent]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<Point>
+<coordinates>6.902330,46.452700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm270">
+<name><![CDATA[Clarens, gare]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>6.895990,46.442400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

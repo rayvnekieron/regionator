@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>93 02032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>6.6796875</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>020320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>6.50390625</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>94.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>6.6796875</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>102.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>6.50390625</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>121.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>6.6796875</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>132.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm2810">
+<name><![CDATA[Vigie]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>6.623270,46.521800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5739">
+<name><![CDATA[Montelly]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>6.613270,46.521900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12616">
+<name><![CDATA[Provence TL]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>6.608760,46.523200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10279">
+<name><![CDATA[Malley]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>6.601130,46.523700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6960">
+<name><![CDATA[Bourdonnette]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>6.590290,46.523300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8375">
+<name><![CDATA[UNIL-Dorigny]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>6.584810,46.524100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2989">
+<name><![CDATA[Mouline]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>6.579310,46.525100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm882">
+<name><![CDATA[EPFL]]></name>
+<description><![CDATA[299 connections
+]]></description>
+<Point>
+<coordinates>6.566040,46.522200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3975">
+<name><![CDATA[St-Sulpice VD, centre]]></name>
+<description><![CDATA[292 connections
+]]></description>
+<Point>
+<coordinates>6.557850,46.510000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3481">
+<name><![CDATA[St-Sulpice VD, Venoge]]></name>
+<description><![CDATA[292 connections
+]]></description>
+<Point>
+<coordinates>6.542830,46.512800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm622">
+<name><![CDATA[Morges, Saint-Louis]]></name>
+<description><![CDATA[292 connections
+]]></description>
+<Point>
+<coordinates>6.499200,46.510900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11358">
+<name><![CDATA[Morges, gare]]></name>
+<description><![CDATA[288 connections
+]]></description>
+<Point>
+<coordinates>6.494320,46.510600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12458">
+<name><![CDATA[UNIL-Sorge]]></name>
+<description><![CDATA[287 connections
+]]></description>
+<Point>
+<coordinates>6.573210,46.522200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10040">
+<name><![CDATA[Lausanne-Flon]]></name>
+<description><![CDATA[281 connections
+]]></description>
+<Point>
+<coordinates>6.630340,46.520800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3933">
+<name><![CDATA[Cugy VD, village]]></name>
+<description><![CDATA[279 connections
+]]></description>
+<Point>
+<coordinates>6.641730,46.587600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4015">
+<name><![CDATA[Ecublens VD, EPFL Métro Ouest]]></name>
+<description><![CDATA[275 connections
+]]></description>
+<Point>
+<coordinates>6.566870,46.522100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

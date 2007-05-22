@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>41 02030310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>6.6357421875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11439">
+<name><![CDATA[Couvet, hôpital]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.631140,46.925700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10449">
+<name><![CDATA[Couvet, centre commercial]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.623290,46.923400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9495">
+<name><![CDATA[Boveresse, piscine]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.614820,46.919300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13416">
+<name><![CDATA[Couvet, gare]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.635120,46.922600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8232">
+<name><![CDATA[Provence, Vuissens]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>6.629250,46.894200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15132">
+<name><![CDATA[Boveresse, gare]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>6.595790,46.918700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

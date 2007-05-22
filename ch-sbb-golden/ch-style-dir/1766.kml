@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1766 03203123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.9228515625</north>
+<south>45.87890625</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13123">
+<name><![CDATA[Monte, Grotto del Lauro]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.029480,45.884500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7549">
+<name><![CDATA[Monte, Paese]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.027310,45.881000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12580">
+<name><![CDATA[Muggio, Fontane]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.042420,45.904200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5274">
+<name><![CDATA[Muggio, Butigia]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.041310,45.914800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10086">
+<name><![CDATA[Muggio, Cassino]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.041170,45.910100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm983">
+<name><![CDATA[Muggio, Casarno]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.040610,45.912800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6681">
+<name><![CDATA[Muggio, Casa Leone]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.040540,45.921300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3502">
+<name><![CDATA[Muggio, Meri]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.040170,45.919800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2757">
+<name><![CDATA[Casima, Paese]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.035180,45.890100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10367">
+<name><![CDATA[Scudellate, Paese]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.040540,45.921600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6177">
+<name><![CDATA[Muggio, Bivio Casiroli]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.034330,45.918500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6407">
+<name><![CDATA[Muggio, Camasciora]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.034280,45.916800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6929">
+<name><![CDATA[Roncapiano, Paese]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.032940,45.914900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

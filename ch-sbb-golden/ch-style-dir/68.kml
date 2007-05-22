@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>68 0203111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2619">
+<name><![CDATA[Les Gravereules]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.028450,47.082400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2335">
+<name><![CDATA[Lordel]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.021290,47.071500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7355">
+<name><![CDATA[Enges, collège]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.016730,47.065200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8822">
+<name><![CDATA[Enges, poste]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.012190,47.056700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10649">
+<name><![CDATA[St-Blaise, bif. sur Frochaux]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.001080,47.046700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1651">
+<name><![CDATA[St-Blaise, bif. sur Maley]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.996520,47.040900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3599">
+<name><![CDATA[Voëns]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.993630,47.033200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

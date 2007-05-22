@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>283 0210320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02103200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>284.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02103201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>285.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3310">
+<name><![CDATA[Selzach]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>7.456640,47.200600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3565">
+<name><![CDATA[Gänsbrunnen, St. Josef]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>7.468370,47.263200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13663">
+<name><![CDATA[Lommiswil]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>7.469500,47.218600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9644">
+<name><![CDATA[Gänsbrunnen]]></name>
+<description><![CDATA[87 connections
+]]></description>
+<Point>
+<coordinates>7.465200,47.265500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10453">
+<name><![CDATA[Crémines-Zoo]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>7.456640,47.272600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14478">
+<name><![CDATA[Grandval]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>7.422310,47.283700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7828">
+<name><![CDATA[Selzach, Haag]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.439810,47.201100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11523">
+<name><![CDATA[Bettlach, St. Urs]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.429120,47.198200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8634">
+<name><![CDATA[Gänsbrunnen, Bahnhof]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<Point>
+<coordinates>7.465060,47.265900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2503">
+<name><![CDATA[Selzach, Bahnhof]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.456840,47.200900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12036">
+<name><![CDATA[Grenchen, Oele]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.394060,47.197500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15037">
+<name><![CDATA[Eschert, Sous-la-Rive]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.404270,47.279400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9034">
+<name><![CDATA[Belprahon, Amatennes]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.405610,47.261400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14733">
+<name><![CDATA[Moutier, Sous-Raimeux]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.388150,47.280700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4002">
+<name><![CDATA[Moutier, Mercier]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.384970,47.282100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4212">
+<name><![CDATA[Moutier, Crêt]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.383120,47.282100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

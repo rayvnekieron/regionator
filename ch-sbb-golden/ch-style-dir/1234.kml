@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1234 03003022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2129">
+<name><![CDATA[Wetzikon ZH, Alterswohnheim]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.796970,47.320500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9775">
+<name><![CDATA[Hinwil, Jumbo]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.817590,47.306800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13238">
+<name><![CDATA[Hinwil, Bossikon]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.813470,47.309000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2574">
+<name><![CDATA[Ottikon (Gossau ZH), Hellberg]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.804660,47.293800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6556">
+<name><![CDATA[Ottikon (Gossau ZH), Kirschgar]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.799960,47.286100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7778">
+<name><![CDATA[Ottikon (Gossau ZH),Brüschweid]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.796480,47.298100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11299">
+<name><![CDATA[Ottikon (Gossau ZH),Hasenacher]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.791590,47.300200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8446">
+<name><![CDATA[Grüt (Gossau ZH), Bönler]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.790490,47.305500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm167">
+<name><![CDATA[Grüt (Gossau ZH), Hundsruggen]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.789070,47.303000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

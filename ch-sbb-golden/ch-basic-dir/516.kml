@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>516 02120100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5176">
+<name><![CDATA[Bühl bei Aarberg, Dorf]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.243790,47.070600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3873">
+<name><![CDATA[Hermrigen, Post]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.242440,47.080400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11364">
+<name><![CDATA[Hermrigen, Friedhof]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>7.242420,47.085800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3848">
+<name><![CDATA[Bühl bei Aarberg, Höll]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>7.243800,47.068800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3684">
+<name><![CDATA[Epsach, Dorf]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>7.221090,47.069200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1908">
+<name><![CDATA[Bellmund, Jäissbergweg]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.250250,47.105600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2039">
+<name><![CDATA[Bellmund, Kornfeld]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.247610,47.107400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6826">
+<name><![CDATA[Merzligen, Linde]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>7.250320,47.086800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

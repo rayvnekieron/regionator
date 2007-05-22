@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1638 031231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>10.546875</east>
+<west>10.37109375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4400">
+<name><![CDATA[Müstair, cunfin]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>10.458400,46.634400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13861">
+<name><![CDATA[Lü, Valpaschun]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>10.387100,46.609500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12247">
+<name><![CDATA[Lü, Lüsai]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>10.380700,46.612100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1842">
+<name><![CDATA[Laatsch/Laudes, Abzw. Laatsch]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>10.512300,46.667800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1787">
+<name><![CDATA[Taufers/Tubre, Abzw. Rivaira]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>10.477700,46.654200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2843">
+<name><![CDATA[Taufers/Tubre, Dorf]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>10.463700,46.647400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13479">
+<name><![CDATA[Taufers/Tubre, Grenze]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>10.459100,46.635500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10573">
+<name><![CDATA[Malles, centro / Mals, Zentrum]]></name>
+<description><![CDATA[17 connections
+]]></description>
+<Point>
+<coordinates>10.544300,46.689800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3290">
+<name><![CDATA[Plattatschas]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>10.431800,46.591700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9304">
+<name><![CDATA[Valchava, spv. Plazzaraun]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>10.395500,46.602800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5026">
+<name><![CDATA[Sta. Maria Val M., Pra da Vau]]></name>
+<description><![CDATA[1 connections
+]]></description>
+<Point>
+<coordinates>10.391600,46.583400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

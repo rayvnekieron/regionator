@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1399 03013002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.5361328125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7483">
+<name><![CDATA[Oberegg AI, St. Anton Kapelle]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.534260,47.409900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9826">
+<name><![CDATA[Oberegg AI, Haggen]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>9.524820,47.405800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1602">
+<name><![CDATA[Wald AR, Seeli]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>9.519370,47.410400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1666">
+<name><![CDATA[Wald AR, Säge]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>9.515460,47.412300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12854">
+<name><![CDATA[Wald AR, Obergaden]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>9.501870,47.412100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7563">
+<name><![CDATA[Altstätten SG, Tannenbaum]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>9.522080,47.386500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14053">
+<name><![CDATA[Landmark]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.509150,47.394900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

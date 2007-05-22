@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1489 0302301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7938">
+<name><![CDATA[Cumpadials, Dorf]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.922720,46.723300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5439">
+<name><![CDATA[Perdomat]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>8.896890,46.716400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6587">
+<name><![CDATA[Disentis/Mustér, Punt Russein]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>8.896100,46.720800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12571">
+<name><![CDATA[Disentis/Mustér, Madernal]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>8.893260,46.717500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9847">
+<name><![CDATA[Cavardiras]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>8.883630,46.709600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14469">
+<name><![CDATA[Rabius, Bahnhof]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.957250,46.732300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

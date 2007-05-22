@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1204 030023130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.21923828125</south>
+<east>8.76708984375</east>
+<west>8.7451171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6514">
+<name><![CDATA[Uerikon, Ritterhaus]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.757160,47.235000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10823">
+<name><![CDATA[Uerikon, Bahnhof]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.752800,47.235800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9044">
+<name><![CDATA[Uerikon ZSG]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.758200,47.233500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

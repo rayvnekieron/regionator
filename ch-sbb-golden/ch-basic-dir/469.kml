@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>469 02113200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5347">
+<name><![CDATA[Schiltwald, Wendeplatz]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.118940,47.250000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3991">
+<name><![CDATA[Kulmerau, Bäckerei]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.087620,47.254400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10483">
+<name><![CDATA[Kulmerau, Rest. Sonne]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.086270,47.252200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11465">
+<name><![CDATA[Kulmerau, Schulhaus]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.089610,47.255100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1668 0320101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13658">
+<name><![CDATA[Biasca, Quaresima]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>8.964620,46.354300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9481">
+<name><![CDATA[Sobrio, Paese]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>8.902160,46.399400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4283">
+<name><![CDATA[Bodio]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>8.906560,46.380200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

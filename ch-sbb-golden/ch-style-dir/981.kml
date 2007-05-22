@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>981 023100323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.25244140625</north>
+<south>46.23046875</south>
+<east>7.8662109375</east>
+<west>7.84423828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14432">
+<name><![CDATA[Törbel, Abzw. Zeneggen]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.857750,46.241900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8850">
+<name><![CDATA[Törbel, Furenmatten]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.854490,46.239800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2159">
+<name><![CDATA[Törbel, Bina]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.854330,46.240900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5543">
+<name><![CDATA[Törbel, Zen Springen]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.845340,46.244000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13191">
+<name><![CDATA[Törbel, Treichelboden]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.846240,46.249200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

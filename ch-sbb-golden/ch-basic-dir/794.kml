@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>794 0213222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.822265625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11848">
+<name><![CDATA[Gandegg]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>7.758230,46.425500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11809">
+<name><![CDATA[Stafel]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<Point>
+<coordinates>7.769040,46.414600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12302">
+<name><![CDATA[Hockenhorngrat]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>7.748140,46.429800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

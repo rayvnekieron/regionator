@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1311 03010221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>9.228515625</east>
+<west>9.1845703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4490">
+<name><![CDATA[Kradolf, Dorf]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.201150,47.524600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1860">
+<name><![CDATA[Schönenberg TG, Dorf]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.198510,47.521200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

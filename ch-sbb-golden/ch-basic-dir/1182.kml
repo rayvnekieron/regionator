@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1182 030023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.7890625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1183.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1192.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1208.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1213.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8395">
+<name><![CDATA[Hombrechtikon, Metzg. Odermatt]]></name>
+<description><![CDATA[522 connections
+]]></description>
+<Point>
+<coordinates>8.774770,47.253400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6253">
+<name><![CDATA[Hombrechtikon, Post]]></name>
+<description><![CDATA[521 connections
+]]></description>
+<Point>
+<coordinates>8.769870,47.252300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4890">
+<name><![CDATA[Wädenswil]]></name>
+<description><![CDATA[458 connections
+]]></description>
+<Point>
+<coordinates>8.675190,47.229300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11047">
+<name><![CDATA[Stäfa, Krone]]></name>
+<description><![CDATA[410 connections
+]]></description>
+<Point>
+<coordinates>8.722950,47.241500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10452">
+<name><![CDATA[Richterswil, Schwyzerstrasse]]></name>
+<description><![CDATA[404 connections
+]]></description>
+<Point>
+<coordinates>8.709170,47.203200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13334">
+<name><![CDATA[Wollerau, Dorfplatz]]></name>
+<description><![CDATA[386 connections
+]]></description>
+<Point>
+<coordinates>8.719500,47.196200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9997">
+<name><![CDATA[Hombrechtikon, Krone]]></name>
+<description><![CDATA[384 connections
+]]></description>
+<Point>
+<coordinates>8.766370,47.251100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13857">
+<name><![CDATA[Richterswil, Bahnhof]]></name>
+<description><![CDATA[358 connections
+]]></description>
+<Point>
+<coordinates>8.707350,47.208000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1567">
+<name><![CDATA[Wollerau, Wächlen]]></name>
+<description><![CDATA[336 connections
+]]></description>
+<Point>
+<coordinates>8.721710,47.196500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14054">
+<name><![CDATA[Biberbrugg]]></name>
+<description><![CDATA[334 connections
+]]></description>
+<Point>
+<coordinates>8.722700,47.156400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4144">
+<name><![CDATA[Grüningen, Im Haufland]]></name>
+<description><![CDATA[320 connections
+]]></description>
+<Point>
+<coordinates>8.766280,47.283600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11263">
+<name><![CDATA[Grüningen, Stedtli]]></name>
+<description><![CDATA[314 connections
+]]></description>
+<Point>
+<coordinates>8.762560,47.284100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5071">
+<name><![CDATA[Richterswil, Wisli]]></name>
+<description><![CDATA[312 connections
+]]></description>
+<Point>
+<coordinates>8.710850,47.204000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11827">
+<name><![CDATA[Richterswil, Chrummbächli]]></name>
+<description><![CDATA[312 connections
+]]></description>
+<Point>
+<coordinates>8.698030,47.205800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1773">
+<name><![CDATA[Grüenfeld, Frohberg]]></name>
+<description><![CDATA[312 connections
+]]></description>
+<Point>
+<coordinates>8.686860,47.199300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10541">
+<name><![CDATA[Grüningen, Station]]></name>
+<description><![CDATA[308 connections
+]]></description>
+<Point>
+<coordinates>8.760130,47.281400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

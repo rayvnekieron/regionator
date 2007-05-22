@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1139 0300210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03002100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.6572265625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1140.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.701171875</east>
+<west>8.6572265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1141.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.701171875</east>
+<west>8.6572265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1142.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6191">
+<name><![CDATA[Schwerzenbach ZH]]></name>
+<description><![CDATA[322 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.658660,47.384400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5783">
+<name><![CDATA[Dübendorf]]></name>
+<description><![CDATA[322 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.623410,47.400100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14495">
+<name><![CDATA[Volketswil, Hölzliwiesen]]></name>
+<description><![CDATA[319 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.678250,47.380400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14534">
+<name><![CDATA[Dübendorf, Bahnhof]]></name>
+<description><![CDATA[313 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.622910,47.400500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10115">
+<name><![CDATA[Bassersdorf]]></name>
+<description><![CDATA[292 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.626200,47.438600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3901">
+<name><![CDATA[Breite b. N'dorf,Grünenwaldstr]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.659910,47.460800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3838">
+<name><![CDATA[Nürensdorf, Berg]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.651210,47.450800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4581">
+<name><![CDATA[Nürensdorf, Chrüzstrass]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.634620,47.454300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1735">
+<name><![CDATA[Effretikon, Bahnhof]]></name>
+<description><![CDATA[219 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.687070,47.426000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8228">
+<name><![CDATA[Bassersdorf, Schmitte]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.628760,47.443000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm902">
+<name><![CDATA[Bassersdorf, Bahnhof]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.626170,47.438500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4031">
+<name><![CDATA[Volketswil, Eichstrasse]]></name>
+<description><![CDATA[145 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.682250,47.394800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7710">
+<name><![CDATA[Effretikon, Eselriet]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.701060,47.423800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1218">
+<name><![CDATA[Effretikon, Müselacher]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.696600,47.429100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6435">
+<name><![CDATA[Nürensdorf, Post]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.649180,47.447000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13046">
+<name><![CDATA[Nürensdorf, Sennhütte]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.648120,47.446700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

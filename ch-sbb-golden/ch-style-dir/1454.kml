@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1454 0302033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4862">
+<name><![CDATA[Bristen, Wideli]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.703320,46.767500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6066">
+<name><![CDATA[Golzern, Talstation Seilbahn]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.710820,46.766600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12573">
+<name><![CDATA[Golzern KlBG]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.721350,46.774900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1905">
+<name><![CDATA[Bristen KlBG]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.711520,46.766500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>395 0211220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.822265625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02112202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>7.7783203125</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>396.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10903">
+<name><![CDATA[Kaltenherberg]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>7.799440,47.237200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1166">
+<name><![CDATA[Wolfwil, Schulhaus]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>7.799390,47.269800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm530">
+<name><![CDATA[Hard-Mumenthal]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>7.774460,47.234400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5748">
+<name><![CDATA[Aarwangen]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>7.769600,47.240500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14748">
+<name><![CDATA[Aarwangen Schloss]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>7.762290,47.245100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12949">
+<name><![CDATA[Bannwil]]></name>
+<description><![CDATA[119 connections
+]]></description>
+<Point>
+<coordinates>7.740360,47.244400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2097">
+<name><![CDATA[Langenthal Süd]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>7.780920,47.203700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12466">
+<name><![CDATA[Roggwil-Wynau]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>7.814910,47.251600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8749">
+<name><![CDATA[Obersteckholz, Post]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>7.817390,47.198700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6305">
+<name><![CDATA[Kestenholz, Depot]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.749240,47.280800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2995">
+<name><![CDATA[Wolfwil, Fulenbacherstrasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.806660,47.269800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6238">
+<name><![CDATA[Wolfwil, Post]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>7.794100,47.268500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3913">
+<name><![CDATA[Langenthal, Schoren-Ochsen]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.776550,47.210500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4179">
+<name><![CDATA[Wolfwil, Oberdorf]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.788820,47.270300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5533">
+<name><![CDATA[Wolfwil, Schweissacker]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.775310,47.275800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10667">
+<name><![CDATA[Kestenholz, Rain]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.756510,47.280100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

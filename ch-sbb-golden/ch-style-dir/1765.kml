@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1765 03203122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.9228515625</north>
+<south>45.87890625</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7194">
+<name><![CDATA[Riva S. Vitale, Piazza]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.970790,45.905200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8155">
+<name><![CDATA[Melano, Tre Pini]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.984770,45.920800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9664">
+<name><![CDATA[Capolago, Piazza]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.981120,45.905800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8805">
+<name><![CDATA[Bellavista]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.001140,45.911100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13369">
+<name><![CDATA[S. Nicolao]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.988880,45.886300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11722">
+<name><![CDATA[Capolago SNL]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.980870,45.906100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

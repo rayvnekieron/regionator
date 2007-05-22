@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1481 030223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>8.7890625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0302230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1482.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1483.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1484.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1485.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4975">
+<name><![CDATA[Polmengo, AlpTransit]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>8.786580,46.484200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9116">
+<name><![CDATA[Rodi, Dazio Grande]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>8.751180,46.501800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm264">
+<name><![CDATA[Mairengo, Paese]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.787990,46.488800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5794">
+<name><![CDATA[Polmengo, Paese]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.786310,46.484000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14856">
+<name><![CDATA[Dalpe, Campiano]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.772740,46.477600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14969">
+<name><![CDATA[Dalpe, Valle]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.771200,46.481100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7603">
+<name><![CDATA[Prato (Leventina), Paese]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.756910,46.482900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13062">
+<name><![CDATA[Prato (Leventina),Biv.Mascengo]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.752840,46.482900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8513">
+<name><![CDATA[Rodi, Casa Gendotti]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.743360,46.488100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4478">
+<name><![CDATA[Rodi, Posta]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.738530,46.490300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14556">
+<name><![CDATA[Arnorengo]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.715520,46.509000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1228">
+<name><![CDATA[Quinto, Paese]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.712310,46.510800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1586">
+<name><![CDATA[Quinto, Morenca]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.705830,46.512200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10877">
+<name><![CDATA[Altanca FPR]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>8.674600,46.523100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6256">
+<name><![CDATA[Varenzo, Paese]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>8.724500,46.503000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1581">
+<name><![CDATA[Osco, Paese]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.781590,46.493400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

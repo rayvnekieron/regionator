@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>28 02023333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>6.328125</east>
+<west>6.2841796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9122">
+<name><![CDATA[Dully, Sous-Dully]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>6.297350,46.427600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1502">
+<name><![CDATA[Bursinel, village]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.305570,46.439000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3196">
+<name><![CDATA[Dully, St-Bonnet]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>6.300420,46.436200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5126">
+<name><![CDATA[Gilly-Bursinel, gare SUD]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.306100,46.444800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4279">
+<name><![CDATA[Gland, La Lignère]]></name>
+<description><![CDATA[17 connections
+]]></description>
+<Point>
+<coordinates>6.291850,46.426300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7597">
+<name><![CDATA[Gilly-Bursinel, gare NORD]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.305760,46.445700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

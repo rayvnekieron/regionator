@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1015 030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>46.40625</south>
+<east>9.84375</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>9.140625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1016.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>9.84375</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1290.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.40625</south>
+<east>9.140625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1422.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.40625</south>
+<east>9.84375</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1505.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13568">
+<name><![CDATA[Winterthur]]></name>
+<description><![CDATA[1102 connections
+]]></description>
+<Point>
+<coordinates>8.723800,47.500300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm844">
+<name><![CDATA[Schwyz, Post]]></name>
+<description><![CDATA[1031 connections
+]]></description>
+<Point>
+<coordinates>8.650100,47.021100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13948">
+<name><![CDATA[St. Gallen, Marktplatz Bohl]]></name>
+<description><![CDATA[1030 connections
+]]></description>
+<Point>
+<coordinates>9.376480,47.426400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm703">
+<name><![CDATA[Zug, Ammannsmatt]]></name>
+<description><![CDATA[984 connections
+]]></description>
+<Point>
+<coordinates>8.493910,47.186200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1636">
+<name><![CDATA[Steinhausen, Dorf]]></name>
+<description><![CDATA[984 connections
+]]></description>
+<Point>
+<coordinates>8.485150,47.197300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9228">
+<name><![CDATA[Baar, Brauerei]]></name>
+<description><![CDATA[954 connections
+]]></description>
+<Point>
+<coordinates>8.533960,47.195900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5638">
+<name><![CDATA[Altstätten SG, Rathaus]]></name>
+<description><![CDATA[950 connections
+]]></description>
+<Point>
+<coordinates>9.540640,47.378600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3187">
+<name><![CDATA[Chur, Malteser]]></name>
+<description><![CDATA[942 connections
+]]></description>
+<Point>
+<coordinates>9.529140,46.848500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3508">
+<name><![CDATA[Chur, Stadthalle]]></name>
+<description><![CDATA[930 connections
+]]></description>
+<Point>
+<coordinates>9.525600,46.847500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4874">
+<name><![CDATA[Chur, Kornquader]]></name>
+<description><![CDATA[930 connections
+]]></description>
+<Point>
+<coordinates>9.519140,46.846900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11781">
+<name><![CDATA[Chur, Zeughaus]]></name>
+<description><![CDATA[930 connections
+]]></description>
+<Point>
+<coordinates>9.516590,46.846700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10752">
+<name><![CDATA[Chur, Agip]]></name>
+<description><![CDATA[901 connections
+]]></description>
+<Point>
+<coordinates>9.511320,46.846300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1712">
+<name><![CDATA[Wil SG, Bahnhof]]></name>
+<description><![CDATA[884 connections
+]]></description>
+<Point>
+<coordinates>9.041510,47.462800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1470">
+<name><![CDATA[Schaan, Post]]></name>
+<description><![CDATA[841 connections
+]]></description>
+<Point>
+<coordinates>9.508290,47.168100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14717">
+<name><![CDATA[Heerbrugg, Bahnhof]]></name>
+<description><![CDATA[836 connections
+]]></description>
+<Point>
+<coordinates>9.627050,47.410300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10087">
+<name><![CDATA[Uster, Bahnhof]]></name>
+<description><![CDATA[834 connections
+]]></description>
+<Point>
+<coordinates>8.718180,47.350800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

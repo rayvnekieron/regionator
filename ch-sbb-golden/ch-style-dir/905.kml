@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>905 02300301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3433">
+<name><![CDATA[Aproz, bif. Bieudron]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.283970,46.194900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11655">
+<name><![CDATA[Fey (Nendaz), Moralla]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.278520,46.191800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5311">
+<name><![CDATA[Fey (Nendaz), village]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.269280,46.186600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7048">
+<name><![CDATA[Fey (Nendaz), Crevey]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.274660,46.187800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

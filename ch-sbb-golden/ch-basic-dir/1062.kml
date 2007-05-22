@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1062 03000313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.7890625</east>
+<west>8.7451171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2568">
+<name><![CDATA[Dinhard, Grüt]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.772950,47.563100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3653">
+<name><![CDATA[Dinhard, Gemeindehaus]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.768480,47.555200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm286">
+<name><![CDATA[Thalheim-Altikon, Bahnhof]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.757690,47.569800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9824">
+<name><![CDATA[Thalheim an der Thur]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.753830,47.579300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9544">
+<name><![CDATA[Welsikon]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>8.752500,47.553800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

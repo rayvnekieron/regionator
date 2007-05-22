@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>172 0203313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7434">
+<name><![CDATA[Vuadens-Nord]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.017480,46.625900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3642">
+<name><![CDATA[Vaulruz-Nord]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.990730,46.623800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14148">
+<name><![CDATA[Sâles]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.974030,46.640300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13265">
+<name><![CDATA[Rueyres-Treyfayes]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.955870,46.645300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9069">
+<name><![CDATA[Estévenens, poste]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>6.948620,46.666700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm157">
+<name><![CDATA[Estévenens, dessus collège]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>6.962980,46.668500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

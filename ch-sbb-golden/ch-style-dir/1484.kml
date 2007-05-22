@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1484 0302232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8589">
+<name><![CDATA[Peccia, Paese]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.647130,46.407400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9155">
+<name><![CDATA[Mogno, Paese]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.662340,46.433100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9014">
+<name><![CDATA[Mogno, Colonia Pazzalino]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.659020,46.430200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9881">
+<name><![CDATA[Peccia, Cambleo]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.655960,46.424400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13067">
+<name><![CDATA[Peccia, Corgello]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.650930,46.417500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11156">
+<name><![CDATA[Peccia, Veglia]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.634530,46.411300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4483">
+<name><![CDATA[Peccia, Cortemezzano]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.631290,46.411800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11099">
+<name><![CDATA[Cortignelli]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.623140,46.411000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8">
+<name><![CDATA[S. Carlo (Val Peccia)]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.616310,46.410800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm996">
+<name><![CDATA[Fusio, Paese]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.663230,46.443600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1238 030031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1239.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1244.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1249.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1252.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1112">
+<name><![CDATA[Wil SG, Rapp]]></name>
+<description><![CDATA[290 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.049230,47.454800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8865">
+<name><![CDATA[Wil SG, Lindenhof]]></name>
+<description><![CDATA[290 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.048020,47.458700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5607">
+<name><![CDATA[Oberuzwil, Drogerie]]></name>
+<description><![CDATA[258 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.126110,47.432400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6947">
+<name><![CDATA[Wattwil]]></name>
+<description><![CDATA[252 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.086460,47.299500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14636">
+<name><![CDATA[Lichtensteig]]></name>
+<description><![CDATA[242 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.083170,47.319700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5425">
+<name><![CDATA[Wattwil, Bahnhof]]></name>
+<description><![CDATA[233 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.086860,47.299600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8384">
+<name><![CDATA[Kirchberg SG, Post]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.040090,47.411300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11952">
+<name><![CDATA[Uzwil, Fabrikstrasse]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.137890,47.438000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12448">
+<name><![CDATA[Oberuzwil, Post]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.124370,47.429900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11717">
+<name><![CDATA[Uzwil]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.130970,47.436500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4300">
+<name><![CDATA[Ganterschwil, Grund]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.087760,47.382300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8204">
+<name><![CDATA[Ganterschwil, Post]]></name>
+<description><![CDATA[183 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.090710,47.381200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11673">
+<name><![CDATA[Ganterschwil, Hirschen]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.086670,47.379200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4568">
+<name><![CDATA[Ganterschwil, Oetschwilerstr.]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.083950,47.376800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12547">
+<name><![CDATA[Bütschwil, Au]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.079520,47.372800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14087">
+<name><![CDATA[Bütschwil, Engi]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.076790,47.369900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

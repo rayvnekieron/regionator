@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>57 02031000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>6.7236328125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4440">
+<name><![CDATA[Les Brenets]]></name>
+<description><![CDATA[41 connections
+]]></description>
+<Point>
+<coordinates>6.707340,47.067100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1399">
+<name><![CDATA[Saut-du-Doubs]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.708560,47.084000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14502">
+<name><![CDATA[Les Brenets NLB]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.698040,47.068600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

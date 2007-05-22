@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>562 02121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.7578125</south>
+<east>7.734375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.55859375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>563.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>597.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>7.55859375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>611.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>632.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1573">
+<name><![CDATA[Bern, Obergericht]]></name>
+<description><![CDATA[630 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.436670,46.949200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4782">
+<name><![CDATA[Bern, Hauptbahnhof]]></name>
+<description><![CDATA[566 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.438640,46.948800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4209">
+<name><![CDATA[Langenloh]]></name>
+<description><![CDATA[534 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.544230,46.927300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10319">
+<name><![CDATA[Rüfenacht]]></name>
+<description><![CDATA[534 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.531420,46.929500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10049">
+<name><![CDATA[Scheyenholz]]></name>
+<description><![CDATA[530 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.526210,46.930800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10085">
+<name><![CDATA[Siloah]]></name>
+<description><![CDATA[530 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.516730,46.932600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2399">
+<name><![CDATA[Hofgut]]></name>
+<description><![CDATA[530 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.510890,46.932800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10439">
+<name><![CDATA[Halenbrücke]]></name>
+<description><![CDATA[524 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.417610,46.972700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3564">
+<name><![CDATA[Steffisburg, Flühli]]></name>
+<description><![CDATA[516 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.629830,46.784500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7892">
+<name><![CDATA[Ittigen, Aespliz]]></name>
+<description><![CDATA[506 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.479470,46.978900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13843">
+<name><![CDATA[Bern, Schanzenstrasse]]></name>
+<description><![CDATA[500 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.437220,46.947700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14825">
+<name><![CDATA[Bern, Insel]]></name>
+<description><![CDATA[496 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.427930,46.948200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3805">
+<name><![CDATA[Bern, Bremgartenfriedhof]]></name>
+<description><![CDATA[496 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.425050,46.949700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7884">
+<name><![CDATA[Burgdorf, Bahnhof]]></name>
+<description><![CDATA[493 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.621600,47.059800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9956">
+<name><![CDATA[Muri b. Bern, Kräyigen]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.499030,46.925900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9722">
+<name><![CDATA[Muri b. Bern, Waldried]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.495710,46.927100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

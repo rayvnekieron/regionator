@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1269 03003213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3014">
+<name><![CDATA[Tuggen, Kapellhof]]></name>
+<description><![CDATA[83 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.955990,47.208500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5767">
+<name><![CDATA[Tuggen, Post]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.940990,47.203000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10216">
+<name><![CDATA[Tuggen, Obstlager]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.938550,47.198400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2747">
+<name><![CDATA[Schmerikon, Bahnhof]]></name>
+<description><![CDATA[75 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.943920,47.225000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14530">
+<name><![CDATA[Schmerikon, Brücke]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.963880,47.230400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm740">
+<name><![CDATA[Schmerikon, Mürtschenstrasse]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.957870,47.228000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9723">
+<name><![CDATA[Schmerikon, Lanzenmoosstrasse]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.949560,47.226100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14494">
+<name><![CDATA[Eschenbach SG, Mettlen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.924770,47.237000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4141">
+<name><![CDATA[Eschenbach SG, Gublen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.922970,47.231600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1853">
+<name><![CDATA[Eschenbach SG, Sternen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.922570,47.240800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1633">
+<name><![CDATA[Uznach, Uznabergstrasse]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.961910,47.230700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9489">
+<name><![CDATA[Neuhaus SG, Industrie]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.950910,47.238900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6454">
+<name><![CDATA[Tuggen, Kesmalon]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.942260,47.199000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7396">
+<name><![CDATA[Tuggen, Schlüsselweg]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.941820,47.202000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12201">
+<name><![CDATA[Schmerikon ZSG]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.940320,47.224800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

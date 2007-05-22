@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>128 0203222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>6.416015625</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02032220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.3720703125</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>129.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02032221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.416015625</east>
+<west>6.3720703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>130.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13114">
+<name><![CDATA[Féchy, Auberge]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.373090,46.479700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8529">
+<name><![CDATA[Aubonne, Hôpital]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>6.388810,46.491900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm176">
+<name><![CDATA[Rolle, gare]]></name>
+<description><![CDATA[77 connections
+]]></description>
+<Point>
+<coordinates>6.336660,46.462200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2924">
+<name><![CDATA[Aubonne, La Levette]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.400340,46.485100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4187">
+<name><![CDATA[Aubonne, Roveray]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.400100,46.480600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14882">
+<name><![CDATA[Aubonne, La Praz]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.399610,46.488900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5504">
+<name><![CDATA[Aubonne, Le Bornalet]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.395650,46.492000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5923">
+<name><![CDATA[Allaman, gare]]></name>
+<description><![CDATA[73 connections
+]]></description>
+<Point>
+<coordinates>6.399520,46.476800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13209">
+<name><![CDATA[Perroy, Vinicole]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.367740,46.470400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6087">
+<name><![CDATA[Perroy, village]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.361910,46.469000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13401">
+<name><![CDATA[Perroy, Couronnette]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.353540,46.464200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11896">
+<name><![CDATA[Rolle, Bellefontaine]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.347710,46.462800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10934">
+<name><![CDATA[Rolle, Place des Tilleuls]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.340930,46.460000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13762">
+<name><![CDATA[Rolle, Général Bouquet]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.338310,46.461100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8896">
+<name><![CDATA[Aubonne, Bougy-St-Martin]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.384870,46.493700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm491">
+<name><![CDATA[Etoy, Bas du Rossé]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>6.415990,46.483600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

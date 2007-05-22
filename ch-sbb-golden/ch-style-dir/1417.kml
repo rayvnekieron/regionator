@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1417 03013220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>9.5361328125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3457">
+<name><![CDATA[Schaan, Kinderheim]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.520920,47.170400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6222">
+<name><![CDATA[Schaan, Fürstenweg]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.517090,47.170400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13748">
+<name><![CDATA[Schaan, Planknerstr./Kresta]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.516280,47.169800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1778">
+<name><![CDATA[Schaan, Duxgass/Kresta]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.515230,47.168200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

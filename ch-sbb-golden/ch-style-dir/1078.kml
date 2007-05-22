@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1078 0300120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03001200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1079.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1080.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1081.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1082.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7764">
+<name><![CDATA[Weiningen TG, Mehrzweckhalle]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.869430,47.587400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14678">
+<name><![CDATA[Warth, Kreuz]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.871660,47.583800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10797">
+<name><![CDATA[Oberstammheim, Post]]></name>
+<description><![CDATA[87 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.794530,47.634300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12334">
+<name><![CDATA[Hüttwilen, Post]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.870260,47.606100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1344">
+<name><![CDATA[Kalchrain]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.871770,47.612600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12297">
+<name><![CDATA[Hüttwilen, Stutheien]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.851170,47.613300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5718">
+<name><![CDATA[Nussbaumen TG, Tobelbrunnen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.832410,47.620700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3379">
+<name><![CDATA[Nussbaumen TG, Post]]></name>
+<description><![CDATA[61 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.827530,47.625000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1891">
+<name><![CDATA[Stammheim, Frohsinn]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.802080,47.631200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3032">
+<name><![CDATA[Frauenfeld, Osterhalden]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.872120,47.564000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1577">
+<name><![CDATA[Frauenfeld, Hilzinger]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.868490,47.564900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2857">
+<name><![CDATA[Oberwil TG, Dorf]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.866800,47.551700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10726">
+<name><![CDATA[Frauenfeld, Graströchni]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.859560,47.566600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13355">
+<name><![CDATA[Erzenholz, alte Post]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.852950,47.567800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5280">
+<name><![CDATA[Erzenholz, Dorfbrunnen]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.848980,47.568500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6853">
+<name><![CDATA[Horgenbach, Hauptstrasse]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.844670,47.568800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

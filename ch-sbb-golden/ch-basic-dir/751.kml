@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>751 0213113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02131130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>8.3935546875</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>752.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02131131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>8.4375</east>
+<west>8.3935546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>754.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02131132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>8.3935546875</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>755.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02131133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>8.4375</east>
+<west>8.3935546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>756.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8854">
+<name><![CDATA[Stans, Bahnhof]]></name>
+<description><![CDATA[242 connections
+]]></description>
+<Point>
+<coordinates>8.366850,46.958600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5665">
+<name><![CDATA[Stans, Kantonalbank]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>8.360340,46.962200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7357">
+<name><![CDATA[Stans, Kreuzstrasse]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.383050,46.964500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5744">
+<name><![CDATA[Stans, Breiten]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.379090,46.963600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5452">
+<name><![CDATA[Stans, Mettenweg]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.374130,46.961400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5386">
+<name><![CDATA[Buochs, Post]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<Point>
+<coordinates>8.422310,46.973800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8216">
+<name><![CDATA[Buochs, Ausserdorf]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.418080,46.976100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6250">
+<name><![CDATA[Ennetbürgen, Strandbad]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.414540,46.980000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1803">
+<name><![CDATA[Ennetbürgen, Post]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.413640,46.984900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13629">
+<name><![CDATA[Ennetbürgen, Oeltrotte]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.408360,46.983400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6159">
+<name><![CDATA[Ennetbürgen, Riedmatt]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.401410,46.980800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8348">
+<name><![CDATA[Stans, Flugplatz]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.388510,46.975900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1780">
+<name><![CDATA[Ennetbürgen, Herdern]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.387890,46.978200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6346">
+<name><![CDATA[Stans, Pilatuswerke]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.382540,46.972800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9753">
+<name><![CDATA[Buochs, Linden]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>8.431190,46.974000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5092">
+<name><![CDATA[Stans]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.366740,46.958300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

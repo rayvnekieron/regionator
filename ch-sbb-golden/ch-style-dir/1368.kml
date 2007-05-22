@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1368 03012113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9661">
+<name><![CDATA[Trogen]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.461480,47.407400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7958">
+<name><![CDATA[Wald AR, Post]]></name>
+<description><![CDATA[87 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.491430,47.416300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14273">
+<name><![CDATA[Wald AR, Grunholz]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.490320,47.413400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3764">
+<name><![CDATA[Wald AR, Unterdorf]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.487380,47.414400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5857">
+<name><![CDATA[Trogen, Morgenlicht]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.485280,47.411500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7791">
+<name><![CDATA[Trogen, Sandegg]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.482850,47.408600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7538">
+<name><![CDATA[Trogen, Bleiche]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.473550,47.408100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14804">
+<name><![CDATA[Trogen, Schopfacker]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.465660,47.409600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11583">
+<name><![CDATA[Trogen, Dorfplatz]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.464590,47.407800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13839">
+<name><![CDATA[Trogen, Bahnhof]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.461270,47.407400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

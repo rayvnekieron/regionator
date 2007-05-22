@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>910 02300311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>023003111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.20849609375</south>
+<east>7.3828125</east>
+<west>7.36083984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>911.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023003113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.20849609375</north>
+<south>46.1865234375</south>
+<east>7.3828125</east>
+<west>7.36083984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>912.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6268">
+<name><![CDATA[Veysonnaz, poste]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.340510,46.196300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9999">
+<name><![CDATA[La Vernaz VS]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.372320,46.210400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm944">
+<name><![CDATA[Les Agettes, Stade US]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.370260,46.212800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12034">
+<name><![CDATA[Les Agettes, contour du Pêchot]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.367440,46.207600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10254">
+<name><![CDATA[Salins, village]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.356970,46.210500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11510">
+<name><![CDATA[Salins, Pravidondaz]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.351550,46.211300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10405">
+<name><![CDATA[Salins, Misérier]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.350230,46.209200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1713">
+<name><![CDATA[Sion, Ateliers St-Hubert]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.351010,46.224800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5692">
+<name><![CDATA[Les Ronquoz]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.346510,46.219100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15041">
+<name><![CDATA[Sion, Les Cèdres]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.360860,46.230300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3550">
+<name><![CDATA[Les Agettes, garage]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.376720,46.208600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12621">
+<name><![CDATA[Les Agettes, Tsamorés]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.372360,46.208300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7140">
+<name><![CDATA[Les Agettes,s Crettaz-à-l'Oeil]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.364700,46.212100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6397">
+<name><![CDATA[Veysonnaz, station]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.341080,46.195100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8849">
+<name><![CDATA[Les Agettes, village]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.379620,46.209600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5187">
+<name><![CDATA[Les Agettes, Crételannaz]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.375020,46.203700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

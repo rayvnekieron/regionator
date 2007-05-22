@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>989 02310112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.3623046875</north>
+<south>46.318359375</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm242">
+<name><![CDATA[Ried-Brig, Mürini]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.020870,46.319200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9948">
+<name><![CDATA[Bitsch]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>8.016790,46.335600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5461">
+<name><![CDATA[Termen, Dorfplatz]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.022240,46.327800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12778">
+<name><![CDATA[Brig, Biela]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.001490,46.320400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9864">
+<name><![CDATA[Bitsch, Mehrzweckanlage]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.015440,46.335600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3357">
+<name><![CDATA[Bitsch, Sattel]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>8.018510,46.340400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7090">
+<name><![CDATA[Bitsch, Unners Äbnet]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>8.016470,46.339200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7082">
+<name><![CDATA[Bitsch, Schulhaus]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>8.015390,46.336500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10019">
+<name><![CDATA[Bitsch, Bitschschlüecht]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>8.014070,46.337000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2587">
+<name><![CDATA[Bitsch, Kraftwerk SBB]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>8.012690,46.332700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15077">
+<name><![CDATA[Bitsch, Wasen]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>8.009740,46.338400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5404">
+<name><![CDATA[Brig Autoquai]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>8.000380,46.322400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1478">
+<name><![CDATA[Bitsch, Eiche]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>8.005480,46.340200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

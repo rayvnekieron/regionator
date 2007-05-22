@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1258 0300320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03003200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1259.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1260.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1263.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1264.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1233">
+<name><![CDATA[Rüti ZH, Weier]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<Point>
+<coordinates>8.867030,47.253500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2461">
+<name><![CDATA[Rüti ZH, Unterwiesstrasse]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.845770,47.255700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11635">
+<name><![CDATA[Rüti ZH, Seefeldstrasse]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.843500,47.252700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6097">
+<name><![CDATA[Altendorf, Lidwil]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.811190,47.199000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5086">
+<name><![CDATA[Pfäffikon SZ, TEVAG]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.808710,47.200000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1815">
+<name><![CDATA[Pfäffikon SZ, Industrie Ost]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>8.800370,47.201600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8635">
+<name><![CDATA[Rüti ZH, Schützenhaus]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.841670,47.250300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4442">
+<name><![CDATA[Jona, Schönau]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.830810,47.240300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9683">
+<name><![CDATA[Rapperswil SG, Kreuzliplatz]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.824630,47.228800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3023">
+<name><![CDATA[Kempraten, Belsito]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.823180,47.239300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6964">
+<name><![CDATA[Rapperswil SG, Schulhaus Kreuz]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.822270,47.232000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13073">
+<name><![CDATA[Jona, Hanfländerstrasse]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.820590,47.234700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9912">
+<name><![CDATA[Rapperswil SG, Stadthof]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.820030,47.228600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6719">
+<name><![CDATA[Jona, Krone/Fluhstrasse]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.819340,47.236300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5245">
+<name><![CDATA[Kempraten, Bahnhof]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.814190,47.238500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9190">
+<name><![CDATA[Rüti ZH, Bandwies]]></name>
+<description><![CDATA[169 connections
+]]></description>
+<Point>
+<coordinates>8.849500,47.257900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

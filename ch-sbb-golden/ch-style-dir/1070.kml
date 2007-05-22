@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1070 030010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.63671875</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.724609375</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1071.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1072.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1073.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9815">
+<name><![CDATA[Stein am Rhein]]></name>
+<description><![CDATA[173 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.855000,47.656100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10799">
+<name><![CDATA[Böhringen-Rickelshausen]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.925450,47.748400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm212">
+<name><![CDATA[Singen (Hohentwiel) Industrie]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.873680,47.757100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12527">
+<name><![CDATA[Singen (Hohentwiel)]]></name>
+<description><![CDATA[143 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.840960,47.759000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7742">
+<name><![CDATA[Singen (Htw) Landesgartenschau]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.827100,47.761300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4619">
+<name><![CDATA[Mammern]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.913980,47.644200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1351">
+<name><![CDATA[Eschenz]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.876530,47.645400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7865">
+<name><![CDATA[Hemishofen, Dorf]]></name>
+<description><![CDATA[83 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.830240,47.677600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5803">
+<name><![CDATA[Ramsen, Cafe Sonne]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.811010,47.706600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10914">
+<name><![CDATA[Eschenz, Post]]></name>
+<description><![CDATA[73 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.873710,47.647400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2783">
+<name><![CDATA[Stein am Rhein, Bahnhof]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.854970,47.655900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13418">
+<name><![CDATA[Eschenz, Barriere]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.874320,47.645600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10044">
+<name><![CDATA[Eschenz, Höfen]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.864510,47.651800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4645">
+<name><![CDATA[Unterstammheim, Adler]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.790310,47.639200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm118">
+<name><![CDATA[Rielasingen, Kirche]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.836990,47.731500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11226">
+<name><![CDATA[Wangen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.930140,47.658900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

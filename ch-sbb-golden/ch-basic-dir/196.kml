@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>196 0210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>7.734375</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>7.3828125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>197.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>7.734375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>198.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>7.3828125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>213.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>7.734375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>256.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12925">
+<name><![CDATA[Münchenstein, Neuewelt/Grün 80]]></name>
+<description><![CDATA[845 connections
+]]></description>
+<Point>
+<coordinates>7.613940,47.528600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3031">
+<name><![CDATA[Muttenz, Unterwart]]></name>
+<description><![CDATA[844 connections
+]]></description>
+<Point>
+<coordinates>7.629500,47.529800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11137">
+<name><![CDATA[Dornach-Arlesheim, Bahnhof]]></name>
+<description><![CDATA[839 connections
+]]></description>
+<Point>
+<coordinates>7.610800,47.488800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11446">
+<name><![CDATA[Ettingen]]></name>
+<description><![CDATA[830 connections
+]]></description>
+<Point>
+<coordinates>7.545110,47.483800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7962">
+<name><![CDATA[Münchenstein Dorf]]></name>
+<description><![CDATA[796 connections
+]]></description>
+<Point>
+<coordinates>7.619500,47.512100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9700">
+<name><![CDATA[Hofmatt]]></name>
+<description><![CDATA[796 connections
+]]></description>
+<Point>
+<coordinates>7.618450,47.519000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9234">
+<name><![CDATA[Arlesheim Dorf]]></name>
+<description><![CDATA[790 connections
+]]></description>
+<Point>
+<coordinates>7.619190,47.497700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14548">
+<name><![CDATA[Liestal, Bahnhof]]></name>
+<description><![CDATA[779 connections
+]]></description>
+<Point>
+<coordinates>7.731670,47.484300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm756">
+<name><![CDATA[Münchenstein Neuewelt/Grün 80]]></name>
+<description><![CDATA[775 connections
+]]></description>
+<Point>
+<coordinates>7.613440,47.527900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10526">
+<name><![CDATA[Schweizerhalle, Rheinstrasse]]></name>
+<description><![CDATA[764 connections
+]]></description>
+<Point>
+<coordinates>7.668460,47.533300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5769">
+<name><![CDATA[Aesch BL Dorf]]></name>
+<description><![CDATA[723 connections
+]]></description>
+<Point>
+<coordinates>7.596540,47.469300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2897">
+<name><![CDATA[Witterswil]]></name>
+<description><![CDATA[720 connections
+]]></description>
+<Point>
+<coordinates>7.523820,47.487100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6817">
+<name><![CDATA[Bättwil]]></name>
+<description><![CDATA[720 connections
+]]></description>
+<Point>
+<coordinates>7.507600,47.489500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3905">
+<name><![CDATA[Basel, EuroAirport]]></name>
+<description><![CDATA[719 connections
+]]></description>
+<Point>
+<coordinates>7.532380,47.599600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3386">
+<name><![CDATA[Basel, Frachthalle]]></name>
+<description><![CDATA[718 connections
+]]></description>
+<Point>
+<coordinates>7.535360,47.593900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14375">
+<name><![CDATA[Solothurn, Ascom]]></name>
+<description><![CDATA[718 connections
+]]></description>
+<Point>
+<coordinates>7.528400,47.212800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>840 022013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>6.328125</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12732">
+<name><![CDATA[Puplinge, mairie]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.232230,46.211500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3151">
+<name><![CDATA[Chêne-Bourg, Tronchet]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.202830,46.193200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2610">
+<name><![CDATA[Chevrier]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.224250,46.220400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6771">
+<name><![CDATA[Thônex, P+R Sous-Moulin]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.191760,46.190000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15111">
+<name><![CDATA[Genève-Eaux-Vives CGN]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.167030,46.209700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1956">
+<name><![CDATA[Port Noir]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.172610,46.212000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5438">
+<name><![CDATA[Genève-Perle-du-Lac]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.152980,46.219600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm512">
+<name><![CDATA[Genève-Quai Gustave Ador]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.155910,46.205200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6265">
+<name><![CDATA[Genève, Malagnou]]></name>
+<description><![CDATA[7 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.176930,46.192900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

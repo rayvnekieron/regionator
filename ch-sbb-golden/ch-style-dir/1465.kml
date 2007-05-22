@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1465 0302112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13582">
+<name><![CDATA[Diesbach-Betschwanden]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.024360,46.946200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10826">
+<name><![CDATA[Braunwald]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.998590,46.938700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7173">
+<name><![CDATA[Leuggelbach]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.046920,46.975700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8649">
+<name><![CDATA[Leuggelbach, Firma Schlittler]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.045000,46.976500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4659">
+<name><![CDATA[Rüti GL]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.013030,46.934500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7427">
+<name><![CDATA[Luchsingen, Schulhaus]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.036570,46.966900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13529">
+<name><![CDATA[Betschwanden, Schulhaus]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.028070,46.946400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6059">
+<name><![CDATA[Leuggelbach, Kronenplatz]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.044980,46.975800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5191">
+<name><![CDATA[Diesbach GL, Schulhaus]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.033510,46.952600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8175">
+<name><![CDATA[Hätzingen, Rössliplatz]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.037720,46.961500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

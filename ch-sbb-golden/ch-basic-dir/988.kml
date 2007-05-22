@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>988 02310111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.3623046875</south>
+<east>8.0859375</east>
+<west>8.0419921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13206">
+<name><![CDATA[Betten Talstation]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>8.076630,46.371000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8867">
+<name><![CDATA[Moosfluh]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>8.048220,46.395800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

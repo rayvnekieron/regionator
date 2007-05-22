@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1750 03203031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.9228515625</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>032030310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.94482421875</south>
+<east>8.94287109375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1751.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.94482421875</south>
+<east>8.96484375</east>
+<west>8.94287109375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1752.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.94482421875</north>
+<south>45.9228515625</south>
+<east>8.94287109375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1753.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5105">
+<name><![CDATA[Carona, Bellavista]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.937730,45.959200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11671">
+<name><![CDATA[Melide, Stazione]]></name>
+<description><![CDATA[49 connections
+]]></description>
+<Point>
+<coordinates>8.948210,45.955400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10055">
+<name><![CDATA[Bissone, autostrada]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.964370,45.952100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9920">
+<name><![CDATA[Melide, Piazza Moretti]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.943710,45.951500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2558">
+<name><![CDATA[Melide, Cantine]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.939970,45.946800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5333">
+<name><![CDATA[Melide, Villa Magnolia]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.937000,45.942000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7506">
+<name><![CDATA[Vico Morcote, Colombaio]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.934310,45.937700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5741">
+<name><![CDATA[Morcote, Casa per Anziani]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>8.922670,45.927100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2124">
+<name><![CDATA[Poiana]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>8.958950,45.931200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1655">
+<name><![CDATA[Vico Morcote, Pradon]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.924460,45.931100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12674">
+<name><![CDATA[Vico Morcote, Via Piana]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.922450,45.928500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1153">
+<name><![CDATA[Vico Morcote, Chiesa]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.922370,45.930200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5402">
+<name><![CDATA[Brusino Arsizio, Funivia]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.935210,45.923700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7885">
+<name><![CDATA[Carona, Paese]]></name>
+<description><![CDATA[29 connections
+]]></description>
+<Point>
+<coordinates>8.935940,45.957400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1487">
+<name><![CDATA[Melide, Swissminiatur]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.948970,45.955000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8293">
+<name><![CDATA[Melide Swissminiatur]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.954710,45.952800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

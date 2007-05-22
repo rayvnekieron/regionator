@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>653 02122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>7.3828125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>654.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>663.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>666.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>670.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5330">
+<name><![CDATA[Bulle, centre commercial]]></name>
+<description><![CDATA[424 connections
+]]></description>
+<Point>
+<coordinates>7.056100,46.621200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9213">
+<name><![CDATA[Gstaad, Unter-Gstaad]]></name>
+<description><![CDATA[288 connections
+]]></description>
+<Point>
+<coordinates>7.282380,46.478200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12792">
+<name><![CDATA[Gstaad, Sportzentrum]]></name>
+<description><![CDATA[230 connections
+]]></description>
+<Point>
+<coordinates>7.283700,46.471100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8460">
+<name><![CDATA[Bulle, gare]]></name>
+<description><![CDATA[212 connections
+]]></description>
+<Point>
+<coordinates>7.053520,46.616700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9937">
+<name><![CDATA[Zweisimmen]]></name>
+<description><![CDATA[175 connections
+]]></description>
+<Point>
+<coordinates>7.375320,46.553100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12109">
+<name><![CDATA[Plaffeien, Dorf]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>7.286080,46.741500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14040">
+<name><![CDATA[Gstaad, Krambrücke]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>7.293470,46.469900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9474">
+<name><![CDATA[Gstaad, Ober-Gstaad]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>7.286950,46.472200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2423">
+<name><![CDATA[Riedgarten]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<Point>
+<coordinates>7.285500,46.757600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2789">
+<name><![CDATA[Farvagny-le-Grand]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>7.064540,46.722000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7437">
+<name><![CDATA[Gstaad, Bahnhof]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<Point>
+<coordinates>7.283690,46.475100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5619">
+<name><![CDATA[Magnedens, bif.]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>7.087950,46.741800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8957">
+<name><![CDATA[Vuisternens-en-Ogoz, croisée]]></name>
+<description><![CDATA[141 connections
+]]></description>
+<Point>
+<coordinates>7.056790,46.708500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3495">
+<name><![CDATA[Lauenen b. Gstaad, Post]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>7.322860,46.423900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4348">
+<name><![CDATA[Lauenen b. Gstaad, Stalden]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>7.317640,46.432200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10371">
+<name><![CDATA[Lauenen b. Gstaad, Bruch]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>7.315360,46.435100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

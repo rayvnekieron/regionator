@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1433 03020030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>8.5693359375</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5539">
+<name><![CDATA[Gersau, Brand]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.528320,47.002000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15011">
+<name><![CDATA[Gersau, Gschwänd Seilbahn]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.540740,47.012800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9309">
+<name><![CDATA[Gersau Gschwänd]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.543180,47.014400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

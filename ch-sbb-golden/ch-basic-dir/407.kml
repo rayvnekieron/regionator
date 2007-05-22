@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>407 021123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0211230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>408.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>413.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>418.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>422.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm11666">
+<name><![CDATA[Reiden, Bahnhof]]></name>
+<description><![CDATA[271 connections
+]]></description>
+<Point>
+<coordinates>7.968920,47.241300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7176">
+<name><![CDATA[Willisau, Bahnhof]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<Point>
+<coordinates>7.996800,47.122300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12986">
+<name><![CDATA[Reiden, Friedmattstrasse]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<Point>
+<coordinates>7.967650,47.246300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14788">
+<name><![CDATA[Brittnau, Abzw. Bahnhof]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>7.951940,47.261200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9998">
+<name><![CDATA[Mauensee, Dorf]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>8.065120,47.167100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10456">
+<name><![CDATA[Kottwil, Dorf]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>8.045290,47.162700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13566">
+<name><![CDATA[Willisau, Postplatz]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.992430,47.120900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8209">
+<name><![CDATA[Langnau bei Reiden, Oberdorf]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>7.962180,47.227800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1466">
+<name><![CDATA[Langnau bei Reiden, Käserei]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>7.961550,47.230500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12855">
+<name><![CDATA[Langnau bei Reiden, Lupfen]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>7.951890,47.221800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3120">
+<name><![CDATA[Richenthal, Kirche]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>7.946910,47.218900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9173">
+<name><![CDATA[Richenthal, Post]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>7.943250,47.215800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm330">
+<name><![CDATA[Schötz, St. Mauritz]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>7.989000,47.171300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7980">
+<name><![CDATA[Schötz, Neubühl]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>7.985440,47.177800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1740">
+<name><![CDATA[Nebikon, Maschinenfabrik]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>7.980220,47.183700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4261">
+<name><![CDATA[Nebikon, Käserei]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>7.975650,47.188700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

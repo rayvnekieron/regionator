@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1593 0303211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>9.4921875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03032110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1594.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03032112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1595.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03032113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1596.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6632">
+<name><![CDATA[Thusis, Caznerwiesen]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>9.439420,46.711300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7598">
+<name><![CDATA[Summaprada, Abzw. Hotel Reich]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>9.433940,46.713500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13693">
+<name><![CDATA[Cazis]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>9.432940,46.719900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10508">
+<name><![CDATA[Almens]]></name>
+<description><![CDATA[77 connections
+]]></description>
+<Point>
+<coordinates>9.454480,46.738100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3645">
+<name><![CDATA[Tumegl/Tomils, Rofna]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.451510,46.755000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12960">
+<name><![CDATA[Rodels-Realta]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.432930,46.735100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5782">
+<name><![CDATA[Tartar, Sorts]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.429960,46.712000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7514">
+<name><![CDATA[Summaprada, Schauenberg]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.427490,46.716100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm810">
+<name><![CDATA[Tartar, Hof Foppa]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.424000,46.719000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1946">
+<name><![CDATA[Tartar, Valeina]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.421820,46.721800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7842">
+<name><![CDATA[Tartar, Dorf]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.418100,46.718700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14638">
+<name><![CDATA[Sarn, Dorf]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.410290,46.719700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11850">
+<name><![CDATA[Rongellen, Abzw.]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>9.448580,46.676300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2279">
+<name><![CDATA[Cazis, Bündner Arena]]></name>
+<description><![CDATA[63 connections
+]]></description>
+<Point>
+<coordinates>9.423260,46.752100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10284">
+<name><![CDATA[Thusis, Oberplatz]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.439750,46.693800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm482">
+<name><![CDATA[Thusis, Ruvria]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.436820,46.694100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

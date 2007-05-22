@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>634 02121300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>7.6025390625</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3566">
+<name><![CDATA[Richigen, Post]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.583040,46.917700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1105">
+<name><![CDATA[Richigen, Graben]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.577800,46.922200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12638">
+<name><![CDATA[Worb, Blümlisalpstrasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.575530,46.925100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5468">
+<name><![CDATA[Worb, Wyden Schulhaus]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.571250,46.924900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9560">
+<name><![CDATA[Worb, Toggenburg]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.568630,46.927600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14245">
+<name><![CDATA[Richigen, Abzw. Lochi]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.601420,46.916800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12578">
+<name><![CDATA[Enggistein, Dorf]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.596920,46.932500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14603">
+<name><![CDATA[Worb, Bleiche]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.571260,46.929400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2315">
+<name><![CDATA[Enggistein, Post]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.597530,46.932100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3863">
+<name><![CDATA[Richigen, Lochi]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.601420,46.916800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2832">
+<name><![CDATA[Worb, Mühlestrasse]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.573220,46.928300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

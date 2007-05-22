@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1328 03010333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030103332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.48291015625</north>
+<south>47.4609375</south>
+<east>9.47021484375</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1329.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030103333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.48291015625</north>
+<south>47.4609375</south>
+<east>9.4921875</east>
+<west>9.47021484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1330.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm856">
+<name><![CDATA[Horn, Bahnhof]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.463210,47.493300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1328">
+<name><![CDATA[Goldach, Rotenstein]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.475570,47.478300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2644">
+<name><![CDATA[Horn, Feldschlössli]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.458150,47.491400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13749">
+<name><![CDATA[Goldach, Untereggerstrasse]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.461710,47.471500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12695">
+<name><![CDATA[Goldach, Sonnental]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.458920,47.467700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm275">
+<name><![CDATA[Tübach, Sonne]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.451690,47.487200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm982">
+<name><![CDATA[Rorschacherberg, Bleichi]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.489140,47.468800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11297">
+<name><![CDATA[Rorschach, Pflegeheim]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.487630,47.472600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10769">
+<name><![CDATA[Rorschach, Zelgstrasse]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.487220,47.470600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13082">
+<name><![CDATA[Rorschacherberg, Rosenegg]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.486490,47.468800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1222">
+<name><![CDATA[Goldach, Kronenplatz]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.470600,47.478300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14409">
+<name><![CDATA[Goldach, TZM/Kellen]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.463270,47.477600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12301">
+<name><![CDATA[Goldach, Tübacherstrasse]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.468980,47.479300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8464">
+<name><![CDATA[Tübach, Dorf]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.451980,47.486100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2736">
+<name><![CDATA[Rorschach, Kirchstrasse]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.488490,47.477600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6893">
+<name><![CDATA[Horn (See)]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.462950,47.496700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

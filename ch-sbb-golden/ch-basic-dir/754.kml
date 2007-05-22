@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>754 02131131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>8.4375</east>
+<west>8.3935546875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11512">
+<name><![CDATA[Ennetbürgen SGV]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.421110,46.987800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

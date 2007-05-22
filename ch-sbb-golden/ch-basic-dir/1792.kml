@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1792 03212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.703125</south>
+<east>9.4921875</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8975">
+<name><![CDATA[Menaggio, Via Mazzini]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.239400,46.019500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

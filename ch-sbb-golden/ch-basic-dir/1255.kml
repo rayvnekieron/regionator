@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1255 03003132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>9.0966796875</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm797">
+<name><![CDATA[Wattwil, Wanne]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>9.091920,47.302900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8870">
+<name><![CDATA[Wattwil, ev. Kirche]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>9.088650,47.303800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13144">
+<name><![CDATA[Wattwil, Post]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>9.086960,47.302700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8074">
+<name><![CDATA[Lichtensteig, Bahnhof]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>9.083240,47.321400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5006">
+<name><![CDATA[Lichtensteig, Rest. Bahnhöfli]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.082580,47.321700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9265">
+<name><![CDATA[Lichtensteig, Gurtbergwald]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.072550,47.328800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm193">
+<name><![CDATA[Lichtensteig, Hintergurtberg]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.066440,47.323700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5976">
+<name><![CDATA[Krinau, Fabrik Feldmoos]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.059660,47.318400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4274">
+<name><![CDATA[Krinau, Mühle]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.053680,47.317400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13294">
+<name><![CDATA[Lichtensteig, Post]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.087290,47.324100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9342">
+<name><![CDATA[Lichtensteig, St. Loretto]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.085740,47.327500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1854">
+<name><![CDATA[Lichtensteig, Hof]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.085690,47.325900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

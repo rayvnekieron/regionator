@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>621 02121213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10503">
+<name><![CDATA[Rubigen, Hunzigenbrügg]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.536720,46.889200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4849">
+<name><![CDATA[Münsingen, PZM]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.553920,46.879800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10669">
+<name><![CDATA[Münsingen, Schwand]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.554100,46.887600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5428">
+<name><![CDATA[Belp, Lehn]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.524580,46.887400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7901">
+<name><![CDATA[Münsingen, Badi]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.547010,46.867100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13572">
+<name><![CDATA[Münsingen, Au]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.547250,46.876400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5023">
+<name><![CDATA[Münsingen, Walke]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.546110,46.877800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6906">
+<name><![CDATA[Münsingen, Lindenweg]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.557860,46.867100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

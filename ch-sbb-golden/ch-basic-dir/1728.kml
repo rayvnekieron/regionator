@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1728 032030100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.03271484375</south>
+<east>8.89892578125</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm15113">
+<name><![CDATA[Mugena, Nava]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.892090,46.047600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3182">
+<name><![CDATA[Mugena, Paese]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.889800,46.048800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11586">
+<name><![CDATA[Vezio, Busgnone]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.885750,46.042300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3420">
+<name><![CDATA[Vezio, Acquacalda]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.882030,46.043400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6336">
+<name><![CDATA[Vezio, Paese]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>8.881960,46.045700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

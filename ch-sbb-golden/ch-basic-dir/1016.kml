@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1016 0300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>9.140625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>8.7890625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1017.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>9.140625</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1069.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>8.7890625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1115.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>9.140625</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1219.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6668">
+<name><![CDATA[Zug, Bahnhofplatz]]></name>
+<description><![CDATA[826 connections
+]]></description>
+<Point>
+<coordinates>8.512380,47.172800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3608">
+<name><![CDATA[Zürich, Triemli]]></name>
+<description><![CDATA[787 connections
+]]></description>
+<Point>
+<coordinates>8.495350,47.368100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2491">
+<name><![CDATA[Neuhausen, Kreuzstrasse]]></name>
+<description><![CDATA[778 connections
+]]></description>
+<Point>
+<coordinates>8.612550,47.683700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9333">
+<name><![CDATA[Volketswil, Zentrum]]></name>
+<description><![CDATA[772 connections
+]]></description>
+<Point>
+<coordinates>8.680300,47.389100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11211">
+<name><![CDATA[Uitikon Waldegg, Waldegg]]></name>
+<description><![CDATA[764 connections
+]]></description>
+<Point>
+<coordinates>8.463510,47.368300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2539">
+<name><![CDATA[Bülach, Sonnenhof]]></name>
+<description><![CDATA[748 connections
+]]></description>
+<Point>
+<coordinates>8.539690,47.520700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10372">
+<name><![CDATA[Zürich Flughafen, Bahnhof]]></name>
+<description><![CDATA[724 connections
+]]></description>
+<Point>
+<coordinates>8.563730,47.450500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14824">
+<name><![CDATA[Thalwil]]></name>
+<description><![CDATA[722 connections
+]]></description>
+<Point>
+<coordinates>8.564750,47.296000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13759">
+<name><![CDATA[Zug, St. Johannes]]></name>
+<description><![CDATA[710 connections
+]]></description>
+<Point>
+<coordinates>8.505910,47.179100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13204">
+<name><![CDATA[Steinhausen, Zentrum Zugerland]]></name>
+<description><![CDATA[694 connections
+]]></description>
+<Point>
+<coordinates>8.475810,47.192000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2827">
+<name><![CDATA[Zug]]></name>
+<description><![CDATA[690 connections
+]]></description>
+<Point>
+<coordinates>8.515300,47.173600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2077">
+<name><![CDATA[Schaffhausen, Bahnhof]]></name>
+<description><![CDATA[686 connections
+]]></description>
+<Point>
+<coordinates>8.632740,47.697900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4161">
+<name><![CDATA[Zürich, Goldbrunnenplatz]]></name>
+<description><![CDATA[668 connections
+]]></description>
+<Point>
+<coordinates>8.513920,47.370300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2226">
+<name><![CDATA[Zürich, Schaufelbergerstrasse]]></name>
+<description><![CDATA[668 connections
+]]></description>
+<Point>
+<coordinates>8.501300,47.368900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12655">
+<name><![CDATA[Cham, Brunnmatt]]></name>
+<description><![CDATA[668 connections
+]]></description>
+<Point>
+<coordinates>8.446820,47.180200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8314">
+<name><![CDATA[Zug, Göbli]]></name>
+<description><![CDATA[652 connections
+]]></description>
+<Point>
+<coordinates>8.520420,47.179000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

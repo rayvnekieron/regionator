@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>436 02113013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7990">
+<name><![CDATA[Mägenwil, Eckwil]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<Point>
+<coordinates>8.240920,47.412000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13170">
+<name><![CDATA[Mägenwil, Post]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<Point>
+<coordinates>8.235950,47.412000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7196">
+<name><![CDATA[Mägenwil, Gewerbepark]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>8.224990,47.410300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm468">
+<name><![CDATA[Hägglingen, Huematten]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.258120,47.388500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5410">
+<name><![CDATA[Dottikon, Chrischona]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>8.234760,47.376700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13382">
+<name><![CDATA[Hägglingen, Altersheim]]></name>
+<description><![CDATA[123 connections
+]]></description>
+<Point>
+<coordinates>8.257430,47.387100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm779">
+<name><![CDATA[Hägglingen, Schulhaus]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>8.255110,47.386700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8177">
+<name><![CDATA[Dottikon, Bergstrasse]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>8.245100,47.381800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5498">
+<name><![CDATA[Mägenwil]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.235140,47.414500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13383">
+<name><![CDATA[Mägenwil, Bahnhof]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.234990,47.414300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5440">
+<name><![CDATA[Dottikon, Gemeindehaus]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.241130,47.382100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11132">
+<name><![CDATA[Dintikon, Post]]></name>
+<description><![CDATA[69 connections
+]]></description>
+<Point>
+<coordinates>8.239680,47.373800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3313">
+<name><![CDATA[Dottikon, Alterswohnheim]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.238800,47.381000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

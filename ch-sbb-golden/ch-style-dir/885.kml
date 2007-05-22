@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>885 0230012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12154">
+<name><![CDATA[Erde, La Touaide]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.285200,46.236900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13872">
+<name><![CDATA[Erde, Le Creux-d'Ortcheu]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.274750,46.236000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12021">
+<name><![CDATA[Aven, Pré]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.272780,46.235300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm186">
+<name><![CDATA[Aven, village]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.271160,46.235800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13289">
+<name><![CDATA[Erde, Madouc]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.252360,46.249000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14445">
+<name><![CDATA[Erde, Courtenaz]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.242250,46.269700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8720">
+<name><![CDATA[Godey]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.235010,46.287300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6337">
+<name><![CDATA[Erde, Motélon]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.234960,46.275300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4952">
+<name><![CDATA[Erde, Lac Bleu]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.231040,46.282500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12657">
+<name><![CDATA[Derborence]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.215750,46.280700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>783 021321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0213210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>784.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>785.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>787.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>788.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9953">
+<name><![CDATA[Ballenberg West, Museum]]></name>
+<description><![CDATA[165 connections
+]]></description>
+<Point>
+<coordinates>8.078610,46.750900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5486">
+<name><![CDATA[Hofstetten b. Brienz, Kritz]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.078000,46.754500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6523">
+<name><![CDATA[Hofstetten b. Brienz, Dorfpl.]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.075380,46.754100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4947">
+<name><![CDATA[Brienz BE, Glyssibach]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.045270,46.753400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4578">
+<name><![CDATA[Wengwald]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<Point>
+<coordinates>7.913630,46.609200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13214">
+<name><![CDATA[Grindelwald, Bahnhof]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.047410,46.624300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13302">
+<name><![CDATA[Brienz BE, Bahnhof]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>8.039400,46.755000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14198">
+<name><![CDATA[Lauterbrunnen, Heliport]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>7.914870,46.585800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3131">
+<name><![CDATA[Lauterbrunnen, Schützenbach]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>7.911660,46.591600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10995">
+<name><![CDATA[Hofstetten b. Brienz, Rüttiweg]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>8.073730,46.753200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1951">
+<name><![CDATA[Schwanden b. Brienz, Stocki]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>8.053830,46.757800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8791">
+<name><![CDATA[Schwanden b. Brienz, Birgli]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>8.049870,46.755600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8141">
+<name><![CDATA[Brienz BE, Altersheim]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>8.045620,46.755200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6706">
+<name><![CDATA[Grindelwald, Gaggi Säge]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>8.029180,46.629100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5728">
+<name><![CDATA[Kleine Scheidegg]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>7.960120,46.584800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11440">
+<name><![CDATA[Grindelwald, Weidli/Abbachfall]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<Point>
+<coordinates>8.014910,46.637700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>792 0213220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>7.822265625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4976">
+<name><![CDATA[Pochtenalp, Abzw. Waldrand]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.759040,46.546500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2640">
+<name><![CDATA[Kiental, Tschingel]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.756780,46.548500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6508">
+<name><![CDATA[Kiental, Rest. Alpenruhe]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.738580,46.559600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14004">
+<name><![CDATA[Griesalp, Kurhaus]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.761660,46.547400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1684 032012032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.16455078125</north>
+<south>46.142578125</south>
+<east>8.85498046875</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11980">
+<name><![CDATA[Magadino-Vira]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.850180,46.145300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2437">
+<name><![CDATA[Vira NLM]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.841300,46.144700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

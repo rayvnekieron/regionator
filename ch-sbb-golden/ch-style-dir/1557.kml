@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1557 030311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>9.84375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0303112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>9.755859375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1558.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>9.84375</east>
+<west>9.755859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1562.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6258">
+<name><![CDATA[Schiers]]></name>
+<description><![CDATA[215 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.688360,46.968000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8911">
+<name><![CDATA[Schiers, Bahnhof]]></name>
+<description><![CDATA[99 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.689230,46.968300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm625">
+<name><![CDATA[Montagna]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.693750,46.974300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1748">
+<name><![CDATA[Schiers, Schibabüel]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.690060,46.972600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2162">
+<name><![CDATA[Schiers, Büel]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.688710,46.971700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9709">
+<name><![CDATA[Schiers, Kirchgemeindehaus]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.688640,46.969900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4229">
+<name><![CDATA[Unterpusserein]]></name>
+<description><![CDATA[47 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.708790,46.980100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4267">
+<name><![CDATA[Pragg, Bahnhof Furna]]></name>
+<description><![CDATA[45 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.709690,46.939300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14697">
+<name><![CDATA[Schiers, EMS/Spital]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.687360,46.970900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11390">
+<name><![CDATA[Schiers, Obere Au]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.677710,46.975800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9623">
+<name><![CDATA[Schiers, Quadara/Feld]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.673040,46.974300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6021">
+<name><![CDATA[Schiers, Tersier]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.672540,46.977900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1733">
+<name><![CDATA[Schiers, Loch]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.691230,46.976900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9553">
+<name><![CDATA[Schiers, Maria]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.688580,46.976500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14156">
+<name><![CDATA[St. Antönien, Waldheim]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.818800,46.970200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2518">
+<name><![CDATA[Ascharina, alte Post]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.810100,46.960800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

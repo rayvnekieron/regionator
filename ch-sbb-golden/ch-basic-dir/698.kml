@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>698 0212330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm228">
+<name><![CDATA[Adelboden, Ausserschwand Schul]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.574130,46.505700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3561">
+<name><![CDATA[Elsigbach]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.608070,46.528200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5087">
+<name><![CDATA[Elsigenalp]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.622520,46.522500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9311">
+<name><![CDATA[Elsigbach LEE]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.610850,46.527300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

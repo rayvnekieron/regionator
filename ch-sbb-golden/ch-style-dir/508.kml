@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>508 0212002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.119140625</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02120020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>509.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>510.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14659">
+<name><![CDATA[Ins, Brennerei]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.086200,47.009900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6852">
+<name><![CDATA[Ins Dorf]]></name>
+<description><![CDATA[105 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.106810,47.005600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10021">
+<name><![CDATA[Ins, Bahnhof]]></name>
+<description><![CDATA[105 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.098110,46.999200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13987">
+<name><![CDATA[Gampelen]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.056450,47.009400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2665">
+<name><![CDATA[Praz]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.097340,46.951700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2752">
+<name><![CDATA[Môtier (Vully)]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.084080,46.946900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4643">
+<name><![CDATA[Sugiez LNM]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.114250,46.964100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11565">
+<name><![CDATA[La Sauge LNM]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.054640,46.975400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7230">
+<name><![CDATA[Sugiez, poste]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.112470,46.961900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11396">
+<name><![CDATA[Nant, croisée]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.106910,46.956900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3001">
+<name><![CDATA[Praz (Vully), village]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.099710,46.954200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14075">
+<name><![CDATA[Môtier (Vully), village]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.086930,46.949200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11727">
+<name><![CDATA[Cudrefin, La Sauge]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.054260,46.971800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4319">
+<name><![CDATA[Trois-Lacs (camping)]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.093280,46.975600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9261">
+<name><![CDATA[Mur, village]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.061680,46.944400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8987">
+<name><![CDATA[Guévaux, croisée]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.057780,46.938800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

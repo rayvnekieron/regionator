@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1675 0320113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5361">
+<name><![CDATA[Castaneda, Paese]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.138960,46.257300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5996">
+<name><![CDATA[Castaneda, Al Ronc]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.138360,46.259100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12150">
+<name><![CDATA[Arvigo, Antiglio]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.116750,46.294300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1452">
+<name><![CDATA[Arvigo, Paese]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.115650,46.300900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13894">
+<name><![CDATA[Arvigo, Filovia]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.114590,46.308500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm554">
+<name><![CDATA[Arvigo, Al Canton]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.114400,46.302200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5040">
+<name><![CDATA[Buseno, Paese]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.110420,46.268100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6060">
+<name><![CDATA[Buseno, Botteghe]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.110340,46.265400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

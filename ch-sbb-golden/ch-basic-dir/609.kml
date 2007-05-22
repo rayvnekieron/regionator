@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>609 02121132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13286">
+<name><![CDATA[Arni BE, Dorf]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.665170,46.934900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm417">
+<name><![CDATA[Landiswil, Bärisbach]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.685660,46.965200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13159">
+<name><![CDATA[Landiswil, Dorf]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.679060,46.958000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1444">
+<name><![CDATA[Arni BE, Schwendelweg]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.681270,46.938200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6495">
+<name><![CDATA[Arni BE, Matte]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.673700,46.934400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

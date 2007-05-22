@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1006 0231031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5454">
+<name><![CDATA[Gabi (Simplon)]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.073350,46.184700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1652">
+<name><![CDATA[Simplon Dorf, Post]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.055690,46.195300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1405">
+<name><![CDATA[Simplon Dorf, Blatt]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.055420,46.198000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1239">
+<name><![CDATA[Simplon Dorf, Eggen]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.043630,46.204400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7849">
+<name><![CDATA[Simplon Dorf, Maschihüs]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.039930,46.214200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1189">
+<name><![CDATA[Engeloch VS]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.020080,46.224500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14093">
+<name><![CDATA[Simplon Dorf, Hospiz-Niederalp]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.013340,46.229400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

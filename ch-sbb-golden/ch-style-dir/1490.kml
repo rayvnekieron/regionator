@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1490 0302302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm381">
+<name><![CDATA[Acla (Medel)]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.846780,46.635600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14984">
+<name><![CDATA[Pardatsch]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.838050,46.626500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12733">
+<name><![CDATA[Platta, Sogn Gions]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.829010,46.625100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5576">
+<name><![CDATA[Platta, Sogn Gagl]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.820360,46.608700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12224">
+<name><![CDATA[Platta, Staudamm St. Maria]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.803600,46.586000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

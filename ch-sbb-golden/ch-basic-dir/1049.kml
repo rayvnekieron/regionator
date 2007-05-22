@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1049 030002303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.52685546875</north>
+<south>47.5048828125</south>
+<east>8.5693359375</east>
+<west>8.54736328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3113">
+<name><![CDATA[Bülach, Stubenchlaus]]></name>
+<description><![CDATA[85 connections
+]]></description>
+<Point>
+<coordinates>8.551970,47.522300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

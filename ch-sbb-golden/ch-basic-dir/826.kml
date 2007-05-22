@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>826 0220110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>6.240234375</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02201100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.3623046875</south>
+<east>6.1962890625</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>827.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02201101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.3623046875</south>
+<east>6.240234375</east>
+<west>6.1962890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>828.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02201102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.3623046875</north>
+<south>46.318359375</south>
+<east>6.1962890625</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>829.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10552">
+<name><![CDATA[Les Plantaz]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>6.229030,46.391100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11283">
+<name><![CDATA[L'Asse]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>6.211750,46.401800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8355">
+<name><![CDATA[Eysins, Est]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>6.206330,46.382200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14791">
+<name><![CDATA[Chavannes-de-Bogis, village]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>6.162990,46.345700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1747">
+<name><![CDATA[Crassier, centre]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>6.162210,46.379000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6134">
+<name><![CDATA[La Vuarpillière]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>6.217250,46.398900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2088">
+<name><![CDATA[Bogis-Bossey]]></name>
+<description><![CDATA[103 connections
+]]></description>
+<Point>
+<coordinates>6.165400,46.353800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12530">
+<name><![CDATA[Borex, centre]]></name>
+<description><![CDATA[95 connections
+]]></description>
+<Point>
+<coordinates>6.177820,46.378200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13291">
+<name><![CDATA[Eysins, centre]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>6.203780,46.380300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2201">
+<name><![CDATA[Grens, village]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.190800,46.393200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3435">
+<name><![CDATA[Chéserex, poste]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.171460,46.400400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9312">
+<name><![CDATA[Chavannes-de-Bogis, Champs-Bl.]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.165780,46.337600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6363">
+<name><![CDATA[Signy, poste]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.202250,46.390400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6126">
+<name><![CDATA[Châtaigneriaz]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.169760,46.334100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3912">
+<name><![CDATA[Nyon, ch. Monastier]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.230310,46.385300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15082">
+<name><![CDATA[Nyon, ch. d'Eysins]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.225370,46.388200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

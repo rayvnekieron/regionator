@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>281 02103133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>7.734375</east>
+<west>7.6904296875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14799">
+<name><![CDATA[Oensingen, Bahnhof]]></name>
+<description><![CDATA[95 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.709610,47.285400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11843">
+<name><![CDATA[Klus, Maiacker]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.701090,47.300000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1307">
+<name><![CDATA[Klus, Bahnhof]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.694500,47.304800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6641">
+<name><![CDATA[Balsthal]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.693920,47.312900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1542 030310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>9.66796875</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0303100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1543.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1544.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1545.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1553.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3353">
+<name><![CDATA[Triesen, Argweg]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.524150,47.097700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2269">
+<name><![CDATA[Triesen, Gartnetschhof]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.523820,47.092500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12566">
+<name><![CDATA[Triesen, Säga]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.519690,47.088100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11272">
+<name><![CDATA[Balzers, Roxy]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.511970,47.075800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6162">
+<name><![CDATA[Balzers, Römerhof]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.508530,47.071900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6050">
+<name><![CDATA[Balzers, Hotel Post]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.507350,47.066900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11250">
+<name><![CDATA[Balzers, Alter Friedhof]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.507080,47.068500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10307">
+<name><![CDATA[Balzers, Post]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.502940,47.063600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9936">
+<name><![CDATA[Balzers, Mälsnerdorf]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.498260,47.061700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4850">
+<name><![CDATA[Balzers, Traube Mäls]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.495610,47.061300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4213">
+<name><![CDATA[Balzers, Rheinstrasse Mäls]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>9.493040,47.062900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1419">
+<name><![CDATA[Balzers, Schlossweg]]></name>
+<description><![CDATA[263 connections
+]]></description>
+<Point>
+<coordinates>9.497130,47.066700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6598">
+<name><![CDATA[Balzers, Sportplatz]]></name>
+<description><![CDATA[240 connections
+]]></description>
+<Point>
+<coordinates>9.496650,47.071200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4469">
+<name><![CDATA[Bad Ragaz]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<Point>
+<coordinates>9.505220,47.010300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2778">
+<name><![CDATA[Grüsch]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<Point>
+<coordinates>9.645780,46.980500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3472">
+<name><![CDATA[Malans]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<Point>
+<coordinates>9.573720,46.977700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

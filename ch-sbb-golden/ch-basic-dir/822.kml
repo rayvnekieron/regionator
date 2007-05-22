@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>822 02201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.0546875</south>
+<east>6.328125</east>
+<west>5.9765625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>022010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>6.15234375</east>
+<west>5.9765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>823.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>022011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>6.328125</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>825.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>022012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>6.15234375</east>
+<west>5.9765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>836.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>022013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>6.328125</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>840.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm2215">
+<name><![CDATA[La Capite]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.204470,46.235500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6506">
+<name><![CDATA[Cologny, mairie]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.184100,46.219100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3986">
+<name><![CDATA[Confignon, église]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.085420,46.173800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12309">
+<name><![CDATA[Lully GE]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.072700,46.164700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2325">
+<name><![CDATA[Sézenove]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.057170,46.164500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14217">
+<name><![CDATA[Soral, rte Laconnex]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.043480,46.142700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4384">
+<name><![CDATA[Laconnex]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.036640,46.157000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13744">
+<name><![CDATA[Sézegnin]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.011090,46.144100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5118">
+<name><![CDATA[Athenaz, village]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<Point>
+<coordinates>6.006920,46.154900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10051">
+<name><![CDATA[La Petite-Grave]]></name>
+<description><![CDATA[230 connections
+]]></description>
+<Point>
+<coordinates>6.041400,46.173300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5212">
+<name><![CDATA[Cartigny]]></name>
+<description><![CDATA[230 connections
+]]></description>
+<Point>
+<coordinates>6.020670,46.173900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm224">
+<name><![CDATA[Nyon, La Redoute]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<Point>
+<coordinates>6.237980,46.391500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6213">
+<name><![CDATA[Meinier, La Tour]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<Point>
+<coordinates>6.231470,46.245700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5667">
+<name><![CDATA[St-Julien-en-Genevois, centre]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<Point>
+<coordinates>6.080980,46.144100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1965">
+<name><![CDATA[Ferney, mairie]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>6.108020,46.256000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5231">
+<name><![CDATA[Presinge]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<Point>
+<coordinates>6.254090,46.218900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

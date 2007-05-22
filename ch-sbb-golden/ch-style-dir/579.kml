@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>579 021210213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.99951171875</north>
+<south>46.9775390625</south>
+<east>7.470703125</east>
+<west>7.44873046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3903">
+<name><![CDATA[Reichenbach b. B., Grubenweg]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.448760,46.991700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1002">
+<name><![CDATA[Steinibach BE, Aarestrasse]]></name>
+<description><![CDATA[107 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.456380,46.985300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1870">
+<name><![CDATA[Zollikofen, Schulhaus Ost]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.452490,46.998300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1579 0303133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>9.84375</east>
+<west>9.755859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3660">
+<name><![CDATA[Davos Clavadel, Post]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.813760,46.767200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14996">
+<name><![CDATA[Davos Platz, Spital]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.815390,46.789400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7512">
+<name><![CDATA[Davos Platz, Islen]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.803590,46.774300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10274">
+<name><![CDATA[Davos Frauenkirch, Landhaus]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.800410,46.769000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4012">
+<name><![CDATA[Ischalp]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.832430,46.786700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5959">
+<name><![CDATA[Weissfluhjoch DKB]]></name>
+<description><![CDATA[7 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.805790,46.832900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2785">
+<name><![CDATA[Höhenweg]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.823640,46.819400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8862">
+<name><![CDATA[Davos Platz DKB]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.823330,46.791200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4480">
+<name><![CDATA[Davos Dorf DKB]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.838380,46.808400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14947">
+<name><![CDATA[Weissfluhgipfel]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.796130,46.834300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

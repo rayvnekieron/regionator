@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1785 032100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>9.31640625</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm15008">
+<name><![CDATA[Verdabbio]]></name>
+<description><![CDATA[27 connections
+]]></description>
+<Point>
+<coordinates>9.158120,46.268500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

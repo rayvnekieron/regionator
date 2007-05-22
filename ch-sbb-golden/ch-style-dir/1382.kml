@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1382 0301223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>9.31640625</east>
+<west>9.228515625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14500">
+<name><![CDATA[Walenstadt]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.312970,47.119900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8254">
+<name><![CDATA[Unterterzen]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.255010,47.113900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1171">
+<name><![CDATA[Mols]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.276800,47.113000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1326">
+<name><![CDATA[Unterterzen (See)]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.253450,47.114500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1060">
+<name><![CDATA[Walenstadt, Bahnhof]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.312640,47.119300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14428">
+<name><![CDATA[Walenstadtberg, Stauffacher]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.296600,47.135700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7376">
+<name><![CDATA[Walenstadtberg, alte Post]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.289510,47.136800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1194">
+<name><![CDATA[Unterterzen LUFAG]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.255110,47.113300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7827">
+<name><![CDATA[Mols (See)]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.278850,47.131000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2154">
+<name><![CDATA[Walenstadt (See)]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.301830,47.127700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12534">
+<name><![CDATA[Walenstadtberg, Reha-Klinik]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.284370,47.140500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9816">
+<name><![CDATA[Alp Selamatt]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.296340,47.182200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm994">
+<name><![CDATA[Alt St. Johann SAS]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.288860,47.193400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2018">
+<name><![CDATA[Iltios]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.312290,47.185300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11770">
+<name><![CDATA[Chäserrugg]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.312460,47.155200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10825">
+<name><![CDATA[Unterwasser BUIC]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.309250,47.194800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

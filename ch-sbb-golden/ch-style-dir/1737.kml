@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1737 03203012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0107421875</north>
+<south>45.966796875</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>032030120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0107421875</north>
+<south>45.98876953125</south>
+<east>8.89892578125</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1738.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0107421875</north>
+<south>45.98876953125</south>
+<east>8.9208984375</east>
+<west>8.89892578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1739.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.98876953125</north>
+<south>45.966796875</south>
+<east>8.89892578125</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1740.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032030123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.98876953125</north>
+<south>45.966796875</south>
+<east>8.9208984375</east>
+<west>8.89892578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1741.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm581">
+<name><![CDATA[Neggio, Bivio per Neggio]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.885080,45.987700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2709">
+<name><![CDATA[Magliasina]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.878210,45.981800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9225">
+<name><![CDATA[Poporino]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.918930,45.984300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11237">
+<name><![CDATA[Montagnola, Bellevue]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.917750,45.983700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12806">
+<name><![CDATA[Montagnola, Paese]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.916940,45.982100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12298">
+<name><![CDATA[Montagnola, Il Maggio]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.916310,45.978100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2915">
+<name><![CDATA[Bigogno, Cappella di Bigogno]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.915830,45.974600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9379">
+<name><![CDATA[Bigogno, Paese]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.915510,45.972200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm849">
+<name><![CDATA[Cassina d'Agno, Posta]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.890860,45.991600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4474">
+<name><![CDATA[Cimo, Paese]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.890370,46.002100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4845">
+<name><![CDATA[Vernate, Paese]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.887980,45.995000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7038">
+<name><![CDATA[Vernate, Pianca]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.886930,45.991600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11321">
+<name><![CDATA[Vernate, Bacino Acqua Potabile]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.886060,45.995600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6881">
+<name><![CDATA[Agno, Chiesa]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.884460,45.998300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14690">
+<name><![CDATA[Vernate, Guasti di Vernate]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.884340,45.988900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5341">
+<name><![CDATA[Iseo, Paese]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.882290,46.004400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

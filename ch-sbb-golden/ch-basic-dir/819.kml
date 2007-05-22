@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>819 022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.0</south>
+<east>7.03125</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.703125</south>
+<east>6.328125</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>820.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.703125</south>
+<east>7.03125</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>841.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14935">
+<name><![CDATA[Genève, Bel-Air]]></name>
+<description><![CDATA[633 connections
+]]></description>
+<Point>
+<coordinates>6.142980,46.204200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12669">
+<name><![CDATA[Genève]]></name>
+<description><![CDATA[604 connections
+]]></description>
+<Point>
+<coordinates>6.142440,46.210200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3906">
+<name><![CDATA[Onex]]></name>
+<description><![CDATA[594 connections
+]]></description>
+<Point>
+<coordinates>6.099440,46.183000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5790">
+<name><![CDATA[Lancy, Les Palettes]]></name>
+<description><![CDATA[498 connections
+]]></description>
+<Point>
+<coordinates>6.121630,46.176100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1397">
+<name><![CDATA[Cologny, croisée]]></name>
+<description><![CDATA[474 connections
+]]></description>
+<Point>
+<coordinates>6.184270,46.211900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14878">
+<name><![CDATA[Cologny, Gradelle]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<Point>
+<coordinates>6.180530,46.205500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9547">
+<name><![CDATA[Petit-Lancy, Les Esserts]]></name>
+<description><![CDATA[462 connections
+]]></description>
+<Point>
+<coordinates>6.113560,46.188600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3560">
+<name><![CDATA[Grand-Saconnex, place]]></name>
+<description><![CDATA[454 connections
+]]></description>
+<Point>
+<coordinates>6.122830,46.233700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8992">
+<name><![CDATA[Ferney, avenue du Jura]]></name>
+<description><![CDATA[421 connections
+]]></description>
+<Point>
+<coordinates>6.111870,46.257800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7398">
+<name><![CDATA[Plan-les-Ouates]]></name>
+<description><![CDATA[402 connections
+]]></description>
+<Point>
+<coordinates>6.117920,46.168800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2600">
+<name><![CDATA[Perly, village]]></name>
+<description><![CDATA[402 connections
+]]></description>
+<Point>
+<coordinates>6.094950,46.155100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10156">
+<name><![CDATA[Genève, OMS]]></name>
+<description><![CDATA[398 connections
+]]></description>
+<Point>
+<coordinates>6.133220,46.232900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6629">
+<name><![CDATA[Veyrier, Tournettes]]></name>
+<description><![CDATA[392 connections
+]]></description>
+<Point>
+<coordinates>6.178960,46.163300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14187">
+<name><![CDATA[Veyrier, douane]]></name>
+<description><![CDATA[388 connections
+]]></description>
+<Point>
+<coordinates>6.186600,46.166900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2870">
+<name><![CDATA[Nyon]]></name>
+<description><![CDATA[374 connections
+]]></description>
+<Point>
+<coordinates>6.235960,46.384400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6420">
+<name><![CDATA[Anières]]></name>
+<description><![CDATA[366 connections
+]]></description>
+<Point>
+<coordinates>6.223220,46.276900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

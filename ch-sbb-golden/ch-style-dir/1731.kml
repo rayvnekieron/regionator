@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1731 032030103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.03271484375</north>
+<south>46.0107421875</south>
+<east>8.9208984375</east>
+<west>8.89892578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2428">
+<name><![CDATA[Bosco Luganese, Campolungo]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.908740,46.022800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6613">
+<name><![CDATA[Bioggio, Cuccarello]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.908590,46.017400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9251">
+<name><![CDATA[Bosco Luganese, Bassa]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.908440,46.026200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4579">
+<name><![CDATA[Bosco Luganese, Paese]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.908130,46.024200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm826">
+<name><![CDATA[Bosco Luganese, Chiesa]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.907070,46.027900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2809">
+<name><![CDATA[Bosco Luganese, Luchina]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.899330,46.023400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm217">
+<name><![CDATA[Bioggio, Posta]]></name>
+<description><![CDATA[59 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.909290,46.014600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

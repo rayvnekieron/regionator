@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>92 0203133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11978">
+<name><![CDATA[Torny-le-Grand, village]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<Point>
+<coordinates>6.967980,46.770400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12886">
+<name><![CDATA[Prez-vers-Noréaz, scierie]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.021860,46.786400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13043">
+<name><![CDATA[Prez-vers-Noréaz, croisée]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.013030,46.784800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9529">
+<name><![CDATA[Prez-vers-Noréaz, Médecin]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.008810,46.780700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9622">
+<name><![CDATA[Corserey, anc. poste]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>6.996080,46.775300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14336">
+<name><![CDATA[Corserey, Café du Châtaignier]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.992160,46.774300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13015">
+<name><![CDATA[Noréaz, Le Haut]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.027290,46.803700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6663">
+<name><![CDATA[Lovens, village]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.019680,46.772200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11062">
+<name><![CDATA[Montagny-les-Monts, croisée]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.986010,46.805800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3572">
+<name><![CDATA[Mannens, poste]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.968750,46.793800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2847">
+<name><![CDATA[Montagny-la-Ville, auberge]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.996400,46.816400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6693">
+<name><![CDATA[Montagny, Les Arbognes]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.991520,46.812300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14845">
+<name><![CDATA[Montagny-les-Monts, collège]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.989920,46.807600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6496">
+<name><![CDATA[Grandsivaz, Marais Martin]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.984520,46.788500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13092">
+<name><![CDATA[Cousset, gare]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.977060,46.817700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8877">
+<name><![CDATA[Grandsivaz, village]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.977010,46.786000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

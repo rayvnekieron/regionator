@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1770 03203212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.8349609375</north>
+<south>45.791015625</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11669">
+<name><![CDATA[Cantello, Madonnina]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.892240,45.819900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

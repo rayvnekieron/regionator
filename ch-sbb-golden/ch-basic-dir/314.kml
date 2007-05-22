@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>314 0211021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>7.91015625</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3915">
+<name><![CDATA[Wallbach, Rheinstrasse]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>7.907270,47.554100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8939">
+<name><![CDATA[Wallbach, Gemeindehaus]]></name>
+<description><![CDATA[109 connections
+]]></description>
+<Point>
+<coordinates>7.904310,47.557500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9813">
+<name><![CDATA[Möhlin, Volg-Riburg]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>7.839620,47.567400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm119">
+<name><![CDATA[Möhlin, Rüttenen]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>7.835300,47.567400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3914">
+<name><![CDATA[Rheinfelden, Saline]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>7.827970,47.565200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm300">
+<name><![CDATA[Wallbach, Friedhof]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>7.901310,47.556400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6647">
+<name><![CDATA[Möhlin, Bahnhof]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>7.833590,47.561600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12246">
+<name><![CDATA[Möhlin, Dammstrasse]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.839920,47.563400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12617">
+<name><![CDATA[Möhlin, Aerosol]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.846010,47.578200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14024">
+<name><![CDATA[Möhlin, Manor]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>7.845620,47.570600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11786">
+<name><![CDATA[Möhlin, Argo]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>7.853960,47.574600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11025">
+<name><![CDATA[Möhlin, Wohlwend]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.841270,47.566500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2511">
+<name><![CDATA[Möhlin, Industrie]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>7.853960,47.574600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3122">
+<name><![CDATA[Möhlin, Swisswell]]></name>
+<description><![CDATA[1 connections
+]]></description>
+<Point>
+<coordinates>7.844640,47.572600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

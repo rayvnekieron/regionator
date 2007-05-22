@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1165 03002201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3938">
+<name><![CDATA[Hausen am Albis, Grindlen]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.525350,47.244000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2498">
+<name><![CDATA[Rifferswil, Seleger Moor]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.506300,47.242700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2811">
+<name><![CDATA[Rifferswil, Post]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.497010,47.242400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7850">
+<name><![CDATA[Rifferswil, Unterrifferswil]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.494500,47.248200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm913">
+<name><![CDATA[Mettmenstetten, Herferswil]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.493200,47.254100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm698">
+<name><![CDATA[Oberalbis, Passhöhe]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.520690,47.276100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6284">
+<name><![CDATA[Langnau am Albis, Hinter Albis]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.517810,47.274800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm850">
+<name><![CDATA[Hausen am Albis, Vollenweid]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.510530,47.259600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7868">
+<name><![CDATA[Rifferswil, Schonau]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.510020,47.252800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

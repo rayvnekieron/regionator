@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1278 030033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1279.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1284.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1285.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1289.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1850">
+<name><![CDATA[Ziegelbrücke]]></name>
+<description><![CDATA[287 connections
+]]></description>
+<Point>
+<coordinates>9.060040,47.136200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1162">
+<name><![CDATA[Gommiswald, Gauenhof]]></name>
+<description><![CDATA[267 connections
+]]></description>
+<Point>
+<coordinates>9.020440,47.233900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13556">
+<name><![CDATA[Gommiswald, Post]]></name>
+<description><![CDATA[259 connections
+]]></description>
+<Point>
+<coordinates>9.023340,47.231200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11124">
+<name><![CDATA[Uznach, Bahnhof]]></name>
+<description><![CDATA[249 connections
+]]></description>
+<Point>
+<coordinates>8.980210,47.224300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8014">
+<name><![CDATA[Uetliburg SG, Säge]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<Point>
+<coordinates>9.026890,47.239700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1381">
+<name><![CDATA[Niederurnen, Ochsenplatz]]></name>
+<description><![CDATA[187 connections
+]]></description>
+<Point>
+<coordinates>9.052630,47.125300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5960">
+<name><![CDATA[Oberurnen, Feuerwehrplatz]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>9.059940,47.114200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5213">
+<name><![CDATA[Niederurnen, Ziegelbrückstr.]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>9.055960,47.128100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm780">
+<name><![CDATA[Uetliburg SG, Ottenhofen]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>9.033090,47.237100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7487">
+<name><![CDATA[Uznach]]></name>
+<description><![CDATA[183 connections
+]]></description>
+<Point>
+<coordinates>8.980670,47.224300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13428">
+<name><![CDATA[St. Gallenkappel, Post]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.970930,47.245800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10383">
+<name><![CDATA[Oberurnen, im Grütli]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>9.061960,47.111400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1527">
+<name><![CDATA[Ricken SG, Post]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>9.046150,47.265300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12088">
+<name><![CDATA[Oberurnen, im Horn]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>9.059520,47.117700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11742">
+<name><![CDATA[Niederurnen, Friedhof]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>9.053580,47.122000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4194">
+<name><![CDATA[Reichenburg, Allmeind]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>8.983930,47.170100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

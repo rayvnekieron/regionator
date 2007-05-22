@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>75 02031202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>6.7236328125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5470">
+<name><![CDATA[Mutrux, Le Ravin (Sylvabella)]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.722650,46.886800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10749">
+<name><![CDATA[Concise, haut du village]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.720030,46.857100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9107">
+<name><![CDATA[Concise, poste]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.719700,46.852200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13180">
+<name><![CDATA[Concise, Bas-du-Pavé]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.719270,46.854800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11072">
+<name><![CDATA[Concise LNM]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.720300,46.848700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14275">
+<name><![CDATA[Concise]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.723170,46.850900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

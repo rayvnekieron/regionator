@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>558 02120330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7465">
+<name><![CDATA[Schwarzenburg, Waldgasse]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.328590,46.805300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

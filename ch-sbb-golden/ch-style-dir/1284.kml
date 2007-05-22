@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1284 0300331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14467">
+<name><![CDATA[Ebnat-Kappel, Bahnhof]]></name>
+<description><![CDATA[135 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.120770,47.263500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8941">
+<name><![CDATA[Wattwil, Vorderer Hummelwald]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.077730,47.282100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm738">
+<name><![CDATA[Ebnat-Kappel]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.120970,47.263700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6124">
+<name><![CDATA[Ebnat, Wier]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.128640,47.261600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

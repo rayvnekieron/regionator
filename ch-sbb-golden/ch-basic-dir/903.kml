@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>903 0230030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02300300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>904.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02300301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>905.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02300302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>906.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02300303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>907.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8344">
+<name><![CDATA[Haute-Nendaz, bif.Le Déserteur]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>7.294770,46.180300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8588">
+<name><![CDATA[Haute-Nendaz, station/poste]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.294520,46.181500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4244">
+<name><![CDATA[Riddes]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>7.217840,46.172500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14216">
+<name><![CDATA[Chamoson]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>7.241090,46.188800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3002">
+<name><![CDATA[Ardon]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>7.270930,46.208600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6519">
+<name><![CDATA[Chamoson, La Tour]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.221340,46.203400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2270">
+<name><![CDATA[Haute-Nendaz, télécabine]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.291000,46.180000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5110">
+<name><![CDATA[Leytron, Union]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.207790,46.188000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9970">
+<name><![CDATA[St-Pierre-de-Clages, église]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.236940,46.191900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7256">
+<name><![CDATA[St-Pierre-de-Clages, bif.]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.236630,46.190500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3466">
+<name><![CDATA[St-Pierre-de-Clages, école]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.235240,46.193000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm641">
+<name><![CDATA[Chamoson, Plantys]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.227890,46.197600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8628">
+<name><![CDATA[Chamoson, église]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.225680,46.201700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6692">
+<name><![CDATA[Chamoson, Carrefour]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.225420,46.199600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9651">
+<name><![CDATA[Grugnay]]></name>
+<description><![CDATA[53 connections
+]]></description>
+<Point>
+<coordinates>7.216060,46.206600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5522">
+<name><![CDATA[Chamoson, Tsavez]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.220630,46.206500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

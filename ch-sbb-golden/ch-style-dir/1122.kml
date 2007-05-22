@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1122 0300202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03002020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.4814453125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1123.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1127.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>8.4814453125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1128.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1129.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm2173">
+<name><![CDATA[Schweighof]]></name>
+<description><![CDATA[314 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.503050,47.365000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm764">
+<name><![CDATA[Zürich Binz]]></name>
+<description><![CDATA[312 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.518420,47.362600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11462">
+<name><![CDATA[Sihlau]]></name>
+<description><![CDATA[310 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.525250,47.303200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3501">
+<name><![CDATA[Sood-Oberleimbach]]></name>
+<description><![CDATA[310 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.521440,47.319600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12161">
+<name><![CDATA[Zürich Manegg]]></name>
+<description><![CDATA[310 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.519680,47.338400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5101">
+<name><![CDATA[Bonstetten-Wettswil, Bahnhof]]></name>
+<description><![CDATA[296 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.468410,47.326500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4369">
+<name><![CDATA[Birmensdorf ZH, Aescherstrasse]]></name>
+<description><![CDATA[290 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.438630,47.359000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7752">
+<name><![CDATA[Aesch bei Birmensdorf]]></name>
+<description><![CDATA[290 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.438480,47.337600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4361">
+<name><![CDATA[Wettswil a.A., Dorf]]></name>
+<description><![CDATA[284 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.474140,47.337900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3747">
+<name><![CDATA[Uitikon, Schlössli]]></name>
+<description><![CDATA[282 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.447780,47.368000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7047">
+<name><![CDATA[Birmensdorf ZH, Untere Risi]]></name>
+<description><![CDATA[282 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.446890,47.359800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1715">
+<name><![CDATA[Wettswil a.A., Bäumlisächer]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.470100,47.342200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3007">
+<name><![CDATA[Ringlikon, Langwies]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.465120,47.359600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1254">
+<name><![CDATA[Uitikon Waldegg, Post]]></name>
+<description><![CDATA[258 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.462040,47.368300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2541">
+<name><![CDATA[Bonstetten, Isenbach]]></name>
+<description><![CDATA[252 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.471640,47.315200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3230">
+<name><![CDATA[Bonstetten, Lärchenhof]]></name>
+<description><![CDATA[238 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.472410,47.324400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

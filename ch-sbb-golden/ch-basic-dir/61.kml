@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>61 0203102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>6.767578125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7066">
+<name><![CDATA[Petit-Martel-Est]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.765250,47.013700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13932">
+<name><![CDATA[Petit-Martel]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.755290,47.010100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm965">
+<name><![CDATA[Le Stand]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.745590,47.005100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7448">
+<name><![CDATA[Les Ponts-de-Martel, Gde-Rue]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.731280,46.999100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10540">
+<name><![CDATA[Le Quartier]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.728360,47.020800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11019">
+<name><![CDATA[Les Ponts-de-Martel, rue Pury]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.728010,46.997500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9079">
+<name><![CDATA[Les Ponts-de-Martel, Pt-Bois]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.723430,46.996100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4176">
+<name><![CDATA[Les Ponts-de-Martel, Molta-De.]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.722080,46.998800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5032">
+<name><![CDATA[La Chaux-du-Milieu, La Gr-Joux]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.713500,47.001000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12955">
+<name><![CDATA[Les Ponts-de-Martel, gare]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>6.734570,46.998800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4524">
+<name><![CDATA[Les Petits-Ponts, Les Attis]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.764340,46.983300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12938">
+<name><![CDATA[Les Petits-Ponts, carrefour]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.753050,46.993100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10217">
+<name><![CDATA[Les Ponts-de-Martel]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>6.735880,46.999600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12445">
+<name><![CDATA[La Chaux-du-Milieu, P-Chaux]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.713900,47.020300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12185">
+<name><![CDATA[La Chaux-du-Milieu, Les Jolys]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.694310,47.009800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1471">
+<name><![CDATA[Le Cachot, Fromagerie]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.687770,47.007500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

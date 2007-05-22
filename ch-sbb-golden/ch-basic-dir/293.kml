@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>293 02103221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10207">
+<name><![CDATA[Arch, Arche]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.426770,47.167000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9092">
+<name><![CDATA[Bettlach, Bahnhof]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<Point>
+<coordinates>7.428080,47.194900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12513">
+<name><![CDATA[Altreu]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.448890,47.190400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

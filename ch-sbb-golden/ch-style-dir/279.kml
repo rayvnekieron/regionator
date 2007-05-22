@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>279 0210313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02103130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>280.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02103133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>7.734375</east>
+<west>7.6904296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>281.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm11201">
+<name><![CDATA[Balsthal, Hinterrain]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.680650,47.312000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2764">
+<name><![CDATA[Laupersdorf, Vogelsmatt]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.673380,47.312200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6127">
+<name><![CDATA[Laupersdorf, Einschnitt]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.661810,47.312000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3673">
+<name><![CDATA[Laupersdorf, Post]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.652880,47.312000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10214">
+<name><![CDATA[Klus]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.694760,47.303500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5441">
+<name><![CDATA[Thalbrücke]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.688230,47.308600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10835">
+<name><![CDATA[Balsthal, Heutschihaus]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.710440,47.319100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5823">
+<name><![CDATA[Mümliswil, Lobisei]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.709510,47.330400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10962">
+<name><![CDATA[Balsthal, St. Wolfgang]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.708810,47.321800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9906">
+<name><![CDATA[Mümliswil, Kammfabrik]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.705910,47.337800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11869">
+<name><![CDATA[Mümliswil, Post]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.701960,47.341200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2802">
+<name><![CDATA[Mümliswil, Schulhaus]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.699320,47.342300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9418">
+<name><![CDATA[Balsthal, Brauerei]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.698540,47.318000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm370">
+<name><![CDATA[Ramiswil, Mühle]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.668240,47.346600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8785">
+<name><![CDATA[Oensingen, Bauamt]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.725830,47.290300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14701">
+<name><![CDATA[Oensingen, Post]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.715250,47.289400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1262 030032011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.26318359375</south>
+<east>8.876953125</east>
+<west>8.85498046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12494">
+<name><![CDATA[Dürnten, Breitenmattstrasse]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.870700,47.278000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2939">
+<name><![CDATA[Dürnten, Langacher]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.864980,47.278100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1027">
+<name><![CDATA[Dürnten, Oberdürnten]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.860380,47.279100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7046">
+<name><![CDATA[Rüti ZH, Pilgerhof]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.868270,47.267700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5497">
+<name><![CDATA[Dürnten, J. C. Heerstrasse]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.874660,47.275000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

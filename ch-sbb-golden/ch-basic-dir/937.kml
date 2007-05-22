@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>937 0230111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12023">
+<name><![CDATA[Bratsch, Dorf]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>7.706100,46.320200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12972">
+<name><![CDATA[Wiler (Feschel-Guttet)]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>7.673650,46.322900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11890">
+<name><![CDATA[Feschel]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.678880,46.329200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13330">
+<name><![CDATA[Guttet, Dorf]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>7.663450,46.324600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5364">
+<name><![CDATA[Erschmatt]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.690520,46.321100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1601">
+<name><![CDATA[Thel Feriendorf]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.647690,46.324800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>183 02033231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.85546875</east>
+<west>6.8115234375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10255">
+<name><![CDATA[Vevey-Marché]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.840630,46.458700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4000">
+<name><![CDATA[Vevey-La Tour]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.850000,46.456900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2153">
+<name><![CDATA[Corsier-sur-Vevey, Champ-d-Ban]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.848780,46.476400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4423">
+<name><![CDATA[Corseaux, collège]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>6.829300,46.471800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10507">
+<name><![CDATA[Corseaux, Les Gonelles]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>6.812380,46.470800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14411">
+<name><![CDATA[Nant VD]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.852660,46.478200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

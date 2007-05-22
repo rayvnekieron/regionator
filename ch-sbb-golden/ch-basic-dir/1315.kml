@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1315 03010230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>9.2724609375</east>
+<west>9.228515625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7238">
+<name><![CDATA[Sitterdorf]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.248980,47.505200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

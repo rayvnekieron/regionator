@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>123 02032200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.5380859375</south>
+<east>6.3720703125</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8080">
+<name><![CDATA[Mollens VD, village]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.363350,46.576700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm398">
+<name><![CDATA[Mollens VD, Forchy]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.359200,46.572400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12478">
+<name><![CDATA[Mollens VD, Les Chaux]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.351510,46.565400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14853">
+<name><![CDATA[Berolle, Les Molliettes]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.341170,46.560800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4426">
+<name><![CDATA[Berolle, église]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.336660,46.558000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

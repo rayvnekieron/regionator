@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1075 0300112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3568">
+<name><![CDATA[Steckborn, Schulhaus Hub]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.983370,47.664900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14151">
+<name><![CDATA[Steckborn, im Rank]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.981410,47.659200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1315">
+<name><![CDATA[Steckborn, H'berg Scheitingen]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.980910,47.660400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3799">
+<name><![CDATA[Steckborn, Eichhölzli]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.978010,47.652400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7666">
+<name><![CDATA[Hörhausen, Hochstrasse]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.977610,47.649900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1265">
+<name><![CDATA[Steckborn, Bahnhof]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.980360,47.664500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2528">
+<name><![CDATA[Steckborn, Feldbach]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.976990,47.663000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6866">
+<name><![CDATA[Mannenbach]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.047560,47.675200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14929">
+<name><![CDATA[Berlingen URh]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.017660,47.675400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm63">
+<name><![CDATA[Gaienhofen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.982260,47.679500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10339">
+<name><![CDATA[Steckborn URh]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.981430,47.668700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12747">
+<name><![CDATA[Hemmenhofen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.968960,47.672000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7789">
+<name><![CDATA[Homburg, Euggerschwil]]></name>
+<description><![CDATA[5 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.013020,47.643300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

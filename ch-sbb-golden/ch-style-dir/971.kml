@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>971 023100303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.29638671875</north>
+<south>46.2744140625</south>
+<east>7.8662109375</east>
+<west>7.84423828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3936">
+<name><![CDATA[Zeneggen, Alt Zeneggen]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.860760,46.277900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6801">
+<name><![CDATA[Zeneggen, Saal]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.849080,46.277400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10699">
+<name><![CDATA[Zeneggen, Mittlere Hellela]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.846070,46.280700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

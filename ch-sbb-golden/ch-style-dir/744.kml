@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>744 0213111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02131112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>8.3935546875</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>745.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02131113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>8.4375</east>
+<west>8.3935546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>746.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5478">
+<name><![CDATA[Meierskappel, Robmatt]]></name>
+<description><![CDATA[264 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.421460,47.106800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2014">
+<name><![CDATA[Udligenswil, Dreiangel]]></name>
+<description><![CDATA[264 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.412780,47.100500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6772">
+<name><![CDATA[Udligenswil, Schützenmatt]]></name>
+<description><![CDATA[264 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.404770,47.094500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13852">
+<name><![CDATA[Greppen, Oberhaus]]></name>
+<description><![CDATA[254 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.429750,47.056500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3790">
+<name><![CDATA[Weggis, Schiffstation]]></name>
+<description><![CDATA[225 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.433240,47.031300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4032">
+<name><![CDATA[Weggis]]></name>
+<description><![CDATA[165 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.433220,47.031400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6372">
+<name><![CDATA[Küssnacht am Rigi]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.433490,47.083600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14244">
+<name><![CDATA[Längenbold]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.373800,47.104900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm78">
+<name><![CDATA[Buchrain]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.356640,47.093600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10414">
+<name><![CDATA[Hertenstein SGV]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.403450,47.026900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3859">
+<name><![CDATA[Merlischachen]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.409040,47.067700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1801">
+<name><![CDATA[Meggen]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.383050,47.050100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13119">
+<name><![CDATA[Dierikon, Dorf]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.367260,47.096400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14942">
+<name><![CDATA[Meggenhorn]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.354240,47.033700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6070">
+<name><![CDATA[Merlischachen, Dorf]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.407680,47.065000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10348">
+<name><![CDATA[Hermitage]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.349710,47.042500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

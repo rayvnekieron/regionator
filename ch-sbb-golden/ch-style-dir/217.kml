@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>217 02102001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>7.119140625</east>
+<west>7.0751953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6868">
+<name><![CDATA[Porrentruy, Collège Thurmann]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.080010,47.425600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11763">
+<name><![CDATA[Porrentruy, avenue Cuenin]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.077520,47.420700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1045 03000223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6316">
+<name><![CDATA[Höri, Oberhöri Nord]]></name>
+<description><![CDATA[107 connections
+]]></description>
+<Point>
+<coordinates>8.499300,47.503900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3803">
+<name><![CDATA[Oberglatt ZH, Mösli Hofstetten]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>8.504500,47.479300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13436">
+<name><![CDATA[Oberglatt ZH, Bahnhof]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>8.511090,47.470500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6876">
+<name><![CDATA[Niederglatt]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.503290,47.487500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5593">
+<name><![CDATA[Niederhasli]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.488690,47.478300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8116">
+<name><![CDATA[Oberglatt ZH, Rietli]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.515480,47.474500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3699">
+<name><![CDATA[Oberglatt ZH, Zentrum]]></name>
+<description><![CDATA[83 connections
+]]></description>
+<Point>
+<coordinates>8.519200,47.476600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4191">
+<name><![CDATA[Niederhasli, Adlibogen]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.494050,47.482400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10939">
+<name><![CDATA[Niederhasli, Dorf]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.484900,47.480700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
