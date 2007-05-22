@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1572 030313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>9.84375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0303130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>9.755859375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1573.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>9.84375</east>
+<west>9.755859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1574.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>9.755859375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1578.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0303133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>9.84375</east>
+<west>9.755859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1579.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13649">
+<name><![CDATA[Küblis]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>9.771840,46.914300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2003">
+<name><![CDATA[Davos Dorf]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>9.842110,46.809700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14566">
+<name><![CDATA[Saas]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>9.809950,46.907600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9867">
+<name><![CDATA[Jenaz]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>9.718320,46.929700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10076">
+<name><![CDATA[Davos Platz]]></name>
+<description><![CDATA[117 connections
+]]></description>
+<Point>
+<coordinates>9.820730,46.791500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7655">
+<name><![CDATA[Davos Dorf, Bahnhof]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>9.841860,46.810000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10673">
+<name><![CDATA[Küblis, Bahnhof]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>9.772000,46.914300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2988">
+<name><![CDATA[Küblis, Dorfplatz]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>9.777270,46.914600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10247">
+<name><![CDATA[Langwies GR]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>9.707140,46.819300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12344">
+<name><![CDATA[Litzirüti]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>9.703270,46.797900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4949">
+<name><![CDATA[Pany, Schulhaus]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>9.777000,46.931000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3973">
+<name><![CDATA[Luzein, Strilserrank]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>9.760990,46.917900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12755">
+<name><![CDATA[Peist]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.671630,46.829500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9141">
+<name><![CDATA[Davos Platz, Bahnhof]]></name>
+<description><![CDATA[67 connections
+]]></description>
+<Point>
+<coordinates>9.820350,46.790400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11149">
+<name><![CDATA[Davos Frauenkirch]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.799250,46.766600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7906">
+<name><![CDATA[Pany, Post]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<Point>
+<coordinates>9.771290,46.928200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

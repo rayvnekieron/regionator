@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1362 03012102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.3603515625</east>
+<west>9.31640625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm796">
+<name><![CDATA[Lustmühle, Post]]></name>
+<description><![CDATA[95 connections
+]]></description>
+<Point>
+<coordinates>9.358620,47.400000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7708">
+<name><![CDATA[Niederteufen, Battenhaus]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>9.353320,47.390800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5551">
+<name><![CDATA[Lustmühle, Hauteten]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>9.352840,47.396000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14000">
+<name><![CDATA[Niederteufen, Schwanen]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>9.351250,47.388400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8719">
+<name><![CDATA[Stein AR, Rose]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>9.345330,47.380400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13228">
+<name><![CDATA[Stein AR, Rämsen-Störgel]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>9.343590,47.387400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7371">
+<name><![CDATA[Gübsensee]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>9.316750,47.397900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12829">
+<name><![CDATA[Niederteufen, Post]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>9.360340,47.392500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

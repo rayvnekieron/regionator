@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1645 032000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>8.61328125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0320001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1646.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0320002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1647.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0320003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1648.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4236">
+<name><![CDATA[Cevio, Ospedale]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.604390,46.324800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4886">
+<name><![CDATA[Cevio, Centro]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.601600,46.316100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5968">
+<name><![CDATA[Cerentino, Paese]]></name>
+<description><![CDATA[33 connections
+]]></description>
+<Point>
+<coordinates>8.547820,46.305400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13070">
+<name><![CDATA[Cevio, Rovana]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.598630,46.313600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1626">
+<name><![CDATA[Linescio, di Fuori]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.587560,46.312200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3269">
+<name><![CDATA[Linescio, Paese]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.583580,46.308200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2627">
+<name><![CDATA[Linescio, di Dentro]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.580970,46.307300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7696">
+<name><![CDATA[Collinasca, Paese]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.556260,46.305100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7973">
+<name><![CDATA[Cerentino, Corsopra]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.548620,46.312800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3400">
+<name><![CDATA[Collinasca, L'Ovi]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.548030,46.299500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14052">
+<name><![CDATA[Cerentino, Chiesa]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.545330,46.310300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11450">
+<name><![CDATA[Collinasca, Casa de Torri]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.543520,46.301400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15121">
+<name><![CDATA[Cerentino, Ponte per Corino]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.541510,46.314200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8681">
+<name><![CDATA[Bosco/Gurin, Ueberab]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.507190,46.318400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6711">
+<name><![CDATA[Cerentino, Pedipiodi]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>8.538290,46.299200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8812">
+<name><![CDATA[Niva (Vallemaggia)]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>8.531030,46.293200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

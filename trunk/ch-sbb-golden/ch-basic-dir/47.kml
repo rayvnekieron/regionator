@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>47 02030322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>6.5478515625</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11437">
+<name><![CDATA[Rances, boulangerie]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.529940,46.760200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14953">
+<name><![CDATA[Baulmes, gare]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>6.523690,46.788700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7478">
+<name><![CDATA[Baulmes, poste]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.522100,46.789800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

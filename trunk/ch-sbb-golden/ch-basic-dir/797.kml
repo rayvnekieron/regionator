@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>797 02133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>8.26171875</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>798.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>808.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>8.26171875</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>813.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>815.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10272">
+<name><![CDATA[Hasliberg Goldern, Sandhubel]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.202730,46.735600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6628">
+<name><![CDATA[Hasliberg Goldern, Urseni]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.198890,46.741900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1364">
+<name><![CDATA[Hasliberg Goldern, Gletscherb.]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.198890,46.741200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10278">
+<name><![CDATA[Hasliberg Goldern, Post]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.198210,46.739600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14414">
+<name><![CDATA[Hasliberg Wasserwendi, Twing]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.195330,46.744600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4982">
+<name><![CDATA[Hasliberg Hohfluh, Weisstannen]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.186540,46.747600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9109">
+<name><![CDATA[Hasliberg Hohfluh,Haslibergerh]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.182290,46.747400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9631">
+<name><![CDATA[Hasliberg Hohfluh, Dorf]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.178720,46.749700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5801">
+<name><![CDATA[Brienzwiler, Bifing]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>8.094990,46.752600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm349">
+<name><![CDATA[Meiringen, Alpbach Parkplatz]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>8.192190,46.730400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3092">
+<name><![CDATA[Meiringen,Alpbach Sportanlagen]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>8.190120,46.722800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7668">
+<name><![CDATA[Willigen, Dorf]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.191370,46.718300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8751">
+<name><![CDATA[Lammi]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<Point>
+<coordinates>8.210280,46.714600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9290">
+<name><![CDATA[Hasliberg Hohfluh, Post]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>8.173510,46.751500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1204">
+<name><![CDATA[Hasliberg Wasserwendi, Dorf]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>8.197320,46.746400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14990">
+<name><![CDATA[Hasliberg Hohfluh, Bären]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<Point>
+<coordinates>8.169590,46.752200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

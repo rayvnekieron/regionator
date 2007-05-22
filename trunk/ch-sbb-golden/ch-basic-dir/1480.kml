@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1480 0302223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14503">
+<name><![CDATA[S. Carlo (Val Bavona), Ponte]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.526190,46.408400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11573">
+<name><![CDATA[Piano di Peccia]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.607620,46.414800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12555">
+<name><![CDATA[S. Carlo (Val Bavona), Staz.]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.529480,46.410100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

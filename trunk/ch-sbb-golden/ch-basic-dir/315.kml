@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>315 0211022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>7.822265625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02110220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>7.7783203125</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>316.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02110221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>7.822265625</east>
+<west>7.7783203125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>317.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02110222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>7.7783203125</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>318.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02110223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>7.822265625</east>
+<west>7.7783203125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>319.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12827">
+<name><![CDATA[Itingen]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>7.787210,47.467300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15138">
+<name><![CDATA[Liestal, Schulhaus]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>7.737140,47.480500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10237">
+<name><![CDATA[Magden, Lanzenberg]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.817740,47.527500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11487">
+<name><![CDATA[Magden, Unterdorf]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.808470,47.530700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6625">
+<name><![CDATA[Rheinfelden, Engerfeld]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.804610,47.548700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm559">
+<name><![CDATA[Rheinfelden, Eremitage]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.799930,47.544200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13812">
+<name><![CDATA[Arisdorf, Schulhaus]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>7.765510,47.509900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7494">
+<name><![CDATA[Arisdorf, Hofacker]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>7.764830,47.506500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm639">
+<name><![CDATA[Arisdorf, Olsbergerstrasse]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>7.765200,47.513000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1592">
+<name><![CDATA[Arisdorf, Kreuz]]></name>
+<description><![CDATA[151 connections
+]]></description>
+<Point>
+<coordinates>7.764800,47.501600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6806">
+<name><![CDATA[Liestal, Abzw. Hersberg]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.768370,47.489200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3984">
+<name><![CDATA[Arisdorf, Weieren]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.765770,47.497700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11732">
+<name><![CDATA[Liestal, Windenthal]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.758060,47.485200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8489">
+<name><![CDATA[Liestal, Leisenberg]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.751420,47.484500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7237">
+<name><![CDATA[Liestal, im Rank]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.750090,47.483200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1004">
+<name><![CDATA[Liestal, äussere Arisdörferstr]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.745120,47.484500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

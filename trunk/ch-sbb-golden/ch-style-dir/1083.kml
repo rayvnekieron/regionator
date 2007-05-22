@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1083 0300121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03001210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1084.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1085.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1086.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1087.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8009">
+<name><![CDATA[Felben-Wellhausen]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.943150,47.577100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7783">
+<name><![CDATA[Frauenfeld, Thurstrasse]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.891720,47.564000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10862">
+<name><![CDATA[Frauenfeld, Sportplatz]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.887120,47.565800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10502">
+<name><![CDATA[Frauenfeld, neue Kaserne]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.886890,47.572100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2964">
+<name><![CDATA[Frauenfeld Marktplatz]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.898680,47.554200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2942">
+<name><![CDATA[Frauenfeld, Hauptpost]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.895150,47.555800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12548">
+<name><![CDATA[Frauenfeld, Thundorferstrasse]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.902380,47.552800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1610">
+<name><![CDATA[Frauenfeld, Marktplatz]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.899110,47.554700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8521">
+<name><![CDATA[Pfyn, Post]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.957760,47.596200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7628">
+<name><![CDATA[Pfyn, Grütli]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.952770,47.595800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2004">
+<name><![CDATA[Felben-Wellhausen, Schulhaus]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.944880,47.575700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8539">
+<name><![CDATA[Wellhausen]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.944800,47.573000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14506">
+<name><![CDATA[Hüttwilen, Neumühle]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.883040,47.599200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5288">
+<name><![CDATA[Pfyn, Bürgi]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.951440,47.596000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8433">
+<name><![CDATA[Pfyn, Frohsinn]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.949230,47.600100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3957">
+<name><![CDATA[Felben, Unterdorf]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.937950,47.577300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>418 0211232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02112320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.9541015625</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>419.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.998046875</east>
+<west>7.9541015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>420.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>7.998046875</east>
+<west>7.9541015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>421.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6767">
+<name><![CDATA[Schötz, Post]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.987990,47.169500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10542">
+<name><![CDATA[Nebikon]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.977450,47.192400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6863">
+<name><![CDATA[Nebikon, Bahnhof]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.977670,47.192500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm783">
+<name><![CDATA[Willisau, Heiligblut]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.988470,47.120000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12998">
+<name><![CDATA[Willisau, Schlüsselacker]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.983200,47.119800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2236">
+<name><![CDATA[Willisau, Zopfmatt]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.979570,47.118900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13957">
+<name><![CDATA[Käppelimatt b. Willisau]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.975260,47.116900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2883">
+<name><![CDATA[Willisau, Feld]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.970600,47.111300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6203">
+<name><![CDATA[Schötz, Moosbrücke]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.994890,47.166500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1230">
+<name><![CDATA[Willisau]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.997060,47.122600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4875">
+<name><![CDATA[Gettnau]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.970580,47.140200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4924">
+<name><![CDATA[Zell]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.926530,47.136700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1008">
+<name><![CDATA[Zell LU, Bahnhof]]></name>
+<description><![CDATA[103 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.925700,47.136600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14650">
+<name><![CDATA[Altishofen, Bäckerei]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.968470,47.195700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2443">
+<name><![CDATA[Zell LU, Kirche]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.922420,47.139000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6937">
+<name><![CDATA[Fischbach LU, Leimbütz]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.910650,47.148900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

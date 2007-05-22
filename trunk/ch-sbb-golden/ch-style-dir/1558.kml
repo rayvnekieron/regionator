@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1558 0303112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>9.755859375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03031121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>9.755859375</east>
+<west>9.7119140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1559.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03031122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>9.7119140625</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1560.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03031123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>9.755859375</east>
+<west>9.7119140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1561.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13548">
+<name><![CDATA[Stels, Crals]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.728300,46.959700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11718">
+<name><![CDATA[Stels, Post]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.715400,46.965600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12424">
+<name><![CDATA[Stels, Prodavos]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.710520,46.966800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2582">
+<name><![CDATA[Fajauna, alte Post]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.700460,46.969700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7450">
+<name><![CDATA[Fajauna, Bodenrank]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.697180,46.970000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2776">
+<name><![CDATA[Schiers, Schulhaus]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.692560,46.969400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5047">
+<name><![CDATA[Buchen im Prättigau, Oberdorf]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.719900,46.939800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13672">
+<name><![CDATA[Buchen im Prättigau, Post]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.715690,46.941300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8737">
+<name><![CDATA[Mittellunden, Ufm Tobel]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.712760,46.949700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11846">
+<name><![CDATA[Mittellunden, Hinterlunden]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.712710,46.948700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14687">
+<name><![CDATA[Mittellunden, Büel]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.712520,46.944000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8781">
+<name><![CDATA[Mittellunden, Dorf]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.711940,46.945900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13623">
+<name><![CDATA[Mittellunden, Vorderlunden]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.710900,46.952400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9026">
+<name><![CDATA[Oberpusserein]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.708910,46.983000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13856">
+<name><![CDATA[Mittellunden, im Aeuli]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.706530,46.957900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10859">
+<name><![CDATA[Schiers, Bazolis]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.701150,46.978200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

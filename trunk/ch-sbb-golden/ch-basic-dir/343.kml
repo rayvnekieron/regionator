@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>343 02111223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5184">
+<name><![CDATA[Unterbözberg, mittlerer Hafen]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.171020,47.484000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5566">
+<name><![CDATA[Unterbözberg, oberer Hafen]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.165070,47.485800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8725">
+<name><![CDATA[Oberbözberg, Bächlen]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.161600,47.498400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11375">
+<name><![CDATA[Unterbözberg, Kirchbözberg]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.161170,47.491200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13350">
+<name><![CDATA[Oberbözberg, Mitteldorf]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.158600,47.497800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4537">
+<name><![CDATA[Ursprung, Post Unterbözberg]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.158070,47.483100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11499">
+<name><![CDATA[Oberbözberg, Oberdorf]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.153940,47.496200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3027">
+<name><![CDATA[Oberbözberg, Riedacker]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.148620,47.496000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14620">
+<name><![CDATA[Unterbözberg, Egenwil]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.143920,47.491800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10662">
+<name><![CDATA[Unterbözberg, Altstalden]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>8.137880,47.486400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2303">
+<name><![CDATA[Unterbözberg, hinterer Hafen]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>8.171650,47.481900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10425">
+<name><![CDATA[Gallenkirch, Abzw.]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>8.134800,47.479200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm897">
+<name><![CDATA[Gallenkirch, Dorf]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>8.130470,47.477900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2707">
+<name><![CDATA[Linn, Linde]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>8.132700,47.470700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11431">
+<name><![CDATA[Villnachern]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>8.157630,47.474400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1589 0303210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>9.404296875</east>
+<west>9.31640625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03032100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>9.3603515625</east>
+<west>9.31640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1590.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03032101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>9.404296875</east>
+<west>9.3603515625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1591.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03032103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>9.404296875</east>
+<west>9.3603515625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1592.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm11830">
+<name><![CDATA[Lescha, Abzw.]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>9.404060,46.730000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7392">
+<name><![CDATA[Tenna, Abzw.]]></name>
+<description><![CDATA[79 connections
+]]></description>
+<Point>
+<coordinates>9.350000,46.744400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5030">
+<name><![CDATA[Präz, Dalin]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.403860,46.735300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm517">
+<name><![CDATA[Präz, Curscheglias]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.403780,46.738500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9442">
+<name><![CDATA[Urmein, Post]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.401110,46.692200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12552">
+<name><![CDATA[Urmein, Rünggli]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.395200,46.691400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14611">
+<name><![CDATA[Tschappina, Paschget]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.390560,46.689700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1708">
+<name><![CDATA[Tschappina, Pramal]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.385940,46.688400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14509">
+<name><![CDATA[Tschappina, Clesalenz]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.385030,46.690500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7669">
+<name><![CDATA[Untertschappina]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.384560,46.686400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1743">
+<name><![CDATA[Acla (Safien)]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.355270,46.756500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm51">
+<name><![CDATA[Egschi]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.340000,46.735600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8094">
+<name><![CDATA[Safien Platz, Carfil]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.332410,46.731700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8311">
+<name><![CDATA[Neukirch (Safien)]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.329480,46.715600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1641">
+<name><![CDATA[Safien Platz, Rainmatte]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.328300,46.711600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5907">
+<name><![CDATA[Rüti (Neukirch)]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.325260,46.703300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

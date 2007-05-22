@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1135 030020331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.30712890625</south>
+<east>8.61328125</east>
+<west>8.59130859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13434">
+<name><![CDATA[Erlenbach ZH, Chapf]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.609390,47.307800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13617">
+<name><![CDATA[Erlenbach ZH, Rankstrasse]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.597320,47.307600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10072">
+<name><![CDATA[Erlenbach ZH, Alterswohnheime]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.594760,47.307300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

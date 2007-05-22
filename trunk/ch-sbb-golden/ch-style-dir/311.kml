@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>311 02110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>8.0859375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>7.91015625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>312.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>323.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm741">
+<name><![CDATA[Frick, Bahnhof]]></name>
+<description><![CDATA[451 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.013050,47.507300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13480">
+<name><![CDATA[Sissach]]></name>
+<description><![CDATA[415 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.812030,47.462800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4916">
+<name><![CDATA[Sissach, Bahnhof]]></name>
+<description><![CDATA[391 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.811310,47.463200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3999">
+<name><![CDATA[Wittnau, Hofmatt]]></name>
+<description><![CDATA[344 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.981930,47.482500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9404">
+<name><![CDATA[Wittnau, Mitteldorf]]></name>
+<description><![CDATA[344 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.974940,47.479200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6669">
+<name><![CDATA[Frick, Bänihübel]]></name>
+<description><![CDATA[332 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.033260,47.504100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10654">
+<name><![CDATA[Frick, Oberdorf]]></name>
+<description><![CDATA[332 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.024640,47.505300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7065">
+<name><![CDATA[Laufenburg, Bahnhof]]></name>
+<description><![CDATA[325 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.061120,47.560200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm714">
+<name><![CDATA[Laufenburg, Kera-Werke]]></name>
+<description><![CDATA[322 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.057410,47.555200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14129">
+<name><![CDATA[Kaisten, Gemeindehaus]]></name>
+<description><![CDATA[305 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.045610,47.539800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7328">
+<name><![CDATA[Bözen, Mitteldorf]]></name>
+<description><![CDATA[292 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.082590,47.494800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5966">
+<name><![CDATA[Mumpf, Bahnhofstrasse]]></name>
+<description><![CDATA[288 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.914850,47.546900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3602">
+<name><![CDATA[Gelterkinden, Post]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.853440,47.465500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5554">
+<name><![CDATA[Rheinfelden]]></name>
+<description><![CDATA[262 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.792160,47.551200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13654">
+<name><![CDATA[Stein-Säckingen]]></name>
+<description><![CDATA[258 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.948830,47.541600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14085">
+<name><![CDATA[Gelterkinden, Bahnhof]]></name>
+<description><![CDATA[255 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.848800,47.466000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

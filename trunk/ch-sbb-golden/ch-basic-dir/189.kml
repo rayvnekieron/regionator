@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>189 0203332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02033320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.8994140625</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>190.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.943359375</east>
+<west>6.8994140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>191.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>6.8994140625</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>192.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>6.943359375</east>
+<west>6.8994140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>193.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14561">
+<name><![CDATA[Chailly-Montreux, poste]]></name>
+<description><![CDATA[105 connections
+]]></description>
+<Point>
+<coordinates>6.891990,46.452300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14214">
+<name><![CDATA[Burier]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>6.877110,46.447900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2900">
+<name><![CDATA[Sonzier]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>6.921210,46.439000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm752">
+<name><![CDATA[Collège]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>6.906410,46.441900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7738">
+<name><![CDATA[Vuarennes]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>6.903160,46.441900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14580">
+<name><![CDATA[Belmont-sur-Montreux]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>6.902470,46.445200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10026">
+<name><![CDATA[Planchamp]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>6.902000,46.454100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1588">
+<name><![CDATA[Châtelard VD]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>6.900580,46.452400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11188">
+<name><![CDATA[Les Avants]]></name>
+<description><![CDATA[87 connections
+]]></description>
+<Point>
+<coordinates>6.943320,46.453800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1479">
+<name><![CDATA[Sonloup]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>6.938910,46.457100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9435">
+<name><![CDATA[Territet]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>6.922690,46.426400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3886">
+<name><![CDATA[Les Monts-de-Corsier]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>6.870730,46.493600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9219">
+<name><![CDATA[Veytaux-Chillon]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>6.927850,46.417600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm396">
+<name><![CDATA[Sendy-Sollard]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.929070,46.446600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7489">
+<name><![CDATA[Le Tremblex]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.932750,46.436000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3489">
+<name><![CDATA[Valmont]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.929300,46.428500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

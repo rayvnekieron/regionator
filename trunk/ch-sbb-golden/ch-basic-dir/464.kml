@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>464 02113131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.4375</east>
+<west>8.3935546875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3934">
+<name><![CDATA[Birmensdorf ZH, Altenberg]]></name>
+<description><![CDATA[200 connections
+]]></description>
+<Point>
+<coordinates>8.419270,47.347000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13508">
+<name><![CDATA[Oberwil-Lieli, Englisächer]]></name>
+<description><![CDATA[200 connections
+]]></description>
+<Point>
+<coordinates>8.401300,47.341500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7834">
+<name><![CDATA[Lieli AG, Dorf]]></name>
+<description><![CDATA[200 connections
+]]></description>
+<Point>
+<coordinates>8.397320,47.340900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

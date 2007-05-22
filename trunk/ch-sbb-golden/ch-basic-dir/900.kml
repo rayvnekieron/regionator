@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>900 02300232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>7.1630859375</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1087">
+<name><![CDATA[Col-des-Planches]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>7.122770,46.096700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

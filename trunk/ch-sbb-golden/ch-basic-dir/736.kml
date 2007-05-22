@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>736 0213101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.26171875</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13816">
+<name><![CDATA[Eichenring]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>8.260550,47.095700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10298">
+<name><![CDATA[Malters, Oberdorf]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.177710,47.033900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14691">
+<name><![CDATA[Rothenburg]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.247550,47.089200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9602">
+<name><![CDATA[Holderkäppeli]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.219000,47.023300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm548">
+<name><![CDATA[Rothenburg, Wahligen]]></name>
+<description><![CDATA[63 connections
+]]></description>
+<Point>
+<coordinates>8.252570,47.090300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11230">
+<name><![CDATA[Malters, Bahnhof]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<Point>
+<coordinates>8.182050,47.038600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm758">
+<name><![CDATA[Malters, alte Post]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>8.181360,47.036600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3098">
+<name><![CDATA[Obernau, Stampfeli]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.254680,47.034300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4257">
+<name><![CDATA[Obernau, Dorf]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.251670,47.031200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6388">
+<name><![CDATA[Obernau, Feldmatt]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.248670,47.028300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1498">
+<name><![CDATA[Obernau, Oberrodel]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.244340,47.024900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5008">
+<name><![CDATA[Hergiswald, Kirche]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.238050,47.022100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

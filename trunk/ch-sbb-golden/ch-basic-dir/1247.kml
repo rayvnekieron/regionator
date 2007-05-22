@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1247 03003112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.0966796875</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5639">
+<name><![CDATA[Lütisburg, Dorf]]></name>
+<description><![CDATA[121 connections
+]]></description>
+<Point>
+<coordinates>9.081590,47.394700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2237">
+<name><![CDATA[Rindal, Grütli]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.095840,47.407600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4192">
+<name><![CDATA[Rindal, Unterrindal]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.089590,47.409300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2868">
+<name><![CDATA[Lütisburg, Schulhaus]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.082220,47.395700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2007">
+<name><![CDATA[Lütisburg, Abzw. Tufertschwil]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.081980,47.398800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12040">
+<name><![CDATA[Lütisburg, Grünhügel]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.079850,47.404900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9931">
+<name><![CDATA[Bazenheid, Eichbühl]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>9.067110,47.415000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14337">
+<name><![CDATA[Kirchberg SG, Breiti]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>9.054620,47.414200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12808">
+<name><![CDATA[Bazenheid, Bahnhof]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<Point>
+<coordinates>9.068400,47.409600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11503">
+<name><![CDATA[Lütisburg, Restaurant Bahnhof]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.070240,47.383000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2429">
+<name><![CDATA[Bazenheid, Barriere]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.068410,47.410000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

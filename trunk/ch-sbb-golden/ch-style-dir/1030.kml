@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1030 03000123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.6806640625</north>
+<south>47.63671875</south>
+<east>8.701171875</east>
+<west>8.6572265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3180">
+<name><![CDATA[Trüllikon, Kindergarten]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.685140,47.637900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1634">
+<name><![CDATA[Rudolfingen, Dorf]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.674190,47.640200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11872">
+<name><![CDATA[Trüllikon, Post]]></name>
+<description><![CDATA[77 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.694120,47.638000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4373">
+<name><![CDATA[Oberschlatt TG, Fallentor]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.693950,47.658900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

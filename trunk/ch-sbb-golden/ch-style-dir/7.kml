@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>7 02013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>7.03125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>020131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>8.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>10.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>020133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>11.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm2214">
+<name><![CDATA[Villeret]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.019690,47.160200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5300">
+<name><![CDATA[La Chaux-des-Breuleux]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.025210,47.220400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14588">
+<name><![CDATA[Les Breuleux]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.005170,47.210400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5427">
+<name><![CDATA[Les Breuleux-Eglise]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.002410,47.213100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10620">
+<name><![CDATA[Saignelégier, gare]]></name>
+<description><![CDATA[61 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.994430,47.254700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm143">
+<name><![CDATA[Mont-Soleil]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.993790,47.158600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12200">
+<name><![CDATA[St-Imier SMtS]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.993370,47.152800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13822">
+<name><![CDATA[Le Bémont JU, village]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.011200,47.262900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1833">
+<name><![CDATA[Les Pommerats, bas du village]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.983400,47.269500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10846">
+<name><![CDATA[La Chaux-de-Fonds, bif. Bul-Va]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.835750,47.121300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11747">
+<name><![CDATA[La Chaux-de-Fonds, Parc Sports]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.835190,47.112300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1118">
+<name><![CDATA[La Chaux-de-Fonds, Combettes]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.834470,47.117300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm53">
+<name><![CDATA[La Chaux-de-Fonds, Bassets-Cr]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.831100,47.124000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12378">
+<name><![CDATA[Le Bémont]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.014270,47.263300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2034">
+<name><![CDATA[Les Joux-Derrière,anc.collège]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.821220,47.123900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10396">
+<name><![CDATA[Les Joux-Derrière, restaurant]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.808720,47.122100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

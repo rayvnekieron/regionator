@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1163 0300220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03002200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.4814453125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1164.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1165.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.4814453125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1166.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03002203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1167.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14688">
+<name><![CDATA[Rumentikon]]></name>
+<description><![CDATA[288 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.437850,47.208500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1475">
+<name><![CDATA[Aeugst am Albis, Höchweg]]></name>
+<description><![CDATA[270 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.480960,47.270700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7908">
+<name><![CDATA[Aeugst am Albis, Müliberg]]></name>
+<description><![CDATA[270 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.478470,47.281400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1252">
+<name><![CDATA[Aeugstertal, Kloster]]></name>
+<description><![CDATA[264 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.486770,47.284400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8743">
+<name><![CDATA[Cham, Pfad]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.453780,47.199500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13895">
+<name><![CDATA[Hausen am Albis, Tüfenbach]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.522000,47.259100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2392">
+<name><![CDATA[Hausen am Albis, Riedmatt]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.517240,47.263000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11599">
+<name><![CDATA[Affoltern a. A., Kronenplatz]]></name>
+<description><![CDATA[234 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.453500,47.281100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm868">
+<name><![CDATA[Hausen am Albis, Türlersee]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.512600,47.267500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14532">
+<name><![CDATA[Aeugstertal, Landhus]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.500780,47.279700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2876">
+<name><![CDATA[Aeugst am Albis, Dorf]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.485350,47.267800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm502">
+<name><![CDATA[Affoltern a. A., Lilienberg]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.465930,47.278600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13547">
+<name><![CDATA[Affoltern a. A., Bezirksspital]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.457390,47.281200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4610">
+<name><![CDATA[Mettmenstetten]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.457370,47.244100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7602">
+<name><![CDATA[Affoltern am Albis]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.446580,47.276100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5640">
+<name><![CDATA[Knonau]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.466710,47.220300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

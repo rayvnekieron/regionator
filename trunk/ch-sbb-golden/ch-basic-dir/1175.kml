@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1175 03002213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm593">
+<name><![CDATA[Hirzel, Kirche]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.606410,47.217100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8912">
+<name><![CDATA[Hirzel, Wolfisbühl]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.604440,47.225200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10194">
+<name><![CDATA[Hirzel, Strickler]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.601140,47.229500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5002">
+<name><![CDATA[Hirzel, Neuhaus]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.599080,47.232000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10945">
+<name><![CDATA[Horgenberg, Vorderklausen]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.596700,47.240700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9996">
+<name><![CDATA[Sihlbrugg]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>8.577040,47.238400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5808">
+<name><![CDATA[Hirzel, Kath. Kirche]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>8.606840,47.214300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5174">
+<name><![CDATA[Hirzel, Widenbach]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<Point>
+<coordinates>8.598030,47.234300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12600">
+<name><![CDATA[Horgenberg, Widenbach]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>8.598140,47.234400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9147">
+<name><![CDATA[Horgen, Hanegg]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.612200,47.231200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6380">
+<name><![CDATA[Hirzel, Enderholz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.610860,47.226500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5729">
+<name><![CDATA[Neuheim, Buechmatt]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.577930,47.203100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

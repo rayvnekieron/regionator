@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>628 02121230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>7.5146484375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm276">
+<name><![CDATA[Bütschel, Gschneit]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.472720,46.841300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3189">
+<name><![CDATA[Thurnen, Bahnhof]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.513320,46.812500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm304">
+<name><![CDATA[Kaufdorf, Bahnhof]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.501560,46.837600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10819">
+<name><![CDATA[Riggisberg, Abeggstiftung]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.493670,46.816100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

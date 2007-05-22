@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1014 03</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>45.0</south>
+<east>11.25</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>46.40625</south>
+<east>9.84375</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1015.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>46.40625</south>
+<east>11.25</east>
+<west>9.84375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1619.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.0</south>
+<east>9.84375</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1642.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.0</south>
+<east>11.25</east>
+<west>9.84375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1793.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4219">
+<name><![CDATA[Baar, Bahnhof]]></name>
+<description><![CDATA[1504 connections
+]]></description>
+<Point>
+<coordinates>8.523920,47.195500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10370">
+<name><![CDATA[St. Gallen, Bahnhof]]></name>
+<description><![CDATA[1453 connections
+]]></description>
+<Point>
+<coordinates>9.369710,47.422700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14354">
+<name><![CDATA[Zug, Landis + Gyr (Bahnhof)]]></name>
+<description><![CDATA[1400 connections
+]]></description>
+<Point>
+<coordinates>8.515050,47.174500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5586">
+<name><![CDATA[Chur, Postplatz]]></name>
+<description><![CDATA[1330 connections
+]]></description>
+<Point>
+<coordinates>9.531850,46.851300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2636">
+<name><![CDATA[Chur, Bahnhofplatz]]></name>
+<description><![CDATA[1227 connections
+]]></description>
+<Point>
+<coordinates>9.529660,46.853100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2291">
+<name><![CDATA[Zürich Oerlikon]]></name>
+<description><![CDATA[1198 connections
+]]></description>
+<Point>
+<coordinates>8.544110,47.411500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm720">
+<name><![CDATA[Zürich Stadelhofen]]></name>
+<description><![CDATA[1184 connections
+]]></description>
+<Point>
+<coordinates>8.548470,47.366600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14472">
+<name><![CDATA[Zürich Hardbrücke]]></name>
+<description><![CDATA[1159 connections
+]]></description>
+<Point>
+<coordinates>8.517110,47.385200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2120">
+<name><![CDATA[Abtwil SG, Säntispark]]></name>
+<description><![CDATA[1156 connections
+]]></description>
+<Point>
+<coordinates>9.315020,47.417500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14092">
+<name><![CDATA[St. Gallen, Fürstenlandbrücke]]></name>
+<description><![CDATA[1130 connections
+]]></description>
+<Point>
+<coordinates>9.336540,47.412200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1312">
+<name><![CDATA[Abtwil SG, Cinedome]]></name>
+<description><![CDATA[1129 connections
+]]></description>
+<Point>
+<coordinates>9.312250,47.416200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3065">
+<name><![CDATA[Talacher]]></name>
+<description><![CDATA[1128 connections
+]]></description>
+<Point>
+<coordinates>8.544100,47.176100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5589">
+<name><![CDATA[Abtwil SG, Dorf]]></name>
+<description><![CDATA[1122 connections
+]]></description>
+<Point>
+<coordinates>9.316420,47.421500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14881">
+<name><![CDATA[Zug, Kantonsspital]]></name>
+<description><![CDATA[1116 connections
+]]></description>
+<Point>
+<coordinates>8.513190,47.160900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10501">
+<name><![CDATA[Chur, Post I]]></name>
+<description><![CDATA[1106 connections
+]]></description>
+<Point>
+<coordinates>9.527700,46.852300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5601">
+<name><![CDATA[Zug, Lorzen]]></name>
+<description><![CDATA[1106 connections
+]]></description>
+<Point>
+<coordinates>8.491380,47.178300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

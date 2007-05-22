@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>759 0213121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>8.26171875</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02131212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>8.2177734375</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>760.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02131213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>761.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10930">
+<name><![CDATA[Oberwilen, Mätteli]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.211890,46.872500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7147">
+<name><![CDATA[Oberwilen, Seefuren]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.202660,46.868900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1133">
+<name><![CDATA[Oberwilen, Moos]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.194740,46.865800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2659">
+<name><![CDATA[Sarnen, Kreuzstrasse]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.255790,46.912900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1343">
+<name><![CDATA[Sarnen, Schatzli]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.251110,46.907000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3594">
+<name><![CDATA[Sarnen, Bitzighofen]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.247420,46.902100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11969">
+<name><![CDATA[Kägiswil, Dorf]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.260200,46.922300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11817">
+<name><![CDATA[Sachseln, Bahnhof]]></name>
+<description><![CDATA[61 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.239080,46.870700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4740">
+<name><![CDATA[Sarnen, Ei]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.245080,46.898800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5069">
+<name><![CDATA[Sarnen, Sonnenberg]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.238140,46.895400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6152">
+<name><![CDATA[Sarnen, Abzw. Ramersberg]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.232230,46.895000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9728">
+<name><![CDATA[Stalden (Sarnen), Geren]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.224630,46.891300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6714">
+<name><![CDATA[Stalden (Sarnen), Haldi]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.219660,46.888100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13182">
+<name><![CDATA[Stalden (Sarnen), Post]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.211760,46.886400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm37">
+<name><![CDATA[Flüeli-Ranft, Allmend]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.260170,46.877300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm397">
+<name><![CDATA[Flüeli-Ranft, Kehrwäldli]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.256210,46.875500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

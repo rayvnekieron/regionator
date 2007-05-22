@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1029 03000122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.6806640625</north>
+<south>47.63671875</south>
+<east>8.6572265625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5780">
+<name><![CDATA[Uhwiesen, Unterdorf]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.633210,47.669100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3940">
+<name><![CDATA[Dachsen, Abzw. EDAK]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.621170,47.663500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1682">
+<name><![CDATA[Dachsen, Bahnhof]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>8.614060,47.667100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8482">
+<name><![CDATA[Dachsen, EDAK]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.621100,47.660400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

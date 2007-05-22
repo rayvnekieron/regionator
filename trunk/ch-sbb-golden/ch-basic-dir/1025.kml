@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1025 0300011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.724609375</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6413">
+<name><![CDATA[Thayngen, Bahnhof]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>8.704340,47.745700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8341">
+<name><![CDATA[Thayngen, Schulhaus]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.710300,47.749300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7770">
+<name><![CDATA[Gottmadingen, Bahnhof]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.774460,47.736700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3071">
+<name><![CDATA[Barzheim, Dorf]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>8.720360,47.760000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

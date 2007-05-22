@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>117 0203213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>6.6796875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02032130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.6259765625</south>
+<east>6.6357421875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>118.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02032131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.6259765625</south>
+<east>6.6796875</east>
+<west>6.6357421875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>119.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02032132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.6259765625</north>
+<south>46.58203125</south>
+<east>6.6357421875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>120.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4382">
+<name><![CDATA[Grésaley]]></name>
+<description><![CDATA[113 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.642070,46.643200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6679">
+<name><![CDATA[Bottens, croisée]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.660230,46.616900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6175">
+<name><![CDATA[Bretigny-sur-Morrens, croisée]]></name>
+<description><![CDATA[84 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.646480,46.597500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4904">
+<name><![CDATA[Montheron, La Râpe]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.658940,46.592900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm367">
+<name><![CDATA[Echallens, gare]]></name>
+<description><![CDATA[79 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.632800,46.639500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5398">
+<name><![CDATA[Cheseaux-s-Lausanne, Pâquis]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.603900,46.586800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5628">
+<name><![CDATA[Villars-le-Terroir, poste]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.638770,46.655500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13631">
+<name><![CDATA[Echallens, La Fontaine]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.637030,46.645100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7859">
+<name><![CDATA[Poliez-le-Grand, village]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.664510,46.636900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5353">
+<name><![CDATA[Villars-le-Terroir, B'Croix]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.643940,46.659100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11035">
+<name><![CDATA[Villars-le-Terroir, h.village]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.640110,46.657700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4307">
+<name><![CDATA[Cheseaux-s-Lausanne, gare]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.605900,46.584200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10096">
+<name><![CDATA[Poliez-le-Grand, Corchamp]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.657990,46.636000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1520">
+<name><![CDATA[Echallens, Les Trois-Sapins]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.645870,46.639000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13218">
+<name><![CDATA[Echallens, La Robellaz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.642250,46.640600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9746">
+<name><![CDATA[Echallens, Place la Couronne]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.636380,46.640600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

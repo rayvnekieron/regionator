@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1773 03203300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.8349609375</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>032033000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.85693359375</south>
+<east>8.98681640625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1774.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032033001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.85693359375</south>
+<east>9.0087890625</east>
+<west>8.98681640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1775.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032033002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.85693359375</north>
+<south>45.8349609375</south>
+<east>8.98681640625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1776.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032033003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.85693359375</north>
+<south>45.8349609375</south>
+<east>9.0087890625</east>
+<west>8.98681640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1777.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm2550">
+<name><![CDATA[Castel S.Pietro,Pte Loverciano]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.002850,45.863200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10880">
+<name><![CDATA[Castel S.Pietro, Bv. Corteglia]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.996160,45.863800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7816">
+<name><![CDATA[Castel S.Pietro, Al Mulino]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.993030,45.866600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5426">
+<name><![CDATA[Novazzano, Casate]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.977380,45.841300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11595">
+<name><![CDATA[Novazzano, Bivio Boscherina]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.972160,45.843400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13394">
+<name><![CDATA[Brusata (Novazzano), Al Gaggio]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.969310,45.842800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1083">
+<name><![CDATA[Brusata (Novazzano), Paese]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.965380,45.842900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11220">
+<name><![CDATA[Novazzano, Chiesa]]></name>
+<description><![CDATA[81 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.982400,45.841500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13970">
+<name><![CDATA[Balerna, Passeggiata]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.005270,45.837800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9751">
+<name><![CDATA[Novazzano, Ponte Pobbia]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.997550,45.840000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4412">
+<name><![CDATA[Novazzano, Fercasa]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.990980,45.842000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12408">
+<name><![CDATA[Novazzano, Moronaccio]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.988600,45.842200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6410">
+<name><![CDATA[Novazzano, Paese]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.982420,45.842300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm73">
+<name><![CDATA[Balerna, Piazza]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.007520,45.848700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm991">
+<name><![CDATA[Balerna, Croce Bianca]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.006600,45.850300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10807">
+<name><![CDATA[Balerna, Bellavista (FFS)]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.006480,45.846300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

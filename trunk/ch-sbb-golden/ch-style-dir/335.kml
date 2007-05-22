@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>335 0211121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>8.26171875</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02111210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.2177734375</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>336.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02111211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>337.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02111212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.2177734375</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>338.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02111213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>339.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm235">
+<name><![CDATA[Leibstadt, Milchhüsli]]></name>
+<description><![CDATA[227 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.175140,47.590300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14403">
+<name><![CDATA[Koblenz]]></name>
+<description><![CDATA[223 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.227020,47.600400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15105">
+<name><![CDATA[Kleindöttingen, Schwächeler]]></name>
+<description><![CDATA[206 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.242680,47.572400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12776">
+<name><![CDATA[Kleindöttingen, Burlen]]></name>
+<description><![CDATA[206 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.227460,47.576700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9130">
+<name><![CDATA[Döttingen, Bahnhof]]></name>
+<description><![CDATA[199 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.256680,47.575800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10263">
+<name><![CDATA[Full, Milchzentrale]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.204100,47.616400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13397">
+<name><![CDATA[Full, Post]]></name>
+<description><![CDATA[165 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.209430,47.616800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12608">
+<name><![CDATA[Full, Fähre]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.214780,47.618600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10006">
+<name><![CDATA[Felsenau AG, Werkhof]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.220560,47.605100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9794">
+<name><![CDATA[Koblenz Dorf]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.240140,47.609400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1597">
+<name><![CDATA[Leuggern, Turnhalle]]></name>
+<description><![CDATA[153 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.216250,47.582600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6484">
+<name><![CDATA[Döttingen]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.256340,47.575300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6597">
+<name><![CDATA[Klingnau]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.249470,47.581900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10601">
+<name><![CDATA[Gippingen, Härdlestrasse]]></name>
+<description><![CDATA[133 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.219640,47.587300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm55">
+<name><![CDATA[Reuenthal AG, Dorfplatz]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.202600,47.604100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14501">
+<name><![CDATA[Kleindöttingen, Breite]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.242620,47.568900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

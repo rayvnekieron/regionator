@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1091 03001222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3277">
+<name><![CDATA[Räterschen, Pestalozzistrasse]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.798650,47.499500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5270">
+<name><![CDATA[Rümikon ZH, Sportplatz]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.791350,47.502200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4542">
+<name><![CDATA[Schlatt b. Winterthur, Post]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<Point>
+<coordinates>8.827670,47.469200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6018">
+<name><![CDATA[Winterthur, Eidberg]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<Point>
+<coordinates>8.794770,47.473700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

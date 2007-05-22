@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>707 0213002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.822265625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02130020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>7.7783203125</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>708.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02130021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>7.822265625</east>
+<west>7.7783203125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>709.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12393">
+<name><![CDATA[Gohl, Schulhaus Chammershus]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.821030,46.941600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6225">
+<name><![CDATA[Langnau i.E., Hasenknubel]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.798630,46.940900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9423">
+<name><![CDATA[Gohl, Mettlen]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.817360,46.962300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2183">
+<name><![CDATA[Langnau i.E., Moos]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.795570,46.937200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1547">
+<name><![CDATA[Langnau i.E., Berufsschule]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.777490,46.942000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11408">
+<name><![CDATA[Neumühle, Dorf]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.752030,46.967400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13772">
+<name><![CDATA[Zollbrück, Zentrum]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.749950,46.971700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm353">
+<name><![CDATA[Zollbrück, Bahnhof]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.741830,46.975900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1791">
+<name><![CDATA[Ranflüh, Oberdorf]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.740960,46.985800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8445">
+<name><![CDATA[Heimisbach, Post]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.760840,47.011800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm335">
+<name><![CDATA[Oberfrittenbach, Grebli]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.794620,46.970400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13745">
+<name><![CDATA[Oberfrittenbach, Schulhaus]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.783180,46.958000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13807">
+<name><![CDATA[Trachselwald]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.735870,47.016400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1070">
+<name><![CDATA[Langnau i.E., Hüselmatte]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>7.765690,46.945700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6877">
+<name><![CDATA[Gohl, Obeningohl]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.818730,46.968900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5977">
+<name><![CDATA[Langnau i.E., Schwimmbad Moos]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.797530,46.937500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

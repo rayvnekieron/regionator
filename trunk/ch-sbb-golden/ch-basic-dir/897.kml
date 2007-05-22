@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>897 02300222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1697">
+<name><![CDATA[Martigny-Combe, Les Marques]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.059470,46.097800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14474">
+<name><![CDATA[Sommet-des-Vignes]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.054930,46.097500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13303">
+<name><![CDATA[Le Brocard]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.051610,46.077300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12688">
+<name><![CDATA[Ravoire, Cretex]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.047320,46.096500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4684">
+<name><![CDATA[Les Rappes VS]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.047280,46.082000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm356">
+<name><![CDATA[Ravoire, colonie]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.046660,46.096900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8372">
+<name><![CDATA[Ravoire, Planojean]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.044380,46.092300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10953">
+<name><![CDATA[Martigny-Combe,Pied-du-Château]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.044160,46.080800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12099">
+<name><![CDATA[Ravoire, hôtel]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.043990,46.095600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3890">
+<name><![CDATA[La Fontaine, hameau]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.039540,46.079600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12984">
+<name><![CDATA[Le Cergneux]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.035670,46.078400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

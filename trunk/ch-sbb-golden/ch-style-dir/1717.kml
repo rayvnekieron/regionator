@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1717 03203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.703125</south>
+<east>9.140625</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>032030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.87890625</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1718.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.87890625</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1756.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.703125</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1767.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>032033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.703125</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1771.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7415">
+<name><![CDATA[Genestrerio, Croce Grande]]></name>
+<description><![CDATA[230 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.964930,45.856700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3029">
+<name><![CDATA[Lugano, Piazza Rezzonico]]></name>
+<description><![CDATA[230 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.950550,46.002500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3044">
+<name><![CDATA[Morbio Superiore, Posta]]></name>
+<description><![CDATA[218 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.021690,45.860200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7854">
+<name><![CDATA[Chiasso, Confine]]></name>
+<description><![CDATA[210 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.033750,45.832100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6829">
+<name><![CDATA[Chiasso, Stazione]]></name>
+<description><![CDATA[210 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.032140,45.832200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14670">
+<name><![CDATA[Chiasso, Piazza Indipendenza]]></name>
+<description><![CDATA[210 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.031840,45.832800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9935">
+<name><![CDATA[Lugano, Molino Nuovo]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.954940,46.012400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11497">
+<name><![CDATA[Sureggio]]></name>
+<description><![CDATA[202 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.969660,46.049200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2863">
+<name><![CDATA[Cademario, Lisone]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.885870,46.022400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14114">
+<name><![CDATA[Lamone-Cadempino, Stazione]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.931950,46.040400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5513">
+<name><![CDATA[Vezia, Paese]]></name>
+<description><![CDATA[192 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.937190,46.024100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm204">
+<name><![CDATA[Genestrerio, Piazza]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.960890,45.855000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4692">
+<name><![CDATA[Lamone, Paese]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.932310,46.044300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11075">
+<name><![CDATA[Lamone, Ostarietta]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.928420,46.043600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10599">
+<name><![CDATA[Paradiso, Stazione FFS]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.940200,45.988000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm977">
+<name><![CDATA[Gravesano, Grumo di Gravesano]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.923170,46.040700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>165 02033111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>7.03125</east>
+<west>6.9873046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12722">
+<name><![CDATA[Lentigny, Restaurant]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>7.002770,46.757700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

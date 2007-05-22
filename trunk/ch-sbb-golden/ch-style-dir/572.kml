@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>572 02121012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.5146484375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14828">
+<name><![CDATA[Iffwil, Strücki]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.478130,47.061700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2112">
+<name><![CDATA[Zuzwil BE, Bergacker]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.474040,47.054500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2096">
+<name><![CDATA[Zuzwil BE, Dorfplatz]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.472850,47.050900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14832">
+<name><![CDATA[Jegenstorf, Bahnhof]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.507070,47.047300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11133">
+<name><![CDATA[Jegenstorf, Rotonda]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.510490,47.058200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13315">
+<name><![CDATA[Jegenstorf, Säget]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.509710,47.051800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11276">
+<name><![CDATA[Urtenen, Käserei]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.501780,47.027100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6602">
+<name><![CDATA[Schönbühl, Solothurnstrasse]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.500790,47.021500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

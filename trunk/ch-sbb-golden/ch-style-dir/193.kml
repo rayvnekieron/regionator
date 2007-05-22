@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>193 02033323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>6.943359375</east>
+<west>6.8994140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1813">
+<name><![CDATA[Toveyre]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.928470,46.427900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11051">
+<name><![CDATA[Glion-Collège]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.926200,46.433800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10585">
+<name><![CDATA[Glion]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.924720,46.431800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13940">
+<name><![CDATA[Glion-Hôtel-des-Alpes]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.924320,46.432800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5555">
+<name><![CDATA[Les Planches (Montreux)]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.917560,46.433100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10967">
+<name><![CDATA[Caux]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.938520,46.431100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8581">
+<name><![CDATA[Montreux CGN]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.909500,46.434500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3668">
+<name><![CDATA[Château-de-Chillon]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.929200,46.412900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8962">
+<name><![CDATA[Chamby, poste]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.914150,46.448800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11876">
+<name><![CDATA[Territet CGN]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.922310,46.425700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm927">
+<name><![CDATA[Chernex, gare]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.909950,46.445900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

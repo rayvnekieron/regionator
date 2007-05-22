@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>324 0211030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1128">
+<name><![CDATA[Stein AG, Novartis]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>7.959060,47.551200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3399">
+<name><![CDATA[Sisseln AG, Novartis]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>7.967380,47.553000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2299">
+<name><![CDATA[Sisseln AG, Roche]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>7.979990,47.551800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9308">
+<name><![CDATA[Sisseln AG, Unterdorf]]></name>
+<description><![CDATA[117 connections
+]]></description>
+<Point>
+<coordinates>7.987970,47.552900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6427">
+<name><![CDATA[Sisseln AG, Breitenacher]]></name>
+<description><![CDATA[111 connections
+]]></description>
+<Point>
+<coordinates>7.993950,47.553300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

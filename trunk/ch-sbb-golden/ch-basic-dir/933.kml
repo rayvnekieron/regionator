@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>933 02301032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.2744140625</north>
+<south>46.23046875</south>
+<east>7.5146484375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11131">
+<name><![CDATA[Ollon VS, village]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.478850,46.273700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7348">
+<name><![CDATA[Chalais CBV]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.511870,46.267700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3291">
+<name><![CDATA[Chalais, Les Noyers]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.500120,46.264300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5387">
+<name><![CDATA[Loye]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>7.477530,46.245800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4099">
+<name><![CDATA[Itravers]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.487910,46.248500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9421">
+<name><![CDATA[Réchy, village]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>7.495340,46.261300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

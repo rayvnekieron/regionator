@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1225 03003003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm496">
+<name><![CDATA[Turbenthal, Gosswil]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.874470,47.409500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8519">
+<name><![CDATA[Wila, Talgarten]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.869230,47.408500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5945">
+<name><![CDATA[Turbenthal, Tablat]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.860060,47.411400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11458">
+<name><![CDATA[Turbenthal, Chäfer]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>8.874900,47.415700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

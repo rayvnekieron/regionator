@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>72 020312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0203120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>6.767578125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>73.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>77.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>6.767578125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>78.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>79.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7881">
+<name><![CDATA[Gorgier, rue du Crêt-de-la-Fin]]></name>
+<description><![CDATA[153 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.771930,46.901500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7379">
+<name><![CDATA[Estavayer-le-Lac, gare]]></name>
+<description><![CDATA[117 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.843440,46.844300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5786">
+<name><![CDATA[Corcelles-près-Concise,village]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.709010,46.847600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2047">
+<name><![CDATA[Onnens VD, croisée]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.688420,46.838900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1632">
+<name><![CDATA[Concise, église]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.719720,46.850300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14724">
+<name><![CDATA[Cheyres]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.786400,46.816900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10378">
+<name><![CDATA[Estavayer-le-Lac]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.842960,46.844500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11096">
+<name><![CDATA[Yvonand]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.746690,46.800900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm739">
+<name><![CDATA[Bevaix]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.811690,46.929700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3829">
+<name><![CDATA[St-Aubin NE, Pattus]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.774610,46.897400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11818">
+<name><![CDATA[Vaumarcus, gare]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.757460,46.878400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4681">
+<name><![CDATA[Concise, La Rochelle]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.751990,46.870100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15071">
+<name><![CDATA[Concise, la Raisse]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.748140,46.863100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9437">
+<name><![CDATA[Combremont-le-Grand, village]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.817640,46.761800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2906">
+<name><![CDATA[Estavayer-le-Lac, dépôt de bus]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.844060,46.846500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2276">
+<name><![CDATA[Mézery, Laiterie]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.753810,46.758100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

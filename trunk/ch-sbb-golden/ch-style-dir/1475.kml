@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1475 0302202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm303">
+<name><![CDATA[Göscheneralp, Dammagletscher]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.499360,46.649300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1764">
+<name><![CDATA[Realp, Post]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.501630,46.598400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8622">
+<name><![CDATA[Galenstock (Furka)]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.479600,46.589600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7925">
+<name><![CDATA[Tiefenbach DFB]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.464630,46.587500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3038">
+<name><![CDATA[Tiefenbach (Furka)]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.461390,46.592700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7244">
+<name><![CDATA[Realp DFB]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.501270,46.595700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

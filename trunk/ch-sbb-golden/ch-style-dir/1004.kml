@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1004 023103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0231030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1005.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0231031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1006.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0231032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1007.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8101">
+<name><![CDATA[Saas Grund, Post]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.937010,46.123500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12204">
+<name><![CDATA[Saas Almagell, Lehn]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.956350,46.098100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3620">
+<name><![CDATA[Saas Almagell, Alpien]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.951480,46.100900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11057">
+<name><![CDATA[Saas Grund, untere Brücke]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.941730,46.113900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4550">
+<name><![CDATA[Saas Grund, Zenlauinen]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.940130,46.117000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3802">
+<name><![CDATA[Saas Grund, Altersheim]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.938590,46.119800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2324">
+<name><![CDATA[Saas Grund, Niwi]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.937610,46.121900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8947">
+<name><![CDATA[Saas Grund, Unter den Bodmen]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.930610,46.110400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14872">
+<name><![CDATA[Saas Almagell, Post]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.957700,46.094200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11820">
+<name><![CDATA[Saas Balen, Dorf]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.928500,46.153100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6724">
+<name><![CDATA[Saas Grund, Trift (Seilbahn)]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.937010,46.127900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13473">
+<name><![CDATA[Saas Grund, Unter dem Berg]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.935890,46.130500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10203">
+<name><![CDATA[Saas Fee, Wildi]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.934480,46.114700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9146">
+<name><![CDATA[Tamatten]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.934280,46.133600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm960">
+<name><![CDATA[Saas Fee, Fluh]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.932220,46.123100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13263">
+<name><![CDATA[Bidermatten]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.931340,46.137400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

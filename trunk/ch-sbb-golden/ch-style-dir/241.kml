@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>241 021023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0210230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>242.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0210231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>243.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0210232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>246.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0210233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>251.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4996">
+<name><![CDATA[Moutier]]></name>
+<description><![CDATA[191 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.381050,47.280700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4181">
+<name><![CDATA[Studen BE, Grien]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.314790,47.111100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4881">
+<name><![CDATA[Nidau, Beunden]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.240970,47.120900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3325">
+<name><![CDATA[Nidau, Kirche]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.239640,47.125400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2490">
+<name><![CDATA[Nidau, Friedhof Schürlirain]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.238350,47.117300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4436">
+<name><![CDATA[Biel/Bienne, Pont-du-Moulin]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.244600,47.140200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7744">
+<name><![CDATA[Nidau]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.242410,47.124500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3733">
+<name><![CDATA[Nidau Beunden]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.240320,47.119800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11620">
+<name><![CDATA[Ipsach]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.235190,47.117200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13609">
+<name><![CDATA[Ipsach Herdi]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.228930,47.112400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12598">
+<name><![CDATA[Büren an der Aare, Bahnhof]]></name>
+<description><![CDATA[159 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.370090,47.138200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12973">
+<name><![CDATA[Brügg b. Biel, Möschler]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.280630,47.124000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9718">
+<name><![CDATA[Reconvilier]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.227420,47.235200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13769">
+<name><![CDATA[Biel/Bienne, Omega]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.260660,47.143400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2918">
+<name><![CDATA[Pontenet]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.254160,47.238900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10052">
+<name><![CDATA[Biel/Bienne, Orpundplatz]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.273850,47.143500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1332 030112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>9.66796875</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0301121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1333.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0301122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1334.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0301123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1336.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10196">
+<name><![CDATA[Rorschacherberg, Z-Friedhof]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>9.499160,47.470600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11814">
+<name><![CDATA[Rorschach,Müller-Friedbergstr.]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>9.497950,47.473600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9297">
+<name><![CDATA[Thal, Linde]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.560490,47.469500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12255">
+<name><![CDATA[Staad SG, Nagelstein]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.551610,47.471500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6932">
+<name><![CDATA[Buechen b. Staad]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.542880,47.477300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm568">
+<name><![CDATA[Staad SG, Risegg]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.540260,47.478000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13726">
+<name><![CDATA[Staad SG, Schönenbach]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.534290,47.478100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3711">
+<name><![CDATA[Wienacht-Tobel]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.540630,47.466200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1483">
+<name><![CDATA[Wartensee]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.533580,47.471800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10168">
+<name><![CDATA[Sandbüchel]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.521750,47.475400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4441">
+<name><![CDATA[Seebleiche]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.516350,47.477500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10401">
+<name><![CDATA[Wasserburg (Bodensee) Hafen]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.629780,47.564900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9605">
+<name><![CDATA[Rheineck, Altensteig]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.586780,47.463400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10889">
+<name><![CDATA[Lutzenberg, Friedegg]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.580740,47.461700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1511">
+<name><![CDATA[Langenargen Hafen]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.539910,47.595200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5057">
+<name><![CDATA[Rorschach Hafen (See)]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.492510,47.478900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

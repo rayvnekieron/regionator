@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1159 03002131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.7890625</east>
+<west>8.7451171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2921">
+<name><![CDATA[Pfäffikon ZH, Bahnhof]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<Point>
+<coordinates>8.784520,47.367100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14737">
+<name><![CDATA[Aathal]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>8.765610,47.336000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2479">
+<name><![CDATA[Wermatswil, Post]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>8.746270,47.362100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm984">
+<name><![CDATA[Pfäffikon ZH]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>8.784770,47.367100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7878">
+<name><![CDATA[Wetzikon ZH, Post Robenhausen]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.787080,47.330300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5183">
+<name><![CDATA[Wetzikon ZH, Seegräbnerstrasse]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.783850,47.330600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12946">
+<name><![CDATA[Pfäffikon ZH, Frohwies]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>8.781520,47.368200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1497">
+<name><![CDATA[Pfäffikon ZH, Kirche]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>8.780860,47.365600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8824">
+<name><![CDATA[Pfäffikon ZH, im Spitz]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>8.772100,47.365300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2195">
+<name><![CDATA[Pfäffikon ZH, Abzw. Rutschberg]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>8.766750,47.362800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9838">
+<name><![CDATA[Pfäffikon ZH, Faichrüti]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>8.758400,47.359800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11476">
+<name><![CDATA[Pfäffikon ZH, Bussenhausen]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>8.781660,47.372700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13115">
+<name><![CDATA[Pfäffikon ZH, Hörnlistrasse]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.785760,47.370900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10535">
+<name><![CDATA[Pfäffikon ZH, Steinwiesstrasse]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.782280,47.372100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

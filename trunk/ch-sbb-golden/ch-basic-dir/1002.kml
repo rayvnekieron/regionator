@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1002 02310212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6394">
+<name><![CDATA[Gasenried, Erbji]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.828160,46.182900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9774">
+<name><![CDATA[Gasenried, Chäschermatte]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.824860,46.183200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11266">
+<name><![CDATA[Gasenried, Post]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.824760,46.180000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3280">
+<name><![CDATA[Seetalhorn]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>7.859340,46.176400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

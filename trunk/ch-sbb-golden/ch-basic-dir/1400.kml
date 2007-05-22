@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1400 03013003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.580078125</east>
+<west>9.5361328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2872">
+<name><![CDATA[Altstätten SG]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>9.556510,47.374200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm619">
+<name><![CDATA[Altstätten SG, Spital]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>9.540470,47.382600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10811">
+<name><![CDATA[Reute AR, Steinegacht]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>9.578230,47.415700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14226">
+<name><![CDATA[Mohren, Sturzenhard]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>9.576280,47.408500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2476">
+<name><![CDATA[Mohren]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.572870,47.405900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11758">
+<name><![CDATA[Mohren, Grütli]]></name>
+<description><![CDATA[45 connections
+]]></description>
+<Point>
+<coordinates>9.566810,47.403500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13794">
+<name><![CDATA[Marbach SG, Bruggtobel]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.557270,47.396900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3847">
+<name><![CDATA[Altstätten SG, Kapf]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.554890,47.395400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm274">
+<name><![CDATA[Lüchingen, Hallenbad]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.547600,47.387000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6847">
+<name><![CDATA[Altstätten SG, Heime]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.542080,47.381500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12896">
+<name><![CDATA[Altstätten Stadt]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>9.537310,47.376800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12936">
+<name><![CDATA[Oberegg AI, St. Anton Rössli]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.538930,47.410800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12625">
+<name><![CDATA[Oberegg AI, Bäumen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.538410,47.414400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

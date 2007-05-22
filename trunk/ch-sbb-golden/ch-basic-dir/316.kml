@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>316 02110220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>7.7783203125</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2282">
+<name><![CDATA[Giebenach, Rainweg]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.744020,47.523400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13161">
+<name><![CDATA[Rheinfelden, Augarten]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>7.767670,47.547700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11459">
+<name><![CDATA[Kaiseraugst, Hoffmann-La Roche]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<Point>
+<coordinates>7.742780,47.538900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6480">
+<name><![CDATA[Olsberg, Chloster]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.773890,47.523100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

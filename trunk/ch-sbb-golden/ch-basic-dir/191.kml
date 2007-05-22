@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>191 02033321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.943359375</east>
+<west>6.8994140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6321">
+<name><![CDATA[Lally]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.914030,46.479200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5294">
+<name><![CDATA[Ondallaz-L'Alliaz]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.913960,46.473100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6747">
+<name><![CDATA[Chamby-Musée]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.912800,46.454200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2169">
+<name><![CDATA[Fayaux]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.907630,46.470000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12974">
+<name><![CDATA[Bois-de-Chexbres]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>6.901530,46.473300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10012">
+<name><![CDATA[Fontanivent, gare]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>6.902400,46.452300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3405">
+<name><![CDATA[Brent]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>6.899740,46.458600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8380">
+<name><![CDATA[Villard-sur-Chamby, la Cranche]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>6.931290,46.460600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7829">
+<name><![CDATA[Villard-sur-Chamby, anc. poste]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>6.930250,46.466400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm428">
+<name><![CDATA[Villard-sur-Chamby, D'Zetiau]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>6.930230,46.468700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1201">
+<name><![CDATA[Villard-sur-Chamby, Saumont]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>6.926410,46.459900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10907">
+<name><![CDATA[Chamby, Brison]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>6.919290,46.456300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14858">
+<name><![CDATA[Les Pléiades]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.909940,46.483300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4888">
+<name><![CDATA[Chamby, Chaulin]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.908570,46.453700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3710">
+<name><![CDATA[Villard-sur-Chamby, poste]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.927910,46.473800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12967">
+<name><![CDATA[Bains-de-l'Alliaz]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>6.927190,46.481000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

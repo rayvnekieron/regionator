@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1366 03012111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2799">
+<name><![CDATA[Rehetobel, Schulhaus]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.486150,47.425700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12520">
+<name><![CDATA[Rehetobel, Post]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.482570,47.427300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4940">
+<name><![CDATA[Rehetobel, Sonder]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.480290,47.428200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5679">
+<name><![CDATA[Rehetobel, Schützenhaus]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.473610,47.427000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6115">
+<name><![CDATA[Rehetobel, Robach]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.465760,47.429600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm718">
+<name><![CDATA[Rehetobel, Midegg]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.465280,47.425800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7085">
+<name><![CDATA[Rehetobel, Hörnlirank]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.461240,47.424300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14362">
+<name><![CDATA[Zweibrücken (Rehetobel)]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.457890,47.423200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

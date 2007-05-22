@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>220 0210202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>7.119140625</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6368">
+<name><![CDATA[St-Ursanne, Bellefontaine]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.099130,47.356900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12934">
+<name><![CDATA[Ocourt, Moulin-du-Doubs]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.088920,47.350400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1431">
+<name><![CDATA[Epauvillers, poste]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.115480,47.334900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7103">
+<name><![CDATA[Epauvillers, haut du village]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.111850,47.333600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12919">
+<name><![CDATA[Enson-la-Fin]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.105440,47.300500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13873">
+<name><![CDATA[Epiquerez, Montbion]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.086110,47.324300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12959">
+<name><![CDATA[Les Sairains, bif.]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.081670,47.295900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2228">
+<name><![CDATA[Essertfallon]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.070890,47.325400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2067">
+<name><![CDATA[Soubey, Chercenay]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.059070,47.313900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3675">
+<name><![CDATA[St-Brais, poste]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.112020,47.305000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7902">
+<name><![CDATA[Ocourt]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.076340,47.351500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10948">
+<name><![CDATA[Epiquerez, village]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.057640,47.328700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3580">
+<name><![CDATA[Soubey, garage]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.055150,47.306400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4367">
+<name><![CDATA[Les Enfers, bif. Les Saignes]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.048010,47.288600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12614">
+<name><![CDATA[Les Enfers, restaurant]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.047340,47.290400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3929">
+<name><![CDATA[La Motte]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.054850,47.349200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

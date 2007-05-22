@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>632 021213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0212130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>633.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>642.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>643.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>648.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12203">
+<name><![CDATA[Münsingen, Bahnhof]]></name>
+<description><![CDATA[443 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.559310,46.872800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1653">
+<name><![CDATA[Konolfingen]]></name>
+<description><![CDATA[387 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.621360,46.880700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1998">
+<name><![CDATA[Worb Dorf]]></name>
+<description><![CDATA[387 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.562470,46.930000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14594">
+<name><![CDATA[Thun, Lauenen]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.636300,46.762000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6081">
+<name><![CDATA[Thun, Spital]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.631390,46.761300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1810">
+<name><![CDATA[Lerchenfeld]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.601390,46.771200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5471">
+<name><![CDATA[Uetendorf Allmend]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.594850,46.773000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm919">
+<name><![CDATA[Uetendorf]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.573140,46.774900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12723">
+<name><![CDATA[Thierachern, unterer Schwand]]></name>
+<description><![CDATA[226 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.586560,46.763000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8880">
+<name><![CDATA[Münsingen, Traube]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.564070,46.874800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5180">
+<name><![CDATA[Oberdiessbach]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.618050,46.839500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10104">
+<name><![CDATA[Goldiwil, Dorf]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.661170,46.762000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm572">
+<name><![CDATA[Goldiwil, Stägacher]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.654610,46.758400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3559">
+<name><![CDATA[Worb Dorf, Bahnhofstrasse]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.564170,46.927000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4676">
+<name><![CDATA[Münsingen]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.559430,46.873300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12537">
+<name><![CDATA[Grosshöchstetten]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.634600,46.904000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

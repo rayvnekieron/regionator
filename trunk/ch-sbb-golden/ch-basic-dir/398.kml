@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>398 02112210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5574">
+<name><![CDATA[Murgenthal, Fahracker]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>7.829420,47.264600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4227">
+<name><![CDATA[Fulenbach, Boningerstrasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.840780,47.281900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12368">
+<name><![CDATA[Fulenbach, Höchi]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.836450,47.277400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13003">
+<name><![CDATA[Fulenbach, Altes Schulhaus]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.834390,47.266600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14797">
+<name><![CDATA[Fulenbach, Oberdorf]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.830480,47.273800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10612">
+<name><![CDATA[Fulenbach, Wolfwilerstrasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.826170,47.272900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4768">
+<name><![CDATA[Murgenthal, Post]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.831070,47.265200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7943">
+<name><![CDATA[Glashütten, Kirche]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>7.845560,47.258900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9509">
+<name><![CDATA[Murgenthal, Bahnhof]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>7.831070,47.265200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

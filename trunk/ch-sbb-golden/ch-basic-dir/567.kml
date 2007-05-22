@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>567 02121002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13799">
+<name><![CDATA[Schüpfen, Bahnhof]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>7.384360,47.042600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

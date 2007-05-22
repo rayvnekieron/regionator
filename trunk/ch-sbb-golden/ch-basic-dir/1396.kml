@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1396 030130010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.43896484375</south>
+<east>9.55810546875</east>
+<west>9.5361328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6939">
+<name><![CDATA[Heiden, Bahnhof]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.536340,47.445900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4902">
+<name><![CDATA[Heiden]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>9.536770,47.446400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

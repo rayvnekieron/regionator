@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1100 03001300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12157">
+<name><![CDATA[Müllheim, Alterssiedlung]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.000530,47.603300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10557">
+<name><![CDATA[Reckenwil, Steinberg]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.989810,47.634700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2210">
+<name><![CDATA[Müllheim, Ober Hungerbüel]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.983820,47.612000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8255">
+<name><![CDATA[Unterhörstetten, Post]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.979010,47.617900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10530">
+<name><![CDATA[Oberhörstetten, Abzw.]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.977460,47.622000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9802">
+<name><![CDATA[Homburg, Post]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<Point>
+<coordinates>9.005780,47.634700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>448 0211311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2930">
+<name><![CDATA[Würenlos, Bettlen]]></name>
+<description><![CDATA[286 connections
+]]></description>
+<Point>
+<coordinates>8.370700,47.445600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10703">
+<name><![CDATA[Killwangen-Spreitenbach]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>8.354190,47.433300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1340">
+<name><![CDATA[Dietikon Stoffelbach]]></name>
+<description><![CDATA[206 connections
+]]></description>
+<Point>
+<coordinates>8.399060,47.397100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12761">
+<name><![CDATA[Reppischhof]]></name>
+<description><![CDATA[206 connections
+]]></description>
+<Point>
+<coordinates>8.396350,47.384700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1554">
+<name><![CDATA[Bergfrieden]]></name>
+<description><![CDATA[202 connections
+]]></description>
+<Point>
+<coordinates>8.399110,47.403600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2865">
+<name><![CDATA[Urdorf]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>8.434710,47.390900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5458">
+<name><![CDATA[Urdorf Weihermatt]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<Point>
+<coordinates>8.430330,47.381000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6916">
+<name><![CDATA[Buchs-Dällikon]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>8.435580,47.453400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5634">
+<name><![CDATA[Otelfingen]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.387510,47.454900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9577">
+<name><![CDATA[Otelfingen Golfpark]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>8.402100,47.455800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7207">
+<name><![CDATA[Würenlos]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>8.357640,47.445800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

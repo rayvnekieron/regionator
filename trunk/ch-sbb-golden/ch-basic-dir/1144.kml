@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1144 03002110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.7451171875</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14876">
+<name><![CDATA[Ottikon b. Kemptthal]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<Point>
+<coordinates>8.716940,47.435300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1736">
+<name><![CDATA[Kyburg, Ettenhusen]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>8.737140,47.449000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6164">
+<name><![CDATA[Kyburg, Billikon]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>8.726570,47.442800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm875">
+<name><![CDATA[Agasul]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.744300,47.425200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5710">
+<name><![CDATA[Kyburg, Gemeindehaus]]></name>
+<description><![CDATA[47 connections
+]]></description>
+<Point>
+<coordinates>8.744490,47.457200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2985">
+<name><![CDATA[Kemptthal, Bahnhof]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>8.705850,47.453000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

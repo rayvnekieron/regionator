@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1424 030200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>8.61328125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0302000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1425.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1430.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1431.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1432.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8184">
+<name><![CDATA[Gersau, Schiffstation]]></name>
+<description><![CDATA[214 connections
+]]></description>
+<Point>
+<coordinates>8.525830,46.990900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1304">
+<name><![CDATA[Walchwil, Gemeindehaus]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>8.512230,47.099900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14649">
+<name><![CDATA[Vitznau, Station]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.482820,47.010200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14749">
+<name><![CDATA[Beckenried, Nidwaldnerhof]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>8.471190,46.969400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1518">
+<name><![CDATA[Beckenried, Hungacher]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>8.465300,46.971000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5194">
+<name><![CDATA[Beckenried, Niederdorf]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>8.461360,46.971000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13275">
+<name><![CDATA[Buochs, Unterfeld]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>8.447900,46.971600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12825">
+<name><![CDATA[Buochs, Motel Postillion]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>8.441020,46.972800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3721">
+<name><![CDATA[Küssnacht am Rigi, Ebnet]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>8.444790,47.086100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12962">
+<name><![CDATA[Rigi Staffel]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.474240,47.053700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13689">
+<name><![CDATA[Beckenried, Post]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<Point>
+<coordinates>8.474460,46.968700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9650">
+<name><![CDATA[Brunnen]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.610050,46.999200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13638">
+<name><![CDATA[Seelisberg]]></name>
+<description><![CDATA[139 connections
+]]></description>
+<Point>
+<coordinates>8.586930,46.978800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm326">
+<name><![CDATA[Treib TSB]]></name>
+<description><![CDATA[139 connections
+]]></description>
+<Point>
+<coordinates>8.585680,46.987100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13992">
+<name><![CDATA[Mittlerschwanden]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.484310,47.019200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9960">
+<name><![CDATA[Freibergen]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>8.479730,47.030000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

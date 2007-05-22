@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>560 02120332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1650">
+<name><![CDATA[Riedstätt, ob dem Wald]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.322080,46.788200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5376">
+<name><![CDATA[Kalchstätten, Eigen]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.309990,46.771100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7562">
+<name><![CDATA[Guggisberg, Gehlismatt]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.306430,46.761200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11808">
+<name><![CDATA[Zumholz, Guggersbachbrücke]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.301620,46.760300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6136">
+<name><![CDATA[Riedacker BE, Schulhaus]]></name>
+<description><![CDATA[7 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.312980,46.759400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

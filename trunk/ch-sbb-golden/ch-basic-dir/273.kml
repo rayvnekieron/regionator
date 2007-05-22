@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>273 02103102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>7.6025390625</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12026">
+<name><![CDATA[Himmelried, vorderer Igraben]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<Point>
+<coordinates>7.596980,47.416200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5684">
+<name><![CDATA[Nunningen, Roderis]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<Point>
+<coordinates>7.596300,47.408800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

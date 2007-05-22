@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1000 02310210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9053">
+<name><![CDATA[Grächen, Schmidji]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.842510,46.201100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5620">
+<name><![CDATA[Grächen, Binen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.841150,46.201600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6">
+<name><![CDATA[Grächen, Matten]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.841050,46.198600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14510">
+<name><![CDATA[Grächen, Stadlen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.837640,46.199700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8403">
+<name><![CDATA[Kalpetran]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.837010,46.214100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8887">
+<name><![CDATA[Grächen, Nessien]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.835210,46.197700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3843">
+<name><![CDATA[Grächen, Fuhrmatten]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.829280,46.192000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3643">
+<name><![CDATA[Gasenried, Hubeln]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.824620,46.187500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12668">
+<name><![CDATA[Grächen, Post]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<Point>
+<coordinates>7.839840,46.196500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11773">
+<name><![CDATA[Grächen LGH]]></name>
+<description><![CDATA[25 connections
+]]></description>
+<Point>
+<coordinates>7.841500,46.196600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14277">
+<name><![CDATA[Grächen LGSH]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>7.840540,46.194400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2676">
+<name><![CDATA[Embd KlES]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.826020,46.215000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8603">
+<name><![CDATA[Stalden VS, Lichtbiel]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.859820,46.223800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14770">
+<name><![CDATA[Kalpetran, Talstrasse]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.844250,46.216300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1076">
+<name><![CDATA[Kalpetran, Dorf]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<Point>
+<coordinates>7.844240,46.216200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

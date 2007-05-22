@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>818 0213333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12093">
+<name><![CDATA[Nufenen Passhöhe]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.385630,46.477300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14492">
+<name><![CDATA[Cruina]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.425330,46.472700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

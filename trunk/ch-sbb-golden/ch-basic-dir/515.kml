@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>515 0212010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02120100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>516.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>517.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>518.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.294921875</east>
+<west>7.2509765625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>519.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6264">
+<name><![CDATA[Epsach-Baar]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>7.218140,47.065600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2750">
+<name><![CDATA[Walperswil, Post]]></name>
+<description><![CDATA[133 connections
+]]></description>
+<Point>
+<coordinates>7.226710,47.060600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6792">
+<name><![CDATA[Walperswil, Gimmiz]]></name>
+<description><![CDATA[125 connections
+]]></description>
+<Point>
+<coordinates>7.234640,47.054300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7750">
+<name><![CDATA[Kappelen, Kirche]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>7.267520,47.059800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7923">
+<name><![CDATA[Radelfingen b. A., Mühlethal]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.276830,47.027400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5475">
+<name><![CDATA[Aarberg, Schwimmbad]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.274820,47.040900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5349">
+<name><![CDATA[Aarberg, Murtenstrasse]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.273820,47.043400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4690">
+<name><![CDATA[Radelfingen b. A., Dorf]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.272570,47.022500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2361">
+<name><![CDATA[Aarberg, Aarezelg]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.272160,47.049000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12420">
+<name><![CDATA[Aarberg, Nidaustrasse]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.270100,47.047800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2467">
+<name><![CDATA[Aarberg, Bielstr/Friedhof]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.269870,47.044700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm25">
+<name><![CDATA[Kappelen, Oberdorf]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.262270,47.056200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11577">
+<name><![CDATA[Bellmund, Stöckleren]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.246300,47.103800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9888">
+<name><![CDATA[Bellmund, Dorf]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.246290,47.108300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3407">
+<name><![CDATA[St. Niklaus b. Merzligen]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.245030,47.092100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6688">
+<name><![CDATA[Bellmund, Bodenacher]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.245000,47.101100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

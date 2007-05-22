@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1653 0320021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14131">
+<name><![CDATA[Vergeletto, Paese]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>8.603900,46.226300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4978">
+<name><![CDATA[Spruga]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.568040,46.200400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13831">
+<name><![CDATA[Ribellasca]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.601550,46.154100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

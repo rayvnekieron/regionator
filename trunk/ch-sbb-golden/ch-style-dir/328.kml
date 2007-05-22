@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>328 0211033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02110330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>329.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02110331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.0859375</east>
+<west>8.0419921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>330.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9808">
+<name><![CDATA[Hornussen, Unterdorf]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.060420,47.500600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11080">
+<name><![CDATA[Herznach, Oberherznach]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.053430,47.469800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8053">
+<name><![CDATA[Ueken, Zeihen Abzw.]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.052230,47.480600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10465">
+<name><![CDATA[Ueken, Post]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.048970,47.485100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9451">
+<name><![CDATA[Ueken, Unterdorf]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.044020,47.487600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6049">
+<name><![CDATA[Densbüren, Breite]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.035780,47.462500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5284">
+<name><![CDATA[Zeihen, Post]]></name>
+<description><![CDATA[143 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.083360,47.476400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6588">
+<name><![CDATA[Frick, Abzw. Ittenthal]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.036420,47.520300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11143">
+<name><![CDATA[Kaisten, Kaisterberg]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.035510,47.527500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5139">
+<name><![CDATA[Bözen, Post]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.084260,47.496400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1382">
+<name><![CDATA[Kaisten, Steigstich]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.047180,47.532100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10741">
+<name><![CDATA[Kaisten, Eigenmatt]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.044240,47.536400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5385">
+<name><![CDATA[Frick, Firma Müller]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.019990,47.505100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9103">
+<name><![CDATA[Kaisten, Unterdorf]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.044320,47.543600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7247">
+<name><![CDATA[Oeschgen, Hinterdorf]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.019600,47.517400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5788">
+<name><![CDATA[Oeschgen, Post]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.016160,47.519000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

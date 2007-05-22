@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1685 0320121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03201212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1686.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03201213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1690.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm15024">
+<name><![CDATA[Gerra Piano, Paese]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.911660,46.174400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2822">
+<name><![CDATA[Gerra P., Centro Professionale]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.905810,46.173500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3741">
+<name><![CDATA[Riazzino, Posta]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.898720,46.174800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5319">
+<name><![CDATA[Riazzino, Alle Bolle]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.888710,46.175800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1253">
+<name><![CDATA[Riazzino, Bivio Stradonino]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.881160,46.176800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11852">
+<name><![CDATA[Gordola, Via Crespo]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.878580,46.177100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1541">
+<name><![CDATA[Cugnasco, Posta]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.917190,46.175200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14303">
+<name><![CDATA[Gudo, Malcantone]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.956700,46.175800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8507">
+<name><![CDATA[Progero, Posta Gudo]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.941110,46.174000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm681">
+<name><![CDATA[Gudo, Serta]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.937240,46.174200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14661">
+<name><![CDATA[Gudo, Pian Marnino]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.931730,46.174300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9576">
+<name><![CDATA[Cugnasco, Massarescio]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.925610,46.175300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10079">
+<name><![CDATA[Gudo, Chiesa]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.951180,46.175200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8541">
+<name><![CDATA[Cadenazzo, Stazione]]></name>
+<description><![CDATA[71 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.944070,46.152200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11477">
+<name><![CDATA[Contone, Posta]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.924700,46.149100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm671">
+<name><![CDATA[Quartino, Centro Luserte]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.911770,46.154300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

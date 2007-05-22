@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1202 030023123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.21923828125</north>
+<south>47.197265625</south>
+<east>8.7451171875</east>
+<west>8.72314453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2698">
+<name><![CDATA[Wilen bei Wollerau, Schlyffi]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.729980,47.197500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10975">
+<name><![CDATA[Wilen bei Wollerau]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.734310,47.197600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

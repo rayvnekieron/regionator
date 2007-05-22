@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1174 03002212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.5693359375</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14330">
+<name><![CDATA[Ebertswil, Post]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.549200,47.227300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5059">
+<name><![CDATA[Kappel am Albis, Kappel]]></name>
+<description><![CDATA[115 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.526260,47.227700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11636">
+<name><![CDATA[Kappel am Albis, Allenwinden]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.532240,47.226100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

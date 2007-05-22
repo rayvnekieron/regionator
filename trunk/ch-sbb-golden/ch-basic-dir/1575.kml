@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1575 03031310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>9.7998046875</east>
+<west>9.755859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6190">
+<name><![CDATA[Conters im Prättigau, Dorf]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>9.799370,46.902000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

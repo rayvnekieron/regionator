@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>6 02011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>7.03125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13774">
+<name><![CDATA[Buix]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.029980,47.479300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13733">
+<name><![CDATA[Boncourt]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.016560,47.492600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9139">
+<name><![CDATA[Buix, gare]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.030030,47.479300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm979">
+<name><![CDATA[Boncourt, gare]]></name>
+<description><![CDATA[1 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.017470,47.490000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

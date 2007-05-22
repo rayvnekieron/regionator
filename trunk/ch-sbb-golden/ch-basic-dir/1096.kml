@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1096 03001232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.9208984375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6375">
+<name><![CDATA[Aadorf, Bahnhof]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.903320,47.488200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5329">
+<name><![CDATA[Ettenhausen TG, Post]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.899980,47.477500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3257">
+<name><![CDATA[Ettenhausen TG, Dorf]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.899300,47.477200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

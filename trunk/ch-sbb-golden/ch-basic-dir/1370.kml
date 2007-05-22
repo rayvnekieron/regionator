@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1370 03012121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>9.404296875</east>
+<west>9.3603515625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4368">
+<name><![CDATA[Appenzell, Kau]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<Point>
+<coordinates>9.384560,47.330200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5082">
+<name><![CDATA[Schlatt (Schlatt-Haslen)]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.396160,47.357900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2179">
+<name><![CDATA[Haslen AI, List]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.368560,47.363600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3221">
+<name><![CDATA[Haslen AI, Linde]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.368300,47.365400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>799 0213300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>8.173828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02133000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>800.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02133001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>801.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02133003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>802.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4873">
+<name><![CDATA[Brienzwiler]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.090630,46.745600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9473">
+<name><![CDATA[Brünig-Hasliberg]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.138650,46.757800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9101">
+<name><![CDATA[Brünigen, Gnoll]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>8.128360,46.751500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9806">
+<name><![CDATA[Brienzwiler, Schlüssel]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>8.105460,46.751900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11300">
+<name><![CDATA[Balm b. Meiringen, Brücke]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.170560,46.727000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7462">
+<name><![CDATA[Balm b. Meiringen, Urbachsey]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.169940,46.729500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9125">
+<name><![CDATA[Hausen b. Meiringen, Platz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.169300,46.730600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3186">
+<name><![CDATA[Balm b. Meiringen, Wirtschaft]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.169250,46.727000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6798">
+<name><![CDATA[Hausen b. Meiringen,Summerauli]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.166700,46.732000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5238">
+<name><![CDATA[Meiringen, Wysland]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.165750,46.734400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14167">
+<name><![CDATA[Balm b. Meiringen, Dorf]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.165320,46.726600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14619">
+<name><![CDATA[Balm b. Meiringen, Schulhaus]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.159050,46.727500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6612">
+<name><![CDATA[Balm b. Meiringen, Zaunstrasse]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.157480,46.727500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6674">
+<name><![CDATA[Balm b. Meiringen, Ey]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.154220,46.729700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8607">
+<name><![CDATA[Unterbach BE, Garage Egger]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.144490,46.733500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7890">
+<name><![CDATA[Unterbach BE, Unterheid]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.137300,46.735000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

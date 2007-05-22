@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>282 021032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>7.55859375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0210320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>283.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0210321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>7.55859375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>286.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0210322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>291.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0210323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.55859375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>295.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10700">
+<name><![CDATA[Zuchwil, Juraplatz]]></name>
+<description><![CDATA[294 connections
+]]></description>
+<Point>
+<coordinates>7.558210,47.208100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7198">
+<name><![CDATA[Grenchen Süd, Bahnhof]]></name>
+<description><![CDATA[291 connections
+]]></description>
+<Point>
+<coordinates>7.399050,47.188500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11504">
+<name><![CDATA[Grenchen, Postplatz]]></name>
+<description><![CDATA[289 connections
+]]></description>
+<Point>
+<coordinates>7.395090,47.193000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10277">
+<name><![CDATA[Schnottwil, Post]]></name>
+<description><![CDATA[242 connections
+]]></description>
+<Point>
+<coordinates>7.389890,47.109400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11656">
+<name><![CDATA[Solothurn West]]></name>
+<description><![CDATA[240 connections
+]]></description>
+<Point>
+<coordinates>7.531950,47.206700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9016">
+<name><![CDATA[Bellach, Schulhaus]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>7.498040,47.212800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm129">
+<name><![CDATA[Rüti b. Büren, Hauptstrasse]]></name>
+<description><![CDATA[210 connections
+]]></description>
+<Point>
+<coordinates>7.404360,47.151700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1898">
+<name><![CDATA[Grenchen Süd]]></name>
+<description><![CDATA[202 connections
+]]></description>
+<Point>
+<coordinates>7.398180,47.188800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5914">
+<name><![CDATA[Solothurn, Brühl]]></name>
+<description><![CDATA[192 connections
+]]></description>
+<Point>
+<coordinates>7.512550,47.204700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1661">
+<name><![CDATA[Oberdorf SO, Endhalt]]></name>
+<description><![CDATA[185 connections
+]]></description>
+<Point>
+<coordinates>7.500700,47.229900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12074">
+<name><![CDATA[Biberist, Bernstrasse]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>7.553630,47.180100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5884">
+<name><![CDATA[Lohn SO, Dorf]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>7.523050,47.168700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3453">
+<name><![CDATA[St. Niklaus SO]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>7.541610,47.219100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm906">
+<name><![CDATA[Solothurn, Kantonsschule]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>7.536320,47.215500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10627">
+<name><![CDATA[Ammannsegg, Lohnstrasse]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>7.535190,47.172200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1329">
+<name><![CDATA[Rüttenen, Brüggmoos]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>7.527100,47.227200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

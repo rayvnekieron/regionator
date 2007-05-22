@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1782 03203303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.8349609375</north>
+<south>45.791015625</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11875">
+<name><![CDATA[Chiasso, Via Volta]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>9.031540,45.833800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10283">
+<name><![CDATA[Chiasso, Centro Sportivo]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>9.017740,45.834800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2597">
+<name><![CDATA[Pedrinate, Bellavista]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.023000,45.827600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4065">
+<name><![CDATA[Pedrinate, Paese]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.014260,45.825600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

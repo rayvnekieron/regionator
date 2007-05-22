@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1149 03002120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.6572265625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10602">
+<name><![CDATA[Fällanden SGG]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.652570,47.365800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

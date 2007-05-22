@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1374 03012130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11169">
+<name><![CDATA[Appenzell, Hirschberg Station]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>9.422320,47.331400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14279">
+<name><![CDATA[Appenzell, Hallenbad]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.411830,47.334100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4780">
+<name><![CDATA[Appenzell, Landsgemeindeplatz]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.407760,47.331400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5534">
+<name><![CDATA[Appenzell, Ziel]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.406190,47.333700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10209">
+<name><![CDATA[Appenzell, Kreuzhof]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.415430,47.333100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm434">
+<name><![CDATA[Appenzell, Adlerplatz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.411050,47.330900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13888">
+<name><![CDATA[Appenzell, Mettlenbrücke]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.405610,47.335700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14602">
+<name><![CDATA[Appenzell, Bleuer]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.444520,47.332100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1275">
+<name><![CDATA[Appenzell, Moren]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.436550,47.331400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13801">
+<name><![CDATA[Appenzell, Alpsteinstrasse]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.425900,47.329800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4913">
+<name><![CDATA[Appenzell, Meistersrüte]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<Point>
+<coordinates>9.432820,47.364500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10546">
+<name><![CDATA[Appenzell, Zentrale]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>9.439290,47.334000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2373">
+<name><![CDATA[Appenzell, Schönenbüel]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>9.427490,47.336900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4084">
+<name><![CDATA[Appenzell, Bleichenwald]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>9.424840,47.337000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

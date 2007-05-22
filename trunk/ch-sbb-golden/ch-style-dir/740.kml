@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>740 0213110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02131101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>8.349609375</east>
+<west>8.3056640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>741.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02131102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>8.3056640625</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>742.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02131103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>8.349609375</east>
+<west>8.3056640625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>743.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14174">
+<name><![CDATA[Kriens Mattenhof]]></name>
+<description><![CDATA[268 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.302370,47.026600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7630">
+<name><![CDATA[Emmenbrücke Gersag]]></name>
+<description><![CDATA[226 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.276800,47.078300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm872">
+<name><![CDATA[Luzern, Luzernerhof]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.312250,47.055000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4345">
+<name><![CDATA[Luzern, Wey]]></name>
+<description><![CDATA[214 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.312250,47.055000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10226">
+<name><![CDATA[Emmen, Rüeggisingen]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.282730,47.082000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9989">
+<name><![CDATA[Verkehrshaus-Lido]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.334770,47.051100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13194">
+<name><![CDATA[Luzern, Pilatusplatz]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.304560,47.047700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5211">
+<name><![CDATA[Luzern Bahnhofquai]]></name>
+<description><![CDATA[159 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.310160,47.051200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13797">
+<name><![CDATA[Luzern, Franziskanerplatz]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.303270,47.049200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6990">
+<name><![CDATA[Waldibrücke]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.319690,47.107900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4003">
+<name><![CDATA[Ebikon]]></name>
+<description><![CDATA[117 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.342350,47.084300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10813">
+<name><![CDATA[Rothenburg Dorf]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.273180,47.090900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8090">
+<name><![CDATA[Luzern, Eichhof]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.300820,47.040000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9360">
+<name><![CDATA[Kriens, Alpenstrasse]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.289230,47.035200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10755">
+<name><![CDATA[Kriens, Busschleife]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.277040,47.034200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12272">
+<name><![CDATA[Kriens, Feldmühle]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.266190,47.034200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

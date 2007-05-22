@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>8 020131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0201312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>9.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8974">
+<name><![CDATA[Porrentruy, Varandin]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.029780,47.426000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13361">
+<name><![CDATA[Bure, haut du village]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.016400,47.441800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1047">
+<name><![CDATA[Bure, poste]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.006970,47.443300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2465">
+<name><![CDATA[Bure, Bout-de-Là]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.001740,47.450300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10330">
+<name><![CDATA[Chevenez, poste]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.989590,47.398200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2404">
+<name><![CDATA[Fahy, poste]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.948990,47.418900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13561">
+<name><![CDATA[Fahy, Sur le Creux]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.948710,47.421100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3312">
+<name><![CDATA[Chevenez, St-Maurice]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.988940,47.396200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6116">
+<name><![CDATA[Rocourt]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.961080,47.386400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10786">
+<name><![CDATA[Grandfontaine, bif. Roche d'Or]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.943410,47.378700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12908">
+<name><![CDATA[Réclère, village]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.926240,47.373400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5856">
+<name><![CDATA[Damvant, église]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.908710,47.365400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1993">
+<name><![CDATA[Grandfontaine, haut du village]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.938650,47.392100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9555">
+<name><![CDATA[Grandfontaine, poste]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.937830,47.394200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12418">
+<name><![CDATA[Grandfontaine, bas du village]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.935450,47.393400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2019">
+<name><![CDATA[Fahy, douane]]></name>
+<description><![CDATA[11 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.942340,47.422000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>258 0210300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02103001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>259.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02103002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>7.4267578125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>260.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02103003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>261.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm895">
+<name><![CDATA[Liesberg, An den Holden]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<Point>
+<coordinates>7.428040,47.401300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5885">
+<name><![CDATA[Röschenz, Mühle]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.465140,47.426700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11719">
+<name><![CDATA[Kleinlützel, Huggerwaldsteg]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.437310,47.429200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13469">
+<name><![CDATA[Kleinlützel, Niedermatt]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>7.422070,47.425600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8868">
+<name><![CDATA[Liesberg, Bebrunnenmatten]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>7.427050,47.397500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5905">
+<name><![CDATA[Kleinlützel, Garage]]></name>
+<description><![CDATA[131 connections
+]]></description>
+<Point>
+<coordinates>7.412130,47.427400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1317">
+<name><![CDATA[Kleinlützel, Post]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>7.416440,47.425300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6205">
+<name><![CDATA[Liesberg, Ochsengasse]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>7.429030,47.402600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6825">
+<name><![CDATA[Liesberg, Dorf Rest. Rössli]]></name>
+<description><![CDATA[99 connections
+]]></description>
+<Point>
+<coordinates>7.431680,47.403500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1952">
+<name><![CDATA[Bärschwil, Hölzlirank]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>7.467110,47.388900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11528">
+<name><![CDATA[Kleinlützel, Stollen]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.428040,47.421100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8597">
+<name><![CDATA[Liesberg, Riederwald]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.421420,47.395900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4163">
+<name><![CDATA[Burg im Leimental, Dorfplatz]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.442620,47.457500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10133">
+<name><![CDATA[Kleinlützel, Schulhaus]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.417960,47.423300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8795">
+<name><![CDATA[Challhöchi]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>7.458530,47.450700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5764">
+<name><![CDATA[Kleinlützel, Ziegelscheune]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>7.399540,47.426200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

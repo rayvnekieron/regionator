@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1099 0300130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03001300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1100.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1101.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1102.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12293">
+<name><![CDATA[Müllheim Dorf, Grüneck]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.990760,47.598900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm833">
+<name><![CDATA[Pfyn, Ost]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.966100,47.597000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4040">
+<name><![CDATA[Hörhausen, alte Post]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.972140,47.633500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10676">
+<name><![CDATA[Hörhausen, Post]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.968100,47.631800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12644">
+<name><![CDATA[Raperswilen, Schulhaus]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.044740,47.635900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9369">
+<name><![CDATA[Raperswilen, Post]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.042280,47.631500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12831">
+<name><![CDATA[Lipperswil, Abzw.]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.041880,47.618200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12269">
+<name><![CDATA[Illhart, Oberdorf]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.040650,47.621600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11695">
+<name><![CDATA[Illhart, Sternen]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.037910,47.619200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12651">
+<name><![CDATA[Raperswilen, Im Wiel]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.037740,47.624300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2271">
+<name><![CDATA[Lamperswil TG]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.037290,47.609500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2106">
+<name><![CDATA[Wigoltingen, Unterdorf]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.031740,47.601700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5812">
+<name><![CDATA[Wigoltingen, Oberdorf]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.031220,47.595600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1094">
+<name><![CDATA[Wigoltingen, Post]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.030980,47.598600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1493">
+<name><![CDATA[Müllheim Dorf, Kirche]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.009680,47.586700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2488">
+<name><![CDATA[Müllheim-Wigoltingen, Bahnhof]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.015040,47.588200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>98 0203201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>6.50390625</east>
+<west>6.416015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02032013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.50390625</east>
+<west>6.4599609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>99.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6108">
+<name><![CDATA[Juriens, village]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.450630,46.691100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13035">
+<name><![CDATA[Juriens, Le Cosson]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.446240,46.680900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1234">
+<name><![CDATA[Vaulion, Nidau]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.421760,46.696900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2338">
+<name><![CDATA[Ballaigues, Maillefer]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.418210,46.729400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2180">
+<name><![CDATA[Premier, village]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.446480,46.703400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12995">
+<name><![CDATA[Premier, collège]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.444180,46.704400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8774">
+<name><![CDATA[Les Clées, bif.]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.480170,46.732200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm575">
+<name><![CDATA[Lignerolle, église]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.456480,46.740000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2293">
+<name><![CDATA[Lignerolle, CVE]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.443220,46.734800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3055">
+<name><![CDATA[Lignerolle, Le Daillard]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.437970,46.735800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7024">
+<name><![CDATA[Ballaigues, Jura-Rosaly]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.428840,46.734100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5340">
+<name><![CDATA[Sergey]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.499990,46.750900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10353">
+<name><![CDATA[Romainmôtier, poste]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.461690,46.694100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8170">
+<name><![CDATA[Romainmôtier, Le Nid]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.457080,46.695900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1866">
+<name><![CDATA[L'Abergement, village]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.488430,46.753700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11552">
+<name><![CDATA[Premier, croisée de Forel]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.449850,46.701400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

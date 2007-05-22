@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>382 0211212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02112120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>7.9541015625</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>383.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>7.998046875</east>
+<west>7.9541015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>384.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>7.9541015625</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>385.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>7.998046875</east>
+<west>7.9541015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>388.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1515">
+<name><![CDATA[Zofingen, Henzmannstrasse]]></name>
+<description><![CDATA[230 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.940300,47.287800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13447">
+<name><![CDATA[Uerkheim, Tannacker]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.994660,47.303300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3308">
+<name><![CDATA[Mühlethal, Linden]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.984740,47.302800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11229">
+<name><![CDATA[Mühlethal, Milchhüsli]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.979760,47.301500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12971">
+<name><![CDATA[Mühlethal, Weiher]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.973150,47.301600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8317">
+<name><![CDATA[Zofingen, Bethge]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.963540,47.298400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6417">
+<name><![CDATA[Zofingen, Ihco]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.957570,47.297100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13955">
+<name><![CDATA[Zofingen, Ackerstrasse]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.950630,47.297400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1572">
+<name><![CDATA[Zofingen, Spital]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.947640,47.295600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13222">
+<name><![CDATA[Zofingen, Mühlethalstrasse]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.946310,47.294300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1337">
+<name><![CDATA[Oftringen, Bühnenberg-Sonnmatt]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.945020,47.298100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1453">
+<name><![CDATA[Oftringen, Döbeligut]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.945010,47.296700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6409">
+<name><![CDATA[Küngoldingen, Post]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.944060,47.301700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2289">
+<name><![CDATA[Oftringen, Gilam]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.936810,47.303300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12785">
+<name><![CDATA[Oftringen, Schulhaus/Kirche]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.929610,47.312100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10229">
+<name><![CDATA[Oftringen, Oberfeld]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.923370,47.315700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

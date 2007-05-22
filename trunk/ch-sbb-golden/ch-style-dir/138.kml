@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>138 0203231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>6.6796875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13563">
+<name><![CDATA[Pully, gare]]></name>
+<description><![CDATA[149 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.658830,46.510300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1387">
+<name><![CDATA[Pully, centre]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.660130,46.510100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6233">
+<name><![CDATA[Union-Prilly]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.609840,46.534400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4406">
+<name><![CDATA[Bel-Air LEB]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.605520,46.577900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11418">
+<name><![CDATA[Cery-Fleur-de-Lys]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.605100,46.544400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14524">
+<name><![CDATA[Vernand-Camarès]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.604820,46.570900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9823">
+<name><![CDATA[Jouxtens-Mézery]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.601780,46.548400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4147">
+<name><![CDATA[Le Lussex]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.601010,46.556800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14363">
+<name><![CDATA[Lausanne, Montbenon]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.629650,46.519800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14144">
+<name><![CDATA[La Conversion]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.678320,46.513100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13761">
+<name><![CDATA[Pully-Nord]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.657980,46.514700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7008">
+<name><![CDATA[Lausanne-Ouchy]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.626860,46.505700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5799">
+<name><![CDATA[Lausanne, Pont-de-Chailly]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.651440,46.525600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10519">
+<name><![CDATA[Lausanne, St-François]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.633290,46.519100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13465">
+<name><![CDATA[Pully CGN]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.661290,46.505400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

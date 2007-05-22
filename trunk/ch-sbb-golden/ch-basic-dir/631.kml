@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>631 02121233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4240">
+<name><![CDATA[Forst b. Längenbühl, Käserei]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>7.521110,46.763000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13509">
+<name><![CDATA[Seftigen, Bahnhof]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.540260,46.787000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12079">
+<name><![CDATA[Uetendorf, Stiftung U.-Berg]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.553530,46.774200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm458">
+<name><![CDATA[Gurzelen, Obergurzelen]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.538280,46.777100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14299">
+<name><![CDATA[Gurzelen, Schulhaus]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.531480,46.779900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4630">
+<name><![CDATA[Uetendorf, Schürhus]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.558490,46.766500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11204">
+<name><![CDATA[Gurzelen, Kreuz]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.530950,46.779700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

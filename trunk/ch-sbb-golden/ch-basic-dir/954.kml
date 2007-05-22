@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>954 02302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.703125</south>
+<east>7.3828125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>023020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.87890625</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>955.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.87890625</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>956.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.703125</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>957.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.703125</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>958.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9856">
+<name><![CDATA[Som-la-Proz]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>7.132620,46.019600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13411">
+<name><![CDATA[Orsières, gare]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>7.142900,46.027700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15139">
+<name><![CDATA[La Douay]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.148720,46.052600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11023">
+<name><![CDATA[Issert]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.124960,46.003400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9181">
+<name><![CDATA[Praz-de-Fort]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<Point>
+<coordinates>7.125050,45.988100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8792">
+<name><![CDATA[Liddes]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.185700,45.989100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm637">
+<name><![CDATA[Prayon]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.107180,45.955700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5985">
+<name><![CDATA[La Seiloz]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.104640,45.949400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1864">
+<name><![CDATA[Champex, Lac]]></name>
+<description><![CDATA[49 connections
+]]></description>
+<Point>
+<coordinates>7.117060,46.029500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1884">
+<name><![CDATA[La Fouly VS]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>7.098290,45.933100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7087">
+<name><![CDATA[Bourg-St-Pierre, Commune]]></name>
+<description><![CDATA[43 connections
+]]></description>
+<Point>
+<coordinates>7.207910,45.951500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8618">
+<name><![CDATA[Lourtier, village]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>7.255520,46.047800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7213">
+<name><![CDATA[Etroubles]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>7.230220,45.820100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm645">
+<name><![CDATA[Le Clou]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>7.097050,45.925900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12581">
+<name><![CDATA[Bosses]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.181310,45.823600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7347">
+<name><![CDATA[Bourg-St-Bernard]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<Point>
+<coordinates>7.195120,45.901000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

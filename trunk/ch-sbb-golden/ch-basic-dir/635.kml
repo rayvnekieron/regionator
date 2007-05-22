@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>635 02121301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>7.646484375</east>
+<west>7.6025390625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021213013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.91162109375</north>
+<south>46.8896484375</south>
+<east>7.646484375</east>
+<west>7.62451171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>636.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7151">
+<name><![CDATA[Schlosswil, Post]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.609280,46.910500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm477">
+<name><![CDATA[Schlosswil, Kreuz]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>7.607960,46.908700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9179">
+<name><![CDATA[Grosshöchstetten, Talacker]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.628970,46.910400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13892">
+<name><![CDATA[Schlosswil, Nest]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.623720,46.912300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13626">
+<name><![CDATA[Grosshöchstetten, Unterführung]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.621110,46.915000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1503">
+<name><![CDATA[Schlosswil, Pfarrstutz]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.605330,46.908700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1608">
+<name><![CDATA[Schlosswil, Mühlestrasse]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>7.604030,46.910500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12441">
+<name><![CDATA[Biglen, Sonne]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.623770,46.925700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14043">
+<name><![CDATA[Biglen, Biglenrohr]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.621150,46.926600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3010">
+<name><![CDATA[Metzgerhüsi]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>7.611970,46.932100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3391">
+<name><![CDATA[Biglen, Bahnhof]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<Point>
+<coordinates>7.626390,46.924800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm675">
+<name><![CDATA[Grosshöchstetten, Bahnhof]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.634190,46.904100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9950">
+<name><![CDATA[Biglen, Walke]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>7.640850,46.930200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7269">
+<name><![CDATA[Biglen, Bären]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>7.629030,46.928400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9533">
+<name><![CDATA[Grosshöchstetten, BKW-Station]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.630930,46.910000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8813">
+<name><![CDATA[Schlosswil, Thali]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.618450,46.906000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

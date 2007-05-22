@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>209 02101330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>7.6904296875</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1814">
+<name><![CDATA[Schweizerhalle, Novartis]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.670440,47.531500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3471">
+<name><![CDATA[Muttenz, Auhafen]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.660160,47.537100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10003">
+<name><![CDATA[Schweizerhalle]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.675000,47.532600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5809">
+<name><![CDATA[Grenzach-Wyhlen]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.668770,47.536800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

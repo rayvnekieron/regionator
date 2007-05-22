@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>35 0203020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>6.416015625</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9383">
+<name><![CDATA[Pontarlier]]></name>
+<description><![CDATA[11 connections
+]]></description>
+<Point>
+<coordinates>6.350640,46.900900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13029">
+<name><![CDATA[Pontarlier, Mairie]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>6.353210,46.903700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

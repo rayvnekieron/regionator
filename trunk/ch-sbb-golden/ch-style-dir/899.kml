@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>899 0230023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>7.20703125</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02300232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>7.1630859375</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>900.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02300233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0986328125</north>
+<south>46.0546875</south>
+<east>7.20703125</east>
+<west>7.1630859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>901.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5616">
+<name><![CDATA[Fully, Verdan]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.122910,46.142100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11109">
+<name><![CDATA[Fully, Creppier]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.120060,46.140000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5024">
+<name><![CDATA[Sembrancher]]></name>
+<description><![CDATA[109 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.146280,46.077100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15137">
+<name><![CDATA[Charrat-Fully]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.126460,46.126800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12053">
+<name><![CDATA[Etiez]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.162550,46.082800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10544">
+<name><![CDATA[Cries]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.176600,46.091300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12983">
+<name><![CDATA[Vollèges, poste]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.169920,46.087100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12518">
+<name><![CDATA[Vollèges, La Côts]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.167460,46.087400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12149">
+<name><![CDATA[Etiez, gare]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.160930,46.082600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3869">
+<name><![CDATA[Sembrancher, La Place]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.149740,46.078400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9230">
+<name><![CDATA[Levron]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.163340,46.097500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3655">
+<name><![CDATA[Sembrancher, gare]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.146650,46.077200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11905">
+<name><![CDATA[Sembrancher, poste]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.154030,46.077900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13034">
+<name><![CDATA[La Côt]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.199820,46.062500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6690">
+<name><![CDATA[Chemin, rte du Planard]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.120140,46.096700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6347">
+<name><![CDATA[Vens, Centre]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.125770,46.087900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

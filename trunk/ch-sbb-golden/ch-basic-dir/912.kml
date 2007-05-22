@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>912 023003113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.20849609375</north>
+<south>46.1865234375</south>
+<east>7.3828125</east>
+<west>7.36083984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5224">
+<name><![CDATA[Les Mayens-de-Sion]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.370080,46.202200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8690">
+<name><![CDATA[Les Agettes, bif. M.-de-l'Ours]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.369000,46.199900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6750">
+<name><![CDATA[Les Agettes, Les Crêtes]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.368740,46.204200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6477">
+<name><![CDATA[Mayens-de-l'Ours, télécabine]]></name>
+<description><![CDATA[27 connections
+]]></description>
+<Point>
+<coordinates>7.363100,46.197800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

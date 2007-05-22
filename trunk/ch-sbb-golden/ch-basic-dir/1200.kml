@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1200 030023121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.21923828125</south>
+<east>8.7451171875</east>
+<west>8.72314453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13262">
+<name><![CDATA[Stäfa, Kehlhof]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>8.736240,47.234200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

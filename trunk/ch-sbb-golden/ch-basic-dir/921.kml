@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>921 0230100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9426">
+<name><![CDATA[Iffigenalp]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>7.441240,46.399600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2671">
+<name><![CDATA[Ayent, Les Rousses]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>7.437480,46.332600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13806">
+<name><![CDATA[Pracombèra]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>7.434570,46.323500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5079">
+<name><![CDATA[Rawil, barrage]]></name>
+<description><![CDATA[5 connections
+]]></description>
+<Point>
+<coordinates>7.435160,46.346400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

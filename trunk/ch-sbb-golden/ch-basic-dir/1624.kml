@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1624 03121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.7578125</south>
+<east>10.546875</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>031210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>10.37109375</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1625.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>031211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>10.546875</east>
+<west>10.37109375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1626.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>031212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>10.37109375</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1627.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>031213</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>10.546875</east>
+<west>10.37109375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1630.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm2839">
+<name><![CDATA[Strada i. E., San Niclà]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>10.424200,46.858200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6934">
+<name><![CDATA[Crusch]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<Point>
+<coordinates>10.360400,46.820000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6490">
+<name><![CDATA[Sent, Sala]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>10.335100,46.816600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1084">
+<name><![CDATA[Scuol, Chauennas]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>10.320800,46.808300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11855">
+<name><![CDATA[Strada i. E., posta]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>10.432300,46.862200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7264">
+<name><![CDATA[Scuol-Tarasp]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>10.286200,46.793800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7015">
+<name><![CDATA[Ramosch, Fermada]]></name>
+<description><![CDATA[85 connections
+]]></description>
+<Point>
+<coordinates>10.382900,46.831700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10607">
+<name><![CDATA[Vulpera]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>10.284600,46.786700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5125">
+<name><![CDATA[Tarasp, Villa Maria]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>10.278400,46.785200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12206">
+<name><![CDATA[Tarasp, Büvetta Nairs]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>10.277600,46.789200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8256">
+<name><![CDATA[Tarasp, Sgné/sparsels]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>10.270400,46.782000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13374">
+<name><![CDATA[Tarasp, spv. Florins]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>10.261300,46.781000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14894">
+<name><![CDATA[Ftan, Putschigls]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>10.273600,46.792000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14430">
+<name><![CDATA[Ftan, Baraigla]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>10.266000,46.791300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm987">
+<name><![CDATA[Sent, posta]]></name>
+<description><![CDATA[77 connections
+]]></description>
+<Point>
+<coordinates>10.337000,46.817100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10910">
+<name><![CDATA[Martina, posta]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>10.464200,46.885700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

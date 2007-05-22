@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1627 031212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>10.37109375</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0312121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>10.37109375</east>
+<west>10.283203125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1628.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0312122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>10.283203125</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1629.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9562">
+<name><![CDATA[Sent, Tuffera]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.347500,46.817300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3197">
+<name><![CDATA[Ftan, posta]]></name>
+<description><![CDATA[45 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.246300,46.795800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7759">
+<name><![CDATA[Sent, Sur En Camping]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.366400,46.818500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9561">
+<name><![CDATA[Vnà, scoula]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.364100,46.842700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12813">
+<name><![CDATA[Tarasp, posta]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.261100,46.777200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6729">
+<name><![CDATA[Scuol, Serras]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.308500,46.797200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1789">
+<name><![CDATA[Scuol, Runà]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.307600,46.798200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15002">
+<name><![CDATA[Scuol, San Jon]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.305000,46.786500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14381">
+<name><![CDATA[Scuol, Gurlaina]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.298400,46.790900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6779">
+<name><![CDATA[Scuol, Plan da Funtanas]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.298100,46.767800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11029">
+<name><![CDATA[Vnà, posta]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.364300,46.843700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6844">
+<name><![CDATA[Sent, Sur En]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.362900,46.816300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7699">
+<name><![CDATA[Sent, Chavriz Pitschen]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.348100,46.838100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7920">
+<name><![CDATA[Sent, Tschern]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.347500,46.817300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10860">
+<name><![CDATA[Scuol PSFS]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.289200,46.795300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13032">
+<name><![CDATA[Motta Naluns]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>10.272200,46.810800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

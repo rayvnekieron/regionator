@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1325 0301033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>9.4921875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03010330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1326.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03010332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1327.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03010333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1328.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1415">
+<name><![CDATA[Arbon, Romanshornerstrasse]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>9.425670,47.518900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7841">
+<name><![CDATA[Arbon, Wildpark]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>9.425340,47.510200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7594">
+<name><![CDATA[Tübach, Schulstrasse]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>9.454260,47.484900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7006">
+<name><![CDATA[Tübach, Waldegg]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>9.451230,47.475100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14507">
+<name><![CDATA[Goldach]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<Point>
+<coordinates>9.466990,47.473800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3625">
+<name><![CDATA[Horn]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>9.463370,47.493200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1376">
+<name><![CDATA[Arbon]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>9.433340,47.510600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9678">
+<name><![CDATA[Rorschach Stadt]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>9.489720,47.475300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14547">
+<name><![CDATA[Goldach, Sternen]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>9.472900,47.477900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5338">
+<name><![CDATA[Goldach, Raiffeisenbank]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>9.469530,47.476300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6011">
+<name><![CDATA[Mörschwil]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>9.414370,47.474800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2624">
+<name><![CDATA[Goldach, Post]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>9.465780,47.473700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10789">
+<name><![CDATA[Horn, evang. Kirche]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<Point>
+<coordinates>9.460260,47.496600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9077">
+<name><![CDATA[Horn, Saiswerke]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<Point>
+<coordinates>9.451110,47.498000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2529">
+<name><![CDATA[Rorschach, Bodan]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<Point>
+<coordinates>9.489200,47.478900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm653">
+<name><![CDATA[Goldach, Stelzenreben]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<Point>
+<coordinates>9.475580,47.478500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

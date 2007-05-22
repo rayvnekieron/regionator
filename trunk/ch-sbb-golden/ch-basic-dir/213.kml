@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>213 02102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.109375</south>
+<east>7.3828125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>214.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>222.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>7.20703125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>236.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.109375</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>241.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5348">
+<name><![CDATA[Biel/Bienne]]></name>
+<description><![CDATA[624 connections
+]]></description>
+<Point>
+<coordinates>7.242920,47.132900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3455">
+<name><![CDATA[Studen BE, Wydenplatz]]></name>
+<description><![CDATA[488 connections
+]]></description>
+<Point>
+<coordinates>7.301610,47.111100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4165">
+<name><![CDATA[Delémont, Av. de la gare]]></name>
+<description><![CDATA[458 connections
+]]></description>
+<Point>
+<coordinates>7.349280,47.363200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11823">
+<name><![CDATA[Biel/Bienne, Bahnhofplatz]]></name>
+<description><![CDATA[451 connections
+]]></description>
+<Point>
+<coordinates>7.244880,47.132600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10576">
+<name><![CDATA[Delémont, gare]]></name>
+<description><![CDATA[407 connections
+]]></description>
+<Point>
+<coordinates>7.348950,47.362300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4526">
+<name><![CDATA[Delémont, Le Ticle]]></name>
+<description><![CDATA[330 connections
+]]></description>
+<Point>
+<coordinates>7.347620,47.366800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm135">
+<name><![CDATA[Aegerten, Dorfplatz]]></name>
+<description><![CDATA[310 connections
+]]></description>
+<Point>
+<coordinates>7.291050,47.118300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12001">
+<name><![CDATA[Studen BE]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>7.301750,47.110400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12415">
+<name><![CDATA[Brügg BE]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>7.278220,47.123600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4496">
+<name><![CDATA[Delémont, Von Roll]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>7.360140,47.363000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11381">
+<name><![CDATA[Delémont, Morépont]]></name>
+<description><![CDATA[278 connections
+]]></description>
+<Point>
+<coordinates>7.355560,47.370000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13616">
+<name><![CDATA[Delémont, rte de Bâle]]></name>
+<description><![CDATA[244 connections
+]]></description>
+<Point>
+<coordinates>7.352920,47.367700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1918">
+<name><![CDATA[Sonceboz-Sombeval]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<Point>
+<coordinates>7.168770,47.195100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10824">
+<name><![CDATA[Delémont]]></name>
+<description><![CDATA[209 connections
+]]></description>
+<Point>
+<coordinates>7.350070,47.362000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5277">
+<name><![CDATA[Brügg b. Biel, Bahnhof]]></name>
+<description><![CDATA[204 connections
+]]></description>
+<Point>
+<coordinates>7.278940,47.124000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9468">
+<name><![CDATA[Tavannes]]></name>
+<description><![CDATA[197 connections
+]]></description>
+<Point>
+<coordinates>7.201650,47.219800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

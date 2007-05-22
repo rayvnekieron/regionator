@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>251 0210233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02102330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>252.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02102331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>253.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02102332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>254.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02102333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>255.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6651">
+<name><![CDATA[Safnern, Dorfplatz]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>7.322610,47.149800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14076">
+<name><![CDATA[Orpund, Post]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>7.301540,47.139900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1473">
+<name><![CDATA[Meinisberg, Dorfplatz]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<Point>
+<coordinates>7.347650,47.159700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9742">
+<name><![CDATA[Safnern, Kirchweg]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<Point>
+<coordinates>7.318660,47.147100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7810">
+<name><![CDATA[Orpund, Bürenstrasse]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<Point>
+<coordinates>7.312090,47.139000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13707">
+<name><![CDATA[Lengnau]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<Point>
+<coordinates>7.366560,47.179400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1991">
+<name><![CDATA[Pieterlen]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<Point>
+<coordinates>7.340200,47.171400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1811">
+<name><![CDATA[Diessbach bei Büren, Gäu]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<Point>
+<coordinates>7.368810,47.109400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14360">
+<name><![CDATA[Büren an der Aare, Oberbüren]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>7.380640,47.136400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3275">
+<name><![CDATA[Büren an der Aare, Bahnhofstr.]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>7.370090,47.138200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6242">
+<name><![CDATA[Vauffelin, poste]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>7.300300,47.187300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7888">
+<name><![CDATA[Meinisberg, Rütti]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>7.358190,47.163300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6315">
+<name><![CDATA[Dotzigen, alte Käserei]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>7.342840,47.119700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9066">
+<name><![CDATA[Dotzigen]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.337750,47.118700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4509">
+<name><![CDATA[Pieterlen, Industrie West]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.315880,47.180200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6218">
+<name><![CDATA[Lengnau BE, Sportplatz]]></name>
+<description><![CDATA[59 connections
+]]></description>
+<Point>
+<coordinates>7.363450,47.176800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

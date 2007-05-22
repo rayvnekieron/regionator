@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1516 03030111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6458">
+<name><![CDATA[Trübbach, Haus Dr. Sulser]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.478010,47.074700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11199">
+<name><![CDATA[Oberschan, Bettlerstein]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.477590,47.092900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5781">
+<name><![CDATA[Azmoos, Gatina]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.477390,47.084400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5655">
+<name><![CDATA[Oberschan, Malans]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.476320,47.090700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1393">
+<name><![CDATA[Azmoos, Post]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.475610,47.080800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4322">
+<name><![CDATA[Oberschan, alte Post]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.474990,47.099200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8538">
+<name><![CDATA[Oberschan, Seilbahn]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>9.473630,47.098100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13074">
+<name><![CDATA[Oberschan, Milchzentrale]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>9.474620,47.098100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11365">
+<name><![CDATA[Oberschan, Schwimmbad]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.468140,47.100900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11248">
+<name><![CDATA[Oberschan,Abzw. Rest. Aufstieg]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.463320,47.095400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm451">
+<name><![CDATA[Oberschan, Abzw. Hotel Alvier]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.457620,47.092800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4265">
+<name><![CDATA[Oberschan, Fuchsboden]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.448920,47.089100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

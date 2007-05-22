@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>415 02112311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.0859375</east>
+<west>8.0419921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm751">
+<name><![CDATA[Triengen, Burg]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.081530,47.242500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13373">
+<name><![CDATA[Triengen, Burgweid]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.079550,47.242500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

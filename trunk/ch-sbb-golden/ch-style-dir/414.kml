@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>414 02112310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11985">
+<name><![CDATA[Wiliberg-Hintermoos, Mosersagi]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.008770,47.263200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm834">
+<name><![CDATA[Wiliberg-Hintermoos, Gasse]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.014760,47.267200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14708">
+<name><![CDATA[Wiliberg-Hintermoos, Buchacker]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.014120,47.268700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11176">
+<name><![CDATA[Wiliberg, Schulhaus]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.021380,47.268500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

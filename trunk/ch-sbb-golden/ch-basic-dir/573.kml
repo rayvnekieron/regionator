@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>573 02121013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm181">
+<name><![CDATA[Hettiswil b. H., Dorf]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.554410,47.031100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5442">
+<name><![CDATA[Obermoos]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.537320,47.037400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3056">
+<name><![CDATA[Hindelbank, Bahnhof]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.545230,47.049100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

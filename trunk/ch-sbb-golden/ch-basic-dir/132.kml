@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>132 020323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>6.6796875</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0203230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>6.591796875</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>133.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>6.6796875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>138.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13006">
+<name><![CDATA[Montblesson, Centenaire]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<Point>
+<coordinates>6.677790,46.536600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1145">
+<name><![CDATA[Lausanne, Rovéréaz]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<Point>
+<coordinates>6.667750,46.532700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9314">
+<name><![CDATA[Lausanne, Le Foyer]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<Point>
+<coordinates>6.660030,46.533400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6802">
+<name><![CDATA[Epalinges, Lion d'Or]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>6.677160,46.550000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1451">
+<name><![CDATA[Epalinges, Les Croisettes]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>6.661620,46.542700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6620">
+<name><![CDATA[Bussigny]]></name>
+<description><![CDATA[218 connections
+]]></description>
+<Point>
+<coordinates>6.551810,46.547600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2312">
+<name><![CDATA[Montblesson, La Perronnaz]]></name>
+<description><![CDATA[167 connections
+]]></description>
+<Point>
+<coordinates>6.679290,46.542400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8705">
+<name><![CDATA[Epalinges, collège]]></name>
+<description><![CDATA[167 connections
+]]></description>
+<Point>
+<coordinates>6.674820,46.548500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2366">
+<name><![CDATA[Ouchy]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>6.626870,46.507400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9012">
+<name><![CDATA[Renens VD TL]]></name>
+<description><![CDATA[163 connections
+]]></description>
+<Point>
+<coordinates>6.578030,46.537500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3672">
+<name><![CDATA[Pully]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>6.659460,46.510900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5451">
+<name><![CDATA[Lausanne-Chauderon]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>6.624610,46.523900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12266">
+<name><![CDATA[Romanel-sur-Lausanne]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>6.603290,46.562400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3401">
+<name><![CDATA[Montétan]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<Point>
+<coordinates>6.612320,46.530700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5242">
+<name><![CDATA[Pully, port]]></name>
+<description><![CDATA[151 connections
+]]></description>
+<Point>
+<coordinates>6.661830,46.505600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3142">
+<name><![CDATA[Prilly-Chasseur]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<Point>
+<coordinates>6.607370,46.539100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>595 021210323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.95556640625</north>
+<south>46.93359375</south>
+<east>7.5146484375</east>
+<west>7.49267578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5579">
+<name><![CDATA[Gümligen, Amselweg]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>7.498300,46.941800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3448">
+<name><![CDATA[Gümligen, Rütibühl]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>7.496490,46.942500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

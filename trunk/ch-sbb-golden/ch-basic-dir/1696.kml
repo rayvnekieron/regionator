@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1696 03201231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0986328125</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4697">
+<name><![CDATA[Camignolo, Sopra]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>8.934390,46.106100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2352">
+<name><![CDATA[Rivera-Bironico, Posta/FFS]]></name>
+<description><![CDATA[53 connections
+]]></description>
+<Point>
+<coordinates>8.924860,46.124000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11865">
+<name><![CDATA[Bironico, Posta]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.935230,46.113100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6951">
+<name><![CDATA[Medeglia, Drossa]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.962800,46.115900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4016">
+<name><![CDATA[Medeglia, Sorgai]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.959620,46.115600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12346">
+<name><![CDATA[Medeglia, Campaccio]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.958270,46.115900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6303">
+<name><![CDATA[Bironico, Alla Motta]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.946820,46.111100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5205">
+<name><![CDATA[Bironico, Superiore]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.937820,46.113100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm253">
+<name><![CDATA[Camignolo, Scuola Media]]></name>
+<description><![CDATA[11 connections
+]]></description>
+<Point>
+<coordinates>8.926670,46.104900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

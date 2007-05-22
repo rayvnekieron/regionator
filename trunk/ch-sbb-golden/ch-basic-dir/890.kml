@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>890 02300133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.2744140625</north>
+<south>46.23046875</south>
+<east>7.3828125</east>
+<west>7.3388671875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12853">
+<name><![CDATA[Sion, Capucins]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.356960,46.238100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1142">
+<name><![CDATA[Sion, école d'infirmières]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.352010,46.236600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6812">
+<name><![CDATA[Savièse, Crettaz]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>7.345720,46.249600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm580">
+<name><![CDATA[Grimisuat, Rte de Savièse]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>7.381040,46.261600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7312">
+<name><![CDATA[Savièse, Clochemorat]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.360190,46.274300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7813">
+<name><![CDATA[Savièse, Fontany]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.356510,46.271200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12950">
+<name><![CDATA[Savièse, Mocevron]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.355360,46.268600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7678">
+<name><![CDATA[Savièse, Etang des Rochers]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.353900,46.262500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3628">
+<name><![CDATA[Savièse, Prafirmin]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.351020,46.265000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm210">
+<name><![CDATA[Binii]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.348400,46.258300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm291">
+<name><![CDATA[Savièse, Prafirmin-d'en-Haut]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.348340,46.265000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3195">
+<name><![CDATA[Sion, Carrefour de la Plata]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>7.364370,46.238600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14433">
+<name><![CDATA[Mayens-de-la-Zour]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>7.356870,46.273600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

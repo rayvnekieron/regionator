@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1077 030012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0300120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1078.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.548828125</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1083.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1088.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0300123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1093.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13147">
+<name><![CDATA[Felben, Löwen]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<Point>
+<coordinates>8.943340,47.580000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7695">
+<name><![CDATA[Frauenfeld, Scheidweg]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<Point>
+<coordinates>8.921130,47.570100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9245">
+<name><![CDATA[Frauenfeld, Wellauer]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<Point>
+<coordinates>8.915750,47.567900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5933">
+<name><![CDATA[Rickenbach ZH, Dorf]]></name>
+<description><![CDATA[184 connections
+]]></description>
+<Point>
+<coordinates>8.795060,47.551600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3296">
+<name><![CDATA[Frauenfeld, Postgarage]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.909660,47.563700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8338">
+<name><![CDATA[Frauenfeld, Langdorf]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>8.904280,47.561600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13950">
+<name><![CDATA[Pfyn, Biberpfad]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>8.947350,47.590200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2322">
+<name><![CDATA[Ellikon a. d. Thur, Dorf]]></name>
+<description><![CDATA[169 connections
+]]></description>
+<Point>
+<coordinates>8.824490,47.562900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7492">
+<name><![CDATA[Weckingen TG, Tiefenmüli]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>8.891910,47.595000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5175">
+<name><![CDATA[Weiningen TG, Post]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>8.886760,47.589200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3080">
+<name><![CDATA[Frauenfeld, Rorerbrücke]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>8.884680,47.578600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13116">
+<name><![CDATA[Frauenfeld, SIA]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.898600,47.560500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11681">
+<name><![CDATA[Frauenfeld, Schaffhauserplatz]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.891300,47.560800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10365">
+<name><![CDATA[Warth, Breite]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.881250,47.582100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13668">
+<name><![CDATA[Warth, Oberdorf]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.875000,47.584600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13105">
+<name><![CDATA[Warth, Post]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.874620,47.582800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

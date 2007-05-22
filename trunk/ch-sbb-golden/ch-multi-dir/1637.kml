@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1637 031230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>10.37109375</east>
+<west>10.1953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Tschierv, Minschuns</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.324400,46.637000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.324400,46.637000
+10.292900,46.639400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.324400,46.637000
+10.326100,46.629100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Buffalora</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.267400,46.648000</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.267400,46.648000
+10.243500,46.660500</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.267400,46.648000
+10.292900,46.639400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Zernez, Stabelchod</name>
+<description>56 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.243500,46.660500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.243500,46.660500
+10.267400,46.648000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.243500,46.660500
+10.211000,46.664000</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol, Schmelzra</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.334100,46.717800</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.334100,46.717800
+10.305600,46.730200</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.334100,46.717800
+10.334600,46.715500</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Scuol, Val Mingèr</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.305600,46.730200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.305600,46.730200
+10.298100,46.767800</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.305600,46.730200
+10.334100,46.717800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Lü, posta</name>
+<description>16 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.369300,46.623200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.369300,46.623200
+10.380700,46.612100</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>S-charl</name>
+<description>12 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.334600,46.715500</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.334600,46.715500
+10.334100,46.717800</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

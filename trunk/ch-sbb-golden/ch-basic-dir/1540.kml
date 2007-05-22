@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1540 03030333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5648">
+<name><![CDATA[Trans, Ramons]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.462900,46.761800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14504">
+<name><![CDATA[Trans, Acla]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.461550,46.760900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1192">
+<name><![CDATA[Trans, Vegs]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.459550,46.759800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1279">
+<name><![CDATA[Trans, Dalmiez]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.455290,46.759700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10944">
+<name><![CDATA[Trans, posta]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>9.460720,46.764700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

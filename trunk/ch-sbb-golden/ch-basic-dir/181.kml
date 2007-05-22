@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>181 0203323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02033230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.8115234375</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>182.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.85546875</east>
+<west>6.8115234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>183.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4590">
+<name><![CDATA[Gilamont]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>6.854970,46.467700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2119">
+<name><![CDATA[Jongny]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<Point>
+<coordinates>6.840940,46.479000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7897">
+<name><![CDATA[Le Délassement]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<Point>
+<coordinates>6.839720,46.470900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14608">
+<name><![CDATA[Vevey-Plan]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<Point>
+<coordinates>6.836000,46.468600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6354">
+<name><![CDATA[Mont-Pèlerin]]></name>
+<description><![CDATA[114 connections
+]]></description>
+<Point>
+<coordinates>6.831580,46.481900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3932">
+<name><![CDATA[Corsier-sur-Vevey, village]]></name>
+<description><![CDATA[107 connections
+]]></description>
+<Point>
+<coordinates>6.844940,46.470100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3064">
+<name><![CDATA[Corseaux, village]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>6.831900,46.471800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2844">
+<name><![CDATA[St-Saphorin]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>6.797020,46.472600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2294">
+<name><![CDATA[Rivaz]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>6.784580,46.474200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2137">
+<name><![CDATA[Corsier-s.-V., Les Bochettes]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>6.848800,46.474600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4822">
+<name><![CDATA[Vevey-Funi]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.835430,46.468300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11461">
+<name><![CDATA[Corseaux-Cornalles]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.824770,46.470400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9035">
+<name><![CDATA[Chexbres-Village]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.778540,46.481000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5137">
+<name><![CDATA[Vevey, Place du Marché]]></name>
+<description><![CDATA[67 connections
+]]></description>
+<Point>
+<coordinates>6.842450,46.460100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2831">
+<name><![CDATA[Corseaux, La Donnaz]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>6.829320,46.470000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2755">
+<name><![CDATA[Chexbres, poste]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>6.776440,46.482000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

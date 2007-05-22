@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1514 0303011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>9.4921875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03030110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1515.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03030111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>9.4921875</east>
+<west>9.4482421875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1516.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03030112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1517.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14402">
+<name><![CDATA[Mels, Bahnhofstrasse]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<Point>
+<coordinates>9.419470,47.049800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7822">
+<name><![CDATA[Mels, Bahnhof]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<Point>
+<coordinates>9.417930,47.052800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6910">
+<name><![CDATA[Mels, Schwarzackerstrasse]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>9.429280,47.048100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14094">
+<name><![CDATA[Mels, Feldackerstrasse]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>9.429180,47.045400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5437">
+<name><![CDATA[Mels, Hallenbad]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>9.425970,47.047400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5537">
+<name><![CDATA[Mels, Altersheim]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>9.423290,47.046400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8965">
+<name><![CDATA[Sargans, Markthalle]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>9.459420,47.061900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1235">
+<name><![CDATA[Wangs, Pizolbahn]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>9.432190,47.028900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12572">
+<name><![CDATA[Mels]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>9.417750,47.053700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14569">
+<name><![CDATA[Trübbach, Bahnhof]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.480230,47.072400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1010">
+<name><![CDATA[Heiligkreuz (Mels), Staatsstr.]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.415770,47.056600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10420">
+<name><![CDATA[Heiligkreuz (Mels), Untergasse]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.409940,47.059200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1224">
+<name><![CDATA[Mels, Plons Kaserne]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>9.404630,47.057900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8236">
+<name><![CDATA[Trübbach]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>9.480330,47.071600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6461">
+<name><![CDATA[Sargans, Kantonsschule]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>9.440640,47.043800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1776">
+<name><![CDATA[Sargans, Zürcherstrasse]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>9.435890,47.048900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1067 03000332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.7451171875</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13969">
+<name><![CDATA[Winterthur, Deutweg]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>8.741540,47.493800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9550">
+<name><![CDATA[Winterthur, Museumstrasse]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>8.724950,47.501100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14486">
+<name><![CDATA[Winterthur, Depot]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.743310,47.492900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm566">
+<name><![CDATA[Winterthur, Fotozentrum]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.737070,47.495600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14057">
+<name><![CDATA[Winterthur, Gewerbeschule]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.733120,47.498000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1995">
+<name><![CDATA[Winterthur, Technikum]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.729330,47.497800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5380">
+<name><![CDATA[Winterthur, Schmidgasse]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.727290,47.500000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1756 032031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.87890625</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0320310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.966796875</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1757.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0320311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.966796875</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1761.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0320312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.966796875</north>
+<south>45.87890625</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1762.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7648">
+<name><![CDATA[Capolago-Riva S. Vitale]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.978900,45.902800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9958">
+<name><![CDATA[Maroggia-Melano]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.973940,45.932400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10373">
+<name><![CDATA[Davesco, Paese]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.980290,46.036500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11544">
+<name><![CDATA[Soragno]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.978220,46.032000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9439">
+<name><![CDATA[Ligaino]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.975440,46.024800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4027">
+<name><![CDATA[Muggio, Marenca]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.045730,45.900200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10099">
+<name><![CDATA[Cabbio, Posta]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.045330,45.898100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm319">
+<name><![CDATA[Brè Villaggio]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.984750,46.010800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9594">
+<name><![CDATA[Aldesago]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.980480,46.010900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7503">
+<name><![CDATA[Albonago]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.975120,46.008500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13659">
+<name><![CDATA[Suvigliana]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.972740,46.007000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10141">
+<name><![CDATA[Dino]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.983970,46.052600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7723">
+<name><![CDATA[Cadro, Paese]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.983790,46.046300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5503">
+<name><![CDATA[Capolago, Stazione]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.978470,45.903100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6600">
+<name><![CDATA[Pregassona]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.975290,46.019400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13846">
+<name><![CDATA[Viganello, San Siro]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.971310,46.015900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

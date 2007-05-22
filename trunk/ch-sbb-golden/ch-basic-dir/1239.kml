@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1239 0300310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03003100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1240.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1241.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1242.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1243.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3972">
+<name><![CDATA[Rickenbach bei Wil, Breite]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.051260,47.445400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm347">
+<name><![CDATA[Rickenbach bei Wil, Zentrum]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.050330,47.447600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1896">
+<name><![CDATA[Rickenbach bei Wil, alte Post]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.050030,47.450700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5279">
+<name><![CDATA[Kirchberg SG, Stelz]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.049810,47.441300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1053">
+<name><![CDATA[Wolfikon SG, Engel]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.046520,47.420200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm968">
+<name><![CDATA[Wolfikon SG, Freihof]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.046400,47.416600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10727">
+<name><![CDATA[Lamperswil SG]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.046230,47.430400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5463">
+<name><![CDATA[Kirchberg SG, Neudorf]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.043370,47.414400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7106">
+<name><![CDATA[Kirchberg SG, Strick]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.036660,47.407400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3356">
+<name><![CDATA[Kirchberg SG, Salen]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.034700,47.404000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11534">
+<name><![CDATA[Kirchberg SG, Tüfrüti]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.028030,47.402400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7804">
+<name><![CDATA[Gähwil, Waldwies]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.019350,47.398000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3676">
+<name><![CDATA[Gähwil, Chromen]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.014270,47.398600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13402">
+<name><![CDATA[Gähwil, Schmid Garage]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>9.006550,47.397400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5660">
+<name><![CDATA[Wil SG, Bergholz]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<Point>
+<coordinates>9.038460,47.458600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11153">
+<name><![CDATA[Wilen bei Wil, Lerchenfeld]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<Point>
+<coordinates>9.038040,47.453400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

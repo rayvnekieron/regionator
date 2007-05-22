@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>760 02131212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>8.2177734375</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4946">
+<name><![CDATA[Oberwilen, Forst]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>8.191100,46.863100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12158">
+<name><![CDATA[Stalden (Sarnen), Sportplatz]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<Point>
+<coordinates>8.205180,46.884600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>294 02103223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5159">
+<name><![CDATA[Hessigkofen, Post]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.466320,47.140900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3819">
+<name><![CDATA[Bibern SO, Post]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.455780,47.145400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11288">
+<name><![CDATA[Gossliwil, Post]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.433360,47.135500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10379">
+<name><![CDATA[Oberramsern]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>7.461040,47.113000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

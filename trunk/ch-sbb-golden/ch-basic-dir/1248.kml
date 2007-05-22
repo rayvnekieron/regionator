@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1248 03003113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.140625</east>
+<west>9.0966796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8280">
+<name><![CDATA[Rindal, Ritzenhüsli]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.138520,47.405900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4346">
+<name><![CDATA[Rindal, Ramsau]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.132180,47.404400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7023">
+<name><![CDATA[Rindal, Landhaus]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.123540,47.403600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm853">
+<name><![CDATA[Rindal, Oberrindal]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.118370,47.407700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

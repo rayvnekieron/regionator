@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>856 0221113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02211130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>857.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02211131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.2744140625</south>
+<east>7.03125</east>
+<west>6.9873046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>858.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02211132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.2744140625</north>
+<south>46.23046875</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>859.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02211133</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.2744140625</north>
+<south>46.23046875</south>
+<east>7.03125</east>
+<west>6.9873046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>860.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9113">
+<name><![CDATA[Monthey]]></name>
+<description><![CDATA[73 connections
+]]></description>
+<Point>
+<coordinates>6.955220,46.255600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13819">
+<name><![CDATA[Ollon VD, poste]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>6.993490,46.296700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14256">
+<name><![CDATA[Foyer Dents-du-Midi TPC-bvb]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.029840,46.256400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8982">
+<name><![CDATA[La Ruaz TPC-bvb]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.012600,46.251300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2925">
+<name><![CDATA[Bex-Place-du-Marché]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.012600,46.251300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9977">
+<name><![CDATA[Verchiez]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.983660,46.308200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14646">
+<name><![CDATA[Aigle-Dépôt TPC-asd]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.980550,46.316300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5149">
+<name><![CDATA[Monthey, gare CFF]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>6.953310,46.255100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12850">
+<name><![CDATA[Bévieux]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.030880,46.259000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2968">
+<name><![CDATA[Bex, gare]]></name>
+<description><![CDATA[59 connections
+]]></description>
+<Point>
+<coordinates>7.000990,46.251300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13438">
+<name><![CDATA[Aigle, place du Marché]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>6.969620,46.317500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14307">
+<name><![CDATA[Le Sépey (Monthey)]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>6.947320,46.234800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10053">
+<name><![CDATA[Auliens, halte]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.026030,46.283700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2442">
+<name><![CDATA[Huémoz, poste]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>7.024680,46.290900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9023">
+<name><![CDATA[Choëx, anc. poste]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.960260,46.237600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8688">
+<name><![CDATA[Collombey]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.948750,46.271200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

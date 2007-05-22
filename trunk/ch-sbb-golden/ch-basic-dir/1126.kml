@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1126 030020203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.35107421875</north>
+<south>47.3291015625</south>
+<east>8.4814453125</east>
+<west>8.45947265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10578">
+<name><![CDATA[Wettswil a.A., Heissächerstr.]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.474090,47.341700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4791">
+<name><![CDATA[Wettswil a.A, Strumbergächer]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.472260,47.342700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7367">
+<name><![CDATA[Wettswil a.A., Rehweid]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.470690,47.343800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6390">
+<name><![CDATA[Wettswil a.A., Längacher]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.468970,47.343600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5597">
+<name><![CDATA[Wettswil a.A., Dettenbühl]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>8.474540,47.337700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8470">
+<name><![CDATA[Wettswil a.A., Muchried]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.473980,47.329400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>733 02131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.7578125</south>
+<east>8.4375</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>8.26171875</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>734.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>739.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>8.26171875</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>757.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>764.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10951">
+<name><![CDATA[Adligenswil, Moos]]></name>
+<description><![CDATA[440 connections
+]]></description>
+<Point>
+<coordinates>8.386990,47.076000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14208">
+<name><![CDATA[Adligenswil, Chliäbnet]]></name>
+<description><![CDATA[440 connections
+]]></description>
+<Point>
+<coordinates>8.381020,47.073600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12169">
+<name><![CDATA[Adligenswil, Sagi]]></name>
+<description><![CDATA[440 connections
+]]></description>
+<Point>
+<coordinates>8.378020,47.071200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14314">
+<name><![CDATA[Adligenswil, Blatte]]></name>
+<description><![CDATA[440 connections
+]]></description>
+<Point>
+<coordinates>8.368120,47.070100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10376">
+<name><![CDATA[Adligenswil, Post]]></name>
+<description><![CDATA[438 connections
+]]></description>
+<Point>
+<coordinates>8.363540,47.071300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11326">
+<name><![CDATA[Adligenswil, Widspüel]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.359950,47.073500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7776">
+<name><![CDATA[Adligenswil, Stuben]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.349730,47.072500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5445">
+<name><![CDATA[Ebikon, Bühl]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.342800,47.071200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10517">
+<name><![CDATA[Ebikon, Schlössli]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.336210,47.070800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3941">
+<name><![CDATA[Ebikon, Schweizerheim]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.328950,47.070000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8198">
+<name><![CDATA[Ebikon, Unterlöchli]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.323980,47.067800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5975">
+<name><![CDATA[Luzern, Klinik St. Anna]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.323860,47.060300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10000">
+<name><![CDATA[Luzern, Gärtnerstrasse]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.316900,47.057700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13160">
+<name><![CDATA[Luzern, Schwanenplatz]]></name>
+<description><![CDATA[436 connections
+]]></description>
+<Point>
+<coordinates>8.308600,47.053000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6369">
+<name><![CDATA[Emmen, Sternen]]></name>
+<description><![CDATA[412 connections
+]]></description>
+<Point>
+<coordinates>8.299760,47.076500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5147">
+<name><![CDATA[Emmenbrücke, Emmen Center]]></name>
+<description><![CDATA[412 connections
+]]></description>
+<Point>
+<coordinates>8.286550,47.073900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1434 03020031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>8.61328125</east>
+<west>8.5693359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13921">
+<name><![CDATA[Seelisberg, Bahnhof]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<Point>
+<coordinates>8.587030,46.978400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10767">
+<name><![CDATA[Brunnen KlBU]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.592270,47.001000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6416">
+<name><![CDATA[Urmiberg]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.589880,47.012200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

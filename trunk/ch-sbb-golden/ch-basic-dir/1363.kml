@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1363 03012103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.404296875</east>
+<west>9.3603515625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1079">
+<name><![CDATA[Teufen AR, Bahnhof]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>9.389720,47.390000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11419">
+<name><![CDATA[Teufen AR, Schönenbühl]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.386890,47.384900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5819">
+<name><![CDATA[Haslen AI, Kastbühl]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.371090,47.378600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10801">
+<name><![CDATA[Haslen AI, Schäfle]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.366270,47.373500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13652">
+<name><![CDATA[St. Gallen, Riethüsli]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.366940,47.410200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15070">
+<name><![CDATA[St. Gallen, Hochwacht]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.363590,47.413600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2113">
+<name><![CDATA[Teufen AR, Gählern]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>9.403540,47.396300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4901">
+<name><![CDATA[Teufen AR, Vorderhaus]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>9.397450,47.393000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9238">
+<name><![CDATA[Teufen AR, Speicherstrasse]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>9.391430,47.391300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9796">
+<name><![CDATA[Niederteufen, Sternen b. T.]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>9.373470,47.389400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

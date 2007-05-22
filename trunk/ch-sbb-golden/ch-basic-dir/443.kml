@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>443 021131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.28515625</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0211310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>444.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>448.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>449.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0211313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>461.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12282">
+<name><![CDATA[Mellingen, Krone]]></name>
+<description><![CDATA[406 connections
+]]></description>
+<Point>
+<coordinates>8.273520,47.420800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12927">
+<name><![CDATA[Oberrohrdorf, Post]]></name>
+<description><![CDATA[398 connections
+]]></description>
+<Point>
+<coordinates>8.315910,47.419300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8970">
+<name><![CDATA[Bremgarten AG, Bahnhof]]></name>
+<description><![CDATA[396 connections
+]]></description>
+<Point>
+<coordinates>8.345890,47.351400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9331">
+<name><![CDATA[Mellingen, Lindenplatz]]></name>
+<description><![CDATA[394 connections
+]]></description>
+<Point>
+<coordinates>8.271820,47.418100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12196">
+<name><![CDATA[Niederrohrdorf, Post]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<Point>
+<coordinates>8.304720,47.423900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2867">
+<name><![CDATA[Niederrohrdorf, Hiltiberg]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<Point>
+<coordinates>8.296150,47.426700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6920">
+<name><![CDATA[Fislisbach, Niederrohrdorferst]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<Point>
+<coordinates>8.290960,47.433700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10150">
+<name><![CDATA[Wohlen AG, Bahnhofstr./Migros]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<Point>
+<coordinates>8.272400,47.349300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7429">
+<name><![CDATA[Fislisbach, Steinäcker]]></name>
+<description><![CDATA[336 connections
+]]></description>
+<Point>
+<coordinates>8.289290,47.433200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1196">
+<name><![CDATA[Bellikon, Abzw. Hausen]]></name>
+<description><![CDATA[332 connections
+]]></description>
+<Point>
+<coordinates>8.339010,47.394600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3185">
+<name><![CDATA[Glanzenberg]]></name>
+<description><![CDATA[330 connections
+]]></description>
+<Point>
+<coordinates>8.420420,47.398900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4364">
+<name><![CDATA[Remetschwil, Post]]></name>
+<description><![CDATA[324 connections
+]]></description>
+<Point>
+<coordinates>8.326980,47.408000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6552">
+<name><![CDATA[Wettingen]]></name>
+<description><![CDATA[313 connections
+]]></description>
+<Point>
+<coordinates>8.315990,47.459600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2726">
+<name><![CDATA[Oberlunkhofen, Waldegg]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<Point>
+<coordinates>8.398810,47.313400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5714">
+<name><![CDATA[Oberlunkhofen, Oberdorf]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<Point>
+<coordinates>8.392760,47.312300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4057">
+<name><![CDATA[Arni AG, Dorf]]></name>
+<description><![CDATA[296 connections
+]]></description>
+<Point>
+<coordinates>8.420070,47.318400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>4 020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>7.03125</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>5.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.40625</south>
+<east>6.328125</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>14.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>29.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13505">
+<name><![CDATA[Lausanne]]></name>
+<description><![CDATA[767 connections
+]]></description>
+<Point>
+<coordinates>6.629090,46.516800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11482">
+<name><![CDATA[Cernier, centre]]></name>
+<description><![CDATA[599 connections
+]]></description>
+<Point>
+<coordinates>6.901610,47.058700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7300">
+<name><![CDATA[Renens VD]]></name>
+<description><![CDATA[559 connections
+]]></description>
+<Point>
+<coordinates>6.578930,46.537000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm321">
+<name><![CDATA[Lausanne, Place-de-l'Ours]]></name>
+<description><![CDATA[558 connections
+]]></description>
+<Point>
+<coordinates>6.641070,46.521900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13552">
+<name><![CDATA[Neuchâtel]]></name>
+<description><![CDATA[498 connections
+]]></description>
+<Point>
+<coordinates>6.935710,46.996700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6943">
+<name><![CDATA[Fontaines NE, Le District]]></name>
+<description><![CDATA[498 connections
+]]></description>
+<Point>
+<coordinates>6.900450,47.042500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8653">
+<name><![CDATA[Morges]]></name>
+<description><![CDATA[479 connections
+]]></description>
+<Point>
+<coordinates>6.493960,46.511100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3292">
+<name><![CDATA[Montreux]]></name>
+<description><![CDATA[455 connections
+]]></description>
+<Point>
+<coordinates>6.910430,46.435900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6879">
+<name><![CDATA[Belmont-s.-L., centre]]></name>
+<description><![CDATA[448 connections
+]]></description>
+<Point>
+<coordinates>6.679190,46.519100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12098">
+<name><![CDATA[Lausanne, La Sallaz]]></name>
+<description><![CDATA[446 connections
+]]></description>
+<Point>
+<coordinates>6.647150,46.533000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7909">
+<name><![CDATA[Pully, Val-Vert]]></name>
+<description><![CDATA[428 connections
+]]></description>
+<Point>
+<coordinates>6.667030,46.522000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11629">
+<name><![CDATA[Chézard-St-Martin, centre]]></name>
+<description><![CDATA[424 connections
+]]></description>
+<Point>
+<coordinates>6.926560,47.064200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14282">
+<name><![CDATA[Vevey]]></name>
+<description><![CDATA[415 connections
+]]></description>
+<Point>
+<coordinates>6.843440,46.463000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2845">
+<name><![CDATA[Cortaillod, Cortagora]]></name>
+<description><![CDATA[410 connections
+]]></description>
+<Point>
+<coordinates>6.843640,46.944100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11532">
+<name><![CDATA[Valangin, centre]]></name>
+<description><![CDATA[392 connections
+]]></description>
+<Point>
+<coordinates>6.905990,47.014600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2573">
+<name><![CDATA[Dombresson, poste]]></name>
+<description><![CDATA[388 connections
+]]></description>
+<Point>
+<coordinates>6.956770,47.071500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

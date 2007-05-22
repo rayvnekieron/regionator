@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1655 0320023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9224">
+<name><![CDATA[Isella-Olgia]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>8.576220,46.139100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13991">
+<name><![CDATA[Folsogno-Dissimo]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>8.558060,46.134200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

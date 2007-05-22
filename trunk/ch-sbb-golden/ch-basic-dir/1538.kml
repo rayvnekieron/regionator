@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1538 03030330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14958">
+<name><![CDATA[Reichenau-Tamins, Bahnhof]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>9.414810,46.824300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

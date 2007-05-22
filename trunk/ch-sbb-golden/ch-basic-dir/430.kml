@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>430 02113002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9221">
+<name><![CDATA[Auenstein, Wiweg]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.129000,47.415400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12681">
+<name><![CDATA[Hunzenschwil]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<Point>
+<coordinates>8.125680,47.388300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8668">
+<name><![CDATA[Biberstein, Ihegi]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.090560,47.414300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4966">
+<name><![CDATA[Hunzenschwil, Gemeindehaus]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.122900,47.384200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8412">
+<name><![CDATA[Rupperswil, Bahnhof]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.126850,47.403200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

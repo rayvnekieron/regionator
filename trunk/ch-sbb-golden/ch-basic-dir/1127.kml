@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1127 03002021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13131">
+<name><![CDATA[Triemli]]></name>
+<description><![CDATA[236 connections
+]]></description>
+<Point>
+<coordinates>8.495200,47.365000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3897">
+<name><![CDATA[Stallikon, Bleiki]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>8.488550,47.333600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8018">
+<name><![CDATA[Stallikon, Loomatt]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>8.485480,47.338500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5204">
+<name><![CDATA[Stallikon, Sellenbüren]]></name>
+<description><![CDATA[222 connections
+]]></description>
+<Point>
+<coordinates>8.482080,47.343300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2151">
+<name><![CDATA[Uetliberg]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.487650,47.352400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

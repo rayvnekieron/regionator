@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>221 0210203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>7.20703125</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5988">
+<name><![CDATA[Combe-Tabeillon]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.158460,47.313800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9189">
+<name><![CDATA[St-Ursanne, Route Rang]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.155350,47.363800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9009">
+<name><![CDATA[Montenol, village]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.149790,47.351700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11091">
+<name><![CDATA[Montenol, école]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.148800,47.350500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13784">
+<name><![CDATA[Montenol, Prés-de-Montenol]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.140870,47.349600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2035">
+<name><![CDATA[Chez-le-Baron]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.133610,47.346700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10574">
+<name><![CDATA[Epauvillers, bif. sur Le Péca]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.128990,47.343500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6323">
+<name><![CDATA[Bollement]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.123960,47.297200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6730">
+<name><![CDATA[Le Chésal]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.119940,47.307700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9975">
+<name><![CDATA[Sceut, poste]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.150320,47.315000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4391">
+<name><![CDATA[Saulcy, Bonembez]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.178090,47.316000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3355">
+<name><![CDATA[Saulcy, bif. La Racine]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.166220,47.309700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9030">
+<name><![CDATA[Saulcy, poste]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.153040,47.300600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

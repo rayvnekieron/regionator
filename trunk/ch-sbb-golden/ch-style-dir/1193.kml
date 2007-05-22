@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1193 03002310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.7451171875</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030023101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.26318359375</south>
+<east>8.7451171875</east>
+<west>8.72314453125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1194.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030023102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.26318359375</north>
+<south>47.2412109375</south>
+<east>8.72314453125</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1195.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030023103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.26318359375</north>
+<south>47.2412109375</south>
+<east>8.7451171875</east>
+<west>8.72314453125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1196.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7644">
+<name><![CDATA[Männedorf, Glärnischstrasse]]></name>
+<description><![CDATA[224 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.702510,47.253600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13492">
+<name><![CDATA[Oetwil am See, Zelgli]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.719890,47.273800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7999">
+<name><![CDATA[Oetwil am See, Gusch]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.718480,47.277600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5944">
+<name><![CDATA[Oetwil am See, Felsengrund]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.715030,47.281600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3020">
+<name><![CDATA[Esslingen, Oberesslingen]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.713110,47.284200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9520">
+<name><![CDATA[Grüningen, Holzhausen]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.742370,47.271800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14080">
+<name><![CDATA[Oetwil am See, Eichholzstrasse]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.740290,47.270600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6601">
+<name><![CDATA[Oetwil am See, Willikon]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.735640,47.266400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1756">
+<name><![CDATA[Oetwil am See, Buacher]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.724400,47.268800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9089">
+<name><![CDATA[Stäfa, Wässerwies]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.727760,47.243200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10981">
+<name><![CDATA[Stäfa, Tränkebachstrasse]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.726990,47.242200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm922">
+<name><![CDATA[Stäfa, Metzg]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.726340,47.245200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13128">
+<name><![CDATA[Stäfa, Uelikon]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.718590,47.249200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6799">
+<name><![CDATA[Männedorf, Allenberg]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.708410,47.254000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3268">
+<name><![CDATA[Stäfa, Binz]]></name>
+<description><![CDATA[123 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.723810,47.249300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5018">
+<name><![CDATA[Oetwil am See, Bergstrasse]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.718250,47.269900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

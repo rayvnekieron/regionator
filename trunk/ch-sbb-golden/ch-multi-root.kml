@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<NetworkLink>
+<Style>
+<ListStyle>
+<listItemType>checkHideChildren</listItemType>
+</ListStyle>
+</Style>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>50.625</north>
+<south>45.0</south>
+<east>11.25</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>ch-multi-dir/1.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+</Document>
+</kml>

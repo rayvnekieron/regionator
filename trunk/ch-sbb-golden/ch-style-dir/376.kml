@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>376 02112033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>7.91015625</east>
+<west>7.8662109375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4906">
+<name><![CDATA[Aarburg, Höchi]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.904960,47.328800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3315">
+<name><![CDATA[Aarburg, Rathaus]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.898950,47.321900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4596">
+<name><![CDATA[Boningen, Ruppoldingen]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.880360,47.312700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

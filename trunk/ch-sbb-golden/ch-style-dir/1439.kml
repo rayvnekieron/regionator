@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1439 0302011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.7890625</east>
+<west>8.701171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03020113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>8.7890625</east>
+<west>8.7451171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1440.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14549">
+<name><![CDATA[Trachslau, alte Post]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.733110,47.108400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6133">
+<name><![CDATA[Trachslau, altes Schulhaus]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.730380,47.104800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm813">
+<name><![CDATA[Trachslau, Kirche]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.727980,47.100600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6673">
+<name><![CDATA[Trachslau, alte Säge]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.725830,47.093400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6905">
+<name><![CDATA[Alpthal, Gribsch]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.722610,47.082900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5717">
+<name><![CDATA[Alpthal, Grund]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.722510,47.078800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7801">
+<name><![CDATA[Alpthal, Eigen]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.721740,47.087800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14831">
+<name><![CDATA[Alpthal, Schnüerlismatt]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.719100,47.073700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2702">
+<name><![CDATA[Alpthal, Post]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.715740,47.070800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14552">
+<name><![CDATA[Alpthal, Rütli]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.714570,47.066100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10853">
+<name><![CDATA[Alpthal, Malosen]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.712570,47.062100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1759">
+<name><![CDATA[Alpthal, Stei]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.710110,47.055600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10478">
+<name><![CDATA[Brunni SZ, Rest. Brunni]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.706270,47.046200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1285">
+<name><![CDATA[Brunni SZ LBH]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.703090,47.042000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2622">
+<name><![CDATA[Oberiberg, Tschalun]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.777450,47.037500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm630">
+<name><![CDATA[Brunni SZ, Talstation LBH]]></name>
+<description><![CDATA[29 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.703210,47.041900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

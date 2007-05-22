@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1167 03002203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7124">
+<name><![CDATA[Blickensdorf, Dorf]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>8.514270,47.201500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7579">
+<name><![CDATA[Uerzlikon]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.500280,47.222200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11828">
+<name><![CDATA[Blickensdorf, H. Waldmann-Str]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.516250,47.201300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8072">
+<name><![CDATA[Baar, Bachtalerhöhe]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.510430,47.209900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm874">
+<name><![CDATA[Kappel am Albis, Weid]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>8.502720,47.217000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14813">
+<name><![CDATA[Uerzlikon, Dorf]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>8.498940,47.222400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5827">
+<name><![CDATA[Hauptikon, Dorf]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>8.495440,47.230300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1774">
+<name><![CDATA[Mettmenstetten, Wissenbach]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.501180,47.234900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6426">
+<name><![CDATA[Mettmenstetten, Rossau]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.483910,47.226200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

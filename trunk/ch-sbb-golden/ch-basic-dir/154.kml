@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>154 0203303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02033032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.6259765625</north>
+<south>46.58203125</south>
+<east>6.8115234375</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>155.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.6259765625</north>
+<south>46.58203125</south>
+<east>6.85546875</east>
+<west>6.8115234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>156.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5493">
+<name><![CDATA[Rue, poste]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.822410,46.619300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7171">
+<name><![CDATA[Ecublens-Rue]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.811050,46.610400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9073">
+<name><![CDATA[Vauderens, gare]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>6.849800,46.622100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7360">
+<name><![CDATA[Pont (Veveyse), village]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.852780,46.587900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4140">
+<name><![CDATA[Ferlens VD, bif.]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>6.783560,46.593000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14740">
+<name><![CDATA[Vauderens]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.850030,46.621400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10873">
+<name><![CDATA[Vuarmarens, poste]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.824740,46.644500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8540">
+<name><![CDATA[Montet (Glâne), village]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.815340,46.643700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4597">
+<name><![CDATA[Ferlens VD, village]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.785580,46.588500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7096">
+<name><![CDATA[Servion, Mannessivaz]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.783360,46.582800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2050">
+<name><![CDATA[Chavannes-sur-Moudon, village]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.810210,46.657900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2060">
+<name><![CDATA[Moudon, Le Vallon]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>6.790750,46.668600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6055">
+<name><![CDATA[Moudon, Belflori]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>6.782440,46.658900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10252">
+<name><![CDATA[Rossenges, croisée]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>6.776310,46.652300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14543">
+<name><![CDATA[Bressonnaz]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>6.791260,46.653100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3834">
+<name><![CDATA[Auboranges, Le Jordil]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>6.802880,46.587000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

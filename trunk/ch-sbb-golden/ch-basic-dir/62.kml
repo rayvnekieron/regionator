@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>62 0203103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02031030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>6.8115234375</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>63.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02031031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>6.85546875</east>
+<west>6.8115234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>64.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02031033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>6.85546875</east>
+<west>6.8115234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>65.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1065">
+<name><![CDATA[Champ-du-Moulin]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>6.774990,46.959900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14136">
+<name><![CDATA[Montmollin-Montezillon]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.842850,46.991400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm905">
+<name><![CDATA[Colombier]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>6.848880,46.967600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6379">
+<name><![CDATA[Boudry]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>6.835050,46.959500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2642">
+<name><![CDATA[Montmollin]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.845740,46.992300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm934">
+<name><![CDATA[Les Grattes, bif.]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.814920,46.985800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4505">
+<name><![CDATA[La Tourne, La Mauvaise-Combe]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.799070,46.992500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11040">
+<name><![CDATA[La Tourne, Col]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>6.792550,46.987900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11549">
+<name><![CDATA[Colombier NE, gare]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.849290,46.968000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2787">
+<name><![CDATA[Bôle, sous Le Pré]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.846660,46.968400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6391">
+<name><![CDATA[Bôle, collèges]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.840420,46.968000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14491">
+<name><![CDATA[Bôle, Pierre-à-Sisier]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.836800,46.969300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3623">
+<name><![CDATA[Chambrelien, village]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.819370,46.970100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7461">
+<name><![CDATA[La Sauge]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.814410,46.973000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4857">
+<name><![CDATA[Chambrelien, gare]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.812840,46.967400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5816">
+<name><![CDATA[Rochefort, L'Erable]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.812010,46.982000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

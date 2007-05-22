@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1569 0303123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03031232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>9.6240234375</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1570.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03031233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>9.66796875</east>
+<west>9.6240234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1571.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7488">
+<name><![CDATA[St. Peter-Molinis]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.653850,46.829100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12839">
+<name><![CDATA[Lüen-Castiel]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>9.613340,46.831700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12817">
+<name><![CDATA[Calfreisen, Abzw.]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.592710,46.839900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12292">
+<name><![CDATA[Praden, Kurhaus]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.586530,46.824800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7714">
+<name><![CDATA[Praden, alte Post]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.581610,46.824600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14578">
+<name><![CDATA[Castiel, Post]]></name>
+<description><![CDATA[47 connections
+]]></description>
+<Point>
+<coordinates>9.602500,46.838900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1916">
+<name><![CDATA[St. Peter, Gufa]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.658000,46.833100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9413">
+<name><![CDATA[St. Peter, Parkplatz]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.648480,46.832800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm231">
+<name><![CDATA[St. Peter, Volg]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.646840,46.832600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3928">
+<name><![CDATA[St. Peter, Rathaus]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.646230,46.833700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13268">
+<name><![CDATA[Pagig, Abzw.]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.642680,46.835200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4543">
+<name><![CDATA[Pagig, Pudanal]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.642320,46.834500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9080">
+<name><![CDATA[Tura]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.636440,46.834800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2694">
+<name><![CDATA[Castiel, Galgenbühl]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.624680,46.836000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6828">
+<name><![CDATA[Tschiertschen, Post]]></name>
+<description><![CDATA[27 connections
+]]></description>
+<Point>
+<coordinates>9.606570,46.817600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm453">
+<name><![CDATA[Calfreisen, Dorf]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>9.596380,46.841400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1021 0300002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.724609375</north>
+<south>47.63671875</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6982">
+<name><![CDATA[Neunkirch, Emag]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.501540,47.690100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm757">
+<name><![CDATA[Osterfingen, Dorf]]></name>
+<description><![CDATA[69 connections
+]]></description>
+<Point>
+<coordinates>8.487670,47.662300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

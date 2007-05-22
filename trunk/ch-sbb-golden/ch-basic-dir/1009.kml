@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1009 023110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>8.26171875</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0231101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>8.26171875</east>
+<west>8.173828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1010.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5160">
+<name><![CDATA[Binn, Dorf]]></name>
+<description><![CDATA[37 connections
+]]></description>
+<Point>
+<coordinates>8.182830,46.363700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14484">
+<name><![CDATA[Fiesch, Bahnhof]]></name>
+<description><![CDATA[35 connections
+]]></description>
+<Point>
+<coordinates>8.132980,46.403000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5370">
+<name><![CDATA[Steinmatten]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.153380,46.371400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8919">
+<name><![CDATA[Ausserbinn, Hubel]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.150890,46.376700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4340">
+<name><![CDATA[Ausserbinn, Dorfplatz]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.148460,46.381700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4056">
+<name><![CDATA[Ausserbinn, Wengi]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.141890,46.383400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm583">
+<name><![CDATA[Ernen, Aragon]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.140780,46.396600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10191">
+<name><![CDATA[Ernen, Niederernen]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.136130,46.393200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15057">
+<name><![CDATA[Fiesch, Abzw. Feriendorf]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.132990,46.398000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6565">
+<name><![CDATA[Ernen, Am Wasen]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.130380,46.385800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm354">
+<name><![CDATA[Ernen, Z'Brigg]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.126540,46.390800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9598">
+<name><![CDATA[Lax, Abzw. Ernen]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.124280,46.392600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3047">
+<name><![CDATA[Binn, Campingplatz]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>8.202130,46.369600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12050">
+<name><![CDATA[Binn, Giesse]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>8.199610,46.368300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12556">
+<name><![CDATA[Fiesch FE]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.136710,46.405100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10636">
+<name><![CDATA[Binn, Fäld]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>8.213170,46.368700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>883 0230010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14437">
+<name><![CDATA[Gsteig b. Gstaad, Saali]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>7.267660,46.397700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13404">
+<name><![CDATA[Gsteig b. Gstaad, Post]]></name>
+<description><![CDATA[45 connections
+]]></description>
+<Point>
+<coordinates>7.267370,46.385600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4291">
+<name><![CDATA[Gsteig b. Gstaad, Heitibrücke]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.263480,46.382900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13118">
+<name><![CDATA[Gsteig b. Gstaad, Gründ]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.258610,46.380600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12392">
+<name><![CDATA[Gsteig b. Gstaad, Höhe]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.245320,46.372500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1987">
+<name><![CDATA[Reusch, Talstation]]></name>
+<description><![CDATA[25 connections
+]]></description>
+<Point>
+<coordinates>7.235920,46.365500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11400">
+<name><![CDATA[Les Diablerets, La Marche]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.228140,46.362100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6123">
+<name><![CDATA[Savièse, Senin]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>7.290940,46.343400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9462">
+<name><![CDATA[Col-du-Sanetsch]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>7.286230,46.331500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14416">
+<name><![CDATA[Arnensee]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.221250,46.394300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5357">
+<name><![CDATA[Oldenegg]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>7.238100,46.351800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10870">
+<name><![CDATA[Reusch]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>7.235590,46.365400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

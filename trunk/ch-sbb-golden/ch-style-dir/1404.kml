@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1404 0301302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.28515625</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14015">
+<name><![CDATA[Büchel bei Rüthi (Rheintal)]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.541950,47.286000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3857">
+<name><![CDATA[Hinterforst, Post]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.531540,47.357600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11694">
+<name><![CDATA[Eichberg, Dorf]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.523110,47.345100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5713">
+<name><![CDATA[Eichberg, Süesswinkel]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.517710,47.342500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2786">
+<name><![CDATA[Eichberg, Post]]></name>
+<description><![CDATA[139 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.530940,47.342300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3441">
+<name><![CDATA[Oberriet SG, Coop]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.569900,47.323600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2606">
+<name><![CDATA[Oberriet SG, Zollbrücke]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.564510,47.321000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13791">
+<name><![CDATA[Hueb bei Oberriet SG]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.534630,47.335000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10976">
+<name><![CDATA[Kreuzstrasse]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.505600,47.365700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3725">
+<name><![CDATA[Stoss AR]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.495170,47.360800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14533">
+<name><![CDATA[Alter Zoll]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.522080,47.368600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11022">
+<name><![CDATA[Warmesberg]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.513560,47.365400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1147">
+<name><![CDATA[Oberriet]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.571370,47.323500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12754">
+<name><![CDATA[Rüthi SG]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.536050,47.286700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9046">
+<name><![CDATA[Eichberg, Hölzlisberg]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.512490,47.344400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

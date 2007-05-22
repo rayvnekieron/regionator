@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>110 02032112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.6357421875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1936">
+<name><![CDATA[Penthéréaz, Le Battoir]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.605630,46.686100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2456">
+<name><![CDATA[Penthéréaz, Laiterie]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.603920,46.682700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8543">
+<name><![CDATA[Penthéréaz, village]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.603750,46.680900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13928">
+<name><![CDATA[Penthéréaz, Champ-de-Vaud]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.620560,46.693300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12804">
+<name><![CDATA[Corcelles-s-Chavornay, Tuile]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.618200,46.697800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3613">
+<name><![CDATA[Corcelles-s-Chavornay, Longera]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.606020,46.703400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8258">
+<name><![CDATA[Corcelles-s-Chavornay, village]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.600780,46.704200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7131">
+<name><![CDATA[Corcelles-s-Chavornay, Carré]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.595760,46.703300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>514 021201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.3828125</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0212010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>515.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>520.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.294921875</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>525.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.3828125</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>529.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9725">
+<name><![CDATA[Gümmenen]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>7.234410,46.942200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6443">
+<name><![CDATA[Lyss, Seelandhalle]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>7.313240,47.068600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7587">
+<name><![CDATA[Sutz]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>7.219420,47.101900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9618">
+<name><![CDATA[Lattrigen]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>7.214220,47.096700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5610">
+<name><![CDATA[Mörigen]]></name>
+<description><![CDATA[162 connections
+]]></description>
+<Point>
+<coordinates>7.212230,47.085700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8917">
+<name><![CDATA[Lyss, Zentrum]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>7.304830,47.073700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11027">
+<name><![CDATA[Lyss, Industriezone Bernstr.]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>7.320420,47.067700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6991">
+<name><![CDATA[Lyss, Mühleplatz]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>7.308300,47.070600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10258">
+<name><![CDATA[Hinterkappelen, Post]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>7.377640,46.967700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9128">
+<name><![CDATA[Uettligen, Schüpfenried]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>7.373270,46.988900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7964">
+<name><![CDATA[Möriswil, Abzw.]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>7.358690,46.993100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3503">
+<name><![CDATA[Säriswil, Birchi]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>7.349070,46.994900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14610">
+<name><![CDATA[Säriswil, Schulhaus]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>7.342670,46.993300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9537">
+<name><![CDATA[Säriswil, Dorf]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>7.333770,46.991600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8418">
+<name><![CDATA[Seedorf BE, Schulhaus]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>7.307070,47.036500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6267">
+<name><![CDATA[Kappelenring, Ost]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>7.378420,46.965500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

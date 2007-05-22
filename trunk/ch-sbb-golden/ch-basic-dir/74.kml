@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>74 02031201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>6.767578125</east>
+<west>6.7236328125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1704">
+<name><![CDATA[Provence, La Grangette]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.727350,46.898800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10613">
+<name><![CDATA[St-Aubin NE, Le Devens]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>6.760750,46.903600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12779">
+<name><![CDATA[St-Aubin NE, Les Charrières]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>6.767100,46.894000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

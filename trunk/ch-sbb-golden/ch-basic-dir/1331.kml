@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1331 03011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.4609375</south>
+<east>9.84375</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>9.66796875</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1332.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.4609375</south>
+<east>9.84375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1337.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6466">
+<name><![CDATA[Rorschach]]></name>
+<description><![CDATA[351 connections
+]]></description>
+<Point>
+<coordinates>9.505130,47.478000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10062">
+<name><![CDATA[Rheineck]]></name>
+<description><![CDATA[257 connections
+]]></description>
+<Point>
+<coordinates>9.590900,47.466900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15046">
+<name><![CDATA[Rorschach Hafen]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<Point>
+<coordinates>9.492900,47.478600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14892">
+<name><![CDATA[Rorschacherberg,Sonnenhof Nord]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>9.504180,47.471700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7365">
+<name><![CDATA[Rorschach, Spital]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>9.493690,47.475000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10242">
+<name><![CDATA[Staad]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>9.534440,47.480500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14505">
+<name><![CDATA[Rheineck, Bahnhof]]></name>
+<description><![CDATA[101 connections
+]]></description>
+<Point>
+<coordinates>9.590880,47.466300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11123">
+<name><![CDATA[Rheineck, National]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.585930,47.467000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9302">
+<name><![CDATA[Rheineck, Asylstrasse]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.579950,47.466700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10966">
+<name><![CDATA[Thal, Löwen]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.572280,47.465700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8760">
+<name><![CDATA[Thal, Anker]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>9.569240,47.464400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13241">
+<name><![CDATA[Thal, alte Post]]></name>
+<description><![CDATA[95 connections
+]]></description>
+<Point>
+<coordinates>9.567310,47.465800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1699">
+<name><![CDATA[Rorschacherberg, Bernerhüsli]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>9.518560,47.474600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1434">
+<name><![CDATA[Rorschacherberg, Burg]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>9.511200,47.473100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14593">
+<name><![CDATA[Rorschacherberg, Wilen]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>9.527280,47.476900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10772">
+<name><![CDATA[Rorschacherberg, Post]]></name>
+<description><![CDATA[73 connections
+]]></description>
+<Point>
+<coordinates>9.493810,47.469400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

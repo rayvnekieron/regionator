@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>297 02103231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5678">
+<name><![CDATA[Bleichenberg]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>7.558470,47.191300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14125">
+<name><![CDATA[Ammannsegg]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.537350,47.172800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

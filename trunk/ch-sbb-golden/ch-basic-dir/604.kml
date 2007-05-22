@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>604 02121122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.6025390625</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14598">
+<name><![CDATA[Radelfingen bei Utzigen]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>7.575250,46.951900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3509">
+<name><![CDATA[Utzigen, Schächli]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.576600,46.966300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13947">
+<name><![CDATA[Utzigen, Spirchen]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>7.572660,46.965400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1820">
+<name><![CDATA[Utzigen, Pfarrhaus]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.566080,46.961800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6898">
+<name><![CDATA[Bangerten b. Worb, Wäs.Käserei]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.585760,46.949600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12395">
+<name><![CDATA[Littewil]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.584480,46.961800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

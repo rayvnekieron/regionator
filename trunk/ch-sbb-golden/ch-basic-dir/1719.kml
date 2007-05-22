@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1719 0320300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.966796875</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03203000</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.0107421875</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1720.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.0107421875</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1721.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0107421875</north>
+<south>45.966796875</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1722.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03203003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0107421875</north>
+<south>45.966796875</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1723.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm603">
+<name><![CDATA[Breno, Crocevia per Breno]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.868290,46.031600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6642">
+<name><![CDATA[Novaggio, Posta]]></name>
+<description><![CDATA[155 connections
+]]></description>
+<Point>
+<coordinates>8.855720,46.010400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12285">
+<name><![CDATA[Aranno, Cappella di Aranno]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.874230,46.021700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3215">
+<name><![CDATA[Ponte Tresa, Stazione]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>8.860350,45.969800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13172">
+<name><![CDATA[Pura, Ai Ronchetti]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.873750,45.982800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1818">
+<name><![CDATA[Pura, Paese]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.869520,45.985000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2362">
+<name><![CDATA[Pura, Loco]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.866540,45.989400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11255">
+<name><![CDATA[Pura, Moriscio]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.865850,45.992600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3051">
+<name><![CDATA[Curio, Posta]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.861050,46.001700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1151">
+<name><![CDATA[Curio, Molino di Curio]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.859610,46.001000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6680">
+<name><![CDATA[Breno, Paese]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>8.869360,46.033000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2222">
+<name><![CDATA[Miglieglia, Cassinelle]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>8.862520,46.033200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3283">
+<name><![CDATA[Miglieglia, Bisada]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>8.858540,46.024600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm527">
+<name><![CDATA[Miglieglia, Tortoglio]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>8.856990,46.029400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6538">
+<name><![CDATA[Molinazzo di Monteggio,Ressega]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.817010,45.990700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9049">
+<name><![CDATA[Ponte Cremenaga, Paese]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>8.809850,45.993500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

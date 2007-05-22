@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1626 031211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>10.546875</east>
+<west>10.37109375</west>
+</LatLonAltBox>
+</Region>
+<Placemark>
+<name>Pfunds, Postamt</name>
+<description>38 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.537700,46.973300</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.537700,46.973300
+10.553800,46.982300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.537700,46.973300
+10.626700,47.035000</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.537700,46.973300
+10.510700,46.952200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Pfunds, Kajetansbrücke</name>
+<description>38 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.510700,46.952200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.510700,46.952200
+10.556300,46.928400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.510700,46.952200
+10.464200,46.885700</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.510700,46.952200
+10.537700,46.973300</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Martina, Acla da Fans</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.436700,46.954600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.436700,46.954600
+10.486200,46.925300</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.436700,46.954600
+10.421400,46.960600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Samnaun-Compatsch,Spissermühle</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.421400,46.960600</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.421400,46.960600
+10.405200,46.960400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.421400,46.960600
+10.436700,46.954600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Samnaun-Compatsch, Dorfplatz</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.405200,46.960400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.405200,46.960400
+10.402200,46.960100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.405200,46.960400
+10.421400,46.960600</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Samnaun-Compatsch, Post</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.402200,46.960100</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.402200,46.960100
+10.397900,46.959400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.402200,46.960100
+10.405200,46.960400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Samnaun-Compatsch, Abzw. Laret</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.397900,46.959400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.397900,46.959400
+10.402200,46.960100</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.397900,46.959400
+10.383500,46.956200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Samnaun Plan</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.383500,46.956200</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.383500,46.956200
+10.397900,46.959400</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.383500,46.956200
+10.375000,46.951400</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Samnaun Ravaisch</name>
+<description>24 connections
+</description>
+<styleUrl>../style/poly.kml#station_icon</styleUrl>
+<MultiGeometry>
+<Point>
+<coordinates>10.375000,46.951400</coordinates>
+</Point>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.375000,46.951400
+10.362600,46.944900</coordinates>
+</LineString>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>10.375000,46.951400
+10.383500,46.956200</coordinates>
+</LineString>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

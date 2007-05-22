@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1055 03000301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.701171875</east>
+<west>8.6572265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3949">
+<name><![CDATA[Kleinandelfingen, Bad]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.686880,47.601600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm412">
+<name><![CDATA[Kleinandelfingen, Dorf]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>8.683570,47.599900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10640">
+<name><![CDATA[Oerlingen]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>8.676340,47.624100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5804">
+<name><![CDATA[Andelfingen, Bahnhof]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>8.677790,47.593900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

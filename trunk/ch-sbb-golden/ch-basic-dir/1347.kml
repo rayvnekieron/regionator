@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1347 03012013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>9.31640625</east>
+<west>9.2724609375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5090">
+<name><![CDATA[Gossau SG, Betriebszentralen]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.275820,47.409600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5950">
+<name><![CDATA[Gossau SG, Zeughausstrasse]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.273390,47.416400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4827">
+<name><![CDATA[Herisau, Bruggeregg]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>9.276090,47.379500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm518">
+<name><![CDATA[Herisau, Müli]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>9.273300,47.384900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4278">
+<name><![CDATA[St. Gallen, Breitfeld]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>9.302770,47.403800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9409">
+<name><![CDATA[Herisau, Kaserne]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.289690,47.389800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3772">
+<name><![CDATA[Herisau, Heinrichsbad]]></name>
+<description><![CDATA[2 connections
+]]></description>
+<Point>
+<coordinates>9.280480,47.391600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

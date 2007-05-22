@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>351 02111300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.63671875</north>
+<south>47.5927734375</south>
+<east>8.3056640625</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3011">
+<name><![CDATA[Kadelburg, Post]]></name>
+<description><![CDATA[11 connections
+]]></description>
+<Point>
+<coordinates>8.295100,47.609000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4126">
+<name><![CDATA[Tiengen, Mitte]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.278200,47.633400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13227">
+<name><![CDATA[Tiengen, Bahnhof]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<Point>
+<coordinates>8.272900,47.635300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

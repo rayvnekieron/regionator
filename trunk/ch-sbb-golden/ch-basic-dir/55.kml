@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>55 020310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>6.85546875</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0203100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>6.767578125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>56.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>60.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>6.767578125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>61.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>62.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm166">
+<name><![CDATA[Le Locle, école des Girardet]]></name>
+<description><![CDATA[154 connections
+]]></description>
+<Point>
+<coordinates>6.762000,47.065100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2611">
+<name><![CDATA[Les Eplatures-Jaune]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>6.803860,47.087400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4762">
+<name><![CDATA[Chambrelien]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.812260,46.967100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2493">
+<name><![CDATA[Les Geneveys-sur-Coffrane]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>6.853220,47.015100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8398">
+<name><![CDATA[Le Locle, Jardin Klaus]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>6.749600,47.057000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14410">
+<name><![CDATA[Le Locle, place du Marché]]></name>
+<description><![CDATA[137 connections
+]]></description>
+<Point>
+<coordinates>6.749600,47.057000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13220">
+<name><![CDATA[Le Locle]]></name>
+<description><![CDATA[133 connections
+]]></description>
+<Point>
+<coordinates>6.746160,47.057900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9559">
+<name><![CDATA[Le Locle, Technicum]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>6.741700,47.056900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1654">
+<name><![CDATA[La Chaux-de-Fonds, Espacité]]></name>
+<description><![CDATA[119 connections
+]]></description>
+<Point>
+<coordinates>6.830030,47.102800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11002">
+<name><![CDATA[Le Locle, Lux]]></name>
+<description><![CDATA[119 connections
+]]></description>
+<Point>
+<coordinates>6.741720,47.055100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11987">
+<name><![CDATA[Perreux, Hôpital]]></name>
+<description><![CDATA[117 connections
+]]></description>
+<Point>
+<coordinates>6.817360,46.945800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14371">
+<name><![CDATA[La Chaux-du-Milieu, Clef-d'Or]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>6.715240,47.018100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5096">
+<name><![CDATA[La Chaux-du-Milieu, La Forge]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>6.710020,47.015300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7067">
+<name><![CDATA[La Chaux-du-Milieu, poste]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<Point>
+<coordinates>6.702820,47.013000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9216">
+<name><![CDATA[Noiraigue]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>6.721810,46.954900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2643">
+<name><![CDATA[Bôle]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>6.837690,46.969000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

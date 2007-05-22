@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>774 0213201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>7.91015625</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02132010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>775.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02132012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>776.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02132013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>7.91015625</east>
+<west>7.8662109375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>777.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13546">
+<name><![CDATA[Matten b. I., Hertigässli]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.868970,46.679100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10946">
+<name><![CDATA[Matten b. I., Brunnen-Haus]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.867010,46.679700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5505">
+<name><![CDATA[Matten b. I., Mattenstrasse]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.866990,46.677000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10161">
+<name><![CDATA[Matten b. I., Kesslergasse]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.866690,46.680600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4855">
+<name><![CDATA[Matten b. I., Hotel Regina]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.859180,46.681100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14601">
+<name><![CDATA[Matten b. I.,Gar. Grossniklaus]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.855310,46.679100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8686">
+<name><![CDATA[Interlaken, Heimwehfluhbahn]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.853600,46.677300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9696">
+<name><![CDATA[Interlaken, Rugenparkstrasse]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.851670,46.681800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm649">
+<name><![CDATA[Unterseen, Stadthausplatz]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.850070,46.686800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5414">
+<name><![CDATA[Unterseen, Friedhof]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.849430,46.687900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2188">
+<name><![CDATA[Unterseen, Gartenstrasse]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.845500,46.686600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14945">
+<name><![CDATA[Unterseen, am Lauener]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.843210,46.686400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5686">
+<name><![CDATA[Unterseen, Schulhaus Steindler]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>7.840260,46.685700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9924">
+<name><![CDATA[Bönigen, See]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<Point>
+<coordinates>7.898120,46.687900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14372">
+<name><![CDATA[Bönigen, Lütschinenbrücke]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.890280,46.688000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1005">
+<name><![CDATA[Interlaken, Geissgasse]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.883830,46.697900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

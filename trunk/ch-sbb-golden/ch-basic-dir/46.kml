@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>46 02030321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.8017578125</south>
+<east>6.591796875</east>
+<west>6.5478515625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm5983">
+<name><![CDATA[Vugelles-La Mothe, laiterie]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.575330,46.823400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2012">
+<name><![CDATA[Orges, Bois-du-Fey]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.574740,46.807000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13844">
+<name><![CDATA[Vugelles-La Mothe, Le Fontaney]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.568250,46.819500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6446">
+<name><![CDATA[La Mothe, haut-du-village]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.565530,46.817800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5173">
+<name><![CDATA[Vuiteboeuf, bif.]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.556430,46.805300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9231">
+<name><![CDATA[Vuiteboeuf, collège]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.549050,46.808000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7670">
+<name><![CDATA[Orges, Longeville]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>6.583550,46.821500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10805">
+<name><![CDATA[Orges, Les Charrières]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>6.581960,46.818600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

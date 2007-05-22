@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>504 0212001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.20703125</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02120010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>7.1630859375</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>505.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.1630859375</east>
+<west>7.119140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>506.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.20703125</east>
+<west>7.1630859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>507.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8386">
+<name><![CDATA[Ligerz]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.135150,47.083800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13783">
+<name><![CDATA[Finsterhennen]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.178850,47.029800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1081">
+<name><![CDATA[Siselen BE]]></name>
+<description><![CDATA[105 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.182350,47.032200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm475">
+<name><![CDATA[Hagneck]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.186100,47.056800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3578">
+<name><![CDATA[Lüscherz]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.150960,47.047900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3149">
+<name><![CDATA[Lüscherz, Post]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.150460,47.044300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10520">
+<name><![CDATA[Lüscherz, Dorf]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.150450,47.046100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5218">
+<name><![CDATA[Lüscherz, Riedmatte]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.145190,47.044300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8154">
+<name><![CDATA[Täuffelen, Bahnhof]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.199040,47.066900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4449">
+<name><![CDATA[Twann BSG]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.157040,47.093300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1823">
+<name><![CDATA[Ligerz BSG]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.135490,47.083400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9196">
+<name><![CDATA[St. Petersinsel Nord]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.135620,47.068300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1187">
+<name><![CDATA[Prêles, poste]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.130430,47.095300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4942">
+<name><![CDATA[Prêles, collège]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.130400,47.099500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14396">
+<name><![CDATA[Prêles, gare]]></name>
+<description><![CDATA[53 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.130440,47.092800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1169">
+<name><![CDATA[Engelberg-Wingreis]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.177550,47.102200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

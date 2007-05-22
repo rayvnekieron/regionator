@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1771 032033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.703125</south>
+<east>9.140625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0320330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.791015625</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1772.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10732">
+<name><![CDATA[Chiasso, Municipio]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>9.027910,45.835100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11239">
+<name><![CDATA[Chiasso, Rampa]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>9.024550,45.836600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6790">
+<name><![CDATA[Chiasso, Boffalora]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>9.022010,45.837900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3388">
+<name><![CDATA[Mendrisio]]></name>
+<description><![CDATA[172 connections
+]]></description>
+<Point>
+<coordinates>8.978610,45.869100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14329">
+<name><![CDATA[Morbio Inferiore, Sta. Lucia]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<Point>
+<coordinates>9.016530,45.848800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13502">
+<name><![CDATA[Morbio Inferiore, Posta]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<Point>
+<coordinates>9.016620,45.852000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14294">
+<name><![CDATA[Morbio Inferiore, Pianelle]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>9.021620,45.857700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14526">
+<name><![CDATA[Morbio Superiore, Croce]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>9.020380,45.859300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7712">
+<name><![CDATA[Morbio Superiore, Campagna]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>9.019400,45.858900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5256">
+<name><![CDATA[Morbio Inferiore, Piano]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>9.019020,45.856900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2140">
+<name><![CDATA[Morbio Inferiore, Basilica]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>9.016020,45.853500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6310">
+<name><![CDATA[Balerna]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>9.005040,45.846700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8369">
+<name><![CDATA[Mendrisio, Filanda]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>8.990140,45.869300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11416">
+<name><![CDATA[Mendrisio, Borgo]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>8.987840,45.870000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13385">
+<name><![CDATA[Mendrisio, Macello]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>8.982080,45.871300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13408">
+<name><![CDATA[Morbio Superiore, Ponte Sagno]]></name>
+<description><![CDATA[124 connections
+]]></description>
+<Point>
+<coordinates>9.028230,45.863700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

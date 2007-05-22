@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>380 0211211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02112110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>381.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3773">
+<name><![CDATA[Distelberg]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.049250,47.375500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1409">
+<name><![CDATA[Binzenhof]]></name>
+<description><![CDATA[228 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.050580,47.383200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm142">
+<name><![CDATA[Wölflinswil, Mühlmatt]]></name>
+<description><![CDATA[190 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.999580,47.456800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1088">
+<name><![CDATA[Aarau, Rathausgasse]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.043930,47.392100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8784">
+<name><![CDATA[Obererlinsbach, Rössli]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.006990,47.405700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11760">
+<name><![CDATA[Hard, Abzw.]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.003210,47.424600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12347">
+<name><![CDATA[Densbüren, Ausserdorf]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.053240,47.452700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14779">
+<name><![CDATA[Densbüren, Gemeindehaus]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.051940,47.455400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm640">
+<name><![CDATA[Asp AG, Abzw.]]></name>
+<description><![CDATA[163 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.053820,47.445700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10030">
+<name><![CDATA[Staffelegg, Passhöhe]]></name>
+<description><![CDATA[161 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.060310,47.433600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1388">
+<name><![CDATA[Küttigen, Grossmatt]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.052970,47.429300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14875">
+<name><![CDATA[Küttigen, Abzw. Giebel]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.052220,47.422100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4823">
+<name><![CDATA[Oberhof, Adlerplatz]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.004830,47.451800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14284">
+<name><![CDATA[Küttigen, Oberdorf]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.042920,47.419900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2170">
+<name><![CDATA[Küttigen, Benken-Klus]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.038970,47.422400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10106">
+<name><![CDATA[Küttigen, Fischbach]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.034090,47.430300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

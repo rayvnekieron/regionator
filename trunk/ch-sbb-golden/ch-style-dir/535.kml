@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>535 0212020</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.119140625</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02120200</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>536.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120201</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>7.119140625</east>
+<west>7.0751953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>537.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>7.0751953125</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>538.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02120203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>7.119140625</east>
+<west>7.0751953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>539.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm11709">
+<name><![CDATA[Münchenwiler-Courgevaux]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.115120,46.911600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11351">
+<name><![CDATA[Avenches]]></name>
+<description><![CDATA[89 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.040920,46.884600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9777">
+<name><![CDATA[Meyriez, Dorf]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.108130,46.925100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8069">
+<name><![CDATA[Meyriez, Fin de Meyriez]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.106530,46.921000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11158">
+<name><![CDATA[Murten, Berntor]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.119060,46.929500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11472">
+<name><![CDATA[Faoug]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.074600,46.908200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12830">
+<name><![CDATA[Misery, poste]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.066260,46.851500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2571">
+<name><![CDATA[Avenches, gare]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.041150,46.879100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10331">
+<name><![CDATA[Greng, Schloss]]></name>
+<description><![CDATA[41 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.090080,46.913100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14434">
+<name><![CDATA[Murten LNM]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.116620,46.930600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10762">
+<name><![CDATA[Donatyre, poste]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.058230,46.874900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3871">
+<name><![CDATA[Avenches, Faubourg]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.042470,46.877500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4506">
+<name><![CDATA[Cormérod, Ferme Andrey]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.085850,46.864200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5802">
+<name><![CDATA[Courtion, école]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.068850,46.856900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10100">
+<name><![CDATA[Meyriez, Hôpital]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.106480,46.920700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12814">
+<name><![CDATA[Faoug débarcadère]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.076030,46.911400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

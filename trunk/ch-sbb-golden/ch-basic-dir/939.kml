@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>939 0230113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1906">
+<name><![CDATA[Tuminen]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>7.707230,46.286900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11908">
+<name><![CDATA[Leuk, Kreuzmatten]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.658570,46.301400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6095">
+<name><![CDATA[Briannen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.657970,46.297000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12047">
+<name><![CDATA[Gampinen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.655400,46.304100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8076">
+<name><![CDATA[Feithieren, Unter]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.654070,46.296000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5711">
+<name><![CDATA[Leuk, Kaplaneimatte]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.647790,46.300800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5113">
+<name><![CDATA[Feithieren, Ober]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.647580,46.296000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5381">
+<name><![CDATA[Durannen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.646900,46.304100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm706">
+<name><![CDATA[Ergisch, Dorf]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<Point>
+<coordinates>7.714790,46.293200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5595">
+<name><![CDATA[Oberems, Seilbahn]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.695370,46.282800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

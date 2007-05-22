@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1 0</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>50.625</north>
+<south>45.0</south>
+<east>11.25</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>01</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>50.625</north>
+<south>47.8125</south>
+<east>11.25</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>2.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>45.0</south>
+<east>8.4375</east>
+<west>5.625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>3.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>45.0</south>
+<east>11.25</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1014.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1942">
+<name><![CDATA[Zug, Postplatz]]></name>
+<description><![CDATA[4146 connections
+]]></description>
+<Point>
+<coordinates>8.515710,47.167900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11570">
+<name><![CDATA[Genève, Cornavin]]></name>
+<description><![CDATA[3333 connections
+]]></description>
+<Point>
+<coordinates>6.141560,46.209600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3640">
+<name><![CDATA[Genève, Nations]]></name>
+<description><![CDATA[2951 connections
+]]></description>
+<Point>
+<coordinates>6.138660,46.222100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7432">
+<name><![CDATA[Zürich HB]]></name>
+<description><![CDATA[2793 connections
+]]></description>
+<Point>
+<coordinates>8.540190,47.378200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13451">
+<name><![CDATA[Dreispitz]]></name>
+<description><![CDATA[2213 connections
+]]></description>
+<Point>
+<coordinates>7.608690,47.537200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3693">
+<name><![CDATA[Münchenstein Schaulager]]></name>
+<description><![CDATA[2179 connections
+]]></description>
+<Point>
+<coordinates>7.611620,47.527800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8664">
+<name><![CDATA[Basel Bahnhof SBB]]></name>
+<description><![CDATA[2156 connections
+]]></description>
+<Point>
+<coordinates>7.588740,47.547300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm339">
+<name><![CDATA[Genève, Rive]]></name>
+<description><![CDATA[2153 connections
+]]></description>
+<Point>
+<coordinates>6.153390,46.202500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4732">
+<name><![CDATA[Basel Aeschenplatz]]></name>
+<description><![CDATA[2151 connections
+]]></description>
+<Point>
+<coordinates>7.594850,47.551300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8410">
+<name><![CDATA[Thun, Bahnhof]]></name>
+<description><![CDATA[2052 connections
+]]></description>
+<Point>
+<coordinates>7.630380,46.754600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2281">
+<name><![CDATA[Luzern, Bahnhof]]></name>
+<description><![CDATA[1998 connections
+]]></description>
+<Point>
+<coordinates>8.308600,47.053000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5081">
+<name><![CDATA[Cham, Gemeindehaus]]></name>
+<description><![CDATA[1936 connections
+]]></description>
+<Point>
+<coordinates>8.458440,47.180400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14511">
+<name><![CDATA[Chêne-Bougeries, Conches]]></name>
+<description><![CDATA[1652 connections
+]]></description>
+<Point>
+<coordinates>6.173250,46.183900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4337">
+<name><![CDATA[Zug, Metalli West (Bahnhof)]]></name>
+<description><![CDATA[1617 connections
+]]></description>
+<Point>
+<coordinates>8.516330,47.172700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11797">
+<name><![CDATA[Zug, Metalli Ost (Bahnhof)]]></name>
+<description><![CDATA[1605 connections
+]]></description>
+<Point>
+<coordinates>8.516330,47.172700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2662">
+<name><![CDATA[Cham, Bahnhof]]></name>
+<description><![CDATA[1544 connections
+]]></description>
+<Point>
+<coordinates>8.459700,47.177700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

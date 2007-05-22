@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1385 0301231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>9.4921875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03012310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>9.4482421875</east>
+<west>9.404296875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1386.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10869">
+<name><![CDATA[Gams, Krezibach]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.432050,47.202100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8316">
+<name><![CDATA[Zollhaus b. Gams]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.423620,47.197500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10385">
+<name><![CDATA[Sennwald, Dornen]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.488400,47.251500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12502">
+<name><![CDATA[Frümsen, Hohlengass]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.474280,47.245200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9377">
+<name><![CDATA[Frümsen, Frool (Büsmig)]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.470940,47.244200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8285">
+<name><![CDATA[Frümsen, Post]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.470940,47.244200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11045">
+<name><![CDATA[Frümsen, Stig]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.465530,47.240900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm99">
+<name><![CDATA[Frümsen, Schäfli]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.464110,47.238200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2094">
+<name><![CDATA[Sax, Hueb]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.460710,47.235600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14745">
+<name><![CDATA[Sax, Post]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.455900,47.230700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8918">
+<name><![CDATA[Sax, Rofisbach]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.452740,47.225800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9971">
+<name><![CDATA[Sax, Farnen]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.452280,47.222200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2110">
+<name><![CDATA[Gams, Gasenzen]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.448550,47.210800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13877">
+<name><![CDATA[Gams, Gamschol]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.447740,47.215800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm893">
+<name><![CDATA[Gams, Schulhaus Höfli]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.441350,47.212500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10188">
+<name><![CDATA[Hoher Kasten]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.484940,47.283800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

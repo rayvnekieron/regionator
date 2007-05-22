@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1704 03201303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>032013030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.16455078125</south>
+<east>9.03076171875</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1705.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10374">
+<name><![CDATA[Bellinzona, Piazza Orico]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.017850,46.185100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2710">
+<name><![CDATA[Paudo, Paese]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.038180,46.171700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2144">
+<name><![CDATA[Pianezzo, Mondella]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.037970,46.175600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5773">
+<name><![CDATA[Pianezzo, Giaghen]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.034290,46.171600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2534">
+<name><![CDATA[Pianezzo, Giro Boschetto]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.033740,46.174700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1831">
+<name><![CDATA[Pianezzo, Ghezz]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.033020,46.172300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm292">
+<name><![CDATA[Pianezzo, Tremozza]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.032300,46.170000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7150">
+<name><![CDATA[Pianezzo, Sabbione]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.032020,46.171400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9188">
+<name><![CDATA[Pianezzo, Posta]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.029680,46.168900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9268">
+<name><![CDATA[Pianezzo, Ronchetti]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.028740,46.169800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12394">
+<name><![CDATA[Pianezzo, Giro del Féé]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.028190,46.173500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7824">
+<name><![CDATA[Pianezzo, Carabella]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.025490,46.169400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7275">
+<name><![CDATA[Lôro]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.019980,46.169300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10063">
+<name><![CDATA[Bellinzona, Isolabella]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.018120,46.183500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2620">
+<name><![CDATA[Giubiasco, Sasso Piatto]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.017120,46.171100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11810">
+<name><![CDATA[Giubiasco, Bivio Pedevilla]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>9.016430,46.180800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

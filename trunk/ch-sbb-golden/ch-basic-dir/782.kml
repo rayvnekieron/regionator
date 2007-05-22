@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>782 02132033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.6259765625</north>
+<south>46.58203125</south>
+<east>7.91015625</east>
+<west>7.8662109375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6403">
+<name><![CDATA[Sulwald]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>7.888100,46.623000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

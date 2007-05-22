@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>829 02201102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.3623046875</north>
+<south>46.318359375</south>
+<east>6.1962890625</east>
+<west>6.15234375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13249">
+<name><![CDATA[Chavannes-de-Bogis, centre com]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.155500,46.333000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14574">
+<name><![CDATA[Coppet, Les Rojalets]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>6.188210,46.322600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>31 020301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>6.6796875</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0203012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>6.591796875</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>32.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203013</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>6.6796875</east>
+<west>6.591796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>33.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5708">
+<name><![CDATA[Travers]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>6.676570,46.942400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9670">
+<name><![CDATA[La Brévine, poste]]></name>
+<description><![CDATA[71 connections
+]]></description>
+<Point>
+<coordinates>6.607300,46.980900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm685">
+<name><![CDATA[Le Prévoux, Les Etages]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.679670,47.022300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10314">
+<name><![CDATA[Le Cerneux-Péquignot, village]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.665280,47.016800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3536">
+<name><![CDATA[Le Bas-du-Cerneux]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.657460,47.011800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14045">
+<name><![CDATA[Le Cerneux-Péquignot, M-Rochat]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.651010,47.003200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12918">
+<name><![CDATA[Le Cerneux-Péquignot,M-Baillod]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.635990,46.996400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3657">
+<name><![CDATA[Le Cerneux-Péquignot, M-Lidor]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<Point>
+<coordinates>6.624900,46.990900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12459">
+<name><![CDATA[La Brévine, Bois-de-l'Halle]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.608330,46.957100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8196">
+<name><![CDATA[Les Sagnettes, La Roche]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.607340,46.935900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2247">
+<name><![CDATA[La Brévine, ch. du Baillod]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.603540,46.969200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11008">
+<name><![CDATA[Les Sagnettes, ch. Chenailleta]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.599890,46.950700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5765">
+<name><![CDATA[Les Sagnettes, anc. poste]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.598090,46.939900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2316">
+<name><![CDATA[Les Sagnettes, bif. Charbonni.]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>6.594730,46.944400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4102">
+<name><![CDATA[Le Cachot, carrefour]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.678610,47.004300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12402">
+<name><![CDATA[Le Cachot, Petit-Cachot]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.670110,47.001100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

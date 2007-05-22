@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>445 02113100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>8.3056640625</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm440">
+<name><![CDATA[Niederrohrdorf, Welschland]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.305320,47.420100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1350">
+<name><![CDATA[Baden, Rütihof Moosstrasse]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.272820,47.439600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14528">
+<name><![CDATA[Baden, Rütihof Bohnacker]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.269810,47.437900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11308">
+<name><![CDATA[Mellingen Heitersberg]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.276340,47.428100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm310">
+<name><![CDATA[Fislisbach, Dorfstrasse]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.292520,47.448700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13107">
+<name><![CDATA[Mellingen, Stetterstrasse]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.276800,47.418700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2538">
+<name><![CDATA[Baden, Rütihof Haberacher]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.271160,47.439000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

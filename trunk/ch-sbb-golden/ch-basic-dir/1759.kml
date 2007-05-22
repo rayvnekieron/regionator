@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1759 03203102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0107421875</north>
+<south>45.966796875</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7137">
+<name><![CDATA[Castagnola, Salita Olivi]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>8.978080,46.010700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm652">
+<name><![CDATA[Arogno, Villette]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.981030,45.966800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8595">
+<name><![CDATA[Grotto Elvezia]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.993300,46.003900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2916">
+<name><![CDATA[S. Rocco]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.979990,45.985100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2834">
+<name><![CDATA[Castagnola]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.971560,46.002700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1882">
+<name><![CDATA[Pugerna, Paese]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.978650,45.978400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8381">
+<name><![CDATA[Grotto Pescatori]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.993410,45.990000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7433">
+<name><![CDATA[Caprino]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.984740,45.987600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8695">
+<name><![CDATA[Castagnola Museo Heleneum]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>8.980880,46.000200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9513">
+<name><![CDATA[Cassarate, Lago]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>8.965460,46.005300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

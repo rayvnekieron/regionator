@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1233 03003021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.3291015625</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14173">
+<name><![CDATA[Bäretswil, Bahnhof]]></name>
+<description><![CDATA[117 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.852000,47.337200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12181">
+<name><![CDATA[Neuthal b. Bäretswil]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.863120,47.357500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10568">
+<name><![CDATA[Bäretswil, Bussental]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.858520,47.350100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13677">
+<name><![CDATA[Bauma, Dorfmitti]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.876700,47.366800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5853">
+<name><![CDATA[Bauma, Giesserei Wolfensberger]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.871750,47.363500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13167">
+<name><![CDATA[Bäretswil, Skilift]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.858790,47.340400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8345">
+<name><![CDATA[Adetswil, Frohwiesstrasse]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.844110,47.338500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2450">
+<name><![CDATA[Bäretswil, Gemeindehaus]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.856710,47.336100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10293">
+<name><![CDATA[Bauma, Widen]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.866010,47.370400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm34">
+<name><![CDATA[Adetswil]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.840970,47.339100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3556">
+<name><![CDATA[Neuthal]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.864360,47.357900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1865">
+<name><![CDATA[Bäretswil]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.852160,47.337300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

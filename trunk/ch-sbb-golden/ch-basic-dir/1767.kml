@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1767 032032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.703125</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0320320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.791015625</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1768.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0320321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.87890625</north>
+<south>45.791015625</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1769.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm8010">
+<name><![CDATA[Ligornetto, Crocevia Bullani]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.956530,45.860100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10064">
+<name><![CDATA[Ligornetto, Paese]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.953630,45.862500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5986">
+<name><![CDATA[Ligornetto, Posta]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.949890,45.862100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2351">
+<name><![CDATA[Ligornetto, alla Passeggiata]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.946750,45.860600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4832">
+<name><![CDATA[Stabio, Bagni]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.942260,45.851600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3485">
+<name><![CDATA[Stabio, Municipio]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.939460,45.852700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13021">
+<name><![CDATA[Stabio, Posta]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.938480,45.849800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14281">
+<name><![CDATA[Stabio, Dazio Vecchio]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.933880,45.846600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14115">
+<name><![CDATA[Stabio, Case Rapelli]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.926880,45.844800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6061">
+<name><![CDATA[Stabio, Madonnina]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>8.921180,45.843500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7481">
+<name><![CDATA[S.Pietro, Bivio per S.Pietro]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>8.942430,45.857900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7862">
+<name><![CDATA[S. Pietro di Stabio, Posta]]></name>
+<description><![CDATA[140 connections
+]]></description>
+<Point>
+<coordinates>8.938070,45.858400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1718">
+<name><![CDATA[Gaggiolo, Confine]]></name>
+<description><![CDATA[113 connections
+]]></description>
+<Point>
+<coordinates>8.914940,45.841200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm20">
+<name><![CDATA[Brusata (Novazzano), Nord]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.963960,45.845000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8332">
+<name><![CDATA[Brusata (Novazzano), Costa]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.963520,45.847700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10474">
+<name><![CDATA[Brusata (Novazzano), Dogana]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.962060,45.841400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

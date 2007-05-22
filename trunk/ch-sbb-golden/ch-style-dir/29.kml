@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>29 0203</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.7578125</south>
+<east>6.6796875</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>30.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02031</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.7578125</south>
+<east>7.03125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>54.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>6.6796875</east>
+<west>6.328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>93.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>6.6796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>139.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1701">
+<name><![CDATA[Lausanne, Tunnel]]></name>
+<description><![CDATA[385 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.634500,46.525400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8354">
+<name><![CDATA[Fontainemelon, sous l'Usine]]></name>
+<description><![CDATA[382 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.891100,47.055900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6510">
+<name><![CDATA[Préverenges, village]]></name>
+<description><![CDATA[356 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.526380,46.517400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm829">
+<name><![CDATA[Boudevilliers, centre]]></name>
+<description><![CDATA[350 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.888940,47.026100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3143">
+<name><![CDATA[Lausanne LO]]></name>
+<description><![CDATA[344 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.629300,46.516200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13391">
+<name><![CDATA[Jordils]]></name>
+<description><![CDATA[332 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.628370,46.513000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm106">
+<name><![CDATA[Montriond]]></name>
+<description><![CDATA[332 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.627430,46.509900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13720">
+<name><![CDATA[Yverdon, gare]]></name>
+<description><![CDATA[331 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.640760,46.781300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3078">
+<name><![CDATA[Belmont-s.-L., Blessoney]]></name>
+<description><![CDATA[326 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.684220,46.519000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14274">
+<name><![CDATA[Petit-Mont]]></name>
+<description><![CDATA[326 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.634080,46.553300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12069">
+<name><![CDATA[Grand-Mont]]></name>
+<description><![CDATA[326 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.633950,46.562300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6536">
+<name><![CDATA[Epenex]]></name>
+<description><![CDATA[326 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.573470,46.537600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8531">
+<name><![CDATA[Crochy]]></name>
+<description><![CDATA[326 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.570130,46.532700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8161">
+<name><![CDATA[Cerisaie]]></name>
+<description><![CDATA[326 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.566580,46.527800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3691">
+<name><![CDATA[Bassenges]]></name>
+<description><![CDATA[326 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.564910,46.524900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1962">
+<name><![CDATA[Lausanne, Bellevaux]]></name>
+<description><![CDATA[325 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.632990,46.538900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

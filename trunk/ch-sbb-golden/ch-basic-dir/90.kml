@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>90 02031322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8017578125</north>
+<south>46.7578125</south>
+<east>6.8994140625</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11432">
+<name><![CDATA[Granges-près-Marnand, poste]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>6.889180,46.762400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9730">
+<name><![CDATA[Granges-près-Marnand, gare]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>6.894120,46.758700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

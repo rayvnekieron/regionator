@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1706 0320131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>9.140625</east>
+<west>9.052734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1954">
+<name><![CDATA[Melera]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.078310,46.171200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8858">
+<name><![CDATA[S. Antonio (Morob.), Melirolo]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.074170,46.173500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3212">
+<name><![CDATA[S. Antonio (Morob.), Bolla]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.062740,46.170300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm878">
+<name><![CDATA[S. Antonio (Val Morobbia)]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.061110,46.169600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12702">
+<name><![CDATA[Vellano]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.057080,46.169200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1507">
+<name><![CDATA[Paudo, Giro Trebbie]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.053020,46.169700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9804">
+<name><![CDATA[Carena]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.086960,46.168100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

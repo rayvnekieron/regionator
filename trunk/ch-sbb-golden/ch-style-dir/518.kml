@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>518 02120102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.0654296875</north>
+<south>47.021484375</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14783">
+<name><![CDATA[Kallnach]]></name>
+<description><![CDATA[71 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.235190,47.025500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10773">
+<name><![CDATA[Walperswil, Kleingimmiz]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.231990,47.057900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3994">
+<name><![CDATA[Walperswil, Abzw. Bühlstrasse]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.230660,47.061500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

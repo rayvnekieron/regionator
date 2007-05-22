@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>801 02133001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13660">
+<name><![CDATA[Unterbach BE, Unterheidstrasse]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>8.134390,46.737200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9114">
+<name><![CDATA[Hausen b. Meiringen,Dorfbrunn.]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>8.168710,46.735600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>476 0211322</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>8.173828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02113220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>8.1298828125</east>
+<west>8.0859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>477.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02113223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>8.173828125</east>
+<west>8.1298828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>478.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13670">
+<name><![CDATA[Eich, Dorfladen]]></name>
+<description><![CDATA[205 connections
+]]></description>
+<Point>
+<coordinates>8.168110,47.150700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13585">
+<name><![CDATA[Schenkon, Dorf]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>8.137420,47.173600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4233">
+<name><![CDATA[Schenkon, Post]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<Point>
+<coordinates>8.132530,47.177500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4230">
+<name><![CDATA[Sursee, Surentalstrasse]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>8.109430,47.176700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12590">
+<name><![CDATA[Nottwil, Abzw. Bahnhof]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<Point>
+<coordinates>8.135930,47.135200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7640">
+<name><![CDATA[Geuensee, Zollhaus]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.113880,47.189700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14050">
+<name><![CDATA[Geuensee, Ausserdorf]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.112290,47.194200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm585">
+<name><![CDATA[Oberkirch LU, Dorf]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>8.115090,47.155100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13457">
+<name><![CDATA[Nottwil, SPZ]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<Point>
+<coordinates>8.129960,47.131800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9619">
+<name><![CDATA[Nottwil]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>8.138590,47.138800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10774">
+<name><![CDATA[Gunzwil, Chommlen]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.157130,47.192200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15050">
+<name><![CDATA[Gunzwil, Holdern]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.153230,47.196900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3605">
+<name><![CDATA[Gunzwil, Unterholdern-Grüt]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.152140,47.189300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9640">
+<name><![CDATA[Schenkon, Tann]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.144840,47.185900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7170">
+<name><![CDATA[Schenkon, Tannberg]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.138860,47.182800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9765">
+<name><![CDATA[Schenkon, Haldenweid]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>8.134240,47.182400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

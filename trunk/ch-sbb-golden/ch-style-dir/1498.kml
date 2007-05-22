@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1498 0302321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7919">
+<name><![CDATA[Olivone, Petullo]]></name>
+<description><![CDATA[42 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.923220,46.527600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10842">
+<name><![CDATA[Ponte Semina]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.938260,46.552600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11256">
+<name><![CDATA[Campo (Blenio)]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.935750,46.556200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11240">
+<name><![CDATA[Aquilesco (Ghirone)]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.950190,46.559600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3254">
+<name><![CDATA[Larescia]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.932100,46.518500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4554">
+<name><![CDATA[Camperio, Ospizio]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.910050,46.522400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11617">
+<name><![CDATA[Campra, centro nordico]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.882540,46.517300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7832">
+<name><![CDATA[Diga di Luzzone]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.962080,46.564900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

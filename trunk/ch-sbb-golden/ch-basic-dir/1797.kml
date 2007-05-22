@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1797 033003</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>10.1953125</east>
+<west>10.01953125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6269">
+<name><![CDATA[Tirano, Stazione]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>10.166700,46.209300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

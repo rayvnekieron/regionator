@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1578 0303132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>9.755859375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1607">
+<name><![CDATA[Arosa]]></name>
+<description><![CDATA[39 connections
+]]></description>
+<Point>
+<coordinates>9.678790,46.779600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10054">
+<name><![CDATA[Peist, Schulhaus]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>9.670760,46.832400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1445">
+<name><![CDATA[Arosa LAW]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>9.678600,46.783600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>375 02112032</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9088">
+<name><![CDATA[Boningen, Kreuzplatz]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.858840,47.310100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6328">
+<name><![CDATA[Boningen, Gsteigli]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.853840,47.304700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2080">
+<name><![CDATA[Boningen, Kappelerstrasse]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.851560,47.308300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1296">
+<name><![CDATA[Boningen, Hausenmühli]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.851460,47.296200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13786">
+<name><![CDATA[Fulenbach, Aaretränke]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.844460,47.288600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

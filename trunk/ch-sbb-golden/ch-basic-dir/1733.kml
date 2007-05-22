@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1733 032030110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>46.03271484375</south>
+<east>8.94287109375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2880">
+<name><![CDATA[Manno, Uovo di Manno]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>8.923280,46.035200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

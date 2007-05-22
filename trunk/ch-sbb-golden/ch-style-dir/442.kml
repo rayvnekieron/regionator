@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>442 02113033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm805">
+<name><![CDATA[Tennwil]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.221470,47.305500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9543">
+<name><![CDATA[Meisterschwanden, Schulhaus]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.222670,47.297400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8301">
+<name><![CDATA[Meisterschwanden Delphin]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.220350,47.296200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

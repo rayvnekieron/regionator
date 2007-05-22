@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1793 033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.0</south>
+<east>11.25</east>
+<west>9.84375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.703125</south>
+<east>10.546875</east>
+<west>9.84375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1794.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm3850">
+<name><![CDATA[Alp Grüm]]></name>
+<description><![CDATA[92 connections
+]]></description>
+<Point>
+<coordinates>10.031100,46.374700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5930">
+<name><![CDATA[Poschiavo]]></name>
+<description><![CDATA[91 connections
+]]></description>
+<Point>
+<coordinates>10.054300,46.324800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4520">
+<name><![CDATA[Campocologno]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>10.142100,46.233200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2720">
+<name><![CDATA[Le Prese]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>10.077800,46.292100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5430">
+<name><![CDATA[Brusio]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>10.125300,46.259300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9162">
+<name><![CDATA[Cavaglia]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>10.044100,46.364300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1618">
+<name><![CDATA[Privilasco]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>10.055100,46.337900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12271">
+<name><![CDATA[Cadera]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<Point>
+<coordinates>10.051400,46.345200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9542">
+<name><![CDATA[Campascio]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>10.131700,46.244700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13297">
+<name><![CDATA[Miralago]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>10.099500,46.273100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7270">
+<name><![CDATA[Li Curt]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>10.063200,46.311200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7301">
+<name><![CDATA[Poschiavo, Stazione]]></name>
+<description><![CDATA[61 connections
+]]></description>
+<Point>
+<coordinates>10.055000,46.324000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10918">
+<name><![CDATA[S. Carlo (Poschiavo), Trebbia]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<Point>
+<coordinates>10.060800,46.337400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3398">
+<name><![CDATA[S. Carlo (Poschiavo), Posta]]></name>
+<description><![CDATA[57 connections
+]]></description>
+<Point>
+<coordinates>10.061300,46.342500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm785">
+<name><![CDATA[Pedemonte GR]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>10.072100,46.363000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11838">
+<name><![CDATA[Angeli Custodi]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>10.069000,46.357000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

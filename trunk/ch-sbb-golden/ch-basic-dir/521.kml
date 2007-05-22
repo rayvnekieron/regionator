@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>521 02120110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13042">
+<name><![CDATA[Lyss, Stigli]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.295140,47.068800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm250">
+<name><![CDATA[Busswil BE, Bahnhof]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>7.319010,47.098500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9784">
+<name><![CDATA[Lyss, Marktplatz]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>7.305660,47.072400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8292">
+<name><![CDATA[Hardern, Hauptstrasse]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<Point>
+<coordinates>7.316970,47.081200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10815">
+<name><![CDATA[Hardern, Linde]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>7.326700,47.086000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

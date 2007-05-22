@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1564 0303120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>9.580078125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03031202</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.8896484375</north>
+<south>46.845703125</south>
+<east>9.5361328125</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1565.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9191">
+<name><![CDATA[Chur, Florentini]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.519680,46.856900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm961">
+<name><![CDATA[Chur West]]></name>
+<description><![CDATA[166 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.512720,46.849900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3716">
+<name><![CDATA[Untervaz, Kirchgasse]]></name>
+<description><![CDATA[164 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.537730,46.926400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15039">
+<name><![CDATA[Haldenstein, Rheinbrücke]]></name>
+<description><![CDATA[145 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.530150,46.876800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5935">
+<name><![CDATA[Untervaz, Gaidla]]></name>
+<description><![CDATA[134 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.536780,46.925600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7001">
+<name><![CDATA[Untervaz]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.559390,46.919100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3328">
+<name><![CDATA[Zizers, Süd]]></name>
+<description><![CDATA[118 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.562880,46.931400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8505">
+<name><![CDATA[Haldenstein, Post]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.528860,46.877500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5869">
+<name><![CDATA[Haldenstein, Dorf]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.527070,46.878500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7934">
+<name><![CDATA[Haldenstein, Schulhaus]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.525730,46.878000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12569">
+<name><![CDATA[Haldenstein]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.533120,46.877000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2098">
+<name><![CDATA[Says, Post]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.575560,46.903300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm985">
+<name><![CDATA[Says, Lätsch]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.575140,46.901000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3062">
+<name><![CDATA[Valtanna]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.574410,46.899200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12359">
+<name><![CDATA[Trimmis, Platz]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.564220,46.898700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14592">
+<name><![CDATA[Trimmis]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.551710,46.908300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

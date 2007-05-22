@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1602 03033</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>9.84375</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>030330</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>9.66796875</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1603.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>9.84375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1608.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>9.66796875</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1613.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>030333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>9.84375</east>
+<west>9.66796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1616.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12075">
+<name><![CDATA[Champfèr, Guardalej]]></name>
+<description><![CDATA[560 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.810810,46.477200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1263">
+<name><![CDATA[Silvaplana, Post]]></name>
+<description><![CDATA[544 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.796980,46.461800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5248">
+<name><![CDATA[St. Moritz, Schulhausplatz]]></name>
+<description><![CDATA[362 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.838460,46.498400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm948">
+<name><![CDATA[Sils/Segl Maria, Seglias]]></name>
+<description><![CDATA[316 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.766100,46.434200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8371">
+<name><![CDATA[Surlej, Parkplatz]]></name>
+<description><![CDATA[304 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.811660,46.459400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7520">
+<name><![CDATA[St. Moritz, Somplaz]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.838020,46.488600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10490">
+<name><![CDATA[St. Moritz Bad, Post]]></name>
+<description><![CDATA[295 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.836200,46.485800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11615">
+<name><![CDATA[Champfèr, Post]]></name>
+<description><![CDATA[278 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.813320,46.477900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14235">
+<name><![CDATA[Sils/Segl Maria, posta]]></name>
+<description><![CDATA[277 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.765270,46.430000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11585">
+<name><![CDATA[St. Moritz Bad, Signal]]></name>
+<description><![CDATA[268 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.834150,46.483700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6042">
+<name><![CDATA[Sils/Segl Baselgia, posta]]></name>
+<description><![CDATA[218 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.757310,46.432500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2975">
+<name><![CDATA[Plaun da Lej]]></name>
+<description><![CDATA[198 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.726280,46.421900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11117">
+<name><![CDATA[St. Moritz Bad, Sonne]]></name>
+<description><![CDATA[188 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.840410,46.486600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13171">
+<name><![CDATA[Silvaplana, Mandra]]></name>
+<description><![CDATA[182 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.792890,46.457500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7342">
+<name><![CDATA[Lenzerheide/Lai, Clavadoiras]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.558880,46.721800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9002">
+<name><![CDATA[Tiefencastel, Dorf]]></name>
+<description><![CDATA[171 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.576460,46.662100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

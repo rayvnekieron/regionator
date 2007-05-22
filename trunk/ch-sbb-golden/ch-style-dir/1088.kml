@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1088 0300122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.4609375</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03001220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1089.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1090.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001222</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.8330078125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1091.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03001223</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5048828125</north>
+<south>47.4609375</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1092.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm594">
+<name><![CDATA[Elgg]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.863390,47.498500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13521">
+<name><![CDATA[Islikon]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.846180,47.547900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2673">
+<name><![CDATA[Rickenbach-Attikon]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.789150,47.535400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5552">
+<name><![CDATA[Schottikon]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.811700,47.500100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6737">
+<name><![CDATA[Räterschen]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.794990,47.498700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8762">
+<name><![CDATA[Rickenbach-Attikon, Bahnhof]]></name>
+<description><![CDATA[127 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.789090,47.535500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13463">
+<name><![CDATA[Wiesendangen, Dorf]]></name>
+<description><![CDATA[113 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.790290,47.521200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3828">
+<name><![CDATA[Elsau, Dorf]]></name>
+<description><![CDATA[71 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.801980,47.504700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5951">
+<name><![CDATA[Wiesendangen, Attikon]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.795980,47.535900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4224">
+<name><![CDATA[Wiesendangen, Hinterdorf]]></name>
+<description><![CDATA[70 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.794940,47.522000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7515">
+<name><![CDATA[Schlatt b. Winterthur, Schulh.]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.827570,47.473900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5145">
+<name><![CDATA[Waltenstein, Dorf]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.820370,47.477600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3574">
+<name><![CDATA[Elgg, Eintracht]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.866400,47.492000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12">
+<name><![CDATA[Waltenstein, Berg]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.816430,47.479300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3618">
+<name><![CDATA[Räterschen, Tolhusen]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.812010,47.487300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5558">
+<name><![CDATA[Elsau, Ebnet]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.801210,47.501900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

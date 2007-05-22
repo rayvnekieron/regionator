@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>961 02310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.0546875</south>
+<east>8.0859375</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>023100</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>7.91015625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>962.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>983.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>7.91015625</east>
+<west>7.734375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>997.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>023103</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>8.0859375</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1004.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm14792">
+<name><![CDATA[Visp, Fassji]]></name>
+<description><![CDATA[186 connections
+]]></description>
+<Point>
+<coordinates>7.876370,46.298800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10708">
+<name><![CDATA[Blatten LBB]]></name>
+<description><![CDATA[179 connections
+]]></description>
+<Point>
+<coordinates>7.984280,46.358900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1644">
+<name><![CDATA[Belalp]]></name>
+<description><![CDATA[179 connections
+]]></description>
+<Point>
+<coordinates>7.974560,46.371700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11305">
+<name><![CDATA[Baltschieder, Kumme]]></name>
+<description><![CDATA[178 connections
+]]></description>
+<Point>
+<coordinates>7.870390,46.303400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5107">
+<name><![CDATA[Täsch]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>7.774670,46.066800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3533">
+<name><![CDATA[Betten Dorf]]></name>
+<description><![CDATA[170 connections
+]]></description>
+<Point>
+<coordinates>8.068080,46.375100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11337">
+<name><![CDATA[Brig, Weri]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>7.990380,46.313700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13737">
+<name><![CDATA[Staldenried]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<Point>
+<coordinates>7.884790,46.229200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11826">
+<name><![CDATA[Eyholz, Post]]></name>
+<description><![CDATA[150 connections
+]]></description>
+<Point>
+<coordinates>7.908910,46.294900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5152">
+<name><![CDATA[Gamsen, Crazy Palace]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.960120,46.305400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11840">
+<name><![CDATA[Gamsen, Dorf]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.953610,46.305100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5297">
+<name><![CDATA[Gamsen, Boccalino]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.948890,46.304600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9471">
+<name><![CDATA[Stalden VS, Stahlen]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.865930,46.231000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8800">
+<name><![CDATA[Glis, obere Haselgasse]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>7.988370,46.307400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14379">
+<name><![CDATA[Glis, Wickert]]></name>
+<description><![CDATA[146 connections
+]]></description>
+<Point>
+<coordinates>7.985110,46.306100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10800">
+<name><![CDATA[Glis, untere Haselgasse]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>7.989040,46.309200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

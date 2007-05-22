@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>403 02112230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm4112">
+<name><![CDATA[Melchnau, Oberdorf]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>7.854180,47.177900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12891">
+<name><![CDATA[Altbüron, Gruenbach]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>7.862560,47.195000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

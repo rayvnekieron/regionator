@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>413 0211231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.197265625</south>
+<east>8.0859375</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02112310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>414.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.0859375</east>
+<west>8.0419921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>415.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.0419921875</east>
+<west>7.998046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>416.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02112313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.2412109375</north>
+<south>47.197265625</south>
+<east>8.0859375</east>
+<west>8.0419921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>417.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm2275">
+<name><![CDATA[Triengen, Käserei]]></name>
+<description><![CDATA[151 connections
+]]></description>
+<Point>
+<coordinates>8.074850,47.236500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1205">
+<name><![CDATA[Triengen, Grund]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.082360,47.229000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13216">
+<name><![CDATA[Triengen, Dorf]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.077450,47.233100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2960">
+<name><![CDATA[Winikon, Post]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>8.051760,47.238400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2072">
+<name><![CDATA[Kirchleerau, Fabrik Hunziker]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.072400,47.280400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4892">
+<name><![CDATA[Kirchleerau-Moosleerau, Post]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.064380,47.272300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13705">
+<name><![CDATA[Moosleerau, Abzw.]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.064340,47.268900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11044">
+<name><![CDATA[Kirchleerau, Abzw.]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.063100,47.276400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6589">
+<name><![CDATA[Moosleerau, Unterdorf]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.059050,47.268500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11085">
+<name><![CDATA[Reitnau, Post]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.048890,47.247200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9590">
+<name><![CDATA[Reitnau, Unterdorf]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.045630,47.251000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12146">
+<name><![CDATA[Staffelbach, Suhrenbrücke]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.045330,47.282800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8397">
+<name><![CDATA[Attelwil, alte Post]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.045080,47.260700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13296">
+<name><![CDATA[Attelwil, Schule]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.044400,47.258900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2758">
+<name><![CDATA[Staffelbach, Gemeindehaus]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>8.042050,47.284600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8432">
+<name><![CDATA[Reidermoos, Schlatt]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>8.003460,47.260500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

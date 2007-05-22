@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>66 020311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0203110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>67.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>68.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>69.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0203113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>71.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4717">
+<name><![CDATA[St-Blaise-Lac]]></name>
+<description><![CDATA[160 connections
+]]></description>
+<Point>
+<coordinates>6.984690,47.012100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7459">
+<name><![CDATA[Marin-Epagnier]]></name>
+<description><![CDATA[158 connections
+]]></description>
+<Point>
+<coordinates>7.010590,47.009100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5249">
+<name><![CDATA[Landeyeux]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>6.905810,47.032600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1191">
+<name><![CDATA[Savagnier, Grand Savagnier]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.955680,47.047200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13600">
+<name><![CDATA[Saules NE]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.934710,47.038100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14418">
+<name><![CDATA[Vilars NE]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.926870,47.031800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9508">
+<name><![CDATA[Neuchâtel, Verger-Rond]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.923250,46.998500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10189">
+<name><![CDATA[Fenin]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.920370,47.023700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8801">
+<name><![CDATA[Les Hauts-Geneveys]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<Point>
+<coordinates>6.874680,47.047200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13998">
+<name><![CDATA[Neuchâtel, gare sortie nord]]></name>
+<description><![CDATA[136 connections
+]]></description>
+<Point>
+<coordinates>6.933450,46.996700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm523">
+<name><![CDATA[Les Hauts-Geneveys, gare]]></name>
+<description><![CDATA[122 connections
+]]></description>
+<Point>
+<coordinates>6.874080,47.047300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1777">
+<name><![CDATA[Cornaux]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<Point>
+<coordinates>7.023370,47.038600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm416">
+<name><![CDATA[St-Blaise CFF]]></name>
+<description><![CDATA[116 connections
+]]></description>
+<Point>
+<coordinates>6.982120,47.014600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11921">
+<name><![CDATA[Coffrane]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>6.861320,47.010800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8092">
+<name><![CDATA[Zihlbrücke]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>7.030580,47.009300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7218">
+<name><![CDATA[Savagnier, Petit Savagnier]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<Point>
+<coordinates>6.952990,47.053500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1286 03003320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12801">
+<name><![CDATA[Benken SG, Fischbach]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.997750,47.191700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14366">
+<name><![CDATA[Benken SG, Neubruch]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>8.995340,47.188200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5810">
+<name><![CDATA[Benken SG, Sternen]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.994230,47.184100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9132">
+<name><![CDATA[Bilten, Ussbühl]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<Point>
+<coordinates>8.997550,47.162300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

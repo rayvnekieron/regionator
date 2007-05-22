@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>582 021210230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.95556640625</south>
+<east>7.44873046875</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8061">
+<name><![CDATA[Bremgarten BE, Seftau]]></name>
+<description><![CDATA[81 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.436630,46.970400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm64">
+<name><![CDATA[Bremgarten BE, Ländli]]></name>
+<description><![CDATA[81 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.433380,46.972800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13795">
+<name><![CDATA[Bern, Lorraine]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.446980,46.957600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

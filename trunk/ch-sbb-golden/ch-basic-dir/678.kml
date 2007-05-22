@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>678 02123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.40625</south>
+<east>7.734375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>021230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>7.55859375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>679.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>684.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021232</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>7.55859375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>693.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>021233</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.40625</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>697.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm7113">
+<name><![CDATA[Oberhofen a. T., Wichterheer]]></name>
+<description><![CDATA[602 connections
+]]></description>
+<Point>
+<coordinates>7.671490,46.727800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11394">
+<name><![CDATA[Thun]]></name>
+<description><![CDATA[540 connections
+]]></description>
+<Point>
+<coordinates>7.629600,46.754800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm505">
+<name><![CDATA[Gunten, Dorf]]></name>
+<description><![CDATA[534 connections
+]]></description>
+<Point>
+<coordinates>7.701510,46.712400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14921">
+<name><![CDATA[Spiez, Spiezmoos]]></name>
+<description><![CDATA[468 connections
+]]></description>
+<Point>
+<coordinates>7.668710,46.690000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4116">
+<name><![CDATA[Einigen, Post]]></name>
+<description><![CDATA[468 connections
+]]></description>
+<Point>
+<coordinates>7.641350,46.712500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4387">
+<name><![CDATA[Spiez, Bahnhof]]></name>
+<description><![CDATA[412 connections
+]]></description>
+<Point>
+<coordinates>7.680590,46.686200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1832">
+<name><![CDATA[Spiez]]></name>
+<description><![CDATA[390 connections
+]]></description>
+<Point>
+<coordinates>7.680100,46.686400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9915">
+<name><![CDATA[Merligen, Beatus]]></name>
+<description><![CDATA[386 connections
+]]></description>
+<Point>
+<coordinates>7.734150,46.702400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4759">
+<name><![CDATA[Schwendi b. Thun, Alpenblick]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>7.685980,46.749300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm33">
+<name><![CDATA[Thierachern, Wahlen]]></name>
+<description><![CDATA[251 connections
+]]></description>
+<Point>
+<coordinates>7.564280,46.751300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8131">
+<name><![CDATA[Thierachern, Kirche]]></name>
+<description><![CDATA[248 connections
+]]></description>
+<Point>
+<coordinates>7.574750,46.754000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10393">
+<name><![CDATA[Frutigen, Widi]]></name>
+<description><![CDATA[216 connections
+]]></description>
+<Point>
+<coordinates>7.647400,46.585900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7331">
+<name><![CDATA[Allmendingen b.Thun,Wendeplatz]]></name>
+<description><![CDATA[214 connections
+]]></description>
+<Point>
+<coordinates>7.593040,46.741400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14904">
+<name><![CDATA[Adelboden, Oey]]></name>
+<description><![CDATA[192 connections
+]]></description>
+<Point>
+<coordinates>7.567610,46.503900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11994">
+<name><![CDATA[Adelboden, Mineralquelle]]></name>
+<description><![CDATA[192 connections
+]]></description>
+<Point>
+<coordinates>7.557160,46.488600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13911">
+<name><![CDATA[Reckenbühl]]></name>
+<description><![CDATA[192 connections
+]]></description>
+<Point>
+<coordinates>7.531550,46.745900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

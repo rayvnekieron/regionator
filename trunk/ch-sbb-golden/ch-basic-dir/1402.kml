@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1402 03013010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.4169921875</south>
+<east>9.6240234375</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6716">
+<name><![CDATA[Berneck, Maienhalde]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.605580,47.428200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13594">
+<name><![CDATA[Berneck, Taa]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<Point>
+<coordinates>9.595820,47.424600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10886">
+<name><![CDATA[Lutzenberg, Altersheim]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<Point>
+<coordinates>9.581020,47.460400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13452">
+<name><![CDATA[Walzenhausen, Ledi(Schwimmbad)]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.596060,47.446800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6365">
+<name><![CDATA[Lachen AR, Moos]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.592040,47.445800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9673">
+<name><![CDATA[Lachen AR, alte Post]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<Point>
+<coordinates>9.584220,47.441000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4061">
+<name><![CDATA[Walzenhausen]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<Point>
+<coordinates>9.601260,47.451800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10183">
+<name><![CDATA[Zelg (Wolfhalden), Hueb]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>9.581380,47.452700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm803">
+<name><![CDATA[Walzenhausen, Sonnenberg]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>9.592290,47.451800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12926">
+<name><![CDATA[Platz, Gaismoos]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.621900,47.446100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm788">
+<name><![CDATA[Platz, Landhaus]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>9.619370,47.441200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6546">
+<name><![CDATA[Walzenhausen, Allmendsberg]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>9.592760,47.455400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3118">
+<name><![CDATA[Platz, Wilen]]></name>
+<description><![CDATA[3 connections
+]]></description>
+<Point>
+<coordinates>9.615980,47.439300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

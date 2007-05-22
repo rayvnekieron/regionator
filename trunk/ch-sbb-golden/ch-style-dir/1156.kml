@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1156 030021301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.373046875</north>
+<south>47.35107421875</south>
+<east>8.7451171875</east>
+<west>8.72314453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm838">
+<name><![CDATA[Wermatswil, Chammerholzstrasse]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.743050,47.364700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

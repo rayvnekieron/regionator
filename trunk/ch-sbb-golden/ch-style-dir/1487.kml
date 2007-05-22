@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1487 030230</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.58203125</south>
+<east>8.96484375</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0302300</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1488.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1489.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>8.876953125</east>
+<west>8.7890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1490.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0302303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>8.96484375</east>
+<west>8.876953125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1491.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12337">
+<name><![CDATA[Disentis/Mustér]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.855020,46.705000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14180">
+<name><![CDATA[Acla da Fontauna]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.845290,46.696700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2572">
+<name><![CDATA[Segnas]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.829550,46.691000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3205">
+<name><![CDATA[Mompé Tujetsch]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.824530,46.681900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15129">
+<name><![CDATA[Rabius-Surrein]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.957500,46.732600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10839">
+<name><![CDATA[Sumvitg-Cumpadials]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.931330,46.724100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7591">
+<name><![CDATA[Curaglia, posta]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.857450,46.673900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9434">
+<name><![CDATA[Disentis/Mustér, Fontanivas]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.853700,46.695500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14077">
+<name><![CDATA[Mompé Medel, spartavias]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.852330,46.688300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3075">
+<name><![CDATA[Platta, vitg]]></name>
+<description><![CDATA[53 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.853660,46.659000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9995">
+<name><![CDATA[Platta, Pardé]]></name>
+<description><![CDATA[52 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.850220,46.652300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm433">
+<name><![CDATA[Disentis/Mustér, staziun/posta]]></name>
+<description><![CDATA[41 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.858560,46.706100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11942">
+<name><![CDATA[Fuorns (Medel)]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.846390,46.640900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1199">
+<name><![CDATA[Bogn Tenigia / Tenigerbad]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.957110,46.690000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5345">
+<name><![CDATA[Sumvitg, Val]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.953000,46.706700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11356">
+<name><![CDATA[Sumvitg, Dorf]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.939210,46.728000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

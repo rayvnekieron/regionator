@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1235 03003023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.3291015625</north>
+<south>47.28515625</south>
+<east>8.876953125</east>
+<west>8.8330078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6736">
+<name><![CDATA[Hinwil]]></name>
+<description><![CDATA[89 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.839700,47.300100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2087">
+<name><![CDATA[Hinwil, Girenbad]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.872090,47.309500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7498">
+<name><![CDATA[Wernetshausen]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.867060,47.299200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12945">
+<name><![CDATA[Hinwil, Hadlikon]]></name>
+<description><![CDATA[83 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.856530,47.287200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5926">
+<name><![CDATA[Hinwil, Langmatt]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.870330,47.307300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12227">
+<name><![CDATA[Wernetshausen, Letten]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.861170,47.297200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm952">
+<name><![CDATA[Hinwil, Platten]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.852480,47.292900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4354">
+<name><![CDATA[Hinwil, Friedhof]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.849430,47.300700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3694">
+<name><![CDATA[Hinwil, Sportplatz]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.849270,47.297100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11127">
+<name><![CDATA[Hinwil, Ringwil]]></name>
+<description><![CDATA[43 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.855140,47.314600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6393">
+<name><![CDATA[Hinwil, Zelgacher]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.855000,47.289200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4846">
+<name><![CDATA[Ettenhausen-Emmetschloo]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.834300,47.324800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

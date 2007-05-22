@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>597 021211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>7.734375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0212110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>598.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>602.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.646484375</east>
+<west>7.55859375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>603.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.734375</east>
+<west>7.646484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>606.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9767">
+<name><![CDATA[Burgdorf]]></name>
+<description><![CDATA[441 connections
+]]></description>
+<Point>
+<coordinates>7.621690,47.060700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14985">
+<name><![CDATA[Hasle-Rüegsau]]></name>
+<description><![CDATA[266 connections
+]]></description>
+<Point>
+<coordinates>7.655630,47.016000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10212">
+<name><![CDATA[Oberburg]]></name>
+<description><![CDATA[246 connections
+]]></description>
+<Point>
+<coordinates>7.629640,47.039600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9498">
+<name><![CDATA[Burgdorf Steinhof]]></name>
+<description><![CDATA[246 connections
+]]></description>
+<Point>
+<coordinates>7.618300,47.052300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5058">
+<name><![CDATA[Burgdorf, Tiergarten]]></name>
+<description><![CDATA[236 connections
+]]></description>
+<Point>
+<coordinates>7.617660,47.063400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1639">
+<name><![CDATA[Burgdorf, Hallenbad]]></name>
+<description><![CDATA[202 connections
+]]></description>
+<Point>
+<coordinates>7.629480,47.054400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3331">
+<name><![CDATA[Kirchberg-Alchenflüh]]></name>
+<description><![CDATA[176 connections
+]]></description>
+<Point>
+<coordinates>7.580150,47.083500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm904">
+<name><![CDATA[Burgdorf Buchmatt]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>7.608220,47.065400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13173">
+<name><![CDATA[Aefligen]]></name>
+<description><![CDATA[174 connections
+]]></description>
+<Point>
+<coordinates>7.559510,47.095500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8816">
+<name><![CDATA[Lützelflüh-Goldbach]]></name>
+<description><![CDATA[161 connections
+]]></description>
+<Point>
+<coordinates>7.682740,47.004900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13808">
+<name><![CDATA[Ramsei]]></name>
+<description><![CDATA[156 connections
+]]></description>
+<Point>
+<coordinates>7.710210,46.996800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm429">
+<name><![CDATA[Walkringen]]></name>
+<description><![CDATA[148 connections
+]]></description>
+<Point>
+<coordinates>7.619000,46.947700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1792">
+<name><![CDATA[Burgdorf, Parkhaus Oberstadt]]></name>
+<description><![CDATA[142 connections
+]]></description>
+<Point>
+<coordinates>7.624210,47.054400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4329">
+<name><![CDATA[Burgdorf, Schützenhaus]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>7.629820,47.058400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3587">
+<name><![CDATA[Burgdorf, City]]></name>
+<description><![CDATA[132 connections
+]]></description>
+<Point>
+<coordinates>7.621600,47.059600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7853">
+<name><![CDATA[Burgdorf, Spital]]></name>
+<description><![CDATA[130 connections
+]]></description>
+<Point>
+<coordinates>7.621560,47.048100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

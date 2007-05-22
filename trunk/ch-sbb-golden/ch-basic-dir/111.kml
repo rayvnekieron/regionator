@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>111 02032113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.6796875</east>
+<west>6.6357421875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm2253">
+<name><![CDATA[Pailly, La Croix]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.673360,46.703600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8134">
+<name><![CDATA[Pailly, Bellevue]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.671690,46.696600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3363">
+<name><![CDATA[Vuarrens, Le Chauchy]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>6.650070,46.686600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

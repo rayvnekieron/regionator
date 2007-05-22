@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>25 0202333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>6.328125</east>
+<west>6.240234375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02023331</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.4501953125</south>
+<east>6.328125</east>
+<west>6.2841796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>26.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02023332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>6.2841796875</east>
+<west>6.240234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>27.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02023333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.4501953125</north>
+<south>46.40625</south>
+<east>6.328125</east>
+<west>6.2841796875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>28.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm4802">
+<name><![CDATA[Gilly, croisée de Vincy]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.305100,46.461500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10527">
+<name><![CDATA[Gilly, village]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.298350,46.457600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm199">
+<name><![CDATA[Bursins, village]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.290650,46.452300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5021">
+<name><![CDATA[Vinzel, village]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.279360,46.447500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4699">
+<name><![CDATA[Luins, village]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.272310,46.442500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8547">
+<name><![CDATA[Gland, Maison Commune]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.265610,46.424300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10567">
+<name><![CDATA[Gland, Jura]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.264000,46.423900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm642">
+<name><![CDATA[Gland, Borgeaud]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.262690,46.424200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6882">
+<name><![CDATA[Gland, La Combe]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.265020,46.418900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10705">
+<name><![CDATA[Tartegnin, village]]></name>
+<description><![CDATA[51 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.315420,46.466100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8736">
+<name><![CDATA[Burtigny, village]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.257460,46.467000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3610">
+<name><![CDATA[Rolle, Creux-du-Mas]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.323950,46.463000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2363">
+<name><![CDATA[Rolle, La Pièce]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.319100,46.461100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13409">
+<name><![CDATA[Burtigny, Le Battoir]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.261090,46.465100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7619">
+<name><![CDATA[Begnins, Les Clavières]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.257010,46.458000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9662">
+<name><![CDATA[Begnins, Grange-Grèche]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.253860,46.453100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

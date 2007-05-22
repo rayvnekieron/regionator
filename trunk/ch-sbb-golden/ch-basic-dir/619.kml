@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>619 02121211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.8896484375</south>
+<east>7.55859375</east>
+<west>7.5146484375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6357">
+<name><![CDATA[Rubigen, Bahnhof]]></name>
+<description><![CDATA[88 connections
+]]></description>
+<Point>
+<coordinates>7.544940,46.899300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8966">
+<name><![CDATA[Belp, Bützacker]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>7.518550,46.890300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13221">
+<name><![CDATA[Rubigen, Beitenwil]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.558150,46.910000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11187">
+<name><![CDATA[Rubigen, Wydenhof]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>7.549410,46.900400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14982">
+<name><![CDATA[Vielbringen, Chäsi]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>7.548710,46.915700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4105">
+<name><![CDATA[Vielbringen, Schulhaus]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>7.540560,46.921600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6672">
+<name><![CDATA[Rüfenacht, Längimoos]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>7.535180,46.929800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8166">
+<name><![CDATA[Rüfenacht, Schlössli]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>7.531160,46.930100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1161">
+<name><![CDATA[Rüfenacht, Sperlisacher]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>7.538950,46.930700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm459">
+<name><![CDATA[Rubigen, Dorfmatte]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.542960,46.893300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

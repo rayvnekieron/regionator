@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>2 01</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>50.625</north>
+<south>47.8125</south>
+<east>11.25</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7996">
+<name><![CDATA[Mühlhausen (b Engen)]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.804450,47.813700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14082">
+<name><![CDATA[Welschingen-Neuhausen]]></name>
+<description><![CDATA[138 connections
+]]></description>
+<Point>
+<coordinates>8.770240,47.833900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1710">
+<name><![CDATA[Engen]]></name>
+<description><![CDATA[69 connections
+]]></description>
+<Point>
+<coordinates>8.772140,47.856400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14837">
+<name><![CDATA[Zollhaus-Blumberg, Bahnhof]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.557000,47.837700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4383">
+<name><![CDATA[Blumberg, Hauptstrasse]]></name>
+<description><![CDATA[9 connections
+]]></description>
+<Point>
+<coordinates>8.530390,47.839200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

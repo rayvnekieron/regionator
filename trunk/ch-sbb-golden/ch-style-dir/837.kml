@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>837 0220120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>6.064453125</east>
+<west>5.9765625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11060">
+<name><![CDATA[Peney-Dessous]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.043510,46.192200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8036">
+<name><![CDATA[Satigny, gare]]></name>
+<description><![CDATA[55 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.037750,46.214600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9983">
+<name><![CDATA[La Plaine, gare]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>5.999830,46.178200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11538">
+<name><![CDATA[Dardagny]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>5.995500,46.195200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm627">
+<name><![CDATA[Bourdigny-Dessus]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.045430,46.218300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4304">
+<name><![CDATA[Choully]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.027180,46.222600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10922">
+<name><![CDATA[Satigny, La Boverie]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.026280,46.207300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12640">
+<name><![CDATA[Peissy]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.019730,46.209900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10876">
+<name><![CDATA[Gennecy]]></name>
+<description><![CDATA[16 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>5.996210,46.168200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5281">
+<name><![CDATA[Peney]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.044600,46.200300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14266">
+<name><![CDATA[Verbois]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.026630,46.193800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

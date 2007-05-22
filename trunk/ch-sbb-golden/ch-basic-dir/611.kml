@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>611 021212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.7578125</south>
+<east>7.55859375</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0212120</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>612.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212121</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.93359375</north>
+<south>46.845703125</south>
+<east>7.55859375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>617.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>7.470703125</east>
+<west>7.3828125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>622.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0212123</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.845703125</north>
+<south>46.7578125</south>
+<east>7.55859375</east>
+<west>7.470703125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>627.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1015">
+<name><![CDATA[Muri b. Bern, Hübeliweg]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<Point>
+<coordinates>7.491970,46.927900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9081">
+<name><![CDATA[Muri b. Bern, Bahnhof]]></name>
+<description><![CDATA[472 connections
+]]></description>
+<Point>
+<coordinates>7.485910,46.931300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5418">
+<name><![CDATA[Muri b. Bern, Gümligenfeld]]></name>
+<description><![CDATA[460 connections
+]]></description>
+<Point>
+<coordinates>7.503310,46.925500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1049">
+<name><![CDATA[Allmendingen b. B, Garten-C.]]></name>
+<description><![CDATA[372 connections
+]]></description>
+<Point>
+<coordinates>7.513470,46.919600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4375">
+<name><![CDATA[Allmendingen b. B, Hirschen]]></name>
+<description><![CDATA[364 connections
+]]></description>
+<Point>
+<coordinates>7.520400,46.916200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9140">
+<name><![CDATA[Belp]]></name>
+<description><![CDATA[358 connections
+]]></description>
+<Point>
+<coordinates>7.498570,46.889000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4941">
+<name><![CDATA[Belp Steinbach]]></name>
+<description><![CDATA[314 connections
+]]></description>
+<Point>
+<coordinates>7.493320,46.894800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9237">
+<name><![CDATA[Kehrsatz]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>7.471640,46.909000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5702">
+<name><![CDATA[Wabern bei Bern]]></name>
+<description><![CDATA[302 connections
+]]></description>
+<Point>
+<coordinates>7.445650,46.928600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2830">
+<name><![CDATA[Kehrsatz Nord]]></name>
+<description><![CDATA[300 connections
+]]></description>
+<Point>
+<coordinates>7.466490,46.915300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8013">
+<name><![CDATA[Toffen]]></name>
+<description><![CDATA[299 connections
+]]></description>
+<Point>
+<coordinates>7.496060,46.858700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8963">
+<name><![CDATA[Seftigen]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<Point>
+<coordinates>7.540620,46.786800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14974">
+<name><![CDATA[Burgistein-Wattenwil]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<Point>
+<coordinates>7.521070,46.790000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1779">
+<name><![CDATA[Thurnen]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<Point>
+<coordinates>7.513850,46.813500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5085">
+<name><![CDATA[Kaufdorf]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<Point>
+<coordinates>7.501890,46.837800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6770">
+<name><![CDATA[Wattenwil, Postgasse]]></name>
+<description><![CDATA[237 connections
+]]></description>
+<Point>
+<coordinates>7.506710,46.769300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

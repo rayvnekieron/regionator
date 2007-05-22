@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1276 03003231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>8.96484375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12643">
+<name><![CDATA[Schübelbach-Buttikon]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<Point>
+<coordinates>8.938760,47.176400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6411">
+<name><![CDATA[Tuggen, Egg]]></name>
+<description><![CDATA[78 connections
+]]></description>
+<Point>
+<coordinates>8.933740,47.191700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7782">
+<name><![CDATA[Tuggen, Rüteli]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.944380,47.190000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11873">
+<name><![CDATA[Tuggen, Mühlenen]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.943710,47.184900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

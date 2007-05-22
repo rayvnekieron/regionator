@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>667 0212220</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.58203125</north>
+<south>46.494140625</south>
+<east>7.119140625</east>
+<west>7.03125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11657">
+<name><![CDATA[Moléson-sur-Gruyères]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<Point>
+<coordinates>7.038270,46.560900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12373">
+<name><![CDATA[Estavannens, Dessous]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.099560,46.560200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2928">
+<name><![CDATA[Estavannens, Usine Sudan]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>7.096950,46.562000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5102">
+<name><![CDATA[Grandvillard, village]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>7.085360,46.538500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11160">
+<name><![CDATA[Moléson-sur-Gruyères TMPF/TPFM]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.038380,46.560100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1657">
+<name><![CDATA[Grandvillard, gare]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<Point>
+<coordinates>7.072290,46.543900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

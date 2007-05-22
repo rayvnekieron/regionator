@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>717 0213012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6118">
+<name><![CDATA[Bramboden, Seebli/Luogmoos]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.990340,46.981500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3117">
+<name><![CDATA[Bramboden, Kirchplatz]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.985710,46.979000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12485">
+<name><![CDATA[Romoos, Holzwäge]]></name>
+<description><![CDATA[5 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.995870,47.008000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13177">
+<name><![CDATA[Mettlenalp (Napf)]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.939850,46.994100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>366 02112012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>7.8662109375</east>
+<west>7.822265625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm1131">
+<name><![CDATA[Buckten]]></name>
+<description><![CDATA[74 connections
+]]></description>
+<Point>
+<coordinates>7.847790,47.409000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11399">
+<name><![CDATA[Ifenthal, Kirche]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.855700,47.373100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8331">
+<name><![CDATA[Läufelfingen, Dorf]]></name>
+<description><![CDATA[4 connections
+]]></description>
+<Point>
+<coordinates>7.855880,47.395600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

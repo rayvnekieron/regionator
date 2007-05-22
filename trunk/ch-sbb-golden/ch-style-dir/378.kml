@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>378 0211210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4609375</north>
+<south>47.373046875</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02112102</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>7.9541015625</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>379.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10468">
+<name><![CDATA[Salhöhe]]></name>
+<description><![CDATA[191 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.987350,47.428500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10117">
+<name><![CDATA[Laurenzenbad]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.989890,47.418400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11885">
+<name><![CDATA[Obererlinsbach, Breitmis]]></name>
+<description><![CDATA[180 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.989820,47.411200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11119">
+<name><![CDATA[Lostorf, Dorfplatz]]></name>
+<description><![CDATA[149 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.945860,47.386200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12343">
+<name><![CDATA[Stüsslingen, Jura]]></name>
+<description><![CDATA[143 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.969770,47.393300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12498">
+<name><![CDATA[Kienberg, Kreuz]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.951410,47.446900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12956">
+<name><![CDATA[Anwil, Ausserdorf]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.943500,47.451400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9458">
+<name><![CDATA[Anwil, Post]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.939500,47.449400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2826">
+<name><![CDATA[Anwil, Talweiher]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.928580,47.452000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7490">
+<name><![CDATA[Oltingen, Schulhaus]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.933040,47.432200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8586">
+<name><![CDATA[Oltingen, Lehmatt]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.929400,47.432400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9367">
+<name><![CDATA[Wenslingen, Mooshof]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.916840,47.436000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5721">
+<name><![CDATA[Barmelweid]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.971370,47.421200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9467">
+<name><![CDATA[Kienberg, Hirschen]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.966250,47.439700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2598">
+<name><![CDATA[Oltingen, Post]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.935690,47.432100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2123">
+<name><![CDATA[Rohr b. Olten]]></name>
+<description><![CDATA[29 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.954020,47.408700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

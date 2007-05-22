@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1783 0321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>45.703125</south>
+<east>9.84375</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03210</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.0546875</south>
+<east>9.4921875</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1784.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03211</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.0546875</south>
+<east>9.84375</east>
+<west>9.4921875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1789.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.0546875</north>
+<south>45.703125</south>
+<east>9.4921875</east>
+<west>9.140625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1792.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm6774">
+<name><![CDATA[Grono, Bivio Calanca]]></name>
+<description><![CDATA[254 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.141200,46.246300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13876">
+<name><![CDATA[Grono, Clinica San Rocco]]></name>
+<description><![CDATA[232 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.145130,46.247300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4396">
+<name><![CDATA[Grono, Paese]]></name>
+<description><![CDATA[192 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.146970,46.248200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7223">
+<name><![CDATA[Maloja, Posta]]></name>
+<description><![CDATA[123 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.696990,46.403100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5121">
+<name><![CDATA[Mesocco, Stazione]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.234470,46.390400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10827">
+<name><![CDATA[Spino]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.550140,46.336500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9411">
+<name><![CDATA[Cama, Posta]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.169940,46.273100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm411">
+<name><![CDATA[Cama, Municipio]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.167100,46.265400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6501">
+<name><![CDATA[Leggia, Paese]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.164100,46.262800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4576">
+<name><![CDATA[Leggia, Redivolo]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.161390,46.259200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9078">
+<name><![CDATA[Grono, Nord]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.154050,46.242500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4073">
+<name><![CDATA[Cama, Bivio per Norantola]]></name>
+<description><![CDATA[96 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.173420,46.280400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8641">
+<name><![CDATA[Mesocco, Castello]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.232900,46.382100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11761">
+<name><![CDATA[Cabbiolo, Boffalora Nord]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.215210,46.348200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4107">
+<name><![CDATA[Cabbiolo, Ponte di Vigna]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.213840,46.345900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13742">
+<name><![CDATA[Cabbiolo, Ara]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>9.213440,46.343700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

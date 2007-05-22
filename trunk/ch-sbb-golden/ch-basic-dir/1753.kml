@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1753 032030312</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>45.94482421875</north>
+<south>45.9228515625</south>
+<east>8.94287109375</east>
+<west>8.9208984375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7438">
+<name><![CDATA[Vico Morcote]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>8.920940,45.929600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4255">
+<name><![CDATA[Brusino Arsizio, Rondello]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>8.939450,45.937100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3346">
+<name><![CDATA[Brusino Arsizio Funivia]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>8.934510,45.924400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5722">
+<name><![CDATA[Brusino Arsizio]]></name>
+<description><![CDATA[10 connections
+]]></description>
+<Point>
+<coordinates>8.937990,45.929900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11110">
+<name><![CDATA[Brusino Arsizio, Debarcadero]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>8.936650,45.929100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

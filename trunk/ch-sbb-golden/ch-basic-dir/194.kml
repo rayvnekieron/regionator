@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>194 0203333</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.494140625</north>
+<south>46.40625</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10785">
+<name><![CDATA[Les Avants MVR-las]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>6.943540,46.454300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10868">
+<name><![CDATA[Allières]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<Point>
+<coordinates>7.007890,46.469800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6848">
+<name><![CDATA[Les Cases]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.997710,46.455900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11088">
+<name><![CDATA[Jaman]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.976790,46.441300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12263">
+<name><![CDATA[La Perche]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.975100,46.436400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1249">
+<name><![CDATA[Jor]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.965120,46.454700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3814">
+<name><![CDATA[Paccot]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.962690,46.437700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13059">
+<name><![CDATA[Crêt-d'y-Bau]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.955370,46.435100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11705">
+<name><![CDATA[Haut-de-Caux]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.947950,46.434400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12240">
+<name><![CDATA[Les Echets]]></name>
+<description><![CDATA[44 connections
+]]></description>
+<Point>
+<coordinates>6.944890,46.432200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2288">
+<name><![CDATA[Rochers-de-Naye]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.979020,46.431700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

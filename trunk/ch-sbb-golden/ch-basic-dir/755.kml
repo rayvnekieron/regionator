@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>755 02131132</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>8.3935546875</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm12690">
+<name><![CDATA[Stans, Kantonsspital]]></name>
+<description><![CDATA[110 connections
+]]></description>
+<Point>
+<coordinates>8.358020,46.960700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm15055">
+<name><![CDATA[Dallenwil]]></name>
+<description><![CDATA[97 connections
+]]></description>
+<Point>
+<coordinates>8.392060,46.933800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9865">
+<name><![CDATA[Stans, Länderpark]]></name>
+<description><![CDATA[83 connections
+]]></description>
+<Point>
+<coordinates>8.356770,46.964300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13941">
+<name><![CDATA[Oberdorf NW, Kaserne]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.386890,46.958400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4113">
+<name><![CDATA[Oberdorf NW, Schulhaus]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.383890,46.956000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12142">
+<name><![CDATA[Oberdorf NW, Schulhausstrasse]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.380290,46.957100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14859">
+<name><![CDATA[Oberdorf NW, Wilrank]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.377000,46.956700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm835">
+<name><![CDATA[Stans, Engelbergstrasse]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>8.371090,46.956700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11515">
+<name><![CDATA[Stans SthB]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>8.363370,46.958400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

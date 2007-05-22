@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1652 032002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.0546875</south>
+<east>8.61328125</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0320021</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1653.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0320022</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>8.525390625</east>
+<west>8.4375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1654.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0320023</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.142578125</north>
+<south>46.0546875</south>
+<east>8.61328125</east>
+<west>8.525390625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1655.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm1927">
+<name><![CDATA[Camedo]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.611000,46.154800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7473">
+<name><![CDATA[Ponte Oscuro]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.611950,46.209100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9800">
+<name><![CDATA[Malesco]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.498830,46.129200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6988">
+<name><![CDATA[S. Maria Maggiore]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.460730,46.136600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5012">
+<name><![CDATA[Re]]></name>
+<description><![CDATA[46 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.538360,46.126500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10965">
+<name><![CDATA[Centovalli]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.598650,46.162500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10126">
+<name><![CDATA[Crana, Alle Bolle]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.613080,46.201500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3804">
+<name><![CDATA[Crana, Paese]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.609260,46.204200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6562">
+<name><![CDATA[Vocaglia]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.590160,46.204900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10728">
+<name><![CDATA[Comologno, Dazio]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.586920,46.204900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7540">
+<name><![CDATA[Corbella]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.581740,46.204900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5378">
+<name><![CDATA[Comologno, Paese]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.576200,46.203700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10109">
+<name><![CDATA[Comologno, Cappellino]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.568440,46.204200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1781">
+<name><![CDATA[Vergeletto, Bv. Gresso]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.611960,46.224400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm444">
+<name><![CDATA[Vergeletto, Chiesa]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.605180,46.225600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm406">
+<name><![CDATA[Prestinone]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.479680,46.132900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

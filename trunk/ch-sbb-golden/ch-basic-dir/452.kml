@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>452 0211312002</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.362060546875</north>
+<south>47.35107421875</south>
+<east>8.272705078125</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7104">
+<name><![CDATA[Wohlen AG, Aeschstr/S. Allmend]]></name>
+<description><![CDATA[29 connections
+]]></description>
+<Point>
+<coordinates>8.270190,47.356000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4022">
+<name><![CDATA[Wohlen AG, Schüwo]]></name>
+<description><![CDATA[27 connections
+]]></description>
+<Point>
+<coordinates>8.267930,47.359600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7484">
+<name><![CDATA[Wohlen AG, Bankw./Narzissenweg]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<Point>
+<coordinates>8.272150,47.354200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

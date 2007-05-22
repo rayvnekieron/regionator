@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>739 021311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>46.93359375</south>
+<east>8.4375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0213110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>740.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>744.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.349609375</east>
+<west>8.26171875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>747.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0213113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.93359375</south>
+<east>8.4375</east>
+<west>8.349609375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>751.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm12228">
+<name><![CDATA[Emmenbrücke, Seetalplatz]]></name>
+<description><![CDATA[412 connections
+]]></description>
+<Point>
+<coordinates>8.280180,47.069000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9862">
+<name><![CDATA[Horw, Zentrum]]></name>
+<description><![CDATA[368 connections
+]]></description>
+<Point>
+<coordinates>8.311210,47.019300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4158">
+<name><![CDATA[Emmen, Kirche]]></name>
+<description><![CDATA[364 connections
+]]></description>
+<Point>
+<coordinates>8.303090,47.078800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12489">
+<name><![CDATA[Emmen, Kasernenstrasse]]></name>
+<description><![CDATA[364 connections
+]]></description>
+<Point>
+<coordinates>8.290690,47.085600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12798">
+<name><![CDATA[Horw, Wegscheide]]></name>
+<description><![CDATA[363 connections
+]]></description>
+<Point>
+<coordinates>8.308100,47.022400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2431">
+<name><![CDATA[Hergiswil]]></name>
+<description><![CDATA[359 connections
+]]></description>
+<Point>
+<coordinates>8.310170,46.982600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3179">
+<name><![CDATA[Kastanienbaum]]></name>
+<description><![CDATA[358 connections
+]]></description>
+<Point>
+<coordinates>8.339430,47.007800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13422">
+<name><![CDATA[St. Niklausen LU]]></name>
+<description><![CDATA[358 connections
+]]></description>
+<Point>
+<coordinates>8.338290,47.018600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2375">
+<name><![CDATA[Luzern, Schönbühl]]></name>
+<description><![CDATA[358 connections
+]]></description>
+<Point>
+<coordinates>8.326760,47.036700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7513">
+<name><![CDATA[Udligenswil, alte Post]]></name>
+<description><![CDATA[352 connections
+]]></description>
+<Point>
+<coordinates>8.401080,47.090500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4695">
+<name><![CDATA[Emmenbrücke]]></name>
+<description><![CDATA[298 connections
+]]></description>
+<Point>
+<coordinates>8.282550,47.070600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13648">
+<name><![CDATA[Meggen, Gottlieben]]></name>
+<description><![CDATA[293 connections
+]]></description>
+<Point>
+<coordinates>8.391560,47.055100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6171">
+<name><![CDATA[Meggen, Tschädigen]]></name>
+<description><![CDATA[293 connections
+]]></description>
+<Point>
+<coordinates>8.385090,47.061400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7979">
+<name><![CDATA[Emmenbrücke, Riffig]]></name>
+<description><![CDATA[284 connections
+]]></description>
+<Point>
+<coordinates>8.266910,47.080600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm378">
+<name><![CDATA[Horw]]></name>
+<description><![CDATA[280 connections
+]]></description>
+<Point>
+<coordinates>8.306970,47.017500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6616">
+<name><![CDATA[Küssnacht am Rigi, Bahnhof]]></name>
+<description><![CDATA[272 connections
+]]></description>
+<Point>
+<coordinates>8.432890,47.083500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

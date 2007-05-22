@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>845 022111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.23046875</south>
+<east>7.03125</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>0221110</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>846.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0221111</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.40625</north>
+<south>46.318359375</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>851.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0221112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>6.943359375</east>
+<west>6.85546875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>854.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>0221113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.318359375</north>
+<south>46.23046875</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>856.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm13891">
+<name><![CDATA[Monthey-Hôpital]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.940690,46.251900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13483">
+<name><![CDATA[Pont de Chemex TPC-aomc]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.930840,46.245300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9033">
+<name><![CDATA[Chemex]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.930050,46.243600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9954">
+<name><![CDATA[Muraz (Collombey), collège]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.928450,46.278000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7895">
+<name><![CDATA[Croix-du-Nant]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.927570,46.239700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9494">
+<name><![CDATA[Les Neys TPC-aomc]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.924370,46.234700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2298">
+<name><![CDATA[Route de Morgins TPC-aomc]]></name>
+<description><![CDATA[86 connections
+]]></description>
+<Point>
+<coordinates>6.920310,46.231800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4859">
+<name><![CDATA[Bex, le Temple]]></name>
+<description><![CDATA[83 connections
+]]></description>
+<Point>
+<coordinates>7.013960,46.250900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3856">
+<name><![CDATA[Versmont]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.007270,46.340400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12977">
+<name><![CDATA[Leysin-Village]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.006050,46.339200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13656">
+<name><![CDATA[La Roulaz]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.004410,46.337400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11535">
+<name><![CDATA[Pont-de-Drapel]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.000870,46.327400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6656">
+<name><![CDATA[Rennaz TPC-al]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>7.000750,46.335700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6279">
+<name><![CDATA[Fontanney]]></name>
+<description><![CDATA[80 connections
+]]></description>
+<Point>
+<coordinates>6.982300,46.318300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1687">
+<name><![CDATA[Aigle-Dépôt]]></name>
+<description><![CDATA[79 connections
+]]></description>
+<Point>
+<coordinates>6.975370,46.318300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm402">
+<name><![CDATA[Roche VD]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>6.927040,46.358700</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

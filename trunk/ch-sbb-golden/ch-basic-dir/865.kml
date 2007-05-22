@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>865 02211310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm883">
+<name><![CDATA[Daviaz, Vers-chez-Combe]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.985340,46.224800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5384">
+<name><![CDATA[Massongex, Le Moulin]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.984980,46.227800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5273">
+<name><![CDATA[Vérossaz, Chavanne]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.984640,46.214000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2109">
+<name><![CDATA[Daviaz, village]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.984540,46.222400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11371">
+<name><![CDATA[Vérossaz, La Doey village]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.981680,46.214200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10858">
+<name><![CDATA[Vérossaz, La Doey place]]></name>
+<description><![CDATA[11 connections
+]]></description>
+<Point>
+<coordinates>6.982780,46.211200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

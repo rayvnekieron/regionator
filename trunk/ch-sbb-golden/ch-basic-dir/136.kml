@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>136 02032302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.5380859375</north>
+<south>46.494140625</south>
+<east>6.5478515625</east>
+<west>6.50390625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm8501">
+<name><![CDATA[Gracieuse]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>6.507270,46.518900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10531">
+<name><![CDATA[Morges, En Grassiaz]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>6.506800,46.523300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2520">
+<name><![CDATA[Morges, Les Pétoleyres]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>6.504250,46.520200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

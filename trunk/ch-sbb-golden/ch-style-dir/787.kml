@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>787 0213212</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.669921875</north>
+<south>46.58203125</south>
+<east>7.998046875</east>
+<west>7.91015625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11249">
+<name><![CDATA[Wengen]]></name>
+<description><![CDATA[129 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.921000,46.604900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8642">
+<name><![CDATA[Burglauenen]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.975330,46.635900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12788">
+<name><![CDATA[Lütschental]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.948990,46.637100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14833">
+<name><![CDATA[Allmend]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.931970,46.594000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14153">
+<name><![CDATA[Bussalp]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.991200,46.649500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1924">
+<name><![CDATA[Itramen, Leen]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.995150,46.621400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8248">
+<name><![CDATA[Schynige Platte]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.911300,46.652300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1591">
+<name><![CDATA[Itramen, Habsucht]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.993810,46.617300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6295">
+<name><![CDATA[Itramen, Geisscheuer]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.988940,46.620300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14522">
+<name><![CDATA[Männlichen GGM]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.942060,46.613400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4054">
+<name><![CDATA[Männlichen LWM]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.940980,46.613100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1570">
+<name><![CDATA[Wengen LWM]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.925410,46.607700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5932">
+<name><![CDATA[Itramen, Alp Holenstein]]></name>
+<description><![CDATA[6 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.981770,46.621200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1544 0303101</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.021484375</south>
+<east>9.66796875</east>
+<west>9.580078125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6449">
+<name><![CDATA[Malbun, Jöraboden]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>9.607570,47.102900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12851">
+<name><![CDATA[Triesenberg, Schneeflucht]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>9.599330,47.109300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9482">
+<name><![CDATA[Malbun, Zentrum]]></name>
+<description><![CDATA[36 connections
+]]></description>
+<Point>
+<coordinates>9.609840,47.101900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

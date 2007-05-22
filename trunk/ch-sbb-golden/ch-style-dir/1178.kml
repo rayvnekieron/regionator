@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1178 03002221</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>8.525390625</east>
+<west>8.4814453125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm10265">
+<name><![CDATA[Zug, Dammstrasse]]></name>
+<description><![CDATA[212 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.513980,47.174000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14563">
+<name><![CDATA[Baar Neufeld]]></name>
+<description><![CDATA[196 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.517760,47.188500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3953">
+<name><![CDATA[Zug, Feldstrasse]]></name>
+<description><![CDATA[194 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.515160,47.179900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14848">
+<name><![CDATA[Baar, Rathaus]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.525020,47.194500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10199">
+<name><![CDATA[Zug, Athene]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.515840,47.161600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10809">
+<name><![CDATA[Zug, Fridbach]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.514700,47.157100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5217">
+<name><![CDATA[Zug Postplatz]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.516920,47.168300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm410">
+<name><![CDATA[Zug Fridbach]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.512280,47.156600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13140">
+<name><![CDATA[Zug, Gimenen]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.518590,47.153600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm16">
+<name><![CDATA[Zug SGZ]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.513300,47.170200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

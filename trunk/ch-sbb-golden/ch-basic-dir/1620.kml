@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1620 0311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.8125</north>
+<south>47.109375</south>
+<east>11.25</east>
+<west>10.546875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11373">
+<name><![CDATA[Fliess, Neuer Zoll]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>10.633000,47.117400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9822">
+<name><![CDATA[Fliess, Nesselgarten]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>10.618300,47.116200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2223">
+<name><![CDATA[Fliess, Urgen]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>10.602000,47.117400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm935">
+<name><![CDATA[Fliess, Abzw. Eichholz]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>10.584400,47.128300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8713">
+<name><![CDATA[Fliess, Jagglshütte]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>10.569000,47.134800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12100">
+<name><![CDATA[Landeck, Perjener Brücke]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>10.568900,47.146700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14544">
+<name><![CDATA[Landeck, Zentrum]]></name>
+<description><![CDATA[38 connections
+]]></description>
+<Point>
+<coordinates>10.565200,47.140900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11936">
+<name><![CDATA[Landeck, Bahnhof]]></name>
+<description><![CDATA[19 connections
+]]></description>
+<Point>
+<coordinates>10.576900,47.148400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1102 03001303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.5927734375</north>
+<south>47.548828125</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm14987">
+<name><![CDATA[Bissegg, Post]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.044720,47.558100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1111">
+<name><![CDATA[Bissegg, Bänikon]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.040640,47.555300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3188">
+<name><![CDATA[Fimmelsberg, Käserei]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.035170,47.561200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm432">
+<name><![CDATA[Griesenberg, Hub]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.029470,47.559200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13190">
+<name><![CDATA[Griesenberg, Vogelsang]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.027060,47.556600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12780">
+<name><![CDATA[Strohwilen-Wolfikon, alte Post]]></name>
+<description><![CDATA[40 connections
+]]></description>
+<Point>
+<coordinates>9.011590,47.550300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

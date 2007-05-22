@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1285 0300332</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.109375</south>
+<east>9.052734375</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03003320</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>9.0087890625</east>
+<west>8.96484375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1286.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003321</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.197265625</north>
+<south>47.1533203125</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1287.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03003323</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.1533203125</north>
+<south>47.109375</south>
+<east>9.052734375</east>
+<west>9.0087890625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1288.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm9321">
+<name><![CDATA[Reichenburg, Kreuzwies]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>8.979910,47.167900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12683">
+<name><![CDATA[Reichenburg, Dorf]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>8.975670,47.169500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11973">
+<name><![CDATA[Reichenburg, Altersheim]]></name>
+<description><![CDATA[168 connections
+]]></description>
+<Point>
+<coordinates>8.974050,47.170700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2982">
+<name><![CDATA[Bilten, Sägestrasse]]></name>
+<description><![CDATA[128 connections
+]]></description>
+<Point>
+<coordinates>9.020970,47.151400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3571">
+<name><![CDATA[Bilten, Post/Gemeindezentrum]]></name>
+<description><![CDATA[109 connections
+]]></description>
+<Point>
+<coordinates>9.021930,47.148200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13811">
+<name><![CDATA[Bilten, Abzw. Seggenstrasse]]></name>
+<description><![CDATA[108 connections
+]]></description>
+<Point>
+<coordinates>9.025010,47.145100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2625">
+<name><![CDATA[Reichenburg]]></name>
+<description><![CDATA[106 connections
+]]></description>
+<Point>
+<coordinates>8.982300,47.172700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3822">
+<name><![CDATA[Bilten]]></name>
+<description><![CDATA[104 connections
+]]></description>
+<Point>
+<coordinates>9.029900,47.152200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6954">
+<name><![CDATA[Reichenburg, Bahnhof]]></name>
+<description><![CDATA[94 connections
+]]></description>
+<Point>
+<coordinates>8.982010,47.172400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10881">
+<name><![CDATA[Schänis]]></name>
+<description><![CDATA[76 connections
+]]></description>
+<Point>
+<coordinates>9.043960,47.157700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6377">
+<name><![CDATA[Bilten, Bahnhof]]></name>
+<description><![CDATA[64 connections
+]]></description>
+<Point>
+<coordinates>9.029440,47.152300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12673">
+<name><![CDATA[Rufi, Freihof]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.051120,47.178200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8633">
+<name><![CDATA[Rufi, Maseltrangen]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.049490,47.189700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm90">
+<name><![CDATA[Rufi, Sonne]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.049400,47.186700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm389">
+<name><![CDATA[Schänis, Mühlegasse]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.048980,47.161800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2956">
+<name><![CDATA[Rufi, Post]]></name>
+<description><![CDATA[62 connections
+]]></description>
+<Point>
+<coordinates>9.047590,47.181400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

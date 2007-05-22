@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>346 02111231</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.548828125</north>
+<south>47.5048828125</south>
+<east>8.26171875</east>
+<west>8.2177734375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm3114">
+<name><![CDATA[Siggenthal-Würenlingen]]></name>
+<description><![CDATA[152 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.240150,47.517900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10529">
+<name><![CDATA[Stilli, Villigerstrasse]]></name>
+<description><![CDATA[144 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.231200,47.515700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5226">
+<name><![CDATA[Würenlingen, Altersheim]]></name>
+<description><![CDATA[135 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.261300,47.530600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14357">
+<name><![CDATA[Rüfenach AG, Vorderrein]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.228410,47.507000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12812">
+<name><![CDATA[Rüfenach AG, Hinterrein]]></name>
+<description><![CDATA[126 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.220130,47.507900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6870">
+<name><![CDATA[Würenlingen, Kuhgässli]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.244300,47.525800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4129">
+<name><![CDATA[Siggenthal-W., Bahnh./Hauptstr]]></name>
+<description><![CDATA[120 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.241200,47.518600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2218">
+<name><![CDATA[Böttstein, Schmidberg]]></name>
+<description><![CDATA[98 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.222390,47.548800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6442">
+<name><![CDATA[Würenlingen, Bachstrasse]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.254070,47.535100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4468">
+<name><![CDATA[Stilli, Aarebrücke]]></name>
+<description><![CDATA[60 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.231840,47.514400</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

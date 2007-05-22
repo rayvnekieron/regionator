@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1657 0320030</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>8.701171875</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>03200302</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>8.6572265625</east>
+<west>8.61328125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1658.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>03200303</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>8.701171875</east>
+<west>8.6572265625</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>1659.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm5307">
+<name><![CDATA[Cresmino, Funivia]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.695730,46.189300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4100">
+<name><![CDATA[Cresmino, Case]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.695690,46.187500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4499">
+<name><![CDATA[Cresmino, Cratolo]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.694550,46.194300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2669">
+<name><![CDATA[Auressio, Ronchetto]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.688830,46.199300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11363">
+<name><![CDATA[Auressio, Paese]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.683690,46.201200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13058">
+<name><![CDATA[Loco, Ricovero]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.674990,46.203100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm200">
+<name><![CDATA[Loco, Paese]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.670100,46.201800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5062">
+<name><![CDATA[Loco, Salei]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.663010,46.203200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm768">
+<name><![CDATA[Berzona (Onsernone)]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.657790,46.201700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8150">
+<name><![CDATA[Mosogno, Chiosso]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.647380,46.199800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2414">
+<name><![CDATA[Mosogno, Paese]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.640880,46.198700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14807">
+<name><![CDATA[Mosogno, Sotto]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.637010,46.199700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm877">
+<name><![CDATA[Mosogno, Barione]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.634430,46.200100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8599">
+<name><![CDATA[Vergeletto, Alla Colletta]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.615410,46.219200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3101">
+<name><![CDATA[Vergeletto, Villa Olandesi]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.615150,46.222400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8020">
+<name><![CDATA[Gresso]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.615530,46.224800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

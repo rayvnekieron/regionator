@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>1147 03002113</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.4169921875</north>
+<south>47.373046875</south>
+<east>8.7890625</east>
+<west>8.7451171875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7336">
+<name><![CDATA[Pfäffikon ZH, Sulzberg]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.782140,47.379600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9773">
+<name><![CDATA[Russikon, Wilhof]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.778610,47.384600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7222">
+<name><![CDATA[Russikon, Tüfi]]></name>
+<description><![CDATA[102 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.774860,47.391400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3930">
+<name><![CDATA[Theilingen, Schwemmrüti]]></name>
+<description><![CDATA[100 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.763030,47.416100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13583">
+<name><![CDATA[Fehraltorf, Zelgli]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.753890,47.394800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8162">
+<name><![CDATA[Fehraltorf, Sennerei]]></name>
+<description><![CDATA[90 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.752230,47.388700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13830">
+<name><![CDATA[Russikon, Morgenthal]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.771030,47.391500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13717">
+<name><![CDATA[Fehraltorf, Halden]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>8.759910,47.385300</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

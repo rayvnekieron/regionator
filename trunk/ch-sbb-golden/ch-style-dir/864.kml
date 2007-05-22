@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>864 0221131</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.142578125</south>
+<east>7.03125</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02211310</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>865.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02211311</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.23046875</north>
+<south>46.1865234375</south>
+<east>7.03125</east>
+<west>6.9873046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>866.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02211313</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.1865234375</north>
+<south>46.142578125</south>
+<east>7.03125</east>
+<west>6.9873046875</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>867.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm10511">
+<name><![CDATA[St-Maurice VS, poste]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.002460,46.216300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6705">
+<name><![CDATA[Les Giettes, anc. poste]]></name>
+<description><![CDATA[54 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.961680,46.224100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14810">
+<name><![CDATA[St-Maurice VS, Midi]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.006440,46.215200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm376">
+<name><![CDATA[Lavey-les-Bains, Et. Thermal]]></name>
+<description><![CDATA[33 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.013360,46.203000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10440">
+<name><![CDATA[St-Maurice VS, Terreaux]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.007090,46.217600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6198">
+<name><![CDATA[Evionnaz, gare]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.025190,46.169000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm3330">
+<name><![CDATA[Les Cerniers, restaurant]]></name>
+<description><![CDATA[24 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.957810,46.222300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9335">
+<name><![CDATA[St-Maurice VS, cantine]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.015170,46.197000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7769">
+<name><![CDATA[Les Emonnets, d'en haut]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.010690,46.195500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12564">
+<name><![CDATA[St-Maurice VS, Plan Bouron]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.010630,46.184700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14557">
+<name><![CDATA[Les Emonnets, d'en bas]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.008900,46.200000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm9395">
+<name><![CDATA[Epinassey]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.008480,46.192600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5818">
+<name><![CDATA[St-Maurice VS, Grotte aux Fées]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.003890,46.222300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm669">
+<name><![CDATA[Vérossaz, Les Bassex]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.988370,46.213100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10856">
+<name><![CDATA[Daviaz, La Vorpillière]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.988220,46.227100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1320">
+<name><![CDATA[Les Haussex, poste]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>6.986890,46.211500</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

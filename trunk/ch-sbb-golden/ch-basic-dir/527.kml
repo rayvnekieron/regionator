@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>527 02120122</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.9775390625</north>
+<south>46.93359375</south>
+<east>7.2509765625</east>
+<west>7.20703125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm13686">
+<name><![CDATA[Kerzers, Schwimmbad]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.214430,46.974100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12022">
+<name><![CDATA[Kerzers, Reservoirweg]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.211290,46.974200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10108">
+<name><![CDATA[Kerzers, Spittelgässli]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>7.207090,46.972800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8984">
+<name><![CDATA[Wileroltigen, Mösli]]></name>
+<description><![CDATA[31 connections
+]]></description>
+<Point>
+<coordinates>7.238950,46.972800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8495">
+<name><![CDATA[Wileroltigen, Dorf]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.238860,46.970800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm10291">
+<name><![CDATA[Gurbrü, Gemeindehaus]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>7.216950,46.965600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8836">
+<name><![CDATA[Trüllern bei Mühleberg]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.248980,46.942000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm6106">
+<name><![CDATA[Gurbrü, Dorf]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>7.213950,46.964400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4119">
+<name><![CDATA[Biberen, Molkerei]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>7.216690,46.939200</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

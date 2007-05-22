@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>146 0203301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.669921875</south>
+<east>6.85546875</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<NetworkLink>
+<name>02033010</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>6.8115234375</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>147.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033011</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7578125</north>
+<south>46.7138671875</south>
+<east>6.85546875</east>
+<west>6.8115234375</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>148.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<NetworkLink>
+<name>02033012</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.8115234375</east>
+<west>6.767578125</west>
+</LatLonAltBox>
+</Region>
+<Link>
+<href>149.kml</href>
+<viewRefreshMode>onRegion</viewRefreshMode>
+<viewFormat/>
+</Link>
+</NetworkLink>
+<Placemark id="pm867">
+<name><![CDATA[La Gaité (Champtauroz)]]></name>
+<description><![CDATA[72 connections
+]]></description>
+<Point>
+<coordinates>6.782360,46.756700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8240">
+<name><![CDATA[Moudon, La Prairie]]></name>
+<description><![CDATA[58 connections
+]]></description>
+<Point>
+<coordinates>6.802190,46.673400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12463">
+<name><![CDATA[Combremont-le-Petit, poste]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>6.808490,46.750100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12280">
+<name><![CDATA[Moudon, Hôpital]]></name>
+<description><![CDATA[34 connections
+]]></description>
+<Point>
+<coordinates>6.799600,46.672000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12168">
+<name><![CDATA[Combremont-le-Petit, village]]></name>
+<description><![CDATA[28 connections
+]]></description>
+<Point>
+<coordinates>6.809140,46.750300</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm800">
+<name><![CDATA[Moudon, Grange-Verney]]></name>
+<description><![CDATA[23 connections
+]]></description>
+<Point>
+<coordinates>6.804430,46.677200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7659">
+<name><![CDATA[Moudon, L'Ochette]]></name>
+<description><![CDATA[22 connections
+]]></description>
+<Point>
+<coordinates>6.803790,46.672100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8392">
+<name><![CDATA[Brenles, laiterie]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.853180,46.671600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4611">
+<name><![CDATA[Chesalles-sur-Moudon]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.832240,46.674200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm12660">
+<name><![CDATA[Bussy-sur-Moudon, village]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.809380,46.684900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5631">
+<name><![CDATA[Bussy-sur-Moudon,Foulaz-Verney]]></name>
+<description><![CDATA[20 connections
+]]></description>
+<Point>
+<coordinates>6.805080,46.683500</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8765">
+<name><![CDATA[Moudon, Chalet-Blanc]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.797630,46.672700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4866">
+<name><![CDATA[Neyruz-sur-Moudon, collège]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.787530,46.696900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm5195">
+<name><![CDATA[Neyruz-sur-Moudon,Les Rutannes]]></name>
+<description><![CDATA[18 connections
+]]></description>
+<Point>
+<coordinates>6.778760,46.692600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1260">
+<name><![CDATA[Bussy-sur-Moudon, collège]]></name>
+<description><![CDATA[14 connections
+]]></description>
+<Point>
+<coordinates>6.811320,46.686700</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7186">
+<name><![CDATA[Praratoud, Laiterie]]></name>
+<description><![CDATA[12 connections
+]]></description>
+<Point>
+<coordinates>6.848250,46.734000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

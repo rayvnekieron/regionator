@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>483 02113301</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.28515625</north>
+<south>47.2412109375</south>
+<east>8.349609375</east>
+<west>8.3056640625</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm11625">
+<name><![CDATA[Buttwil, Post]]></name>
+<description><![CDATA[82 connections
+]]></description>
+<Point>
+<coordinates>8.310780,47.268200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm4764">
+<name><![CDATA[Muri AG, im Roos]]></name>
+<description><![CDATA[50 connections
+]]></description>
+<Point>
+<coordinates>8.314800,47.271600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm11730">
+<name><![CDATA[Geltwil, Isenbergschwil]]></name>
+<description><![CDATA[48 connections
+]]></description>
+<Point>
+<coordinates>8.334860,47.246200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7184">
+<name><![CDATA[Muri AG, Bachmatten-Schulhaus]]></name>
+<description><![CDATA[32 connections
+]]></description>
+<Point>
+<coordinates>8.345680,47.280800</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm2871">
+<name><![CDATA[Muri AG, Kreisspital]]></name>
+<description><![CDATA[26 connections
+]]></description>
+<Point>
+<coordinates>8.329430,47.277100</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

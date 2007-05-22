@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>166 02033112</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>46.7138671875</north>
+<south>46.669921875</south>
+<east>6.9873046875</east>
+<west>6.943359375</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm9414">
+<name><![CDATA[Massonnens, place]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>6.974790,46.701400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm8888">
+<name><![CDATA[Fuyens, Ferme Mauron]]></name>
+<description><![CDATA[30 connections
+]]></description>
+<Point>
+<coordinates>6.973390,46.712000</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1754">
+<name><![CDATA[Massonnens, poste]]></name>
+<description><![CDATA[15 connections
+]]></description>
+<Point>
+<coordinates>6.975450,46.699800</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>530 02120130</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.021484375</north>
+<south>46.9775390625</south>
+<east>7.3388671875</east>
+<west>7.294921875</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm6935">
+<name><![CDATA[Murzelen, Dorf]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>7.316400,46.981600</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm615">
+<name><![CDATA[Murzelen, Sandbühl]]></name>
+<description><![CDATA[112 connections
+]]></description>
+<Point>
+<coordinates>7.311140,46.985200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm1212">
+<name><![CDATA[Säriswil, Wendeplatz]]></name>
+<description><![CDATA[75 connections
+]]></description>
+<Point>
+<coordinates>7.332170,46.991400</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm7963">
+<name><![CDATA[Baggwil, Graben]]></name>
+<description><![CDATA[68 connections
+]]></description>
+<Point>
+<coordinates>7.320260,47.021200</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm13016">
+<name><![CDATA[Wahlendorf, Post Wendeplatz]]></name>
+<description><![CDATA[65 connections
+]]></description>
+<Point>
+<coordinates>7.336070,47.004100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14276">
+<name><![CDATA[Innerberg BE, Dorf]]></name>
+<description><![CDATA[8 connections
+]]></description>
+<Point>
+<coordinates>7.304540,46.996000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

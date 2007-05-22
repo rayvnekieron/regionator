@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KML Regionator 303:340M -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>566 02121001</name>
+<Region>
+<Lod>
+<minLodPixels>256</minLodPixels>
+<maxLodPixels>-1</maxLodPixels>
+</Lod>
+<LatLonAltBox>
+<north>47.109375</north>
+<south>47.0654296875</south>
+<east>7.470703125</east>
+<west>7.4267578125</west>
+</LatLonAltBox>
+</Region>
+<Placemark id="pm7133">
+<name><![CDATA[Ischbad]]></name>
+<description><![CDATA[66 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.463660,47.094100</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14713">
+<name><![CDATA[Brunnenthal, Dorf]]></name>
+<description><![CDATA[56 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.467610,47.086900</coordinates>
+</Point>
+</Placemark>
+<Placemark id="pm14867">
+<name><![CDATA[Messen, Schulhaus]]></name>
+<description><![CDATA[21 connections
+]]></description>
+<styleUrl>../style/style.kml#station_icon</styleUrl>
+<Point>
+<coordinates>7.446540,47.089600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
