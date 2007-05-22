@@ -1,0 +1,53 @@
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- 
+
+  rollover.kml
+  
+    StyleMap:
+      normal:
+        icon: white paddle, bottom center hotspot
+      highlight:
+        icon: red star paddle, bottom center hotspot
+  
+-->
+  <Document>
+
+    <Style id="station_icon_normal">
+      <IconStyle>
+        <Icon>
+          <href>wht-blank.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+
+    <Style id="station_icon_highlight">
+      <IconStyle>
+        <Icon>
+          <href>red-stars.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+
+    <StyleMap id="station_icon">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#station_icon_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#station_icon_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
+    <!-- Test the StyleMap -->
+    <Placemark>
+      <styleUrl>#station_icon</styleUrl>
+      <Point>
+        <coordinates>1,1</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
