@@ -52,7 +52,7 @@ import sys
 import kml.csvregionator
 
 if len(sys.argv) < 4 or len(sys.argv) > 5:
-  print 'usage: %s input.csv root.kml dir [styleUrl]' % sys.argv[0]
+  print 'usage: %s input.csv root.kml dir [styleUrl]' % os.path.basename(sys.argv[0])
   sys.exit(1)
 
 csvfile = sys.argv[1]
