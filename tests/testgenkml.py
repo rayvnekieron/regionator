@@ -72,11 +72,28 @@ class RegionNetworkLinkTestCase(unittest.TestCase):
     assert link.href == href
     assert link.viewRefreshMode == 'onRegion'
 
+linestring_kml = ['<LineString>',
+                  '<tessellate>1</tessellate>',
+                  '<coordinates>1.100000,-21.340000',
+                  '-122.567000,38.123000</coordinates>',
+                  '</LineString>']
+
+class SimpleLineStringTestCase(unittest.TestCase):
+  def runTest(self):
+    a_lon = 1.1
+    a_lat = -21.34
+    b_lon = -122.567
+    b_lat = 38.123
+    ls_got = kml.genkml.SimpleLineString(a_lon, a_lat, b_lon, b_lat)
+    ls_want = '\n'.join(linestring_kml) + '\n'
+    assert ls_want == ls_got
+
 
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(RegionNetworkLinkTestCase())
   suite.addTest(DefaultRegionTestCase())
+  suite.addTest(SimpleLineStringTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
