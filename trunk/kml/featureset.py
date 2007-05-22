@@ -398,3 +398,33 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
 
   def NSEW(self):
     return self._node_feature_set['0'].NSEW()
+
+
+def Regionate(fs, min_lod_pixels, max_per, rootkml, dir, verbose):
+    """
+    NOTE: The caller must Sort() the featureset if such is desired.
+
+    Args:
+      fs: kml.featureset.FeatureSet() of KML Features
+      min_lod_pixels: value for <minLodPixels>
+      max_per: maximum number of Placemarks per node
+      rootkml: file to create to point to RbNL hierarchy
+      dir: directory to write RbNL (must exist)
+      verbose: if False operate silently
+    Returns:
+      kml.regionator.Regionator: or None if anything failed
+    """
+    fs_handler = kml.featureset.FeatureSetRegionHandler(fs, min_lod_pixels,
+                                                        max_per)
+    rtor = kml.regionator.Regionator()
+    rtor.SetRegionHandler(fs_handler)
+    rtor.SetOutputDir(dir)
+    (n,s,e,w) = fs.NSEW()
+    region = kml.region.RootSnap(n,s,e,w)
+    rtor.SetVerbose(verbose)
+    rtor.Regionate(region)
+    if rootkml:
+      root_href = rtor.RootHref()
+      kml.regionator.MakeRootForHref(rootkml, region, min_lod_pixels, root_href)
+    return rtor
+
