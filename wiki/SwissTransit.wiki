@@ -1,0 +1,222 @@
+#summary Swiss Transit Region sample
+
+= Introduction =
+
+This describes the details of the Swiss Transit Region sample.
+
+This dataset includes information for 15,000 transit stations and 18,000 connections
+between them.  This amount of data is too large to show all at once for
+several reasons.  First, showing 15,000 icons and 18,000 lines is too cluttered.
+Second, a single KML file of 15,000 points and 18,000 lines is about 10MB
+which is too large to both e-mail or host and takes too much time to parse.
+
+This describes how Region-based !NetworkLinks are used to present this
+dataset in a manner that is both visually appealling and useful and which
+address data size and performance concerns.
+
+= Swiss Transit: Input data =
+
+The input is from these CSV files:
+
+  * ch-stations.csv - 15,000 entries:
+    * weight - number of daily connections
+    * station name
+    * location - latitude, longitude
+  * ch-connections.csv - 18,000 entries:
+    * from station
+    * to station
+    * number of daily connections between the two
+
+= Swiss Transit: output =
+
+The ch-sbb.kml file points to:
+
+  * 3 Region-based !NetworkLink hierarchies
+    * Basic - one simple Placemark per station
+    * Styled - one styled Placemark per station
+    * Multi - one !MultiGeometry Placemark per station:
+      * Point - icon for station location
+      * !LineString - one !LineString to each connection station
+  * a Folder to tour part of the dataset
+  * debugging info:
+    * Boxes - !LineString boxes showing the Region hierarchy
+    * Dash - !ScreenOverlays showing the Region hierarchy
+
+Subsequent sections details each item
+
+= Basic Region-based NetworkLink hierarchy =
+
+The Basic sample is created using the standard csvregionator.py
+as follows:
+
+{{{
+csvregionator.py ch-stations.csv ch-basic-root.kml ch-basic-dir
+}}}
+
+The general form of csvregionator.py is:
+
+{{{
+usage: csvregionator.py input.csv root.kml dir [styleUrl]
+}}}
+
+== Input CSV data ==
+
+The input.csv file of the station point data is used to create a
+Region-based NetworkLink hierarchy stored to ch-basic-dir
+with a "root" file pointing to the top of the hierachy written
+out to ch-basic-root.kml.
+
+Each line of the input.csv is as follows:
+
+{{{
+score|lat|lon|name|description
+}}}
+
+In this case the score is the total number of connections with
+the given station.  For example:
+
+{{{
+41|46.6245|9.57563|Salouf, posta|41 connections
+}}}
+
+See !kml.csvregionator.ParseCsvLine() for details.
+
+== Station Placemark ==
+
+A Point Placemark is created for each station from each
+line in the input.csv.  For example:
+
+{{{
+<Placemark id="pm0">
+  <name>Salouf, posta</name>
+  <description>
+    <![CDATA[41 connections]]>
+  </description>
+  <Point>
+    <coordinates>9.575630,46.624500</coordinates>
+  </Point>
+</Placemark>
+}}}
+
+See !kml.csvregionator.CreatePlacemark() for details.
+
+== Parsing the input ==
+
+The input CSV file is parsed into a "feature set" with the Placemark
+for each station added by its weight (total number of connections
+to other stations), latitude and longitude.
+
+The feature set is sorted based the weight.  This sort is the main
+determinant of which stations appear more prominently than others.
+
+See !kml.csvregionator.CreateFeatureSet() for details.
+
+== Regionating the feature set ==
+
+A standard region sort of the feature set in this sample puts
+at most 16 stations in one region whose visibility range
+at the mininum end is 256 pixels.
+
+Thus, the 16 most important stations first appears when a bounding box
+surrounding Switzerland occupies 256 ^ 2 pixels on the screen.
+
+(The Switzerland view point in the Tour folder is this viewpoint).
+
+The file ch-basic-dir/1.kml is KML for this top level node.
+This file is excerpted here and follows the general form of
+any KML file in a RbNL hierarchy:
+
+{{{
+<kml>
+  <Region> [bounding box and lod for this file] </Region>
+  <NetworkLink> [to NW child] </NetworkLink>
+  <NetworkLink> [to NE child] </NetworkLink>
+  <NetworkLink> [to SW child] </NetworkLink>
+  <NetworkLink> [to SE child] </NetworkLink>
+  Features...
+</kml>
+}}}
+
+In the case of ch-basic-dir/1.kml the Region is this:
+
+{{{
+<Region>
+  <Lod>
+    <minLodPixels>256</minLodPixels>
+    <maxLodPixels>-1</maxLodPixels>
+  </Lod>
+  <LatLonAltBox>
+    <north>50.625</north>
+    <south>45.0</south>
+    <east>11.25</east>
+    <west>5.625</west>
+  </LatLonAltBox>
+</Region>
+}}}
+
+This top-most node has 3 child nodes which present the NE,
+SE, and SW quadrants of the top level region.  For example,
+here is the Region for the SW child.  Note that the south and
+west borders are the same and that the north and east borders
+are half way between the north and south and east and west of
+the parent region above.  Also, note that the Lod values are the same.
+Since the children region is geographically smaller the viewpoint
+must be closer to trigger both the !NetworkLink fetch and the visibility
+of features associated with this Region:
+
+{{{
+<Region>
+  <Lod>
+    <minLodPixels>256</minLodPixels>
+    <maxLodPixels>-1</maxLodPixels>
+   </Lod>
+  <LatLonAltBox>
+    <north>47.8125</north>
+    <south>45.0</south>
+    <east>8.4375</east>
+    <west>5.625</west>
+  </LatLonAltBox>
+</Region>
+}}}
+
+Finally the actual data is simply the Placemarks 16 most important stations.
+Here is the most important station and hence the first Placemark in ch-basic-dir/1.kml:
+
+{{{
+<Placemark id="pm1942">
+  <name>Zug, Postplatz</name>
+  <description>4146 connections</description>
+  <Point>
+    <coordinates>8.515710,47.167900</coordinates>
+  </Point>
+</Placemark>
+}}}
+
+See the KML 2.1
+[http://code.google.com/apis/kml/documentation/kml_21tutorial.html#nestingregions tutorial]
+for details on nesting Regions with !NetworkLinks.
+
+= Styled Region-based NetworkLink hierarchy =
+
+This describes how the Styled RbNL hierarchy is created.
+
+= MultiGeometry Region-based NetworkLink hierarchy =
+
+This describes how the Multi RbNL hierarchy is created.
+
+= Debug info =
+
+This describes the Boxes and Dash debugging information for this dataset
+and how those are created.
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+
+
+
+
+
+
