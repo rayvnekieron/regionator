@@ -9,6 +9,8 @@ between them.  This amount of data is too large to show all at once for
 several reasons.  First, showing 15,000 icons and 18,000 lines is too cluttered.
 Second, a single KML file of 15,000 points and 18,000 lines is about 10MB
 which is too large to both e-mail or host and takes too much time to parse.
+Here is a [http://regionator.googlecode.com/svn/trunk/ch-sbb/flat.jpg screenshot]
+of how this dataset looks as one flat KML file.
 
 This describes how Region-based !NetworkLinks are used to present this
 dataset in a manner that is both visually appealling and useful and which
@@ -58,6 +60,10 @@ The general form of csvregionator.py is:
 {{{
 usage: csvregionator.py input.csv root.kml dir [styleUrl]
 }}}
+
+Note that this basic sample does not use the optional styleUrl argument.
+More in this in the Styled section that follows.  The Styled section builds
+on the material here in the Basic section.
 
 == Input CSV data ==
 
@@ -200,19 +206,314 @@ for details on nesting Regions with !NetworkLinks.
 
 This describes how the Styled RbNL hierarchy is created.
 
+As with the Basic sample this RbNL hierarchy is created
+using the csvregionator.py script using the ch-stations.csv
+as input.  In addition the Styled sample uses the styleUrl:
+
+{{{
+csvregionator.py ch-stations.csv ch-style-root.kml ch-style-dir ../style/style.kml#station_icon
+}}}
+
+== Styled Station Placemark ==
+
+Here is an example Placemark created by cvsregionator.py:
+
+{{{
+<Placemark id="pm1942">
+  <name>Zug, Postplatz</name>
+  <description>4146 connections</description>
+  <styleUrl>../style/style.kml#station_icon</styleUrl>
+  <Point>
+    <coordinates>8.515710,47.167900</coordinates>
+  </Point>
+</Placemark>
+}}}
+
+This is the same as the Basic Station Placemark with the addition of this line:
+
+{{{
+  <styleUrl>../style/style.kml#station_icon</styleUrl>
+}}}
+
+The RbNL hierarchy is otherwise created in the same manner as
+in the Basic sample.
+
+== Shared Style referencing
+
+The Styled sample RbNL files are stored to the ch-styled-dir.
+The style.kml file is in the peer directory style.  Hence, relative
+URL referencing finds style/style.kml and the fragment 'station_icon'
+references the id of a global style in style.kml.
+
+=== Custom icon ===
+
+Here is a simple style.kml with a global Style which provides a custom icon.
+
+{{{
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+    <Style id="station_icon">
+      <IconStyle>
+        <Icon>
+          <href>wht-blank.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+</Document>
+</kml>
+}}}
+
+The file wht-blank.png must reside in the same directory as style.kml.
+(Alternately the href could be a full absolute URL to any website
+hosting an appropriate icon image file).
+
+NOTE: Since style.kml is a separate file from the files in the RbNL
+hierarchy it can be replaced without changing the RbNL hierarchy.
+(The RbNL hierarchy must be reloaded in Google Earth for
+the change to take effect).
+
+=== Icon rollover ===
+
+Here is a style.kml which defines icon rollover behavior.
+Note that the StyleMap element here is the target of the styleUrl
+given its use of the station_icon id:
+
+{{{
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <Style id="station_icon_normal">
+      <IconStyle>
+        <Icon>
+          <href>wht-blank.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+    <Style id="station_icon_highlight">
+      <IconStyle>
+        <Icon>
+          <href>red-stars.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="station_icon">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#station_icon_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#station_icon_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+  </Document>
+</kml>
+}}}
+
+=== Hide and reveal text and balloon styling
+
+And, here is a richer style that provides icon a different icon on highlight
+as the one above, but in addition adds a label style which hides the Placemark
+name normally and reveals it on highlight.  The name text is colored randomly
+within a range of blue-green colors.  In addition the ballon is styled
+to provide a background and to remove the driving directions.
+
+{{{
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+    <Style id="station_icon_normal">
+      <IconStyle>
+        <Icon>
+          <href>wht-blank.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+
+   <Style id="station_icon_highlight">
+      <IconStyle>
+        <Icon>
+          <href>red-stars.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffbb8b</bgColor>
+        <text>
+<![CDATA[
+The station is <b>$[name]</b><br/>
+there are $[description].
+]]>
+        </text>
+      </BalloonStyle>
+    </Style>
+
+    <StyleMap id="station_icon">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#station_icon_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#station_icon_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
+  </Document>
+</kml>
+}}}
+
+This latter file is one used by default in the script
+than creates all the samples.
+
 = MultiGeometry Region-based NetworkLink hierarchy =
 
 This describes how the Multi RbNL hierarchy is created.
+
+The Multi sample builds on the Styled sample.  The additional feature
+is to provide geometry revealed on icon rollover.  This section
+describes this additoinal feature.
+
+== Multi Styled Station Placemark ==
+
+As the name suggests each Placemark in the Multi RbNL is a
+!MultiGeometry Placemark.  The !MultiGeometry element includes
+the Point as used in both the Basic and Styled Placemark, and
+in addition includes 0 or more !LineStrings -- one for each
+connection.  Each !LineString goes from the same location
+as the Point to the location of the connecting station.
+
+Here is an example:
+
+{{{
+<Placemark>
+  <name>Zug, Postplatz</name>
+  <description>4146 connections</description>
+  <styleUrl>../style/poly.kml#station_icon</styleUrl>
+  <MultiGeometry>
+    <Point>
+      <coordinates>8.515710,47.167900</coordinates>
+    </Point>
+    <LineString>
+      <tessellate>1</tessellate>
+        <coordinates>8.515710,47.167900 8.528370,47.167700</coordinates>
+    </LineString>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>8.515710,47.167900 8.514170,47.163600</coordinates>
+    </LineString>
+</Placemark>
+}}}
+
+(Note: the actual Placemark for this station includes 12 LineStings).
+
+== regionator-multi.py ==
+
+The Multi RbNL sample uses a custom program to generate the Placemarks.
+
+The input to this program is both the station point data CSV file (ch-stations.csv)
+and an additional file listing connections per station (ch-connections.csv).
+
+See !CreatePlacemark() in regionator-multi.py.
+
+A featureset is created with all station !MultiGeometry Placemarks which
+is passed to the standard feature set regionator (used also by the
+csvregionator.py used in the Basic and Styled samples).
+
+== Multi Style ==
+
+As with the Styled sample a styleUrl is used with each Placemark
+to reference a shared style.
+
+Use of !MultiGeometry provides the means to change the styling of
+any geometry in the Placemark on rollover.  In this case the rollover
+action has the visual effect of revealing the normally hidden lines.
+
+Here is are the contents of the style/poly.kml file referenced
+in the styleUrl of each Placemark in the Multi sample:
+
+{{{
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+
+    <Style id="station_icon_normal">
+      <IconStyle>
+        <Icon>
+          <href>wht-blank.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+      <LabelStyle>  <!-- This hides the label -->
+        <scale>0</scale>
+      </LabelStyle> <!-- This hides all lines -->
+      <LineStyle>
+        <color>00000000</color>
+        <!-- a==00: fully transparent line -->
+      </LineStyle>
+    </Style>
+
+    <Style id="station_icon_highlight">
+      <IconStyle>
+        <Icon>
+          <href>red-stars.png</href>
+        </Icon>
+        <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+      <!-- This shows the label in a random blue-green color -->
+      <LabelStyle>
+        <color>ff90c010</color>
+        <colorMode>random</colorMode>
+      </LabelStyle>
+      <!-- Line are drawn 2 pixels wide red -->
+      <LineStyle>
+        <color>ff3f00ff</color>
+        <width>2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>ffffbb8b</bgColor>
+        <text>
+<![CDATA[
+The station is <b>$[name]</b><br/>
+there are $[description].
+]]>
+        </text>
+      </BalloonStyle>
+    </Style>
+
+    <StyleMap id="station_icon">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#station_icon_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#station_icon_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
+</kml>
+}}}
 
 = Debug info =
 
 This describes the Boxes and Dash debugging information for this dataset
 and how those are created.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Any regionator instance maintains a list of all the regions for a given dataset.
+See kml.regionator.QidList().
+
+== Boxes ==
+
+The kml.qidboxes.MakeQidBoxes() function uses this list to build a single flat
+KML file of one !LineString box outlining each Region.  The !LineString is put
+in a Placemark which itself is given that same Region.  Hence, the "region" is
+drawn 
+
 
 
 
