@@ -6,9 +6,12 @@ This describes the details of the Swiss Transit Region sample.
 
 This dataset includes information for 15,000 transit stations and 18,000 connections
 between them.  This amount of data is too large to show all at once for
-several reasons.  First, showing 15,000 icons and 18,000 lines is too cluttered.
+several reasons.  First, showing 15,000 icons and 18,000 lines looks too cluttered.
 Second, a single KML file of 15,000 points and 18,000 lines is about 10MB
-which is too large to both e-mail or host and takes too much time to parse.
+which is too large to either e-mail or host on a website.  Third, a 10MB KML file
+takes too much time to parse and displaying 15,000 icons and labels does not
+perform well.
+
 Here is a [http://regionator.googlecode.com/svn/trunk/ch-sbb/flat.jpg screenshot]
 of how this dataset looks as one flat KML file.
 
@@ -20,11 +23,11 @@ address data size and performance concerns.
 
 The input is from these CSV files:
 
-  * ch-stations.csv - 15,000 entries:
+  * [http://regionator.googlecode.com/svn/trunk/ch-sbb/ch-stations.csv ch-stations.csv] - 15,000 entries:
     * weight - number of daily connections
     * station name
     * location - latitude, longitude
-  * ch-connections.csv - 18,000 entries:
+  * [http://regionator.googlecode.com/svn/trunk/ch-sbb/ch-connections.csv ch-connections.csv] - 18,000 entries:
     * from station
     * to station
     * number of daily connections between the two
@@ -45,6 +48,58 @@ The ch-sbb.kml file points to:
     * Dash - !ScreenOverlays showing the Region hierarchy
 
 Subsequent sections details each item
+
+= User experience =
+
+Enable one of the Basic, Styled or Multi items and roam around Switzerland
+and watch the station icons pop into view as your view point nears and
+how stations of lesser importance pop out as the view point moves away.
+Play the Tour folder to see the effect also at various angles of tilt
+and heading.
+
+== Basic experience ==
+
+As compared to the [http://regionator.googlecode.com/svn/trunk/ch-sbb/flat.jpg full onslaught]
+of icons on labels this treament is already profoundly better.  From far away
+the most important stations are shown.  Note that with regions "far away" is
+a combination of altitude, heading, tilt and terrain.
+
+== Styled experience ==
+
+The experience of level of detail is the same as with Basic, but here the icons
+are replaced with white paddles, the anchor point ("hotspot") of the icon is
+at the tail of the paddle (view in an oblique angle and change the heading
+and watch the paddle "stand up" and "twirl" properly).
+
+Mouse over an icon and it flips to a red star paddle and the station name
+is revealed in a random-color blue-green text.  Click the icon for the balloon
+and see that it is now styled with a blue-ish background and some custom formatting
+with the driving directions removed.
+
+Beyond the sub-styles and !StyleMap this also illustrates the utility of styleUrl
+and global shared styles: all 15,000 Placemarks refer to a single shared style
+in a separate KML file which can be replaced without regenerating the overall
+dataset.  Without shared styles the style would have to be included with every
+placemark which would increase the amount of data to fetch over the network,
+it would increase the time to parse after fetch and would use up application-internal
+resources to hold the parsed KML objects.
+
+== Multi experience ==
+
+This builds on the Styled sample to show the use of !StyleMap and !MultiGeometry
+to hide and reveal geometry on icon rollover.  (Hide and reveal are just special
+cases of color-based styling through the use of alpha.  Other datasets might
+want to show a normal color/transparency and a highlight color transparency).
+
+= Creating Basic, Styled and Multi =
+
+The following sections describe how the 3 variations are created.
+The acronym !RbNL is used to refer to a Region-based !NetworkLink hierarchy.
+
+The Python class and function names come from the Regionator code base.
+For example, kml.featureset.FeatureSet() info is found using "pydoc kml.featureset.FeatureSet"
+once the Regionator code is installed.  The Python code can be viewed directly
+at: http://regionator.googlecode.com/svn/trunk/kml/featureset.py.
 
 = Basic Region-based NetworkLink hierarchy =
 
@@ -514,7 +569,27 @@ KML file of one !LineString box outlining each Region.  The !LineString is put
 in a Placemark which itself is given that same Region.  Hence, the "region" is
 drawn 
 
+== Dash ==
 
+The kml.dashboard.MakeDashBoard() function finds the qid list in a
+regoinator instance (kml.regionator.QidList()) and builds a single flat KML
+file of one !ScreenOverlay for each Region (down to a maximum of 6 levels).
+
+The geo-graphically larger regions are drawn larger and bluer.  The geo-graphically
+smaller and more deeply nested regions are drawn smaller and redder.
+
+The top of the "dashboard" is north and left is east.
+
+Move the viewpoint up and down, change the heading and tilt and change
+the location, and enable and disable terrain and watch how the various
+regions pop in and out.  Note that as the viewpoint moves more deeply into
+the dataset that both finer grain regions are activated and coarser
+level regions are de-activated.  This manages the complexity of the dataset
+both from a visual point of view for the end user and from a network load
+and applications performance point of view.
+
+Note that a !ScreenOverlay with no Icon results in a solid polygon
+whose color is taken from the color element.
 
 
 
