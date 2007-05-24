@@ -97,7 +97,7 @@ The following sections describe how the 3 variations are created.
 The acronym !RbNL is used to refer to a Region-based !NetworkLink hierarchy.
 
 The Python class and function names come from the Regionator code base.
-For example, kml.featureset.FeatureSet() info is found using "pydoc kml.featureset.FeatureSet"
+For example, kml.featureset.!FeatureSet() info is found using "pydoc kml.featureset.!FeatureSet"
 once the Regionator code is installed.  The Python code can be viewed directly
 at: http://regionator.googlecode.com/svn/trunk/kml/featureset.py.
 
@@ -123,7 +123,7 @@ on the material here in the Basic section.
 == Input CSV data ==
 
 The input.csv file of the station point data is used to create a
-Region-based NetworkLink hierarchy stored to ch-basic-dir
+Region-based !NetworkLink hierarchy stored to ch-basic-dir
 with a "root" file pointing to the top of the hierachy written
 out to ch-basic-root.kml.
 
@@ -140,7 +140,7 @@ the given station.  For example:
 41|46.6245|9.57563|Salouf, posta|41 connections
 }}}
 
-See !kml.csvregionator.ParseCsvLine() for details.
+See kml.csvregionator.!ParseCsvLine() for details.
 
 == Station Placemark ==
 
@@ -159,7 +159,7 @@ line in the input.csv.  For example:
 </Placemark>
 }}}
 
-See !kml.csvregionator.CreatePlacemark() for details.
+See kml.csvregionator.!CreatePlacemark() for details.
 
 == Parsing the input ==
 
@@ -170,7 +170,7 @@ to other stations), latitude and longitude.
 The feature set is sorted based the weight.  This sort is the main
 determinant of which stations appear more prominently than others.
 
-See !kml.csvregionator.CreateFeatureSet() for details.
+See kml.csvregionator.!CreateFeatureSet() for details.
 
 == Regionating the feature set ==
 
@@ -189,12 +189,14 @@ any KML file in a RbNL hierarchy:
 
 {{{
 <kml>
-  <Region> [bounding box and lod for this file] </Region>
-  <NetworkLink> [to NW child] </NetworkLink>
-  <NetworkLink> [to NE child] </NetworkLink>
-  <NetworkLink> [to SW child] </NetworkLink>
-  <NetworkLink> [to SE child] </NetworkLink>
-  Features...
+  <Document>
+    <Region> [bounding box and lod for this file] </Region>
+    <NetworkLink> [to NW child] </NetworkLink>
+    <NetworkLink> [to NE child] </NetworkLink>
+    <NetworkLink> [to SW child] </NetworkLink>
+    <NetworkLink> [to SE child] </NetworkLink>
+    Features...
+  </Document>
 </kml>
 }}}
 
@@ -293,7 +295,7 @@ This is the same as the Basic Station Placemark with the addition of this line:
 The RbNL hierarchy is otherwise created in the same manner as
 in the Basic sample.
 
-== Shared Style referencing
+== Shared Style referencing ==
 
 The Styled sample RbNL files are stored to the ch-styled-dir.
 The style.kml file is in the peer directory style.  Hence, relative
@@ -367,7 +369,7 @@ given its use of the station_icon id:
 </kml>
 }}}
 
-=== Hide and reveal text and balloon styling
+=== Hide and reveal text and balloon styling ===
 
 And, here is a richer style that provides icon a different icon on highlight
 as the one above, but in addition adds a label style which hides the Placemark
@@ -560,19 +562,19 @@ This describes the Boxes and Dash debugging information for this dataset
 and how those are created.
 
 Any regionator instance maintains a list of all the regions for a given dataset.
-See kml.regionator.QidList().
+See kml.regionator.!QidList().
 
 == Boxes ==
 
-The kml.qidboxes.MakeQidBoxes() function uses this list to build a single flat
+The kml.qidboxes.!MakeQidBoxes() function uses this list to build a single flat
 KML file of one !LineString box outlining each Region.  The !LineString is put
 in a Placemark which itself is given that same Region.  Hence, the "region" is
 drawn 
 
 == Dash ==
 
-The kml.dashboard.MakeDashBoard() function finds the qid list in a
-regoinator instance (kml.regionator.QidList()) and builds a single flat KML
+The kml.dashboard.!MakeDashBoard() function finds the qid list in a
+regoinator instance (kml.regionator.!QidList()) and builds a single flat KML
 file of one !ScreenOverlay for each Region (down to a maximum of 6 levels).
 
 The geo-graphically larger regions are drawn larger and bluer.  The geo-graphically
@@ -590,6 +592,8 @@ and applications performance point of view.
 
 Note that a !ScreenOverlay with no Icon results in a solid polygon
 whose color is taken from the color element.
+
+
 
 
 
