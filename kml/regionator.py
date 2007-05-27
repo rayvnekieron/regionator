@@ -222,6 +222,9 @@ class Regionator:
     # 4) data (Features) for this region
     
     features = rhandler.Data(region)
+    if not features:
+      return region
+
     document.Add_Feature(features)
 
     rhandler.End(region)
