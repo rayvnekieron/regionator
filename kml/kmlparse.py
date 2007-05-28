@@ -98,6 +98,7 @@ def GetFirstChildElement(node, tagname):
     return None
 
 
+
 class KMLParse:
 
   """DOM parse a KML or KMZ file
@@ -664,6 +665,24 @@ def Decode(data, codec):
     return None
 
 
+def ParseUsingCodec(kmlfile, encoding):
+  """Parse overriding encoding
+  Args:
+    kmlfile: url.kml
+    encoding: alternate encoding, or None to use xml header encoding
+  Returns:
+    doc: xml.dom.minidom node
+  """
+  if encoding:
+    data = kml.href.FetchUrl(kmlfile)
+    (xml_header, xml_data) = kml.kmlparse.SplitXmlHeaderFromData(data)
+    kp = kml.kmlparse.KMLParse(None)
+    kp.ParseStringUsingCodec(xml_data, encoding)
+  else:
+    kp = kml.kmlparse.KMLParse(kmlfile)
+  return kp.Doc()
+
+
 def ParsePointLoc(placemark_node):
   """Parse out the location of the Point Placemark
   Args:
@@ -679,4 +698,16 @@ def ParsePointLoc(placemark_node):
     if coords:
       return kml.coordinates.ParsePointCoordinates(coords)
   return None
+
+def ParseStyleUrlText(styleurl_text):
+  if styleurl_text:
+    t = styleurl_text.split('#')
+    if len(t) == 2 and len(t[1]):
+      if len(t[0]):
+        return (t[0], t[1])
+      return (None, t[1])
+  return (None, None)
+
+def ParseStyleUrl(styleurl_node):
+  return ParseStyleUrlText(GetText(styleurl_node))
 
