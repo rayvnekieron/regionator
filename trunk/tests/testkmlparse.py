@@ -260,6 +260,21 @@ class ParsePointLocTestCase(unittest.TestCase):
     assert -34.8 == lat
     assert 10001 == alt
 
+class StyleUrlTestCase(unittest.TestCase):
+  def runTest(self):
+    (url, id) = kml.kmlparse.ParseStyleUrlText('hi.kml#foo')
+    assert url == 'hi.kml'
+    assert id == 'foo'
+    (url, id) = kml.kmlparse.ParseStyleUrlText('no-pound-sign-here')
+    assert url == None
+    assert id == None
+    (url, id) = kml.kmlparse.ParseStyleUrlText('#id_only')
+    assert url == None
+    assert id == 'id_only'
+    (url, id) = kml.kmlparse.ParseStyleUrlText('http://foo.com/goo.kml')
+    assert url == None
+    assert id == None
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -285,6 +300,7 @@ def suite():
   suite.addTest(GetNetworkLinkHrefTestCase())
   suite.addTest(ParseUsingCodecTestCase())
   suite.addTest(ParsePointLocTestCase())
+  suite.addTest(StyleUrlTestCase())
   return suite
 
 
