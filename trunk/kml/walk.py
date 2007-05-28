@@ -50,6 +50,7 @@ class KMLHierarchy:
     self.__node_handler = None
     self.__verbose = False
     self.__encoding = None
+    self.__walk_style_urls = False
 
   def SetNodeHandler(self, node_handler):
     """
@@ -72,6 +73,33 @@ class KMLHierarchy:
     """
     self.__encoding = encoding
 
+  def SetWalkStyleUrls(self, bool):
+    self.__walk_style_urls = bool
+
+  def _WalkStyleUrls(self, kmlfile, doc):
+    styleurl_map = {}
+    styleurl_nodelist = doc.getElementsByTagName('styleUrl')
+    if styleurl_nodelist:
+      for styleurl_node in styleurl_nodelist:
+        (url, id) = kml.kmlparse.ParseStyleUrl(styleurl_node)
+        if url:
+          if styleurl_map.has_key(url):
+             styleurl_map[url] += 1
+          else:
+             styleurl_map[url] = 1
+     
+      for styleurl in styleurl_map.keys():
+        child_url = kml.href.ComputeChildUrl(kmlfile, styleurl)
+        self.Walk(child_url, None, None)
+
+  def _WalkNetworkLinks(self, kmlfile, doc):
+    networklink_nodelist = doc.getElementsByTagName('NetworkLink')
+    for networklink_node in networklink_nodelist:
+      (llab,lod) = kml.kmlparse.ParseFeatureRegion(networklink_node)
+      child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
+      child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
+      self.Walk(child_url, llab, lod)
+
   def Walk(self, kmlfile, llab=None, lod=None):
     """
     NOTE: Errors with child links are not propagated to the return value.
@@ -89,14 +117,7 @@ class KMLHierarchy:
     href = kml.href.Href()
     href.SetUrl(kmlfile)
 
-    if self.__encoding:
-      data = kml.href.FetchUrl(kmlfile)
-      (xml_header, xml_data) = kml.kmlparse.SplitXmlHeaderFromData(data)
-      kp = kml.kmlparse.KMLParse(None)
-      kp.ParseStringUsingCodec(xml_data, self.__encoding)
-    else:
-      kp = kml.kmlparse.KMLParse(kmlfile)
-    doc = kp.Doc()
+    doc = kml.kmlparse.ParseUsingCodec(kmlfile, self.__encoding)
     if not doc:
       if self.__verbose:
         print kmlfile,'load or parse error'
@@ -107,13 +128,10 @@ class KMLHierarchy:
 
     self.__node_handler.HandleNode(href, doc, llab, lod)
 
-    networklink_nodelist = doc.getElementsByTagName('NetworkLink')
-    for networklink_node in networklink_nodelist:
-      (llab,lod) = kml.kmlparse.ParseFeatureRegion(networklink_node)
-      child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
-      child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
-      # NOTE: Errors on children are not propagated up.
-      self.Walk(child_url, llab, lod)
+    self._WalkNetworkLinks(kmlfile, doc)
+
+    if self.__walk_style_urls:
+      self._WalkStyleUrls(kmlfile, doc)
 
     return True
 
