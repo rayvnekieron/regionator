@@ -15,9 +15,9 @@ perform well.
 Here is a [http://regionator.googlecode.com/svn/trunk/ch-sbb/flat.jpg screenshot]
 of how this dataset looks as one flat KML file.
 
-This describes how Region-based !NetworkLinks are used to present this
+This describes how the Region-based !NetworkLink (RbNL) is used to present this
 dataset in a manner that is both visually appealling and useful and which
-address data size and performance concerns.
+addresses data size and performance concerns.
 
 = Swiss Transit: Input data =
 
@@ -32,7 +32,7 @@ The input is from these CSV files:
     * to station
     * number of daily connections between the two
 
-= Swiss Transit: output =
+= Swiss Transit: Output =
 
 The ch-sbb.kml file points to:
 
@@ -41,7 +41,7 @@ The ch-sbb.kml file points to:
     * Styled - one styled Placemark per station
     * Multi - one !MultiGeometry Placemark per station:
       * Point - icon for station location
-      * !LineString - one !LineString to each connection station
+      * !LineString - one !LineString to each connecting station
   * a Folder to tour part of the dataset
   * debugging info:
     * Boxes - !LineString boxes showing the Region hierarchy
@@ -52,22 +52,24 @@ Subsequent sections details each item
 = User experience =
 
 Enable one of the Basic, Styled or Multi items and roam around Switzerland
-and watch the station icons pop into view as your view point nears and
-how stations of lesser importance pop out as the view point moves away.
+and watch the station icons pop in as your viewpoint nears and
+how stations of lesser importance pop out as the viewpoint moves away.
 Play the Tour folder to see the effect also at various angles of tilt
-and heading.
+and heading.  Note also that the icons pop in and out while the
+viewpoint is in motion.
 
 == Basic experience ==
 
 As compared to the [http://regionator.googlecode.com/svn/trunk/ch-sbb/flat.jpg full onslaught]
 of icons on labels this treament is already profoundly better.  From far away
 the most important stations are shown.  Note that with regions "far away" is
-a combination of altitude, heading, tilt and terrain.
+a combination of altitude, heading, tilt and terrain.  This behavior generally
+mimics the user experience of the "built in" populated places layer, for example.
 
 == Styled experience ==
 
 The experience of level of detail is the same as with Basic, but here the icons
-are replaced with white paddles, the anchor point ("hotspot") of the icon is
+are replaced with white paddles.  Also note that the anchor point ("hotspot") of the icon is
 at the tail of the paddle (view in an oblique angle and change the heading
 and watch the paddle "stand up" and "twirl" properly).
 
@@ -94,11 +96,10 @@ want to show a normal color/transparency and a highlight color transparency).
 = Creating Basic, Styled and Multi =
 
 The following sections describe how the 3 variations are created.
-The acronym !RbNL is used to refer to a Region-based !NetworkLink hierarchy.
 
 The Python class and function names come from the Regionator code base.
-For example, kml.featureset.!FeatureSet() info is found using "pydoc kml.featureset.!FeatureSet"
-once the Regionator code is installed.  The Python code can be viewed directly
+For example, kml.featureset.!FeatureSet() info is found using "pydoc kml.featureset.!FeatureSet".
+The Python code can be viewed directly
 at: http://regionator.googlecode.com/svn/trunk/kml/featureset.py.
 
 = Basic Region-based NetworkLink hierarchy =
@@ -117,7 +118,7 @@ usage: csvregionator.py input.csv root.kml dir [styleUrl]
 }}}
 
 Note that this basic sample does not use the optional styleUrl argument.
-More in this in the Styled section that follows.  The Styled section builds
+There is more about styling in the Styled section that follows which builds
 on the material here in the Basic section.
 
 == Input CSV data ==
@@ -150,9 +151,7 @@ line in the input.csv.  For example:
 {{{
 <Placemark id="pm0">
   <name>Salouf, posta</name>
-  <description>
-    <![CDATA[41 connections]]>
-  </description>
+  <description>41 connections</description>
   <Point>
     <coordinates>9.575630,46.624500</coordinates>
   </Point>
@@ -167,7 +166,7 @@ The input CSV file is parsed into a "feature set" with the Placemark
 for each station added by its weight (total number of connections
 to other stations), latitude and longitude.
 
-The feature set is sorted based the weight.  This sort is the main
+The feature set is sorted based on weight.  This sort is the main
 determinant of which stations appear more prominently than others.
 
 See kml.csvregionator.!CreateFeatureSet() for details.
@@ -178,7 +177,7 @@ A standard region sort of the feature set in this sample puts
 at most 16 stations in one region whose visibility range
 at the mininum end is 256 pixels.
 
-Thus, the 16 most important stations first appears when a bounding box
+Thus, the 16 most important stations first appear when a bounding box
 surrounding Switzerland occupies 256 ^ 2 pixels on the screen.
 
 (The Switzerland view point in the Tour folder is this viewpoint).
@@ -242,7 +241,7 @@ of features associated with this Region:
 </Region>
 }}}
 
-Finally the actual data is simply the Placemarks 16 most important stations.
+Finally the actual data is simply the Placemarks for the 16 most important stations.
 Here is the most important station and hence the first Placemark in ch-basic-dir/1.kml:
 
 {{{
@@ -265,7 +264,7 @@ This describes how the Styled RbNL hierarchy is created.
 
 As with the Basic sample this RbNL hierarchy is created
 using the csvregionator.py script using the ch-stations.csv
-as input.  In addition the Styled sample uses the styleUrl:
+as input.  In addition the Styled sample uses the styleUrl argument:
 
 {{{
 csvregionator.py ch-stations.csv ch-style-root.kml ch-style-dir ../style/style.kml#station_icon
@@ -321,7 +320,8 @@ Here is a simple style.kml with a global Style which provides a custom icon.
 </kml>
 }}}
 
-The file wht-blank.png must reside in the same directory as style.kml.
+Since the href is relative the file wht-blank.png must reside in the
+same directory as style.kml.
 (Alternately the href could be a full absolute URL to any website
 hosting an appropriate icon image file).
 
@@ -339,6 +339,7 @@ given its use of the station_icon id:
 {{{
 <kml xmlns="http://earth.google.com/kml/2.1">
   <Document>
+
     <Style id="station_icon_normal">
       <IconStyle>
         <Icon>
@@ -347,6 +348,7 @@ given its use of the station_icon id:
         <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
       </IconStyle>
     </Style>
+
     <Style id="station_icon_highlight">
       <IconStyle>
         <Icon>
@@ -355,6 +357,7 @@ given its use of the station_icon id:
         <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
       </IconStyle>
     </Style>
+
     <StyleMap id="station_icon">
       <Pair>
         <key>normal</key>
@@ -365,14 +368,15 @@ given its use of the station_icon id:
         <styleUrl>#station_icon_highlight</styleUrl>
       </Pair>
     </StyleMap>
+
   </Document>
 </kml>
 }}}
 
 === Hide and reveal text and balloon styling ===
 
-And, here is a richer style that provides icon a different icon on highlight
-as the one above, but in addition adds a label style which hides the Placemark
+Here is a richer style building on the previous which in addition
+adds a label style which hides the Placemark
 name normally and reveals it on highlight.  The name text is colored randomly
 within a range of blue-green colors.  In addition the ballon is styled
 to provide a background and to remove the driving directions.
@@ -380,6 +384,7 @@ to provide a background and to remove the driving directions.
 {{{
 <kml xmlns="http://earth.google.com/kml/2.1">
 <Document>
+
     <Style id="station_icon_normal">
       <IconStyle>
         <Icon>
@@ -387,7 +392,7 @@ to provide a background and to remove the driving directions.
         </Icon>
         <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
       </IconStyle>
-      <LabelStyle>
+      <LabelStyle>  <!-- 0 scale hides text -->
         <scale>0</scale>
       </LabelStyle>
     </Style>
@@ -399,9 +404,10 @@ to provide a background and to remove the driving directions.
         </Icon>
         <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
       </IconStyle>
+      <!-- default LabelStyle is visible -->
       <BalloonStyle>
         <bgColor>ffffbb8b</bgColor>
-        <text>
+        <text>  <!-- This is a balloon template. -->
 <![CDATA[
 The station is <b>$[name]</b><br/>
 there are $[description].
@@ -434,7 +440,7 @@ This describes how the Multi RbNL hierarchy is created.
 
 The Multi sample builds on the Styled sample.  The additional feature
 is to provide geometry revealed on icon rollover.  This section
-describes this additoinal feature.
+describes this additional feature.
 
 == Multi Styled Station Placemark ==
 
@@ -471,7 +477,9 @@ Here is an example:
 
 == regionator-multi.py ==
 
-The Multi RbNL sample uses a custom program to generate the Placemarks.
+The Multi RbNL sample uses custom program
+[http://regionator.googlecode.com/svn/trunk/ch-sbb/regionator-multi.py regionator-multi.py]
+to generate the Placemarks.
 
 The input to this program is both the station point data CSV file (ch-stations.csv)
 and an additional file listing connections per station (ch-connections.csv).
@@ -479,8 +487,8 @@ and an additional file listing connections per station (ch-connections.csv).
 See !CreatePlacemark() in regionator-multi.py.
 
 A featureset is created with all station !MultiGeometry Placemarks which
-is passed to the standard feature set regionator (used also by the
-csvregionator.py used in the Basic and Styled samples).
+is passed to the standard feature set regionator kml.featuresetRegionate()
+(used ultimately also by the csvregionator.py used in the Basic and Styled samples).
 
 == Multi Style ==
 
@@ -491,7 +499,7 @@ Use of !MultiGeometry provides the means to change the styling of
 any geometry in the Placemark on rollover.  In this case the rollover
 action has the visual effect of revealing the normally hidden lines.
 
-Here is are the contents of the style/poly.kml file referenced
+Here is the style/poly.kml file referenced
 in the styleUrl of each Placemark in the Multi sample:
 
 {{{
@@ -507,8 +515,8 @@ in the styleUrl of each Placemark in the Multi sample:
       </IconStyle>
       <LabelStyle>  <!-- This hides the label -->
         <scale>0</scale>
-      </LabelStyle> <!-- This hides all lines -->
-      <LineStyle>
+      </LabelStyle>
+      <LineStyle>  <!-- This hides all lines -->
         <color>00000000</color>
         <!-- a==00: fully transparent line -->
       </LineStyle>
@@ -559,7 +567,7 @@ there are $[description].
 = Debug info =
 
 This describes the Boxes and Dash debugging information for this dataset
-and how those are created.
+and how these are created.
 
 Any regionator instance maintains a list of all the regions for a given dataset.
 See kml.regionator.!QidList().
@@ -569,7 +577,9 @@ See kml.regionator.!QidList().
 The kml.qidboxes.!MakeQidBoxes() function uses this list to build a single flat
 KML file of one !LineString box outlining each Region.  The !LineString is put
 in a Placemark which itself is given that same Region.  Hence, the "region" is
-drawn 
+drawn.  (NOTE:  The !LineString lines follow great circle paths while Region
+edges follow lines of constant latitude so the boxes are not exact.  The corners,
+however, are matched.
 
 == Dash ==
 
@@ -587,12 +597,11 @@ the location, and enable and disable terrain and watch how the various
 regions pop in and out.  Note that as the viewpoint moves more deeply into
 the dataset that both finer grain regions are activated and coarser
 level regions are de-activated.  This manages the complexity of the dataset
-both from a visual point of view for the end user and from a network load
-and applications performance point of view.
+both visually and with respect to from a network load
+and applications performance.
 
 Note that a !ScreenOverlay with no Icon results in a solid polygon
 whose color is taken from the color element.
-
 
 
 
