@@ -184,7 +184,7 @@ class FeatureSet(object):
         return self._AddCoordinatesFeature(outer, feature_dom_node)
     return False
 
-  def AddLocation(model_dom_node):
+  def AddLocation(self, model_dom_node):
     """ Add the Model to the FeatureSet
 
     The Model must have a <Location> child element which in turn must
