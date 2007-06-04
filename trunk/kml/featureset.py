@@ -179,7 +179,7 @@ class FeatureSet(object):
     polygon_node = kml.kmlparse.GetFirstChildElement(placemark_dom_node,
                                                      'Polygon')
     if polygon_node:
-      outer = kml.kmlparse.GetSimleElementText(polygon_node, 'outerBoundaryIs')
+      outer = kml.kmlparse.GetSimpleElementText(polygon_node, 'outerBoundaryIs')
       if outer:
         return self._AddCoordinatesFeature(outer, feature_dom_node)
     return False
