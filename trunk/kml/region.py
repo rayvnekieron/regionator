@@ -204,8 +204,10 @@ class Region:
     Find the lowest level region enclosing the given Region
     """ 
 
-    r = Region(n,s,e,w,'0')
-    return self._Search(r)
+    if n > s and e > w:
+      r = Region(n,s,e,w,'0')
+      return self._Search(r)
+    return None
 
 
   def SnapPoint(self, lon, lat, maxdepth):
@@ -238,6 +240,8 @@ def RootRegion():
 def RootSnap(n,s,e,w):
   root = RootRegion()
   r = root.Snap(n,s,e,w)
+  if not r:
+    return None
   r.ResetQid('0')
   return r
 

@@ -152,6 +152,10 @@ class WhichChildTestCase(unittest.TestCase):
     assert ne.Qid() == '01'
     assert sw.Qid() == '02'
     assert se.Qid() == '03'
+
+class TestRootSnap(unittest.TestCase):
+  def runTest(self):
+    assert None == kml.region.RootSnap(0,0,0,0)
  
 
 def suite():
@@ -166,6 +170,7 @@ def suite():
   suite.addTest(ParentTestCase("testRoot"))
   suite.addTest(ParentTestCase("testDeeper"))
   suite.addTest(WhichChildTestCase())
+  suite.addTest(TestRootSnap())
   return suite
 
 runner = unittest.TextTestRunner()
