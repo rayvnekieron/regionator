@@ -226,6 +226,14 @@ class BasicRegionateTestCase(unittest.TestCase):
     assert 356 == files
     assert 0 == errors
 
+class PolygonFeatureSetTestCase(unittest.TestCase):
+  def setUp(self):
+    self.featureset = kml.featureset.FeatureSet()
+    kp = kml.kmlparse.KMLParse('polygons.kml')
+    for placemark_node in kp.Doc().getElementsByTagName('Placemark'):
+      self.featureset.AddFeature(placemark_node)
+  def testParse(self):
+    assert 13 == self.featureset.Size()
 
 
 def suite():
@@ -245,6 +253,7 @@ def suite():
   suite.addTest(LineStringFeatureSetTestCase("testSort"))
   suite.addTest(FeatureSetRegionatorTestCase("testKmlHierarchy"))
   suite.addTest(BasicRegionateTestCase("testRegionate"))
+  suite.addTest(PolygonFeatureSetTestCase("testParse"))
   return suite
 
 runner = unittest.TextTestRunner()
