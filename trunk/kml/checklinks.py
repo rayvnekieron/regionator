@@ -214,36 +214,42 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
 def ParseArgv(argv):
   return kml.kmlgetopt.Getopt(argv, 'kharvsce:u:')
 
-def CheckLinks(argv):
-  go = ParseArgv(argv)
-  kmlurl = go.Get('u')
-  if not kmlurl:
-    return -1
+def CheckKmlLinks(go):
   link_checking_node_handler = LinkCheckingNodeHandler(go)
   hier = kml.walk.KMLHierarchy()
   hier.SetNodeHandler(link_checking_node_handler)
   encoding = go.Get('e')
   if encoding:
     hier.SetEncoding(encoding)
-  if not hier.Walk(kmlurl):
+  if not hier.Walk(go.Get('u')):
     return -1 # kmlurl non-existent or failed parse
   link_checking_node_handler.PrintSummary()
   return link_checking_node_handler.Status()
 
+def CheckLinks(argv):
+  go = ParseArgv(argv)
+  kmlurl = go.Get('u')
+  if not kmlurl:
+    return -1
+  return CheckKmlLinks(go)
+
 def CheckCsvLinks(argv):
   """Check HTML links in CSV file
-  Gathers all unique links in <a href=""> and <img src=""> in
+  Checks all unique links in <a href=""> and <img src=""> in
   the last field of each line in the CSV file.
-  Links are fetched according to the -a (absolute) and -r (relative)
-  options.  
+  Args:
+    -a: fetch absolute links
+    -r: fetch relative links
+    -v: verbose output
+    -s: compute a checksum of fetched links
+    -s: print summary
+  Returns:
+    status: count of link fetch failures
   """
   go = ParseArgv(argv)
   csvfile = go.Get('u')
-  if not csvfile:
-    return -1
-  try:
-    file = open(csvfile, 'r')
-  except:
+  file = kml.href.OpenFileForRead(csvfile)
+  if not file:
     return -1
   parent_dir = os.path.dirname(csvfile)
   
@@ -254,13 +260,10 @@ def CheckCsvLinks(argv):
     last_item = tuple[-1]
     kml.walk.GetLinksInHtml(last_item, link_list)
 
-  print 'TOTAL',len(link_list)
-
   # Cull duplicates
   link_map = {}
   for link in link_list:
     link_map[link] = 1
-  print 'UNIQUE',len(link_map)
 
   # Fetch each unique link
   link_checking_node_handler = LinkCheckingNodeHandler(go)
