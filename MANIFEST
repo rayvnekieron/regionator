@@ -40,6 +40,7 @@ kml/model.py
 kml/resourcemap.py
 kml/modelator.py
 kml/checklinks.py
+kml/checkcsvlinks.py
 kml/gatherlinks.py
 kml/checkimages.py
 kml/icons.py
