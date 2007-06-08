@@ -160,11 +160,25 @@ def FetchUrl(url):
     except:
       return None
   else:
-    try:
-      f = open(url,'r')
-    except:
-      return None
-  return f.read()
+    f = OpenFileForRead(url)
+  if f:
+    return f.read()
+  return None
+
+
+def OpenFileForRead(filename):
+  """ Exception-safe file open for read
+  Args:
+    filename: local file name
+  Returns:
+    file: if open succeeded
+    None: if open failed
+  """
+  try:
+    f = open(filename, 'r')
+    return f
+  except:
+    return None
 
 
 def FetchUrlToTempFile(url):
