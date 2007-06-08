@@ -22,6 +22,7 @@ $Date$
 
 import getopt
 import md5
+import os
 import sys
 import time
 import kml.walk
@@ -137,7 +138,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__total_bytes += bytes
     self.__total_seconds += seconds
 
-  def _Fetch(self, parent, child):
+  def Fetch(self, parent, child):
     # Handle empty href and count this separately from errors.
     if not child:
       self._Print('EMP','[empty]',parent)
@@ -187,12 +188,14 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self._Print('ERR',child,parent)
       self.__error_count += 1
     
+  def FetchHtmlLinks(self, parent, links):
+    self.__html_link_count += len(links)
+    for link in links:
+      self.Fetch(parent, link)
 
   def _CheckHtml(self, parent, node):
     links = kml.walk.GetHtmlLinksInNode(node)
-    self.__html_link_count += len(links)
-    for link in links:
-      self._Fetch(parent, link)
+    self.FetchHtmlLinks(parent, links)
 
   # kml.walk.KMLNodeHandler:HandleNode()
   def HandleNode(self, href, node, llab, lod):
@@ -203,7 +206,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     for href_node in href_nodelist:
       self.__kml_link_count += 1
       child = kml.kmlparse.GetText(href_node)
-      self._Fetch(parent, child)
+      self.Fetch(parent, child)
     if self.__check_html:
       self._CheckHtml(parent, node)
 
@@ -224,6 +227,46 @@ def CheckLinks(argv):
     hier.SetEncoding(encoding)
   if not hier.Walk(kmlurl):
     return -1 # kmlurl non-existent or failed parse
+  link_checking_node_handler.PrintSummary()
+  return link_checking_node_handler.Status()
+
+def CheckCsvLinks(argv):
+  """Check HTML links in CSV file
+  Gathers all unique links in <a href=""> and <img src=""> in
+  the last field of each line in the CSV file.
+  Links are fetched according to the -a (absolute) and -r (relative)
+  options.  
+  """
+  go = ParseArgv(argv)
+  csvfile = go.Get('u')
+  if not csvfile:
+    return -1
+  try:
+    file = open(csvfile, 'r')
+  except:
+    return -1
+  parent_dir = os.path.dirname(csvfile)
+  
+  # Gather all the links
+  link_list = []
+  for csv_line in file:
+    tuple = csv_line.split('|')
+    last_item = tuple[-1]
+    kml.walk.GetLinksInHtml(last_item, link_list)
+
+  print 'TOTAL',len(link_list)
+
+  # Cull duplicates
+  link_map = {}
+  for link in link_list:
+    link_map[link] = 1
+  print 'UNIQUE',len(link_map)
+
+  # Fetch each unique link
+  link_checking_node_handler = LinkCheckingNodeHandler(go)
+  link_checking_node_handler.FetchHtmlLinks(parent_dir, link_map.keys())
+
+  # Report status
   link_checking_node_handler.PrintSummary()
   return link_checking_node_handler.Status()
 
