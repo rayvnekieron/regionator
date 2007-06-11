@@ -38,6 +38,7 @@ if len(sys.argv) < 2:
   print '   -c: compute checksum'
   print '   -v: verbose'
   print '   -s: print summary only'
+  print '   -n: do not actually fetch anything'
   print '   -e encoding: override xml encoding'
   print '   -u url.kml: KML file or hierarchy to check'
   sys.exit(1)

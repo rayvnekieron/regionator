@@ -43,6 +43,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self.__md5 = md5.new('')
     else:
       self.__md5 = None
+    self.__nofetch = go.Get('n')
 
     self.__node_count = 0
     self.__kml_link_count = 0
@@ -174,6 +175,10 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     url = kml.href.ComputeChildUrl(parent, child)
     self._Print('U  ',url)
 
+    # "checklinks.py -n ..."
+    if self.__nofetch:
+      return
+
     fetcher = kml.href.Fetcher(url)
     # If url is a foo.kmz/bar.ext this fetches foo.kmz
     data = fetcher.FetchData()
@@ -212,7 +217,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
 
 
 def ParseArgv(argv):
-  return kml.kmlgetopt.Getopt(argv, 'kharvsce:u:')
+  return kml.kmlgetopt.Getopt(argv, 'kharvsce:u:n')
 
 def CheckKmlLinks(go):
   link_checking_node_handler = LinkCheckingNodeHandler(go)
