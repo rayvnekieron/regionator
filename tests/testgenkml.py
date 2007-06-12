@@ -88,12 +88,17 @@ class SimpleLineStringTestCase(unittest.TestCase):
     ls_want = '\n'.join(linestring_kml) + '\n'
     assert ls_want == ls_got
 
+class Test8601(unittest.TestCase):
+  def runTest(self):
+    assert '1970-01-01T00:00:00Z' ==  kml.genkml.CreateISO8601(0)
+    assert '2007-06-12T20:17:36Z' ==  kml.genkml.CreateISO8601(1181679456)
 
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(RegionNetworkLinkTestCase())
   suite.addTest(DefaultRegionTestCase())
   suite.addTest(SimpleLineStringTestCase())
+  suite.addTest(Test8601())
   return suite
 
 runner = unittest.TextTestRunner()
