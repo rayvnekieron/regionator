@@ -27,6 +27,7 @@ Convenience functions to generate KML fragments.
 """
 
 import kml.genxml
+import time
 
 
 def Point(lon,lat,attrname=None,attrval=None):
@@ -727,4 +728,7 @@ class Coordinates:
     """
 
     return "".join(self.__coordinates)
- 
+
+
+def CreateISO8601(gm_seconds):
+   return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(gm_seconds))
