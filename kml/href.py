@@ -347,6 +347,6 @@ def AreAllCharsGood(url):
   href.SetUrl(url)
   path = href.Path()
   for c in path:
-    if not good_chars.find(c):
+    if good_chars.find(c) == -1:
       return False
   return True
