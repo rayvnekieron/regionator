@@ -168,6 +168,11 @@ class BasicPrettyBPSTestCase(unittest.TestCase):
     assert '120.9K' == kml.href.PrettyBPS(123763.9087)
     assert '530.7' == kml.href.PrettyBPS(530.723)
 
+class GoodCharsTest(unittest.TestCase):
+  def runTest():
+    assert True == kml.href.AreAllCharsGood('/these/Are/g00d.txt')
+    assert False == kml.href.AreAllCharsGood('/this/has/a space.jpg')
+
 
 def suite():
   suite = unittest.TestSuite()
