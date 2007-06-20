@@ -60,6 +60,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__size_count = 0
     self.__total_bytes = 0
     self.__total_seconds = 0
+    self.__bad_char_links = 0
 
     self.__error_count = 0
 
@@ -99,6 +100,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self._Print('X  ','%d absolute links' % self.__absolute_link_count)
     self._Print('X  ','%d hostname links' % self.__hostname_only_link_count)
     self._Print('X  ','%d empty links' % self.__empty_link_count)
+    self._Print('X  ','%d bad char links' % self.__bad_char_links)
     self._Print('X  ', '%d max' % self.__max_file_size)
     self._Print('X  ', self.__max_file_url)
     self._Print('X  ', '%d min' % self.__min_file_size)
@@ -174,6 +176,11 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     # Compute the absolute URL and try to fetch it.
     url = kml.href.ComputeChildUrl(parent, child)
     self._Print('U  ',url)
+
+    if not kml.href.AreAllCharsGood(url):
+      self._Print('B  ',url)
+      self.__bad_char_links += 1
+      self.__error_count += 1
 
     # "checklinks.py -n ..."
     if self.__nofetch:
