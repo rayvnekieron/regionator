@@ -337,3 +337,16 @@ def PrettyBPS(bits_per_second):
      return '%.1fK' % (bits_per_second/1024)
    return '%.1f' % bits_per_second
 
+def AreAllCharsGood(url):
+  good_chars = "0123456789" \
+               "abcdefghijklmnopqrstuvwxyz" \
+               "ABCDEFGHIJKLMNOPQRSTUVWXYZ" \
+               "-_." \
+               "/"
+  href = Href()
+  href.SetUrl(url)
+  path = href.Path()
+  for c in path:
+    if not good_chars.find(c):
+      return False
+  return True
