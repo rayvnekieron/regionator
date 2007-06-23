@@ -27,6 +27,7 @@ Convenience functions to generate KML fragments.
 """
 
 import kml.genxml
+import os
 import time
 
 
@@ -732,3 +733,13 @@ class Coordinates:
 
 def CreateISO8601(gm_seconds):
    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(gm_seconds))
+
+def CreateNetworkLinksToTree(dir):
+  """ """
+  folder = kml.genxml.Folder()
+  for root,dirs,files in os.walk(dir):
+    for file in files:
+      if file.endswith('.kmz') or file.endswith('.kml'):
+        href = '%s/%s' % (root,file)
+        folder.Add_Feature(NetworkLink(href))
+  return folder.xml()
