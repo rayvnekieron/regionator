@@ -108,6 +108,36 @@ class GetLinksInKmlNodeTestCase(unittest.TestCase):
     assert 'http://sketchup.google.com/3dwarehouse?hl=es' == link_list[0]
     assert './../3dwh-logo_es.gif' == link_list[6]
 
+class DepthLimitedTestCase(unittest.TestCase):
+  def setUp(self):
+    self.node_counter = NodeCounter()
+    self.hierarchy = kml.walk.KMLHierarchy()
+    self.hierarchy.SetNodeHandler(self.node_counter)
+  def testMax0(self):
+    # generated in testpm2.py from placemarks.kml
+    assert True == self.hierarchy.Walk('pm2root.kml', maxdepth=0)
+    assert 0 == self.node_counter.GetCount(),'depth 0 walk failed'
+  def testMax1(self):
+    # generated in testpm2.py from placemarks.kml
+    assert True == self.hierarchy.Walk('pm2root.kml', maxdepth=1)
+    assert 1 == self.node_counter.GetCount(),'depth 1 walk failed'
+  def testMax2(self):
+    # generated in testpm2.py from placemarks.kml
+    assert True == self.hierarchy.Walk('pm2root.kml', maxdepth=2)
+    assert 2 == self.node_counter.GetCount(),'depth 2 walk failed'
+  def testMax3(self):
+    # generated in testpm2.py from placemarks.kml
+    assert True == self.hierarchy.Walk('pm2root.kml', maxdepth=3)
+    assert 4 == self.node_counter.GetCount(),'depth 3 walk failed'
+  def testMax4(self):
+    # generated in testpm2.py from placemarks.kml
+    assert True == self.hierarchy.Walk('pm2root.kml', maxdepth=4)
+    assert 10 == self.node_counter.GetCount(),'depth 4 walk failed'
+  def testMaxAll(self):
+    # generated in testpm2.py from placemarks.kml
+    assert True == self.hierarchy.Walk('pm2root.kml', maxdepth=-1)
+    assert 33 == self.node_counter.GetCount(),'full walk failed'
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -122,6 +152,12 @@ def suite():
   suite.addTest(GetHtmlLinksTestCase("testGetHrefAndSrc"))
   suite.addTest(GetHtmlLinksTestCase("testGetLinksInHtml"))
   suite.addTest(GetLinksInKmlNodeTestCase())
+  suite.addTest(DepthLimitedTestCase("testMax0"))
+  suite.addTest(DepthLimitedTestCase("testMax1"))
+  suite.addTest(DepthLimitedTestCase("testMax2"))
+  suite.addTest(DepthLimitedTestCase("testMax3"))
+  suite.addTest(DepthLimitedTestCase("testMax4"))
+  suite.addTest(DepthLimitedTestCase("testMaxAll"))
   return suite
 
 runner = unittest.TextTestRunner()
