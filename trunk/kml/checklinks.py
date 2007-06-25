@@ -224,7 +224,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
 
 
 def ParseArgv(argv):
-  return kml.kmlgetopt.Getopt(argv, 'kharvsce:u:n')
+  return kml.kmlgetopt.Getopt(argv, 'kharvsce:u:nd:')
 
 def CheckKmlLinks(go):
   link_checking_node_handler = LinkCheckingNodeHandler(go)
@@ -233,7 +233,10 @@ def CheckKmlLinks(go):
   encoding = go.Get('e')
   if encoding:
     hier.SetEncoding(encoding)
-  if not hier.Walk(go.Get('u')):
+  maxdepth = go.Get('d')
+  if not maxdepth:
+    maxdepth = -1
+  if not hier.Walk(go.Get('u'), maxdepth=int(maxdepth)):
     return -1 # kmlurl non-existent or failed parse
   link_checking_node_handler.PrintSummary()
   return link_checking_node_handler.Status()

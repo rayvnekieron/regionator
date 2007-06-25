@@ -25,12 +25,13 @@ $Date$
 
 # Check all link targets in a KML file/hierarchy.
 
+import os
 import sys
 import kml.checklinks
 
 if len(sys.argv) < 2:
-  print 'usage: %s [-k] [-h] [-a] [-r] [-v] [-s] [-c] [-e encoding] -u url.kml' \
-                                                                  % sys.argv[0]
+  print 'usage: %s [-k] [-h] [-a] [-r] [-v] [-s] [-c] [-d depth] [-e encoding] -u url.kml' \
+                                              % os.path.basename(sys.argv[0])
   print '   -k: check KML hrefs'
   print '   -h: check HTML hrefs'
   print '   -a: check absolute URLs'
@@ -39,6 +40,7 @@ if len(sys.argv) < 2:
   print '   -v: verbose'
   print '   -s: print summary only'
   print '   -n: do not actually fetch anything'
+  print '   -d maxdepth: limit hierarchy walk'
   print '   -e encoding: override xml encoding'
   print '   -u url.kml: KML file or hierarchy to check'
   sys.exit(1)
