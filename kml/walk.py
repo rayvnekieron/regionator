@@ -20,7 +20,9 @@ $Revision$
 $Date$
 """
 
+import os
 import xml.dom.minidom
+import kml.genkml
 import kml.href
 import kml.kmlparse
 
@@ -92,15 +94,15 @@ class KMLHierarchy:
         child_url = kml.href.ComputeChildUrl(kmlfile, styleurl)
         self.Walk(child_url, None, None)
 
-  def _WalkNetworkLinks(self, kmlfile, doc):
+  def _WalkNetworkLinks(self, kmlfile, doc, maxdepth):
     networklink_nodelist = doc.getElementsByTagName('NetworkLink')
     for networklink_node in networklink_nodelist:
       (llab,lod) = kml.kmlparse.ParseFeatureRegion(networklink_node)
       child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
       child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
-      self.Walk(child_url, llab, lod)
+      self.Walk(child_url, llab, lod, maxdepth)
 
-  def Walk(self, kmlfile, llab=None, lod=None):
+  def Walk(self, kmlfile, llab=None, lod=None, maxdepth=-1):
     """
     NOTE: Errors with child links are not propagated to the return value.
     Args:
@@ -111,6 +113,13 @@ class KMLHierarchy:
       True: kmlfile and exists and parses
       False: kmlfile does not exist or fails to parse
     """
+    if maxdepth == 0:
+      return True
+    if maxdepth == -1:
+      nmaxdepth = -1
+    else:
+      nmaxdepth = maxdepth - 1
+
     if self.__verbose:
       print kmlfile
 
@@ -128,7 +137,7 @@ class KMLHierarchy:
 
     self.__node_handler.HandleNode(href, doc, llab, lod)
 
-    self._WalkNetworkLinks(kmlfile, doc)
+    self._WalkNetworkLinks(kmlfile, doc, nmaxdepth)
 
     if self.__walk_style_urls:
       self._WalkStyleUrls(kmlfile, doc)
