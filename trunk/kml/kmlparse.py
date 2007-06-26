@@ -669,6 +669,22 @@ def Decode(data, codec):
     return None
 
 
+def ParseStringUsingCodec(data, encoding):
+  """Parse overriding encoding
+  Args:
+    data: kml
+    encoding: alternate encoding, or None to use xml header encoding
+  Returns:
+    doc: xml.dom.minidom node
+  """
+  if not data:
+    return None
+  (xml_header, xml_data) = kml.kmlparse.SplitXmlHeaderFromData(data)
+  kp = kml.kmlparse.KMLParse(None)
+  kp.ParseStringUsingCodec(xml_data, encoding)
+  return kp.Doc()
+
+
 def ParseUsingCodec(kmlfile, encoding):
   """Parse overriding encoding
   Args:
@@ -677,14 +693,8 @@ def ParseUsingCodec(kmlfile, encoding):
   Returns:
     doc: xml.dom.minidom node
   """
-  if encoding:
-    data = kml.href.FetchUrl(kmlfile)
-    (xml_header, xml_data) = kml.kmlparse.SplitXmlHeaderFromData(data)
-    kp = kml.kmlparse.KMLParse(None)
-    kp.ParseStringUsingCodec(xml_data, encoding)
-  else:
-    kp = kml.kmlparse.KMLParse(kmlfile)
-  return kp.Doc()
+  return ParseStringUsingCodec(kml.href.FetchUrl(kmlfile), encoding)
+
 
 
 def ParsePointLoc(placemark_node):
