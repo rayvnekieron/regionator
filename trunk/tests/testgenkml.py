@@ -27,6 +27,7 @@ import unittest
 
 import kml.genkml
 import kml.kmlparse
+import xml.dom.minidom
 
 
 class DefaultRegionTestCase(unittest.TestCase):
@@ -98,18 +99,20 @@ class TestCreateNetworkLinksToTree(unittest.TestCase):
   def runTest(self):
     dir = 'dir'
     docxml = kml.genkml.CreateNetworkLinksToTree(dir)
-    kp = kml.kmlparse.KMLParse(None)
-    kp.ParseString(docxml)
+    doc = xml.dom.minidom.parseString(docxml)
     href_map = {}
-    for nl in kp.Doc().getElementsByTagName('NetworkLink'):
+    for nl in doc.getElementsByTagName('NetworkLink'):
       href = kml.kmlparse.GetNetworkLinkHref(nl)
+      assert os.access(href, os.R_OK)
+      assert not href_map.has_key(href)
       href_map[href] = 1
     for root, dirs, files in os.walk(dir):
       for file in files:
-        # XXX file not quite on windows (this / okay)
-        key = '%s/%s' % (root, file)
-        assert href_map[key] == 1
-        href_map[key] = 2
+        if file.endswith('.kml') or file.endswith('.kmz'):
+          # XXX file not quite on windows (this / okay)
+          key = '%s/%s' % (root, file)
+          assert href_map[key] == 1
+          href_map[key] = 2
     for key in href_map.keys():
       assert href_map[key] == 2
       
