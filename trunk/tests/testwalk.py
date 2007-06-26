@@ -138,6 +138,18 @@ class DepthLimitedTestCase(unittest.TestCase):
     assert True == self.hierarchy.Walk('pm2root.kml', maxdepth=-1)
     assert 33 == self.node_counter.GetCount(),'full walk failed'
 
+class TestGetNetworkLinksFromTar(unittest.TestCase):
+  def runTest(self):
+    kml_folder = kml.walk.GetNetworkLinksFromTar('dir.tgz', None)
+    doc = xml.dom.minidom.parseString(kml_folder)
+    href_map = {}
+    for networklink_node in doc.getElementsByTagName('NetworkLink'):
+      child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
+      href_map[child_href] = 1
+    assert 2 == len(href_map)
+    assert 1 == href_map['http://goo.com/foo.kml']
+    assert 1 == href_map['http://www.www.net/cool-stuff.kmz']
+ 
 
 def suite():
   suite = unittest.TestSuite()
@@ -158,6 +170,7 @@ def suite():
   suite.addTest(DepthLimitedTestCase("testMax3"))
   suite.addTest(DepthLimitedTestCase("testMax4"))
   suite.addTest(DepthLimitedTestCase("testMaxAll"))
+  suite.addTest(TestGetNetworkLinksFromTar())
   return suite
 
 runner = unittest.TextTestRunner()

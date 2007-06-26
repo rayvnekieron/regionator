@@ -1,5 +1,10 @@
 <kml>
 <Document>
 <name>a</name>
+<NetworkLink>
+<Url>
+<href>http://goo.com/foo.kml</href>
+</Url>
+</NetworkLink>
 </Document>
 </kml>

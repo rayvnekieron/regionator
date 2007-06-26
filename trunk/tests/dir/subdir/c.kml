@@ -1,5 +1,10 @@
 <kml>
 <Document>
 <name>c</name>
+<NetworkLink>
+<Link>
+<href>http://www.www.net/cool-stuff.kmz</href>
+</Link>
+</NetworkLink>
 </Document>
 </kml>

@@ -21,6 +21,7 @@ $Date$
 """
 
 import os
+import tarfile
 import xml.dom.minidom
 import kml.genkml
 import kml.href
@@ -178,4 +179,24 @@ def GetHtmlLinksInNode(kml_node):
   return link_list
   
 
+def GetNetworkLinksFromTar(tarfilepath, encoding):
+  """ Create a Folder of NetworkLinks in KML in the tarfile """
+  folder = kml.genxml.Folder()
+  folder.name = tarfilepath
+  tf = tarfile.open(tarfilepath)
+  for ti in tf:
+    if ti.isfile():
+      name = ti.name
+      # TODO: KMZ: extract kml file
+      if name.endswith('.kml'):
+        flo = tf.extractfile(ti)
+        doc = kml.kmlparse.ParseStringUsingCodec(flo.read(), 'latin1')
+        sub_folder = kml.genxml.Folder()
+        sub_folder.name = name
+        networklink_nodelist = doc.getElementsByTagName('NetworkLink')
+        for networklink_node in networklink_nodelist:
+          child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
+          sub_folder.Add_Feature(kml.genkml.NetworkLink(child_href))
+        folder.Add_Feature(sub_folder.xml())
+  return folder.xml()
 
