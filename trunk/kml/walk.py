@@ -125,8 +125,12 @@ class KMLHierarchy:
 
     href = kml.href.Href()
     href.SetUrl(kmlfile)
-
-    doc = kml.kmlparse.ParseUsingCodec(kmlfile, self.__encoding)
+    if os.path.isdir(kmlfile):
+      kmldata = kml.genkml.CreateNetworkLinksToTree(kmlfile)
+    else:
+      kmldata = kml.href.FetchUrl(href.Href())
+    
+    doc = kml.kmlparse.ParseStringUsingCodec(kmldata, self.__encoding)
     if not doc:
       if self.__verbose:
         print kmlfile,'load or parse error'
