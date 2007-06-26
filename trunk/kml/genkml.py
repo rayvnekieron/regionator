@@ -732,14 +732,27 @@ class Coordinates:
 
 
 def CreateISO8601(gm_seconds):
-   return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(gm_seconds))
+  """ Create an ISO-8601 format string
+  Args:
+    gm_seconds: seconds in UTC (GMT)
+  Returns:
+    string: YYYY-MM-DDTHH:MM:SSZ
+  """
+  return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(gm_seconds))
 
 def CreateNetworkLinksToTree(dir):
-  """ """
+  """ Create a Folder of NetworkLinks to .kml/.kmz files in dir
+  Each NetworkLink/Link/href will be dir/file.km[lz]
+  Args:
+    dir: dirname
+  Returns:
+    kml: '<Folder><NetworkLink>...</NetworkLink>...</Folder>'
+  """
   folder = kml.genxml.Folder()
   for root,dirs,files in os.walk(dir):
     for file in files:
       if file.endswith('.kmz') or file.endswith('.kml'):
+        # XXX on windows each \ in file must be changed to /
         href = '%s/%s' % (root,file)
         folder.Add_Feature(NetworkLink(href))
   return folder.xml()
