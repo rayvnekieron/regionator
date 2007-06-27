@@ -24,6 +24,7 @@ $Date$
 
 import unittest
 
+import os
 import sys
 import xml.dom.minidom
 import kml.walk
@@ -150,6 +151,26 @@ class TestGetNetworkLinksFromTar(unittest.TestCase):
     assert 1 == href_map['http://goo.com/foo.kml']
     assert 1 == href_map['http://www.www.net/cool-stuff.kmz']
  
+class TestGetNetworkLinksFromTree(unittest.TestCase):
+  def runTest(self):
+    dir = 'dir'
+    docxml = kml.walk.GetNetworkLinksFromTree(dir)
+    doc = xml.dom.minidom.parseString(docxml)
+    href_map = {}
+    for nl in doc.getElementsByTagName('NetworkLink'):
+      href = kml.kmlparse.GetNetworkLinkHref(nl)
+      assert os.access(href, os.R_OK)
+      assert not href_map.has_key(href)
+      href_map[href] = 1
+    for root, dirs, files in os.walk(dir):
+      for file in files:
+        if file.endswith('.kml') or file.endswith('.kmz'):
+          # XXX file not quite on windows (this / okay)
+          key = '%s/%s' % (root, file)
+          assert href_map[key] == 1
+          href_map[key] = 2
+    for key in href_map.keys():
+      assert href_map[key] == 2
 
 def suite():
   suite = unittest.TestSuite()
@@ -170,6 +191,7 @@ def suite():
   suite.addTest(DepthLimitedTestCase("testMax3"))
   suite.addTest(DepthLimitedTestCase("testMax4"))
   suite.addTest(DepthLimitedTestCase("testMaxAll"))
+  suite.addTest(TestGetNetworkLinksFromTree())
   suite.addTest(TestGetNetworkLinksFromTar())
   return suite
 
