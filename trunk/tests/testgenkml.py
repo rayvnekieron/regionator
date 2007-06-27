@@ -22,12 +22,10 @@ $Revision$
 $Date$
 """
 
-import os
 import unittest
 
 import kml.genkml
 import kml.kmlparse
-import xml.dom.minidom
 
 
 class DefaultRegionTestCase(unittest.TestCase):
@@ -95,27 +93,6 @@ class Test8601(unittest.TestCase):
     assert '1970-01-01T00:00:00Z' ==  kml.genkml.CreateISO8601(0)
     assert '2007-06-12T20:17:36Z' ==  kml.genkml.CreateISO8601(1181679456)
 
-class TestCreateNetworkLinksToTree(unittest.TestCase):
-  def runTest(self):
-    dir = 'dir'
-    docxml = kml.genkml.CreateNetworkLinksToTree(dir)
-    doc = xml.dom.minidom.parseString(docxml)
-    href_map = {}
-    for nl in doc.getElementsByTagName('NetworkLink'):
-      href = kml.kmlparse.GetNetworkLinkHref(nl)
-      assert os.access(href, os.R_OK)
-      assert not href_map.has_key(href)
-      href_map[href] = 1
-    for root, dirs, files in os.walk(dir):
-      for file in files:
-        if file.endswith('.kml') or file.endswith('.kmz'):
-          # XXX file not quite on windows (this / okay)
-          key = '%s/%s' % (root, file)
-          assert href_map[key] == 1
-          href_map[key] = 2
-    for key in href_map.keys():
-      assert href_map[key] == 2
-      
 
 def suite():
   suite = unittest.TestSuite()
@@ -123,7 +100,6 @@ def suite():
   suite.addTest(DefaultRegionTestCase())
   suite.addTest(SimpleLineStringTestCase())
   suite.addTest(Test8601())
-  suite.addTest(TestCreateNetworkLinksToTree())
   return suite
 
 runner = unittest.TextTestRunner()
