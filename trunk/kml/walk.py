@@ -127,7 +127,9 @@ class KMLHierarchy:
     href = kml.href.Href()
     href.SetUrl(kmlfile)
     if os.path.isdir(kmlfile):
-      kmldata = kml.genkml.CreateNetworkLinksToTree(kmlfile)
+      kmldata = GetNetworkLinksFromTree(kmlfile)
+    elif os.path.isfile(kmlfile) and kmlfile.endswith('.tgz'):
+      kmldata = GetNetworkLinksFromTar(kmlfile, self.__encoding)
     else:
       kmldata = kml.href.FetchUrl(href.Href())
     
@@ -178,6 +180,24 @@ def GetHtmlLinksInNode(kml_node):
     kml.walk.GetLinksInHtml(cdata, link_list)
   return link_list
   
+
+def GetNetworkLinksFromTree(dir):
+  """ Create a Folder of NetworkLinks to .kml/.kmz files in dir
+  Each NetworkLink/Link/href will be dir/file.km[lz]
+  Args:
+    dir: dirname
+  Returns:
+    kml: '<Folder><NetworkLink>...</NetworkLink>...</Folder>'
+  """
+  folder = kml.genxml.Folder()
+  for root,dirs,files in os.walk(dir):
+    for file in files:
+      if file.endswith('.kmz') or file.endswith('.kml'):
+        # XXX on windows each \ in file must be changed to /
+        href = '%s/%s' % (root,file)
+        folder.Add_Feature(kml.genkml.NetworkLink(href))
+  return folder.xml()
+
 
 def GetNetworkLinksFromTar(tarfilepath, encoding):
   """ Create a Folder of NetworkLinks in KML in the tarfile """
