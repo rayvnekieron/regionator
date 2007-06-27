@@ -44,6 +44,7 @@ if len(sys.argv) < 2:
   print '   -e encoding: override xml encoding'
   print '   -u url.kml: KML/KMZ file or hierarchy to check'
   print '   -u dir: root of directory hierarchy of KML/KMZ files'
+  print '   -u archive.tgz: a tar archive of KML/KMZ files'
   sys.exit(1)
 
 status = kml.checklinks.CheckLinks(sys.argv[1:])
