@@ -131,6 +131,14 @@ class KMLHierarchy:
       kmldata = GetNetworkLinksFromTree(kmlfile)
     elif os.path.isfile(kmlfile) and kmlfile.endswith('.tgz'):
       kmldata = GetNetworkLinksFromTar(kmlfile, self.__encoding)
+    elif kmlfile.endswith('.kmz'):
+      kmz = kml.kmz.Kmz(kmlfile)
+      if kmz:
+        kmldata = kmz.ReadKml()
+      else:
+        if self.__verbose:
+          print 'kmz failed:',kmlfile
+        return False
     else:
       kmldata = kml.href.FetchUrl(href.Href())
     
