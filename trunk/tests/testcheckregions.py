@@ -68,8 +68,9 @@ class BasicTestCase(unittest.TestCase):
 
 class BadRegionFileTestCase(unittest.TestCase):
   def runTest(self):
-    region_handler = kml.checkregions.CheckRegions('', 'badregions.kml')
-    assert 19 == region_handler.Status()
+    region_handler = kml.checkregions.CheckRegions([], 'badregions.kml')
+    print region_handler.Status()
+    assert 20 == region_handler.Status()
 
 def suite():
   suite = unittest.TestSuite()

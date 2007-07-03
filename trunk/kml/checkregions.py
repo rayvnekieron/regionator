@@ -58,87 +58,131 @@ class RegionCheckingNodeHandler(kml.walk.KMLNodeHandler):
 
 
   def CheckLatLonBoxSize(self, name, llb):
+    errors = 0
     if float(llb.north) - float(llb.south) < .0001:
       self._Print('ERR', name,'bbox too short',llb.north,llb.south)
-      self.__error_count += 1
+      errors += 1
     if float(llb.east) - float(llb.west) < .0001:
       self._Print('ERR', name,'bbox too narrow',llb.east,llb.west)
-      self.__error_count += 1
+      errors += 1
+    return errors
 
+
+  def CheckLatLonBoxFloats(self, name, llb):
+    errors = 0
+
+    try:
+      float(llb.north)
+    except:
+      self._Print('ERR', '%s: north float invalid' % name)
+      errors += 1
+
+    try:
+      float(llb.south)
+    except:
+      self._Print('ERR', '%s: south float invalid' % name)
+      errors += 1
+
+    try:
+      float(llb.east)
+    except:
+      self._Print('ERR', '%s: east float invalid' % name)
+      errors += 1
+
+    try:
+      float(llb.west)
+    except:
+      self._Print('ERR', '%s: west float invalid' % name)
+      errors += 1
+
+    return errors
 
   def CheckLatLonBox(self, name, llb):
+    errors = 0
     # These are _not_ the defaults
     # A common error is for 0 to be taken as "not set" (or None)
     if llb.north == None:
       self._Print('ERR', 'north not set')
-      self.__error_count += 1
+      errors += 1
       llb.north = 0
     if llb.south == None:
       self._Print('ERR', 'south not set')
-      self.__error_count += 1
+      errors += 1
       llb.south = 0
     if llb.east == None:
       self._Print('ERR', 'east not set')
-      self.__error_count += 1
+      errors += 1
       llb.east = 0
     if llb.west == None:
       self._Print('ERR', 'east not set')
-      self.__error_count += 1
+      errors += 1
       llb.west = 0
+
+    fatalities = self.CheckLatLonBoxFloats(name, llb)
+    if fatalities:
+      # If any float was invalid just bug out
+      return (errors, fatalities)
+      
     if float(llb.north) <= float(llb.south):
       self._Print('ERR', '%s: north not greater than south' % name)
-      self.__error_count += 1
+      errors += 1
     if float(llb.east) <= float(llb.west):
       self._Print('ERR', '%s: east not greater than west' % name)
-      self.__error_count += 1
+      errors += 1
+
+    return (errors, 0)
 
 
   def CheckLatLonAltBox(self, llab):
-    self.CheckLatLonBox('LatLonAltBox', llab)
+    (errors, fatalities) = self.CheckLatLonBox('LatLonAltBox', llab)
+    if not fatalities:
+      errors += self.CheckLatLonBoxSize('LatLonAltBox', llab)
     if llab.minAltitude and llab.maxAltitude:
       if float(llab.minAltitude) > float(llab.maxAltitude):
         self._Print('ERR', 'minAltitude less than maxAltitude')
-        self.__error_count += 1
-    self.CheckLatLonBoxSize('LatLonAltBox', llab)
+        errors += 1
+    return errors + fatalities
 
 
   def CheckLatLonBoxContains(self, parent_llb, child_llb):
     if parent_llb == None:
-      return
+      return 0
     # XXX deal with missing north, etc
     if (float(parent_llb.north) >= float(child_llb.north) and
         float(parent_llb.south) <= float(child_llb.south) and
         float(parent_llb.east) >= float(child_llb.east) and
         float(parent_llb.west) <= float(child_llb.west)):
-      return
+      return 0
     self._Print('ERR', 'child region not within parent')
-    self.__error_count += 1
+    return 1
 
 
   def CheckLod(self, lod):
+    errors = 0
     if lod.minLodPixels:
       if lod.minLodPixels < 0:
         self._Print('ERR', 'Lod bad minLodPixels',lod.minLodPixels)
-        self.__error_count += 1
+        errors += 1
 
     if lod.maxLodPixels:
       if lod.maxLodPixels < 1:
         self._Print('ERR', 'Lod bad maxLodPixels',lod.maxLodPixels)
-        self.__error_count += 1
+        errors += 1
   
     if lod.minLodPixels and lod.maxLodPixels:
       if float(lod.maxLodPixels) != -1 and \
          float(lod.minLodPixels) >= float(lod.maxLodPixels):
         self._Print('ERR', 'Lod: minLodPixels not less than maxLodPixels')
-        self.__error_count += 1
+        errors += 1
+    return errors
 
 
   def CheckRegion(self, region_node):
     (llab, lod) = kml.kmlparse.ParseRegion(region_node)
     self._Print('Region', llab.north, llab.south, llab.east, llab.west)
     self.__region_count += 1
-    self.CheckLatLonAltBox(llab)
-    self.CheckLod(lod)
+    self.__error_count += self.CheckLatLonAltBox(llab)
+    self.__error_count += self.CheckLod(lod)
 
 
   # kml.walk.KMLNodeHandler::HandleNode()
@@ -150,7 +194,7 @@ class RegionCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self.__region_count += 1
       self.CheckRegion(region)
       (llab, lod) = kml.kmlparse.ParseRegion(region)
-      self.CheckLatLonBoxContains(parent_llab, llab)
+      self.__error_count += self.CheckLatLonBoxContains(parent_llab, llab)
 
 
 def CheckRegions(opts, inputkml):
