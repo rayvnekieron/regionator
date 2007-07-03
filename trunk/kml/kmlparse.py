@@ -163,12 +163,13 @@ class KMLParse:
       self.__doc = None
 
 
-  def ParseStringUsingCodec(self, kml_data, codec):
+  def ParseStringUsingCodec(self, xml_data, codec):
     if codec:
+      (discard, kml_data) = kml.kmlparse.SplitXmlHeaderFromData(xml_data)
       xml_header = "<?xml version='1.0' encoding='%s'?>" % codec
       data = "".join([xml_header, kml_data])
     else:
-      data = kml_data
+      data = xml_data
     self.ParseString(data)
 
 
@@ -679,9 +680,8 @@ def ParseStringUsingCodec(data, encoding):
   """
   if not data:
     return None
-  (xml_header, xml_data) = kml.kmlparse.SplitXmlHeaderFromData(data)
   kp = kml.kmlparse.KMLParse(None)
-  kp.ParseStringUsingCodec(xml_data, encoding)
+  kp.ParseStringUsingCodec(data, encoding)
   return kp.Doc()
 
 
