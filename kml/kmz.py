@@ -114,6 +114,8 @@ class Kmz:
       None: no kml file found
     """
 
+    if not self.__zfd:
+      return None
     namelist = self.__zfd.namelist()
     for name in namelist:
       if name.endswith('.kml'):
