@@ -100,8 +100,9 @@ class KMLHierarchy:
     for networklink_node in networklink_nodelist:
       (llab,lod) = kml.kmlparse.ParseFeatureRegion(networklink_node)
       child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
-      child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
-      self.Walk(child_url, llab, lod, maxdepth)
+      if child_href:
+        child_url = kml.href.ComputeChildUrl(kmlfile, child_href)
+        self.Walk(child_url, llab, lod, maxdepth)
 
   def Walk(self, kmlfile, llab=None, lod=None, maxdepth=-1):
     """
@@ -216,7 +217,8 @@ def GetNetworkLinksFromTar(tarfilepath, encoding):
         networklink_nodelist = doc.getElementsByTagName('NetworkLink')
         for networklink_node in networklink_nodelist:
           child_href = kml.kmlparse.GetNetworkLinkHref(networklink_node)
-          sub_folder.Add_Feature(kml.genkml.NetworkLink(child_href))
+          if child_href:
+            sub_folder.Add_Feature(kml.genkml.NetworkLink(child_href))
         folder.Add_Feature(sub_folder.xml())
   return folder.xml()
 
