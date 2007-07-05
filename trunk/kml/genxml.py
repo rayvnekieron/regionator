@@ -1870,6 +1870,62 @@ class Scale(Object):
     return ComplexElement('Scale', al, None, el, None)
      
 
+class Alias(Object):
+  """<Alias>...</Alias>
+  """
+  def __init__(self):
+    Object.__init__(self)
+    self.__targetHref = None
+    self.__sourceHref = None
+
+  def Set_targetHref(self, targetHref):
+    self.__targetHref = targetHref
+
+  def Get_targetHref(self):
+    return self.__targetHref
+
+  def Set_sourceHref(self, sourceHref):
+    self.__sourceHref = sourceHref
+
+  def Get_sourceHref(self):
+    return self.__sourceHref
+
+  targetHref = property(fset=Set_targetHref, fget=Get_targetHref)
+  sourceHref = property(fset=Set_sourceHref, fget=Get_sourceHref)
+
+  def elements(self):
+    el = []
+    if self.__targetHref:
+      el.append(('targetHref',self.__targetHref))
+    if self.__sourceHref:
+      el.append(('sourceHref',self.__sourceHref))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Alias', al, None, el, None)
+
+
+class ResourceMap(Object):
+
+  """<ResourceMap>...</ResourceMap>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__AliasList = []
+
+  def Add_Alias(self, alias):
+    self.__AliasList.append(alias)
+
+  def xml(self):
+    children = []
+    for alias in self.__AliasList:
+      children.append(alias)
+    return ComplexElement('ResourceMap', None, None, None, "".join(children))
+
+
 class Model(Object):
 
   """<Model>...</Model>
@@ -1881,6 +1937,7 @@ class Model(Object):
     self.__Orientation = None
     self.__Scale = None
     self.__Link = None
+    self.__ResourceMap = None
 
   def Set_Location(self, Location):
     self.__Location = Location
@@ -1894,10 +1951,14 @@ class Model(Object):
   def Set_Link(self, Link):
     self.__Link = Link
 
+  def Set_ResourceMap(self, ResourceMap):
+    self.__ResourceMap = ResourceMap
+
   Location = property(fset=Set_Location)
   Orientation = property(fset=Set_Orientation)
   Scale = property(fset=Set_Scale)
   Link = property(fset=Set_Link)
+  ResourceMap = property(fset=Set_ResourceMap)
 
   def xml(self):
     al = self.attributes()
@@ -1910,4 +1971,7 @@ class Model(Object):
       children.append(self.__Scale)
     if self.__Link:
       children.append(self.__Link)
+    if self.__ResourceMap:
+      children.append(self.__ResourceMap)
+
     return ComplexElement('Model', al, None, None, "".join(children))
