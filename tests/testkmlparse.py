@@ -222,6 +222,11 @@ class GetNetworkLinkHrefTestCase(unittest.TestCase):
     href = kml.kmlparse.GetNetworkLinkHref(node)
     assert 'non-existent-file.kml' == href
 
+    doc = xml.dom.minidom.parse('hrefcdata.kml')
+    node = kml.kmlparse.GetFirstChildElement(doc, 'NetworkLink')
+    href = kml.kmlparse.GetNetworkLinkHref(node)
+    assert 'http://z2.abc.com/a2e/goo.kml' == href
+
 
 class ParseUsingCodecTestCase(unittest.TestCase):
   def runTest(self):
