@@ -27,6 +27,7 @@ Some utilities to parse and analyze KML
 """
 
 import xml.dom.minidom
+import xml.parsers.expat
 import zipfile
 import tempfile
 import os
@@ -55,6 +56,8 @@ def GetText(node):
   for child in node.childNodes:
     if child.nodeType == child.TEXT_NODE:
       text.append(child.data)
+    elif child.nodeType == child.CDATA_SECTION_NODE:
+      text.append(child.wholeText)
   return "".join(text).strip()
 
 def GetCDATA(node):
@@ -135,6 +138,9 @@ class KMLParse:
 
     try:
       self.__doc = xml.dom.minidom.parse(kmlfile)
+    except xml.parsers.expat.ExpatError, inst:
+      print inst
+      self.__doc = None
     except:
       print 'parse error'
       self.__doc = None
@@ -158,6 +164,9 @@ class KMLParse:
   def ParseString(self, kmlstring):
     try:
       self.__doc = xml.dom.minidom.parseString(kmlstring)
+    except xml.parsers.expat.ExpatError, inst:
+      print inst
+      self.__doc = None
     except:
       print 'parse error'
       self.__doc = None

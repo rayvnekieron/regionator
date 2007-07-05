@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<NetworkLink>
+<name><![CDATA[SomeRandomName]]></name>
+<open>0</open>
+<flyToView>1</flyToView>
+<Url>
+        <href><![CDATA[http://z2.abc.com/a2e/goo.kml]]></href>
+</Url>
+</NetworkLink>
+</kml>
+
