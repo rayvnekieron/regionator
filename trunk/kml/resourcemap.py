@@ -20,6 +20,8 @@ $Revision$
 $Date$
 """
 
+import kml.genxml
+
 
 class ResourceMapItem:
 
@@ -184,3 +186,13 @@ class ResourceMap:
     for rmi in self.__items:
       data.append('<%s>  <%s> <%s>\n' % rmi.Mapping())
     return "".join(data)
+
+  def Kml(self):
+    resourcemap = kml.genxml.ResourceMap()
+    for rmi in self.__items:
+      (geom_path, kmz_path, model_id) = rmi.Mapping()
+      alias = kml.genxml.Alias()
+      alias.targetHref = kmz_path
+      alias.sourceHref = geom_path
+      resourcemap.Add_Alias(alias.xml())
+    return resourcemap.xml()
