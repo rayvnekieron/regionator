@@ -280,6 +280,18 @@ class StyleUrlTestCase(unittest.TestCase):
     assert url == None
     assert id == None
 
+alias_xml = ['<Alias>',
+             '<targetHref>../textures/roofnoCulling.jpg</targetHref>',
+             '<sourceHref>../files/roofnoCulling.jpg</sourceHref>',
+             '</Alias>']
+
+class ParseAliasTestCase(unittest.TestCase):
+  def runTest(self):
+    alias_node = xml.dom.minidom.parseString("".join(alias_xml))
+    alias = kml.kmlparse.ParseAlias(alias_node)
+    assert '../textures/roofnoCulling.jpg' == alias.targetHref
+    assert '../files/roofnoCulling.jpg' == alias.sourceHref
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -306,6 +318,7 @@ def suite():
   suite.addTest(ParseUsingCodecTestCase())
   suite.addTest(ParsePointLocTestCase())
   suite.addTest(StyleUrlTestCase())
+  suite.addTest(ParseAliasTestCase())
   return suite
 
 

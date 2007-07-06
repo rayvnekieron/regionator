@@ -434,6 +434,13 @@ def ParseScale(scale_node):
     return scale
 
 
+def ParseAlias(alias_node):
+    alias = kml.genxml.Alias()
+    alias.targetHref = GetSimpleElementText(alias_node, 'targetHref')
+    alias.sourceHref = GetSimpleElementText(alias_node, 'sourceHref')
+    return alias
+
+
 def ParseGroundOverlay(go_node):
     groundoverlay = kml.genxml.GroundOverlay()
     groundoverlay.drawOrder = GetSimpleElementText(go_node, 'drawOrder')
