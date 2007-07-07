@@ -60,6 +60,11 @@ class ResourceMapItem:
       self.__model_id = item[2].strip().strip('<').strip()
     return True
 
+  def ParseAliasNode(self, alias_node):
+    alias = kml.kmlparse.ParseAlias(alias_node)
+    self.__geom_path = alias.sourceHref
+    self.__kmz_path = alias.targetHref
+    return True
 
   def Mapping(self):
 
@@ -112,6 +117,15 @@ class ResourceMap:
     for line in textures_txt_data.split('\n'):
       item = ResourceMapItem()
       if item.ParseTexturesTxtLine(line):
+        self.__items.append(item)
+        (geom_path, kmz_path, model_id) = item.Mapping()
+        self.__geom_map[geom_path] = item
+        self.__kmz_map[kmz_path] = item
+
+  def ParseResourceMapNode(self, resourcemap_node):
+    for alias_node in resourcemap_node.getElementsByTagName('Alias'):
+      item = ResourceMapItem()
+      if item.ParseAliasNode(alias_node):
         self.__items.append(item)
         (geom_path, kmz_path, model_id) = item.Mapping()
         self.__geom_map[geom_path] = item
@@ -196,3 +210,13 @@ class ResourceMap:
       alias.sourceHref = geom_path
       resourcemap.Add_Alias(alias.xml())
     return resourcemap.xml()
+
+
+def ConvertTexturesTxt(texturestxt):
+  """ Return <ResourceMap> for the given textures.txt file """
+  rm = kml.resourcemap.ResourceMap()
+  f = open(tt, 'r')
+  rm.ParseTexturesTxt(f.read())
+  f.close()
+  return rm.Kml()
+

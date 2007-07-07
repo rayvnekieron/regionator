@@ -27,6 +27,7 @@ import kml.kmlparse
 import kml.coordbox
 import kml.kmz
 import kml.featureset
+import kml.resourcemap
 
 
 class Model:
@@ -48,6 +49,7 @@ class Model:
     self.__orientation = None
     self.__scale = None
     self.__link = None
+    self.__resourcemap = None
 
 
   def SetName(self, name):
@@ -68,6 +70,9 @@ class Model:
     kp = kml.kmlparse.KMLParse(kmzfile)
     if not self.ParseNode(kml.kmlparse.GetFirstChildElement(kp.Doc(), 'Model')):
       return False
+    # If Model had no ResourceMap look for the mappings in 'textures.txt'
+    if not self.__resourcemap:
+      self.__resourcemap = ParseTexturesTxt(kmzfile)
     self.__kmzfile = kmzfile
     return True
 
@@ -97,23 +102,36 @@ class Model:
     self.__orientation = kml.kmlparse.ParseOrientation(orientation_node)
     self.__scale = kml.kmlparse.ParseScale(scale_node)
     self.__link = kml.kmlparse.ParseLink(link_node)
-
+    resource_node_list = model_node.getElementsByTagName('ResourceMap')
+    if resource_node_list:
+      self.__resourcemap = kml.resourcemap.ResourceMap()
+      # XXX what if there really are N?
+      self.__resourcemap.ParseResourceMapNode(resource_node_list[0])
+          
     return True
 
   def Get_altitudeMode(self):
     return self.__altitudeMode
 
   def Get_Location(self):
+    """ kml.genxml.Location() """
     return self.__location
   
   def Get_Orientation(self):
+    """ kml.genxml.Orientation() """
     return self.__orientation
   
   def Get_Scale(self):
+    """ kml.genxml.Scale() """
     return self.__scale
   
   def Get_Link(self):
+    """ kml.genxml.Link() """
     return self.__link
+
+  def Get_ResourceMap(self):
+    """ kml.resourcemap.ResourceMap() """
+    return self.__resourcemap
   
   altitudeMode = property(fget=Get_altitudeMode)
   Location = property(fget=Get_Location)
@@ -180,6 +198,17 @@ class Model:
       return None
     return self.ReadFileData(self.__link.href)
     
+
+def ParseTexturesTxt(kmzfile):
+  kmz = kml.kmz.Kmz(kmzfile)
+  if kmz:
+    textures_txt_data = kmz.Read('textures.txt')
+    if textures_txt_data:
+      resourcemap = kml.resourcemap.ResourceMap()
+      resourcemap.ParseTexturesTxt(textures_txt_data)
+      return resourcemap
+  return None
+
 
 class ModelSet:
 
