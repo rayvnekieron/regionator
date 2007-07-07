@@ -82,6 +82,15 @@ class SimpleKmzTestCase(unittest.TestCase):
   def testTexturesTxtSize(self):
     textures_txt = self.__model.ReadFileData('textures.txt')
     assert len(textures_txt) == 180,'model textures.txt size bad'
+  def textResourceMapIter(self):
+    resource_map = self.__model.Get_ResourceMap()
+    assert 3 == resource_map.Size()
+    rmi_list = []
+    for rmi in resource_map:
+      rmi_list.append(rmi.Mapping())
+    assert '../images/Building3.JPG' == rmi_list[0][1]
+    assert '../images/GAF_Country_Estates.jpg' == rmi_list[1][1]
+    assert '../images/GAF_Marquis.jpg' == rmi_list[2][1]
 
 
 class SimpleParseNodeTestCase(unittest.TestCase):
@@ -97,11 +106,12 @@ class SimpleParseNodeTestCase(unittest.TestCase):
     assert model.altitudeMode == 'absolute'
 
 
-class NullParseNodeTestCase(unittest.TestCase):
+class ParseResourceMapTestCase(unittest.TestCase):
   def runTest(self):
+    kp = kml.kmlparse.KMLParse('model-resourcemap.kml')
+    model_nodelist = kp.Doc().getElementsByTagName('Model')
     model = kml.model.Model()
-    status = model.ParseNode(None)
-    assert status == False, 'KMLParse failed on null node'
+    assert True == model.ParseNode(model_nodelist[0])
 
 
 def suite():
@@ -114,24 +124,9 @@ def suite():
   suite.addTest(SimpleKmzTestCase("testKmzSize"))
   suite.addTest(SimpleKmzTestCase("testGeometrySize"))
   suite.addTest(SimpleKmzTestCase("testTexturesTxtSize"))
+  suite.addTest(SimpleKmzTestCase("textResourceMapIter"))
   suite.addTest(SimpleParseNodeTestCase())
-  suite.addTest(NullParseNodeTestCase())
-  return suite
-
-runner = unittest.TextTestRunner()
-
-
-def suite():
-  suite = unittest.TestSuite()
-  suite.addTest(SimpleModelTestCase())
-  suite.addTest(SimpleModelSetTestCase("testLocations"))
-  suite.addTest(SimpleModelSetTestCase("testGetModel"))
-  suite.addTest(SimpleModelSetTestCase("testIterate"))
-  suite.addTest(ModelSetBBOXTestCase())
-  suite.addTest(SimpleKmzTestCase("testKmzSize"))
-  suite.addTest(SimpleKmzTestCase("testGeometrySize"))
-  suite.addTest(SimpleKmzTestCase("testTexturesTxtSize"))
-  suite.addTest(SimpleParseNodeTestCase())
+  suite.addTest(ParseResourceMapTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
