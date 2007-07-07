@@ -80,3 +80,4 @@
 ./testsuperoverlay.py
 ./testicons.py
 ./testkmlgetopt.py
+./testbbox.py
