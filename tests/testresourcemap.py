@@ -26,6 +26,7 @@ import unittest
 
 import kml.model
 import kml.resourcemap
+import xml.dom.minidom
 
 
 class SimpleResourceMapItemTestCase(unittest.TestCase):
@@ -107,6 +108,25 @@ class ResourceMapAddTestCase(unittest.TestCase):
     want_tt[1] = '<gpath1>  <kpath1> <mid1>'
     assert got_tt == "\n".join(want_tt), 'resource map serialize failed'
 
+class TestConvertTexturesTxt(unittest.TestCase):
+  def runTest(self):
+    rmap_kml = kml.resourcemap.ConvertTexturesTxt('textures.txt')
+    rmap_node = xml.dom.minidom.parseString(rmap_kml)
+    alias_nodelist = rmap_node.getElementsByTagName('Alias')
+    targethref_nodelist = rmap_node.getElementsByTagName('targetHref')
+    sourcehref_nodelist = rmap_node.getElementsByTagName('sourceHref')
+    assert 66 == len(alias_nodelist) == len(sourcehref_nodelist) == \
+                 len(targethref_nodelist)
+    assert '../kmz/east-face-10noCulling.jpg' == \
+           kml.kmlparse.GetSimpleElementText(alias_nodelist[0], 'targetHref')
+    assert '../geom/east-face-10noCulling.jpg' == \
+           kml.kmlparse.GetSimpleElementText(alias_nodelist[0], 'sourceHref')
+    assert '../kmz/west-face-9noCulling.jpg' == \
+           kml.kmlparse.GetSimpleElementText(alias_nodelist[65], 'targetHref')
+    assert '../geom/west-face-9noCulling.jpg' == \
+           kml.kmlparse.GetSimpleElementText(alias_nodelist[65], 'sourceHref')
+
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -119,6 +139,7 @@ def suite():
   suite.addTest(TexturesTxtTestCase("testGeomLookup"))
   suite.addTest(TexturesTxtTestCase("testKmzLookup"))
   suite.addTest(TexturesTxtTestCase("testLookupAll"))
+  suite.addTest(TestConvertTexturesTxt())
   return suite
 
 

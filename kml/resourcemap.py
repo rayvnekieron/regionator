@@ -215,7 +215,7 @@ class ResourceMap:
 def ConvertTexturesTxt(texturestxt):
   """ Return <ResourceMap> for the given textures.txt file """
   rm = kml.resourcemap.ResourceMap()
-  f = open(tt, 'r')
+  f = open(texturestxt, 'r')
   rm.ParseTexturesTxt(f.read())
   f.close()
   return rm.Kml()
