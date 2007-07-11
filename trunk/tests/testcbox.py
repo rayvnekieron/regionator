@@ -60,11 +60,18 @@ class SizeTestCase(unittest.TestCase):
     size = c2.Size()
     assert size == 10, 'size wrong'
 
+class BasicMidPointTest(unittest.TestCase):
+  def runTest(self):
+    (lon,lat) = kml.coordbox.MidPoint(20,10,40,20)
+    assert 15 == lat
+    assert 30 == lon
+    
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(MidPointTestCase())
   suite.addTest(NSEWTestCase())
   suite.addTest(SizeTestCase())
+  suite.addTest(BasicMidPointTest())
   return suite
 
 runner = unittest.TextTestRunner()

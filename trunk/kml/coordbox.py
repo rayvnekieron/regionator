@@ -98,10 +98,8 @@ class CoordBox:
       (lon,lat)
 
     """
+    return MidPoint(self._n,self._s,self._e,self._w)
 
-    lon = (self._e + self._w)/2
-    lat = (self._n + self._s)/2
-    return (lon,lat)
 
   def NSEW(self):
 
@@ -136,3 +134,8 @@ class CoordBox:
     ht = self._e - self._w
     return math.sqrt(wid * ht)
 
+
+def MidPoint(n,s,e,w):
+  lon = (e + w)/2
+  lat = (n + s)/2
+  return (lon,lat)
