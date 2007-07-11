@@ -69,22 +69,17 @@ def GetPlacemarkBBOX(placemark):
   Returns:
     (n,s,e,w):
   """
-  polygon = kml.kmlparse.GetFirstChildElement(placemark, 'Polygon')
-  if polygon:
-    return GetPolygonBBOX(polygon)
-  linestring = kml.kmlparse.GetFirstChildElement(placemark, 'LineString')
-  if linestring:
-    return GetCoordinatesBBOX(linestring)
-  linearring = kml.kmlparse.GetFirstChildElement(placemark, 'LinearRing')
-  if linearring:
-    return GetCoordinatesBBOX(linearring)
-  point = kml.kmlparse.GetFirstChildElement(placemark, 'Point')
-  if point:
-    return GetPointBBOX(point)
-  model = kml.kmlparse.GetFirstChildElement(placemark, 'Model')
-  if model:
+  geom_node = kml.kmlparse.GetPlacemarkGeometry(placemark)
+  if not geom_node:
+    return None
+  if geom_node.tagName == 'Polygon':
+    return GetPolygonBBOX(geom_node)
+  if geom_node.tagName == 'LineString' or geom_node.tagName == 'LinearRing':
+    return GetCoordinatesBBOX(geom_node)
+  if geom_node.tagName == 'Point':
+    return GetPointBBOX(geom_node)
+  if geom_node.tagName == 'Model':
     return GetModelBBOX(model)
-  multigeometry = kml.kmlparse.GetFirstChildElement(placemark, 'MultiGeometry')
-  if multigeometry:
-    return GetMultiGeometryBBOX(multigeometry)
+  if geom_node.tagName == 'MultiGeometry':
+    return GetMultiGeometryBBOX(geom_node)
   return None
