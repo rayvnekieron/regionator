@@ -22,9 +22,11 @@ $Date$
 
 import kml.coordbox
 import kml.coordinates
+import kml.kmlparse
 import kml.region
 import kml.regionator
 import kml.regionhandler
+import xml.dom.minidom
 
 
 class FeatureSet(object):
@@ -134,7 +136,7 @@ class FeatureSet(object):
       return True
     return False
 
-  def AddLineString(self, placemark_dom_node):
+  def AddLine(self, placemark_dom_node, tagname):
     """ Add the Placemark/Linestring to the FeatureSet
 
     The Placemark represented by the minidom node placemark_dom_node
@@ -151,10 +153,9 @@ class FeatureSet(object):
       True: Placemark and LineString valid and added
       False: invalid LineString Placemark not added
     """
-    ls_node = kml.kmlparse.GetFirstChildElement(placemark_dom_node,
-                                                'LineString')
-    if ls_node:
-      return self._AddCoordinatesFeature(ls_node, placemark_dom_node)
+    line_node = kml.kmlparse.GetFirstChildElement(placemark_dom_node, tagname)
+    if line_node:
+      return self._AddCoordinatesFeature(line_node, placemark_dom_node)
     return False
 
   def AddPolygon(self, placemark_dom_node):
@@ -207,10 +208,16 @@ class FeatureSet(object):
         return True
     return False
 
+  def AddMultiGeometry(self, multigeometry_dom_node):
+    fs = CreateMultiGeometryFeatureSet(multigeometry_dom_node)
+    (n,s,e,w) = fs.NSEW()
+    (lon,lat) = kml.coordbox.MidPoint(n,s,e,w)
+    self.AddFeatureAtLocation(lon, lat, multigeometry_dom_node)
+
   def AddFeature(self, feature_dom_node):
     """ Add the xml minidom representation of the Feature.
 
-    Feature must be a Placemark with either Point, LineString,
+    Feature must be a Placemark with either Point, LineString, LinearRing,
     Polygon or Model Geometry.
 
     This is how each Geometry is added:
@@ -218,7 +225,7 @@ class FeatureSet(object):
     Point: lon,lat is taken from the coordinates element.
     The weight is 0.
 
-    LineString: lon,lat is the midpoint of the bounding box of
+    LineString,LinearRing: lon,lat is the midpoint of the bounding box of
     the coordinates.  The weight is the size of the bounding box.
 
     Polygon: lon, lat, is midpoint of the bounding box of the
@@ -240,8 +247,10 @@ class FeatureSet(object):
     """
 
     if self.AddPoint(feature_dom_node) or \
-       self.AddLineString(feature_dom_node) or \
+       self.AddLine(feature_dom_node, 'LineString') or \
+       self.AddLine(feature_dom_node, 'LinearRing') or \
        self.AddPolygon(feature_dom_node) or \
+       self.AddMultiGeometry(feature_dom_node) or \
        self.AddLocation(feature_dom_node):
       return True
     return False
@@ -324,8 +333,16 @@ class FeatureSet(object):
         fs3.AddWeightedFeatureAtLocation(weight, lon, lat, feature)
       index += 1
     return (fs, fs0, fs1, fs2, fs3)
- 
 
+  def SaveToFile(self, kmlfile):
+    doc = kml.genxml.Document()
+    for (weight, lon, lat, feature) in self.__feature_list:
+      doc.Add_Feature(feature.toxml())
+    k = kml.genxml.Kml()
+    k.Feature = doc.xml()
+    f = open(kmlfile, 'w')
+    f.write(k.xml().encode('utf-8'))
+    f.close()
 
 
 class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
@@ -427,4 +444,39 @@ def Regionate(fs, min_lod_pixels, max_per, rootkml, dir, verbose):
       root_href = rtor.RootHref()
       kml.regionator.MakeRootForHref(rootkml, region, min_lod_pixels, root_href)
     return rtor
+
+def CreateMultiGeometryFeatureSet(multigeometry_dom_node):
+  """ """
+
+def CreateFromNode(dom_node):
+  fs = FeatureSet()
+  placemark_node_list = dom_node.getElementsByTagName('Placemark')
+  if placemark_node_list:
+    for placemark_dom_node in placemark_node_list:
+      fs.AddFeature(placemark_dom_node)
+    return fs
+  return None
+
+def CreateFromFile(kmlfile):
+  kp = kml.kmlparse.KMLParse(kmlfile)
+  if kp:
+    return CreateFromNode(kp.Doc())
+  return None
+
+def InsertPoints(in_fs):
+  out_fs = FeatureSet()
+  for (weight, lon, lat, feature_node) in in_fs:
+    geom_node = kml.kmlparse.GetPlacemarkGeometry(feature_node)
+    if geom_node:
+      # XXX other geometries...
+      if geom_node.tagName == 'Polygon':
+        mg = kml.genxml.MultiGeometry()
+        mg.AddGeometry(kml.genkml.Point(lon,lat))
+        mg.AddGeometry(geom_node.toxml())
+        # XXX Really want to clone feature node...
+        placemark_kml = kml.genkml.Placemark(mg.xml())
+        doc = xml.dom.minidom.parseString(placemark_kml)
+        placemark_node = doc.getElementsByTagName('Placemark')[0]
+        out_fs.AddWeightedFeatureAtLocation(weight, lon, lat, placemark_node)
+  return out_fs
 

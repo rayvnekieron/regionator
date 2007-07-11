@@ -152,9 +152,9 @@ def CreateLineStringFeatureSet():
   b_node = xml.dom.minidom.parseString(LineStringPlacemark('b',2,0,2,0))
   c_node = xml.dom.minidom.parseString(LineStringPlacemark('c',3,-3,3,-3))
   featureset = kml.featureset.FeatureSet()
-  featureset.AddLineString(a_node)
-  featureset.AddLineString(b_node)
-  featureset.AddLineString(c_node)
+  featureset.AddLine(a_node, 'LineString')
+  featureset.AddLine(b_node, 'LineString')
+  featureset.AddLine(c_node, 'LineString')
   return featureset
 
 class LineStringFeatureSetTestCase(unittest.TestCase):
