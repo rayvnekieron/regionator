@@ -40,16 +40,10 @@ class KMLRegionHandler(kml.featureset.FeatureSetRegionHandler):
       maxper: maximum Features per region
     """
 
-    fs = self._Parse(kmlparse.Doc())
+    fs = kml.featureset.CreateFromNode(kmlparse.Doc())
     self.__style = kmlparse.ExtractDocumentStyles()
     self.__schemas = kmlparse.ExtractSchemas()
     kml.featureset.FeatureSetRegionHandler.__init__(self, fs, minpx, maxper)
-
-  def _Parse(self, doc):
-    fs = kml.featureset.FeatureSet()
-    for placemark_dom_node in doc.getElementsByTagName('Placemark'):
-      fs.AddFeature(placemark_dom_node)
-    return fs
 
   def Styles(self, region):
     # TODO: make all Style's shared and save out to common file
@@ -111,6 +105,8 @@ def RegionateKML(inputkml, min_lod_pixels, max_per, rootkml, dir, verbose):
   rtor.SetOutputDir(dir)
   rtor.SetVerbose(verbose)
   region = kml.region.RootSnap(n,s,e,w)
+  if not region:
+    return None
   rtor.Regionate(region)
   root_href = rtor.RootHref()
 
