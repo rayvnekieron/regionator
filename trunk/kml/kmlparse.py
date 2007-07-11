@@ -729,6 +729,28 @@ def ParsePointLoc(placemark_node):
       return kml.coordinates.ParsePointCoordinates(coords)
   return None
 
+def GetPlacemarkGeometry(placemark_node):
+  polygon = GetFirstChildElement(placemark_node, 'Polygon')
+  if polygon:
+    return polygon
+  linestring = GetFirstChildElement(placemark_node, 'LineString')
+  if linestring:
+    return linestring
+  linearring = GetFirstChildElement(placemark_node, 'LinearRing')
+  if linearring:
+    return linearring
+  point = GetFirstChildElement(placemark_node, 'Point')
+  if point:
+    return point
+  model = GetFirstChildElement(placemark_node, 'Model')
+  if model:
+    return model
+  multigeometry = GetFirstChildElement(placemark_node, 'MultiGeometry')
+  if multigeometry:
+    return multigeometry
+  return None
+
+
 def ParseStyleUrlText(styleurl_text):
   if styleurl_text:
     t = styleurl_text.split('#')
