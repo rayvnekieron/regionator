@@ -26,6 +26,7 @@ import unittest
 
 import kml.genkml
 import kml.kmlparse
+import xml.dom.minidom
 
 
 class DefaultRegionTestCase(unittest.TestCase):
@@ -93,6 +94,41 @@ class Test8601(unittest.TestCase):
     assert '1970-01-01T00:00:00Z' ==  kml.genkml.CreateISO8601(0)
     assert '2007-06-12T20:17:36Z' ==  kml.genkml.CreateISO8601(1181679456)
 
+class TestLookAt(unittest.TestCase):
+  def runTest(self):
+    lon = 123
+    lat = 45
+    range = 9876
+    tilt = 42
+    heading = 187
+    lookat_kml = kml.genkml.LookAt(lon, lat, range, tilt, heading)
+    lookat_node = xml.dom.minidom.parseString(lookat_kml)
+    lookat = kml.kmlparse.ParseLookAt(lookat_node)
+    assert lon == float(lookat.longitude)
+    assert lat == float(lookat.latitude)
+    assert range == float(lookat.range)
+    assert tilt == float(lookat.tilt)
+    assert heading == float(lookat.heading)
+
+class TestCamera(unittest.TestCase):
+  def runTest(self):
+    lon = 123
+    lat = 45
+    alt = 10101
+    heading = 187
+    tilt = 42
+    roll = -15.15
+    altmode = 'absolute'
+    camera_kml = kml.genkml.Camera(lon, lat, alt, heading, tilt, roll, altmode)
+    camera_node = xml.dom.minidom.parseString(camera_kml)
+    camera = kml.kmlparse.ParseCamera(camera_node)
+    assert lon == float(camera.longitude)
+    assert lat == float(camera.latitude)
+    assert alt == float(camera.altitude)
+    assert heading == float(camera.heading)
+    assert tilt == float(camera.tilt)
+    assert roll == float(camera.roll)
+    assert altmode == camera.altitudeMode
 
 def suite():
   suite = unittest.TestSuite()
@@ -100,6 +136,8 @@ def suite():
   suite.addTest(DefaultRegionTestCase())
   suite.addTest(SimpleLineStringTestCase())
   suite.addTest(Test8601())
+  suite.addTest(TestLookAt())
+  suite.addTest(TestCamera())
   return suite
 
 runner = unittest.TextTestRunner()

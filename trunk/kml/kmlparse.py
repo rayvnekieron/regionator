@@ -400,14 +400,26 @@ class KMLParse:
 
 
 def ParseLookAt(la_node):
-    lookat = kml.genxml.LookAt()
-    lookat.longitude = GetSimpleElementText(la_node, 'longitude')
-    lookat.latitude = GetSimpleElementText(la_node, 'latitude')
-    lookat.altitude = GetSimpleElementText(la_node, 'altitude')
-    lookat.range = GetSimpleElementText(la_node, 'range')
-    lookat.tilt = GetSimpleElementText(la_node, 'tilt')
-    lookat.heading = GetSimpleElementText(la_node, 'heading')
-    return lookat
+  lookat = kml.genxml.LookAt()
+  lookat.longitude = GetSimpleElementText(la_node, 'longitude')
+  lookat.latitude = GetSimpleElementText(la_node, 'latitude')
+  lookat.altitude = GetSimpleElementText(la_node, 'altitude')
+  lookat.range = GetSimpleElementText(la_node, 'range')
+  lookat.tilt = GetSimpleElementText(la_node, 'tilt')
+  lookat.heading = GetSimpleElementText(la_node, 'heading')
+  return lookat
+
+
+def ParseCamera(camera_node):
+  camera = kml.genxml.Camera()
+  camera.longitude = GetSimpleElementText(camera_node, 'longitude')
+  camera.latitude = GetSimpleElementText(camera_node, 'latitude')
+  camera.altitude = GetSimpleElementText(camera_node, 'altitude')
+  camera.heading = GetSimpleElementText(camera_node, 'heading')
+  camera.tilt = GetSimpleElementText(camera_node, 'tilt')
+  camera.roll = GetSimpleElementText(camera_node, 'roll')
+  camera.altitudeMode = GetSimpleElementText(camera_node, 'altitudeMode')
+  return camera
 
 
 def ParseLocation(loc_node):
