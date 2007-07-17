@@ -461,6 +461,24 @@ def NetworkLink(href):
   return networklink.xml()
 
 
+def overlayXY(x, y, xunits, yunits):
+  overlayxy = kml.genxml.overlayXY()
+  overlayxy.x = x
+  overlayxy.y = y
+  overlayxy.xunits = 'pixels'
+  overlayxy.yunits = 'pixels'
+  return overlayxy.xml()
+
+
+def screenXY(x, y, xunits, yunits):
+  screenxy = kml.genxml.screenXY()
+  screenxy.x = x
+  screenxy.y = y
+  screenxy.xunits = 'pixels'
+  screenxy.yunits = 'pixels'
+  return screenxy.xml()
+
+
 def ScreenOverlay(name,href,draworder,x,y,wid,ht,color=None,region=None):
 
   """<ScreenOverlay>...</ScreenOverlay>
@@ -495,19 +513,8 @@ def ScreenOverlay(name,href,draworder,x,y,wid,ht,color=None,region=None):
     icon.href = href
     screenoverlay.Icon = icon.xml()
 
-  overlayxy = kml.genxml.overlayXY()
-  overlayxy.x = 0
-  overlayxy.y = 0
-  overlayxy.xunits = 'pixels'
-  overlayxy.yunits = 'pixels'
-  screenoverlay.overlayXY = overlayxy.xml()
-
-  screenxy = kml.genxml.screenXY()
-  screenxy.x = x
-  screenxy.y = y
-  screenxy.xunits = 'pixels'
-  screenxy.yunits = 'pixels'
-  screenoverlay.screenXY = screenxy.xml()
+  screenoverlay.overlayXY = overlayXY(x, y, 'pixels', 'pixels')
+  screenoverlay.screenXY = screenXY(x, y, 'pixels', 'pixels')
 
   size = kml.genxml.size()
   size.x = wid
@@ -622,7 +629,7 @@ def NetworkLinkControl(cookie=None,expires=None,update=None,targethref=None):
 
 def LookAt(lon,lat,range,tilt,heading,attrname=None,attrval=None):
 
-  """<Lookat [attrname=attrval]>
+  """<LookAt [attrname=attrval]>
 
   Args:
     lon: <longitude> float
@@ -653,6 +660,48 @@ def LookAt(lon,lat,range,tilt,heading,attrname=None,attrval=None):
   if heading:
     lookat.heading = '%f' % heading
   return lookat.xml()
+
+
+def Camera(lon,lat,alt,heading,tilt,roll,altmode,attrname=None,attrval=None):
+
+  """<Camera [attrname=attrval]>
+
+  Args:
+    lon: <longitude> float
+    lat: <latitude> float
+    alt: <latitude> float
+    heading: <heading> float
+    tilt: <tilt> float
+    roll: <roll> float
+    altmode: <altitudeMode>
+    attrname: attribute name ('id' or 'targetId')
+    attrval: attribute value string
+
+  Returns:
+    KML: <Camera>...</Camera>
+  """
+
+  camera = kml.genxml.Camera()
+  if attrname == 'id':
+    camera.id = attrval
+  elif attrname == 'targetId':
+    camera.targetId = attrval
+  if lon:
+    camera.longitude = '%f' % lon
+  if lat:
+    camera.latitude = '%f' % lat
+  if alt:
+    camera.altitude = '%f' % alt
+  if heading:
+    camera.heading = '%f' % heading
+  if tilt:
+    camera.tilt = '%f' % tilt
+  if roll:
+    camera.roll = '%f' % roll
+  if altmode:
+    camera.altitudeMode = altmode
+   
+  return camera.xml()
 
 
 class Coordinates:

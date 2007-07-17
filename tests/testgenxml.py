@@ -68,7 +68,15 @@ class BasicComplexElementTestCase(unittest.TestCase):
     children = '<hi><ho>there</ho></hi>\n<bye/>\n'
     xml = kml.genxml.ComplexElement('xyz', None, None, elements, children)
     assert xml == "".join(basic_complex_xml), 'xyz complex element failed'
-    
+
+class AbstractViewTestCase(unittest.TestCase):
+  def runTest(self):
+    lookat = kml.genxml.LookAt()
+    folder = kml.genxml.Folder()
+    folder.AbstractView = lookat.xml()
+    camera = kml.genxml.Camera()
+    placemark = kml.genxml.Placemark()
+    placemark.AbstractView = camera.xml()
 
 def suite():
   suite = unittest.TestSuite()
@@ -77,6 +85,7 @@ def suite():
   suite.addTest(BasicElementAttributesTestCase())
   suite.addTest(EmptyComplexElementTestCase())
   suite.addTest(BasicComplexElementTestCase())
+  suite.addTest(AbstractViewTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

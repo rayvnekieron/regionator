@@ -185,7 +185,7 @@ class Feature(Object):
     self.__phoneNumber = None
     self.__Snippet = None
     self.__description = None
-    self.__LookAt = None
+    self.__AbstractView = None
     self.__TimePrimitive = None
     self.__styleUrl = None
     self.__StyleSelectorList = []
@@ -206,8 +206,8 @@ class Feature(Object):
   def Set_description(self, description):
     self.__description = description
 
-  def Set_LookAt(self, l):
-    self.__LookAt = l
+  def Set_AbstractView(self, l):
+    self.__AbstractView = l
 
   def Set_TimePrimitive(self, t):
     self.__TimePrimitive = t
@@ -226,7 +226,7 @@ class Feature(Object):
   open = property(fset=Set_open)
   Snippet = property(fset=Set_Snippet)
   description = property(fset=Set_description)
-  LookAt = property(fset=Set_LookAt)
+  AbstractView = property(fset=Set_AbstractView)
   TimePrimitive = property(fset=Set_TimePrimitive)
   styleUrl = property(fset=Set_styleUrl)
   Region = property(fset=Set_Region)
@@ -250,8 +250,8 @@ class Feature(Object):
 
   def children(self):
     children = []
-    if self.__LookAt:
-      children.append(self.__LookAt)
+    if self.__AbstractView:
+      children.append(self.__AbstractView)
     if self.__TimePrimitive:
       children.append(self.__TimePrimitive)
     if self.__styleUrl:
@@ -886,9 +886,9 @@ class Polygon(Geometry):
     return ComplexElement('Polygon', al, None, el, "".join(children))
 
 
-class LookAt(Object):
+class AbstractView(Object):
 
-  """<LookAt>...</LookAt>
+  """Elements common to LookAt and Camera
   """
 
   def __init__(self):
@@ -896,7 +896,6 @@ class LookAt(Object):
     self.__longitude = None
     self.__latitude = None
     self.__altitude = None
-    self.__range = None
     self.__tilt = None
     self.__heading = None
     self.__altitudeMode = None
@@ -919,12 +918,6 @@ class LookAt(Object):
   def Get_altitude(self):
     return self.__altitude
 
-  def Set_range(self, range):
-    self.__range = range
-
-  def Get_range(self):
-    return self.__range
-
   def Set_tilt(self, tilt):
     self.__tilt = tilt
 
@@ -946,7 +939,6 @@ class LookAt(Object):
   longitude = property(fset=Set_longitude, fget=Get_longitude)
   latitude = property(fset=Set_latitude, fget=Get_latitude)
   altitude = property(fset=Set_altitude, fget=Get_altitude)
-  range = property(fset=Set_range, fget=Get_range)
   tilt = property(fset=Set_tilt, fget=Get_tilt)
   heading = property(fset=Set_heading, fget=Get_heading)
   altitudeMode = property(fset=Set_altitudeMode, fget=Get_altitudeMode)
@@ -959,8 +951,6 @@ class LookAt(Object):
       el.append(('latitude',self.__latitude))
     if self.__altitude:
       el.append(('altitude',self.__altitude))
-    if self.__range:
-      el.append(('range',self.__range))
     if self.__tilt:
       el.append(('tilt',self.__tilt))
     if self.__heading:
@@ -969,10 +959,55 @@ class LookAt(Object):
       el.append(('altitudeMode',self.__altitudeMode))
     return el
 
+
+class LookAt(AbstractView):
+  def __init__(self):
+    AbstractView.__init__(self)
+    self.__range = None
+
+  def Set_range(self, range):
+    self.__range = range
+
+  def Get_range(self):
+    return self.__range
+
+  range = property(fset=Set_range, fget=Get_range)
+
+  def elements(self):
+    el = AbstractView.elements(self)
+    if self.__range:
+      el.append(('range',self.__range))
+    return el
+
   def xml(self):
     al = self.attributes()
     el = self.elements()
     return ComplexElement('LookAt', al, None, el, None)
+
+
+class Camera(AbstractView):
+  def __init__(self):
+    AbstractView.__init__(self)
+    self.__roll = None
+
+  def Set_roll(self, roll):
+    self.__roll = roll
+
+  def Get_roll(self):
+    return self.__roll
+
+  roll = property(fset=Set_roll, fget=Get_roll)
+
+  def elements(self):
+    el = AbstractView.elements(self)
+    if self.__roll:
+      el.append(('roll',self.__roll))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Camera', al, None, el, None)
 
 
 class NetworkLinkControl(object):
