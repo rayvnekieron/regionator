@@ -68,7 +68,7 @@ def Placemark(geometry,name=None,styleurl=None,attrname=None,attrval=None):
   if name:
     placemark.name = name
   if styleurl:
-    placemark.styleurl = styleurl
+    placemark.styleUrl = styleurl
   placemark.Geometry = geometry
   return placemark.xml()
 
