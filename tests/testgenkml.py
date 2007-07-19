@@ -130,6 +130,15 @@ class TestCamera(unittest.TestCase):
     assert roll == float(camera.roll)
     assert altmode == camera.altitudeMode
 
+class TestPlacemarkStyleUrl(unittest.TestCase):
+  def runTest(self):
+    geom = '<Point><coordinates>1,1</coordinates></Point>'
+    styleurl = '#foo'
+    placemark_kml = kml.genkml.Placemark(geom, name='foo', styleurl=styleurl)
+    node = xml.dom.minidom.parseString(placemark_kml)
+    got_styleurl = kml.kmlparse.GetSimpleElementText(node, 'styleUrl')
+    assert styleurl == got_styleurl
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(RegionNetworkLinkTestCase())
@@ -138,6 +147,7 @@ def suite():
   suite.addTest(Test8601())
   suite.addTest(TestLookAt())
   suite.addTest(TestCamera())
+  suite.addTest(TestPlacemarkStyleUrl())
   return suite
 
 runner = unittest.TextTestRunner()
