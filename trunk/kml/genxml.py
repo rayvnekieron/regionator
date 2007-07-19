@@ -2010,3 +2010,72 @@ class Model(Object):
       children.append(self.__ResourceMap)
 
     return ComplexElement('Model', al, None, None, "".join(children))
+
+
+class ViewVolume(Object):
+
+  """<ViewVolume>...</ViewVolume>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__leftFov = None
+    self.__rightFov = None
+    self.__bottomFov = None
+    self.__topFov = None
+    self.__near = None
+
+  def Set_leftFov(self, leftFov):
+    self.__leftFov = leftFov
+
+  def Get_leftFov(self):
+    return self.__leftFov
+
+  def Set_rightFov(self, rightFov):
+    self.__rightFov = rightFov
+
+  def Get_rightFov(self):
+    return self.__rightFov
+
+  def Set_bottomFov(self, bottomFov):
+    self.__bottomFov = bottomFov
+
+  def Get_bottomFov(self):
+    return self.__bottomFov
+
+  def Set_topFov(self, topFov):
+    self.__topFov = topFov
+
+  def Get_topFov(self):
+    return self.__topFov
+
+  def Set_near(self, near):
+    self.__near = near
+
+  def Get_near(self):
+    return self.__near
+
+  leftFov = property(fset=Set_leftFov, fget=Get_leftFov)
+  rightFov = property(fset=Set_rightFov, fget=Get_rightFov)
+  bottomFov = property(fset=Set_bottomFov, fget=Get_bottomFov)
+  topFov = property(fset=Set_topFov, fget=Get_topFov)
+  near = property(fset=Set_near, fget=Get_near)
+
+  def elements(self):
+    el = []
+    if self.__leftFov:
+      el.append(('leftFov',self.__leftFov))
+    if self.__rightFov:
+      el.append(('rightFov',self.__rightFov))
+    if self.__bottomFov:
+      el.append(('bottomFov',self.__bottomFov))
+    if self.__topFov:
+      el.append(('topFov',self.__topFov))
+    if self.__near:
+      el.append(('near',self.__near))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('ViewVolume', al, None, el, None)
