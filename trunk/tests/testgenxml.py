@@ -95,6 +95,16 @@ class ViewVolumeTestCase(unittest.TestCase):
     assert 25.26 == float(kml.kmlparse.GetSimpleElementText(vv_node, 'topFov'))
     assert 100.101 == float(kml.kmlparse.GetSimpleElementText(vv_node, 'near'))
 
+class ImagePyramidTestCase(unittest.TestCase):
+  def runTest(self):
+    imagepyramid = kml.genxml.ImagePyramid()
+    imagepyramid.tileSize = 513
+    imagepyramid.maxWidth = 12345
+    imagepyramid.maxHeight = 67890
+    ip_node = xml.dom.minidom.parseString(imagepyramid.xml())
+    assert 513 == int(kml.kmlparse.GetSimpleElementText(ip_node, 'tileSize'))
+    assert 12345 == int(kml.kmlparse.GetSimpleElementText(ip_node, 'maxWidth'))
+    assert 67890 == int(kml.kmlparse.GetSimpleElementText(ip_node, 'maxHeight'))
 
 def suite():
   suite = unittest.TestSuite()
@@ -105,6 +115,7 @@ def suite():
   suite.addTest(BasicComplexElementTestCase())
   suite.addTest(AbstractViewTestCase())
   suite.addTest(ViewVolumeTestCase())
+  suite.addTest(ImagePyramidTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

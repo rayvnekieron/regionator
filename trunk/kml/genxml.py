@@ -2079,3 +2079,52 @@ class ViewVolume(Object):
     al = self.attributes()
     el = self.elements()
     return ComplexElement('ViewVolume', al, None, el, None)
+
+
+class ImagePyramid(Object):
+
+  """<ImagePyramid>...</ImagePyramid>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__tileSize = None
+    self.__maxWidth = None
+    self.__maxHeight = None
+
+  def Set_tileSize(self, tileSize):
+    self.__tileSize = tileSize
+
+  def Get_tileSize(self):
+    return self.__tileSize
+
+  def Set_maxWidth(self, maxWidth):
+    self.__maxWidth = maxWidth
+
+  def Get_maxWidth(self):
+    return self.__maxWidth
+
+  def Set_maxHeight(self, maxHeight):
+    self.__maxHeight = maxHeight
+
+  def Get_maxHeight(self):
+    return self.__maxHeight
+
+  tileSize = property(fset=Set_tileSize, fget=Get_tileSize)
+  maxWidth = property(fset=Set_maxWidth, fget=Get_maxWidth)
+  maxHeight = property(fset=Set_maxHeight, fget=Get_maxHeight)
+
+  def elements(self):
+    el = []
+    if self.__tileSize:
+      el.append(('tileSize',self.__tileSize))
+    if self.__maxWidth:
+      el.append(('maxWidth',self.__maxWidth))
+    if self.__maxHeight:
+      el.append(('maxHeight',self.__maxHeight))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('ImagePyramid', al, None, el, None)
