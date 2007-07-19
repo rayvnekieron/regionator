@@ -25,6 +25,8 @@ $Date$
 
 import unittest
 import kml.genxml
+import kml.kmlparse
+import xml.dom.minidom
 
 
 class BasicSimpleElementTestCase(unittest.TestCase):
@@ -78,6 +80,22 @@ class AbstractViewTestCase(unittest.TestCase):
     placemark = kml.genxml.Placemark()
     placemark.AbstractView = camera.xml()
 
+class ViewVolumeTestCase(unittest.TestCase):
+  def runTest(self):
+    viewvolume = kml.genxml.ViewVolume()
+    viewvolume.leftFov = -66.7
+    viewvolume.rightFov = 63.2
+    viewvolume.bottomFov = -33.33
+    viewvolume.topFov = 25.26
+    viewvolume.near = 100.101
+    vv_node = xml.dom.minidom.parseString(viewvolume.xml())
+    assert -66.7 == float(kml.kmlparse.GetSimpleElementText(vv_node, 'leftFov'))
+    assert 63.2 == float(kml.kmlparse.GetSimpleElementText(vv_node, 'rightFov'))
+    assert -33.33 == float(kml.kmlparse.GetSimpleElementText(vv_node, 'bottomFov'))
+    assert 25.26 == float(kml.kmlparse.GetSimpleElementText(vv_node, 'topFov'))
+    assert 100.101 == float(kml.kmlparse.GetSimpleElementText(vv_node, 'near'))
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicSimpleElementTestCase())
@@ -86,6 +104,7 @@ def suite():
   suite.addTest(EmptyComplexElementTestCase())
   suite.addTest(BasicComplexElementTestCase())
   suite.addTest(AbstractViewTestCase())
+  suite.addTest(ViewVolumeTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
