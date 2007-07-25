@@ -1,0 +1,14 @@
+Source data for north-vancouver-streets.zip is publicly available at:
+http://www.geoweb.dnv.org/Community/download.html
+
+1. Run the extractor: ./extract-streets-kml.sh
+   This will unzip the north-vancouver-streets file and invoke ogr2ogr to
+   extract the KML file in the correct projection. You'll also need to have
+   proj4 installed.
+
+2. Run the parser: ./parse-streets-kml.py
+   This separates the roads into specific types, restyles them and surrounds
+   each with a <Region> such that the general effect is of larger roads
+   becoming visible sooner. (An effect best observed by loading the output KML
+   files into Google Earth...)
+  
