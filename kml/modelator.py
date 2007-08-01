@@ -46,6 +46,7 @@ class BasicModelRegionHandler(kml.regionhandler.RegionHandler):
     create links to children for them to consider.
     """
 
+    # XXX breaks if >__nodemax items at same pont
     fs = self.__feature_set.CopyByRegion(region)
     count = fs.Size()
     if count > self.__nodemax:
@@ -60,7 +61,7 @@ class BasicModelRegionHandler(kml.regionhandler.RegionHandler):
 
   def Data(self, region):
     if not self.__node_feature_set.has_key(region.Qid()):
-      return "" # XXX prune out no-data child kmls
+      return kml.genxml.Folder().xml() # XXX prune out no-data child kmls
 
     # A Folder to fill with one NetworkLink per Model kmz
     folder = kml.genxml.Folder()
@@ -92,12 +93,15 @@ def BasicModelRegionator(modeldir, rootkml, outputdir):
   modelset.FindAndParse()
   featureset = modelset.FeatureSet()
   (n,s,e,w) = modelset.FindBBOX()
-  mrhandler = BasicModelRegionHandler(8, featureset, modeldir)
+  nodemax = 10
+  mrhandler = BasicModelRegionHandler(nodemax, featureset, modeldir)
   rtor = kml.regionator.Regionator()
   rtor.SetRegionHandler(mrhandler)
   rtor.SetOutputDir(outputdir)
-  os.makedirs(outputdir)
   root = kml.region.RootSnap(n,s,e,w)
+  if not root:
+    print 'No root region?',n,s,e,w
+    return None
   print 'Regionating...'
   rtor.Regionate(root)
   kml.regionator.MakeRootKML(rootkml, root, 256, outputdir)

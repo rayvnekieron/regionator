@@ -22,6 +22,7 @@ $Revision$
 $Date$
 """
 
+import os
 import sys
 import kml.modelator
 
@@ -32,5 +33,12 @@ if len(sys.argv) != 4:
 modeldir = sys.argv[1]
 rootkml = sys.argv[2]
 outputdir = sys.argv[3]
+
+try:
+  os.makedirs(outputdir)
+except:
+  print '%s exists' % outputdir
+  sys.exit(1)
+  
 
 kml.modelator.BasicModelRegionator(modeldir, rootkml, outputdir)
