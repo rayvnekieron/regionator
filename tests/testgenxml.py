@@ -24,6 +24,7 @@ $Date$
 
 
 import unittest
+import kml.genkml
 import kml.genxml
 import kml.kmlparse
 import xml.dom.minidom
@@ -106,6 +107,51 @@ class ImagePyramidTestCase(unittest.TestCase):
     assert 12345 == int(kml.kmlparse.GetSimpleElementText(ip_node, 'maxWidth'))
     assert 67890 == int(kml.kmlparse.GetSimpleElementText(ip_node, 'maxHeight'))
 
+class PhotoOverlayTestCase(unittest.TestCase):
+  def runTest(self):
+    href = 'http://goo.com/big/l$[level]/r$[x]-c$[y]'
+    shape = 'sphere'
+    roll = -12.34
+    drawOrder = 14
+
+    photooverlay = kml.genxml.PhotoOverlay()
+    viewvolume = kml.genxml.ViewVolume()
+    viewvolume.leftFov = -66.7
+    viewvolume.rightFov = 63.2
+    viewvolume.bottomFov = -33.33
+    viewvolume.topFov = 25.26
+    viewvolume.near = 100.101
+    photooverlay.ViewVolume = viewvolume.xml()
+    imagepyramid = kml.genxml.ImagePyramid()
+    imagepyramid.tileSize = 513
+    imagepyramid.maxWidth = 12345
+    imagepyramid.maxHeight = 67890
+    photooverlay.ImagePyramid = imagepyramid.xml()
+    photooverlay.Point = kml.genkml.Point(111,22)
+    photooverlay.shape = shape
+    photooverlay.roll = roll
+    # The Overlay-ness of PhotoOverlay:
+    icon = kml.genxml.Icon()
+    icon.href = href
+    photooverlay.Icon = icon.xml()
+    photooverlay.drawOrder = drawOrder
+    # The Feature-ness of PhotoOverlay:
+    photooverlay.name = 'big photo'
+    # The Object-ness of PhotoOverlay:
+    photooverlay.id = 'my-big-photo'
+
+    print photooverlay.xml()
+
+    po_node = xml.dom.minidom.parseString(photooverlay.xml())
+    assert roll == float(kml.kmlparse.GetSimpleElementText(po_node, 'roll'))
+    assert shape == kml.kmlparse.GetSimpleElementText(po_node, 'shape')
+    assert drawOrder == kml.kmlparse.GetSimpleElementText(po_node, 'drawOrder')
+    icon_node = kml.kmlparse.GetFirstChildElement(po_node, 'Icon')
+    print icon_node
+    icon = kml.kmlparse.ParseIcon(icon_node)
+    print icon,icon.href
+    assert href == icon.href
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicSimpleElementTestCase())
@@ -116,6 +162,7 @@ def suite():
   suite.addTest(AbstractViewTestCase())
   suite.addTest(ViewVolumeTestCase())
   suite.addTest(ImagePyramidTestCase())
+  suite.addTest(PhotoOverlayTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
