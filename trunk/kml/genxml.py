@@ -2128,3 +2128,55 @@ class ImagePyramid(Object):
     al = self.attributes()
     el = self.elements()
     return ComplexElement('ImagePyramid', al, None, el, None)
+
+
+class PhotoOverlay(Overlay):
+
+  """<PhotoOverlay>...</PhotoOverlay>
+  """
+
+  def __init__(self):
+    Overlay.__init__(self)
+    self.__shape = None
+    self.__ViewVolume = None
+    self.__roll = None
+    self.__ImagePyramid = None
+    self.__Point = None
+
+  def Set_shape(self, shape):
+    self.__shape = shape
+
+  def Set_ViewVolume(self, ViewVolume):
+    self.__ViewVolume = ViewVolume
+
+  def Set_roll(self, roll):
+    self.__roll = roll
+
+  def Set_ImagePyramid(self, ImagePyramid):
+    self.__ImagePyramid = ImagePyramid
+
+  def Set_Point(self, Point):
+    self.__Point = Point
+
+  shape = property(fset=Set_shape)
+  ViewVolume = property(fset=Set_ViewVolume)
+  roll = property(fset=Set_roll)
+  ImagePyramid = property(fset=Set_ImagePyramid)
+  Point = property(fset=Set_Point)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = []
+    if self.__shape:
+      children.append(SimpleElement('shape',self.__shape))
+    if self.__ViewVolume:
+      children.append(self.__ViewVolume)
+    if self.__roll:
+      children.append(SimpleElement('roll',self.__roll))
+    if self.__ImagePyramid:
+      children.append(self.__ImagePyramid)
+    if self.__Point:
+      children.append(self.__Point)
+
+    return ComplexElement('PhotoOverlay', al, None, None, "".join(children))
