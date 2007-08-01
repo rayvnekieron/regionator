@@ -397,7 +397,7 @@ def RegionLod(n,s,e,w,minpx,maxpx):
 
   """
 
-  return Region(n,s,e,w,0,0,minpx,0,maxpx,0)
+  return Region(n,s,e,w,0,0,None,minpx,0,maxpx,0)
 
 
 def RegionNetworkLink(n,s,e,w,name,href,minpx,maxpx,

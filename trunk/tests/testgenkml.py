@@ -50,6 +50,20 @@ class DefaultRegionTestCase(unittest.TestCase):
 #  def runTest(self):
 #    Region(n,s,e,w,minalt=0,maxalt=0,minpx=128,minfade=0,maxpx=1024,maxfade=0)
 
+class RegionLodTestCase(unittest.TestCase):
+  def runTest(self):
+    n, s, e, w = 49.587, 49.181, -122.750, -123.599
+    minpx = 256
+    regionlod = kml.genkml.RegionLod(n,s,e,w,minpx,-1)
+    kp = kml.kmlparse.KMLParse(None)
+    kp.ParseString(regionlod)
+    llab, lod = kp.ExtractRegion()
+    assert n == float(llab.north)
+    assert s == float(llab.south)
+    assert e == float(llab.east)
+    assert w == float(llab.west)
+    assert minpx == int(lod.minLodPixels)
+    assert -1 == int(lod.maxLodPixels)
 
 class RegionNetworkLinkTestCase(unittest.TestCase):
   def runTest(self):
@@ -141,8 +155,9 @@ class TestPlacemarkStyleUrl(unittest.TestCase):
 
 def suite():
   suite = unittest.TestSuite()
-  suite.addTest(RegionNetworkLinkTestCase())
   suite.addTest(DefaultRegionTestCase())
+  suite.addTest(RegionLodTestCase())
+  suite.addTest(RegionNetworkLinkTestCase())
   suite.addTest(SimpleLineStringTestCase())
   suite.addTest(Test8601())
   suite.addTest(TestLookAt())
