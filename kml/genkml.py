@@ -448,13 +448,15 @@ def RegionGroundoverlay(n,s,e,w,minpx,maxpx,href,draworder):
   region = Region(n,s,e,w,minpx=minpx,maxpx=maxpx)
   return GroundOverlay(n,s,e,w,href,draworder,region)
 
-def NetworkLink(href):
+def NetworkLink(href,visibility=1):
 
   """<NetworkLink>...</NetworkLink>
   """
 
   networklink = kml.genxml.NetworkLink()
   networklink.name = href
+  if visibility == 0:
+    networklink.visibility = 0
   link = kml.genxml.Link()
   link.href = href
   networklink.Link = link.xml()
