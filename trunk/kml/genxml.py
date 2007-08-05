@@ -238,7 +238,9 @@ class Feature(Object):
     el = Object.elements(self)
     if self.__name:
       el.append(('name',self.__name))
-    if self.__visibility:
+    if self.__visibility is not None:
+      # XXX Fix the rest of these. We should be returning on 'not None'
+      # because setting 0 is a valid change...
       el.append(('visibility',self.__visibility))
     if self.__open:
       el.append(('open',self.__open))
