@@ -2167,7 +2167,7 @@ class PhotoOverlay(Overlay):
   def xml(self):
     al = self.attributes()
     el = self.elements()
-    children = []
+    children = Overlay.children(self)
     if self.__shape:
       children.append(SimpleElement('shape',self.__shape))
     if self.__ViewVolume:
@@ -2179,4 +2179,4 @@ class PhotoOverlay(Overlay):
     if self.__Point:
       children.append(self.__Point)
 
-    return ComplexElement('PhotoOverlay', al, None, None, "".join(children))
+    return ComplexElement('PhotoOverlay', al, None, el, "".join(children))
