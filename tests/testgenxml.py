@@ -145,7 +145,8 @@ class PhotoOverlayTestCase(unittest.TestCase):
     po_node = xml.dom.minidom.parseString(photooverlay.xml())
     assert roll == float(kml.kmlparse.GetSimpleElementText(po_node, 'roll'))
     assert shape == kml.kmlparse.GetSimpleElementText(po_node, 'shape')
-    assert drawOrder == kml.kmlparse.GetSimpleElementText(po_node, 'drawOrder')
+    assert drawOrder == int(
+        kml.kmlparse.GetSimpleElementText(po_node, 'drawOrder'))
     icon_node = kml.kmlparse.GetFirstChildElement(po_node, 'Icon')
     print icon_node
     icon = kml.kmlparse.ParseIcon(icon_node)
