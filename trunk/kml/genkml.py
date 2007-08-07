@@ -748,7 +748,7 @@ class Coordinates:
     """
 
     if self.__coordinates:
-      nl = '\n'
+      nl = ' ' # whitespace as separator
     else:
       nl = ''
     cstr = '%s%f,%f' % (nl, lon, lat)
@@ -763,7 +763,7 @@ class Coordinates:
     """
 
     if self.__coordinates:
-      nl = '\n'
+      nl = ' ' # whitespace as separator
     else:
       nl = ''
     cstr = '%s%f,%f,%f' % (nl, lon, lat, alt)

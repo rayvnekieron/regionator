@@ -72,6 +72,35 @@ class BasicComplexElementTestCase(unittest.TestCase):
     xml = kml.genxml.ComplexElement('xyz', None, None, elements, children)
     assert xml == "".join(basic_complex_xml), 'xyz complex element failed'
 
+class LinearRingTestCase(unittest.TestCase):
+  def runTest(self):
+    clockwise_coords = '0,0 0,1 1,1 1,0 0,0'
+    counterclockwise_coords = '0,0 1,0 1,1 0,1 0,0'
+    first_not_last_coords = '0,0 1,1 2,2 3,3 4,4'
+    lr = kml.genxml.LinearRing()
+    
+    lr.Set_coordinates(clockwise_coords)
+    assert True == lr.is_clockwise()
+    lr.reverse_winding_order()
+    assert False == lr.is_clockwise()
+    
+    lr.Set_coordinates(counterclockwise_coords)
+    assert False == lr.is_clockwise()
+    lr.reverse_winding_order()
+    assert True == lr.is_clockwise()
+
+    lr.Set_coordinates(first_not_last_coords)
+    assert False == lr.is_clockwise()
+    assert False == lr.first_equals_last()
+    lr.close_loop()
+    assert True == lr.first_equals_last()
+    lr.close_loop() # Calling a second time is no-op
+    lr_node = xml.dom.minidom.parseString(lr.xml())
+    lr_coords = kml.kmlparse.GetSimpleElementText(lr_node, 'coordinates')
+    good = ' '.join(['%0.6f,%0.6f,%0.6f' % (x,x,0) for x in (0,1,2,3,4,0)])
+    assert good == lr_coords
+    
+
 class AbstractViewTestCase(unittest.TestCase):
   def runTest(self):
     lookat = kml.genxml.LookAt()
@@ -140,17 +169,13 @@ class PhotoOverlayTestCase(unittest.TestCase):
     # The Object-ness of PhotoOverlay:
     photooverlay.id = 'my-big-photo'
 
-    print photooverlay.xml()
-
     po_node = xml.dom.minidom.parseString(photooverlay.xml())
     assert roll == float(kml.kmlparse.GetSimpleElementText(po_node, 'roll'))
     assert shape == kml.kmlparse.GetSimpleElementText(po_node, 'shape')
     assert drawOrder == int(
         kml.kmlparse.GetSimpleElementText(po_node, 'drawOrder'))
     icon_node = kml.kmlparse.GetFirstChildElement(po_node, 'Icon')
-    print icon_node
     icon = kml.kmlparse.ParseIcon(icon_node)
-    print icon,icon.href
     assert href == icon.href
 
 def suite():
@@ -160,6 +185,7 @@ def suite():
   suite.addTest(BasicElementAttributesTestCase())
   suite.addTest(EmptyComplexElementTestCase())
   suite.addTest(BasicComplexElementTestCase())
+  suite.addTest(LinearRingTestCase())
   suite.addTest(AbstractViewTestCase())
   suite.addTest(ViewVolumeTestCase())
   suite.addTest(ImagePyramidTestCase())
