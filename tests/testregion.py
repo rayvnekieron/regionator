@@ -64,8 +64,8 @@ def CreateAncestors(kmlfile):
   w = -117.5
   r = root.Snap(n,s,e,w)
   (_n,_s,_e,_w) = r.NSEW()
-  print 'orig',n,s,e,w
-  print r.Qid(),_n,_s,_e,_w
+  #print 'orig',n,s,e,w
+  #print r.Qid(),_n,_s,_e,_w
 
   document = kml.genxml.Document()
   node = r.Qid()

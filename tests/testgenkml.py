@@ -89,7 +89,7 @@ class RegionNetworkLinkTestCase(unittest.TestCase):
 
 linestring_kml = ['<LineString>',
                   '<tessellate>1</tessellate>',
-                  '<coordinates>1.100000,-21.340000',
+                  '<coordinates>1.100000,-21.340000 '
                   '-122.567000,38.123000</coordinates>',
                   '</LineString>']
 

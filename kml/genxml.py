@@ -786,17 +786,85 @@ class LinearRing(Geometry):
 
   def __init__(self):
     Geometry.__init__(self)
-    self.__coordinates = None
+    self.__coordinates = None # XXX deprecate...
+    self.__coord_array = None
 
   def Set_coordinates(self, coordinates):
-    self.__coordinates = coordinates
+    self.__coordinates = coordinates # XXX deprecate...
+    self.__ParseCoordArray()
 
   coordinates = property(fset=Set_coordinates)
+
+  def __ParseCoordArray(self):
+    # We should be using real Point3d and Vec3d structures.
+    self.__coord_array = []
+    tuples = self.__coordinates.split(' ')
+    for tuple in tuples:
+      coords = tuple.split(',')
+      if len(coords) == 2: coords.append('0')
+      self.__coord_array.append(
+          {'lon':float(coords[0]),
+           'lat':float(coords[1]),
+            'alt':float(coords[2])
+          })
+
+  def is_clockwise(self):
+    """Test polygon for positive rotation (counterclockwise winding order).
+    Returns:
+      - True if rotation is negative
+      - False if rotation is positive or ambiguous
+      - None if coordinates have not been set.
+    """
+    if not self.__coord_array: return None
+    num_pts = len(self.__coord_array)
+    if num_pts < 2: return True # XXX Ambiguous
+    sum = 0.0
+    verts = self.__coord_array # make copy
+    for i in range(num_pts - 1):
+      sum += verts[i]['lon'] * verts[i+1]['lat'] - \
+             verts[i]['lat'] * verts[i+1]['lon']
+    sum += verts[num_pts-1]['lon'] * verts[0]['lat'] - \
+           verts[num_pts-1]['lat'] * verts[0]['lon']
+    if sum < 0.0: return True
+    else: return False
+
+  def reverse_winding_order(self):
+    """Reverses the rotation of a coordinate array.
+    """
+    if not self.__coord_array: return
+    verts = self.__coord_array # make copy
+    for i in range(len(verts) / 2):
+      tmp_vert = verts[i]
+      pos = len(verts) - i - 1
+      verts[i] = verts[pos]
+      verts[pos] = tmp_vert
+    self.__coord_array = verts
+
+  def first_equals_last(self):
+    """Return true if first and last coordinates in array are coincident.
+    """
+    return self.__coord_array[0] == \
+           self.__coord_array[len(self.__coord_array)-1]
+
+  def close_loop(self):
+    """Appends first coordinate in coordinate array to self if first != last
+    """
+    if self.first_equals_last(): return
+    self.__coord_array.append(self.__coord_array[0])
+
+  def __serialize_coord_array(self):
+    """Helper function to serialize coordinate array into <coordinates> format.
+    """
+    tmp = []
+    for coords in self.__coord_array:
+      s = '%0.6f,%0.6f,%0.6f' % (coords['lon'], coords['lat'], coords['alt'])
+      tmp.append(s)
+    return ' '.join(tmp)
 
   def elements(self):
     el = Geometry.elements(self)
     if self.__coordinates:
-      el.append(('coordinates',self.__coordinates))
+      el.append(('coordinates',self.__serialize_coord_array()))
     return el
 
   def xml(self):
