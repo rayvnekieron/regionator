@@ -14,7 +14,8 @@ These are all generated with the Regionator.
 Region KML tests [http://regionator.googlecode.com/files/test-158.kmz http://www.google.com/earth/images/google_earth_link.gif]
 
 
+== Visualizing and publishing large datasets with Region-based KML ==
 
+Here is a wiki page presenting a use-case of "regionated" KML files: [http://code.google.com/p/regionator/wiki/SwissTransit Swiss Transit data].
 
-
-
+The source is available in the [http://regionator.googlecode.com/svn/trunk/ch-sbb/ ch-sbb directory].
