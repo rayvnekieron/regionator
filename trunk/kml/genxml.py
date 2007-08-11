@@ -2250,3 +2250,88 @@ class PhotoOverlay(Overlay):
       children.append(self.__Point)
 
     return ComplexElement('PhotoOverlay', al, None, el, "".join(children))
+
+
+class Data(Object):
+
+  """<Data>...</Data>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__name = None
+    self.__display_name = None
+    self.__value = None
+
+  def Set_name(self, name):
+    self.__name = name
+
+  def Get_name(self):
+    return self.__name
+
+  def Set_displayName(self, displayName):
+    self.__displayName = displayName
+
+  def Get_displayName(self):
+    return self.__displayName
+
+  def Set_value(self, value):
+    self.__value = value
+
+  def Get_value(self):
+    return self.__value
+
+  name = property(fset=Set_name, fget=Get_name)
+  displayName = property(fset=Set_displayName, fget=Get_displayName)
+  value = property(fset=Set_value, fget=Get_value)
+
+  def attributes(self):
+    al = []
+    if self.__name:
+      al.append(('name',self.__name))
+    return al
+
+  def elements(self):
+    el = []
+    if self.__displayName:
+      el.append(('displayName',self.__displayName))
+    if self.__value:
+      el.append(('value',self.__value))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('Data', al, None, el, None)
+
+
+class ExtendedData(Object):
+
+  """<ExtendedData>...</ExtendedData>
+  """
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__data_list = []
+    self.__schemadata_list = []
+    self.__any_list = []
+
+  def Add_Data(self, d):
+    self.__data_list.append(d)
+
+  def Add_SchemaData(self, s):
+    self.__schemadata_list.append(s)
+
+  def Add_any(self, a):
+    self.__any_list.append(a)
+
+  def xml(self):
+    children = []
+    for d in self.__data_list:
+      children.append(d)
+    for sd in self.__schemadata_list:
+      children.append(sd)
+    for any in self.__any_list:
+      children.append(any)
+    al = self.attributes()
+    return ComplexElement('ExtendedData', al, None, None, "".join(children))
