@@ -19,6 +19,9 @@ This describes how the Region-based !NetworkLink (RbNL) is used to present this
 dataset in a manner that is both visually appealling and useful and which
 addresses data size and performance concerns.
 
+Load [http://mw1.google.com/mw-earth-vectordb/kml-samples/ch-sbb.kml this]
+in Google Earth.
+
 = Swiss Transit: Input data =
 
 The input is from these CSV files:
