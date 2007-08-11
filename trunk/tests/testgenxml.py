@@ -178,6 +178,29 @@ class PhotoOverlayTestCase(unittest.TestCase):
     icon = kml.kmlparse.ParseIcon(icon_node)
     assert href == icon.href
 
+class DataTestCase(unittest.TestCase):
+  def runTest(self):
+    data = kml.genxml.Data()
+    data.name = 'par'
+    data.displayName = 'The par is'
+    data.value = 4
+    data_node = xml.dom.minidom.parseString(data.xml())
+    assert data.displayName == kml.kmlparse.GetSimpleElementText(data_node, 'displayName')
+    assert data.value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
+
+class ExtendedDataTestCase(unittest.TestCase):
+  def runTest(self):
+    ed = kml.genxml.ExtendedData()
+    name = 'busNumber'
+    display_name = 'Bus Number'
+    value = 30
+    data_kml = kml.genkml.Data(name, display_name, value)
+    ed.Add_Data(data_kml)
+    ed_node = xml.dom.minidom.parseString(ed.xml())
+    data_node = kml.kmlparse.GetFirstChildElement(ed_node, 'Data')
+    assert display_name == kml.kmlparse.GetSimpleElementText(data_node, 'displayName')
+    assert value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicSimpleElementTestCase())
@@ -190,6 +213,8 @@ def suite():
   suite.addTest(ViewVolumeTestCase())
   suite.addTest(ImagePyramidTestCase())
   suite.addTest(PhotoOverlayTestCase())
+  suite.addTest(DataTestCase())
+  suite.addTest(ExtendedDataTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
