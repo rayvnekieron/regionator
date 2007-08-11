@@ -791,3 +791,10 @@ def CreateISO8601(gm_seconds):
   """
   return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(gm_seconds))
 
+def Data(name, displayName, value):
+  data = kml.genxml.Data()
+  data.name = name
+  data.displayName = displayName
+  data.value = value
+  return data.xml()
+
