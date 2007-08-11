@@ -190,13 +190,18 @@ class DataTestCase(unittest.TestCase):
 
 class ExtendedDataTestCase(unittest.TestCase):
   def runTest(self):
-    ed = kml.genxml.ExtendedData()
     name = 'busNumber'
     display_name = 'Bus Number'
     value = 30
     data_kml = kml.genkml.Data(name, display_name, value)
+    ed = kml.genxml.ExtendedData()
     ed.Add_Data(data_kml)
-    ed_node = xml.dom.minidom.parseString(ed.xml())
+    pm = kml.genxml.Placemark()
+    pm.Geometry = kml.genkml.Point(123,45)
+    pm.Add_ExtendedData(ed.xml())
+
+    pm_node = xml.dom.minidom.parseString(pm.xml())
+    ed_node = kml.kmlparse.GetFirstChildElement(pm_node, 'ExtendedData')
     data_node = kml.kmlparse.GetFirstChildElement(ed_node, 'Data')
     assert display_name == kml.kmlparse.GetSimpleElementText(data_node, 'displayName')
     assert value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
