@@ -190,6 +190,7 @@ class Feature(Object):
     self.__styleUrl = None
     self.__StyleSelectorList = []
     self.__Region = None
+    self.__ExtendedDataList = []
 
   def Set_name(self,name):
     self.__name = name
@@ -220,6 +221,9 @@ class Feature(Object):
 
   def Set_Region(self,region):
     self.__Region = region
+
+  def Add_ExtendedData(self, ed):
+    self.__ExtendedDataList.append(ed)
 
   name = property(fset=Set_name)
   visibility = property(fset=Set_visibility)
@@ -262,6 +266,8 @@ class Feature(Object):
       children.append(s)
     if self.__Region:
       children.append(self.__Region)
+    for ed in self.__ExtendedDataList:
+      children.append(ed)
     return children
 
 
