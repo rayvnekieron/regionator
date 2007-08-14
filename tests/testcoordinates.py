@@ -52,12 +52,145 @@ class SloppyPointTestCase(unittest.TestCase):
     assert p0[2] == 20, 'bad alt'
     
 
+# Tests for the Coord3d and Coord3dArray classes:
+
+class BasicCoord3dTestCase(unittest.TestCase):
+  def runTest(self):
+
+    # Default initialization.
+    c3d = kml.coordinates.Coord3d()
+    assert 0.0 == c3d.lon == c3d.lat == c3d.alt
+
+    # Initialization from string.
+    s = '-1, 2'
+    c3d.from_string(s)
+    assert (-1.0, 2.0) == (c3d.lon, c3d.lat)
+    s = '-1, 2, 100'
+    c3d.from_string(s)
+    assert (-1.0, 2.0, 100.0) == (c3d.lon, c3d.lat, c3d.alt)
+
+    # Initialization from tuple.
+    t = (-3, 4)
+    c3d = kml.coordinates.Coord3d(t)
+    assert (-3.0, 4.0) == (c3d.lon, c3d.lat)
+    t = (-3, 4, 200)
+    c3d = kml.coordinates.Coord3d(t)
+    assert (-3.0, 4.0, 200) == (c3d.lon, c3d.lat, c3d.alt)
+
+    # Initialization from list.
+    l = [-5, 6]
+    c3d = kml.coordinates.Coord3d(l)
+    assert (-5.0, 6.0) == (c3d.lon, c3d.lat)
+    l = [-5, 6, 300]
+    c3d = kml.coordinates.Coord3d(l)
+    assert (-5.0, 6.0, 300.0) == (c3d.lon, c3d.lat, c3d.alt)
+
+    # Explicit setting of kml.coordinates
+    c3d.lon,c3d.lat,c3d.alt = 1,2,3
+    assert (1.0,2.0,3.0) == (c3d.lon,c3d.lat,c3d.alt)
+
+    # String output.
+    assert '1.000000,2.000000,3.000000' == c3d.to_string()
+
+
+class BasicCoord3dArrayTestCase(unittest.TestCase):
+
+  def testParse(self, coords, expected=None):
+
+    """Helper function. The coords arg can be a string, tuple, list, list of
+    lists, etc. We hand the content to kml.coordinates.Coord3darr() and ensure
+    it is parsed correctly. If testing a string, theexpected arg is required
+    and is a list of the expected lon,lat,alt coords.
+    """
+    c3darr = kml.coordinates.Coord3dArray(coords)
+    parsed_coords = c3darr.coords
+    if isinstance('', coords.__class__):
+      assert expected is not None
+      c0 = kml.coordinates.Coord3d(expected[0])
+      c1 = kml.coordinates.Coord3d(expected[1])
+      c2 = kml.coordinates.Coord3d(expected[2])
+    else:
+      c0 = kml.coordinates.Coord3d(coords[0])
+      c1 = kml.coordinates.Coord3d(coords[1])
+      c2 = kml.coordinates.Coord3d(coords[2])
+    c = [c0, c1, c2]
+    for i in range(3):
+      assert c[i].lon == parsed_coords[i].lon
+      assert c[i].lat == parsed_coords[i].lat
+      assert c[i].alt == parsed_coords[i].alt
+
+  def runTest(self):
+
+    # Default initialization.
+    c3darr = kml.coordinates.Coord3dArray()
+    assert [] == c3darr.coords
+
+    # Initialization from sloppy space-delimited string, first coordinate has
+    # implied altitude of 0.
+    s = '0,1 2, 3, 4 5 , 6,   7'
+    self.testParse(s, ['0,1,0','2,3,4','5,6,7'])
+
+    # Initialization from list of sloppy strings.
+    l1 = ['2,4', '6, 8, 10', ' 12 , 14  ,   16']
+    self.testParse(l1)
+
+    # Initialization from list of lists.
+    l2 = [[9,8,7], [6,5,4], [3,2]]
+    self.testParse(l2)
+
+    # Initialization from tuple of sloppy strings.
+    t1 = ('3,5', '7, 9, 11', ' 13 , 15  ,   17')
+    self.testParse(t1)
+
+    # Initialization from tuple of tuples.
+    t2 = ((3,1), (4,1,5), (9,2,6))
+    self.testParse(t2)
+
+
+class ClosedLoopTestCase(unittest.TestCase):
+
+  def runTest(self):
+    unclosed_square = [[0,0], [1,0], [1,1], [0,1]]
+    c3darr = kml.coordinates.Coord3dArray(unclosed_square)
+    assert False == c3darr.first_equals_last()
+    c3darr.close_loop()
+    assert True == c3darr.first_equals_last()
+    coords = c3darr.coords
+    assert 5 == len(coords)
+    assert 0.0 == coords[4].lon == coords[4].lat == coords[4].alt
+
+
+class WindingOrderTestCase(unittest.TestCase):
+
+  def runTest(self):
+    cw = [[0,0], [0,1], [1,1], [1,0], [0,0]]
+    c3darr = kml.coordinates.Coord3dArray(cw)
+    assert True == c3darr.first_equals_last()
+    assert True == c3darr.is_clockwise()
+
+    ccw = [[1,1,1],[2,1,1],[2,2,1]]
+    c3darr = kml.coordinates.Coord3dArray(ccw)
+    assert False == c3darr.is_clockwise()
+    assert False == c3darr.first_equals_last()
+    c3darr.close_loop()
+    assert True == c3darr.first_equals_last()
+
+    # straight line has ccw winding order...
+    sl = [[0,0], [1,1], [2,2]]
+    c3darr = kml.coordinates.Coord3dArray(sl)
+    assert False == c3darr.is_clockwise()
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(JHTTestCase())
   suite.addTest(MarinTestCase())
   suite.addTest(NoAltTestCase())
   suite.addTest(SloppyPointTestCase())
+  suite.addTest(BasicCoord3dTestCase())
+  suite.addTest(BasicCoord3dArrayTestCase())
+  suite.addTest(ClosedLoopTestCase())
+  suite.addTest(WindingOrderTestCase())
   return suite
 
 
