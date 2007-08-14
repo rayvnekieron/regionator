@@ -206,6 +206,12 @@ class KMLParse:
     return cbox.NSEW()
 
 
+  def GetRootFeature(self):
+    if not self.__doc:
+       return None
+    return GetRootFeatureNode(self.__doc)
+
+
   def ExtractDocumentStyles(self):
 
     """Return <Document>'s <Style>'s and <StyleMap>'s
@@ -775,3 +781,28 @@ def ParseStyleUrlText(styleurl_text):
 def ParseStyleUrl(styleurl_node):
   return ParseStyleUrlText(GetText(styleurl_node))
 
+
+def IsFeature(node):
+  if node.tagName == 'Document' or node.tagName == 'Folder' or \
+     node.tagName == 'Placemark' or node.tagName == 'NetworkLink' or \
+     node.tagName == 'GroundOverlay' or node.tagName == 'ScreenOverlay' or \
+     node.tagName == 'PhotoOverlay':
+    return node.tagName
+  return None
+
+
+def GetRootFeatureNode(node):
+  for child in node.childNodes:
+    if child.nodeType == child.ELEMENT_NODE:
+      if IsFeature(child):
+        return child
+  kml_node = node.getElementsByTagName('kml')
+  if not kml_node:
+    return None
+  for child in kml_node[0].childNodes:
+    if child.nodeType != child.ELEMENT_NODE:
+      continue
+    feature_name = IsFeature(child)
+    if feature_name:
+      return child
+  return None
