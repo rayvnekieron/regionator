@@ -177,6 +177,8 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     url = kml.href.ComputeChildUrl(parent, child)
     self._Print('U  ',url)
 
+    url = CheckImagePyramidHref(url)
+
     if not kml.href.AreAllCharsGood(url):
       self._Print('B  ',url)
       self.__bad_char_links += 1
@@ -221,6 +223,15 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
       self.Fetch(parent, child)
     if self.__check_html:
       self._CheckHtml(parent, node)
+
+
+def CheckImagePyramidHref(href):
+  find_index = href.find('$[level]')
+  x_index = href.find('$[x]')
+  y_index = href.find('$[y]')
+  if find_index != -1 and x_index != -1 and y_index != -1:
+    return href.replace('$[level]', '0').replace('$[x]', '0').replace('$[y]', '0')
+  return href
 
 
 def ParseArgv(argv):
