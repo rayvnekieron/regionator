@@ -127,8 +127,16 @@ class BasicCoord3dArrayTestCase(unittest.TestCase):
 
     # Initialization from sloppy space-delimited string, first coordinate has
     # implied altitude of 0.
-    s = '0,1 2, 3, 4 5 , 6,   7'
-    self.testParse(s, ['0,1,0','2,3,4','5,6,7'])
+    s1 = '0,1 2, 3, 4 5 , 6,   7'
+    self.testParse(s1, ['0,1,0','2,3,4','5,6,7'])
+
+    # Initialization from new-lined string.
+    s2 = ('0,0,0\n        '
+          '1,0,0\n        '
+          '1,1,0\n        '
+          '0,1,0\n        '
+          '0,0,0\n')
+    self.testParse(s2, ['0,0,0','1,0,0','1,1,0','0,1,0','0,0,0'])
 
     # Initialization from list of sloppy strings.
     l1 = ['2,4', '6, 8, 10', ' 12 , 14  ,   16']
