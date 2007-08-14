@@ -91,6 +91,8 @@ class Coord3d(object):
     if coords is not None:
       if isinstance('', coords.__class__):
         self.from_string(coords)
+      elif isinstance(u'', coords.__class__):
+        self.from_string(coords) # XXX need to do something special w/ unicode?
       elif isinstance((), coords.__class__):
         self.from_tuple(coords)
       elif isinstance([], coords.__class__):
@@ -154,6 +156,8 @@ class Coord3dArray(object):
   def Set_coord3d_array(self, coords):
     if isinstance('', coords.__class__):
       self.from_string(coords)
+    elif isinstance(u'', coords.__class__):
+      self.from_string(coords) # XXX need to do something special w/ unicode?
     elif isinstance((), coords.__class__):
       self.from_tuple(coords)
     elif isinstance([], coords.__class__):
