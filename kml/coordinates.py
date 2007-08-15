@@ -90,25 +90,26 @@ class Coord3d(object):
     self.__alt = 0.0
     if coords is not None:
       if isinstance('', coords.__class__):
-        self.from_string(coords)
+        self.FromString(coords)
       elif isinstance(u'', coords.__class__):
-        self.from_string(coords) # XXX need to do something special w/ unicode?
+        coords = coords.encode('latin-1')
+        self.FromString(coords)
       elif isinstance((), coords.__class__):
-        self.from_tuple(coords)
+        self.FromTuple(coords)
       elif isinstance([], coords.__class__):
-        self.from_list(coords)
+        self.FromList(coords)
       else: # didn't understand type, set defaults anyway
-        self.from_tuple(0,0,0)
+        self.FromTuple(0,0,0)
     
-  def from_string(self, s):
+  def FromString(self, s):
     coords = s.split(',')
-    self.from_list(coords)
+    self.FromList(coords)
 
-  def from_tuple(self, t):
+  def FromTuple(self, t):
     coords = list(t)
-    self.from_list(coords)
+    self.FromList(coords)
 
-  def from_list(self, l):
+  def FromList(self, l):
     assert 2 <= len(l) <= 3
     self.__lon = float(l[0])
     self.__lat = float(l[1])
@@ -117,29 +118,29 @@ class Coord3d(object):
     else:
       self.__alt = 0.0
 
-  def Set_lon(self, lon):
+  def SetLon(self, lon):
     self.__lon = float(lon)
   
-  def Get_lon(self):
+  def GetLon(self):
     return self.__lon
   
-  def Set_lat(self, lat):
+  def SetLat(self, lat):
     self.__lat = float(lat)
   
-  def Get_lat(self):
+  def GetLat(self):
     return self.__lat
   
-  def Set_alt(self, alt):
+  def SetAlt(self, alt):
     self.__alt = float(alt)
   
-  def Get_alt(self):
+  def GetAlt(self):
     return self.__alt
   
-  lon = property(fget=Get_lon, fset=Set_lon)
-  lat = property(fget=Get_lat, fset=Set_lat)
-  alt = property(fget=Get_alt, fset=Set_alt)
+  lon = property(fget=GetLon, fset=SetLon)
+  lat = property(fget=GetLat, fset=SetLat)
+  alt = property(fget=GetAlt, fset=SetAlt)
   
-  def to_string(self):
+  def ToString(self):
     s = '%0.6f,%0.6f,%0.6f' % (self.__lon, self.__lat, self.__alt)
     return s
 
@@ -151,58 +152,57 @@ class Coord3dArray(object):
   def __init__(self, coords=None):
     self.__coord3d_array = []
     if coords is not None:
-      self.Set_coord3d_array(coords)
+      self.SetCoord3dArray(coords)
 
-  def Set_coord3d_array(self, coords):
+  def SetCoord3dArray(self, coords):
     if isinstance('', coords.__class__):
-      self.from_string(coords)
+      self.FromString(coords)
     elif isinstance(u'', coords.__class__):
-      self.from_string(coords) # XXX need to do something special w/ unicode?
+      coords = coords.encode('latin-1')
+      self.FromString(coords)
     elif isinstance((), coords.__class__):
-      self.from_tuple(coords)
+      self.FromTuple(coords)
     elif isinstance([], coords.__class__):
-      self.from_list(coords)
+      self.FromList(coords)
     else: # didn't understand type, set defaults anyway
       pass
 
-  def Get_coord3d_array(self):
+  def GetCoord3dArray(self):
     return self.__coord3d_array
 
-  coords = property(fget=Get_coord3d_array, fset=Set_coord3d_array)
+  coords = property(fget=GetCoord3dArray, fset=SetCoord3dArray)
 
-  def from_string(self, coord_str):
+  def FromString(self, coord_str):
     # Coordinate strings may be separated by new lines, tabs or spaces?
     coord_str.replace('\n', ' ') # scrap the new lines
     coord_str.replace('\t', ' ') # and the tabs
     while coord_str.find('  ') != -1: # and any  multiple spaces
       coord_str = coord_str.replace('  ', ' ')
-    foo = 0
-    if coord_str.find(' ,') != -1: foo = 1
     coord_str = coord_str.replace(', ', ',') # space to right of comma
     coord_str = coord_str.replace(' ,', ',') # space to left of comma
-    coord_list = coord_str.split(' ')
-    self.from_list(coord_list)
+    coord_list = coord_str.strip().split(' ')
+    self.FromList(coord_list)
 
-  def from_tuple(self, t):
+  def FromTuple(self, t):
     l = list(t)
-    self.from_list(l)
+    self.FromList(l)
 
-  def from_list(self, l):
+  def FromList(self, l):
     for coord_str in l:
       self.__coord3d_array.append(Coord3d(coord_str))
 
-  def Get_length(self):
+  def GetLength(self):
     return len(self.__coord3d_array)
   
-  def to_string(self):
+  length = property(fget=GetLength)
+
+  def ToString(self):
     ret = []
     for coord3d in self.__coord3d_array:
-      ret.append(coord3d.to_string())
+      ret.append(coord3d.ToString())
     return ' '.join(ret)
 
-  length = property(fget=Get_length)
-
-  def first_equals_last(self):
+  def FirstEqualsLast(self):
     """Return true iff first and last coordinates in array are equal
     """
     # XXX implement fuzzy equals for precision errors?
@@ -215,13 +215,13 @@ class Coord3dArray(object):
     else:
       return False
 
-  def close_loop(self):
+  def CloseLoop(self):
     """Appends first coordinate in array to array if first != last
     """
-    if self.first_equals_last(): return
+    if self.FirstEqualsLast(): return
     self.__coord3d_array.append(self.__coord3d_array[0])
 
-  def is_clockwise(self):
+  def IsClockwise(self):
     """Test a coordinate array for a negative rotation (clockwise winding
     order).
     Returns:
@@ -242,7 +242,7 @@ class Coord3dArray(object):
     if sum < 0.0: return True
     else: return False
 
-  def reverse_winding_order(self):
+  def ReverseWindingOrder(self):
     """Reverses the rotation of a coordinate array.
     """
     if not self.__coord3d_array: return

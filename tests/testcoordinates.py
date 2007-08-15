@@ -63,10 +63,10 @@ class BasicCoord3dTestCase(unittest.TestCase):
 
     # Initialization from string.
     s = '-1, 2'
-    c3d.from_string(s)
+    c3d.FromString(s)
     assert (-1.0, 2.0) == (c3d.lon, c3d.lat)
     s = '-1, 2, 100'
-    c3d.from_string(s)
+    c3d.FromString(s)
     assert (-1.0, 2.0, 100.0) == (c3d.lon, c3d.lat, c3d.alt)
 
     # Initialization from tuple.
@@ -90,12 +90,12 @@ class BasicCoord3dTestCase(unittest.TestCase):
     assert (1.0,2.0,3.0) == (c3d.lon,c3d.lat,c3d.alt)
 
     # String output.
-    assert '1.000000,2.000000,3.000000' == c3d.to_string()
+    assert '1.000000,2.000000,3.000000' == c3d.ToString()
 
 
 class BasicCoord3dArrayTestCase(unittest.TestCase):
 
-  def testParse(self, coords, expected=None):
+  def TestParse(self, coords, expected=None):
 
     """Helper function. The coords arg can be a string, tuple, list, list of
     lists, etc. We hand the content to kml.coordinates.Coord3darr() and ensure
@@ -128,7 +128,7 @@ class BasicCoord3dArrayTestCase(unittest.TestCase):
     # Initialization from sloppy space-delimited string, first coordinate has
     # implied altitude of 0.
     s1 = '0,1 2, 3, 4 5 , 6,   7'
-    self.testParse(s1, ['0,1,0','2,3,4','5,6,7'])
+    self.TestParse(s1, ['0,1,0','2,3,4','5,6,7'])
 
     # Initialization from new-lined string.
     s2 = ('0,0,0\n        '
@@ -136,23 +136,23 @@ class BasicCoord3dArrayTestCase(unittest.TestCase):
           '1,1,0\n        '
           '0,1,0\n        '
           '0,0,0\n')
-    self.testParse(s2, ['0,0,0','1,0,0','1,1,0','0,1,0','0,0,0'])
+    self.TestParse(s2, ['0,0,0','1,0,0','1,1,0','0,1,0','0,0,0'])
 
     # Initialization from list of sloppy strings.
     l1 = ['2,4', '6, 8, 10', ' 12 , 14  ,   16']
-    self.testParse(l1)
+    self.TestParse(l1)
 
     # Initialization from list of lists.
     l2 = [[9,8,7], [6,5,4], [3,2]]
-    self.testParse(l2)
+    self.TestParse(l2)
 
     # Initialization from tuple of sloppy strings.
     t1 = ('3,5', '7, 9, 11', ' 13 , 15  ,   17')
-    self.testParse(t1)
+    self.TestParse(t1)
 
     # Initialization from tuple of tuples.
     t2 = ((3,1), (4,1,5), (9,2,6))
-    self.testParse(t2)
+    self.TestParse(t2)
 
 
 class ClosedLoopTestCase(unittest.TestCase):
@@ -160,9 +160,9 @@ class ClosedLoopTestCase(unittest.TestCase):
   def runTest(self):
     unclosed_square = [[0,0], [1,0], [1,1], [0,1]]
     c3darr = kml.coordinates.Coord3dArray(unclosed_square)
-    assert False == c3darr.first_equals_last()
-    c3darr.close_loop()
-    assert True == c3darr.first_equals_last()
+    assert False == c3darr.FirstEqualsLast()
+    c3darr.CloseLoop()
+    assert True == c3darr.FirstEqualsLast()
     coords = c3darr.coords
     assert 5 == len(coords)
     assert 0.0 == coords[4].lon == coords[4].lat == coords[4].alt
@@ -173,20 +173,20 @@ class WindingOrderTestCase(unittest.TestCase):
   def runTest(self):
     cw = [[0,0], [0,1], [1,1], [1,0], [0,0]]
     c3darr = kml.coordinates.Coord3dArray(cw)
-    assert True == c3darr.first_equals_last()
-    assert True == c3darr.is_clockwise()
+    assert True == c3darr.FirstEqualsLast()
+    assert True == c3darr.IsClockwise()
 
     ccw = [[1,1,1],[2,1,1],[2,2,1]]
     c3darr = kml.coordinates.Coord3dArray(ccw)
-    assert False == c3darr.is_clockwise()
-    assert False == c3darr.first_equals_last()
-    c3darr.close_loop()
-    assert True == c3darr.first_equals_last()
+    assert False == c3darr.IsClockwise()
+    assert False == c3darr.FirstEqualsLast()
+    c3darr.CloseLoop()
+    assert True == c3darr.FirstEqualsLast()
 
     # straight line has ccw winding order...
     sl = [[0,0], [1,1], [2,2]]
     c3darr = kml.coordinates.Coord3dArray(sl)
-    assert False == c3darr.is_clockwise()
+    assert False == c3darr.IsClockwise()
 
 
 def suite():
