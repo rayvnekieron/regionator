@@ -379,23 +379,34 @@ class NetworkLink(Feature):
     return ComplexElement('NetworkLink', al, None, el, "".join(children))
 
 
-class Link(Object):
-
-  """<Link>...</Link>
-  """
+class BasicLinkType(Object):
 
   def __init__(self):
     Object.__init__(self)
     self.__href = None
-    self.__viewRefreshMode = None
-    self.__viewRefreshTime = None
-    self.__viewFormat = None
 
   def Set_href(self, href):
     self.__href = href
 
   def Get_href(self):
     return self.__href
+
+  href = property(fset=Set_href, fget=Get_href)
+
+  def elements(self):
+    el = Object.elements(self)
+    if self.__href:
+      el.append(('href',self.__href))
+    return el
+
+
+class LinkType(BasicLinkType):
+
+  def __init__(self):
+    BasicLinkType.__init__(self)
+    self.__viewRefreshMode = None
+    self.__viewRefreshTime = None
+    self.__viewFormat = None
 
   def Set_viewRefreshMode(self, viewRefreshMode):
     self.__viewRefreshMode = viewRefreshMode
@@ -409,15 +420,12 @@ class Link(Object):
   def Set_viewFormat(self, viewFormat):
     self.__viewFormat = viewFormat
 
-  href = property(fset=Set_href, fget=Get_href)
   viewRefreshMode = property(fset=Set_viewRefreshMode, fget=Get_viewRefreshMode)
   viewRefreshTime = property(fset=Set_viewRefreshTime)
   viewFormat = property(fset=Set_viewFormat)
 
   def elements(self):
-    el = Object.elements(self)
-    if self.__href:
-      el.append(('href',self.__href))
+    el = BasicLinkType.elements(self)
     if self.__viewRefreshMode:
       el.append(('viewRefreshMode',self.__viewRefreshMode))
     if self.__viewRefreshTime:
@@ -433,6 +441,14 @@ class Link(Object):
       children.append(ComplexElement('viewFormat', None, None, None, None))
     return "".join(children)
 
+
+class Link(LinkType):
+
+  """<Link>...</Link>"""
+
+  def __init__(self):
+    LinkType.__init__(self)
+
   def xml(self):
     al = self.attributes()
     el = self.elements()
@@ -440,13 +456,13 @@ class Link(Object):
     return ComplexElement('Link', al, None, el, children)
 
 
-class Icon(Link):
+class Icon(LinkType):
 
   """<Icon>...</Icon>
   """
 
   def __init__(self):
-    Link.__init__(self)
+    LinkType.__init__(self)
 
   def xml(self):
     al = self.attributes()

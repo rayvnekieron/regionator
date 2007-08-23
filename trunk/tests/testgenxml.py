@@ -177,6 +177,25 @@ class ExtendedDataTestCase(unittest.TestCase):
     assert display_name == kml.kmlparse.GetSimpleElementText(data_node, 'displayName')
     assert value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
 
+class LinkAndIconTestCase(unittest.TestCase):
+  def runTest(self):
+    href = 'http://foo.com/goo.kml'
+    vrm = 'onStop'
+    link = kml.genxml.Link()
+    link.href = href
+    link.viewRefreshMode = vrm
+
+    icon = kml.genxml.Icon()
+    icon.href = href
+    icon.viewRefreshMode = vrm
+
+    link_node = xml.dom.minidom.parseString(link.xml())
+    assert href == kml.kmlparse.GetSimpleElementText(link_node, 'href')
+    assert vrm == kml.kmlparse.GetSimpleElementText(link_node, 'viewRefreshMode')
+    icon_node = xml.dom.minidom.parseString(icon.xml())
+    assert href == kml.kmlparse.GetSimpleElementText(icon_node, 'href')
+    assert vrm == kml.kmlparse.GetSimpleElementText(icon_node, 'viewRefreshMode')
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicSimpleElementTestCase())
@@ -190,6 +209,7 @@ def suite():
   suite.addTest(PhotoOverlayTestCase())
   suite.addTest(DataTestCase())
   suite.addTest(ExtendedDataTestCase())
+  suite.addTest(LinkAndIconTestCase())
   return suite
 
 runner = unittest.TextTestRunner()
