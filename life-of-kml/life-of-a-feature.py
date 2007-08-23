@@ -19,13 +19,13 @@ def CreateStyle(id):
   balloonstyle.text = '<br/>'.join(text)
   balloonstyle.bgColor = 'ff82fff3' # light yellow
 
-  # itemicon = kml.genxml.ItemIcon()
-  # itemicon.href = 'itemicon.jpg'
+  itemicon = kml.genxml.ItemIcon()
+  itemicon.href = 'http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png'
 
   liststyle = kml.genxml.ListStyle()
   liststyle.listItemType = 'checkHideChildren'
   liststyle.bgColor = 'ffffb20b' # light blue
-  # liststyle.ItemIcon = itemicon.xml()
+  liststyle.ItemIcon = itemicon.xml()
 
   style = kml.genxml.Style()
   style.id = id
