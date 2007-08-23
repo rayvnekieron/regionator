@@ -177,6 +177,7 @@ class ExtendedDataTestCase(unittest.TestCase):
     assert display_name == kml.kmlparse.GetSimpleElementText(data_node, 'displayName')
     assert value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
 
+
 class LinkAndIconTestCase(unittest.TestCase):
   def runTest(self):
     href = 'http://foo.com/goo.kml'
@@ -196,6 +197,32 @@ class LinkAndIconTestCase(unittest.TestCase):
     assert href == kml.kmlparse.GetSimpleElementText(icon_node, 'href')
     assert vrm == kml.kmlparse.GetSimpleElementText(icon_node, 'viewRefreshMode')
 
+
+class ListStyleTestCase(unittest.TestCase):
+  def runTest(self):
+    state = 'open'
+    href = 'icon.jpg'
+    list_item_type = 'checkHideChildren'
+    bg_color = 'ff123456'
+
+    itemicon = kml.genxml.ItemIcon()
+    itemicon.state = state
+    itemicon.href = href
+
+    liststyle = kml.genxml.ListStyle()
+    liststyle.listItemType = list_item_type
+    liststyle.bgColor = bg_color
+    liststyle.ItemIcon = itemicon.xml()
+
+    ls_node = xml.dom.minidom.parseString(liststyle.xml())
+    assert bg_color == kml.kmlparse.GetSimpleElementText(ls_node, 'bgColor')
+    assert list_item_type == kml.kmlparse.GetSimpleElementText(ls_node, 'listItemType')
+
+    ii_node = kml.kmlparse.GetFirstChildElement(ls_node, 'ItemIcon')
+    assert state == kml.kmlparse.GetSimpleElementText(ii_node, 'state')
+    assert href == kml.kmlparse.GetSimpleElementText(ii_node, 'href')
+
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicSimpleElementTestCase())
@@ -210,6 +237,7 @@ def suite():
   suite.addTest(DataTestCase())
   suite.addTest(ExtendedDataTestCase())
   suite.addTest(LinkAndIconTestCase())
+  suite.addTest(ListStyleTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

@@ -1548,6 +1548,38 @@ class LabelStyle(ColorStyle):
     return ComplexElement('LabelStyle', al, None, el, None)
 
 
+class ItemIcon(Object):
+
+  """<ItemIcon>...</ItemIcon>"""
+
+  def __init__(self):
+    Object.__init__(self)
+    self.__state = None
+    self.__href = None
+
+  def Set_state(self, state):
+    self.__state = state
+
+  def Set_href(self, href):
+    self.__href = href
+
+  state = property(fset=Set_state)
+  href = property(fset=Set_href)
+
+  def elements(self):
+    el = Object.elements(self)
+    if self.__state:
+      el.append(('state',self.__state))
+    if self.__href:
+      el.append(('href',self.__href))
+    return el
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    return ComplexElement('ItemIcon', al, None, el, None)
+
+
 class ListStyle(Object):
 
   """<ListStyle>...</ListStyle>"""
@@ -1556,6 +1588,7 @@ class ListStyle(Object):
     Object.__init__(self)
     self.__bgColor = None
     self.__listitemtype = None
+    self.__ItemIcon = None
 
   def Set_bgColor(self, bgColor):
     self.__bgColor = bgColor
@@ -1563,8 +1596,12 @@ class ListStyle(Object):
   def Set_listItemType(self, listitemtype):
     self.__listitemtype = listitemtype
 
+  def Set_ItemIcon(self, ItemIcon):
+    self.__ItemIcon = ItemIcon
+
   bgColor = property(fset=Set_bgColor)
   listItemType = property(fset=Set_listItemType)
+  ItemIcon = property(fset=Set_ItemIcon)
 
   def elements(self):
     el = Object.elements(self)
@@ -1577,7 +1614,10 @@ class ListStyle(Object):
   def xml(self):
     al = self.attributes()
     el = self.elements()
-    return ComplexElement('ListStyle', al, None, el, None)
+    children = []
+    if self.__ItemIcon:
+      children.append(self.__ItemIcon)
+    return ComplexElement('ListStyle', al, None, el, "".join(children))
 
 
 class BalloonStyle(Object): 
