@@ -54,23 +54,23 @@ def CreateLOAL():
   # Create a Link to a .dae for Placemark's Model
   lon = -120
   lat = 37
-  daefile = '3d.dae'
+  daefile = 'http://kml-samples.googlecode.com/svn/trunk/kml/Model/ResourceMap/shared-textures/geometry/bldg.dae'
   link = kml.genxml.Link()
   SetBasicLinkFields(link, daefile)
   placemark_model = CreatePlacemarkModel(lon, lat, link)
 
   # Create a Url to a .kml for NetworkLink
-  kmlfile = 'more.kml'
+  kmlfile = 'http://kml-samples.googlecode.com/svn/trunk/kml/feature-anchor/eat-at-google.kml'
   url = kml.genxml.Url()
   SetBasicLinkFields(url, kmlfile)
-  networklink = CreateNetworkLink(link)
+  networklink = CreateNetworkLink(url)
 
   # Create an Icon to a .jpg for GroundOverlay
   n = 37
   s = 36
   e = -110
   w = -120
-  imgfile = 'overlay.jpg'
+  imgfile = 'http://kml-samples.googlecode.com/svn/trunk/kml/Model/ResourceMap/photos/bh-flowers.jpg'
   icon = kml.genxml.Icon()
   icon.href = imgfile
   SetBasicLinkFields(icon, imgfile)
