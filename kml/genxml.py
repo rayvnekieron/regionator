@@ -1605,10 +1605,10 @@ class ListStyle(Object):
 
   def elements(self):
     el = Object.elements(self)
-    if self.__bgColor:
-      el.append(('bgColor',self.__bgColor))
     if self.__listitemtype:
       el.append(('listItemType',self.__listitemtype))
+    if self.__bgColor:
+      el.append(('bgColor',self.__bgColor))
     return el
 
   def xml(self):
