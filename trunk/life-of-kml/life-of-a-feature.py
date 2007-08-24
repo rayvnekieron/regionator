@@ -16,7 +16,7 @@ def CreateStyle(id):
   text.append('<b>$[name]</b>')
   text.append('$[description]')
   text.append('<i>$[id]</i>')
-  balloonstyle.text = '<br/>'.join(text)
+  balloonstyle.text = '<![CDATA[%s]]>' % '<br/>'.join(text)
   balloonstyle.bgColor = 'ff82fff3' # light yellow
 
   itemicon = kml.genxml.ItemIcon()

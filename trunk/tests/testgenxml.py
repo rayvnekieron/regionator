@@ -178,7 +178,7 @@ class ExtendedDataTestCase(unittest.TestCase):
     assert value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
 
 
-class LinkAndIconTestCase(unittest.TestCase):
+class LinkTypeTestCase(unittest.TestCase):
   def runTest(self):
     href = 'http://foo.com/goo.kml'
     vrm = 'onStop'
@@ -190,12 +190,21 @@ class LinkAndIconTestCase(unittest.TestCase):
     icon.href = href
     icon.viewRefreshMode = vrm
 
+    url = kml.genxml.Url()
+    url.href = href
+    url.viewRefreshMode = vrm
+
     link_node = xml.dom.minidom.parseString(link.xml())
     assert href == kml.kmlparse.GetSimpleElementText(link_node, 'href')
     assert vrm == kml.kmlparse.GetSimpleElementText(link_node, 'viewRefreshMode')
+
     icon_node = xml.dom.minidom.parseString(icon.xml())
     assert href == kml.kmlparse.GetSimpleElementText(icon_node, 'href')
     assert vrm == kml.kmlparse.GetSimpleElementText(icon_node, 'viewRefreshMode')
+
+    url_node = xml.dom.minidom.parseString(url.xml())
+    assert href == kml.kmlparse.GetSimpleElementText(url_node, 'href')
+    assert vrm == kml.kmlparse.GetSimpleElementText(url_node, 'viewRefreshMode')
 
 
 class ListStyleTestCase(unittest.TestCase):
@@ -236,7 +245,7 @@ def suite():
   suite.addTest(PhotoOverlayTestCase())
   suite.addTest(DataTestCase())
   suite.addTest(ExtendedDataTestCase())
-  suite.addTest(LinkAndIconTestCase())
+  suite.addTest(LinkTypeTestCase())
   suite.addTest(ListStyleTestCase())
   return suite
 

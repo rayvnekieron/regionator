@@ -442,6 +442,20 @@ class LinkType(BasicLinkType):
     return "".join(children)
 
 
+class Url(LinkType):
+
+  """<Url>...</Url>"""
+
+  def __init__(self):
+    LinkType.__init__(self)
+
+  def xml(self):
+    al = self.attributes()
+    el = self.elements()
+    children = self.children()
+    return ComplexElement('Url', al, None, el, children)
+
+
 class Link(LinkType):
 
   """<Link>...</Link>"""
