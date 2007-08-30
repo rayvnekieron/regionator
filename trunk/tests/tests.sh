@@ -81,3 +81,4 @@
 ./testicons.py
 ./testkmlgetopt.py
 ./testbbox.py
+./testphotooverlay.py
