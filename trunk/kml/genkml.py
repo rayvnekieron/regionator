@@ -794,7 +794,8 @@ def CreateISO8601(gm_seconds):
 def Data(name, displayName, value):
   data = kml.genxml.Data()
   data.name = name
-  data.displayName = displayName
+  if displayName:
+    data.displayName = displayName
   data.value = value
   return data.xml()
 
