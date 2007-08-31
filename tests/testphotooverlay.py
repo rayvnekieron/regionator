@@ -41,22 +41,6 @@ class HrefTestCase(unittest.TestCase):
     got_href = kml.photooverlay.ExpandImagePyramidHref(href, 0, 1, 2)
     assert want_href == got_href
 
-class ValidWidHtTestCase(unittest.TestCase):
-  def runTest(self):
-    assert True == kml.photooverlay.ValidWidHt(2)
-    assert True == kml.photooverlay.ValidWidHt(4)
-    assert True == kml.photooverlay.ValidWidHt(8)
-    assert True == kml.photooverlay.ValidWidHt(16)
-    assert True == kml.photooverlay.ValidWidHt(1024)
-    assert True == kml.photooverlay.ValidWidHt(65536)
-    assert True == kml.photooverlay.ValidWidHt(32768)
-    assert True == kml.photooverlay.ValidWidHt(16384)
-    assert False == kml.photooverlay.ValidWidHt(-1)
-    assert False == kml.photooverlay.ValidWidHt(0)
-    assert False == kml.photooverlay.ValidWidHt(1234)
-    assert False == kml.photooverlay.ValidWidHt(32769)
-    assert False == kml.photooverlay.ValidWidHt(32767)
-
 class CheckPhotoOverlayTestCase(unittest.TestCase):
   def runTest(self):
     doc = xml.dom.minidom.parse('space-needle.kml')
@@ -76,6 +60,8 @@ class LevelRowColTestCase(unittest.TestCase):
     assert (8, 127, 255) == kml.photooverlay.MaxLevelRowCol(256, 65536, 32768)
     assert (7, 127, 63) == kml.photooverlay.MaxLevelRowCol(256, 16384, 32768)
     assert (0, 0, 0) == kml.photooverlay.MaxLevelRowCol(512, 512, 512)
+    assert (1, 0, 1) == kml.photooverlay.MaxLevelRowCol(256, 257, 256)
+    assert (8, 66, 179) == kml.photooverlay.MaxLevelRowCol(256, 45857, 17107)
 
 class CheckPhotoOverlayTestCase(unittest.TestCase):
   def runTest(self):
@@ -87,7 +73,6 @@ class CheckPhotoOverlayTestCase(unittest.TestCase):
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(HrefTestCase())
-  suite.addTest(ValidWidHtTestCase())
   suite.addTest(LevelRowColTestCase())
   suite.addTest(CheckPhotoOverlayTestCase())
   return suite
