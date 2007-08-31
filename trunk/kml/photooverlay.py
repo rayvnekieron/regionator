@@ -151,9 +151,15 @@ def CheckPhotos(url, verbose):
   kp = kml.kmlparse.KMLParse(url)
   if not kp.Doc():
     return
+  photo_count = 0
+  error_count = 0
   for po_node in kp.Doc().getElementsByTagName('PhotoOverlay'):
+    photo_count += 1
     name = kml.kmlparse.GetSimpleElementText(po_node, 'name')
     if verbose:
       print 'checking',name
-    CheckPhotoOverlay(url, po_node, verbose)
+    status = CheckPhotoOverlay(url, po_node, verbose)
+    if not status:
+      error_count += 1
+  print 'Checked %d photos, found %d errors', photo_count, error_count
 
