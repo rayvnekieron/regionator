@@ -71,10 +71,23 @@ class CheckPhotoOverlayTestCase(unittest.TestCase):
     bad_po = kml.kmlparse.GetFirstChildElement(doc, 'PhotoOverlay')
     assert False == kml.photooverlay.CheckPhotoOverlayNode(bad_po)
 
+class LevelRowColTestCase(unittest.TestCase):
+  def runTest(self):
+    assert (8, 127, 255) == kml.photooverlay.MaxLevelRowCol(256, 65536, 32768)
+    assert (7, 127, 63) == kml.photooverlay.MaxLevelRowCol(256, 16384, 32768)
+    assert (0, 0, 0) == kml.photooverlay.MaxLevelRowCol(512, 512, 512)
+
+class CheckPhotoOverlayTestCase(unittest.TestCase):
+  def runTest(self):
+    doc = xml.dom.minidom.parse('space-needle.kml')
+    po_node = kml.kmlparse.GetFirstChildElement(doc, 'PhotoOverlay')
+    kml.photooverlay.CheckPhotoOverlay(po_node)
+
 def suite():
   suite = unittest.TestSuite()
   suite.addTest(HrefTestCase())
   suite.addTest(ValidWidHtTestCase())
+  suite.addTest(LevelRowColTestCase())
   suite.addTest(CheckPhotoOverlayTestCase())
   return suite
 
