@@ -79,9 +79,10 @@ class LevelRowColTestCase(unittest.TestCase):
 
 class CheckPhotoOverlayTestCase(unittest.TestCase):
   def runTest(self):
+    url = 'space-needle.kml'
     doc = xml.dom.minidom.parse('space-needle.kml')
     po_node = kml.kmlparse.GetFirstChildElement(doc, 'PhotoOverlay')
-    kml.photooverlay.CheckPhotoOverlay(po_node)
+    kml.photooverlay.CheckPhotoOverlay(url, po_node, False)
 
 def suite():
   suite = unittest.TestSuite()
