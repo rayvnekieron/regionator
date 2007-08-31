@@ -2268,7 +2268,7 @@ class Data(Object):
   def __init__(self):
     Object.__init__(self)
     self.__name = None
-    self.__display_name = None
+    self.__displayName = None
     self.__value = None
 
   def Set_name(self, name):

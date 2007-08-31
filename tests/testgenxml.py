@@ -177,6 +177,13 @@ class ExtendedDataTestCase(unittest.TestCase):
     assert display_name == kml.kmlparse.GetSimpleElementText(data_node, 'displayName')
     assert value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
 
+    # no displayName
+    name = 'population'
+    value = 1234567
+    data_kml = kml.genkml.Data(name, None, value)
+    data_node = xml.dom.minidom.parseString(data_kml)
+    assert value == int(kml.kmlparse.GetSimpleElementText(data_node, 'value'))
+
 
 class LinkTypeTestCase(unittest.TestCase):
   def runTest(self):
