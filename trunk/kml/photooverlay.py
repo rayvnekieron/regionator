@@ -133,7 +133,7 @@ def GetPhotoOverlayHrefs(href, tile_size, max_wid, max_ht):
   href_list.append(ExpandImagePyramidHref(href, 0, 0, 0))
   return href_list
 
-def CheckPhotoOverlay(po_node):
+def CheckPhotoOverlay(parent_href, po_node, verbose):
   if po_node.nodeType != po_node.ELEMENT_NODE:
     return False
   if po_node.tagName != 'PhotoOverlay':
@@ -146,10 +146,24 @@ def CheckPhotoOverlay(po_node):
   href_list = GetPhotoOverlayHrefs(href, tile_size, max_wid, max_ht)
   error_count = 0
   for href in href_list:
+    href = kml.href.ComputeChildUrl(parent_href, href)
     fetcher = kml.href.Fetcher(href)
     data = fetcher.FetchData()
+    if verbose:
+      print href, len(data)
     if not data:
       print 'Failed to fetch',href
       error_count += 1
   return error_count == 0
 
+def CheckPhotos(url, verbose):
+  kp = kml.kmlparse.KMLParse(url)
+  if not kp.Doc():
+    return
+  for po_node in kp.Doc().getElementsByTagName('PhotoOverlay'):
+    name = kml.kmlparse.GetSimpleElementText(po_node, 'name')
+    if verbose:
+      print 'checking',name
+    CheckPhotoOverlay(url, po_node, verbose)
+
+  
