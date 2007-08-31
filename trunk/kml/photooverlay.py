@@ -20,6 +20,7 @@ $Revision$
 $Date$
 """
 
+import math
 import kml.href
 import kml.kmlparse
 
@@ -57,7 +58,7 @@ def ValidWidHt(a):
 def ParsePhotoOverlay(po_node):
   icon_node = None
   vvol_node = None
-  impyr_node = None
+  pyr_node = None
   point_node = None
   for child in po_node.childNodes:
     if child.nodeType != child.ELEMENT_NODE:
@@ -67,27 +68,88 @@ def ParsePhotoOverlay(po_node):
     elif child.tagName == 'ViewVolume':
       vvol_node = child
     elif child.tagName == 'ImagePyramid':
-      impyr_node = child
+      pyr_node = child
     elif child.tagName == 'Point':
       point_node = child
-  return (icon_node, vvol_node, impyr_node, point_node)
+  return (icon_node, vvol_node, pyr_node, point_node)
 
-def CheckPhotoOverlayNode(po_node):
+def ParseImagePyramid(pyr_node):
+  tile_size = kml.kmlparse.GetSimpleElementText(pyr_node, 'tileSize')
+  if not tile_size:
+    tile_size = 256
+  max_width = kml.kmlparse.GetSimpleElementText(pyr_node, 'maxWidth')
+  max_height = kml.kmlparse.GetSimpleElementText(pyr_node, 'maxHeight')
+  grid_origin = kml.kmlparse.GetSimpleElementText(pyr_node, 'gridOrigin')
+  return (int(tile_size), int(max_width), int(max_height), grid_origin)
+
+def CheckPhotoOverlayElements(icon_node, vvol_node, pyr_node, point_node):
+  """
   if po_node.nodeType != po_node.ELEMENT_NODE:
     return False
   if po_node.tagName != 'PhotoOverlay':
     return False
-  (icon_node, vvol_node, impyr_node, point_node) = ParsePhotoOverlay(po_node)
+  (icon_node, vvol_node, pyr_node, point_node) = ParsePhotoOverlay(po_node)
+  """
   # A realistic PhotoOverlay must have these 4 children
-  if not icon_node or not vvol_node or not impyr_node or not point_node:
+  if not icon_node or not vvol_node or not pyr_node or not point_node:
     return False
   # The Icon must have an href
   href = kml.kmlparse.GetSimpleElementText(icon_node, 'href')
   if not ValidHref(href):
     return False
-  max_width = kml.kmlparse.GetSimpleElementText(impyr_node, 'maxWidth')
-  max_height = kml.kmlparse.GetSimpleElementText(impyr_node, 'maxHeight')
+  (tile_size, max_width, max_height, grid_origin) = ParseImagePyramid(pyr_node)
   if not ValidWidHt(int(max_width)) or not ValidWidHt(int(max_height)):
     return False
   return True
+
+def MaxLevelRowCol(tile_size, max_wid, max_ht):
+  """
+  w == h == 256 -> (0, 0, 0)
+  w == h == 512 -> (1, 1, 1)
+  w == h == 1024 -> (2, 2, 2)
+  Args:
+    max_wid, max_ht: valid (^2) values for these PhotoOverlay elements
+    tile_size: w/h of a tile in pixels (must be ^2)
+  Returns:
+    (max_levell, max_row, max_col): maximum for each
+  """
+  width_in_tiles = max_wid/tile_size
+  height_in_tiles = max_ht/tile_size
+  lh = math.log(width_in_tiles, 2)
+  lw = math.log(height_in_tiles, 2)
+  level = int(max(lh, lw))
+  return (level, height_in_tiles-1, width_in_tiles-1)
+
+def GetPhotoOverlayHrefs(href, tile_size, max_wid, max_ht):
+  (max_level, max_row, max_col) = MaxLevelRowCol(tile_size, max_wid, max_ht)
+  href_list = []
+  # Find the deepest corners
+  if max_level > 0:
+    href_list.append(ExpandImagePyramidHref(href, max_level, max_col, max_row))
+    href_list.append(ExpandImagePyramidHref(href, max_level, 0, max_row))
+    href_list.append(ExpandImagePyramidHref(href, max_level, max_col, 0))
+    href_list.append(ExpandImagePyramidHref(href, max_level, 0, 0))
+  # There's always this tile
+  href_list.append(ExpandImagePyramidHref(href, 0, 0, 0))
+  return href_list
+
+def CheckPhotoOverlay(po_node):
+  if po_node.nodeType != po_node.ELEMENT_NODE:
+    return False
+  if po_node.tagName != 'PhotoOverlay':
+    return False
+  (icon_node, vvol_node, pyr_node, point_node) = ParsePhotoOverlay(po_node)
+  if not CheckPhotoOverlayElements(icon_node, vvol_node, pyr_node, point_node):
+    return False
+  (tile_size, max_wid, max_ht, grid_origin) = ParseImagePyramid(pyr_node)
+  href = kml.kmlparse.GetSimpleElementText(icon_node, 'href')
+  href_list = GetPhotoOverlayHrefs(href, tile_size, max_wid, max_ht)
+  error_count = 0
+  for href in href_list:
+    fetcher = kml.href.Fetcher(href)
+    data = fetcher.FetchData()
+    if not data:
+      print 'Failed to fetch',href
+      error_count += 1
+  return error_count == 0
 
