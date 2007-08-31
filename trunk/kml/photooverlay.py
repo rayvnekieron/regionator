@@ -139,10 +139,12 @@ def CheckPhotoOverlay(parent_href, po_node, verbose):
     fetcher = kml.href.Fetcher(href)
     data = fetcher.FetchData()
     if verbose:
-      print href, len(data)
+      print href,
       if not data:
-        print 'Failed to fetch',href
+        print 'FAILED'
         error_count += 1
+      else:
+        print len(data)
   return error_count == 0
 
 def CheckPhotos(url, verbose):
