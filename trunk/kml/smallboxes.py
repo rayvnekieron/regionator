@@ -80,10 +80,9 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
     for (n,s,e,w) in self.__boxes:
       ht = n - s 
       # print num, ht
-      if ht > max_height or ht < min_height:
-        continue
-      doc.Add_Feature(kml.genkml.Box(n,s,e,w,repr(num)))
-      num += 1
+      if ht < max_height and ht > min_height:
+        doc.Add_Feature(kml.genkml.Box(n,s,e,w,repr(num)))
+        num += 1
     k = kml.genxml.Kml()
     k.Feature = doc.xml()
     kml.kmz.WriteAsKmz(k.xml(), output)
