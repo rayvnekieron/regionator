@@ -89,17 +89,13 @@ class TileNodeHandler(kml.walk.KMLNodeHandler):
       print abs_url
       self.__tilemap[tile_key] = abs_url
    
-      n = float(llab.north)
-      s = float(llab.south)
-      e = float(llab.east)
-      w = float(llab.west)
-      ht = n - s
+      ht = float(llab.north) - float(llab.south)
       print self.__count, ht
       if ht < self.__shortest:
         self.__shortest = ht
       if ht > self.__tallest:
         self.__tallest = ht
-      self.__boxes.append((n,s,e,w))
+      self.__boxes.append((llab.north,llab.south,llab.east,llab.west))
       self.__count += 1
 
   def WriteFile(self, level, name, output):
@@ -116,11 +112,11 @@ class TileNodeHandler(kml.walk.KMLNodeHandler):
     html.append('<html>')
     html.append('<body>')
     for (n,s,e,w) in self.__boxes:
-      ht = n - s 
+      ht = float(n) - float(s)
       # print num, ht
       if ht < max_height and ht > min_height:
-        tile_key = TileKey(repr(n), repr(s), repr(e), repr(w))
-        (lon,lat) = kml.coordbox.MidPoint(n,s,e,w)
+        tile_key = TileKey(n,s,e,w)
+        (lon,lat) = kml.coordbox.MidPoint(float(n),float(s),float(e),float(w))
         html.append(CreateHtmlAnchor(lon,lat,self.__tilemap[tile_key]))
         print lon,lat,self.__tilemap[tile_key]
         num += 1
