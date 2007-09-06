@@ -46,6 +46,7 @@ script_list = [
   'scripts/checkcsvlinks.py',
   'scripts/checkimages.py',
   'scripts/mkregionboxes.py',
+  'scripts/mksmallboxes.py',
   'scripts/getkml.py',
   'scripts/kmlgoforimage.py',
   'scripts/csvregionator.py'
