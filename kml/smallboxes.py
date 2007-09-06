@@ -24,14 +24,19 @@ import kml.regionator
 import kml.genxml
 import kml.genkml
 import kml.kmlparse
+import kml.kmz
 import kml.walk
+import math
 import os
 
 class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
 
   def __init__(self):
     self.__kml_doc = kml.genxml.Document()
-    self.__smallest = 180
+    self.__shortest = 180
+    self.__tallest = 0
+    
+    self.__boxmap = {}
     self.__boxes = []
     self.__count = 0
 
@@ -39,36 +44,50 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
     region_nodelist = node.getElementsByTagName('Region')
     for region in region_nodelist:
       (llab, lod) = kml.kmlparse.ParseRegion(region)
+
+      # Skip bad regions
       if not (llab.north and llab.south and llab.east and llab.west):
         continue
+
+      # Avoid dups
+      boxid = '%s+%s+%s+%s' % (llab.north,llab.south,llab.east,llab.west)
+      if self.__boxmap.has_key(boxid):
+        continue
+      self.__boxmap[boxid] = 1
+   
       n = float(llab.north)
       s = float(llab.south)
       e = float(llab.east)
       w = float(llab.west)
       ht = n - s
       print self.__count, ht
-      if ht < self.__smallest:
-        self.__smallest = ht
+      if ht < self.__shortest:
+        self.__shortest = ht
+      if ht > self.__tallest:
+        self.__tallest = ht
       self.__boxes.append((n,s,e,w))
       self.__count += 1
 
-  def WriteFile(self, outputkml):
-    self.__smallest *= 1.5
+  def WriteFile(self, level, output):
+    max_height = self.__shortest * ((level+1) ** 2 ) * 1.5
+    min_height = self.__shortest * ((level) ** 2) * .8
+    print 'Found %d regions' % len(self.__boxes)
+    print 'Shortest %f, tallest %f' % (self.__shortest, self.__tallest)
+    depth = math.log(self.__tallest/self.__shortest, 2)
+    print 'Depth (guess) %d' % depth
     num = 0
     doc = kml.genxml.Document()
     for (n,s,e,w) in self.__boxes:
       ht = n - s 
-      print num, ht
-      if ht > self.__smallest:
+      # print num, ht
+      if ht > max_height or ht < min_height:
         continue
-      doc.Add_Feature(kml.genkml.Box(n,s,e,w,num))
+      doc.Add_Feature(kml.genkml.Box(n,s,e,w,repr(num)))
       num += 1
     k = kml.genxml.Kml()
     k.Feature = doc.xml()
-    f = open(outputkml, 'w')
-    f.write(k.xml().encode('utf-8'))
-    f.close()
-
+    kml.kmz.WriteAsKmz(k.xml(), output)
+    print 'Wrote %d boxes at level %d to %s' % (num, level, output)
 
   def WriteFiles(self, outputdir):
     print 'total boxes',len(self.__boxes)
@@ -76,7 +95,7 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
     for (n,s,e,w) in self.__boxes:
       ht = n - s 
       print count, ht
-      if ht > self.__smallest:
+      if ht > self.__shortest:
         continue
       WriteKmlBoxFile(n, s, e, w, count, outputdir)
       count += 1
@@ -91,19 +110,18 @@ def WriteKmlBoxFile(n,s,e,w,num,dir):
   f.close()
 
 
-def MakeSmallBoxes(inputkml, output):
+def MakeSmallBoxes(inputkml, level, output):
 
   """Make a KML file of a LineString box for each region in the input hierarchy
 
   Args:
     inputkml: KML/KMZ file with Regions and/or NetworkLinks
-    outputkml: KML file of one Region LineString for each region in the input
+    output: KMZ file of one Region LineString for each region in the input
   """
 
-  # os.makedirs(outputdir)
   small_box_node_handler = SmallBoxNodeHandler()
   hierarchy = kml.walk.KMLHierarchy()
   hierarchy.SetNodeHandler(small_box_node_handler)
   hierarchy.Walk(inputkml, None, None)
-  small_box_node_handler.WriteFile(output)
+  small_box_node_handler.WriteFile(level, output)
 
