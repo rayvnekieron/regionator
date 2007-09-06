@@ -72,6 +72,7 @@ class RegionBoxNodeHandler(kml.walk.KMLNodeHandler):
 
   def __init__(self):
     self.__kml_doc = kml.genxml.Document()
+    self.__count = 0
 
   def HandleNode(self, href, node, llab, lod):
     region_nodelist = node.getElementsByTagName('Region')
@@ -83,7 +84,7 @@ class RegionBoxNodeHandler(kml.walk.KMLNodeHandler):
         lod.minLodPixels = 0
       if not lod.maxLodPixels:
         lod.maxLodPixels = -1
-      region_box = kml.genkml.RegionBox('x',
+      region_box = kml.genkml.RegionBox(repr(self.__count),
                                         float(llab.north),
                                         float(llab.south),
                                         float(llab.east),
@@ -91,6 +92,7 @@ class RegionBoxNodeHandler(kml.walk.KMLNodeHandler):
                                         float(lod.minLodPixels),
                                         float(lod.maxLodPixels))
       self.__kml_doc.Add_Feature(region_box)
+      self.__count += 1
 
   def WriteFile(self, kmlfile):
     k = kml.genxml.Kml()
