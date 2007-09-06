@@ -53,6 +53,7 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
       self.__count += 1
 
   def WriteFile(self, outputkml):
+    self.__smallest *= 1.5
     num = 0
     doc = kml.genxml.Document()
     for (n,s,e,w) in self.__boxes:
