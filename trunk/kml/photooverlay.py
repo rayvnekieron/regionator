@@ -161,5 +161,5 @@ def CheckPhotos(url, verbose):
     status = CheckPhotoOverlay(url, po_node, verbose)
     if not status:
       error_count += 1
-  print 'Checked %d photos, found %d errors', photo_count, error_count
+  print 'Checked %d photos, %d errors' % (photo_count, error_count)
 
