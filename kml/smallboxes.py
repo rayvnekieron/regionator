@@ -68,9 +68,11 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
       self.__boxes.append((n,s,e,w))
       self.__count += 1
 
-  def WriteFile(self, level, output):
-    max_height = self.__shortest * ((level+1) ** 2 ) * 1.5
-    min_height = self.__shortest * ((level) ** 2) * .8
+  def WriteFile(self, level, name, output):
+    height = self.__shortest * ((level+1) ** 2)
+    # Make it a range...
+    max_height = height * 1.5
+    min_height = height * .8
     print 'Found %d regions' % len(self.__boxes)
     print 'Shortest %f, tallest %f' % (self.__shortest, self.__tallest)
     depth = math.log(self.__tallest/self.__shortest, 2)
@@ -81,7 +83,7 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
       ht = n - s 
       # print num, ht
       if ht < max_height and ht > min_height:
-        doc.Add_Feature(kml.genkml.Box(n,s,e,w,repr(num)))
+        doc.Add_Feature(kml.genkml.Box(n,s,e,w,'%s %d' % (name,num)))
         num += 1
     k = kml.genxml.Kml()
     k.Feature = doc.xml()
@@ -109,12 +111,14 @@ def WriteKmlBoxFile(n,s,e,w,num,dir):
   f.close()
 
 
-def MakeSmallBoxes(inputkml, level, output):
+def MakeSmallBoxes(inputkml, level, name, output):
 
   """Make a KML file of a LineString box for each region in the input hierarchy
 
   Args:
     inputkml: KML/KMZ file with Regions and/or NetworkLinks
+    level: make boxes at this level of hierarchy (0 is finest grain)
+    name: each box is named $name + number
     output: KMZ file of one Region LineString for each region in the input
   """
 
@@ -122,5 +126,5 @@ def MakeSmallBoxes(inputkml, level, output):
   hierarchy = kml.walk.KMLHierarchy()
   hierarchy.SetNodeHandler(small_box_node_handler)
   hierarchy.Walk(inputkml, None, None)
-  small_box_node_handler.WriteFile(level, output)
+  small_box_node_handler.WriteFile(level, name, output)
 
