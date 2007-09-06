@@ -23,7 +23,6 @@ $Date: 2007-04-30 19:43:02 -0700 (Mon, 30 Apr 2007) $
 import math
 import os
 import kml.coordbox
-import kml.feature
 import kml.genkml
 import kml.genxml
 import kml.kmlparse
