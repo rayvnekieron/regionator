@@ -25,6 +25,7 @@ import kml.genxml
 import kml.genkml
 import kml.kmlparse
 import kml.walk
+import os
 
 class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
 
@@ -65,7 +66,7 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
 def WriteKmlBoxFile(n,s,e,w,num,dir):
   k = kml.genxml.Kml()
   k.Feature = kml.genkml.Box(n,s,e,w,num)
-  kmlfile = os.path.join(dir,num,'.kml')
+  kmlfile = os.path.join(dir, '%d.kml' % num)
   print kmlfile
   f = open(kmlfile, 'w')
   f.write(k.xml().encode('utf-8'))
@@ -81,10 +82,10 @@ def MakeSmallBoxes(inputkml, outputdir):
     outputkml: KML file of one Region LineString for each region in the input
   """
 
+  os.makedirs(outputdir)
   small_box_node_handler = SmallBoxNodeHandler()
   hierarchy = kml.walk.KMLHierarchy()
   hierarchy.SetNodeHandler(small_box_node_handler)
   hierarchy.Walk(inputkml, None, None)
-  os.makedirs(outputdir)
   small_box_node_handler.WriteFiles(outputdir)
 
