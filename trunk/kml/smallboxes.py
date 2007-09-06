@@ -52,6 +52,19 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
       self.__boxes.append((n,s,e,w))
       self.__count += 1
 
+  def WriteFile(self, outputkml):
+    num = 0
+    doc = kml.genxml.Document()
+    for (n,s,e,w) in self.__boxes:
+      doc.Add_Feature(kml.genkml.Box(n,s,e,w,num))
+      num += 1
+    k = kml.genxml.Kml()
+    k.Feature = doc.xml()
+    f = open(outputkml, 'w')
+    f.write(k.xml().encode('utf-8'))
+    f.close()
+
+
   def WriteFiles(self, outputdir):
     print 'total boxes',len(self.__boxes)
     count = 0
@@ -73,7 +86,7 @@ def WriteKmlBoxFile(n,s,e,w,num,dir):
   f.close()
 
 
-def MakeSmallBoxes(inputkml, outputdir):
+def MakeSmallBoxes(inputkml, output):
 
   """Make a KML file of a LineString box for each region in the input hierarchy
 
@@ -82,10 +95,10 @@ def MakeSmallBoxes(inputkml, outputdir):
     outputkml: KML file of one Region LineString for each region in the input
   """
 
-  os.makedirs(outputdir)
+  # os.makedirs(outputdir)
   small_box_node_handler = SmallBoxNodeHandler()
   hierarchy = kml.walk.KMLHierarchy()
   hierarchy.SetNodeHandler(small_box_node_handler)
   hierarchy.Walk(inputkml, None, None)
-  small_box_node_handler.WriteFiles(outputdir)
+  small_box_node_handler.WriteFile(output)
 
