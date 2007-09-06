@@ -28,7 +28,7 @@ KML 2.2 is BETA and subject to change.
       </IconStyle>
     </Style>
     <Icon>
-      <href>http://mw1.google.com/mw-earth-vectordb/kml-samples/gp/seattle/gigapxl/$[level]/r$[y]_c$[x].jpg</href>
+      <href>http://oobiedesk:8081/mw-earth-vectordb/kml-samples/gp/seattle/gigapxl/$[level]/r$[y]_c$[x].jpg</href>
     </Icon>
     <ViewVolume>
       <leftFov>-48.8176</leftFov>
@@ -38,6 +38,10 @@ KML 2.2 is BETA and subject to change.
       <near>19.9512</near>
     </ViewVolume>
     <ImagePyramid>
+      <!--
+        Default tileSize is 256, hence this maxWidth, maxHeight yields
+        a maximal tile reference of gigapxl/7/r63_c127
+      -->
       <maxWidth>65536</maxWidth>
       <maxHeight>32768</maxHeight>
     </ImagePyramid>
