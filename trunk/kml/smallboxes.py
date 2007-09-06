@@ -56,6 +56,10 @@ class SmallBoxNodeHandler(kml.walk.KMLNodeHandler):
     num = 0
     doc = kml.genxml.Document()
     for (n,s,e,w) in self.__boxes:
+      ht = n - s 
+      print num, ht
+      if ht > self.__smallest:
+        continue
       doc.Add_Feature(kml.genkml.Box(n,s,e,w,num))
       num += 1
     k = kml.genxml.Kml()
