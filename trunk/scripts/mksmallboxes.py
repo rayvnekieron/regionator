@@ -32,11 +32,13 @@ Generate a Region LineString box for each Region in the KML hierarchy
 import sys
 import kml.smallboxes
 
-if len(sys.argv) != 3:
-  print 'usage: %s input.kml dir' % sys.argv[0]
+if len(sys.argv) != 4:
+  print 'usage: %s url.kml level output.kmz' % sys.argv[0]
+  print '     : level 0 is finest grain'
   sys.exit(1)
 
 inputkml = sys.argv[1]
-outputdir = sys.argv[2]
+level = int(sys.argv[2])
+output = sys.argv[3]
 
-kml.smallboxes.MakeSmallBoxes(inputkml, outputdir)
+kml.smallboxes.MakeSmallBoxes(inputkml, level, output)
