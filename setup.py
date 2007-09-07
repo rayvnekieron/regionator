@@ -49,6 +49,7 @@ script_list = [
   'scripts/mksmallboxes.py',
   'scripts/getkml.py',
   'scripts/kmlgoforimage.py',
+  'scripts/findtiles.py',
   'scripts/csvregionator.py'
 ]
 
