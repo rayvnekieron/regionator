@@ -51,7 +51,7 @@ class SuperTileNodeHandler(kml.walk.KMLNodeHandler):
     self.__kml_doc = kml.genxml.Document()
     self.__shortest = 180
     self.__tallest = 0
-    
+
     self.__tilemap = {}
     self.__boxes = []
     self.__count = 0
@@ -65,7 +65,7 @@ class SuperTileNodeHandler(kml.walk.KMLNodeHandler):
       region_node = FindRegion(go_node)
       if not region_node:
         continue
-        
+
       (llab, lod) = kml.kmlparse.ParseRegion(region_node)
 
       # Skip bad regions
@@ -82,7 +82,7 @@ class SuperTileNodeHandler(kml.walk.KMLNodeHandler):
       abs_url = kml.href.ComputeChildUrl(href.Href(), go_href)
       print abs_url
       self.__tilemap[tile_key] = abs_url
-   
+
       ht = float(llab.north) - float(llab.south)
       print self.__count, ht
       if ht < self.__shortest:
@@ -109,12 +109,13 @@ class SuperTileNodeHandler(kml.walk.KMLNodeHandler):
       if ht < max_height and ht > min_height:
         tile_key = TileKey(n,s,e,w)
         # Presumes the URL is a local file!
-        filename = __tilemap[tile_key]
+        filename = self.__tilemap[tile_key]
         # Presumes unique basename!
-        tarname = '%s/%s' % (tardir, os.path.basename(url))
-        print 'Saving %s to %s' % (filename, arcname)
-        # tar.add(filename, arcname=tarname)
+        tarname = '%s/%s' % (tardir, os.path.basename(filename))
+        print 'Saving %s to %s' % (filename, tarname)
+        tar.add(filename, arcname=tarname)
         num += 1
+    print 'Save %d tiles to %s' % (num, output)
     tar.close()
 
 
@@ -124,4 +125,3 @@ def GetSuperTiles(inputkml, level, tardir, output):
   hierarchy.SetNodeHandler(tile_node_handler)
   hierarchy.Walk(inputkml, None, None)
   tile_node_handler.WriteTarFile(level, tardir, output)
-
