@@ -50,6 +50,7 @@ script_list = [
   'scripts/getkml.py',
   'scripts/kmlgoforimage.py',
   'scripts/findtiles.py',
+  'scripts/getsupertiles.py',
   'scripts/csvregionator.py'
 ]
 
