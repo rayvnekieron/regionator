@@ -48,7 +48,7 @@ def FindFeaturesInDoc(doc):
   Args:
     doc: an xml.dom.minidom DOCUMENT_NODE
   Return:
-    feature tree: a hierachy of lists of Feature ELEMENT_NODEs in the doc
+    features: a list of Feature ELEMENT_NODEs in the doc
   """
   # A .kml file has one Feature.  The Feature is either the root element,
   # or the child of the <kml> root element.
@@ -75,6 +75,18 @@ def PrintFeatureToString(name, depth):
   return ''.join(str)
     
 def PrintFeaturesToString(doc, feature_list, depth):
+  """Print the Feature hierarchy to string
+
+  Recurses on each Container Feature in the list.
+
+  Args:
+    doc: xml.dom.minidom DOCUMENT_NODE
+    feature_list: list of xml.dom.minidom ELEMENT_NODE children of doc
+    depth: current hierarchy (indent) depth
+
+  Returns:
+    string: hierarchy of Feature names indented Pythonically by depth
+  """
   lines = []
   for feature in feature_list:
     lines.append(PrintFeatureToString(feature.tagName, depth))
@@ -83,7 +95,12 @@ def PrintFeaturesToString(doc, feature_list, depth):
   return ''.join(lines)
 
 def PrintFeaturesInFile(url):
+  """Print the Feature hierarchy to stdout
+
+  Args:
+    url: KML/KMZ file/url
+  """
   (doc, feature_list) = FindFeaturesInFile(url)
-  print PrintFeaturesToString(doc, feature_list, 0)
+  print PrintFeaturesToString(doc, feature_list, 0),
   
     

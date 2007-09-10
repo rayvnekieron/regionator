@@ -52,7 +52,8 @@ script_list = [
   'scripts/findtiles.py',
   'scripts/getsupertiles.py',
   'scripts/csvregionator.py',
-  'scripts/mkkmz.py'
+  'scripts/mkkmz.py',
+  'scripts/printfeatures.py'
 ]
 
 distutils.core.setup(name='kml',
