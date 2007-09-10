@@ -51,7 +51,8 @@ script_list = [
   'scripts/kmlgoforimage.py',
   'scripts/findtiles.py',
   'scripts/getsupertiles.py',
-  'scripts/csvregionator.py'
+  'scripts/csvregionator.py',
+  'scripts/mkkmz.py'
 ]
 
 distutils.core.setup(name='kml',

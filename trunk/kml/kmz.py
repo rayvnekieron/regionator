@@ -232,3 +232,26 @@ def WriteAsKmz(kmldata, kmzname):
   except:
     return False
   return True
+
+
+def ReadLocalFile(filename):
+  f = open(filename, 'r')
+  data = f.read()
+  f.close()
+  return data
+
+def MakeKmz(inputkml, outputkmz):
+  """Create a KMZ from the given KML
+
+  The KML is named "doc.kml" in the KMZ.
+
+  Args:
+    inputkml: KML file to archive
+    outputkmz: KMZ output (overwrites existing)
+
+  Returns:
+    status: bool
+  """
+  # TODO: Find and archive all locally referenced balloon images, Overlay images,
+  # Model geometry and textures and icons.
+  return WriteAsKmz(ReadLocalFile(inputkml), outputkmz)
