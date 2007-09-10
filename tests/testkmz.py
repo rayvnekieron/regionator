@@ -79,6 +79,27 @@ class ExtractKmlTestCase(unittest.TestCase):
     assert '<kml xmlns="http://earth.google.com/kml/2.1">' == lines[0]
     assert '<name>foo name</name>' == lines[4]
 
+class MakeKmzTestCase(unittest.TestCase):
+  def runTest(self):
+    inputkml = 'foo.kml'
+    outputkmz = tempfile.mktemp(suffix='.kmz')
+
+    # Create the KMZ
+    assert True == kml.kmz.MakeKmz(inputkml, outputkmz)
+
+    # Get the KMZ's doc.kml contents
+    kmz = kml.kmz.Kmz(outputkmz)
+    got_foo_data = kmz.ReadKml()
+
+    # Compare doc.kml content with the original inputkml
+    f = open(inputkml, 'r')
+    want_foo_data = f.read()
+    f.close()
+    assert want_foo_data == got_foo_data
+
+    # Cleanup
+    os.unlink(outputkmz)
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -87,6 +108,7 @@ def suite():
   suite.addTest(SimpleExtractTestCase())
   suite.addTest(WriteKmzTestCase())
   suite.addTest(ExtractKmlTestCase())
+  suite.addTest(MakeKmzTestCase())
   return suite
 
 
