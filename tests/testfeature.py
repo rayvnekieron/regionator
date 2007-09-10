@@ -41,7 +41,8 @@ class PrintFeaturesTestCase(unittest.TestCase):
     doc = xml.dom.minidom.parseString(placemark)
     feature_list = kml.feature.GetFeatureElementsInDoc(doc)
     str = kml.feature.PrintFeaturesToString(doc, feature_list, 0)
-    assert 'Placemark' == str
+    print str
+    assert 'Placemark\n' == str
 
     doc = xml.dom.minidom.parseString(kml_folder)
     feature_list = kml.feature.FindFeaturesInDoc(doc)
