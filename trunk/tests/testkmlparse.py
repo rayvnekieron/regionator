@@ -292,6 +292,23 @@ class ParseAliasTestCase(unittest.TestCase):
     assert '../textures/roofnoCulling.jpg' == alias.targetHref
     assert '../files/roofnoCulling.jpg' == alias.sourceHref
 
+class GetOverlayHrefTestCase(unittest.TestCase):
+  def runTest(self):
+    href = 'image.jpg'
+
+    go = '<GroundOverlay><Icon><href>%s</href></Icon></GroundOverlay>' % href
+    overlay_node = xml.dom.minidom.parseString(go)
+    assert href == kml.kmlparse.GetOverlayHref(overlay_node)
+
+    so = '<ScreenOverlay><Icon><href>%s</href></Icon></ScreenOverlay>' % href
+    overlay_node = xml.dom.minidom.parseString(so)
+    assert href == kml.kmlparse.GetOverlayHref(overlay_node)
+
+    po = '<PhotoOverlay><Icon><href>%s</href></Icon></PhotoOverlay>' % href
+    overlay_node = xml.dom.minidom.parseString(po)
+    assert href == kml.kmlparse.GetOverlayHref(overlay_node)
+
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -319,6 +336,7 @@ def suite():
   suite.addTest(ParsePointLocTestCase())
   suite.addTest(StyleUrlTestCase())
   suite.addTest(ParseAliasTestCase())
+  suite.addTest(GetOverlayHrefTestCase())
   return suite
 
 

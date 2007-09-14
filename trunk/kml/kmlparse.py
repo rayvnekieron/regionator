@@ -806,3 +806,11 @@ def GetRootFeatureNode(node):
     if feature_name:
       return child
   return None
+
+
+def GetOverlayHref(overlay_node):
+  icon_node = kml.kmlparse.GetFirstChildElement(overlay_node, 'Icon')
+  if not icon_node:
+    return None
+  return kml.kmlparse.GetSimpleElementText(icon_node, 'href')
+ 
