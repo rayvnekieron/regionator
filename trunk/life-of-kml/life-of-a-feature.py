@@ -136,10 +136,10 @@ def CreateLOAF():
   photooverlay = kml.genxml.PhotoOverlay()
   lon = -100.7
   lat = 31.7
-  # view = kml.genkml.LookAt(lon, lat, 4193430, 15.44, 4.72)
+  view = kml.genkml.LookAt(lon, lat, 4193430, 15.44, 4.72)
   nvp = CreateLonLat(lon, lat)
   desc = '$[name] is south of the Artic and north of the Carribean'
-  SetFeatureFields('po0', photooverlay, 'North America', desc, None, styurl, nvp)
+  SetFeatureFields('po0', photooverlay, 'North America', desc, view, styurl, nvp)
 
   d = kml.genxml.Document()
   d.name = 'Life of a Feature'
