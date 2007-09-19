@@ -235,6 +235,28 @@ class PolygonFeatureSetTestCase(unittest.TestCase):
   def testParse(self):
     assert 13 == self.featureset.Size()
 
+class AddFeatureListTestCase(unittest.TestCase):
+  def runTest(self):
+    fs_pm = kml.featureset.FeatureSet()
+    kp = kml.kmlparse.KMLParse('points.kml')
+    fs_pm.AddFeatureList(kp.Doc().getElementsByTagName('Placemark'))
+    print fs_pm.Size()
+    assert 5 == fs_pm.Size()
+    (n,s,e,w) = fs_pm.NSEW()
+    assert 6 == n
+    assert 2 == s
+    assert 1 == e
+    assert 1 == w
+
+    fs_po = kml.featureset.FeatureSet()
+    fs_po.AddFeatureList(kp.Doc().getElementsByTagName('PhotoOverlay'))
+    assert 6 == fs_po.Size()
+    (n,s,e,w) = fs_po.NSEW()
+    assert n == 1
+    assert s == 1
+    assert e == 6
+    assert w == 1
+
 
 def suite():
   suite = unittest.TestSuite()
@@ -254,6 +276,7 @@ def suite():
   suite.addTest(FeatureSetRegionatorTestCase("testKmlHierarchy"))
   suite.addTest(BasicRegionateTestCase("testRegionate"))
   suite.addTest(PolygonFeatureSetTestCase("testParse"))
+  suite.addTest(AddFeatureListTestCase())
   return suite
 
 runner = unittest.TextTestRunner()

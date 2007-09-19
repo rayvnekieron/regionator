@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Both Placemark and PhotoOverlay can have a Point
+
+-->
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Folder>
+    <PhotoOverlay>
+      <Point>
+        <coordinates>1,1</coordinates>
+      </Point>
+    </PhotoOverlay>
+    <PhotoOverlay>
+      <Point>
+        <coordinates>2,1</coordinates>
+      </Point>
+    </PhotoOverlay>
+    <PhotoOverlay>
+      <Point>
+        <coordinates>3,1</coordinates>
+      </Point>
+    </PhotoOverlay>
+    <PhotoOverlay>
+      <Point>
+        <coordinates>4,1</coordinates>
+      </Point>
+    </PhotoOverlay>
+    <PhotoOverlay>
+      <Point>
+        <coordinates>5,1</coordinates>
+      </Point>
+    </PhotoOverlay>
+    <PhotoOverlay>
+      <Point>
+        <coordinates>6,1</coordinates>
+      </Point>
+    </PhotoOverlay>
+    <Placemark>
+      <Point>
+        <coordinates>1,2</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>1,3</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>1,4</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>1,5</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>1,6</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</kml>
+
