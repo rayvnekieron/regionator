@@ -109,30 +109,30 @@ class FeatureSet(object):
     """
     self.AddWeightedFeatureAtLocation(0, lon, lat, feature)
 
-  def AddPoint(self, placemark_dom_node):
-    """ Add the Placemark/Point to the FeatureSet
+  def AddPoint(self, feature_dom_node):
+    """ Add the Feature/Point to the FeatureSet
 
     Args:
-      placemark_dom_node: minidom node for a Placemark with a Point
-    Returns:
-      True: Placemark and Point valid and added
-      False: invalid Point Placemark not added
+      feature_dom_node: minidom node for a Feature with a Point
 
+    Returns:
+      True: Feature and Point valid and added
+      False: invalid Point Feature not added
     """
-    loc = kml.kmlparse.ParsePointLoc(placemark_dom_node)
+    loc = kml.kmlparse.ParsePointLoc(feature_dom_node)
     if loc:
-      self.AddFeatureAtLocation(loc[0], loc[1], placemark_dom_node)
+      self.AddFeatureAtLocation(loc[0], loc[1], feature_dom_node)
       return True
     return False
 
-  def _AddCoordinatesFeature(self, geometry_dom_node, placemark_dom_node):
+  def _AddCoordinatesFeature(self, geometry_dom_node, feature_dom_node):
     coords = kml.kmlparse.GetSimpleElementText(geometry_dom_node, 'coordinates')
     if coords:
       c = kml.coordbox.CoordBox()
       c.AddCoordinates(coords)
       (lon,lat) = c.MidPoint()
       size = c.Size()
-      self.AddWeightedFeatureAtLocation(size, lon, lat, placemark_dom_node)
+      self.AddWeightedFeatureAtLocation(size, lon, lat, feature_dom_node)
       return True
     return False
 
@@ -217,8 +217,8 @@ class FeatureSet(object):
   def AddFeature(self, feature_dom_node):
     """ Add the xml minidom representation of the Feature.
 
-    Feature must be a Placemark with either Point, LineString, LinearRing,
-    Polygon or Model Geometry.
+    Feature must either be a Placemark with either Point, LineString,
+    LinearRing, Polygon or Model Geometry or be a PhotoOverlay/Point.
 
     This is how each Geometry is added:
 
@@ -254,6 +254,21 @@ class FeatureSet(object):
        self.AddLocation(feature_dom_node):
       return True
     return False
+
+  def AddFeatureList(self, feature_dom_node_list):
+    """Add a list of features.  Convenience front-end to AddFeature()
+
+    Args:
+      feature_dom_node_list: list xml.dom.minidom Features
+
+    Returns:
+      count: number of features added
+    """
+    number_added = 0
+    for feature_dom_node in feature_dom_node_list:
+      if self.AddFeature(feature_dom_node):
+        number_added += 1
+    return number_added
 
   def CopyByRegion(self, region):
     """Creates a new FeatureSet for features within the region
@@ -450,10 +465,11 @@ def CreateMultiGeometryFeatureSet(multigeometry_dom_node):
 
 def CreateFromNode(dom_node):
   fs = FeatureSet()
-  placemark_node_list = dom_node.getElementsByTagName('Placemark')
-  if placemark_node_list:
-    for placemark_dom_node in placemark_node_list:
-      fs.AddFeature(placemark_dom_node)
+  # This knows that FeatureSet only really knows about Geometry (Placemark).
+  # PhotoOverlay can also have a Point.
+  count = fs.AddFeatureList(dom_node.getElementsByTagName('Placemark'))
+  count += fs.AddFeatureList(dom_node.getElementsByTagName('PhotoOverlay'))
+  if count:
     return fs
   return None
 
