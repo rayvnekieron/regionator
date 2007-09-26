@@ -127,12 +127,12 @@
         <visibility>0</visibility>
         <open>1</open>
         <LookAt>
-          <longitude>6.587739151119</longitude>
-          <latitude>46.45108738631336</latitude>
+          <longitude>6.886612835146426</longitude>
+          <latitude>46.39780658672994</latitude>
           <altitude>0</altitude>
-          <range>12382.26115419133</range>
-          <tilt>62.99609307779828</tilt>
-          <heading>176.4652464162222</heading>
+          <range>12380.12066682217</range>
+          <tilt>67.44738510206574</tilt>
+          <heading>176.6822845322892</heading>
         </LookAt>
         <Point>
           <coordinates>6.587739151119,46.45108738631336,0</coordinates>
@@ -143,12 +143,12 @@
         <visibility>0</visibility>
         <open>1</open>
         <LookAt>
-          <longitude>6.792961482857574</longitude>
-          <latitude>46.38947303822172</latitude>
+          <longitude>6.998037678576502</longitude>
+          <latitude>46.23076602236335</latitude>
           <altitude>0</altitude>
-          <range>9638.64106088977</range>
-          <tilt>62.99835890280432</tilt>
-          <heading>-124.0340248353148</heading>
+          <range>3390.192555062922</range>
+          <tilt>72.99356737930374</tilt>
+          <heading>159.2839090446572</heading>
         </LookAt>
         <Point>
           <coordinates>6.792961482857575,46.38947303822172,0</coordinates>
