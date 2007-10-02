@@ -35,31 +35,33 @@ kml_doc = '<kml><Document><Placemark/></Document></kml>'
 kml_fpp = '<Folder><Placemark/><Placemark/></Folder>'
 kml_dng = '<Document><NetworkLink/><GroundOverlay/></Document>'
 ffp = '<Folder><Folder><Placemark/></Folder></Folder>'
+fpps = '<Folder><Placemark/><Placemark/><ScreenOverlay/></Folder>'
 
 class PrintFeaturesTestCase(unittest.TestCase):
   def runTest(self):
-    doc = xml.dom.minidom.parseString(placemark)
-    feature_list = kml.feature.GetFeatureElementsInDoc(doc)
-    str = kml.feature.PrintFeaturesToString(doc, feature_list, 0)
-    print str
-    assert 'Placemark\n' == str
+    str = kml.feature.PrintFeaturesInString(kml_placemark)
+    assert 'Placemark' == str
 
-    doc = xml.dom.minidom.parseString(kml_folder)
-    feature_list = kml.feature.FindFeaturesInDoc(doc)
-    assert 1 == len(feature_list)
-    str = kml.feature.PrintFeaturesToString(doc, feature_list, 0)
+    str = kml.feature.PrintFeaturesInString(kml_folder)
     lines = str.split('\n')
+    assert 2 == len(lines)
     assert 'Folder' == lines[0]
     assert ' Placemark' == lines[1]
 
-    doc = xml.dom.minidom.parseString(ffp)
-    feature_list = kml.feature.FindFeaturesInDoc(doc)
-    assert 1 == len(feature_list)
-    str = kml.feature.PrintFeaturesToString(doc, feature_list, 0)
+    str = kml.feature.PrintFeaturesInString(ffp)
     lines = str.split('\n')
+    assert 3 == len(lines)
     assert 'Folder' == lines[0]
     assert ' Folder' == lines[1]
     assert '  Placemark' == lines[2]
+
+    str = kml.feature.PrintFeaturesInString(fpps)
+    lines = str.split('\n')
+    assert 4 == len(lines)
+    assert 'Folder' == lines[0]
+    assert ' Placemark' == lines[1]
+    assert ' Placemark' == lines[2]
+    assert ' ScreenOverlay' == lines[3]
 
 class GetFeaturesTestCase(unittest.TestCase):
   def runTest(self):
