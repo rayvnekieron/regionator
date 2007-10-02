@@ -26,8 +26,8 @@ import sys
 import os
 import kml.feature
 
-if len(sys.argv) != 2:
-  print 'usage: %s url.kml' % os.path.basename(sys.argv[0])
+if len(sys.argv) < 2:
+  print 'usage: %s url.kml ...' % os.path.basename(sys.argv[0])
   sys.exit(1)
 
-sys.exit(kml.feature.PrintFeaturesInFile(sys.argv[1], True))
+sys.exit(kml.feature.PrintFeaturesInFiles(sys.argv[1:]))

@@ -111,7 +111,7 @@ class FeatureHierarchy:
     return self._Walk(doc, feature_list)
 
   def _Walk(self, doc, feature_list):
-    if len(feature_list) > 1:
+    if len(feature_list) != 1:
       # Invalid KML file
       return False
     self.__doc = doc
@@ -127,27 +127,6 @@ class FeatureHierarchy:
       feature_node_list = GetChildFeatures(feature_node)
       for feature_node in feature_node_list:
         self._VisitFeatureNode(feature_node, depth+1)
-
-
-class FeaturePrinter(FeatureNodeHandler):
-  def __init__(self, print_name, print_id):
-    self.__print_name = print_name
-    self.__print_id = print_id
-    self.__output_lines = []
-
-  def GetOutput(self):
-    return '\n'.join(self.__output_lines)
-
-  def HandleFeatureNode(self, kml_url, depth, feature_node):
-    this_line = []
-    this_line.append(Indent(feature_node.tagName, depth))
-    # XXX id
-    if self.__print_name:
-      name = kml.kmlparse.GetSimpleElementText(feature_node, 'name')
-      if name:
-        this_line.append('[%s]' % name)
-    self.__output_lines.append(' '.join(this_line))
-
 
 class FeatureCounter(FeatureNodeHandler):
   def __init__(self):
@@ -166,6 +145,49 @@ class FeatureCounter(FeatureNodeHandler):
   def HandleFeatureNode(self, kml_url, depth, feature_node):
     self._IncrementCount(feature_node.tagName)
 
+class FeatureCountMap:
+  def __init__(self):
+    self.__feature_count_map = {}
+
+  def AddFeature(self, feature_name, feature_count):
+    if self.__feature_count_map.has_key(feature_name):
+      self.__feature_count_map[feature_name] += feature_count
+    else:
+      self.__feature_count_map[feature_name] = feature_count
+
+  def AddMap(self, feature_count_map):
+    for feature_name in feature_count_map.keys():
+      self.AddFeature(feature_name, feature_count_map[feature_name])
+
+  def PrintCountToString(self):
+    lines = []
+    for feature_name in self.__feature_count_map.keys():
+      lines.append('%s %d' % (feature_name,self.__feature_count_map[feature_name]))
+    return '\n'.join(lines)
+
+class FeaturePrinter(FeatureCounter):
+  def __init__(self, print_name, print_id):
+    FeatureCounter.__init__(self)
+    self.__print_name = print_name
+    self.__print_id = print_id
+    self.__output_lines = []
+
+  def GetOutput(self):
+    return '\n'.join(self.__output_lines)
+
+  def HandleFeatureNode(self, kml_url, depth, feature_node):
+    FeatureCounter.HandleFeatureNode(self, kml_url, depth, feature_node)
+    this_line = []
+    this_line.append(Indent(feature_node.tagName, depth))
+    # XXX id
+    if self.__print_name:
+      name = kml.kmlparse.GetSimpleElementText(feature_node, 'name')
+      if name:
+        this_line.append('[%s]' % name)
+    self.__output_lines.append(' '.join(this_line))
+
+
+
 def CountFeatures(kml_url):
   print kml_url
   feature_counter = FeatureCounter()
@@ -183,16 +205,19 @@ def PrintFeaturesInString(kml):
   feature_hierarchy.WalkString(kml)
   return feature_printer.GetOutput()
 
-def PrintFeaturesInFile(url, verbose):
+def PrintFeaturesInFiles(url_list):
   """Print the Feature hierarchy to stdout
 
   Args:
     url: KML/KMZ file/url
   """
-  feature_printer = FeaturePrinter(True, True)
-  feature_hierarchy = FeatureHierarchy()
-  feature_hierarchy.SetNodeHandler(feature_printer)
-  feature_hierarchy.WalkFile(url)
-  if verbose:
-    print feature_printer.GetOutput()
+  feature_count_map = FeatureCountMap()
+  for url in url_list:
+    feature_printer = FeaturePrinter(True, True)
+    feature_hierarchy = FeatureHierarchy()
+    feature_hierarchy.SetNodeHandler(feature_printer)
+    feature_hierarchy.WalkFile(url)
+    print feature_printer.GetOutput().encode('utf-8')
+    feature_count_map.AddMap(feature_printer.GetFeatureCountMap())
+  print feature_count_map.PrintCountToString()
 
