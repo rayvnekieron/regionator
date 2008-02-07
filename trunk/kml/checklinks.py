@@ -65,6 +65,7 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     self.__error_count = 0
 
     self.__start_time = time.time()
+    self.__url_table = {}
 
   def Status(self):
     return self.__error_count
@@ -173,8 +174,16 @@ class LinkCheckingNodeHandler(kml.walk.KMLNodeHandler):
     # Print only if asked to count this type of link.
     self._Print('C  ',prchild)
 
-    # Compute the absolute URL and try to fetch it.
+    # Compute the absolute URL and try to fetch it only
+    # if it is not in the dictionary
     url = kml.href.ComputeChildUrl(parent, child)
+    # check if the URL has already been visited
+    if self.__url_table.has_key(url):
+      self.__url_table[url] += 1
+      return
+
+    self.__url_table[url] = 1
+
     self._Print('U  ',url)
 
     url = CheckImagePyramidHref(url)
