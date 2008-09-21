@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # coding=UTF-8
 #  See http://www.python.org/dev/peps/pep-0263/
 """
