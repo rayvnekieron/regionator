@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Build a RbNL of stations icons with visual details of connections
 # revealed when a station icon is highlighted.

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Check all Icon/href targets in a KML file/hierarchy.
 

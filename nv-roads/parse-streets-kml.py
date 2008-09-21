@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # XXX better comments coming real soon now...
 
 import os
