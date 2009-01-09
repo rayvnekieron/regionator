@@ -20,8 +20,9 @@ $Revision$
 $Date$
 """
 
-import kml.svnversion
+#import kml.svnversion
 
 def Revision():
-  return kml.svnversion.svnversion
+  return 0
+#  return kml.svnversion.svnversion
 

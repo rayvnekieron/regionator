@@ -362,18 +362,20 @@ class FeatureSet(object):
 
 class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
 
-  def __init__(self, feature_set, min_lod_pixels, maxper):
+  def __init__(self, feature_set, min_lod_pixels, maxper, max_lod_pixels=-1):
 
     """
     Args:
       feature_set: kml.featureset.FeatureSet of KML Features
       min_lod_pixels: minLodPixels
       maxper: maximum Features per region
+      max_lod_pixels: maxLodPixels
     """
 
     self._node_feature_set = {} # "protected"
     self._node_feature_set['0'] = feature_set
     self.__min_lod_pixels = min_lod_pixels
+    self.__max_lod_pixels = max_lod_pixels
     self.__maxper = maxper
 
 
@@ -413,7 +415,7 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
     return [True,False]
 
   def PixelLod(self, region):
-    return (self.__min_lod_pixels,-1)
+    return (self.__min_lod_pixels,self.__max_lod_pixels)
 
   def Data(self, region):
 
