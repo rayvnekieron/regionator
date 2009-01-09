@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2006 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+$URL$
+$Revision$
+$Date$
+
+-->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<GroundOverlay>
+
+  <Icon>
+    <href>NASA_KSC.jpg</href>
+  </Icon>
+
+  <altitude>100000</altitude>
+  <altitudeMode>absolute</altitudeMode>
+
+  <LatLonBox>
+    <north>28.61950682000437</north>
+    <south>28.3816904168634</south>
+    <east>-80.50658750810825</east>
+    <west>-80.77730563832129</west>
+  </LatLonBox>
+
+</GroundOverlay>
+</kml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Placemark>
+	<name>coittower</name>
+	<description><![CDATA[Created with <a href="http://sketchup.google.com">Google SketchUp</a>]]></description>
+	<LookAt>
+		<longitude>-122.4058522108219</longitude>
+		<latitude>37.80239428593683</latitude>
+		<altitude>0</altitude>
+		<range>192.0612271625805</range>
+		<tilt>49.82584784628866</tilt>
+		<heading>-57.21728421951708</heading>
+	</LookAt>
+	<Style id="default">
+	</Style>
+	<Model>
+		<altitudeMode>absolute</altitudeMode>
+		<Location>
+			<longitude>-122.405843291645</longitude>
+			<latitude>37.802415973264</latitude>
+			<altitude>51.550851800942</altitude>
+		</Location>
+		<Orientation>
+			<heading>10.10</heading>
+			<tilt>20.20</tilt>
+			<roll>30.30</roll>
+		</Orientation>
+		<Scale>
+			<x>.5</x>
+			<y>.6</y>
+			<z>.7</z>
+		</Scale>
+		<Link>
+			<href>models/coittower.dae</href>
+		</Link>
+	</Model>
+	
+    <DocumentSource>SketchUp</DocumentSource>
+</Placemark>
+</kml>

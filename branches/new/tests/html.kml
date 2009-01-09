@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.0'>
+<Document>
+	<Style id="MyStyleId">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>./../sketchup_building_golden1.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+
+	<Placemark>
+		<styleUrl>#MyStyleId</styleUrl>
+
+		<Snippet maxLines="2"/>
+		<description>
+			<![CDATA[
+				<table>
+					<tr>
+						<td>
+							<a href="http://sketchup.google.com/3dwarehouse?hl=en">
+								<img src="./../3dwh-logo_en.gif" />
+							 </a>
+						</td>
+						<td align=right valign=middle>
+					        <font size =6><b>Charminar</b></font>
+					    </td>
+					</tr>
+					<tr>
+						<td>
+							<b>Modeled by: </b>
+							<a href="http://sketchup.google.com/3dwarehouse/search?uq=00986856740277826572&hl=en">fani</a>
+						</td>
+						<td align="right">
+							<a href="">  </a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<b>Description: </b> Charminar, one of the landmarks of Hyderabad. Built by Muhammed Quli Qutb Shah in 1591, inside it contains the oldest mosque in Hyderabad, as well as a small shrine to Lakshmi outside.
+						</td>
+					</tr>
+					<tr>
+						 <td align="center" colspan="2">
+							<a href="http://sketchup.google.com/3dwarehouse/details?mid=1952f8d3e8d27fe065a153e1a3d3359c&hl=en">          
+								<img src="../../placemarks/99/1952f8d3e8d27fe065a153e1a3d3359c.jpg">
+							</a>
+						 </td>
+					</tr>
+					<tr>
+						<td>
+						<a href="http://sketchup.google.com/support/bin/request.py?contact_type=reportmodel&hl=en&mid=1952f8d3e8d27fe065a153e1a3d3359c">Report a policy violation</a>
+						</td>
+						<td align=right>
+							<a href="http://sketchup.google.com/support/bin/answer.py?answer=57057&hl=en">
+								Model your world
+							</a>
+						</td>
+					</tr>
+				</table>
+			]]>
+		</description>
+		
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>78.4746227830907, 17.3615463255845, 46.6381723640675</coordinates>
+		</Point>
+		
+	</Placemark>
+</Document>
+</kml>

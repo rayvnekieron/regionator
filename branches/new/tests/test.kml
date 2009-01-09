@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2006 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+$URL$
+$Revision$
+$Date$
+
+-->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Folder id="keep">
+<name>Regionator tests $Revision$</name>
+
+<Snippet maxLines="10">
+This is a set of NetworkLinks to Regionator test cases.
+It may make sense to enable/disable each test separately.
+Note, this folder is listItemType=checkOffOnly.
+</Snippet>
+     
+<Style>
+<ListStyle><listItemType>checkOffOnly</listItemType></ListStyle>
+</Style>
+     
+<NetworkLink>
+<name>usboxes</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is a 4 level hierarchy of LineStrings over the USA.
+The visibility range is 3 levels (minLodPixels=256, maxLodPixels=2048).
+The LineStrings fade on both ends of the visibility range.
+</Snippet>
+<Link>
+<href>usboxes/1.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>ancestors</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This a nested hierarchy of transparent Polygons.
+(There are no Regions here).
+</Snippet>
+<Link>
+<href>ancestors.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>Placemarks</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is a 5 level Region NetworkLink hierarchy of Placemarks.
+Visibility accumulates down the hierarchy -- once visible
+a Placemark remains so as range decreases (as projected
+Region size increases).
+Enable the following two tests along with this one for
+two ways to visualize the active Regions.
+</Snippet>
+<Link>
+<href>pm2root.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>Placemark boxes</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is a set of LineStrings arranged in the same
+Region NetworkLink hierarchy as the preceeding test.
+</Snippet>
+<Link>
+<href>pm2/qidboxes.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>Placemark dashboard</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is a set of ScreenOverlays drawn relative to
+geographic location and hierachy depth using
+the same Regions as the preceeding two tests.
+The overlay color ranges from blue to red
+as hierarchy depth increases.
+</Snippet>
+
+<Link>
+<href>pm2/db.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>LineStrings</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is a Region hierarchy of LineStrings arranged by &quot;size&quot;.
+The Lods are set to accumulate down the hierarchy.
+LineStrings fade at the minimum end of the Lod range.
+The hierarchy maximum depth is 9 levels.
+Enable the next item for a visualization of the Region hiearchy.
+</Snippet>
+
+<Link>
+<href>ls2root.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>LineString boxes</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is the Region NetworkLink hierarchy for the preceding
+test with a box around each Region.
+</Snippet>
+<Link>
+<href>ls2/qidboxes.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>ScreenOverlay Region Grid</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is another set of ScreenOverlays.
+(Disable this while viewing the other ScreenOverlay tests).
+</Snippet>
+<Link>
+<href>gridso.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>Region Folders</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This is a hierachy of Folders each with a Region inserted
+whose LatLonAltBox sweeps out a bounding box around
+all Placemark Points within the Folder.
+There is a LineString &quot;box&quot; drawn for each Region.
+(The arrangement of Placemarks in the original Folder
+hierarchy is arbitrary).
+</Snippet>
+<Link>
+<href>folder-regions.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>WMS GroundOverlay</name>
+<visibility>0</visibility>
+<Snippet maxLines="10">
+This shows WMS tiles in GroundOverlays.
+Enable the &quot;WMS&quot; folder to show the images
+fetched directly from within a GroundOverlay.
+Enable the &quot;local file &quot; folder to show the images
+as local files pre-loaded from the WMS server.
+Switching between the two folders reveals
+exactly the same images.
+</Snippet>
+<Link>
+<href>terra.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>Basic SuperOverlay</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-0.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay with non-default drawOrder</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-d.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay with TimeSpan</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-t.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay at altitude</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-a.kml</href>
+</Link>
+</NetworkLink>
+
+<NetworkLink>
+<name>SuperOverlay with time, altitude and drawOrder</name>
+<visibility>0</visibility>
+<Link>
+<href>llb-3.kml</href>
+</Link>
+</NetworkLink>
+
+</Folder>
+</kml>

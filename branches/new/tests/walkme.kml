@@ -1,0 +1,12 @@
+<Folder>
+  <NetworkLink>
+    <Link>
+      <href>foo.kml</href>  <!-- this exists -->
+    </Link>
+  </NetworkLink>
+  <NetworkLink>
+    <Link>
+      <href>this-does-not-exist</href> <!-- not so much -->
+    </Link>
+  </NetworkLink>
+</Folder>

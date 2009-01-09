@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <NetworkLink>
+    <Region>
+      <LatLonAltBox>
+        <north>-28.828125</north>
+        <south>-45.125</south>
+        <east>10.15625</east>
+        <west>-20.859375</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>122</minLodPixels>
+        <maxLodPixels>1234</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>non-existent-file.kml</href>
+      <viewRefreshMode>onRegion</viewRefreshMode>
+    </Link>
+  </NetworkLink>
+</kml>

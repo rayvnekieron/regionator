@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2006 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+$URL$
+$Revision$
+$Date$
+
+-->
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+
+  <Placemark>
+    <name>L'Abbaye, Place du village</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.31914, 46.6487,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Winterthur, Deutweg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.74154, 47.4938,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Courrendlin, Magro</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.37009, 47.3428,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Romont FR, école primaire</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.91895, 46.6953,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Avenches, collège</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.03701, 46.8615,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Leukerbad</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.61935, 46.3923,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Inden</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.61789, 46.3437,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Leukerbad, Russengraben</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.61404, 46.3581,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Albinen, Post</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.63476, 46.3401,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Rumeling</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.62176, 46.3347,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Leuk, Bahnhof</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.64403, 46.3118,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Leuk, Stadt</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.63339, 46.3194,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Zürich Seebach</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.54463, 47.4188,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Unterbäch VS</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.80199, 46.2884,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Les Combes</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.17183, 46.4775,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Granges (Veveyse)</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.84245, 46.5286,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Collège</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.90641, 46.4419,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Vuarennes</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.90316, 46.4419,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Châtelard VD</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.90058, 46.4524,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Planchamp</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.902, 46.4541,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Sonzier</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.92121, 46.439,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Sendy-Sollard</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.92907, 46.4466,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Jor</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.96512, 46.4547,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Les Cases</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.99771, 46.4559,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Moutier, Suisse Est</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.37123, 47.2803,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Moutier, Neusté</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.36991, 47.2812,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Moutier, Suisse Ouest</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.36991, 47.2794,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Prayoud</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.90147, 46.5497,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Delémont, rue des Sources</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.33937, 47.354,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Burg im Leimental, Dorfplatz</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.44262, 47.4575,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Büttenhardt, Dorf</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.65326, 47.7572,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Moutier, Petite-Fin</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.36264, 47.278,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Moutier, Chantemerle</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.36, 47.2776,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Zignau, spv.</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.00705, 46.7438,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Häggenschwil-Winden, Bahnhof</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.35872, 47.5039,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Rolle</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.3364, 46.4627,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Nyon</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.23596, 46.3844,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Gland</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.26913, 46.42,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>St-Prex</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.4559, 46.4823,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Morges</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.49396, 46.5111,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Flüh, Schulhaus</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.49867, 47.4854,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Allaman</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.3997, 46.4757,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Aesch BL, Schwimmbad</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.60314, 47.479,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Lömmenschwil, Schöntal</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.35301, 47.4927,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Cauco, Ponte</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.11868, 46.3359,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Passugg, Schluocht</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.5558, 46.8267,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Moutier, Mercier</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.38497, 47.2821,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Augio, Tarco</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.12617, 46.368,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Arvigo, Al Canton</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.1144, 46.3022,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Passugg, Brugg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.54569, 46.8293,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Arvigo, Antiglio</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.11675, 46.2943,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Arvigo, Filovia</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.11459, 46.3085,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Araschgen, Kronenhof</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.5445, 46.8312,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Buochs, Fadenbrücke</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.40453, 46.9713,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Gempenach, Dorf</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.19698, 46.94,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Malters, Schürmatt</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.16775, 47.0277,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Vorderaraschgen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.54211, 46.8371,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Alpnach Dorf, untere Feldstr.</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.26405, 46.9378,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Toffen, Bahnhof</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.49576, 46.8592,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Menzingen, Stalden</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.59568, 47.1816,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Agriswil</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.19364, 46.9531,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Ulmiz FR, Ausserdorf</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.19832, 46.9337,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Ulmiz FR, Abzw. Lurtigen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.18912, 46.9373,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Faoug débarcadère</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.07603, 46.9114,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Ausserpraden, Krone</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.57312, 46.8255,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Liebistorf, Post</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.19189, 46.9049,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Passugg, Abzw. Grida</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.55449, 46.8267,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Liebistorf, in der Rebe</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.19313, 46.9202,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Gurmels, Dürrenberg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.18143, 46.8959,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Liebistorf, obere Mühle</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.18928, 46.9022,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Rietli</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.47729, 47.3615,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Schachen (Gais)</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.47726, 47.3615,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Kreuzstrasse</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.5056, 47.3657,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Stoss AR</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.49517, 47.3608,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Sammelplatz</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.43255, 47.3485,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Hirschberg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.42283, 47.3313,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Hebrig</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.46471, 47.3622,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Zweibrücken</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.44452, 47.3602,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Fruthwilen, Oberfruthwilen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.06438, 47.6579,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Alter Zoll</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.52208, 47.3686,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Warmesberg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.51356, 47.3654,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Seelisberg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.58693, 46.9788,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Treib TSB</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.58568, 46.9871,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Burglauenen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.97533, 46.6359,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Lütschental</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.94899, 46.6371,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Grindelwald</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.03331, 46.6244,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Schwendi bei Grindelwald</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.00307, 46.6305,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Breitlauenen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.89558, 46.6598,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Schynige Platte</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.9113, 46.6523,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Lauterbrunnen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.90809, 46.5984,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Wilderswil</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.86947, 46.6657,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Zweilütschinen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.8997, 46.6327,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Wald ZH, Riet</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.91263, 47.3097,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Teufenthal AG</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.11447, 47.3294,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Männedorf, Asylstrasse</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.70197, 47.2496,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Gränichen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.09878, 47.3617,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Männedorf, Dammstrasse</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.69176, 47.2548,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Mägenwil, Post</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.23595, 47.412,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Bülach, Güterbahnhof</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.53758, 47.5238,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Bülach, Berglistrasse</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.54574, 47.5241,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Mägenwil, Eckwil</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.24092, 47.412,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Chandolin-près-Savièse, Sommet</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.33022, 46.2488,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Vitznau, Station</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.48282, 47.0102,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Wädenswil, Herrlisberg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.65995, 47.2199,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Wädenswil, Gisenrüti</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.64784, 47.2123,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Wangen SZ, Löwenfeld</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.88227, 47.1919,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Wädenswil, Winterberg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.64606, 47.2369,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Nuolen, Kollegium</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.88919, 47.2037,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Schönenberg ZH, Mühlestalden</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.655, 47.1997,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Horgen, Hanegg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.6122, 47.2312,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Langnau a.A.,Schwerzi-Wildpark</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.53313, 47.2878,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Alpthal, Post</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.71574, 47.0708,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Riedt b. Neerach</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.47351, 47.5008,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Ottoberg, Weinberg</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.08834, 47.5829,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Brunnenthal, Dorf</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.46761, 47.0869,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Färnigen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.52787, 46.7349,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Jegenstorf, Rotonda</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.51049, 47.0582,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Märstetten Dorf, Post</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.06533, 47.5913,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Hefenhausen</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.06379, 47.6168,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Oberrickenbach, Talstat. LFCH</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.42034, 46.8839,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Langis</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.1259, 46.893,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Weinfelden, Friedheim</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.13362, 47.5643,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Wäldi, Post</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>9.09461, 47.6346,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Rotkreuz, Weidstrasse</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.43222, 47.1361,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Leimbach AG</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.16786, 47.2727,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Poliez-Pittet, Les Adelins</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>6.69249, 46.6108,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Waldhäusern BE, Kurhaus</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.71051, 46.9419,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Hasliberg Wasserwendi, Twing</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>8.19533, 46.7446,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Liestal, Bahnhof</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.73167, 47.4843,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Liestal, Wasserturmpl. Engel</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.73583, 47.4827,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Liestal, Schulhaus</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.73714, 47.4805,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Liestal, Eglisacker</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.73313, 47.4753,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Därligen ThS</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.80617, 46.6644,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Interlaken West ThS</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.85073, 46.6822,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Faulensee ThS</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.70358, 46.676,20</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Hofstatt, Post</name>
+    <Style><LineStyle><width>2</width></LineStyle></Style>
+    <Point>
+      <extrude>1</extrude>
+      <tessellate>0</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>7.91534, 47.0832,20</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
