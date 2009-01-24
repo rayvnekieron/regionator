@@ -190,7 +190,7 @@ class FeatureSet(object):
 
     The Model must have a <Location> child element which in turn must
     have <latitude> and <longitude> child elements.
-    
+
     Args:
       placemark_dom_node: minidom node for a Placemark with a Model
     Returns:
@@ -238,7 +238,7 @@ class FeatureSet(object):
     If feature_dom_node does not have one of the above child elements
     or if the appropriate element describing the lon,lat is not
     found the feature is not added and False is returned.
-    
+
     Args:
       feature_dom_node: minidom node of a KML Feature
     Returns:
@@ -369,7 +369,7 @@ class FeatureSetRegionHandler(kml.regionhandler.RegionHandler):
       feature_set: kml.featureset.FeatureSet of KML Features
       min_lod_pixels: minLodPixels
       maxper: maximum Features per region
-      max_lod_pixels: maxLodPixels
+      max_lod_pixels: maxLodPixels, -1 by default
     """
 
     self._node_feature_set = {} # "protected"

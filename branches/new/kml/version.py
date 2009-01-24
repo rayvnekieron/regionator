@@ -24,5 +24,6 @@ $Date$
 
 def Revision():
   return 0
+# TODO: why was it returning kml.svnversion.svnversion? Some kind of convention?
 #  return kml.svnversion.svnversion
 
