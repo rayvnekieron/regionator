@@ -40,9 +40,9 @@ def CDATA(cdata):
 
 
 def CreatePlacemark(
-    id, lon, lat, name, description, styleUrl=None, callback=None):
+    id, lon, lat, name, description, styleUrl=None):
   """Create Point Placemark
-  
+
   The name and description will be wrapped in CDATA sections.
 
   Args:
@@ -51,9 +51,8 @@ def CreatePlacemark(
     name: for <Placemark>'s <name>
     description: for <Placemark>'s <description>
     styleUrl: for <Placemark>'s <styleUrl>
-    callback: a function for post-processing a Placemark object.
   Returns:
-    kml: '<Placemark>...</Placemark>'
+    A Placemark object
   """
   placemark = kml.genxml.Placemark()
   placemark.name = CDATA(name)
@@ -66,9 +65,7 @@ def CreatePlacemark(
   placemark.Geometry = point.xml()
   if styleUrl:
     placemark.styleUrl = styleUrl
-  if callback:
-    callback(placemark)
-  return placemark.xml()
+  return placemark
 
 
 def ParseCsvLine(csv_line, codec):
@@ -132,9 +129,10 @@ def CreateFeatureSet(csvfile, global_styleUrl, codec, callback):
     if not styleUrl and global_styleUrl:
       styleUrl = global_styleUrl
     id = 'pm%d' % count
-    placemark_kml = CreatePlacemark(
-        id, lon, lat, name, description, styleUrl, callback)
-    feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark_kml)
+    placemark = CreatePlacemark(id, lon, lat, name, description, styleUrl)
+    if callback:
+      callback(placemark)
+    feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark.xml())
     count += 1
   feature_set.Sort()  # Sort based on score.
   return feature_set
@@ -164,9 +162,10 @@ def CreateFeatureSetFromDict(data_dict, global_styleUrl, codec, callback):
     (score, lon, lat, name, description, styleUrl) = ParseCsvLine(line, codec)
     if not styleUrl and global_styleUrl:
       styleUrl = global_styleUrl
-    placemark_kml = CreatePlacemark(
-        id, lon, lat, name, description, styleUrl, callback)
-    feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark_kml)
+    placemark = CreatePlacemark(id, lon, lat, name, description, styleUrl)
+    if callback:
+      callback(placemark)
+    feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark.xml())
   feature_set.Sort()  # Sort based on score.
   return feature_set
 
