@@ -66,18 +66,18 @@
 
 ./testkmz.py London_house.kmz lhcopy.kmz
 
-./testimage.py 
+#./testimage.py 
 
 # requires internet capability (does WMS fetches)
 ./testwms.py
 
 ./testwalk.py
 ./testchecklinks.py
-./testcheckimages.py
+#./testcheckimages.py
 ./testmkregionboxes.py
 ./testcheckregions.py
 ./testcsvregionator.py
-./testsuperoverlay.py
+#./testsuperoverlay.py
 ./testicons.py
 ./testkmlgetopt.py
 ./testbbox.py

@@ -28,6 +28,7 @@ import tempfile
 import unittest
 import kml.csvregionator
 import kml.checkregions
+import kml.genxml
 
 
 class BasicCsvRegionatorTestCase(unittest.TestCase):
@@ -94,6 +95,86 @@ class StyledCsvRegionatorTestCase(unittest.TestCase):
         os.unlink(os.path.join(odir, file))
       os.rmdir(odir)
 
+class StyledCsvRegionator2TestCase(unittest.TestCase):
+  callback_invoked = False
+
+  def myCallback(self, placemark):
+    if self.callback_invoked:
+      return
+    self.callback_invoked = True
+    assert placemark.__class__ == kml.genxml.Placemark
+
+  def runTest(self):
+    csvfile = 'mixed-styles.csv'
+    codec = 'UTF-8'
+    min_lod_pixels = 256
+    max_lod_pixels = 7344
+    max_per = 8
+    root = None # Don't make a root.kml
+    verbose = False
+    global_styleUrls = [None, '#globalStyle']
+    for i in range(2): # Test creation w/ and w/o cmd line global styleUrls
+      odir = tempfile.mkdtemp()
+      rtor = kml.csvregionator.RegionateCSV(csvfile,
+                                            codec,
+                                            min_lod_pixels,
+                                            max_per,
+                                            root,
+                                            odir,
+                                            verbose,
+                                            global_styleUrls[i],
+                                            max_lod_pixels=max_lod_pixels,
+                                            callback=self.myCallback)
+      assert self.callback_invoked
+      kml1 = os.path.join(odir, '1.kml')
+      assert os.access(kml1, os.R_OK)
+      kml1_data = open(kml1, 'r').read()
+      assert 1 == kml1_data.count(str(max_lod_pixels))
+      assert 1 == kml1_data.count('#tomStyle')
+      assert 1 == kml1_data.count('#harryStyle')
+      if i == 0: # No global style
+        assert 0 == kml1_data.count('#globalStyle')
+      else: # Second placemark should have global styleUrl
+        assert  1 == kml1_data.count('#globalStyle')
+      for file in os.listdir(odir):
+        os.unlink(os.path.join(odir, file))
+      os.rmdir(odir)
+
+class StyledCsvRegionatorFromDictTestCase(unittest.TestCase):
+
+  def runTest(self):
+    csvfile = open('mixed-styles.csv')
+    csvdict = dict(enumerate(csvfile.readlines()))
+    csvfile.close()
+    codec = 'UTF-8'
+    min_lod_pixels = 256
+    max_per = 8
+    root = None # Don't make a root.kml
+    verbose = False
+    global_styleUrls = [None, '#globalStyle']
+    for i in range(2): # Test creation w/ and w/o cmd line global styleUrls
+      odir = tempfile.mkdtemp()
+      rtor = kml.csvregionator.RegionateCSV(csvdict,
+                                            codec,
+                                            min_lod_pixels,
+                                            max_per,
+                                            root,
+                                            odir,
+                                            verbose,
+                                            global_styleUrls[i])
+      kml1 = os.path.join(odir, '1.kml')
+      assert os.access(kml1, os.R_OK)
+      kml1_data = open(kml1, 'r').read()
+      assert 1 == kml1_data.count('#tomStyle')
+      assert 1 == kml1_data.count('#harryStyle')
+      if i == 0: # No global style
+        assert 0 == kml1_data.count('#globalStyle')
+      else: # Second placemark should have global styleUrl
+        assert  1 == kml1_data.count('#globalStyle')
+      for file in os.listdir(odir):
+        os.unlink(os.path.join(odir, file))
+      os.rmdir(odir)
+
 
 class CodecCsvRegionatorTestCase(unittest.TestCase):
   # Codecs aren't being tested anywhere else? Put a test here to make sure it's
@@ -128,7 +209,7 @@ class CodecCsvRegionatorTestCase(unittest.TestCase):
         assert -1 != kmldata.find(utf8_name_str)
       elif codec == 'latin_1':
         assert -1 == kmldata.find(utf8_name_str)
-    
+
       region_handler = kml.checkregions.CheckRegions('', kml1)
       assert 0 == region_handler.Status()
 
@@ -152,6 +233,8 @@ def suite():
   suite = unittest.TestSuite()
   suite.addTest(BasicCsvRegionatorTestCase())
   suite.addTest(StyledCsvRegionatorTestCase())
+  suite.addTest(StyledCsvRegionator2TestCase())
+  suite.addTest(StyledCsvRegionatorFromDictTestCase())
   suite.addTest(CodecCsvRegionatorTestCase())
   suite.addTest(BasicParseCsvLineTestCase())
   return suite
