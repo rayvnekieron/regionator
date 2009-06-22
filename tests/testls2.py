@@ -37,7 +37,8 @@ lskml = sys.argv[1]
 rootkml = sys.argv[2]
 dir = sys.argv[3]
 
-os.makedirs(dir)
+if not os.path.exists(dir):
+  os.makedirs(dir)
 
 def RegionateLineStrings(lskml, rootfile, dir):
 

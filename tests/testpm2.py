@@ -46,7 +46,8 @@ maxpx = -1
 # intentionally low to deepen the hierarchy for testing
 per = 7 # (42/2)/3
 
-os.makedirs(dir)
+if not os.path.exists(dir):
+  os.makedirs(dir)
 
 verbose = False
 
