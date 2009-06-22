@@ -21,6 +21,7 @@ $Date$
 """
 
 import os
+import sys
 import kml.region
 import kml.regionator
 import kml.featureset
@@ -38,9 +39,10 @@ def CDATA(cdata):
   return '<![CDATA[%s]]>' % cdata
 
 
-def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
+def CreatePlacemark(
+    id, lon, lat, name, description, styleUrl=None):
   """Create Point Placemark
-  
+
   The name and description will be wrapped in CDATA sections.
 
   Args:
@@ -50,7 +52,7 @@ def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
     description: for <Placemark>'s <description>
     styleUrl: for <Placemark>'s <styleUrl>
   Returns:
-    kml: '<Placemark>...</Placemark>'
+    A Placemark object
   """
   placemark = kml.genxml.Placemark()
   placemark.name = CDATA(name)
@@ -63,7 +65,7 @@ def CreatePlacemark(id, lon, lat, name, description, styleUrl=None):
   placemark.Geometry = point.xml()
   if styleUrl:
     placemark.styleUrl = styleUrl
-  return placemark.xml()
+  return placemark
 
 
 def ParseCsvLine(csv_line, codec):
@@ -80,15 +82,25 @@ def ParseCsvLine(csv_line, codec):
   score = int(tuple[0])
   lat = float(tuple[1])
   lon = float(tuple[2])
-  name = tuple[3].decode(codec)
-  description = tuple[4].decode(codec)
+  try:
+    name = tuple[3].decode(codec)
+  except UnicodeDecodeError, e:
+    sys.stderr.write(
+        "Could not decode name for line '%s': %s\n" % (csv_line, e))
+    name = ''
+  try:
+    description = tuple[4].decode(codec)
+  except UnicodeDecodeError, e:
+    sys.stderr.write(
+        "Could not decode description for line '%s': %s\n" % (csv_line, e))
+    description = ''
   if len(tuple) == 6:
     styleurl = tuple[5]
   else:
     styleurl = None
   return (score, lon, lat, name, description, styleurl)
 
-def CreateFeatureSet(csvfile, global_styleUrl, codec):
+def CreateFeatureSet(csvfile, global_styleUrl, codec, callback):
   """Create a FeatureSet from the CSV file
 
   Each line of the input cvsfile represents a Point Placemark.
@@ -101,6 +113,7 @@ def CreateFeatureSet(csvfile, global_styleUrl, codec):
     csvfile: lines of score|lat|lon|name|description[|styleUrl]
     global_styleUrl: None or value for <styleUrl>
     codec: encoding of name and description
+    callback: a function for post-processing a Placemark object.
   Returns:
     kml.featureset.FeatureSet: or None of anything fails
   """
@@ -116,15 +129,49 @@ def CreateFeatureSet(csvfile, global_styleUrl, codec):
     if not styleUrl and global_styleUrl:
       styleUrl = global_styleUrl
     id = 'pm%d' % count
-    placemark_kml = CreatePlacemark(id, lon, lat, name, description, styleUrl)
-    feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark_kml)
+    placemark = CreatePlacemark(id, lon, lat, name, description, styleUrl)
+    if callback:
+      callback(placemark)
+    feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark.xml())
     count += 1
   feature_set.Sort()  # Sort based on score.
   return feature_set
 
 
+def CreateFeatureSetFromDict(data_dict, global_styleUrl, codec, callback):
+  """Create a FeatureSet from a dictionary.
+
+  Each value of the dictionary represents a Point Placemark.
+  The key of each entry will be used as the Placemark's id.
+  If global_styleUrl is not None it is used as the styleUrl for
+  any line with no styleUrl of its own.  If global_styleUrl is None
+  there is no styleUrl for the given line then no <styleUrl> is
+  generated for that point.
+
+  Args:
+    dict of ids to lines of score|lat|lon|name|description[|styleUrl]
+    global_styleUrl: None or value for <styleUrl>
+    codec: encoding of name and description
+    callback: a function for post-processing a Placemark object.
+  Returns:
+    kml.featureset.FeatureSet: or None of anything fails
+  """
+
+  feature_set = kml.featureset.FeatureSet()
+  for id, line in data_dict.iteritems():
+    (score, lon, lat, name, description, styleUrl) = ParseCsvLine(line, codec)
+    if not styleUrl and global_styleUrl:
+      styleUrl = global_styleUrl
+    placemark = CreatePlacemark(id, lon, lat, name, description, styleUrl)
+    if callback:
+      callback(placemark)
+    feature_set.AddWeightedFeatureAtLocation(score, lon, lat, placemark.xml())
+  feature_set.Sort()  # Sort based on score.
+  return feature_set
+
+
 def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose,
-                 global_styleUrl):
+                 global_styleUrl, max_lod_pixels=-1, callback=None):
   """Regionate the given CSV file
 
   Args:
@@ -136,6 +183,8 @@ def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose,
     dir: directory write RnBNL to (must exist)
     verbose: if False operate silently, if true print generated files on stdout
     global_styleURL: value for <styleUrl> (see CreateFeatureSet())
+    max_lod_pixels: value for <maxLodPixels>
+    callback: a function for post-processing a Placemark object.
   Returns:
     kml.regionator.Regionator: or None if anything fails
   """
@@ -146,13 +195,18 @@ def RegionateCSV(inputcsv, codec, min_lod_pixels, max_per, root, dir, verbose,
     return None
 
   # Read the CSV data into a FeatureSet created a Placemark for each item
-  feature_set = CreateFeatureSet(inputcsv, global_styleUrl, codec)
+  if isinstance(inputcsv, dict):
+    feature_set = CreateFeatureSetFromDict(
+        inputcsv, global_styleUrl, codec, callback)
+  else:
+    feature_set = CreateFeatureSet(inputcsv, global_styleUrl, codec, callback)
   if not feature_set:
     return None
 
   feature_set_handler = kml.featureset.FeatureSetRegionHandler(feature_set,
                                                                min_lod_pixels,
-                                                               max_per)
+                                                               max_per,
+                                                               max_lod_pixels)
   (n,s,e,w) = feature_set.NSEW()
   rtor = kml.regionator.Regionator()
   rtor.SetRegionHandler(feature_set_handler)

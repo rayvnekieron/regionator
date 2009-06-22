@@ -20,10 +20,11 @@ $Date$
 
 
 testall.sh:
-	An informal set of scripts which touch on various modules.
+  Wrapper script around tests.sh
 
 tests.sh:
-	Non-imaging tests (for installations w/o gdal)
+	An informal set of scripts which touch on various modules.
+	For installations w/o gdal, some tests will be ignored.
 
 testclean.sh:
 	Cleans up after tests.sh.

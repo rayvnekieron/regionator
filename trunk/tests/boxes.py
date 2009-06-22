@@ -26,7 +26,7 @@ $Date$
 
 # Simple test program to draw a box (LineString) for
 # each Region as specifed.
-# Helps visualize the location and depth of Regions and 
+# Helps visualize the location and depth of Regions and
 # the effect of the specified lods.
 
 import sys
@@ -56,7 +56,8 @@ maxfade = 128
 
 qid = '0'
 
-os.makedirs(dir)
+if not os.path.exists(dir):
+  os.makedirs(dir)
 
 
 class BoxRegionHandler(kml.regionhandler.RegionHandler):

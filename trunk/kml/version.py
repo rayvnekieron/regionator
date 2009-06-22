@@ -20,8 +20,10 @@ $Revision$
 $Date$
 """
 
-import kml.svnversion
+#import kml.svnversion
 
 def Revision():
-  return kml.svnversion.svnversion
+  return 0
+# TODO: why was it returning kml.svnversion.svnversion? Some kind of convention?
+#  return kml.svnversion.svnversion
 
